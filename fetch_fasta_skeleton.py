@@ -138,8 +138,9 @@ def fetch_protein_sequences(proteins: Iterable,
             #####################
             # START CODING HERE #
             #####################
+            url: str = f"{UNIPROT_URL}{protein_id}.fasta"
+            fasta = client.get(url).text
 
-            raise ValueError("I need to be removed!")
             # 1. Fetch the fasta-formatted file for each UniProt ID (protein_id).
             # You can use `fasta = client.get(url).text` to retrieve the
             # file from an URL. Make sure to set the `url` variable correctly!
@@ -148,12 +149,14 @@ def fetch_protein_sequences(proteins: Iterable,
 
             # 2. Store the fasta content as individual fasta files in your **queries**
             # directory. (Available through the `query_folder` variable (string))
+            with open(f"{query_folder}{protein_id}", "w") as protein_fasta:
+                protein_fasta.write(fasta)
 
             # 3. Append the fasta content to the 'database' (a single file).
             # You have access to the database file through the `database`
             # variable (file object). Note: the database variable has the file
             # opened in append mode!
-
+            database.write(fasta)
             #####################
             #  END CODING HERE  #
             #####################
