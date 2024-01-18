@@ -21,7 +21,7 @@ python3 run_local_skeleton.py \
 
 from argparse import ArgumentParser
 from datetime import datetime
-from json import loads
+import json
 from subprocess import Popen, PIPE, STDOUT
 from typing import Iterable, Tuple
 from pathlib import Path
@@ -220,12 +220,12 @@ def blast(query: str,
         # START CODING HERE #
         #####################
 
-        raise ValueError("I need to be removed!")
         # Create a command with the appropriate arguments
         # for running PSI-BLAST. Store this command inside
         # `cmd = "..."`
         # Take a good look at `psiblast -help` to
         # check the available options.
+        cmd = f"psiblast -query {queries}{query} -db {database} -outfmt 15 -out {queries}{query}.json"
 
         # Ensure the *output* format is a 'Single-file BLAST JSON'!
         # Hint: listed under `-outfmt`!
@@ -240,12 +240,12 @@ def blast(query: str,
         # START CODING HERE #
         #####################
 
-        raise ValueError("I need to be removed!")
         # Create a command with the appropriate arguments
         # for running BLAST. Store this command inside
         # `cmd = "..."`
         # Take a good look at `blastp -help` to
         # check the available options.
+        cmd = f"blastp -query {queries}{query} -db {database} -outfmt 15 -out {queries}{query}.json"
 
         # Ensure the *output* format is a 'Single-file BLAST JSON'!
         # Hint: listed under `-outfmt`!
@@ -263,11 +263,13 @@ def blast(query: str,
         stderr=STDOUT,
         close_fds=True
     )
+    p.wait()  # wait for the process to finish
 
     # Load the JSON content as a string
     # and parse it as a dictionary.
     try:
-        content = loads(p.stdout.read().decode("utf8"))
+        with open(f"{queries}{query}.json", "r") as f:
+            content = json.load(f)
     except Exception as exc:
         raise ValueError(
             "Looks like your CMD did not run successfully. "
@@ -278,23 +280,28 @@ def blast(query: str,
     # START CODING HERE #
     #####################
 
-    raise ValueError("I need to be removed!")
     # Create a dict such that you will produce:
     # result = {
     #   (query, subject1): float(E-value),
     #   (query, subject2): float(E-value),
     #   ...
     # }
+    result = dict()
     
     # Where subject1 refers to the 'accession' of a hit.
 
     # You can use the `content` variable (dict) to retrieve the items.
     # For psi-blast, you can check:
     # `content['BlastOutput2'][0]['report']['results']['iterations'][-1]['search']['hits']`
-
+    if psi:
+        for i in range(len(content['BlastOutput2'][0]['report']['results']['iterations'])):
+            for j in range(len(content['BlastOutput2'][0]['report']['results']['iterations'][i]['search']['hits'])):
+                result[(query, content['BlastOutput2'][0]['report']['results']['iterations'][i]['search']['hits'][j]['description'][0]['accession'])] = float(content['BlastOutput2'][0]['report']['results']['iterations'][i]['search']['hits'][j]['hsps'][0]['evalue'])
     # For blast, you can check:
     # `content['BlastOutput2'][0]['report']['results']['search']['hits']`
-
+    else:
+        for i in range(len(content['BlastOutput2'][0]['report']['results']['search']['hits'])):
+            result[(query, content['BlastOutput2'][0]['report']['results']['search']['hits'][i]['description'][0]['accession'])] = float(content['BlastOutput2'][0]['report']['results']['search']['hits'][i]['hsps'][0]['evalue'])
 
     #####################
     #  END CODING HERE  #
@@ -329,9 +336,11 @@ def plot_value_distribution(blast_result: tuple,
     # START CODING HERE #
     #####################
 
-    raise ValueError("I need to be removed!")
     # Give the plot appropriate labels. Check `metadata`
     # for more info on the algorithm that was used :)
+    ax.set_xlabel("log10(E-value)")
+    ax.set_ylabel("Frequency")
+    ax.set_title(f"Distribution of log10(E-values) for {metadata[0]}")
 
     # ax.set_xlabel()
     # ax.set_ylabel()
@@ -339,6 +348,7 @@ def plot_value_distribution(blast_result: tuple,
 
     # (Required for Question 3.1)
     # frequency = ...
+    frequency = np.sum(np.log10(array + (np.min(array[np.nonzero(array)]) / 1000)) < -3)
 
     # If frequency is greater than 0, it will
     # automatically be printed to the terminal.
