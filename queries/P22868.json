@@ -1,0 +1,220 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P22868|MMOC_METCA Methane monooxygenase component C OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoC PE=1 SV=2",
+          "query_len": 348,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P22868|MMOC_METCA",
+                  "accession": "P22868",
+                  "title": "Methane monooxygenase component C OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoC PE=1 SV=2"
+                }
+              ],
+              "len": 348,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 715.301,
+                  "score": 1845,
+                  "evalue": 0,
+                  "identity": 348,
+                  "positive": 348,
+                  "query_from": 1,
+                  "query_to": 348,
+                  "hit_from": 1,
+                  "hit_to": 348,
+                  "align_len": 348,
+                  "gaps": 0,
+                  "qseq": "MQRVHTITAVTEDGESLRFECRSDEDVITAALRQNIFLMSSCREGGCATCKALCSEGDYDLKGCSVQALPPEEEEEGLVLLCRTYPKTDLEIELPYTHCRISFGEVGSFEAEVVGLNWVSSNTVQFLLQKRPDECGNRGVKFEPGQFMDLTIPGTDVSRSYSPANLPNPEGRLEFLIRVLPEGRFSDYLRNDARVGQVLSVKGPLGVFGLKERGMAPRYFVAGGTGLAPVVSMVRQMQEWTAPNETRIYFGVNTEPELFYIDELKSLERSMRNLTVKACVWHPSGDWEGEQGSPIDALREDLESSDANPDIYLCGPPGMIDAACELVRSRGIPGEQVFFEKFLPSGAA",
+                  "hseq": "MQRVHTITAVTEDGESLRFECRSDEDVITAALRQNIFLMSSCREGGCATCKALCSEGDYDLKGCSVQALPPEEEEEGLVLLCRTYPKTDLEIELPYTHCRISFGEVGSFEAEVVGLNWVSSNTVQFLLQKRPDECGNRGVKFEPGQFMDLTIPGTDVSRSYSPANLPNPEGRLEFLIRVLPEGRFSDYLRNDARVGQVLSVKGPLGVFGLKERGMAPRYFVAGGTGLAPVVSMVRQMQEWTAPNETRIYFGVNTEPELFYIDELKSLERSMRNLTVKACVWHPSGDWEGEQGSPIDALREDLESSDANPDIYLCGPPGMIDAACELVRSRGIPGEQVFFEKFLPSGAA",
+                  "midline": "MQRVHTITAVTEDGESLRFECRSDEDVITAALRQNIFLMSSCREGGCATCKALCSEGDYDLKGCSVQALPPEEEEEGLVLLCRTYPKTDLEIELPYTHCRISFGEVGSFEAEVVGLNWVSSNTVQFLLQKRPDECGNRGVKFEPGQFMDLTIPGTDVSRSYSPANLPNPEGRLEFLIRVLPEGRFSDYLRNDARVGQVLSVKGPLGVFGLKERGMAPRYFVAGGTGLAPVVSMVRQMQEWTAPNETRIYFGVNTEPELFYIDELKSLERSMRNLTVKACVWHPSGDWEGEQGSPIDALREDLESSDANPDIYLCGPPGMIDAACELVRSRGIPGEQVFFEKFLPSGAA"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P56968|PYRK_LACLM",
+                  "accession": "P56968",
+                  "title": "Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit OS=Lactococcus lactis subsp. cremoris (strain MG1363) OX=416870 GN=pyrK PE=1 SV=1"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 0.0539922,
+                  "identity": 43,
+                  "positive": 74,
+                  "query_from": 144,
+                  "query_to": 325,
+                  "hit_from": 36,
+                  "hit_to": 208,
+                  "align_len": 185,
+                  "gaps": 15,
+                  "qseq": "PGQFMDLTIP--GTDVSRSYSPANLPNPEGRLEFLIRVLPEGRFSDYLRNDARVGQVLSVKGPLGV-FGLKERGMAPRYFVAGGTGLAPVVSMVRQMQEWTAPNETRIYFGVNTEPELFYIDELKSLERSMRNLTVKACVWHPSGDWEGEQGSPIDALREDLESSDANPDIYLCGPPGMIDAACE",
+                  "hseq": "PGQFLHLAVPNGAMLLRRPISISSWDKRAKTCTILYRIGDETT-GTYKLSKLESGAKVDVMGPLGNGFPVAEVTSTDKILIIGGGIGVPPLYELAKQLEKTGCQMT-ILLGFASENVKILENEFSNL----KNVTLKIATDDGSYGTKGHVGMLMNEIDFEVDA------LYTCGAPAMLKAVAK",
+                  "midline": "PGQF+ L +P     + R  S ++          L R+  E     Y  +    G  + V GPLG  F + E     +  + GG    P +  + +  E T    T I  G  +E      +E  +L    +N+T+K      S   +G  G  ++ +  ++++      +Y CG P M+ A  +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|O82827|UPPS_MICLU",
+                  "accession": "O82827",
+                  "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Micrococcus luteus OX=1270 GN=uppS PE=1 SV=1"
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 0.907978,
+                  "identity": 15,
+                  "positive": 24,
+                  "query_from": 141,
+                  "query_to": 189,
+                  "hit_from": 164,
+                  "hit_to": 208,
+                  "align_len": 49,
+                  "gaps": 4,
+                  "qseq": "KFEPGQFMDLTIPGTDVSRSYSPANLPNPEGRLEFLIRVLPEGRFSDYL",
+                  "hseq": "RYKSGEISLDEISETHFNEYLFTANMPDP----ELLIRTSGEERLSNFL",
+                  "midline": "+++ G+     I  T  +     AN+P+P    E LIR   E R S++L"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P39625|SPSE_BACSU",
+                  "accession": "P39625",
+                  "title": "Spore coat polysaccharide biosynthesis protein SpsE OS=Bacillus subtilis (strain 168) OX=224308 GN=spsE PE=1 SV=1"
+                }
+              ],
+              "len": 373,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 2.94356,
+                  "identity": 9,
+                  "positive": 11,
+                  "query_from": 38,
+                  "query_to": 61,
+                  "hit_from": 94,
+                  "hit_to": 117,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "LMSSCREGGCATCKALCSEGDYDL",
+                  "hseq": "LLDYCREKQVIFLSTVCDEGSADL",
+                  "midline": "L+  CRE        +C EG  DL"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P16099|DHTM_METME",
+                  "accession": "P16099",
+                  "title": "Trimethylamine dehydrogenase OS=Methylophilus methylotrophus OX=17 GN=tmd PE=1 SV=3"
+                }
+              ],
+              "len": 730,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 3.56272,
+                  "identity": 20,
+                  "positive": 31,
+                  "query_from": 122,
+                  "query_to": 187,
+                  "hit_from": 577,
+                  "hit_to": 648,
+                  "align_len": 72,
+                  "gaps": 6,
+                  "qseq": "NTVQFLLQKRPDECGNRGV-KFEPGQFMDLTIPGTDVSRSY-----SPANLPNPEGRLEFLIRVLPEGRFSD",
+                  "hseq": "NMMRRLHELHVEELGDHFCSRIEPGRMEIYNIWGDGSKRTYRGPGVSPRDANTSHRWIEFDSLVLVTGRHSE",
+                  "midline": "N ++ L +   +E G+    + EPG+     I G    R+Y     SP +       +EF   VL  GR S+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P0C6U8|R1A_SARS",
+                  "accession": "P0C6U8",
+                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                }
+              ],
+              "len": 4382,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 3.62777,
+                  "identity": 18,
+                  "positive": 32,
+                  "query_from": 260,
+                  "query_to": 332,
+                  "hit_from": 487,
+                  "hit_to": 552,
+                  "align_len": 74,
+                  "gaps": 9,
+                  "qseq": "YIDELKSLERSMRNLTVKACVWHPSGDWEGEQGSPID-ALREDLESSDANPDIYLCGPPGMIDAACELVRSRGI",
+                  "hseq": "FIDTIKSLDYKSFKTIVESC-----GNYKVTKGKPVKGAWNIGQQRSVLTP---LCGFPSQAAGVIRSIFARTL",
+                  "midline": "+ID +KSL+       V++C     G+++  +G P+  A     + S   P   LCG P         + +R +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 66,
+            "eff_space": 19437696,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

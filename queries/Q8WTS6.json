@@ -1,0 +1,280 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q8WTS6|SETD7_HUMAN Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1",
+          "query_len": 366,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q8WTS6|SETD7_HUMAN",
+                  "accession": "Q8WTS6",
+                  "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
+                }
+              ],
+              "len": 366,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 760.755,
+                  "score": 1963,
+                  "evalue": 0,
+                  "identity": 366,
+                  "positive": 366,
+                  "query_from": 1,
+                  "query_to": 366,
+                  "hit_from": 1,
+                  "hit_to": 366,
+                  "align_len": 366,
+                  "gaps": 0,
+                  "qseq": "MDSDDEMVEEAVEGHLDDDGLPHGFCTVTYSSTDRFEGNFVHGEKNGRGKFFFFDGSTLEGYYVDDALQGQGVYTYEDGGVLQGTYVDGELNGPAQEYDTDGRLIFKGQYKDNIRHGVCWIYYPDGGSLVGEVNEDGEMTGEKIAYVYPDERTALYGKFIDGEMIEGKLATLMSTEEGRPHFELMPGNSVYHFDKSTSSCISTNALLPDPYESERVYVAESLISSAGEGLFSKVAVGPNTVMSFYNGVRITHQEVDSRDWALNGNTLSLDEETVIDVPEPYNHVSKYCASLGHKANHSFTPNCIYDMFVHPRFGPIKCIRTLRAVEADEELTVAYGYDHSPPGKSGPEAPEWYQVELKAFQATQQK",
+                  "hseq": "MDSDDEMVEEAVEGHLDDDGLPHGFCTVTYSSTDRFEGNFVHGEKNGRGKFFFFDGSTLEGYYVDDALQGQGVYTYEDGGVLQGTYVDGELNGPAQEYDTDGRLIFKGQYKDNIRHGVCWIYYPDGGSLVGEVNEDGEMTGEKIAYVYPDERTALYGKFIDGEMIEGKLATLMSTEEGRPHFELMPGNSVYHFDKSTSSCISTNALLPDPYESERVYVAESLISSAGEGLFSKVAVGPNTVMSFYNGVRITHQEVDSRDWALNGNTLSLDEETVIDVPEPYNHVSKYCASLGHKANHSFTPNCIYDMFVHPRFGPIKCIRTLRAVEADEELTVAYGYDHSPPGKSGPEAPEWYQVELKAFQATQQK",
+                  "midline": "MDSDDEMVEEAVEGHLDDDGLPHGFCTVTYSSTDRFEGNFVHGEKNGRGKFFFFDGSTLEGYYVDDALQGQGVYTYEDGGVLQGTYVDGELNGPAQEYDTDGRLIFKGQYKDNIRHGVCWIYYPDGGSLVGEVNEDGEMTGEKIAYVYPDERTALYGKFIDGEMIEGKLATLMSTEEGRPHFELMPGNSVYHFDKSTSSCISTNALLPDPYESERVYVAESLISSAGEGLFSKVAVGPNTVMSFYNGVRITHQEVDSRDWALNGNTLSLDEETVIDVPEPYNHVSKYCASLGHKANHSFTPNCIYDMFVHPRFGPIKCIRTLRAVEADEELTVAYGYDHSPPGKSGPEAPEWYQVELKAFQATQQK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P19438|TNR1A_HUMAN",
+                  "accession": "P19438",
+                  "title": "Tumor necrosis factor receptor superfamily member 1A OS=Homo sapiens OX=9606 GN=TNFRSF1A PE=1 SV=1"
+                }
+              ],
+              "len": 455,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 1.01905,
+                  "identity": 17,
+                  "positive": 30,
+                  "query_from": 66,
+                  "query_to": 118,
+                  "hit_from": 41,
+                  "hit_to": 100,
+                  "align_len": 62,
+                  "gaps": 11,
+                  "qseq": "DALQGQGVYTYEDGGVL------QGTYVDGELNGPAQEYDTDGRLIFKGQY---KDNIRHGV",
+                  "hseq": "DSVCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQ--DTDCRECESGSFTASENHLRHCL",
+                  "midline": "D++  QG Y +     +      +GTY+  +  GP Q  DTD R    G +   ++++RH +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|O43896|KIF1C_HUMAN",
+                  "accession": "O43896",
+                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                }
+              ],
+              "len": 1103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 2.09897,
+                  "identity": 11,
+                  "positive": 19,
+                  "query_from": 119,
+                  "query_to": 144,
+                  "hit_from": 513,
+                  "hit_to": 539,
+                  "align_len": 27,
+                  "gaps": 1,
+                  "qseq": "CWIYY-PDGGSLVGEVNEDGEMTGEKI",
+                  "hseq": "CLLYHIKDGVTRVGQVDMDIKLTGQFI",
+                  "midline": "C +Y+  DG + VG+V+ D ++TG+ I"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P38398|BRCA1_HUMAN",
+                  "accession": "P38398",
+                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                }
+              ],
+              "len": 1863,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 2.42422,
+                  "identity": 26,
+                  "positive": 42,
+                  "query_from": 82,
+                  "query_to": 171,
+                  "hit_from": 1736,
+                  "hit_to": 1834,
+                  "align_len": 99,
+                  "gaps": 9,
+                  "qseq": "LQGTYVDGE-LNGPAQEYDTDGRLIFK-------GQYKDNIRHGVCWIYYPDGGSLVGEVNEDGEMTG-EKIAYVYPDERTALYGKFIDGEMIEGKLAT",
+                  "hseq": "VRGDVVNGRNHQGPKRARESQDRKIFRGLEICCYGPFTNMPTDQLEWMVQLCGASVVKELSSFTLGTGVHPIVVVQPDAWTEDNGFHAIGQMCEAPVVT",
+                  "midline": "++G  V+G    GP +  ++  R IF+       G + +     + W+    G S+V E++     TG   I  V PD  T   G    G+M E  + T"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P0C6U8|R1A_SARS",
+                  "accession": "P0C6U8",
+                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                }
+              ],
+              "len": 4382,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 2.60186,
+                  "identity": 19,
+                  "positive": 31,
+                  "query_from": 52,
+                  "query_to": 119,
+                  "hit_from": 2909,
+                  "hit_to": 2966,
+                  "align_len": 72,
+                  "gaps": 18,
+                  "qseq": "FFFDGSTLEGYYVDDALQGQGVYTYEDGGVLQ--GTYVDGELNGPAQEYDTDGRLI--FKGQYKDNIRHGVC",
+                  "hseq": "YCYDTNLLEGSISYSELRPDTRYVLMDGSIIQFPNTYLEGSV-----------RVVTTFDAEY---CRHGTC",
+                  "midline": "+ +D + LEG      L+    Y   DG ++Q   TY++G +           R++  F  +Y    RHG C"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q8K1S3|UNC5B_MOUSE",
+                  "accession": "Q8K1S3",
+                  "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
+                }
+              ],
+              "len": 945,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 3.30659,
+                  "identity": 14,
+                  "positive": 18,
+                  "query_from": 190,
+                  "query_to": 230,
+                  "hit_from": 456,
+                  "hit_to": 496,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "VYHFDKSTSSCISTNALLPDPYESERVYVAESLISSAGEGL",
+                  "hseq": "VYALQDSADKIPMTNSPLLDPLPSLKIKVYNSSTIGSGSGL",
+                  "midline": "VY    S      TN+ L DP  S ++ V  S    +G GL"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "tr|A9CJW3|A9CJW3_AGRFC",
+                  "accession": "A9CJW3",
+                  "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 7.83771,
+                  "identity": 8,
+                  "positive": 14,
+                  "query_from": 157,
+                  "query_to": 180,
+                  "hit_from": 13,
+                  "hit_to": 36,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "GKFIDGEMIEGKLATLMSTEEGRP",
+                  "hseq": "GVLVDSEIIAAQVESRLLTEAGYP",
+                  "midline": "G  +D E+I  ++ + + TE G P"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P26222|GUN2_THEFU",
+                  "accession": "P26222",
+                  "title": "Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2"
+                }
+              ],
+              "len": 441,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 8.95799,
+                  "identity": 14,
+                  "positive": 21,
+                  "query_from": 24,
+                  "query_to": 66,
+                  "hit_from": 344,
+                  "hit_to": 394,
+                  "align_len": 51,
+                  "gaps": 8,
+                  "qseq": "GFCTVTYSSTDRFEGNF-----VHGEKNGRG---KFFFFDGSTLEGYYVDD",
+                  "hseq": "GACTATYTIANEWNDGFQATVTVTANQNITGWTVTWTFTDGQTITNAWNAD",
+                  "midline": "G CT TY+  + +   F     V   +N  G    + F DG T+   +  D"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 67,
+            "eff_space": 20546981,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

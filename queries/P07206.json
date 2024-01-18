@@ -1,0 +1,331 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P07206|PULA_KLEPN Pullulanase OS=Klebsiella pneumoniae OX=573 GN=pulA PE=1 SV=2",
+          "query_len": 1090,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P07206|PULA_KLEPN",
+                  "accession": "P07206",
+                  "title": "Pullulanase OS=Klebsiella pneumoniae OX=573 GN=pulA PE=1 SV=2"
+                }
+              ],
+              "len": 1090,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 2246.85,
+                  "score": 5821,
+                  "evalue": 0,
+                  "identity": 1090,
+                  "positive": 1090,
+                  "query_from": 1,
+                  "query_to": 1090,
+                  "hit_from": 1,
+                  "hit_to": 1090,
+                  "align_len": 1090,
+                  "gaps": 0,
+                  "qseq": "MLRYTRNALVLGSLVLLSGCDNGSSSSSSGNPDTPDNQDVVVRLPDVAVPGEAVTAVENQAVIHLVDIAGITSSSAADYSSKNLYLWNNETCDALSAPVADWNDVSTTPSGSDKYGPYWVIPLNKESGCINVIVRDGTDKLIDSDLRVAFGDFTDRTVSVIAGNSAVYDSRADAFRAAFGVALAEAHWVDKNTLLWPGGQDKPIVRLYYSHSSKVAADGEGKFTDRYLKLTPTTVSQQVSMRFPHLSSYAAFKLPDNANVDELLQGETVAIAAAEDGILISATQVQTAGVLDDAYAEAAEALSYGAQLADGGVTFRVWAPTAQQVDVVVYSADKKVIGSHPMTRDSASGAWSWQGGSDLKGAFYRYAMTVYHPQSRKVEQYEVTDPYAHSLSTNSEYSQVVDLNDSALKPDGWDNLTMPHAQKTKADLAKMTIHESHIRDLSAWDQTVPAELRGKYLALTAGDSNMVQHLKTLSASGVTHVELLPVFDLATVNEFSDKVADIQQPFSRLCEVNSAVKSSEFAGYCDSGSTVEEVLNQLKQSDSQDNPQVQALNTLVAQTDSYNWGYDPFHYTVPEGSYATDPEGTTRIKEFRTMIQAIKQDLGMNVIMDVVYNHTNAAGPTDRTSVLDKIVPWYYQRLNETTGSVESATCCSDSAPEHRMFAKLIADSLAVWTTDYKIDGFRFDLMGYHPKAQILSAWERIKALNPDIYFFGEGWDSNQSDRFEIASQINLKGTGIGTFSDRLRDSVRGGGPFDSGDALRQNQGIGSGAGVLPNELASLSDDQVRHLADLTRLGMAGNLADFVMIDKDGAAKKGSEIDYNGAPGGYAADPTEVVNYVSKHDNQTLWDMISYKASQEADLATRVRMQAVSLATVMLGQGIAFDQQGSELLRSKSFTRDSYDSGDWFNRVDYSLQDNNYNVGMPRISDDGSNYEVITRVKEMVATPGEAELKQMTAFYQELTELRKSSPLFTLGDGSAVMKRVDFRNTGSDQQAGLLVMTVDDGMKAGASLDSRLDGLVVAINAAPESRTLNEFAGETLQLSAIQQTAGENSLANGVQIAADGTVTLPAWSVAVLELPQGEAQGAGLPVSSK",
+                  "hseq": "MLRYTRNALVLGSLVLLSGCDNGSSSSSSGNPDTPDNQDVVVRLPDVAVPGEAVTAVENQAVIHLVDIAGITSSSAADYSSKNLYLWNNETCDALSAPVADWNDVSTTPSGSDKYGPYWVIPLNKESGCINVIVRDGTDKLIDSDLRVAFGDFTDRTVSVIAGNSAVYDSRADAFRAAFGVALAEAHWVDKNTLLWPGGQDKPIVRLYYSHSSKVAADGEGKFTDRYLKLTPTTVSQQVSMRFPHLSSYAAFKLPDNANVDELLQGETVAIAAAEDGILISATQVQTAGVLDDAYAEAAEALSYGAQLADGGVTFRVWAPTAQQVDVVVYSADKKVIGSHPMTRDSASGAWSWQGGSDLKGAFYRYAMTVYHPQSRKVEQYEVTDPYAHSLSTNSEYSQVVDLNDSALKPDGWDNLTMPHAQKTKADLAKMTIHESHIRDLSAWDQTVPAELRGKYLALTAGDSNMVQHLKTLSASGVTHVELLPVFDLATVNEFSDKVADIQQPFSRLCEVNSAVKSSEFAGYCDSGSTVEEVLNQLKQSDSQDNPQVQALNTLVAQTDSYNWGYDPFHYTVPEGSYATDPEGTTRIKEFRTMIQAIKQDLGMNVIMDVVYNHTNAAGPTDRTSVLDKIVPWYYQRLNETTGSVESATCCSDSAPEHRMFAKLIADSLAVWTTDYKIDGFRFDLMGYHPKAQILSAWERIKALNPDIYFFGEGWDSNQSDRFEIASQINLKGTGIGTFSDRLRDSVRGGGPFDSGDALRQNQGIGSGAGVLPNELASLSDDQVRHLADLTRLGMAGNLADFVMIDKDGAAKKGSEIDYNGAPGGYAADPTEVVNYVSKHDNQTLWDMISYKASQEADLATRVRMQAVSLATVMLGQGIAFDQQGSELLRSKSFTRDSYDSGDWFNRVDYSLQDNNYNVGMPRISDDGSNYEVITRVKEMVATPGEAELKQMTAFYQELTELRKSSPLFTLGDGSAVMKRVDFRNTGSDQQAGLLVMTVDDGMKAGASLDSRLDGLVVAINAAPESRTLNEFAGETLQLSAIQQTAGENSLANGVQIAADGTVTLPAWSVAVLELPQGEAQGAGLPVSSK",
+                  "midline": "MLRYTRNALVLGSLVLLSGCDNGSSSSSSGNPDTPDNQDVVVRLPDVAVPGEAVTAVENQAVIHLVDIAGITSSSAADYSSKNLYLWNNETCDALSAPVADWNDVSTTPSGSDKYGPYWVIPLNKESGCINVIVRDGTDKLIDSDLRVAFGDFTDRTVSVIAGNSAVYDSRADAFRAAFGVALAEAHWVDKNTLLWPGGQDKPIVRLYYSHSSKVAADGEGKFTDRYLKLTPTTVSQQVSMRFPHLSSYAAFKLPDNANVDELLQGETVAIAAAEDGILISATQVQTAGVLDDAYAEAAEALSYGAQLADGGVTFRVWAPTAQQVDVVVYSADKKVIGSHPMTRDSASGAWSWQGGSDLKGAFYRYAMTVYHPQSRKVEQYEVTDPYAHSLSTNSEYSQVVDLNDSALKPDGWDNLTMPHAQKTKADLAKMTIHESHIRDLSAWDQTVPAELRGKYLALTAGDSNMVQHLKTLSASGVTHVELLPVFDLATVNEFSDKVADIQQPFSRLCEVNSAVKSSEFAGYCDSGSTVEEVLNQLKQSDSQDNPQVQALNTLVAQTDSYNWGYDPFHYTVPEGSYATDPEGTTRIKEFRTMIQAIKQDLGMNVIMDVVYNHTNAAGPTDRTSVLDKIVPWYYQRLNETTGSVESATCCSDSAPEHRMFAKLIADSLAVWTTDYKIDGFRFDLMGYHPKAQILSAWERIKALNPDIYFFGEGWDSNQSDRFEIASQINLKGTGIGTFSDRLRDSVRGGGPFDSGDALRQNQGIGSGAGVLPNELASLSDDQVRHLADLTRLGMAGNLADFVMIDKDGAAKKGSEIDYNGAPGGYAADPTEVVNYVSKHDNQTLWDMISYKASQEADLATRVRMQAVSLATVMLGQGIAFDQQGSELLRSKSFTRDSYDSGDWFNRVDYSLQDNNYNVGMPRISDDGSNYEVITRVKEMVATPGEAELKQMTAFYQELTELRKSSPLFTLGDGSAVMKRVDFRNTGSDQQAGLLVMTVDDGMKAGASLDSRLDGLVVAINAAPESRTLNEFAGETLQLSAIQQTAGENSLANGVQIAADGTVTLPAWSVAVLELPQGEAQGAGLPVSSK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|O33840|PULA_THEMA",
+                  "accession": "O33840",
+                  "title": "Pullulanase OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=pulA PE=1 SV=2"
+                }
+              ],
+              "len": 843,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 179.104,
+                  "score": 453,
+                  "evalue": 2.99985e-48,
+                  "identity": 129,
+                  "positive": 202,
+                  "query_from": 562,
+                  "query_to": 995,
+                  "hit_from": 416,
+                  "hit_to": 777,
+                  "align_len": 443,
+                  "gaps": 90,
+                  "qseq": "YNWGYDPFHYTVPEGSYATDPEGT-TRIKEFRTMIQAIKQDLGMNVIMDVVYNHTNAAGPTDRTSVLDKIVPWYYQRLNETTGSVESATCCSDSAPEHRMFAKLIADSLAVWTTDYKIDGFRFDLMGYHPKAQILSAWERIKALNPDIYFFGEGWDS-NQSDRFEIASQINLKGTGIGTFSDRLRDSVRGGGPFDSGDALRQNQGIGSGAGVLPNELASLSDDQVRHLADLTRLGMAGNLADFVMIDKDGAAKKG--SEIDYNGA-PGGYAADPTEVVNYVSKHDNQTLWD--MISYKASQEADLATRVRMQAVSLATVML--GQGIAFDQQGSELLRSKSFTRDSYDSGDWFNRVDYSLQDNNYNVGMPRISDDGSNYEVITRVKEMVATPGEAELKQMTAFYQELTELRKSSPLFTLGDGSAVMKRVDFRNTGSDQQAGLL",
+                  "hseq": "YNWGYDPYLFMVPEGRYSTDPKNPHTRIREVKEMVKALHKH-GIGVIMDMVFPHTYGIG---ELSAFDQTVPYYFYRIDKTGAYLNESGCGNVIASERPMMRKFIVDTVTYWVKEYHIDGFRFDQMGLIDKKTMLEVERALHKIDPTIILYGEPWGGWGAPIRF---GKSDVAGTHVAAFNDEFRDAIRG----------------------------SVFNPSVKGFV----MGGYG---------KETKIKRGVVGSINYDGKLIKSFALDPEETINYAACHDNHTLWDKNYLAAKADKKKEWTEEELKNAQKLAGAILLTSQGVPFLHGGQDFCRTKNF------------------NDNSYNA---PISINGFDYE------------RKLQFIDVFNYHKGLIKLRKEHPAFRLKNAEEIKKHLEFLPGGRRIVAFML",
+                  "midline": "YNWGYDP+ + VPEG Y+TDP+   TRI+E + M++A+ +  G+ VIMD+V+ HT   G     S  D+ VP+Y+ R+++T   +  + C +  A E  M  K I D++  W  +Y IDGFRFD MG   K  +L     +  ++P I  +GE W       RF    + ++ GT +  F+D  RD++RG                            S+ +  V+       +G  G         K+   K+G    I+Y+G     +A DP E +NY + HDN TLWD   ++ KA ++ +        A  LA  +L   QG+ F   G +  R+K+F                   DN+YN     IS +G +YE             + +   +  +++ L +LRK  P F L +   + K ++F   G    A +L"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 78.5666,
+                  "score": 192,
+                  "evalue": 7.78956e-17,
+                  "identity": 109,
+                  "positive": 182,
+                  "query_from": 79,
+                  "query_to": 518,
+                  "hit_from": 34,
+                  "hit_to": 452,
+                  "align_len": 468,
+                  "gaps": 77,
+                  "qseq": "YSSKNLYLWNNETCDALSAPVADWNDVSTTPSGSDKYGPYWVIPLNKESGCINVIVR--DGTDKLIDSDLRVAFGDFTDRTVSVIAGNSAVYDSRADAFRAAFGVALAEAHWVDKNTLLWPGGQDKPIVRLYYSHSSKVAADGEGKFTDRYLKLTPTTVSQQVSMRFPHLSSYAAFKLPDNANVDELLQGETVAIAAAEDGILISATQVQTAGVLDDAYAEAAEALSYGAQLADGGVTFRVWAPTAQQVDVVVYSADKKVIGSHPMTRD-SASGAWSWQGGSDLKGAFYRYAMTVYHPQSRKVEQYEVTDPYAHSLSTNSEYSQVVDLNDSALKPDGWDNLTMPHAQKTKADLAKMTIHESHIRDLSAWDQTVPAELRGKYLALT----AGDSNMVQHLKTLSASGVTHVELLPVFDLATVNEFSDKV---------------------ADIQQPFSRLCEVNSAVKS",
+                  "hseq": "YDGWNLWIWPVE-------PVSQ-EGKAYQFTGEDDFGKVAVVKLPMDLTKVGIIVRLNEWQAKDVAKDRFIEIKD-GKAEVWILQGVEEIFYEKPDTSPRIF-FAQARSNKVIEAFLTNPVDTKK-------KELFKVTVDGKEIPVSRVEKADPTDID---------VTNYVRIVLSESLKEEDLRKDVELIIEGYK------PARVIMMEILDDYYYDG----ELGAVYSPEKTIFRVWSPVSKWVKVLLFKNGEDTEPYQVVNMEYKGNGVWEAVVEGDLDGVFYLYQLENYGKIRTTV------DPYSKAVYANSKKSAVVNL--ARTNPEGWENDRGPKIEGYEDAI----IYEIHIADITGLENS-GVKNKGLYLGLTEENTKGPGGVTTGLSHLVELGVTHVHILPFFDFYTGDELDKDFEKYYNWGYDPYLFMVPEGRYSTDPKNPHTRIREVKEMVKA",
+                  "midline": "Y   NL++W  E       PV+     +   +G D +G   V+ L  +   + +IVR  +   K +  D  +   D     V ++ G   ++  + D     F  A A ++ V +  L  P    K           KV  DG+     R  K  PT +          +++Y    L ++   ++L +   + I   +        +V    +LDD Y +       GA  +     FRVW+P ++ V V+++   +       +  +   +G W      DL G FY Y +  Y      V      DPY+ ++  NS+ S VV+L  +   P+GW+N   P  +  +  +    I+E HI D++  + +   + +G YL LT     G   +   L  L   GVTHV +LP FD  T +E                           D + P +R+ EV   VK+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 9.59142,
+                  "identity": 10,
+                  "positive": 12,
+                  "query_from": 434,
+                  "query_to": 449,
+                  "hit_from": 468,
+                  "hit_to": 483,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "HESHIRDLSAWDQTVP",
+                  "hseq": "HTYGIGELSAFDQTVP",
+                  "midline": "H   I +LSA+DQTVP"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q12888|TP53B_HUMAN",
+                  "accession": "Q12888",
+                  "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
+                }
+              ],
+              "len": 1972,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 0.115883,
+                  "identity": 19,
+                  "positive": 37,
+                  "query_from": 374,
+                  "query_to": 428,
+                  "hit_from": 177,
+                  "hit_to": 236,
+                  "align_len": 60,
+                  "gaps": 5,
+                  "qseq": "QSRKVEQ----YEVTDPYAHSLSTNSEYSQVVDLN-DSALKPDGWDNLTMPHAQKTKADL",
+                  "hseq": "QSQDVEENTVPYEVDKEQLQSVTTNSGYTRLSDVDANTAIKHEEQSNEDIPIAEQSSKDI",
+                  "midline": "QS+ VE+    YEV      S++TNS Y+++ D++ ++A+K +   N  +P A+++  D+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P0C6U8|R1A_SARS",
+                  "accession": "P0C6U8",
+                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                }
+              ],
+              "len": 4382,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.0238,
+                  "score": 53,
+                  "evalue": 2.63533,
+                  "identity": 15,
+                  "positive": 19,
+                  "query_from": 488,
+                  "query_to": 525,
+                  "hit_from": 237,
+                  "hit_to": 270,
+                  "align_len": 38,
+                  "gaps": 4,
+                  "qseq": "DLATVNEFSDKVADIQQPFSRLCEVNSAVKSSEFAGYC",
+                  "hseq": "EIAWFTERSDKSYEHQTPF----EIKSAKKFDTFKGEC",
+                  "midline": "++A   E SDK  + Q PF    E+ SA K   F G C"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P07174|TNR16_RAT",
+                  "accession": "P07174",
+                  "title": "Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1"
+                }
+              ],
+              "len": 425,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 4.97617,
+                  "identity": 19,
+                  "positive": 30,
+                  "query_from": 572,
+                  "query_to": 638,
+                  "hit_from": 201,
+                  "hit_to": 260,
+                  "align_len": 67,
+                  "gaps": 7,
+                  "qseq": "TVPEGSYATDPEGTTRIKEFRTMIQAIKQDLGMNVIMDVVYNHTNAAGPTDRTSVLDKIVPWYYQRL",
+                  "hseq": "TPPEGSDSTAP--STQEPEV-----PPEQDLVPSTVADMVTTVMGSSQPVVTRGTTDNLIPVYCSIL",
+                  "midline": "T PEGS +T P  +T+  E        +QDL  + + D+V     ++ P       D ++P Y   L"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P26827|CDGT_THETU",
+                  "accession": "P26827",
+                  "title": "Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium thermosulfurigenes OX=33950 GN=amyA PE=1 SV=2"
+                }
+              ],
+              "len": 710,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 5.62761,
+                  "identity": 33,
+                  "positive": 56,
+                  "query_from": 588,
+                  "query_to": 713,
+                  "hit_from": 143,
+                  "hit_to": 285,
+                  "align_len": 149,
+                  "gaps": 29,
+                  "qseq": "IKEFRTMIQAIKQDLGMNVIMDVVYNHTNAAGPTDRTSVLD-------KIVPWYYQRLNETTGSVESATCCSDSAPEHRMFAKL----------------IADSLAVWTTDYKIDGFRFDLMGYHPKAQILSAWERIKALNPDIYFFGE",
+                  "hseq": "FTDFQNLINTAHAH-NIKVIIDFAPNHTSPASETDPTYAENGRLYDNGTLLGGY---TNDTNGYFHHYGGTDFSSYEDGIYRNLFDLADLNQQNSTIDSYLKSAIKVW-LDMGIDGIRLDAVKHMPFGWQKNFMDSILSYRP-VFTFGE",
+                  "midline": "  +F+ +I        + VI+D   NHT+ A  TD T   +        ++  Y    N+T G          S+ E  ++  L                +  ++ VW  D  IDG R D + + P     +  + I +  P ++ FGE"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P69328|AMYG_ASPNG",
+                  "accession": "P69328",
+                  "title": "Glucoamylase OS=Aspergillus niger OX=5061 GN=GLAA PE=1 SV=1"
+                }
+              ],
+              "len": 640,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 8.29759,
+                  "identity": 18,
+                  "positive": 35,
+                  "query_from": 825,
+                  "query_to": 889,
+                  "hit_from": 170,
+                  "hit_to": 245,
+                  "align_len": 76,
+                  "gaps": 11,
+                  "qseq": "GYAADPTEVV--------NYVSKHDNQT---LWDMISYKASQEADLATRVRMQAVSLATVMLGQGIAFDQQGSELL",
+                  "hseq": "GYTSTATDIVWPLVRNDLSYVAQYWNQTGYDLWEEVNGSSFFTIAVQHRALVEGSAFATAVGSSCSWCDSQAPEIL",
+                  "midline": "GY +  T++V        +YV+++ NQT   LW+ ++  +     +  R  ++  + AT +       D Q  E+L"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 8.88161,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 1034,
+                  "query_to": 1080,
+                  "hit_from": 552,
+                  "hit_to": 598,
+                  "align_len": 48,
+                  "gaps": 2,
+                  "qseq": "GETLQLSAIQQTAGENSLANGVQIAADG-TVTLPAWSVAVLELPQGEA",
+                  "hseq": "GENIYLVGSISQLGDWETSDGIALSADKYTSSDPLWYVTV-TLPAGES",
+                  "midline": "GE + L       G+   ++G+ ++AD  T + P W V V  LP GE+"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|O15527|OGG1_HUMAN",
+                  "accession": "O15527",
+                  "title": "N-glycosylase/DNA lyase OS=Homo sapiens OX=9606 GN=OGG1 PE=1 SV=2"
+                }
+              ],
+              "len": 345,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 9.15928,
+                  "identity": 24,
+                  "positive": 36,
+                  "query_from": 292,
+                  "query_to": 365,
+                  "hit_from": 230,
+                  "hit_to": 304,
+                  "align_len": 78,
+                  "gaps": 7,
+                  "qseq": "DDAYAEAAEALSY----GAQLADGGVTFRVWAPTAQQVDVVVYSADKKVIGSHPMTRDSASGAWSWQGGSDLKGAFYR",
+                  "hseq": "ESSYEEAHKALCILPGVGTKVADCICLMALDKPQAVPVDVHMWHIAQRDYSWHPTT-SQAKGP-SPQTNKEL-GNFFR",
+                  "midline": "+ +Y EA +AL      G ++AD      +  P A  VDV ++   ++    HP T   A G  S Q   +L G F+R"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 75,
+            "eff_space": 68052705,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

@@ -1,0 +1,190 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P46849|RTCA_ECOLI RNA 3'-terminal phosphate cyclase OS=Escherichia coli (strain K12) OX=83333 GN=rtcA PE=1 SV=3",
+          "query_len": 338,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P46849|RTCA_ECOLI",
+                  "accession": "P46849",
+                  "title": "RNA 3'-terminal phosphate cyclase OS=Escherichia coli (strain K12) OX=83333 GN=rtcA PE=1 SV=3"
+                }
+              ],
+              "len": 338,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 678.322,
+                  "score": 1749,
+                  "evalue": 0,
+                  "identity": 338,
+                  "positive": 338,
+                  "query_from": 1,
+                  "query_to": 338,
+                  "hit_from": 1,
+                  "hit_to": 338,
+                  "align_len": 338,
+                  "gaps": 0,
+                  "qseq": "MKRMIALDGAQGEGGGQILRSALSLSMITGQPFTITSIRAGRAKPGLLRQHLTAVKAATEICGATVEGAELGSQRLLFRPGTVRGGDYRFAIGSAGSCTLVLQTVLPALWFADGPSRVEVSGGTDNPSAPPADFIRRVLEPLLAKIGIHQQTTLLRHGFYPAGGGVVATEVSPVASFNTLQLGERGNIVQMRGEVLLAGVPRHVAEREIATLAGSFSLHEQNIHNLPRDQGPGNTVSLEVESENITERFFVVGEKRVSAEVVAAQLVKEVKRYLASTAAVGEYLADQLVLPMALAGAGEFTVAHPSCHLLTNIAVVERFLPVRFSLIETDGVTRVSIE",
+                  "hseq": "MKRMIALDGAQGEGGGQILRSALSLSMITGQPFTITSIRAGRAKPGLLRQHLTAVKAATEICGATVEGAELGSQRLLFRPGTVRGGDYRFAIGSAGSCTLVLQTVLPALWFADGPSRVEVSGGTDNPSAPPADFIRRVLEPLLAKIGIHQQTTLLRHGFYPAGGGVVATEVSPVASFNTLQLGERGNIVQMRGEVLLAGVPRHVAEREIATLAGSFSLHEQNIHNLPRDQGPGNTVSLEVESENITERFFVVGEKRVSAEVVAAQLVKEVKRYLASTAAVGEYLADQLVLPMALAGAGEFTVAHPSCHLLTNIAVVERFLPVRFSLIETDGVTRVSIE",
+                  "midline": "MKRMIALDGAQGEGGGQILRSALSLSMITGQPFTITSIRAGRAKPGLLRQHLTAVKAATEICGATVEGAELGSQRLLFRPGTVRGGDYRFAIGSAGSCTLVLQTVLPALWFADGPSRVEVSGGTDNPSAPPADFIRRVLEPLLAKIGIHQQTTLLRHGFYPAGGGVVATEVSPVASFNTLQLGERGNIVQMRGEVLLAGVPRHVAEREIATLAGSFSLHEQNIHNLPRDQGPGNTVSLEVESENITERFFVVGEKRVSAEVVAAQLVKEVKRYLASTAAVGEYLADQLVLPMALAGAGEFTVAHPSCHLLTNIAVVERFLPVRFSLIETDGVTRVSIE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q9UWN7|TBP_SULAC",
+                  "accession": "Q9UWN7",
+                  "title": "TATA-box-binding protein OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=tbp PE=1 SV=1"
+                }
+              ],
+              "len": 197,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 0.113959,
+                  "identity": 29,
+                  "positive": 48,
+                  "query_from": 210,
+                  "query_to": 313,
+                  "hit_from": 21,
+                  "hit_to": 120,
+                  "align_len": 112,
+                  "gaps": 20,
+                  "qseq": "ATLAGSFSLH--EQNIHNLPRD--QGPGNTVSLEVESENITERFFVVGEKRVSAEVVAAQLVKEVKRYLASTAAVGEYLADQLVLPMALAGAGEF----TVAHPSCHLLTNI",
+                  "hseq": "VTLDQTLDLYAMERSVPNVEYDPDQFPG--LIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYG----------MQLTGKPKIQIQNIVASANLHVIVNL",
+                  "midline": " TL  +  L+  E+++ N+  D  Q PG  +   +ES  IT   F  G+  V+      +L+K VKR + +    G          M L G  +      VA  + H++ N+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P38398|BRCA1_HUMAN",
+                  "accession": "P38398",
+                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                }
+              ],
+              "len": 1863,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 1.40661,
+                  "identity": 21,
+                  "positive": 28,
+                  "query_from": 205,
+                  "query_to": 255,
+                  "hit_from": 878,
+                  "hit_to": 935,
+                  "align_len": 58,
+                  "gaps": 7,
+                  "qseq": "AEREIATL-AGSFSLHEQN------IHNLPRDQGPGNTVSLEVESENITERFFVVGEK",
+                  "hseq": "AEEECATFSAHSGSLKKQSPKVTFECEQKEENQGKNESNIKPVQTVNITAGFPVVGQK",
+                  "midline": "AE E AT  A S SL +Q+            +QG   +    V++ NIT  F VVG+K"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P10688|PLCD1_RAT",
+                  "accession": "P10688",
+                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
+                }
+              ],
+              "len": 756,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 4.24336,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 160,
+                  "query_to": 178,
+                  "hit_from": 551,
+                  "hit_to": 569,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "YPAGGGVVATEVSPVASFN",
+                  "hseq": "YPAGWRTDSSNYSPVEMWN",
+                  "midline": "YPAG    ++  SPV  +N"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q8VDG3|PARN_MOUSE",
+                  "accession": "Q8VDG3",
+                  "title": "Poly(A)-specific ribonuclease PARN OS=Mus musculus OX=10090 GN=Parn PE=1 SV=1"
+                }
+              ],
+              "len": 624,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 4.43114,
+                  "identity": 10,
+                  "positive": 18,
+                  "query_from": 112,
+                  "query_to": 148,
+                  "hit_from": 35,
+                  "hit_to": 71,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "ADGPSRVEVSGGTDNPSAPPADFIRRVLEPLLAKIGI",
+                  "hseq": "SDGPSVTALTSGFDTPEERYQKLKKHSMDFLLFQFGL",
+                  "midline": "+DGPS   ++ G D P        +  ++ LL + G+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 66,
+            "eff_space": 18748416,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

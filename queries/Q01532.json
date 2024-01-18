@@ -1,0 +1,160 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q01532|BLH1_YEAST Cysteine proteinase 1, mitochondrial OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=LAP3 PE=1 SV=3",
+          "query_len": 483,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q01532|BLH1_YEAST",
+                  "accession": "Q01532",
+                  "title": "Cysteine proteinase 1, mitochondrial OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=LAP3 PE=1 SV=3"
+                }
+              ],
+              "len": 483,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1001.12,
+                  "score": 2587,
+                  "evalue": 0,
+                  "identity": 483,
+                  "positive": 483,
+                  "query_from": 1,
+                  "query_to": 483,
+                  "hit_from": 1,
+                  "hit_to": 483,
+                  "align_len": 483,
+                  "gaps": 0,
+                  "qseq": "MLPTSVSRSLYLKTFRSHLLRAPQIVLKRMSSSIDISKINSWNKEFQSDLTHQLATTVLKNYNADDALLNKTRLQKQDNRVFNTVVSTDSTPVTNQKSSGRCWLFAATNQLRLNVLSELNLKEFELSQAYLFFYDKLEKANYFLDQIVSSADQDIDSRLVQYLLAAPTEDGGQYSMFLNLVKKYGLIPKDLYGDLPYSTTASRKWNSLLTTKLREFAETLRTALKERSADDSIIVTLREQMQREIFRLMSLFMDIPPVQPNEQFTWEYVDKDKKIHTIKSTPLEFASKYAKLDPSTPVSLINDPRHPYGKLIKIDRLGNVLGGDAVIYLNVDNETLSKLVVKRLQNNKAVFFGSHTPKFMDKKTGVMDIELWNYPAIGYNLPQQKASRIRYHESLMTHAMLITGCHVDETSKLPLRYRVENSWGKDSGKDGLYVMTQKYFEEYCFQIVVDINELPKELASKFTSGKEEPIVLPIWDPMGALAK",
+                  "hseq": "MLPTSVSRSLYLKTFRSHLLRAPQIVLKRMSSSIDISKINSWNKEFQSDLTHQLATTVLKNYNADDALLNKTRLQKQDNRVFNTVVSTDSTPVTNQKSSGRCWLFAATNQLRLNVLSELNLKEFELSQAYLFFYDKLEKANYFLDQIVSSADQDIDSRLVQYLLAAPTEDGGQYSMFLNLVKKYGLIPKDLYGDLPYSTTASRKWNSLLTTKLREFAETLRTALKERSADDSIIVTLREQMQREIFRLMSLFMDIPPVQPNEQFTWEYVDKDKKIHTIKSTPLEFASKYAKLDPSTPVSLINDPRHPYGKLIKIDRLGNVLGGDAVIYLNVDNETLSKLVVKRLQNNKAVFFGSHTPKFMDKKTGVMDIELWNYPAIGYNLPQQKASRIRYHESLMTHAMLITGCHVDETSKLPLRYRVENSWGKDSGKDGLYVMTQKYFEEYCFQIVVDINELPKELASKFTSGKEEPIVLPIWDPMGALAK",
+                  "midline": "MLPTSVSRSLYLKTFRSHLLRAPQIVLKRMSSSIDISKINSWNKEFQSDLTHQLATTVLKNYNADDALLNKTRLQKQDNRVFNTVVSTDSTPVTNQKSSGRCWLFAATNQLRLNVLSELNLKEFELSQAYLFFYDKLEKANYFLDQIVSSADQDIDSRLVQYLLAAPTEDGGQYSMFLNLVKKYGLIPKDLYGDLPYSTTASRKWNSLLTTKLREFAETLRTALKERSADDSIIVTLREQMQREIFRLMSLFMDIPPVQPNEQFTWEYVDKDKKIHTIKSTPLEFASKYAKLDPSTPVSLINDPRHPYGKLIKIDRLGNVLGGDAVIYLNVDNETLSKLVVKRLQNNKAVFFGSHTPKFMDKKTGVMDIELWNYPAIGYNLPQQKASRIRYHESLMTHAMLITGCHVDETSKLPLRYRVENSWGKDSGKDGLYVMTQKYFEEYCFQIVVDINELPKELASKFTSGKEEPIVLPIWDPMGALAK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q13867|BLMH_HUMAN",
+                  "accession": "Q13867",
+                  "title": "Bleomycin hydrolase OS=Homo sapiens OX=9606 GN=BLMH PE=1 SV=1"
+                }
+              ],
+              "len": 455,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 327.405,
+                  "score": 838,
+                  "evalue": 8.9892e-110,
+                  "identity": 181,
+                  "positive": 274,
+                  "query_from": 31,
+                  "query_to": 483,
+                  "hit_from": 3,
+                  "hit_to": 455,
+                  "align_len": 463,
+                  "gaps": 20,
+                  "qseq": "SSSIDISKINSWNKEFQSDLTHQLATTVLKNYNADDALLNKTRLQKQDNRVFNTVVSTDSTPVTNQKSSGRCWLFAATNQLRLNVLSELNLKEFELSQAYLFFYDKLEKANYFLDQIVSSAD--QDIDSRLVQYLLAAPTEDGGQYSMFLNLVKKYGLIPKDLYGDLPYSTTASRKWNSLLTTKLREFAETLRTALKERSADDSIIVTLREQMQREIFRLMSLFMDIPPVQPNEQFTWEYVDKDKKIHTIKS-TPLEFASKYAK--LDPSTPVSLINDPR--HPYGKLIKIDRLGNVLGGDAVIYLNVDNETLSKLVVKRLQNNKAVFFGSHTPKFMDKKTGVMDIELWNYPAI-GYNLPQ-QKASRIRYHESLMTHAMLITGC-HVDETSKLPLRYRVENSWGKDSGKDGLYVMTQKYFEEYCFQIVVDINELPKELASKFTSGKEEPIVLPIWDPMGALAK",
+                  "hseq": "SSGLNSEKVAALIQKLNSDPQFVLAQNVGTTHDLLDICLKRATVQRAQH-VFQHAVPQEGKPITNQKSSGRCWIFSCLNVMRLPFMKKLNIEEFEFSQSYLFFWDKVERCYFFLSAFVDTAQRKEPEDGRLVQFLLMNPANDGGQWDMLVNIVEKYGVIPKKCFPE-SYTTEATRRMNDILNHKMREFCIRLRNLVHSGATKGEISAT-QDVMMEEIFRVVCICLGNPP----ETFTWEYRDKDKNYQKIGPITPLEFYREHVKPLFNMEDKICLVNDPRPQHKYNKLYTVEYLSNMVGGRKTLYNNQPIDFLKKMVAASIKDGEAVWFGCDVGKHFNSKLGLSDMNLYDHELVFGVSLKNMNKAERLTFGESLMTHAMTFTAVSEKDDQDGAFTKWRVENSWGEDHGHKGYLCMTDEWFSEYVYEVVVDRKHVPEEVLAVL---EQEPIILPAWDPMGALAE",
+                  "midline": "SS ++  K+ +  ++  SD    LA  V   ++  D  L +  +Q+  + VF   V  +  P+TNQKSSGRCW+F+  N +RL  + +LN++EFE SQ+YLFF+DK+E+  +FL   V +A   +  D RLVQ+LL  P  DGGQ+ M +N+V+KYG+IPK  + +  Y+T A+R+ N +L  K+REF   LR  +   +    I  T ++ M  EIFR++ + +  PP    E FTWEY DKDK    I   TPLEF  ++ K   +    + L+NDPR  H Y KL  ++ L N++GG   +Y N   + L K+V   +++ +AV+FG    K  + K G+ D+ L+++  + G +L    KA R+ + ESLMTHAM  T     D+      ++RVENSWG+D G  G   MT ++F EY +++VVD   +P+E+ +     ++EPI+LP WDPMGALA+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P00787|CATB_RAT",
+                  "accession": "P00787",
+                  "title": "Cathepsin B OS=Rattus norvegicus OX=10116 GN=Ctsb PE=1 SV=2"
+                }
+              ],
+              "len": 339,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 2.05954,
+                  "identity": 8,
+                  "positive": 13,
+                  "query_from": 93,
+                  "query_to": 122,
+                  "hit_from": 99,
+                  "hit_to": 128,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "VTNQKSSGRCWLFAATNQLRLNVLSELNLK",
+                  "hseq": "IRDQGSCGSCWAFGAVEAMSDRICIHTNGR",
+                  "midline": "+ +Q S G CW F A   +   +    N +"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P07858|CATB_HUMAN",
+                  "accession": "P07858",
+                  "title": "Cathepsin B OS=Homo sapiens OX=9606 GN=CTSB PE=1 SV=3"
+                }
+              ],
+              "len": 339,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 2.24651,
+                  "identity": 8,
+                  "positive": 12,
+                  "query_from": 93,
+                  "query_to": 120,
+                  "hit_from": 99,
+                  "hit_to": 126,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "VTNQKSSGRCWLFAATNQLRLNVLSELN",
+                  "hseq": "IRDQGSCGSCWAFGAVEAISDRICIHTN",
+                  "midline": "+ +Q S G CW F A   +   +    N"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 69,
+            "eff_space": 28276614,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

@@ -1,0 +1,267 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P54578|UBP14_HUMAN Ubiquitin carboxyl-terminal hydrolase 14 OS=Homo sapiens OX=9606 GN=USP14 PE=1 SV=3",
+          "query_len": 494,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P54578|UBP14_HUMAN",
+                  "accession": "P54578",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 14 OS=Homo sapiens OX=9606 GN=USP14 PE=1 SV=3"
+                }
+              ],
+              "len": 494,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1026.54,
+                  "score": 2653,
+                  "evalue": 0,
+                  "identity": 494,
+                  "positive": 494,
+                  "query_from": 1,
+                  "query_to": 494,
+                  "hit_from": 1,
+                  "hit_to": 494,
+                  "align_len": 494,
+                  "gaps": 0,
+                  "qseq": "MPLYSVTVKWGKEKFEGVELNTDEPPMVFKAQLFALTGVQPARQKVMVKGGTLKDDDWGNIKIKNGMTLLMMGSADALPEEPSAKTVFVEDMTEEQLASAMELPCGLTNLGNTCYMNATVQCIRSVPELKDALKRYAGALRASGEMASAQYITAALRDLFDSMDKTSSSIPPIILLQFLHMAFPQFAEKGEQGQYLQQDANECWIQMMRVLQQKLEAIEDDSVKETDSSSASAATPSKKKSLIDQFFGVEFETTMKCTESEEEEVTKGKENQLQLSCFINQEVKYLFTGLKLRLQEEITKQSPTLQRNALYIKSSKISRLPAYLTIQMVRFFYKEKESVNAKVLKDVKFPLMLDMYELCTPELQEKMVSFRSKFKDLEDKKVNQQPNTSDKKSSPQKEVKYEPFSFADDIGSNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRKQDEWIKFDDDKVSIVTPEDILRLSGGGDWHIAYVLLYGPRRVEIMEEESEQ",
+                  "hseq": "MPLYSVTVKWGKEKFEGVELNTDEPPMVFKAQLFALTGVQPARQKVMVKGGTLKDDDWGNIKIKNGMTLLMMGSADALPEEPSAKTVFVEDMTEEQLASAMELPCGLTNLGNTCYMNATVQCIRSVPELKDALKRYAGALRASGEMASAQYITAALRDLFDSMDKTSSSIPPIILLQFLHMAFPQFAEKGEQGQYLQQDANECWIQMMRVLQQKLEAIEDDSVKETDSSSASAATPSKKKSLIDQFFGVEFETTMKCTESEEEEVTKGKENQLQLSCFINQEVKYLFTGLKLRLQEEITKQSPTLQRNALYIKSSKISRLPAYLTIQMVRFFYKEKESVNAKVLKDVKFPLMLDMYELCTPELQEKMVSFRSKFKDLEDKKVNQQPNTSDKKSSPQKEVKYEPFSFADDIGSNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRKQDEWIKFDDDKVSIVTPEDILRLSGGGDWHIAYVLLYGPRRVEIMEEESEQ",
+                  "midline": "MPLYSVTVKWGKEKFEGVELNTDEPPMVFKAQLFALTGVQPARQKVMVKGGTLKDDDWGNIKIKNGMTLLMMGSADALPEEPSAKTVFVEDMTEEQLASAMELPCGLTNLGNTCYMNATVQCIRSVPELKDALKRYAGALRASGEMASAQYITAALRDLFDSMDKTSSSIPPIILLQFLHMAFPQFAEKGEQGQYLQQDANECWIQMMRVLQQKLEAIEDDSVKETDSSSASAATPSKKKSLIDQFFGVEFETTMKCTESEEEEVTKGKENQLQLSCFINQEVKYLFTGLKLRLQEEITKQSPTLQRNALYIKSSKISRLPAYLTIQMVRFFYKEKESVNAKVLKDVKFPLMLDMYELCTPELQEKMVSFRSKFKDLEDKKVNQQPNTSDKKSSPQKEVKYEPFSFADDIGSNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRKQDEWIKFDDDKVSIVTPEDILRLSGGGDWHIAYVLLYGPRRVEIMEEESEQ"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P43593|UBP6_YEAST",
+                  "accession": "P43593",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
+                }
+              ],
+              "len": 499,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 236.498,
+                  "score": 602,
+                  "evalue": 4.71159e-74,
+                  "identity": 163,
+                  "positive": 263,
+                  "query_from": 18,
+                  "query_to": 480,
+                  "hit_from": 19,
+                  "hit_to": 494,
+                  "align_len": 503,
+                  "gaps": 67,
+                  "qseq": "VELNTDEPPMVFKAQLFALTGVQPARQKVMVKGGTLKDDDWGNIKI----KNGMTLLMMGSADA-LPEEPSAKTVFVEDMT-EEQLASAMELPCGLTNLGNTCYMNATVQCIRSVPELKDALKRYAGALRASGEMAS----AQYITAALRDLFDSM-DKTSSSIPPIILLQFLHMAFPQFAEKGEQGQ-YLQQDANECWIQMMRVLQQKLEAIEDDSVKETDSSSASAATPSKKKSLIDQFFGVEFETTMKCTESEEEEVTKGKENQLQLSCFINQEVKYLFTGLKLRLQEEITKQSPTLQRNALYIKSSKISRLPAYLTIQMVRFFYKEKESVNAKVLKDVKFPLMLDMYELCTPELQEKMVSFRSKFKDLEDKKVNQQ---------PNTSDKKSSPQKEVKYE-----------------PFSFADDIGSNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRKQDE--WIKFDDDKVSIVTPEDILRLSGGGDWHIAYVLLY",
+                  "hseq": "ITLSTDATSADLKSKAEELTQVPSARQKYMVKGGLSGEE---SIKIYPLIKPGSTVMLLGTPDANLISKPAKKNNFIEDLAPEQQVQQFAQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVLPIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLF----HSMSIVFGDKFSED--------------------FRIQFKTTIKDTANDNDITVKENESDSKLQCHISGTTNFMRNGLLEGLNEKIEKRSDLTGANSIYSVEKKISRLPKFLTVQYVRFFWKRSTNKKSKILRKVVFPFQLDVADMLTPEYAAEKVKVRDELRKVEKEKNEKEREIKRRKFDPSSSENVMTPREQYETQVALNESEKDQWLEEYKKHFPPNLEKGENPSCVYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIESLAGGGESDSALILMY",
+                  "midline": "+ L+TD      K++   LT V  ARQK MVKGG   ++   +IKI    K G T++++G+ DA L  +P+ K  F+ED+  E+Q+    +LP G  N+GNTCY+NAT+Q +  V +L+D +  Y  +   S   A      + I   ++  F+++ +K+  S+ PI+LL  L   +PQFAE+  QG  Y QQDA E + Q+       +  +  D   E                     F ++F+TT+K T ++ +   K  E+  +L C I+    ++  GL   L E+I K+S     N++Y    KISRLP +LT+Q VRFF+K   +  +K+L+ V FP  LD+ ++ TPE   + V  R + + +E +K  ++         P++S+   +P+++ + +                  F    + G N    Y+L  V+THQG +S SGHY ++++ + DE  W KF+DDKVS+V  E I  L+GGG+   A +L+Y"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P40818|UBP8_HUMAN",
+                  "accession": "P40818",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                }
+              ],
+              "len": 1118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.1434,
+                  "score": 126,
+                  "evalue": 1.72308e-09,
+                  "identity": 99,
+                  "positive": 149,
+                  "query_from": 106,
+                  "query_to": 487,
+                  "hit_from": 778,
+                  "hit_to": 1116,
+                  "align_len": 427,
+                  "gaps": 133,
+                  "qseq": "GLTNLGNTCYMNATVQCIRSVPELKDALKR--------YAGALRASGEMA-----------SAQYITAALRDLFDSMDKTSSSIPPIILLQFLHMAFPQFAEKGEQGQYLQQDANECWIQMMRVLQQKLEAI-------EDDSVKETDSSSASAATPSKKK---SLIDQFFGVEFETTMKCTESEEEEVTKGKENQLQLSCFINQEVKYLFTGLKLRLQEEITKQSPTLQRNALY----------IKSSKISRLPAYLTIQMVRFFYKEKESVNAKVLKDVKFPL-MLDMYELCTPELQEKMVSFRSKFKDLEDKKVNQQPNTSDKKSSPQKEVKYEPFSFADDIG-SNNCGYYDLQAVLTHQGRSSSSGHYVSWVKR-KQDEWIKFDDDKVSIVTPEDILRLSGGGDWHIAYVLLY---GPRRVEI",
+                  "hseq": "GLRNLGNTCYMNSILQCLCNAPHLADYFNRNCYQDDINRSNLLGHKGEVAEEFGIIMKALWTGQYRYISPKDFKITIGKIND----------------QFA------GYSQQDSQELLLFLMDGLHEDLNKADNRKRYKEENNDHLDDFKAAEHAWQKHKQLNESIIVALFQGQFKSTVQCLTCHKKSRT--FEAFMYLSLPLASTSKCTLQDC-LRL---FSKEEKLTDNNRFYCSHCRARRDSLKKIEIWKLPPVLLVHLKRFSYDGR--WKQKLQTSVDFPLENLDLSQYV--------------------------------------------------IGPKNNLKKYNLFSVSNHYG-GLDGGHYTAYCKNAARQRWFKFDDH-------EVSDISVSSVKSSAAYILFYTSLGPRVTDV",
+                  "midline": "GL NLGNTCYMN+ +QC+ + P L D   R         +  L   GE+A           + QY   + +D   ++ K +                 QFA       Y QQD+ E  + +M  L + L          E+++    D  +A  A    K+   S+I   F  +F++T++C    ++  T   E  + LS  +    K       LRL    +K+      N  Y          +K  +I +LP  L + + RF Y  +     K+   V FPL  LD+ +                                                    IG  NN   Y+L +V  H G     GHY ++ K   +  W KFDD        E             AY+L Y   GPR  ++"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|O75604|UBP2_HUMAN",
+                  "accession": "O75604",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
+                }
+              ],
+              "len": 605,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.2022,
+                  "score": 95,
+                  "evalue": 7.63244e-06,
+                  "identity": 15,
+                  "positive": 21,
+                  "query_from": 106,
+                  "query_to": 131,
+                  "hit_from": 268,
+                  "hit_to": 293,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "GLTNLGNTCYMNATVQCIRSVPELKD",
+                  "hseq": "GLRNLGNTCFMNSILQCLSNTRELRD",
+                  "midline": "GL NLGNTC+MN+ +QC+ +  EL+D"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 32.3426,
+                  "score": 72,
+                  "evalue": 0.00503542,
+                  "identity": 21,
+                  "positive": 34,
+                  "query_from": 412,
+                  "query_to": 480,
+                  "hit_from": 535,
+                  "hit_to": 596,
+                  "align_len": 70,
+                  "gaps": 9,
+                  "qseq": "SNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRK-QDEWIKFDDDKVSIVTPEDILRLSGGGDWHIAYVLLY",
+                  "hseq": "NTNHAVYNLYAVSNHSG-TTMGGHYTAYCRSPGTGEWHTFNDSSVTPMSSSQV-RTSD------AYLLFY",
+                  "midline": "+ N   Y+L AV  H G ++  GHY ++ +     EW  F+D  V+ ++   + R S       AY+L Y"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P19438|TNR1A_HUMAN",
+                  "accession": "P19438",
+                  "title": "Tumor necrosis factor receptor superfamily member 1A OS=Homo sapiens OX=9606 GN=TNFRSF1A PE=1 SV=1"
+                }
+              ],
+              "len": 455,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 0.078624,
+                  "identity": 20,
+                  "positive": 33,
+                  "query_from": 2,
+                  "query_to": 69,
+                  "hit_from": 333,
+                  "hit_to": 396,
+                  "align_len": 69,
+                  "gaps": 6,
+                  "qseq": "PLYSVTVKWGKEKFEGVELNTDEPPMVFKAQLFALT-GVQPARQKVMVKGGTLKDDDWGNIKIKNGMTL",
+                  "hseq": "PIPNPLQKWEDSAHKPQSLDTDDP-----ATLYAVVENVPPLRWKEFVRRLGLSDHEIDRLELQNGRCL",
+                  "midline": "P+ +   KW     +   L+TD+P     A L+A+   V P R K  V+   L D +   ++++NG  L"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|O43896|KIF1C_HUMAN",
+                  "accession": "O43896",
+                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                }
+              ],
+              "len": 1103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 0.388684,
+                  "identity": 17,
+                  "positive": 28,
+                  "query_from": 405,
+                  "query_to": 463,
+                  "hit_from": 188,
+                  "hit_to": 249,
+                  "align_len": 62,
+                  "gaps": 3,
+                  "qseq": "SFADDIGSNNCGYYDLQAVLTHQGRSSSSGHYV---SWVKRKQDEWIKFDDDKVSIVTPEDI",
+                  "hseq": "SYADIADLMDCGNKARTVAATNMNETSSRSHAVFTIVFTQRCHDQLTGLDSEKVSKISLVDL",
+                  "midline": "S+AD     +CG        T+   +SS  H V    + +R  D+    D +KVS ++  D+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P22812|TUBE_DROME",
+                  "accession": "P22812",
+                  "title": "Protein Tube OS=Drosophila melanogaster OX=7227 GN=tub PE=1 SV=4"
+                }
+              ],
+              "len": 462,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 6.94826,
+                  "identity": 5,
+                  "positive": 12,
+                  "query_from": 199,
+                  "query_to": 216,
+                  "hit_from": 49,
+                  "hit_to": 66,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "DANECWIQMMRVLQQKLE",
+                  "hseq": "DENSCWRKLMSIIPKGMD",
+                  "midline": "D N CW ++M ++ + ++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 69,
+            "eff_space": 29027925,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

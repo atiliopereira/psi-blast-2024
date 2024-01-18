@@ -1,0 +1,220 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q7SIF9|PHEB_AGACH R-phycoerythrin beta chain OS=Agarophyton chilensis OX=2510777 GN=rpeB PE=1 SV=1",
+          "query_len": 177,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q7SIF9|PHEB_AGACH",
+                  "accession": "Q7SIF9",
+                  "title": "R-phycoerythrin beta chain OS=Agarophyton chilensis OX=2510777 GN=rpeB PE=1 SV=1"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 352.829,
+                  "score": 904,
+                  "evalue": 1.11173e-128,
+                  "identity": 177,
+                  "positive": 177,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MLDAFSRVISNADAKAAYVGGSDLQALRTFISDGNKRLDAVNYIVSNSSCIVSDAISGMICENPGLITPGGNCYTNRRMAACLRDGEIILRYISYALLAGDSSVLEDRCLNGLKETYIALGVPTNSTVRAVSIMKAAVGAFISNTASQRKGEVIEGDCSALAAEIASYCDRISAAVS",
+                  "hseq": "MLDAFSRVISNADAKAAYVGGSDLQALRTFISDGNKRLDAVNYIVSNSSCIVSDAISGMICENPGLITPGGNCYTNRRMAACLRDGEIILRYISYALLAGDSSVLEDRCLNGLKETYIALGVPTNSTVRAVSIMKAAVGAFISNTASQRKGEVIEGDCSALAAEIASYCDRISAAVS",
+                  "midline": "MLDAFSRVISNADAKAAYVGGSDLQALRTFISDGNKRLDAVNYIVSNSSCIVSDAISGMICENPGLITPGGNCYTNRRMAACLRDGEIILRYISYALLAGDSSVLEDRCLNGLKETYIALGVPTNSTVRAVSIMKAAVGAFISNTASQRKGEVIEGDCSALAAEIASYCDRISAAVS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P72508|PHCB_ARTPT",
+                  "accession": "P72508",
+                  "title": "C-phycocyanin beta subunit OS=Arthrospira platensis OX=118562 GN=cpcB PE=1 SV=2"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 196.438,
+                  "score": 498,
+                  "evalue": 5.51196e-67,
+                  "identity": 99,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 172,
+                  "align_len": 177,
+                  "gaps": 5,
+                  "qseq": "MLDAFSRVISNADAKAAYVGGSDLQALRTFISDGNKRLDAVNYIVSNSSCIVSDAISGMICENPGLITPGGNCYTNRRMAACLRDGEIILRYISYALLAGDSSVLEDRCLNGLKETYIALGVPTNSTVRAVSIMKAAVGAFISNTASQRKGEVIEGDCSALAAEIASYCDRISAAVS",
+                  "hseq": "MFDAFTKVVSQADTRGEMLSTAQIDALSQMVAESNKRLDAVNRITSNASTIVSNAARSLFAEQPQLIAPGGNAYTSRRMAACLRDMEIILRYVTYAVFAGDASVLEDRCLNGLRETYLALGTPGSSVAVGVGKMKEAALAIVNDPAG-----ITPGDCSALASEIASYFDRACAAVS",
+                  "midline": "M DAF++V+S AD +   +  + + AL   +++ NKRLDAVN I SN+S IVS+A   +  E P LI PGGN YT+RRMAACLRD EIILRY++YA+ AGD+SVLEDRCLNGL+ETY+ALG P +S    V  MK A  A +++ A      +  GDCSALA+EIASY DR  AAVS"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P0AGC3|SLT_ECOLI",
+                  "accession": "P0AGC3",
+                  "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
+                }
+              ],
+              "len": 645,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 3.71634,
+                  "identity": 11,
+                  "positive": 19,
+                  "query_from": 14,
+                  "query_to": 46,
+                  "hit_from": 575,
+                  "hit_to": 605,
+                  "align_len": 33,
+                  "gaps": 2,
+                  "qseq": "AKAAYVGGSDLQALRTFISDGNKRLDAVNYIVS",
+                  "hseq": "SSAAYNAGPG--RVRTWLGNSAGRIDAVAFVES",
+                  "midline": "+ AAY  G     +RT++ +   R+DAV ++ S"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P30922|CH3L1_BOVIN",
+                  "accession": "P30922",
+                  "title": "Chitinase-3-like protein 1 OS=Bos taurus OX=9913 GN=CHI3L1 PE=1 SV=3"
+                }
+              ],
+              "len": 383,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 4.98338,
+                  "identity": 17,
+                  "positive": 26,
+                  "query_from": 118,
+                  "query_to": 177,
+                  "hit_from": 254,
+                  "hit_to": 308,
+                  "align_len": 62,
+                  "gaps": 9,
+                  "qseq": "IALGVPTNSTVRAVSIMKAAVGAFISNTASQRKGEVIEGDCSALAAEIASY--CDRISAAVS",
+                  "hseq": "LVMGIPTFGRSYTLASSKTDVGAPIS-------GPGIPGQFTKEKGILAYYEICDFLHGATT",
+                  "midline": "+ +G+PT      ++  K  VGA IS       G  I G  +     +A Y  CD +  A +"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|O43896|KIF1C_HUMAN",
+                  "accession": "O43896",
+                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                }
+              ],
+              "len": 1103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 8.52597,
+                  "identity": 8,
+                  "positive": 10,
+                  "query_from": 3,
+                  "query_to": 18,
+                  "hit_from": 125,
+                  "hit_to": 140,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "DAFSRVISNADAKAAY",
+                  "hseq": "DLFSRVSENQSAQLSY",
+                  "midline": "D FSRV  N  A+ +Y"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P69328|AMYG_ASPNG",
+                  "accession": "P69328",
+                  "title": "Glucoamylase OS=Aspergillus niger OX=5061 GN=GLAA PE=1 SV=1"
+                }
+              ],
+              "len": 640,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 8.80319,
+                  "identity": 14,
+                  "positive": 23,
+                  "query_from": 52,
+                  "query_to": 105,
+                  "hit_from": 53,
+                  "hit_to": 99,
+                  "align_len": 54,
+                  "gaps": 7,
+                  "qseq": "VSDAISGMICENPGLITPGGNCYTNRRMAACLRDGEIILRYISYALLAGDSSVL",
+                  "hseq": "VSGADSGIVVASPSTDNP-------DYFYTWTRDSGLVLKTLVDLFRNGDTSLL",
+                  "midline": "VS A SG++  +P    P              RD  ++L+ +      GD+S+L"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 60,
+            "eff_space": 8211294,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

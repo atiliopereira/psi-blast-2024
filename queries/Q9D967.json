@@ -1,0 +1,310 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q9D967|MGDP1_MOUSE Magnesium-dependent phosphatase 1 OS=Mus musculus OX=10090 GN=Mdp1 PE=1 SV=1",
+          "query_len": 164,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q9D967|MGDP1_MOUSE",
+                  "accession": "Q9D967",
+                  "title": "Magnesium-dependent phosphatase 1 OS=Mus musculus OX=10090 GN=Mdp1 PE=1 SV=1"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 341.273,
+                  "score": 874,
+                  "evalue": 1.221e-124,
+                  "identity": 164,
+                  "positive": 164,
+                  "query_from": 1,
+                  "query_to": 164,
+                  "hit_from": 1,
+                  "hit_to": 164,
+                  "align_len": 164,
+                  "gaps": 0,
+                  "qseq": "MTRLPKLAVFDLDYTLWPFWVDTHVDPPFHKSSDGTVRDRRGQNIQLYPEVPEVLGRLQSLGVPVAAASRTSEIQGANQLLELFDLGKYFIQREIYPGSKVTHFERLHHKTGVPFSQMVFFDDENRNIIDVGRLGVTCIHIRDGMSLQTLTQGLETFAKAQAGL",
+                  "hseq": "MTRLPKLAVFDLDYTLWPFWVDTHVDPPFHKSSDGTVRDRRGQNIQLYPEVPEVLGRLQSLGVPVAAASRTSEIQGANQLLELFDLGKYFIQREIYPGSKVTHFERLHHKTGVPFSQMVFFDDENRNIIDVGRLGVTCIHIRDGMSLQTLTQGLETFAKAQAGL",
+                  "midline": "MTRLPKLAVFDLDYTLWPFWVDTHVDPPFHKSSDGTVRDRRGQNIQLYPEVPEVLGRLQSLGVPVAAASRTSEIQGANQLLELFDLGKYFIQREIYPGSKVTHFERLHHKTGVPFSQMVFFDDENRNIIDVGRLGVTCIHIRDGMSLQTLTQGLETFAKAQAGL"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q9JLV6|PNKP_MOUSE",
+                  "accession": "Q9JLV6",
+                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
+                }
+              ],
+              "len": 522,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 0.069967,
+                  "identity": 33,
+                  "positive": 49,
+                  "query_from": 6,
+                  "query_to": 119,
+                  "hit_from": 165,
+                  "hit_to": 250,
+                  "align_len": 115,
+                  "gaps": 30,
+                  "qseq": "KLAVFDLDYTLWPFWVDTHVDPPFHKS-SDGTVRDRRGQNIQLYPEVPEVLGRLQSLGVPVAAASRTSEIQGANQLLELFDLGKYFIQREIYPGSKVTHFERLHHKTGVPFSQMV",
+                  "hseq": "KVAAFDLDGTL----ITTRSGKVFPTSPSDWRI---------LYPEIPKKLQELAAEGYKLVIFT--------NQM----GIGRGKLPAEVFKG----KVEAVLEKLGVPFQVLV",
+                  "midline": "K+A FDLD TL    + T     F  S SD  +         LYPE+P+ L  L + G  +   +        NQ+     +G+  +  E++ G      E +  K GVPF  +V"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q99633|PRP18_HUMAN",
+                  "accession": "Q99633",
+                  "title": "Pre-mRNA-splicing factor 18 OS=Homo sapiens OX=9606 GN=PRPF18 PE=1 SV=1"
+                }
+              ],
+              "len": 342,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 0.568779,
+                  "identity": 15,
+                  "positive": 22,
+                  "query_from": 72,
+                  "query_to": 110,
+                  "hit_from": 6,
+                  "hit_to": 48,
+                  "align_len": 43,
+                  "gaps": 4,
+                  "qseq": "SEIQGANQLLE----LFDLGKYFIQREIYPGSKVTHFERLHHK",
+                  "hseq": "SEILRKRQLVEDRNLLVENKKYFKRSELAKKEEEAYFERCGYK",
+                  "midline": "SEI    QL+E    L +  KYF + E+    +  +FER  +K"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|Q79FE1|PPE41_MYCTU",
+                  "accession": "Q79FE1",
+                  "title": "PPE family protein PPE41 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=PPE41 PE=1 SV=1"
+                }
+              ],
+              "len": 194,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 1.28109,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 91,
+                  "query_to": 143,
+                  "hit_from": 85,
+                  "hit_to": 134,
+                  "align_len": 53,
+                  "gaps": 3,
+                  "qseq": "IQREIYPGSKVTHFERLHHKTGVPFSQMVFFDDENRNIIDVGRLGVTCIHIRD",
+                  "hseq": "VERQIH--EIVRAYEWAHHDM-VPLAQIYNNRAERQILIDNNALGQFTAQIAD",
+                  "midline": "++R+I+    V  +E  HH   VP +Q+     E + +ID   LG     I D"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q96T60|PNKP_HUMAN",
+                  "accession": "Q96T60",
+                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
+                }
+              ],
+              "len": 521,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 3.7661,
+                  "identity": 20,
+                  "positive": 26,
+                  "query_from": 6,
+                  "query_to": 62,
+                  "hit_from": 166,
+                  "hit_to": 210,
+                  "align_len": 58,
+                  "gaps": 14,
+                  "qseq": "KLAVFDLDYTLWPFWVDTHVDPPFHKS-SDGTVRDRRGQNIQLYPEVPEVLGRLQSLG",
+                  "hseq": "KVAGFDLDGTL----ITTRSGKVFPTGPSDWRI---------LYPEIPRKLRELEAEG",
+                  "midline": "K+A FDLD TL    + T     F    SD  +         LYPE+P  L  L++ G"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q93HT9|IABN_GEOTD",
+                  "accession": "Q93HT9",
+                  "title": "Intracellular endo-alpha-(1->5)-L-arabinanase OS=Geobacillus thermodenitrificans OX=33940 GN=abn-ts PE=1 SV=1"
+                }
+              ],
+              "len": 313,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 4.74853,
+                  "identity": 21,
+                  "positive": 33,
+                  "query_from": 54,
+                  "query_to": 124,
+                  "hit_from": 232,
+                  "hit_to": 308,
+                  "align_len": 83,
+                  "gaps": 18,
+                  "qseq": "VLGRLQSLGVPVAAASRTSEIQGANQLLELFDLGKYFIQREIYPGSKVTHFERLHH----------KTGVPFSQM--VFFDDE",
+                  "hseq": "AVGRSKDITGPYVDKNGVSMMQGGGTIL---DAGN---DRWIGPGHCAVYFSGVSAILVNHAYDALKNGEPTLQIRPLYWDDE",
+                  "midline": " +GR + +  P    +  S +QG   +L   D G     R I PG    +F  +            K G P  Q+  +++DDE"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|Q8U192|THIE_PYRFU",
+                  "accession": "Q8U192",
+                  "title": "Thiamine-phosphate synthase OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=thiE PE=1 SV=1"
+                }
+              ],
+              "len": 207,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 5.61101,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 19,
+                  "query_to": 50,
+                  "hit_from": 65,
+                  "hit_to": 87,
+                  "align_len": 32,
+                  "gaps": 9,
+                  "qseq": "FWVDTHVDPPFHKSSDGTVRDRRGQNIQLYPE",
+                  "hseq": "FFVDDRVDVALAVDADG---------VQLGPE",
+                  "midline": "F+VD  VD      +DG         +QL PE"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P36924|AMYB_BACCE",
+                  "accession": "P36924",
+                  "title": "Beta-amylase OS=Bacillus cereus OX=1396 GN=spoII PE=1 SV=2"
+                }
+              ],
+              "len": 546,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 7.67794,
+                  "identity": 13,
+                  "positive": 17,
+                  "query_from": 28,
+                  "query_to": 61,
+                  "hit_from": 206,
+                  "hit_to": 238,
+                  "align_len": 34,
+                  "gaps": 1,
+                  "qseq": "PFHKSSDGTVRDRRGQNIQLYPEVPEVLGRLQSL",
+                  "hseq": "PSYTTSDGTGYPSRGK-FQAYTEFAKSKFRLWVL",
+                  "midline": "P + +SDGT    RG+  Q Y E  +   RL  L"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P09394|GLPQ_ECOLI",
+                  "accession": "P09394",
+                  "title": "Glycerophosphodiester phosphodiesterase, periplasmic OS=Escherichia coli (strain K12) OX=83333 GN=glpQ PE=1 SV=2"
+                }
+              ],
+              "len": 358,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 8.17341,
+                  "identity": 6,
+                  "positive": 9,
+                  "query_from": 42,
+                  "query_to": 51,
+                  "hit_from": 163,
+                  "hit_to": 172,
+                  "align_len": 10,
+                  "gaps": 0,
+                  "qseq": "GQNIQLYPEV",
+                  "hseq": "GKNIGIYPEI",
+                  "midline": "G+NI +YPE+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 59,
+            "eff_space": 7391055,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

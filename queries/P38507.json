@@ -1,0 +1,429 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P38507|SPA_STAAU Immunoglobulin G-binding protein A OS=Staphylococcus aureus OX=1280 GN=spa PE=1 SV=1",
+          "query_len": 508,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P38507|SPA_STAAU",
+                  "accession": "P38507",
+                  "title": "Immunoglobulin G-binding protein A OS=Staphylococcus aureus OX=1280 GN=spa PE=1 SV=1"
+                }
+              ],
+              "len": 508,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1000.73,
+                  "score": 2586,
+                  "evalue": 0,
+                  "identity": 508,
+                  "positive": 508,
+                  "query_from": 1,
+                  "query_to": 508,
+                  "hit_from": 1,
+                  "hit_to": 508,
+                  "align_len": 508,
+                  "gaps": 0,
+                  "qseq": "MKKKNIYSIRKLGVGIASVTLGTLLISGGVTPAANAAQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPKADAQQNKFNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPKADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNESQAPKADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPKADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPKEEDNNKPGKEDGNKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDGNKPGKEDGNKPGKEDGNKPGKEDGNGVHVVKPGDTVNDIAKANGTTADKIAADNKLADKNMIKPGQELVVDKKQPANHADANKAQALPETGEENPFIGTTVFGGLSLALGAALLAGRRREL",
+                  "hseq": "MKKKNIYSIRKLGVGIASVTLGTLLISGGVTPAANAAQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPKADAQQNKFNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPKADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNESQAPKADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPKADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPKEEDNNKPGKEDGNKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDGNKPGKEDGNKPGKEDGNKPGKEDGNGVHVVKPGDTVNDIAKANGTTADKIAADNKLADKNMIKPGQELVVDKKQPANHADANKAQALPETGEENPFIGTTVFGGLSLALGAALLAGRRREL",
+                  "midline": "MKKKNIYSIRKLGVGIASVTLGTLLISGGVTPAANAAQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPKADAQQNKFNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPKADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNESQAPKADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPKADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPKEEDNNKPGKEDGNKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDNKKPGKEDGNKPGKEDGNKPGKEDGNKPGKEDGNKPGKEDGNGVHVVKPGDTVNDIAKANGTTADKIAADNKLADKNMIKPGQELVVDKKQPANHADANKAQALPETGEENPFIGTTVFGGLSLALGAALLAGRRREL"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.6538,
+                  "score": 78,
+                  "evalue": 0.00103764,
+                  "identity": 68,
+                  "positive": 134,
+                  "query_from": 52,
+                  "query_to": 308,
+                  "hit_from": 8142,
+                  "hit_to": 8415,
+                  "align_len": 281,
+                  "gaps": 31,
+                  "qseq": "NMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQA--PKADAQQNKFNKDQQS-AFYEILNMPNLNEEQRNGFIQSLKDDPSQSTN-VLGEAKKLNESQAP-KADNNFNKEQ------QNAFYEILNMPNLNEEQRNGFIQSLKDDPS--QSANLLAEAKKLNESQAPKADNKFNKEQQNAFYEILHLPNLNEEQRNGF---IQSLKDDPSQSANLL---AEAKKLNDAQAPKADN-----KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPS",
+                  "hseq": "NLSNLNTPQR----QALENQINNAATRVEVAQKLTEAQALNQAMEALRNSIQDQQQTEAGSKFINEDKPQKDAYQAAVQNAKDLINQTNNPTLDKAQVEQLTQAVNQAKDNLHGDQKLADDKQHAVTDLNQLNGLNNPQRQALESQINNAATRDEVAQKLAEAKALDQAMQALRNSIQDQQQTESGSKFI---NEDKPQKDAYQAAVQNAKDLINQTGNPTLDKAQVEQLTQAVTTAKDNLHGDQKLARDQQQAVTTVNALPNINHAQQQALTDAINAAPT",
+                  "midline": "N+ NLN  QR    Q+L++  + +A  +  AQKL ++QA     +A +N     QQ+ A  + +N     ++     +Q+ KD  +Q+ N  L +A+    +QA  +A +N + +Q      Q+A  ++  +  LN  QR      + +  +  + A  LAEAK L+++     ++  +++Q  +  + +   N ++ Q++ +   +Q+ KD  +Q+ N     A+ ++L  A     DN     K  ++QQ A   +  LPN+   Q+     ++   P+"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 31.187,
+                  "score": 69,
+                  "evalue": 0.0144672,
+                  "identity": 36,
+                  "positive": 76,
+                  "query_from": 99,
+                  "query_to": 252,
+                  "hit_from": 8254,
+                  "hit_to": 8417,
+                  "align_len": 167,
+                  "gaps": 16,
+                  "qseq": "KFNKDQQSAFYEILNMPNLNEEQRNGFIQSL-----KDDPSQSTNVLGEAKKLNESQAPKADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLL---AEAKKLNESQAPKADN-----KFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQS",
+                  "hseq": "KLADDKQHAVTDLNQLNGLNNPQRQALESQINNAATRDEVAQK---LAEAKALDQAMQALRNSIQDQQQTESGSKFINEDKPQKDAYQAAVQNAKDLINQTGNPTLDKAQVEQLTQAVTTAKDNLHGDQKLARDQQQAVTTVNALPNINHAQQQALTDAINAAPTRT",
+                  "midline": "K   D+Q A  ++  +  LN  QR      +     +D+ +Q    L EAK L+++     ++  +++Q  +  + +N     ++     +Q+ KD  +Q+ N     A+ ++L ++     DN     K  ++QQ A   +  LPN+N  Q+     ++   P+++"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 0.538862,
+                  "identity": 59,
+                  "positive": 101,
+                  "query_from": 39,
+                  "query_to": 267,
+                  "hit_from": 7959,
+                  "hit_to": 8176,
+                  "align_len": 246,
+                  "gaps": 45,
+                  "qseq": "HDEAQQNAFYQV--LNMPNLN-----------ADQRNGF--IQSLKDDPSQSANVLGEAQKLNDSQAPKADAQQNKFNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPKADNNFNKEQQNAFYEILNMPN--LNEEQRNGFIQSLKDDPSQSANLLAEAKKLNESQAPKADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQA",
+                  "hseq": "YDEAVQNAESIIAGLNNPTINKGNVSSATQAVTSSKNALDGVERLAQDKQTAGNSLNHLDQLTPAQQQALENQIN--NATTRDKVAEIIAQAQALNEAIKALKESIKDQPQTE----ASSKFINEDQA----------QKDAYTQAVQHAKDLINKTTDPTLAKSIIDQATQA---VTDAKN-----NLHGDQKLAQDKQRATETLNNLSNLNTPQR----QALENQINNAATRVEVAQKLTEAQA",
+                  "midline": "+DEA QNA   +  LN P +N              +N    ++ L  D   + N L    +L  +Q    + Q N  N   +    EI+       E      +S+KD P         +K +NE QA          Q++A+ + +      +N+       +S+ D  +Q+   + +AK          D K  +++Q A   + +L NLN  QR    Q+L++  + +A  +  A+KL +AQA"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 1.37059,
+                  "identity": 77,
+                  "positive": 132,
+                  "query_from": 41,
+                  "query_to": 323,
+                  "hit_from": 8509,
+                  "hit_to": 8807,
+                  "align_len": 312,
+                  "gaps": 42,
+                  "qseq": "EAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQ---SANVLGEAQKLNDSQAPKADAQQNKFNKDQQSAFYEILNMPNLNEEQRNGFIQSLKDDPSQSTNVLGE-AKK----------LNESQAPKADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSL--KDDPSQSANLLAEAKKLNE-----SQAPKADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAE-AKKLNDA-----QAPKADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSK--EILAEAKKLNDA",
+                  "hseq": "EAKTQAKQNIDQLTHLNADQIATAKQNI-DQATQLQPIAELVDQATQLNQSMDQLQQAVNDHTNVEQTVDYTQ------ADSDKQKAYKQAIAD----AENVLKQNANKQQVDQALQNILNAKQALNGDERVALAKTNGKHDIDQLNALNNAQQDGFKGRIDQSNDLNQIQQIVDEAKALNRAMDQLSEEITGNEGRTKGSTNYVNADTQVKQVYDEAVDKAKQAL--DKSTGQNLTAEQVIKLNDAVTAAKQALNGEERLNNRKSEALQRLDQLTHLNNAQRQLAIQQINNAETLNKASRAINRATKLDNA",
+                  "midline": "EA+  A   +  + +LNADQ     Q++ D  +Q    A ++ +A +LN S      A  +  N +Q   + +       + +++  + Q++ D    + NVL + A K          LN  QA   D      + N  ++I  +  LN  Q++GF   +   +D +Q   ++ EAK LN      S+    +    K   N       +  + +E  +   Q+L  D S   NL AE   KLNDA     QA   + + N  +  A   +  L +L   QR   IQ + +  +++K    +  A KL++A"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 2.2043,
+                  "identity": 32,
+                  "positive": 61,
+                  "query_from": 103,
+                  "query_to": 245,
+                  "hit_from": 3106,
+                  "hit_to": 3258,
+                  "align_len": 157,
+                  "gaps": 18,
+                  "qseq": "DQQSAFYEILNMPNLNEEQRNGFIQSLKDDPSQS------TNVLGEAKKLNESQAPKADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNESQAPKADNK--------FNKEQQNAFYEILHLPNLNEEQRNGFIQSL",
+                  "hseq": "DRQPALTTLHGASNLNQAQQNNFTQQINAAQNHAALETIKSNITALNTAMTKLKDSVADNNTIKSGQN----YTDATPANKQAYDNAVNAAKGVIGETTNPTMDVNTVNQKAASVKSTKDALDGQQNLQRAKTEATNAITHASDLNQAQKNALTQQV",
+                  "midline": "D+Q A   +    NLN+ Q+N F Q +    + +      +N+      + + +   ADNN  K  QN      +    N++  +  + + K    ++ N   +   +N+  A     K          + +  A   I H  +LN+ Q+N   Q +"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 2.50347,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 157,
+                  "query_to": 183,
+                  "hit_from": 6743,
+                  "hit_to": 6769,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "NFNKEQQNAFYEILNMPNLNEEQRNGF",
+                  "hseq": "NLATAKQNVQHAIDQLPNLNQAQRDEY",
+                  "midline": "N    +QN  + I  +PNLN+ QR+ +"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 3.63632,
+                  "identity": 45,
+                  "positive": 82,
+                  "query_from": 150,
+                  "query_to": 329,
+                  "hit_from": 7744,
+                  "hit_to": 7903,
+                  "align_len": 189,
+                  "gaps": 38,
+                  "qseq": "QAPKADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNESQAPKADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSAN--LLAEAK--KLNDAQAPKADNKFNKEQQ-----NAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPKEE",
+                  "hseq": "QALNGDHNLQVAKTNATQAIDALTSLNDPQKT----ALKDQVT-AATLVTAVHQI-------------EQNANTLNQAMH----------GLRQSIQDNAATKANSKYINEDQPEKQNYDQAVQAANNIINEQTATLDNNAINQAAATVNTTKAALHGDVK-LQNDKDHAKQTVSQLAHLNNAQKHMED",
+                  "midline": "QA   D+N    + NA   I  + +LN+ Q+     +LKD  + +A L+    ++             ++  N   + +H          G  QS++D+ +  AN   + E +  K N  QA +A N    EQ      NA  +     N T+   +G ++ L++D   +K+ +++   LN+AQ   E+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P74881|PUR4_SALTY",
+                  "accession": "P74881",
+                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                }
+              ],
+              "len": 1295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 0.151039,
+                  "identity": 16,
+                  "positive": 32,
+                  "query_from": 212,
+                  "query_to": 283,
+                  "hit_from": 625,
+                  "hit_to": 691,
+                  "align_len": 72,
+                  "gaps": 5,
+                  "qseq": "ADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPKADNKFNKEQQNAFY",
+                  "hseq": "ALNRADITIADAVKRVLHLPTVAEKT---FLVTIGD--RTVTGMVARDQMVGPWQVPVADCAVTTASLDSYY",
+                  "midline": "A N+ +    +A   +LHLP + E+    F+ ++ D       ++A  + +   Q P AD        +++Y"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P83772|CRNA_PSEPU",
+                  "accession": "P83772",
+                  "title": "Creatinine amidohydrolase OS=Pseudomonas putida OX=303 GN=crnA PE=1 SV=1"
+                }
+              ],
+              "len": 260,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 0.896172,
+                  "identity": 16,
+                  "positive": 19,
+                  "query_from": 398,
+                  "query_to": 437,
+                  "hit_from": 66,
+                  "hit_to": 103,
+                  "align_len": 40,
+                  "gaps": 2,
+                  "qseq": "PGKEDGNKPGKEDGNGVHVVKPGDTVNDIAKANGTTADKI",
+                  "hseq": "PGLQYGYKSQQKSGGGNHF--PGTTSLDGATLTGTVQDII",
+                  "midline": "PG + G K  ++ G G H   PG T  D A   GT  D I"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "tr|A9CIQ1|A9CIQ1_AGRFC",
+                  "accession": "A9CIQ1",
+                  "title": "HTH cro/C1-type domain-containing protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu1735 PE=1 SV=1"
+                }
+              ],
+              "len": 95,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 5.61376,
+                  "identity": 12,
+                  "positive": 20,
+                  "query_from": 189,
+                  "query_to": 227,
+                  "hit_from": 15,
+                  "hit_to": 53,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "DDPSQSANLLAEAKKLNESQAPKADNKFNKEQQNAFYEI",
+                  "hseq": "DNPPLSAEQLASAPRMPRIKIIRRALKLTQEEFSARYHI",
+                  "midline": "D+P  SA  LA A ++   +  +   K  +E+ +A Y I"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 7.34375,
+                  "identity": 12,
+                  "positive": 20,
+                  "query_from": 247,
+                  "query_to": 285,
+                  "hit_from": 15,
+                  "hit_to": 53,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "DDPSQSANLLAEAKKLNDAQAPKADNKFNKEQQNAFYEI",
+                  "hseq": "DNPPLSAEQLASAPRMPRIKIIRRALKLTQEEFSARYHI",
+                  "midline": "D+P  SA  LA A ++   +  +   K  +E+ +A Y I"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P00655|RNAS_ASPGI",
+                  "accession": "P00655",
+                  "title": "Ribonuclease alpha-sarcin OS=Aspergillus giganteus OX=5060 GN=sar PE=1 SV=2"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 5.7867,
+                  "identity": 24,
+                  "positive": 32,
+                  "query_from": 322,
+                  "query_to": 379,
+                  "hit_from": 86,
+                  "hit_to": 145,
+                  "align_len": 63,
+                  "gaps": 8,
+                  "qseq": "DAQAPKEEDNNKPGKEDGNKPGKE--DGNKPGKEDN---KKPGKEDGNKPGKEDNKKPGKEDG",
+                  "hseq": "DGKLPKGRTPIKFGKSDCDRPPKHSKDGN--GKTDHYLLEFPTFPDGHD-YKFDSKKPKENPG",
+                  "midline": "D + PK     K GK D ++P K   DGN  GK D+   + P   DG+   K D+KKP +  G"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P36924|AMYB_BACCE",
+                  "accession": "P36924",
+                  "title": "Beta-amylase OS=Bacillus cereus OX=1396 GN=spoII PE=1 SV=2"
+                }
+              ],
+              "len": 546,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 6.84067,
+                  "identity": 13,
+                  "positive": 19,
+                  "query_from": 190,
+                  "query_to": 227,
+                  "hit_from": 38,
+                  "hit_to": 76,
+                  "align_len": 39,
+                  "gaps": 1,
+                  "qseq": "DPSQSANLLAEAKKLNE-SQAPKADNKFNKEQQNAFYEI",
+                  "hseq": "NPDYKAYLMAPLKKIPEVTNWETFENDLRWAKQNGFYAI",
+                  "midline": "+P   A L+A  KK+ E +     +N     +QN FY I"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P07327|ADH1A_HUMAN",
+                  "accession": "P07327",
+                  "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
+                }
+              ],
+              "len": 375,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 8.10369,
+                  "identity": 10,
+                  "positive": 11,
+                  "query_from": 411,
+                  "query_to": 427,
+                  "hit_from": 78,
+                  "hit_to": 94,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "GNGVHVVKPGDTVNDIA",
+                  "hseq": "GEGVTTVKPGDKVIPLA",
+                  "midline": "G GV  VKPGD V  +A"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|Q15797|SMAD1_HUMAN",
+                  "accession": "Q15797",
+                  "title": "Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1"
+                }
+              ],
+              "len": 465,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 8.52679,
+                  "identity": 13,
+                  "positive": 19,
+                  "query_from": 332,
+                  "query_to": 382,
+                  "hit_from": 186,
+                  "hit_to": 241,
+                  "align_len": 56,
+                  "gaps": 5,
+                  "qseq": "NKPGKEDGNKPGKEDGNKPGKEDNKKPGK-----EDGNKPGKEDNKKPGKEDGNKP",
+                  "hseq": "HSPNSSYPNSPGSSSSTYPHSPTSSDPGSPFQMPADTPPPAYLPPEDPMTQDGSQP",
+                  "midline": "+ P     N PG      P    +  PG       D   P     + P  +DG++P"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 69,
+            "eff_space": 29984139,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

@@ -1,0 +1,250 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q99633|PRP18_HUMAN Pre-mRNA-splicing factor 18 OS=Homo sapiens OX=9606 GN=PRPF18 PE=1 SV=1",
+          "query_len": 342,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q99633|PRP18_HUMAN",
+                  "accession": "Q99633",
+                  "title": "Pre-mRNA-splicing factor 18 OS=Homo sapiens OX=9606 GN=PRPF18 PE=1 SV=1"
+                }
+              ],
+              "len": 342,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 701.819,
+                  "score": 1810,
+                  "evalue": 0,
+                  "identity": 342,
+                  "positive": 342,
+                  "query_from": 1,
+                  "query_to": 342,
+                  "hit_from": 1,
+                  "hit_to": 342,
+                  "align_len": 342,
+                  "gaps": 0,
+                  "qseq": "MDILKSEILRKRQLVEDRNLLVENKKYFKRSELAKKEEEAYFERCGYKIQPKEEDQKPLTSSNPVLELELAEEKLPMTLSRQEVIRRLRERGEPIRLFGETDYDAFQRLRKIEILTPEVNKGLRNDLKAALDKIDQQYLNEIVGGQEPGEEDTQNDLKVHEENTTIEELEALGESLGKGDDHKDMDIITKFLKFLLGVWAKELNAREDYVKRSVQGKLNSATQKQTESYLRPLFRKLRKRNLPADIKESITDIIKFMLQREYVKANDAYLQMAIGNAPWPIGVTMVGIHARTGREKIFSKHVAHVLNDETQRKYIQGLKRLMTICQKHFPTDPSKCVEYNAL",
+                  "hseq": "MDILKSEILRKRQLVEDRNLLVENKKYFKRSELAKKEEEAYFERCGYKIQPKEEDQKPLTSSNPVLELELAEEKLPMTLSRQEVIRRLRERGEPIRLFGETDYDAFQRLRKIEILTPEVNKGLRNDLKAALDKIDQQYLNEIVGGQEPGEEDTQNDLKVHEENTTIEELEALGESLGKGDDHKDMDIITKFLKFLLGVWAKELNAREDYVKRSVQGKLNSATQKQTESYLRPLFRKLRKRNLPADIKESITDIIKFMLQREYVKANDAYLQMAIGNAPWPIGVTMVGIHARTGREKIFSKHVAHVLNDETQRKYIQGLKRLMTICQKHFPTDPSKCVEYNAL",
+                  "midline": "MDILKSEILRKRQLVEDRNLLVENKKYFKRSELAKKEEEAYFERCGYKIQPKEEDQKPLTSSNPVLELELAEEKLPMTLSRQEVIRRLRERGEPIRLFGETDYDAFQRLRKIEILTPEVNKGLRNDLKAALDKIDQQYLNEIVGGQEPGEEDTQNDLKVHEENTTIEELEALGESLGKGDDHKDMDIITKFLKFLLGVWAKELNAREDYVKRSVQGKLNSATQKQTESYLRPLFRKLRKRNLPADIKESITDIIKFMLQREYVKANDAYLQMAIGNAPWPIGVTMVGIHARTGREKIFSKHVAHVLNDETQRKYIQGLKRLMTICQKHFPTDPSKCVEYNAL"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q9D967|MGDP1_MOUSE",
+                  "accession": "Q9D967",
+                  "title": "Magnesium-dependent phosphatase 1 OS=Mus musculus OX=10090 GN=Mdp1 PE=1 SV=1"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 1.26397,
+                  "identity": 15,
+                  "positive": 22,
+                  "query_from": 6,
+                  "query_to": 48,
+                  "hit_from": 72,
+                  "hit_to": 110,
+                  "align_len": 43,
+                  "gaps": 4,
+                  "qseq": "SEILRKRQLVEDRNLLVENKKYFKRSELAKKEEEAYFERCGYK",
+                  "hseq": "SEIQGANQLLE----LFDLGKYFIQREIYPGSKVTHFERLHHK",
+                  "midline": "SEI    QL+E    L +  KYF + E+    +  +FER  +K"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "tr|Q7X0F0|Q7X0F0_AERHY",
+                  "accession": "Q7X0F0",
+                  "title": "C.AhdI OS=Aeromonas hydrophila OX=644 GN=ahdIC PE=1 SV=1"
+                }
+              ],
+              "len": 74,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 1.54129,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 107,
+                  "query_to": 152,
+                  "hit_from": 16,
+                  "hit_to": 52,
+                  "align_len": 46,
+                  "gaps": 9,
+                  "qseq": "QRLRKIEILTPEVNKGLRNDLKAALDKIDQQYLNEIVGGQEPGEED",
+                  "hseq": "QRLRELR-----TAKGLSQETLAFLSGLDRSY----VGGVERGQRN",
+                  "midline": "QRLR++        KGL  +  A L  +D+ Y    VGG E G+ +"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|Q9HIW7|OTSBH_THEAC",
+                  "accession": "Q9HIW7",
+                  "title": "Trehalose-6-phosphate phosphatase-related protein OS=Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=Ta1209 PE=1 SV=1"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 2.0027,
+                  "identity": 38,
+                  "positive": 53,
+                  "query_from": 87,
+                  "query_to": 202,
+                  "hit_from": 127,
+                  "hit_to": 229,
+                  "align_len": 125,
+                  "gaps": 31,
+                  "qseq": "RLRERGEPI-RLFG-ETDYDAFQRLRKIEILTPEVNKGLRNDLKAALDKIDQQYLNEIVGGQEPGEEDTQNDLKVHEENTTIEELEALGESLGKGDDHKDMDI-----ITKFLKF--LLGVWAKE",
+                  "hseq": "KLRSRIEEIARIFGVETYYGKMI----IELRVPGVNKG------SAIRSVRGERPAIIAG-------DDATDEAAFEAND-----DALTIKVGEGETHAKFHVADYIEMRKILKFIEMLGVQKKQ",
+                  "midline": "+LR R E I R+FG ET Y        IE+  P VNKG      +A+  +  +    I G       D   D    E N      +AL   +G+G+ H    +     + K LKF  +LGV  K+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P00282|AZUR_PSEAE",
+                  "accession": "P00282",
+                  "title": "Azurin OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=azu PE=1 SV=2"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 5.5936,
+                  "identity": 8,
+                  "positive": 17,
+                  "query_from": 244,
+                  "query_to": 268,
+                  "hit_from": 74,
+                  "hit_to": 98,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "ADIKESITDIIKFMLQREYVKANDA",
+                  "hseq": "ADMQGVVTDGMASGLDKDYLKPDDS",
+                  "midline": "AD++  +TD +   L ++Y+K +D+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P32589|HSP7F_YEAST",
+                  "accession": "P32589",
+                  "title": "Heat shock protein homolog SSE1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSE1 PE=1 SV=4"
+                }
+              ],
+              "len": 693,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 8.1661,
+                  "identity": 8,
+                  "positive": 8,
+                  "query_from": 318,
+                  "query_to": 329,
+                  "hit_from": 221,
+                  "hit_to": 232,
+                  "align_len": 12,
+                  "gaps": 0,
+                  "qseq": "LKRLMTICQKHF",
+                  "hseq": "LKVLGTACDKHF",
+                  "midline": "LK L T C KHF"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P60472|UPPS_ECOLI",
+                  "accession": "P60472",
+                  "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Escherichia coli (strain K12) OX=83333 GN=ispU PE=1 SV=1"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 9.2817,
+                  "identity": 13,
+                  "positive": 23,
+                  "query_from": 105,
+                  "query_to": 151,
+                  "hit_from": 210,
+                  "hit_to": 251,
+                  "align_len": 47,
+                  "gaps": 5,
+                  "qseq": "AFQRLRKIEILTPEVNKGLRNDLKAALDKIDQQYLNEIVGGQEPGEE",
+                  "hseq": "AYAELYFTDVLWPDFDE---QDFEGALNAFANR--ERRFGGTEPGDE",
+                  "midline": "A+  L   ++L P+ ++    D + AL+    +      GG EPG+E"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 66,
+            "eff_space": 19024128,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

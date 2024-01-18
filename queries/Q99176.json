@@ -1,0 +1,340 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q99176|SRN2_YEAST Protein SRN2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SRN2 PE=1 SV=1",
+          "query_len": 213,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q99176|SRN2_YEAST",
+                  "accession": "Q99176",
+                  "title": "Protein SRN2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SRN2 PE=1 SV=1"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 436.032,
+                  "score": 1120,
+                  "evalue": 1.86332e-160,
+                  "identity": 213,
+                  "positive": 213,
+                  "query_from": 1,
+                  "query_to": 213,
+                  "hit_from": 1,
+                  "hit_to": 213,
+                  "align_len": 213,
+                  "gaps": 0,
+                  "qseq": "MKVKATKLRIKQRRKNKGLNISRLDIIRAEMDVVPSPGLPEKVNEKSKNIPLPEGINLLSSKEIIDLIQTHRHQLELYVTKFNPLTDFAGKIHAFRDQFKQLEENFEDLHEQKDKVQALLENCRILESKYVASWQDYHSEFSKKYGDIALKKKLEQNTKKLDEESSQLETTTRSIDSADDLDQFIKNYLDIRTQYHLRREKLATWDKQGNLKY",
+                  "hseq": "MKVKATKLRIKQRRKNKGLNISRLDIIRAEMDVVPSPGLPEKVNEKSKNIPLPEGINLLSSKEIIDLIQTHRHQLELYVTKFNPLTDFAGKIHAFRDQFKQLEENFEDLHEQKDKVQALLENCRILESKYVASWQDYHSEFSKKYGDIALKKKLEQNTKKLDEESSQLETTTRSIDSADDLDQFIKNYLDIRTQYHLRREKLATWDKQGNLKY",
+                  "midline": "MKVKATKLRIKQRRKNKGLNISRLDIIRAEMDVVPSPGLPEKVNEKSKNIPLPEGINLLSSKEIIDLIQTHRHQLELYVTKFNPLTDFAGKIHAFRDQFKQLEENFEDLHEQKDKVQALLENCRILESKYVASWQDYHSEFSKKYGDIALKKKLEQNTKKLDEESSQLETTTRSIDSADDLDQFIKNYLDIRTQYHLRREKLATWDKQGNLKY"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "tr|O67135|O67135_AQUAE",
+                  "accession": "O67135",
+                  "title": "Acetoin utilization protein AcuC OS=Aquifex aeolicus (strain VF5) OX=224324 GN=acuC1 PE=1 SV=1"
+                }
+              ],
+              "len": 375,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 1.65611,
+                  "identity": 17,
+                  "positive": 27,
+                  "query_from": 49,
+                  "query_to": 83,
+                  "hit_from": 219,
+                  "hit_to": 269,
+                  "align_len": 51,
+                  "gaps": 16,
+                  "qseq": "NIPLPEGIN-------LLSSKEII-DLIQTHRHQLEL--------YVTKFN",
+                  "hseq": "NIPLPKGLNDNEFLFALEKSLEIVKEVFEPEVYLLQLGTDPLLEDYLSKFN",
+                  "midline": "NIPLP+G+N       L  S EI+ ++ +   + L+L        Y++KFN"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P40818|UBP8_HUMAN",
+                  "accession": "P40818",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                }
+              ],
+              "len": 1118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 2.93748,
+                  "identity": 8,
+                  "positive": 12,
+                  "query_from": 196,
+                  "query_to": 213,
+                  "hit_from": 238,
+                  "hit_to": 255,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "HLRREKLATWDKQGNLKY",
+                  "hseq": "HLPDDSKDTWKKRGNVEY",
+                  "midline": "HL  +   TW K+GN++Y"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P14775|DHM2_METEA",
+                  "accession": "P14775",
+                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxI PE=1 SV=1"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 4.35425,
+                  "identity": 6,
+                  "positive": 7,
+                  "query_from": 35,
+                  "query_to": 43,
+                  "hit_from": 37,
+                  "hit_to": 45,
+                  "align_len": 9,
+                  "gaps": 0,
+                  "qseq": "PSPGLPEKV",
+                  "hseq": "PKPGFPEKI",
+                  "midline": "P PG PEK+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q9JLV6|PNKP_MOUSE",
+                  "accession": "Q9JLV6",
+                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
+                }
+              ],
+              "len": 522,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 4.62675,
+                  "identity": 7,
+                  "positive": 13,
+                  "query_from": 184,
+                  "query_to": 207,
+                  "hit_from": 380,
+                  "hit_to": 403,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "FIKNYLDIRTQYHLRREKLATWDK",
+                  "hseq": "FIQEHLVSAGYVHVNRDTLGSWQR",
+                  "midline": "FI+ +L      H+ R+ L +W +"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P00787|CATB_RAT",
+                  "accession": "P00787",
+                  "title": "Cathepsin B OS=Rattus norvegicus OX=10116 GN=Ctsb PE=1 SV=2"
+                }
+              ],
+              "len": 339,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 5.0768,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 33,
+                  "query_to": 54,
+                  "hit_from": 62,
+                  "hit_to": 82,
+                  "align_len": 22,
+                  "gaps": 1,
+                  "qseq": "VVPSPGLPEKVNEKSKNIPLPE",
+                  "hseq": "VLGGPNLPERVG-FSEDINLPE",
+                  "midline": "V+  P LPE+V   S++I LPE"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|Q96T60|PNKP_HUMAN",
+                  "accession": "Q96T60",
+                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
+                }
+              ],
+              "len": 521,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 5.14244,
+                  "identity": 7,
+                  "positive": 13,
+                  "query_from": 184,
+                  "query_to": 207,
+                  "hit_from": 381,
+                  "hit_to": 404,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "FIKNYLDIRTQYHLRREKLATWDK",
+                  "hseq": "FLKKHLVSAGYVHVNRDTLGSWQR",
+                  "midline": "F+K +L      H+ R+ L +W +"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P69328|AMYG_ASPNG",
+                  "accession": "P69328",
+                  "title": "Glucoamylase OS=Aspergillus niger OX=5061 GN=GLAA PE=1 SV=1"
+                }
+              ],
+              "len": 640,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 5.77439,
+                  "identity": 7,
+                  "positive": 10,
+                  "query_from": 200,
+                  "query_to": 212,
+                  "hit_from": 354,
+                  "hit_to": 366,
+                  "align_len": 13,
+                  "gaps": 0,
+                  "qseq": "EKLATWDKQGNLK",
+                  "hseq": "DALYQWDKQGSLE",
+                  "midline": "+ L  WDKQG+L+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P18887|XRCC1_HUMAN",
+                  "accession": "P18887",
+                  "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
+                }
+              ],
+              "len": 633,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 6.29987,
+                  "identity": 11,
+                  "positive": 20,
+                  "query_from": 44,
+                  "query_to": 83,
+                  "hit_from": 528,
+                  "hit_to": 570,
+                  "align_len": 43,
+                  "gaps": 3,
+                  "qseq": "NEKSKNIPLPEGINLLSSKEII---DLIQTHRHQLELYVTKFN",
+                  "hseq": "HQEPPDLPVPELPDFFQGKHFFLYGEFPGDERRKLIRYVTAFN",
+                  "midline": "+++  ++P+PE  +    K      +     R +L  YVT FN"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|P0A6Z1|HSCA_ECOLI",
+                  "accession": "P0A6Z1",
+                  "title": "Chaperone protein HscA OS=Escherichia coli (strain K12) OX=83333 GN=hscA PE=1 SV=1"
+                }
+              ],
+              "len": 616,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 8.62838,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 24,
+                  "query_to": 52,
+                  "hit_from": 389,
+                  "hit_to": 417,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "LDIIRAEMDVVPSPGLPEKVNEKSKNIPL",
+                  "hseq": "LDVIPLSLGLETMGGLVEKVIPRNTTIPV",
+                  "midline": "LD+I   + +    GL EKV  ++  IP+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 62,
+            "eff_space": 10534364,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

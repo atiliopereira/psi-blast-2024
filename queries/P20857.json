@@ -1,0 +1,280 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P20857|THIO2_NOSS1 Thioredoxin 2 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=trxB PE=1 SV=3",
+          "query_len": 111,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P20857|THIO2_NOSS1",
+                  "accession": "P20857",
+                  "title": "Thioredoxin 2 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=trxB PE=1 SV=3"
+                }
+              ],
+              "len": 111,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.794,
+                  "score": 582,
+                  "evalue": 9.08311e-82,
+                  "identity": 111,
+                  "positive": 111,
+                  "query_from": 1,
+                  "query_to": 111,
+                  "hit_from": 1,
+                  "hit_to": 111,
+                  "align_len": 111,
+                  "gaps": 0,
+                  "qseq": "MSKGVITITDAEFESEVLKAEQPVLVYFWASWCGPCQLMSPLINLAANTYSDRLKVVKLEIDPNPTTVKKYKVEGVPALRLVKGEQILDSTEGVISKDKLLSFLDTHLNNN",
+                  "hseq": "MSKGVITITDAEFESEVLKAEQPVLVYFWASWCGPCQLMSPLINLAANTYSDRLKVVKLEIDPNPTTVKKYKVEGVPALRLVKGEQILDSTEGVISKDKLLSFLDTHLNNN",
+                  "midline": "MSKGVITITDAEFESEVLKAEQPVLVYFWASWCGPCQLMSPLINLAANTYSDRLKVVKLEIDPNPTTVKKYKVEGVPALRLVKGEQILDSTEGVISKDKLLSFLDTHLNNN"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P0AA25|THIO_ECOLI",
+                  "accession": "P0AA25",
+                  "title": "Thioredoxin 1 OS=Escherichia coli (strain K12) OX=83333 GN=trxA PE=1 SV=2"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 107.071,
+                  "score": 266,
+                  "evalue": 1.20649e-33,
+                  "identity": 47,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 108,
+                  "hit_from": 1,
+                  "hit_to": 108,
+                  "align_len": 108,
+                  "gaps": 0,
+                  "qseq": "MSKGVITITDAEFESEVLKAEQPVLVYFWASWCGPCQLMSPLINLAANTYSDRLKVVKLEIDPNPTTVKKYKVEGVPALRLVKGEQILDSTEGVISKDKLLSFLDTHL",
+                  "hseq": "MSDKIIHLTDDSFDTDVLKADGAILVDFWAEWCGPCKMIAPILDEIADEYQGKLTVAKLNIDQNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQLKEFLDANL",
+                  "midline": "MS  +I +TD  F+++VLKA+  +LV FWA WCGPC++++P+++  A+ Y  +L V KL ID NP T  KY + G+P L L K  ++  +  G +SK +L  FLD +L"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P80028|TRXH_CHLRE",
+                  "accession": "P80028",
+                  "title": "Thioredoxin H-type OS=Chlamydomonas reinhardtii OX=3055 GN=TRXH PE=1 SV=3"
+                }
+              ],
+              "len": 113,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.6766,
+                  "score": 117,
+                  "evalue": 3.3177e-11,
+                  "identity": 30,
+                  "positive": 60,
+                  "query_from": 1,
+                  "query_to": 107,
+                  "hit_from": 1,
+                  "hit_to": 110,
+                  "align_len": 111,
+                  "gaps": 5,
+                  "qseq": "MSKGVITI-TDAEFESEVLKAEQ---PVLVYFWASWCGPCQLMSPLINLAANTYSDRLKVVKLEIDPNPTTVKKYKVEGVPALRLVKGEQILDSTEGVISKDKLLSFLDTH",
+                  "hseq": "MGGSVIVIDSKAAWDAQLAKGKEEHKPIVVDFTATWCGPCKMIAPLFETLSNDYAGKVIFLKVDVDAVAAVAEAAGITAMPTFHVYKDGVKADDLVGA-SQDKLKALVAKH",
+                  "midline": "M   VI I + A +++++ K ++   P++V F A+WCGPC++++PL    +N Y+ ++  +K+++D      +   +  +P   + K     D   G  S+DKL + +  H"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|Q9CQM5|TXD17_MOUSE",
+                  "accession": "Q9CQM5",
+                  "title": "Thioredoxin domain-containing protein 17 OS=Mus musculus OX=10090 GN=Txndc17 PE=1 SV=1"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 0.086142,
+                  "identity": 20,
+                  "positive": 32,
+                  "query_from": 12,
+                  "query_to": 79,
+                  "hit_from": 14,
+                  "hit_to": 96,
+                  "align_len": 83,
+                  "gaps": 15,
+                  "qseq": "EFESEVLKAE-QPVLVYFWAS-------WCGPCQLMSPLINLAANTYSDRLKVVKLEI-------DPNPTTVKKYKVEGVPAL",
+                  "hseq": "EFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTL",
+                  "midline": "EF+  V + E + +  YF  S       WC  C    P+I       ++    +  ++       DPN    +K K+  VP L"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q9BRA2|TXD17_HUMAN",
+                  "accession": "Q9BRA2",
+                  "title": "Thioredoxin domain-containing protein 17 OS=Homo sapiens OX=9606 GN=TXNDC17 PE=1 SV=1"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 0.102654,
+                  "identity": 15,
+                  "positive": 21,
+                  "query_from": 31,
+                  "query_to": 79,
+                  "hit_from": 41,
+                  "hit_to": 96,
+                  "align_len": 56,
+                  "gaps": 7,
+                  "qseq": "SWCGPCQLMSPLINLAANTYSDRLKVVKLEI-------DPNPTTVKKYKVEGVPAL",
+                  "hseq": "SWCPDCVQAEPVVREGLKHISEGCVFIYCQVGEKPYWKDPNNDFRKNLKVTAVPTL",
+                  "midline": "SWC  C    P++       S+    +  ++       DPN    K  KV  VP L"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P07206|PULA_KLEPN",
+                  "accession": "P07206",
+                  "title": "Pullulanase OS=Klebsiella pneumoniae OX=573 GN=pulA PE=1 SV=2"
+                }
+              ],
+              "len": 1090,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 4.36266,
+                  "identity": 14,
+                  "positive": 21,
+                  "query_from": 16,
+                  "query_to": 55,
+                  "hit_from": 699,
+                  "hit_to": 744,
+                  "align_len": 46,
+                  "gaps": 6,
+                  "qseq": "EVLKAEQPVLVYFWASWCGPCQ---LMSPLINLAA---NTYSDRLK",
+                  "hseq": "ERIKALNPDIYFFGEGWDSNQSDRFEIASQINLKGTGIGTFSDRLR",
+                  "midline": "E +KA  P + +F   W         ++  INL      T+SDRL+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|O33840|PULA_THEMA",
+                  "accession": "O33840",
+                  "title": "Pullulanase OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=pulA PE=1 SV=2"
+                }
+              ],
+              "len": 843,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 5.60385,
+                  "identity": 8,
+                  "positive": 15,
+                  "query_from": 77,
+                  "query_to": 104,
+                  "hit_from": 749,
+                  "hit_to": 776,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "PALRLVKGEQILDSTEGVISKDKLLSFL",
+                  "hseq": "PAFRLKNAEEIKKHLEFLPGGRRIVAFM",
+                  "midline": "PA RL   E+I    E +    ++++F+"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P43593|UBP6_YEAST",
+                  "accession": "P43593",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
+                }
+              ],
+              "len": 499,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 8.41546,
+                  "identity": 11,
+                  "positive": 17,
+                  "query_from": 43,
+                  "query_to": 75,
+                  "hit_from": 19,
+                  "hit_to": 51,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "INLAANTYSDRLKVVKLEIDPNPTTVKKYKVEG",
+                  "hseq": "ITLSTDATSADLKSKAEELTQVPSARQKYMVKG",
+                  "midline": "I L+ +  S  LK    E+   P+  +KY V+G"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 55,
+            "eff_space": 3988712,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

@@ -1,0 +1,190 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "tr|Q57265|Q57265_NEIME Capsule biosynthesis protein OS=Neisseria meningitidis OX=487 GN=synC PE=1 SV=1",
+          "query_len": 349,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "tr|Q57265|Q57265_NEIME",
+                  "accession": "Q57265",
+                  "title": "Capsule biosynthesis protein OS=Neisseria meningitidis OX=487 GN=synC PE=1 SV=1"
+                }
+              ],
+              "len": 349,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 721.079,
+                  "score": 1860,
+                  "evalue": 0,
+                  "identity": 349,
+                  "positive": 349,
+                  "query_from": 1,
+                  "query_to": 349,
+                  "hit_from": 1,
+                  "hit_to": 349,
+                  "align_len": 349,
+                  "gaps": 0,
+                  "qseq": "MQNNNEFKIGNRSVGYNHEPLIICEIGINHEGSLKTAFEMVDAAYNAGAEVVKHQTHIVEDEMSDEAKQVIPGNADVSIYEIMERCALNEEDEIKLKEYVESKGMIFISTPFSRAAALRLQRMDIPAYKIGSGECNNYPLIKLVASFGKPIILSTGMNSIESIKKSVEIIREAGVPYALLHCTNIYPTPYEDVRLGGMNDLSEAFPDAIIGLSDHTLDNYACLGAVALGGSILERHFTDRMDRPGPDIVCSMNPDTFKELKQGAHALKLARGGKKDTIIAGEKPTKDFAFASVVADKDIKKGELLSGDNLWVKRPGNGDFSVNEYETLFGKVAACNIRKGAQIKKTDIE",
+                  "hseq": "MQNNNEFKIGNRSVGYNHEPLIICEIGINHEGSLKTAFEMVDAAYNAGAEVVKHQTHIVEDEMSDEAKQVIPGNADVSIYEIMERCALNEEDEIKLKEYVESKGMIFISTPFSRAAALRLQRMDIPAYKIGSGECNNYPLIKLVASFGKPIILSTGMNSIESIKKSVEIIREAGVPYALLHCTNIYPTPYEDVRLGGMNDLSEAFPDAIIGLSDHTLDNYACLGAVALGGSILERHFTDRMDRPGPDIVCSMNPDTFKELKQGAHALKLARGGKKDTIIAGEKPTKDFAFASVVADKDIKKGELLSGDNLWVKRPGNGDFSVNEYETLFGKVAACNIRKGAQIKKTDIE",
+                  "midline": "MQNNNEFKIGNRSVGYNHEPLIICEIGINHEGSLKTAFEMVDAAYNAGAEVVKHQTHIVEDEMSDEAKQVIPGNADVSIYEIMERCALNEEDEIKLKEYVESKGMIFISTPFSRAAALRLQRMDIPAYKIGSGECNNYPLIKLVASFGKPIILSTGMNSIESIKKSVEIIREAGVPYALLHCTNIYPTPYEDVRLGGMNDLSEAFPDAIIGLSDHTLDNYACLGAVALGGSILERHFTDRMDRPGPDIVCSMNPDTFKELKQGAHALKLARGGKKDTIIAGEKPTKDFAFASVVADKDIKKGELLSGDNLWVKRPGNGDFSVNEYETLFGKVAACNIRKGAQIKKTDIE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P39625|SPSE_BACSU",
+                  "accession": "P39625",
+                  "title": "Spore coat polysaccharide biosynthesis protein SpsE OS=Bacillus subtilis (strain 168) OX=224308 GN=spsE PE=1 SV=1"
+                }
+              ],
+              "len": 373,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 165.622,
+                  "score": 418,
+                  "evalue": 4.02255e-50,
+                  "identity": 121,
+                  "positive": 167,
+                  "query_from": 7,
+                  "query_to": 317,
+                  "hit_from": 4,
+                  "hit_to": 330,
+                  "align_len": 334,
+                  "gaps": 30,
+                  "qseq": "FKIGNRSVGYNHEPLIICEIGINHEGSLKTAFEMVDAAYNAGAEVVKHQTHIVEDEMSDEAKQVIPG------NADVSIYEIMERCALNEEDEIKLKEYVESKGMIFISTPFSRAAALRLQRMDIPAYKIGSGECNNYPLIKLVASFGKPIILSTGMNSIESIKKSVEIIR-EAGVPYALLHCTNIYPTPYEDVRLGGMNDLSEAFPDAIIGLSDHT-LDNYACLGAVALGGSILERHFTDRMDRPGPDIVCSMNPDTFK-----------ELKQG----AHALKLARGGKKDTIIAGEKPTKDFAFASVVADKDIKKGELLSGDNLWVKRPGN",
+                  "hseq": "FQIANKTVGKDAPVFIIAEAGINHDGKLDQAFALIDAAAEAGADAVKFQMF-----QADRMYQKDPGLYKTAAGKDVSIFSLVQSMEMPAEWILPLLDYCREKQVIFLSTVCDEGSADLLQSTSPSAFKIASYEINHLPLLKYVARLNRPMIFSTAGAEISDVHEAWRTIRAEGNNQIAIMHCVAKYPAPPEYSNLSVIPMLAAAFPEAVIGFSDHSEHPTEAPCAAVRLGAKLIEKHFTIDKNLPGADHSFALNPDELKEMVDGIRKTEAELKQGITKPVSEKLLGSSYKTTTAIEGE--IRNFAYRGIFTTAPIQKGEAFSEDNIAVLRPGQ",
+                  "midline": "F+I N++VG +    II E GINH+G L  AF ++DAA  AGA+ VK Q        +D   Q  PG        DVSI+ +++   +  E  + L +Y   K +IF+ST     +A  LQ     A+KI S E N+ PL+K VA   +P+I ST    I  + ++   IR E     A++HC   YP P E   L  +  L+ AFP+A+IG SDH+     A   AV LG  ++E+HFT   + PG D   ++NPD  K           ELKQG         L    K  T I GE   ++FA+  +     I+KGE  S DN+ V RPG "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P16099|DHTM_METME",
+                  "accession": "P16099",
+                  "title": "Trimethylamine dehydrogenase OS=Methylophilus methylotrophus OX=17 GN=tmd PE=1 SV=3"
+                }
+              ],
+              "len": 730,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 0.0173904,
+                  "identity": 14,
+                  "positive": 25,
+                  "query_from": 240,
+                  "query_to": 285,
+                  "hit_from": 355,
+                  "hit_to": 401,
+                  "align_len": 47,
+                  "gaps": 1,
+                  "qseq": "RMDRPGPDIVCSMNPDTFKELKQGAHALKLARGGKKDTI-IAGEKPT",
+                  "hseq": "RWEIGGPPMICTQNATAGEEYRRGWHPEKFRQTKNKDSVLIVGAGPS",
+                  "midline": "R +  GP ++C+ N    +E ++G H  K  +   KD++ I G  P+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P39594|THIE_BACSU",
+                  "accession": "P39594",
+                  "title": "Thiamine-phosphate synthase OS=Bacillus subtilis (strain 168) OX=224308 GN=thiE PE=1 SV=1"
+                }
+              ],
+              "len": 222,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 0.769715,
+                  "identity": 19,
+                  "positive": 32,
+                  "query_from": 155,
+                  "query_to": 217,
+                  "hit_from": 54,
+                  "hit_to": 121,
+                  "align_len": 68,
+                  "gaps": 5,
+                  "qseq": "TGMNSIESIKKSVEIIREAGVPYALLHCTNIYPTPYED-VRLG----GMNDLSEAFPDAIIGLSDHTL",
+                  "hseq": "TGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTM",
+                  "midline": "TG   I+  +K+    REAGVP+ +     +      D + +G       ++  A  D I+G+S HT+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P28632|HOLD_ECOLI",
+                  "accession": "P28632",
+                  "title": "DNA polymerase III subunit psi OS=Escherichia coli (strain K12) OX=83333 GN=holD PE=1 SV=1"
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 2.39066,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 245,
+                  "query_to": 265,
+                  "hit_from": 64,
+                  "hit_to": 84,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "GPDIVCSMNPDTFKELKQGAH",
+                  "hseq": "SPDQVLQLTPEKIAMLPQGSH",
+                  "midline": " PD V  + P+    L QG+H"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 66,
+            "eff_space": 19506624,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

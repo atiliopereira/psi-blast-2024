@@ -1,0 +1,297 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P16009|NEEDL_BPT4 Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2",
+          "query_len": 575,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P16009|NEEDL_BPT4",
+                  "accession": "P16009",
+                  "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
+                }
+              ],
+              "len": 575,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1175.61,
+                  "score": 3040,
+                  "evalue": 0,
+                  "identity": 575,
+                  "positive": 575,
+                  "query_from": 1,
+                  "query_to": 575,
+                  "hit_from": 1,
+                  "hit_to": 575,
+                  "align_len": 575,
+                  "gaps": 0,
+                  "qseq": "MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG",
+                  "hseq": "MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG",
+                  "midline": "MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P00720|ENLYS_BPT4",
+                  "accession": "P00720",
+                  "title": "Endolysin OS=Enterobacteria phage T4 OX=10665 GN=E PE=1 SV=2"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.02,
+                  "score": 310,
+                  "evalue": 2.89958e-35,
+                  "identity": 72,
+                  "positive": 96,
+                  "query_from": 174,
+                  "query_to": 339,
+                  "hit_from": 1,
+                  "hit_to": 161,
+                  "align_len": 166,
+                  "gaps": 5,
+                  "qseq": "MSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESY",
+                  "hseq": "MNIFEMLRIDERLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSE--LDKAIGRNCNG---VITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSIWYNQTPNRAKRVITTFRTGTWDAY",
+                  "midline": "M++ EMLR DE LRLK+Y DTEGY TIGIGHL+ K P  + A+    L K +GR   G    IT +EA  LF +D+    R I  ++K+ PV+ +++  R+ AL NM FQMG  GVA F   L  +    W++A      S+WY QT  RA RV     TG  ++Y"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P0A6Z1|HSCA_ECOLI",
+                  "accession": "P0A6Z1",
+                  "title": "Chaperone protein HscA OS=Escherichia coli (strain K12) OX=83333 GN=hscA PE=1 SV=1"
+                }
+              ],
+              "len": 616,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 0.0950212,
+                  "identity": 38,
+                  "positive": 61,
+                  "query_from": 94,
+                  "query_to": 232,
+                  "hit_from": 23,
+                  "hit_to": 148,
+                  "align_len": 142,
+                  "gaps": 19,
+                  "qseq": "GIVLGTYGGIVRE-KPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTA--INPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGN",
+                  "hseq": "GIDLGTTNSLVATVRSGQAETLADHEGRH--LLPSVVHYQQQGHSVGYDARTN----AALDTANTISSVKRLMGR---------SLADIQQRYPHLPYQFQASENGLPMIETAAGLLN-PVRVSADILKALAARATEALAGE",
+                  "midline": "GI LGT   +V   +  + E  +D  G++   L +  +   QG  VGYD+ +N    + LDTA  I+   R +           S+A++ +R   L  +      G P I     ++  PVR  A I K L+ +    + G "
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "tr|A9CIQ1|A9CIQ1_AGRFC",
+                  "accession": "A9CIQ1",
+                  "title": "HTH cro/C1-type domain-containing protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu1735 PE=1 SV=1"
+                }
+              ],
+              "len": 95,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 0.598503,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 148,
+                  "query_to": 182,
+                  "hit_from": 4,
+                  "hit_to": 38,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "QDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRR",
+                  "hseq": "EDSEANALADPDNPPLSAEQLASAPRMPRIKIIRR",
+                  "midline": "+DS  +   +PD+ PLS       P M   +++RR"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.0238,
+                  "score": 53,
+                  "evalue": 1.25807,
+                  "identity": 19,
+                  "positive": 28,
+                  "query_from": 487,
+                  "query_to": 539,
+                  "hit_from": 961,
+                  "hit_to": 1009,
+                  "align_len": 53,
+                  "gaps": 4,
+                  "qseq": "TKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVA",
+                  "hseq": "TKSDNKNGSLAITGRVSMNQAFNSDITFKVSAT----DNVNNTTNDSQSKHVS",
+                  "midline": "TK+   NG++ + G V++    N+DIT K  AT     N  NT N + S  V+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q93HT9|IABN_GEOTD",
+                  "accession": "Q93HT9",
+                  "title": "Intracellular endo-alpha-(1->5)-L-arabinanase OS=Geobacillus thermodenitrificans OX=33940 GN=abn-ts PE=1 SV=1"
+                }
+              ],
+              "len": 313,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 2.43981,
+                  "identity": 15,
+                  "positive": 22,
+                  "query_from": 481,
+                  "query_to": 532,
+                  "hit_from": 243,
+                  "hit_to": 294,
+                  "align_len": 52,
+                  "gaps": 0,
+                  "qseq": "FVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNG",
+                  "hseq": "YVDKNGVSMMQGGGTILDAGNDRWIGPGHCAVYFSGVSAILVNHAYDALKNG",
+                  "midline": "+V  +    ++G GTIL  GN   I  G+  +   G +  LV        NG"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P04859|PHOSP_SENDH",
+                  "accession": "P04859",
+                  "title": "Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1"
+                }
+              ],
+              "len": 568,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 4.15154,
+                  "identity": 15,
+                  "positive": 20,
+                  "query_from": 126,
+                  "query_to": 161,
+                  "hit_from": 131,
+                  "hit_to": 165,
+                  "align_len": 37,
+                  "gaps": 3,
+                  "qseq": "GNDTNVL-NQGGEVGYDSSSNVIQDSNLDTAINPDDR",
+                  "hseq": "GGDSGILENPPNERGYPRSG--IEDENREMAAHPDKR",
+                  "midline": "G D+ +L N   E GY  S   I+D N + A +PD R"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P0C6U8|R1A_SARS",
+                  "accession": "P0C6U8",
+                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                }
+              ],
+              "len": 4382,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 4.67583,
+                  "identity": 12,
+                  "positive": 23,
+                  "query_from": 368,
+                  "query_to": 417,
+                  "hit_from": 2446,
+                  "hit_to": 2494,
+                  "align_len": 50,
+                  "gaps": 1,
+                  "qseq": "IPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHP",
+                  "hseq": "VARDLSLQFKRPINPTDQSSYIVDSVAVKNGALHLYFDKAGQKTYER-HP",
+                  "midline": "+  D  + FK P++        V ++  ++G +  + D  GQ+ Y   HP"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 7.57879,
+                  "identity": 17,
+                  "positive": 25,
+                  "query_from": 395,
+                  "query_to": 454,
+                  "hit_from": 1461,
+                  "hit_to": 1509,
+                  "align_len": 60,
+                  "gaps": 11,
+                  "qseq": "TESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDK",
+                  "hseq": "TYNGYLTSSSKTSEEHFVETVSLAGSYRDWSYSGQRTELGVE-----------FLKRGDK",
+                  "midline": "T +G++     T  +     V   G+Y + S SG+RT   V+           FL  GDK"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 70,
+            "eff_space": 34386460,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

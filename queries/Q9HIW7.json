@@ -1,0 +1,280 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q9HIW7|OTSBH_THEAC Trehalose-6-phosphate phosphatase-related protein OS=Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=Ta1209 PE=1 SV=1",
+          "query_len": 229,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q9HIW7|OTSBH_THEAC",
+                  "accession": "Q9HIW7",
+                  "title": "Trehalose-6-phosphate phosphatase-related protein OS=Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=Ta1209 PE=1 SV=1"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 469.544,
+                  "score": 1207,
+                  "evalue": 3.49986e-173,
+                  "identity": 229,
+                  "positive": 229,
+                  "query_from": 1,
+                  "query_to": 229,
+                  "hit_from": 1,
+                  "hit_to": 229,
+                  "align_len": 229,
+                  "gaps": 0,
+                  "qseq": "MIFLDYDGTLVPIIMNPEESYADAGLLSLISDLKERFDTYIVTGRSPEEISRFLPLDINMICYHGACSKINGQIVYNNGSDRFLGVFDRIYEDTRSWVSDFPGLRIYRKNLAVLYHLGLMGADMKPKLRSRIEEIARIFGVETYYGKMIIELRVPGVNKGSAIRSVRGERPAIIAGDDATDEAAFEANDDALTIKVGEGETHAKFHVADYIEMRKILKFIEMLGVQKKQ",
+                  "hseq": "MIFLDYDGTLVPIIMNPEESYADAGLLSLISDLKERFDTYIVTGRSPEEISRFLPLDINMICYHGACSKINGQIVYNNGSDRFLGVFDRIYEDTRSWVSDFPGLRIYRKNLAVLYHLGLMGADMKPKLRSRIEEIARIFGVETYYGKMIIELRVPGVNKGSAIRSVRGERPAIIAGDDATDEAAFEANDDALTIKVGEGETHAKFHVADYIEMRKILKFIEMLGVQKKQ",
+                  "midline": "MIFLDYDGTLVPIIMNPEESYADAGLLSLISDLKERFDTYIVTGRSPEEISRFLPLDINMICYHGACSKINGQIVYNNGSDRFLGVFDRIYEDTRSWVSDFPGLRIYRKNLAVLYHLGLMGADMKPKLRSRIEEIARIFGVETYYGKMIIELRVPGVNKGSAIRSVRGERPAIIAGDDATDEAAFEANDDALTIKVGEGETHAKFHVADYIEMRKILKFIEMLGVQKKQ"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q99633|PRP18_HUMAN",
+                  "accession": "Q99633",
+                  "title": "Pre-mRNA-splicing factor 18 OS=Homo sapiens OX=9606 GN=PRPF18 PE=1 SV=1"
+                }
+              ],
+              "len": 342,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 1.31739,
+                  "identity": 38,
+                  "positive": 53,
+                  "query_from": 127,
+                  "query_to": 229,
+                  "hit_from": 87,
+                  "hit_to": 202,
+                  "align_len": 125,
+                  "gaps": 31,
+                  "qseq": "KLRSRIEEIARIFGVETYYGKMI----IELRVPGVNKG------SAIRSVRGERPAIIAG-------DDATDEAAFEAND-----DALTIKVGEGETHAKFHVADYIEMRKILKFIEMLGVQKKQ",
+                  "hseq": "RLRERGEPI-RLFG-ETDYDAFQRLRKIEILTPEVNKGLRNDLKAALDKIDQQYLNEIVGGQEPGEEDTQNDLKVHEENTTIEELEALGESLGKGDDHKDMDI-----ITKFLKF--LLGVWAKE",
+                  "midline": "+LR R E I R+FG ET Y        IE+  P VNKG      +A+  +  +    I G       D   D    E N      +AL   +G+G+ H    +     + K LKF  +LGV  K+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P16099|DHTM_METME",
+                  "accession": "P16099",
+                  "title": "Trimethylamine dehydrogenase OS=Methylophilus methylotrophus OX=17 GN=tmd PE=1 SV=3"
+                }
+              ],
+              "len": 730,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 1.4079,
+                  "identity": 12,
+                  "positive": 13,
+                  "query_from": 135,
+                  "query_to": 156,
+                  "hit_from": 220,
+                  "hit_to": 241,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "IARIFGVETYYGKMIIELRVPG",
+                  "hseq": "IATRFGVDTVYGPGQIEAEVDG",
+                  "midline": "IA  FGV+T YG   IE  V G"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P26646|ACUI_ECOLI",
+                  "accession": "P26646",
+                  "title": "Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1"
+                }
+              ],
+              "len": 324,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 2.34112,
+                  "identity": 16,
+                  "positive": 19,
+                  "query_from": 14,
+                  "query_to": 59,
+                  "hit_from": 268,
+                  "hit_to": 312,
+                  "align_len": 46,
+                  "gaps": 1,
+                  "qseq": "IMNPEESYADAGLLSLISDLKERFDTYIVTGRSPEEISRFLPLDIN",
+                  "hseq": "VMTPPERRAQA-WQRLVADLPESFYTQAAKEISLSEAPNFAEAIIN",
+                  "midline": "+M P E  A A    L++DL E F T      S  E   F    IN"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P43593|UBP6_YEAST",
+                  "accession": "P43593",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
+                }
+              ],
+              "len": 499,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 2.4835,
+                  "identity": 7,
+                  "positive": 15,
+                  "query_from": 187,
+                  "query_to": 208,
+                  "hit_from": 245,
+                  "hit_to": 266,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "ANDDALTIKVGEGETHAKFHVA",
+                  "hseq": "ANDNDITVKENESDSKLQCHIS",
+                  "midline": "AND+ +T+K  E ++  + H++"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 3.69134,
+                  "identity": 10,
+                  "positive": 12,
+                  "query_from": 186,
+                  "query_to": 204,
+                  "hit_from": 2356,
+                  "hit_to": 2374,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "EANDDALTIKVGEGETHAK",
+                  "hseq": "QAMDIAYTEKVGNGAEHSK",
+                  "midline": "+A D A T KVG G  H+K"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|Q5SGX1|SYFB_THET8",
+                  "accession": "Q5SGX1",
+                  "title": "Phenylalanine--tRNA ligase beta subunit OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=pheT PE=1 SV=1"
+                }
+              ],
+              "len": 785,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 8.75799,
+                  "identity": 8,
+                  "positive": 10,
+                  "query_from": 132,
+                  "query_to": 143,
+                  "hit_from": 460,
+                  "hit_to": 471,
+                  "align_len": 12,
+                  "gaps": 0,
+                  "qseq": "IEEIARIFGVET",
+                  "hseq": "VEEVARIQGYET",
+                  "midline": "+EE+ARI G ET"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P0C6U8|R1A_SARS",
+                  "accession": "P0C6U8",
+                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                }
+              ],
+              "len": 4382,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 9.54403,
+                  "identity": 6,
+                  "positive": 12,
+                  "query_from": 123,
+                  "query_to": 136,
+                  "hit_from": 1203,
+                  "hit_to": 1216,
+                  "align_len": 14,
+                  "gaps": 0,
+                  "qseq": "DMKPKLRSRIEEIA",
+                  "hseq": "DVKPKIKACIDEVT",
+                  "midline": "D+KPK+++ I+E+ "
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 62,
+            "eff_space": 11650588,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

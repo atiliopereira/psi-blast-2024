@@ -1,0 +1,194 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P07273|TFS2_YEAST Transcription elongation factor S-II OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DST1 PE=1 SV=4",
+          "query_len": 309,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P07273|TFS2_YEAST",
+                  "accession": "P07273",
+                  "title": "Transcription elongation factor S-II OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DST1 PE=1 SV=4"
+                }
+              ],
+              "len": 309,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 642.884,
+                  "score": 1657,
+                  "evalue": 0,
+                  "identity": 309,
+                  "positive": 309,
+                  "query_from": 1,
+                  "query_to": 309,
+                  "hit_from": 1,
+                  "hit_to": 309,
+                  "align_len": 309,
+                  "gaps": 0,
+                  "qseq": "MDSKEVLVHVKNLEKNKSNDAAVLEILHVLDKEFVPTEKLLRETKVGVEVNKFKKSTNVEISKLVKKMISSWKDAINKNKRSRQAQQHHQDHAPGNAEDKTTVGESVNGVQQPASSQSDAMKQDKYVSTKPRNSKNDGVDTAIYHHKLRDQVLKALYDVLAKESEHPPQSILHTAKAIESEMNKVNNCDTNEAAYKARYRIIYSNVISKNNPDLKHKIANGDITPEFLATCDAKDLAPAPLKQKIEEIAKQNLYNAQGATIERSVTDRFTCGKCKEKKVSYYQLQTRSADEPLTTFCTCEACGNRWKFS",
+                  "hseq": "MDSKEVLVHVKNLEKNKSNDAAVLEILHVLDKEFVPTEKLLRETKVGVEVNKFKKSTNVEISKLVKKMISSWKDAINKNKRSRQAQQHHQDHAPGNAEDKTTVGESVNGVQQPASSQSDAMKQDKYVSTKPRNSKNDGVDTAIYHHKLRDQVLKALYDVLAKESEHPPQSILHTAKAIESEMNKVNNCDTNEAAYKARYRIIYSNVISKNNPDLKHKIANGDITPEFLATCDAKDLAPAPLKQKIEEIAKQNLYNAQGATIERSVTDRFTCGKCKEKKVSYYQLQTRSADEPLTTFCTCEACGNRWKFS",
+                  "midline": "MDSKEVLVHVKNLEKNKSNDAAVLEILHVLDKEFVPTEKLLRETKVGVEVNKFKKSTNVEISKLVKKMISSWKDAINKNKRSRQAQQHHQDHAPGNAEDKTTVGESVNGVQQPASSQSDAMKQDKYVSTKPRNSKNDGVDTAIYHHKLRDQVLKALYDVLAKESEHPPQSILHTAKAIESEMNKVNNCDTNEAAYKARYRIIYSNVISKNNPDLKHKIANGDITPEFLATCDAKDLAPAPLKQKIEEIAKQNLYNAQGATIERSVTDRFTCGKCKEKKVSYYQLQTRSADEPLTTFCTCEACGNRWKFS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 2.79878,
+                  "identity": 9,
+                  "positive": 14,
+                  "query_from": 106,
+                  "query_to": 123,
+                  "hit_from": 6781,
+                  "hit_to": 6798,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "SVNGVQQPASSQSDAMKQ",
+                  "hseq": "NVNAIQQAATTLNDAMTQ",
+                  "midline": "+VN +QQ A++ +DAM Q"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 7.64373,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 97,
+                  "query_to": 122,
+                  "hit_from": 8004,
+                  "hit_to": 8029,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "AEDKTTVGESVNGVQQPASSQSDAMK",
+                  "hseq": "AQDKQTAGNSLNHLDQLTPAQQQALE",
+                  "midline": "A+DK T G S+N + Q   +Q  A++"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 9.4732,
+                  "identity": 22,
+                  "positive": 29,
+                  "query_from": 218,
+                  "query_to": 278,
+                  "hit_from": 2653,
+                  "hit_to": 2708,
+                  "align_len": 62,
+                  "gaps": 7,
+                  "qseq": "IANGDITPEFLATCDAK-DLAPAPLKQKIEEIAKQNLYNAQGATIERSVTDRFTCGKCKEKK",
+                  "hseq": "IDNGDATPQQISEEKHRVDNALTALNQ-----AKQNLT-ADTHTLEQAVQQLNRTGTTTGKK",
+                  "midline": "I NGD TP+ ++    + D A   L Q     AKQNL  A   T+E++V      G    KK"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P26827|CDGT_THETU",
+                  "accession": "P26827",
+                  "title": "Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium thermosulfurigenes OX=33950 GN=amyA PE=1 SV=2"
+                }
+              ],
+              "len": 710,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 4.01918,
+                  "identity": 13,
+                  "positive": 17,
+                  "query_from": 239,
+                  "query_to": 275,
+                  "hit_from": 23,
+                  "hit_to": 58,
+                  "align_len": 37,
+                  "gaps": 1,
+                  "qseq": "APLKQKIEEIAKQNLYNAQGATIERSVTDRFTCGKCK",
+                  "hseq": "API-QAASDTAVSNVVNYSTDVIYQIVTDRFVDGNTS",
+                  "midline": "AP+ Q   + A  N+ N     I + VTDRF  G   "
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|Q12888|TP53B_HUMAN",
+                  "accession": "Q12888",
+                  "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
+                }
+              ],
+              "len": 1972,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 7.16554,
+                  "identity": 14,
+                  "positive": 20,
+                  "query_from": 252,
+                  "query_to": 290,
+                  "hit_from": 1256,
+                  "hit_to": 1298,
+                  "align_len": 44,
+                  "gaps": 6,
+                  "qseq": "NLYNAQGATIERSVTDR-----FTCGKCKEKKVSYYQLQTRSAD",
+                  "hseq": "DVYYVDGTEVERKVTEETEEPIVECQEC-ETEVSPSQTGGSSGD",
+                  "midline": "++Y   G  +ER VT+        C +C E +VS  Q    S D"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 65,
+            "eff_space": 16869428,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

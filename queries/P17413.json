@@ -1,0 +1,160 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P17413|FRDC_WOLSU Fumarate reductase cytochrome b subunit OS=Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 602W) OX=273121 GN=frdC PE=1 SV=1",
+          "query_len": 256,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P17413|FRDC_WOLSU",
+                  "accession": "P17413",
+                  "title": "Fumarate reductase cytochrome b subunit OS=Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 602W) OX=273121 GN=frdC PE=1 SV=1"
+                }
+              ],
+              "len": 256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 525.398,
+                  "score": 1352,
+                  "evalue": 0,
+                  "identity": 256,
+                  "positive": 256,
+                  "query_from": 1,
+                  "query_to": 256,
+                  "hit_from": 1,
+                  "hit_to": 256,
+                  "align_len": 256,
+                  "gaps": 0,
+                  "qseq": "MTNESILESYSGVTPERKKSRMPAKLDWWQSATGLFLGLFMIGHMFFVSTILLGDNVMLWVTKKFELDFIFEGGKPIVVSFLAAFVFAVFIAHAFLAMRKFPINYRQYLTFKTHKDLMRHGDTTLWWIQAMTGFAMFFLGSVHLYIMMTQPQTIGPVSSSFRMVSEWMWPLYLVLLFAVELHGSVGLYRLAVKWGWFDGETPDKTRANLKKLKTLMSAFLIVLGLLTFGAYVKKGLEQTDPNIDYKYFDYKRTHHR",
+                  "hseq": "MTNESILESYSGVTPERKKSRMPAKLDWWQSATGLFLGLFMIGHMFFVSTILLGDNVMLWVTKKFELDFIFEGGKPIVVSFLAAFVFAVFIAHAFLAMRKFPINYRQYLTFKTHKDLMRHGDTTLWWIQAMTGFAMFFLGSVHLYIMMTQPQTIGPVSSSFRMVSEWMWPLYLVLLFAVELHGSVGLYRLAVKWGWFDGETPDKTRANLKKLKTLMSAFLIVLGLLTFGAYVKKGLEQTDPNIDYKYFDYKRTHHR",
+                  "midline": "MTNESILESYSGVTPERKKSRMPAKLDWWQSATGLFLGLFMIGHMFFVSTILLGDNVMLWVTKKFELDFIFEGGKPIVVSFLAAFVFAVFIAHAFLAMRKFPINYRQYLTFKTHKDLMRHGDTTLWWIQAMTGFAMFFLGSVHLYIMMTQPQTIGPVSSSFRMVSEWMWPLYLVLLFAVELHGSVGLYRLAVKWGWFDGETPDKTRANLKKLKTLMSAFLIVLGLLTFGAYVKKGLEQTDPNIDYKYFDYKRTHHR"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P69328|AMYG_ASPNG",
+                  "accession": "P69328",
+                  "title": "Glucoamylase OS=Aspergillus niger OX=5061 GN=GLAA PE=1 SV=1"
+                }
+              ],
+              "len": 640,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 1.74887,
+                  "identity": 10,
+                  "positive": 12,
+                  "query_from": 109,
+                  "query_to": 125,
+                  "hit_from": 82,
+                  "hit_to": 98,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "LTFKTHKDLMRHGDTTL",
+                  "hseq": "LVLKTLVDLFRNGDTSL",
+                  "midline": "L  KT  DL R+GDT+L"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P0A0A5|FEMA_STAAU",
+                  "accession": "P0A0A5",
+                  "title": "Aminoacyltransferase FemA OS=Staphylococcus aureus OX=1280 GN=femA PE=1 SV=2"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 6.75897,
+                  "identity": 9,
+                  "positive": 15,
+                  "query_from": 210,
+                  "query_to": 240,
+                  "hit_from": 227,
+                  "hit_to": 257,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "KKLKTLMSAFLIVLGLLTFGAYVKKGLEQTD",
+                  "hseq": "NRLKYYKDRVLVPLAYINFDEYIKELNEERD",
+                  "midline": " +LK      L+ L  + F  Y+K+  E+ D"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P22868|MMOC_METCA",
+                  "accession": "P22868",
+                  "title": "Methane monooxygenase component C OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoC PE=1 SV=2"
+                }
+              ],
+              "len": 348,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 7.63209,
+                  "identity": 9,
+                  "positive": 12,
+                  "query_from": 154,
+                  "query_to": 179,
+                  "hit_from": 227,
+                  "hit_to": 252,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "IGPVSSSFRMVSEWMWPLYLVLLFAV",
+                  "hseq": "LAPVVSMVRQMQEWTAPNETRIYFGV",
+                  "midline": "+ PV S  R + EW  P    + F V"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 64,
+            "eff_space": 13314432,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

@@ -1,0 +1,220 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P0A6M4|DTD_ECOLI D-aminoacyl-tRNA deacylase OS=Escherichia coli (strain K12) OX=83333 GN=dtd PE=1 SV=1",
+          "query_len": 145,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P0A6M4|DTD_ECOLI",
+                  "accession": "P0A6M4",
+                  "title": "D-aminoacyl-tRNA deacylase OS=Escherichia coli (strain K12) OX=83333 GN=dtd PE=1 SV=1"
+                }
+              ],
+              "len": 145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 296.975,
+                  "score": 759,
+                  "evalue": 1.18657e-107,
+                  "identity": 145,
+                  "positive": 145,
+                  "query_from": 1,
+                  "query_to": 145,
+                  "hit_from": 1,
+                  "hit_to": 145,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "MIALIQRVTRASVTVEGEVTGEIGAGLLVLLGVEKDDDEQKANRLCERVLGYRIFSDAEGKMNLNVQQAGGSVLVVSQFTLAADTERGMRPSFSKGASPDRAEALYDYFVERCRQQEMNTQTGRFAADMQVSLVNDGPVTFWLQV",
+                  "hseq": "MIALIQRVTRASVTVEGEVTGEIGAGLLVLLGVEKDDDEQKANRLCERVLGYRIFSDAEGKMNLNVQQAGGSVLVVSQFTLAADTERGMRPSFSKGASPDRAEALYDYFVERCRQQEMNTQTGRFAADMQVSLVNDGPVTFWLQV",
+                  "midline": "MIALIQRVTRASVTVEGEVTGEIGAGLLVLLGVEKDDDEQKANRLCERVLGYRIFSDAEGKMNLNVQQAGGSVLVVSQFTLAADTERGMRPSFSKGASPDRAEALYDYFVERCRQQEMNTQTGRFAADMQVSLVNDGPVTFWLQV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P40818|UBP8_HUMAN",
+                  "accession": "P40818",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                }
+              ],
+              "len": 1118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 5.10256,
+                  "identity": 8,
+                  "positive": 10,
+                  "query_from": 102,
+                  "query_to": 119,
+                  "hit_from": 798,
+                  "hit_to": 815,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "AEALYDYFVERCRQQEMN",
+                  "hseq": "APHLADYFNRNCYQDDIN",
+                  "midline": "A  L DYF   C Q ++N"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P37330|MASZ_ECOLI",
+                  "accession": "P37330",
+                  "title": "Malate synthase G OS=Escherichia coli (strain K12) OX=83333 GN=glcB PE=1 SV=3"
+                }
+              ],
+              "len": 723,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 5.51445,
+                  "identity": 8,
+                  "positive": 17,
+                  "query_from": 1,
+                  "query_to": 29,
+                  "hit_from": 91,
+                  "hit_to": 119,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "MIALIQRVTRASVTVEGEVTGEIGAGLLV",
+                  "hseq": "LVPQPERVTVETTGIDSEITSQAGPQLVV",
+                  "midline": "++   +RVT  +  ++ E+T + G  L+V"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P61711|RISB2_BRUAB",
+                  "accession": "P61711",
+                  "title": "6,7-dimethyl-8-ribityllumazine synthase 2 OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 GN=ribH2 PE=3 SV=1"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 7.17446,
+                  "identity": 8,
+                  "positive": 12,
+                  "query_from": 121,
+                  "query_to": 137,
+                  "hit_from": 66,
+                  "hit_to": 82,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "QTGRFAADMQVSLVNDG",
+                  "hseq": "RTGRYAAIVGAAFVIDG",
+                  "midline": "+TGR+AA +  + V DG"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P00787|CATB_RAT",
+                  "accession": "P00787",
+                  "title": "Cathepsin B OS=Rattus norvegicus OX=10116 GN=Ctsb PE=1 SV=2"
+                }
+              ],
+              "len": 339,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 7.93951,
+                  "identity": 15,
+                  "positive": 25,
+                  "query_from": 38,
+                  "query_to": 79,
+                  "hit_from": 203,
+                  "hit_to": 259,
+                  "align_len": 57,
+                  "gaps": 15,
+                  "qseq": "DEQKANRLCE----------RVLGYRIF--SDAEGKMNLNVQQAG---GSVLVVSQF",
+                  "hseq": "DTPKCNKMCEAGYSTSYKEDKHYGYTSYSVSDSEKEIMAEIYKNGPVEGAFTVFSDF",
+                  "midline": "D  K N++CE          +  GY  +  SD+E ++   + + G   G+  V S F"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P52687|CITA_KLEPN",
+                  "accession": "P52687",
+                  "title": "Sensor histidine kinase CitA OS=Klebsiella pneumoniae OX=573 GN=citA PE=1 SV=1"
+                }
+              ],
+              "len": 547,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 8.12036,
+                  "identity": 7,
+                  "positive": 10,
+                  "query_from": 66,
+                  "query_to": 75,
+                  "hit_from": 515,
+                  "hit_to": 524,
+                  "align_len": 10,
+                  "gaps": 0,
+                  "qseq": "VQQAGGSVLV",
+                  "hseq": "VEQAGGSIVV",
+                  "midline": "V+QAGGS++V"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 58,
+            "eff_space": 6142200,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

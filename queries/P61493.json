@@ -1,0 +1,280 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P61493|CH10_THET8 Co-chaperonin GroES OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=groES PE=1 SV=2",
+          "query_len": 101,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P61493|CH10_THET8",
+                  "accession": "P61493",
+                  "title": "Co-chaperonin GroES OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=groES PE=1 SV=2"
+                }
+              ],
+              "len": 101,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 192.586,
+                  "score": 488,
+                  "evalue": 9.16283e-68,
+                  "identity": 101,
+                  "positive": 101,
+                  "query_from": 1,
+                  "query_to": 101,
+                  "hit_from": 1,
+                  "hit_to": 101,
+                  "align_len": 101,
+                  "gaps": 0,
+                  "qseq": "MAAEVKTVIKPLGDRVVVKRIEEEPKTKGGIVLPDTAKEKPQKGKVIAVGTGRVLENGQRVPLEVKEGDIVVFAKYGGTEIEIDGEEYVILSERDLLAVLQ",
+                  "hseq": "MAAEVKTVIKPLGDRVVVKRIEEEPKTKGGIVLPDTAKEKPQKGKVIAVGTGRVLENGQRVPLEVKEGDIVVFAKYGGTEIEIDGEEYVILSERDLLAVLQ",
+                  "midline": "MAAEVKTVIKPLGDRVVVKRIEEEPKTKGGIVLPDTAKEKPQKGKVIAVGTGRVLENGQRVPLEVKEGDIVVFAKYGGTEIEIDGEEYVILSERDLLAVLQ"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P0A6F9|CH10_ECOLI",
+                  "accession": "P0A6F9",
+                  "title": "Co-chaperonin GroES OS=Escherichia coli (strain K12) OX=83333 GN=groES PE=1 SV=1"
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.9005,
+                  "score": 237,
+                  "evalue": 1.40216e-29,
+                  "identity": 51,
+                  "positive": 69,
+                  "query_from": 9,
+                  "query_to": 101,
+                  "hit_from": 3,
+                  "hit_to": 96,
+                  "align_len": 94,
+                  "gaps": 1,
+                  "qseq": "IKPLGDRVVVKRIEEEPKTKGGIVLPDTAKEKPQKGKVIAVGTGRVLENGQRVPLEVKEGDIVVFAK-YGGTEIEIDGEEYVILSERDLLAVLQ",
+                  "hseq": "IRPLHDRVIVKRKEVETKSAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDVKVGDIVIFNDGYGVKSEKIDNEEVLIMSESDILAIVE",
+                  "midline": "I+PL DRV+VKR E E K+ GGIVL  +A  K  +G+V+AVG GR+LENG+  PL+VK GDIV+F   YG    +ID EE +I+SE D+LA+++"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 2.85115,
+                  "identity": 8,
+                  "positive": 15,
+                  "query_from": 35,
+                  "query_to": 67,
+                  "hit_from": 2633,
+                  "hit_to": 2665,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "DTAKEKPQKGKVIAVGTGRVLENGQRVPLEVKE",
+                  "hseq": "DNYNAKKREAETEITAAQRVIDNGDATPQQISE",
+                  "midline": "D    K ++ +       RV++NG   P ++ E"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P00718|LYG_ANSAN",
+                  "accession": "P00718",
+                  "title": "Lysozyme g OS=Anser anser anser OX=8844 PE=1 SV=1"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 4.9836,
+                  "identity": 15,
+                  "positive": 25,
+                  "query_from": 6,
+                  "query_to": 58,
+                  "hit_from": 49,
+                  "hit_to": 83,
+                  "align_len": 53,
+                  "gaps": 18,
+                  "qseq": "KTVIKPLGDRVVVKRIEEEPKTKGGIVLPDTAKEKPQKGKVIAVGTGRVLENG",
+                  "hseq": "KTIIKKVGEKLCV-----EPAVIAGIISRESH-------------AGKVLKNG",
+                  "midline": "KT+IK +G+++ V     EP    GI+  ++               G+VL+NG"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P38398|BRCA1_HUMAN",
+                  "accession": "P38398",
+                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                }
+              ],
+              "len": 1863,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 5.43092,
+                  "identity": 18,
+                  "positive": 44,
+                  "query_from": 7,
+                  "query_to": 99,
+                  "hit_from": 123,
+                  "hit_to": 207,
+                  "align_len": 94,
+                  "gaps": 10,
+                  "qseq": "TVIKPLGDRVVVKRI-EEEPKTKGGIVLPDTAKEKPQKGKVIAVGTGRVLENGQRVPLEVKEGDIVVFAKYGGTEIEIDGEEYVILSERDLLAV",
+                  "hseq": "SIIQSMGYRNRAKRLLQSEPENP-------SLQETSLSVQLSNLGTVRTLRTKQRI--QPQKTSVYIELGSDSSEDTVNKATYCSVGDQELLQI",
+                  "midline": "++I+ +G R   KR+ + EP+         + +E     ++  +GT R L   QR+  + ++  + +      +E  ++   Y  + +++LL +"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P07987|GUX2_HYPJE",
+                  "accession": "P07987",
+                  "title": "Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1"
+                }
+              ],
+              "len": 471,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 6.03163,
+                  "identity": 7,
+                  "positive": 9,
+                  "query_from": 25,
+                  "query_to": 44,
+                  "hit_from": 433,
+                  "hit_to": 452,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "PKTKGGIVLPDTAKEKPQKG",
+                  "hseq": "PRFDSHCALPDALQPAPQAG",
+                  "midline": "P+      LPD  +  PQ G"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P00717|LYG_CYGAT",
+                  "accession": "P00717",
+                  "title": "Lysozyme g OS=Cygnus atratus OX=8868 PE=1 SV=1"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 6.38583,
+                  "identity": 15,
+                  "positive": 25,
+                  "query_from": 6,
+                  "query_to": 58,
+                  "hit_from": 49,
+                  "hit_to": 83,
+                  "align_len": 53,
+                  "gaps": 18,
+                  "qseq": "KTVIKPLGDRVVVKRIEEEPKTKGGIVLPDTAKEKPQKGKVIAVGTGRVLENG",
+                  "hseq": "KTIIKKVGEKLCV-----EPAVIAGIISRESH-------------AGKVLKNG",
+                  "midline": "KT+IK +G+++ V     EP    GI+  ++               G+VL+NG"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "tr|Q97DM1|Q97DM1_CLOAB",
+                  "accession": "Q97DM1",
+                  "title": "Beta-xylosidase, family 43 glycosyl hydrolase OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=xynD PE=1 SV=1"
+                }
+              ],
+              "len": 533,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 9.47077,
+                  "identity": 9,
+                  "positive": 12,
+                  "query_from": 11,
+                  "query_to": 30,
+                  "hit_from": 283,
+                  "hit_to": 305,
+                  "align_len": 23,
+                  "gaps": 3,
+                  "qseq": "PLGDRVVVKRIE---EEPKTKGG",
+                  "hseq": "PLGRETSIQRIEWVDNWPRVVGG",
+                  "midline": "PLG    ++RIE     P+  GG"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 54,
+            "eff_space": 3357492,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

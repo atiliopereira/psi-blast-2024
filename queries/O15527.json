@@ -1,0 +1,250 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|O15527|OGG1_HUMAN N-glycosylase/DNA lyase OS=Homo sapiens OX=9606 GN=OGG1 PE=1 SV=2",
+          "query_len": 345,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|O15527|OGG1_HUMAN",
+                  "accession": "O15527",
+                  "title": "N-glycosylase/DNA lyase OS=Homo sapiens OX=9606 GN=OGG1 PE=1 SV=2"
+                }
+              ],
+              "len": 345,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 713.761,
+                  "score": 1841,
+                  "evalue": 0,
+                  "identity": 345,
+                  "positive": 345,
+                  "query_from": 1,
+                  "query_to": 345,
+                  "hit_from": 1,
+                  "hit_to": 345,
+                  "align_len": 345,
+                  "gaps": 0,
+                  "qseq": "MPARALLPRRMGHRTLASTPALWASIPCPRSELRLDLVLPSGQSFRWREQSPAHWSGVLADQVWTLTQTEEQLHCTVYRGDKSQASRPTPDELEAVRKYFQLDVTLAQLYHHWGSVDSHFQEVAQKFQGVRLLRQDPIECLFSFICSSNNNIARITGMVERLCQAFGPRLIQLDDVTYHGFPSLQALAGPEVEAHLRKLGLGYRARYVSASARAILEEQGGLAWLQQLRESSYEEAHKALCILPGVGTKVADCICLMALDKPQAVPVDVHMWHIAQRDYSWHPTTSQAKGPSPQTNKELGNFFRSLWGPYAGWAQAVLFSADLRQSRHAQEPPAKRRKGSKGPEG",
+                  "hseq": "MPARALLPRRMGHRTLASTPALWASIPCPRSELRLDLVLPSGQSFRWREQSPAHWSGVLADQVWTLTQTEEQLHCTVYRGDKSQASRPTPDELEAVRKYFQLDVTLAQLYHHWGSVDSHFQEVAQKFQGVRLLRQDPIECLFSFICSSNNNIARITGMVERLCQAFGPRLIQLDDVTYHGFPSLQALAGPEVEAHLRKLGLGYRARYVSASARAILEEQGGLAWLQQLRESSYEEAHKALCILPGVGTKVADCICLMALDKPQAVPVDVHMWHIAQRDYSWHPTTSQAKGPSPQTNKELGNFFRSLWGPYAGWAQAVLFSADLRQSRHAQEPPAKRRKGSKGPEG",
+                  "midline": "MPARALLPRRMGHRTLASTPALWASIPCPRSELRLDLVLPSGQSFRWREQSPAHWSGVLADQVWTLTQTEEQLHCTVYRGDKSQASRPTPDELEAVRKYFQLDVTLAQLYHHWGSVDSHFQEVAQKFQGVRLLRQDPIECLFSFICSSNNNIARITGMVERLCQAFGPRLIQLDDVTYHGFPSLQALAGPEVEAHLRKLGLGYRARYVSASARAILEEQGGLAWLQQLRESSYEEAHKALCILPGVGTKVADCICLMALDKPQAVPVDVHMWHIAQRDYSWHPTTSQAKGPSPQTNKELGNFFRSLWGPYAGWAQAVLFSADLRQSRHAQEPPAKRRKGSKGPEG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P04395|3MG2_ECOLI",
+                  "accession": "P04395",
+                  "title": "DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1"
+                }
+              ],
+              "len": 282,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.9574,
+                  "score": 71,
+                  "evalue": 0.00309947,
+                  "identity": 34,
+                  "positive": 48,
+                  "query_from": 151,
+                  "query_to": 256,
+                  "hit_from": 127,
+                  "hit_to": 225,
+                  "align_len": 108,
+                  "gaps": 11,
+                  "qseq": "NIARITGMVERLCQAFGPRLIQLDDV-TYHGFPSLQALAGPEVEAHLRKLGLGY-RARYVSASARAILEEQGGLAWLQQLRESSYEEAHKALCILPGVGTKVADCICL",
+                  "hseq": "SVAMAAKLTARVAQLYGERL---DDFPEYICFPTPQRLAAADPQA-LKALGMPLKRAEALIHLANAALEGT-----LPMTIPGDVEQAMKTLQTFPGIGRWTANYFAL",
+                  "midline": "++A    +  R+ Q +G RL   DD   Y  FP+ Q LA  + +A L+ LG+   RA  +   A A LE       L        E+A K L   PG+G   A+   L"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q8K1S3|UNC5B_MOUSE",
+                  "accession": "Q8K1S3",
+                  "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
+                }
+              ],
+              "len": 945,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 2.59118,
+                  "identity": 20,
+                  "positive": 29,
+                  "query_from": 47,
+                  "query_to": 108,
+                  "hit_from": 766,
+                  "hit_to": 830,
+                  "align_len": 67,
+                  "gaps": 7,
+                  "qseq": "WREQSPAHWSGVLADQVWTLTQTEEQLHCTVYRGDKSQAS-----RPTPDELEAVRKYFQLDVTLAQ",
+                  "hseq": "WRSKLLAKYQEIPFYHVWNGSQ--RALHCTFTLERHSLASTEFTCKVCVRQVEGEGQIFQLHTTLAE",
+                  "midline": "WR +  A +  +    VW  +Q    LHCT      S AS     +    ++E   + FQL  TLA+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P83772|CRNA_PSEPU",
+                  "accession": "P83772",
+                  "title": "Creatinine amidohydrolase OS=Pseudomonas putida OX=303 GN=crnA PE=1 SV=1"
+                }
+              ],
+              "len": 260,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 4.66545,
+                  "identity": 17,
+                  "positive": 32,
+                  "query_from": 1,
+                  "query_to": 73,
+                  "hit_from": 28,
+                  "hit_to": 102,
+                  "align_len": 77,
+                  "gaps": 6,
+                  "qseq": "MPARALLPRRMGHRTLASTPALWASIPCPRSELRLDLVLPSGQSFRWREQSPA----HWSGVLADQVWTLTQTEEQL",
+                  "hseq": "LPVGAL--EQHGHHMCMNVDVLLPTAVCKRVAERIGALVMPGLQYGYKSQQKSGGGNHFPGTTSLDGATLTGTVQDI",
+                  "midline": "+P  AL   + GH    +   L  +  C R   R+  ++  G  + ++ Q  +    H+ G  +    TLT T + +"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P74881|PUR4_SALTY",
+                  "accession": "P74881",
+                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                }
+              ],
+              "len": 1295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 5.20399,
+                  "identity": 11,
+                  "positive": 18,
+                  "query_from": 299,
+                  "query_to": 325,
+                  "hit_from": 1082,
+                  "hit_to": 1118,
+                  "align_len": 37,
+                  "gaps": 10,
+                  "qseq": "LGNF----------FRSLWGPYAGWAQAVLFSADLRQ",
+                  "hseq": "LGNFHALVACGGFSYGDVLGAGEGWAKSILFNHRVRD",
+                  "midline": "LGNF          +  + G   GWA+++LF+  +R "
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P03422|PHOSP_MEASE",
+                  "accession": "P03422",
+                  "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
+                }
+              ],
+              "len": 507,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 5.65755,
+                  "identity": 7,
+                  "positive": 12,
+                  "query_from": 281,
+                  "query_to": 303,
+                  "hit_from": 285,
+                  "hit_to": 307,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "WHPTTSQAKGPSPQTNKELGNFF",
+                  "hseq": "WTPESGTTISPRSQNNEEGGDYY",
+                  "midline": "W P +     P  Q N+E G+++"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P55211|CASP9_HUMAN",
+                  "accession": "P55211",
+                  "title": "Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3"
+                }
+              ],
+              "len": 416,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 9.20115,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 81,
+                  "query_to": 103,
+                  "hit_from": 305,
+                  "hit_to": 330,
+                  "align_len": 26,
+                  "gaps": 3,
+                  "qseq": "DKSQASRPTPDEL---EAVRKYFQLD",
+                  "hseq": "DESPGSNPEPDATPFQEGLRTFDQLD",
+                  "midline": "D+S  S P PD     E +R + QLD"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 66,
+            "eff_space": 19230912,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

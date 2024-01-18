@@ -1,0 +1,297 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P30922|CH3L1_BOVIN Chitinase-3-like protein 1 OS=Bos taurus OX=9913 GN=CHI3L1 PE=1 SV=3",
+          "query_len": 383,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P30922|CH3L1_BOVIN",
+                  "accession": "P30922",
+                  "title": "Chitinase-3-like protein 1 OS=Bos taurus OX=9913 GN=CHI3L1 PE=1 SV=3"
+                }
+              ],
+              "len": 383,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 800.431,
+                  "score": 2066,
+                  "evalue": 0,
+                  "identity": 383,
+                  "positive": 383,
+                  "query_from": 1,
+                  "query_to": 383,
+                  "hit_from": 1,
+                  "hit_to": 383,
+                  "align_len": 383,
+                  "gaps": 0,
+                  "qseq": "MGLRAAHTGFVVLVLLQSCAAYKLICYYTSWSQYREGDGSCFPDAIDPFLCTHVIYSFANISNNEIDTWEWNDVTLYDTLNTLKNRNPNLKTLLSVGGWNFGSQRFSKIASKTQSRRTFIKSVPPFLRTHGFDGLDLAWLYPGWRDKRHLTTLVKEMKAEFVREAQAGTEQLLLSAAVPAGKIAIDRGYDIAQISRHLDFISLLTYDFHGAWRQTVGHHSPLFRGQEDASSDRFSNADYAVSYMLRLGAPANKLVMGIPTFGRSYTLASSKTDVGAPISGPGIPGQFTKEKGILAYYEICDFLHGATTHRFRDQQVPYATKGNQWVAYDDQESVKNKARYLKNRQLAGAMVWALDLDDFRGTFCGQNLTFPLTSAIKDVLARV",
+                  "hseq": "MGLRAAHTGFVVLVLLQSCAAYKLICYYTSWSQYREGDGSCFPDAIDPFLCTHVIYSFANISNNEIDTWEWNDVTLYDTLNTLKNRNPNLKTLLSVGGWNFGSQRFSKIASKTQSRRTFIKSVPPFLRTHGFDGLDLAWLYPGWRDKRHLTTLVKEMKAEFVREAQAGTEQLLLSAAVPAGKIAIDRGYDIAQISRHLDFISLLTYDFHGAWRQTVGHHSPLFRGQEDASSDRFSNADYAVSYMLRLGAPANKLVMGIPTFGRSYTLASSKTDVGAPISGPGIPGQFTKEKGILAYYEICDFLHGATTHRFRDQQVPYATKGNQWVAYDDQESVKNKARYLKNRQLAGAMVWALDLDDFRGTFCGQNLTFPLTSAIKDVLARV",
+                  "midline": "MGLRAAHTGFVVLVLLQSCAAYKLICYYTSWSQYREGDGSCFPDAIDPFLCTHVIYSFANISNNEIDTWEWNDVTLYDTLNTLKNRNPNLKTLLSVGGWNFGSQRFSKIASKTQSRRTFIKSVPPFLRTHGFDGLDLAWLYPGWRDKRHLTTLVKEMKAEFVREAQAGTEQLLLSAAVPAGKIAIDRGYDIAQISRHLDFISLLTYDFHGAWRQTVGHHSPLFRGQEDASSDRFSNADYAVSYMLRLGAPANKLVMGIPTFGRSYTLASSKTDVGAPISGPGIPGQFTKEKGILAYYEICDFLHGATTHRFRDQQVPYATKGNQWVAYDDQESVKNKARYLKNRQLAGAMVWALDLDDFRGTFCGQNLTFPLTSAIKDVLARV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q9V3D4|IDGF2_DROME",
+                  "accession": "Q9V3D4",
+                  "title": "Chitinase-like protein Idgf2 OS=Drosophila melanogaster OX=7227 GN=Idgf2 PE=1 SV=1"
+                }
+              ],
+              "len": 440,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 152.91,
+                  "score": 385,
+                  "evalue": 2.89173e-44,
+                  "identity": 127,
+                  "positive": 198,
+                  "query_from": 10,
+                  "query_to": 377,
+                  "hit_from": 9,
+                  "hit_to": 437,
+                  "align_len": 434,
+                  "gaps": 71,
+                  "qseq": "FVVLVLLQSC-AAYKLICYYTSWSQYREGDGSCF-PD-AIDPFLCTHVIYSFANISNNEIDTWEWND-VTLY----DTLNTLKNRNPNLKTLLSVGG-----WNFGSQRFSKIASKTQSRRTFIKSVPPFLRTHGFDGLDLAWLYP-------------GWRDKRHLTT----------LVKEMKAEFVREAQAG--TEQLLLSAAVPAGKIAIDRGYDIAQISRHLDFISLLTYDFHGAWR--QTVGHHSPLFRGQEDASSDRFS--NADYAVSYMLRLGAPANKLVMGIPTFGRSYTLASSKTDVGAPI----SGPGIPGQFTKEKGILAYYEICDFLHGATTHRFRDQQVP---------------YATKGNQ-----WVAYDDQESVKNKARYLKNRQLAGAMVWALDLDDFRGTFCGQNLTFPLTSAIK",
+                  "hseq": "FVACLFAASTEAASNLVCYYDSSSYTREGLGKLLNPDLEIALQFCSHLVYGYAGLRGENLQAYSMNENLDIYKHQFSEVTSLKRKYPHLKVLLSVGGDHDIDPDHPNKYIDLLEGEKVRQIGFIRSAYDLVKTYGFDGLDLAYQFPKNKPRKVHGDLGLAWKSIKKLFTGDFIVDPHAALHKEQFTALVRDVKDSLRADGFLLSLTV-LPNVNSTWYFDIPALNGLVDFVNLATFDFLTPARNPEEADYSAPIY--HPDGSKDRLAHLNADFQVEYWLSQGFPSNKINLGVATYGNAWKLTKDSGLEGVPVVPETSGPAPEGFQSQKPGLLSYAEICGKLSNPQNQFLKGNESPLRRVSDPTKRFGGIAYRPVDGQITEGIWVSYDDPDSASNKAAYARVKNLGGVALFDLSYDDFRGQCSGDK--YPILRAIK",
+                  "midline": "FV  +   S  AA  L+CYY S S  REG G    PD  I    C+H++Y +A +    +  +  N+ + +Y      + +LK + P+LK LLSVGG      +  ++    +  +   +  FI+S    ++T+GFDGLDLA+ +P              W+  + L T          L KE     VR+ +     +  LLS  V    +     +DI  ++  +DF++L T+DF    R  +   + +P++    D S DR +  NAD+ V Y L  G P+NK+ +G+ T+G ++ L       G P+    SGP   G  +++ G+L+Y EIC  L        +  + P               Y     Q     WV+YDD +S  NKA Y + + L G  ++ L  DDFRG   G    +P+  AIK"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P07254|CHIA_SERMA",
+                  "accession": "P07254",
+                  "title": "Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3"
+                }
+              ],
+              "len": 563,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 108.227,
+                  "score": 269,
+                  "evalue": 8.9319e-28,
+                  "identity": 89,
+                  "positive": 148,
+                  "query_from": 77,
+                  "query_to": 358,
+                  "hit_from": 253,
+                  "hit_to": 545,
+                  "align_len": 300,
+                  "gaps": 25,
+                  "qseq": "YDTLNTLKNRNPNLKTLLSVGGWNFGSQRFSKIASKTQSRRTFIKSVPPFLRT-HGFDGLDLAWLYPGWR----------DKRHLTTLVKEMKAEFVREAQAGTEQLLLSAAVPAGKIAIDR-GYDIAQISRHLDFISLLTYDFHGAWR-QTVGHHSPLFRGQEDASSDRFSNADYAVSYMLRLGAPANKLVMGIPTFGRSYTLASSKTDVGAPISGPGI-PGQFTKEKGILAYYEIC-DFLHGATTHRF-RDQQVPYATKGN--QWVAYDDQESVKNKARYLKNRQLAGAMVWALDLDD",
+                  "hseq": "FGQLMALKQAHPDLKILPSIGGWTL-SDPFFFMGDKVKRDR-FVGSVKEFLQTWKFFDGVDIDWEFPGGKGANPNLGSPQDGETYVLLMKELRAMLDQLSAETGRKYELTSAISAGKDKIDKVAYNVAQNS--MDHIFLMSYDFYGPFDLKNLGHQTAL--NAPAWKPDTAYTTVNGVNALLAQGVKPGKVVVGTAMYGRGWTGVNGYQN-NIPFTGTATGPVKGTWKNGIVDYRQIAGQFMSGEWQYTYDATAEAPYVFKPSTGDLITFDDARSVQAKGKYVLDKQLGGLFSWEIDADN",
+                  "midline": "+  L  LK  +P+LK L S+GGW   S  F  +  K +  R F+ SV  FL+T   FDG+D+ W +PG +          D      L+KE++A   + +     +  L++A+ AGK  ID+  Y++AQ S  +D I L++YDF+G +  + +GH + L         D        V+ +L  G    K+V+G   +GR +T  +   +   P +G    P + T + GI+ Y +I   F+ G   + +    + PY  K +    + +DD  SV+ K +Y+ ++QL G   W +D D+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|Q00722|PLCB2_HUMAN",
+                  "accession": "Q00722",
+                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
+                }
+              ],
+              "len": 1185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 1.03749,
+                  "identity": 14,
+                  "positive": 19,
+                  "query_from": 283,
+                  "query_to": 323,
+                  "hit_from": 689,
+                  "hit_to": 730,
+                  "align_len": 42,
+                  "gaps": 1,
+                  "qseq": "IPGQFTKEKGILAYYEICDF-LHGATTHRFRDQQVPYATKGN",
+                  "hseq": "ISGQFLSERSVRTYVEVELFGLPGDPKRRYRTKLSPSTNSIN",
+                  "midline": "I GQF  E+ +  Y E+  F L G    R+R +  P     N"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 3.88887,
+                  "identity": 17,
+                  "positive": 33,
+                  "query_from": 318,
+                  "query_to": 380,
+                  "hit_from": 16,
+                  "hit_to": 85,
+                  "align_len": 71,
+                  "gaps": 9,
+                  "qseq": "YATKGNQWVAYDDQESVKN--------KARYLKNRQLAGAMVWALDLDDFRGTFCGQNLTFPLTSAIKDVL",
+                  "hseq": "YLSQGERFIKWDDETTVASPVILRVDPKGYYLYWTYQSKEMEF-LDITSIRDTRFGKFAKMPKSQKLRDVF",
+                  "midline": "Y ++G +++ +DD+ +V +        K  YL     +  M + LD+   R T  G+    P +  ++DV "
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P16099|DHTM_METME",
+                  "accession": "P16099",
+                  "title": "Trimethylamine dehydrogenase OS=Methylophilus methylotrophus OX=17 GN=tmd PE=1 SV=3"
+                }
+              ],
+              "len": 730,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 1.27107,
+                  "identity": 31,
+                  "positive": 52,
+                  "query_from": 156,
+                  "query_to": 291,
+                  "hit_from": 197,
+                  "hit_to": 334,
+                  "align_len": 142,
+                  "gaps": 10,
+                  "qseq": "EMKAEFVREAQAGTEQLLLSAAVPAGKIAIDRGYDIAQISRHLD---FISLLTYDFHGAWRQTVGHHSPLFRGQEDASSDRFSNADYAVSYMLRLGAPANKLVMGIPTFGRSYTLASSKTDVGAPISG---PGIPGQFTKEK",
+                  "hseq": "ENRARFWLETLEKVKHAVGSDCAIATRFGVDTVYGPGQIEAEVDGQKFVEMAD-SLVDMWDITIGD---IAEWGEDAGPSRFYQQGHTIPWVKLVKQVSKKPVLGVGRYTDPEKMIEIVTKGYADIIGCARPSIADPFLPQK",
+                  "midline": "E +A F  E     +  + S    A +  +D  Y   QI   +D   F+ +        W  T+G    +    EDA   RF    + + ++  +   + K V+G+  +     +    T   A I G   P I   F  +K"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P07987|GUX2_HYPJE",
+                  "accession": "P07987",
+                  "title": "Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1"
+                }
+              ],
+              "len": 471,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 2.00421,
+                  "identity": 9,
+                  "positive": 16,
+                  "query_from": 98,
+                  "query_to": 132,
+                  "hit_from": 332,
+                  "hit_to": 366,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "GWNFGSQRFSKIASKTQSRRTFIKSVPPFLRTHGF",
+                  "hseq": "GWNITSPPSYTQGNAVYNEKLYIHAIGPLLANHGW",
+                  "midline": "GWN  S       +   + + +I ++ P L  HG+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P38398|BRCA1_HUMAN",
+                  "accession": "P38398",
+                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                }
+              ],
+              "len": 1863,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 4.62282,
+                  "identity": 20,
+                  "positive": 38,
+                  "query_from": 56,
+                  "query_to": 120,
+                  "hit_from": 105,
+                  "hit_to": 178,
+                  "align_len": 76,
+                  "gaps": 13,
+                  "qseq": "YSFANISNNEIDTWEWNDVTLYDTLNTLKNR----------NPNLK-TLLSVGGWNFGSQRFSKIASKTQSRRTFI",
+                  "hseq": "YNFAKKENNSPEHLK-DEVSIIQSMG-YRNRAKRLLQSEPENPSLQETSLSVQLSNLGTVRTLRTKQRIQPQKTSV",
+                  "midline": "Y+FA   NN  +  + ++V++  ++   +NR          NP+L+ T LSV   N G+ R  +   + Q ++T +"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P00094|CYC2_RHOCB",
+                  "accession": "P00094",
+                  "title": "Cytochrome c2 OS=Rhodobacter capsulatus (strain ATCC BAA-309 / NBRC 16581 / SB1003) OX=272942 GN=cycA PE=1 SV=1"
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 4.74744,
+                  "identity": 17,
+                  "positive": 26,
+                  "query_from": 310,
+                  "query_to": 381,
+                  "hit_from": 73,
+                  "hit_to": 130,
+                  "align_len": 72,
+                  "gaps": 14,
+                  "qseq": "RFRDQQVPYATKGNQWVAYDDQESVKNKARYLKNRQLAGAMVWALDLDDFRGTFCGQNLTFPLTSAIKDVLA",
+                  "hseq": "KYKDSIVALGASGFAWTEEDIATYVKDPGAFLKEK-----------LDDKKAK---TGMAFKLAKGGEDVAA",
+                  "midline": "+++D  V     G  W   D    VK+   +LK +           LDD +       + F L    +DV A"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 67,
+            "eff_space": 21715204,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

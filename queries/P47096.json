@@ -1,0 +1,340 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P47096|3HAO_YEAST 3-hydroxyanthranilate 3,4-dioxygenase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BNA1 PE=1 SV=1",
+          "query_len": 177,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P47096|3HAO_YEAST",
+                  "accession": "P47096",
+                  "title": "3-hydroxyanthranilate 3,4-dioxygenase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BNA1 PE=1 SV=1"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 372.089,
+                  "score": 954,
+                  "evalue": 2.35751e-136,
+                  "identity": 177,
+                  "positive": 177,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MFNTTPINIDKWLKENEGLLKPPVNNYCLHKGGFTVMIVGGPNERTGYHINPTPEWFYQKKGSMLLKVVDETDAEPKFIDIIINEGDSYLLPGNVPHSPVRFADTVGIVVEQDRPGGENDKIRWYCSHCRQVVHESELQMLDLGTQVKEAILDFENDVEKRTCFHCKTLNYARPQSN",
+                  "hseq": "MFNTTPINIDKWLKENEGLLKPPVNNYCLHKGGFTVMIVGGPNERTGYHINPTPEWFYQKKGSMLLKVVDETDAEPKFIDIIINEGDSYLLPGNVPHSPVRFADTVGIVVEQDRPGGENDKIRWYCSHCRQVVHESELQMLDLGTQVKEAILDFENDVEKRTCFHCKTLNYARPQSN",
+                  "midline": "MFNTTPINIDKWLKENEGLLKPPVNNYCLHKGGFTVMIVGGPNERTGYHINPTPEWFYQKKGSMLLKVVDETDAEPKFIDIIINEGDSYLLPGNVPHSPVRFADTVGIVVEQDRPGGENDKIRWYCSHCRQVVHESELQMLDLGTQVKEAILDFENDVEKRTCFHCKTLNYARPQSN"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q1LCS4|3HAO_CUPMC",
+                  "accession": "Q1LCS4",
+                  "title": "3-hydroxyanthranilate 3,4-dioxygenase OS=Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34) OX=266264 GN=nbaC PE=1 SV=1"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 3.37456e-35,
+                  "identity": 65,
+                  "positive": 90,
+                  "query_from": 5,
+                  "query_to": 173,
+                  "hit_from": 6,
+                  "hit_to": 172,
+                  "align_len": 171,
+                  "gaps": 6,
+                  "qseq": "TPINIDKWLKENEGLLKPPV-NNYCLHKGGFTVMIVGGPNERTGYHINPTPEWFYQKKGSMLLKVVDETDAEPKFIDIIINEGDSYLLPGNVPHSPVR-FADTVGIVVEQDRPGGENDKIRWYCSHCRQVVHESELQMLDLGTQVKEAILDFENDVEKRTCFHCKTLNYAR",
+                  "hseq": "APFNFPRWIDEHAHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLW--VDGRRERADL--KEGDIFLLPPHVRHSPQRPEAGSACLVIERQRPAGMLDGFEWYCDACGHLVHRVEVQLKSIVTDLPPLFESFYASEDKRRCPHCGQVHPGR",
+                  "midline": " P N  +W+ E+  LLKPPV N        F V +VGGPN RT YH +P  E+FYQ +G+  L +    D   +  D+   EGD +LLP +V HSP R  A +  +V+E+ RP G  D   WYC  C  +VH  E+Q+  + T +      F    +KR C HC  ++  R"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P40818|UBP8_HUMAN",
+                  "accession": "P40818",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                }
+              ],
+              "len": 1118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 0.292621,
+                  "identity": 8,
+                  "positive": 9,
+                  "query_from": 120,
+                  "query_to": 130,
+                  "hit_from": 979,
+                  "hit_to": 989,
+                  "align_len": 11,
+                  "gaps": 0,
+                  "qseq": "DKIRWYCSHCR",
+                  "hseq": "DNNRFYCSHCR",
+                  "midline": "D  R+YCSHCR"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P38398|BRCA1_HUMAN",
+                  "accession": "P38398",
+                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                }
+              ],
+              "len": 1863,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 0.380798,
+                  "identity": 14,
+                  "positive": 24,
+                  "query_from": 127,
+                  "query_to": 169,
+                  "hit_from": 1140,
+                  "hit_to": 1181,
+                  "align_len": 43,
+                  "gaps": 1,
+                  "qseq": "SHCRQVVHESELQMLDLGTQVKEAILDFENDVEKRTCFHCKTL",
+                  "hseq": "SHASQVCSETPDDLLDDG-EIKEDTSFAENDIKESSAVFSKSV",
+                  "midline": "SH  QV  E+   +LD G ++KE     END+++ +    K++"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P43593|UBP6_YEAST",
+                  "accession": "P43593",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
+                }
+              ],
+              "len": 499,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 4.26247,
+                  "identity": 9,
+                  "positive": 12,
+                  "query_from": 27,
+                  "query_to": 43,
+                  "hit_from": 62,
+                  "hit_to": 78,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "YCLHKGGFTVMIVGGPN",
+                  "hseq": "YPLIKPGSTVMLLGTPD",
+                  "midline": "Y L K G TVM++G P+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P0A6Y8|DNAK_ECOLI",
+                  "accession": "P0A6Y8",
+                  "title": "Chaperone protein DnaK OS=Escherichia coli (strain K12) OX=83333 GN=dnaK PE=1 SV=2"
+                }
+              ],
+              "len": 638,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 4.28172,
+                  "identity": 8,
+                  "positive": 14,
+                  "query_from": 69,
+                  "query_to": 90,
+                  "hit_from": 207,
+                  "hit_to": 227,
+                  "align_len": 22,
+                  "gaps": 1,
+                  "qseq": "VDETDAEPKFIDIIINEGDSYL",
+                  "hseq": "IDEVDGEKTF-EVLATNGDTHL",
+                  "midline": "+DE D E  F +++   GD++L"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P07327|ADH1A_HUMAN",
+                  "accession": "P07327",
+                  "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
+                }
+              ],
+              "len": 375,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 5.4835,
+                  "identity": 9,
+                  "positive": 13,
+                  "query_from": 27,
+                  "query_to": 52,
+                  "hit_from": 281,
+                  "hit_to": 306,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "YCLHKGGFTVMIVGGPNERTGYHINP",
+                  "hseq": "LCCHEACGTSVIVGVPPDSQNLSMNP",
+                  "midline": " C H+   T +IVG P +     +NP"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P07206|PULA_KLEPN",
+                  "accession": "P07206",
+                  "title": "Pullulanase OS=Klebsiella pneumoniae OX=573 GN=pulA PE=1 SV=2"
+                }
+              ],
+              "len": 1090,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 6.30549,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 40,
+                  "query_to": 60,
+                  "hit_from": 618,
+                  "hit_to": 637,
+                  "align_len": 21,
+                  "gaps": 1,
+                  "qseq": "GGPNERTGYHINPTPEWFYQK",
+                  "hseq": "AGPTDRTSVLDKIVP-WYYQR",
+                  "midline": " GP +RT       P W+YQ+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 8.6832,
+                  "identity": 7,
+                  "positive": 9,
+                  "query_from": 42,
+                  "query_to": 53,
+                  "hit_from": 2344,
+                  "hit_to": 2355,
+                  "align_len": 12,
+                  "gaps": 0,
+                  "qseq": "PNERTGYHINPT",
+                  "hseq": "PNNPSGHLINPT",
+                  "midline": "PN  +G+ INPT"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|Q13867|BLMH_HUMAN",
+                  "accession": "Q13867",
+                  "title": "Bleomycin hydrolase OS=Homo sapiens OX=9606 GN=BLMH PE=1 SV=1"
+                }
+              ],
+              "len": 455,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 9.50892,
+                  "identity": 7,
+                  "positive": 10,
+                  "query_from": 119,
+                  "query_to": 134,
+                  "hit_from": 182,
+                  "hit_to": 197,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "NDKIRWYCSHCRQVVH",
+                  "hseq": "NHKMREFCIRLRNLVH",
+                  "midline": "N K+R +C   R +VH"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 60,
+            "eff_space": 8211294,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

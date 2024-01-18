@@ -1,0 +1,280 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P04377|AZUP_ALCFA Pseudoazurin OS=Alcaligenes faecalis OX=511 PE=1 SV=2",
+          "query_len": 146,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P04377|AZUP_ALCFA",
+                  "accession": "P04377",
+                  "title": "Pseudoazurin OS=Alcaligenes faecalis OX=511 PE=1 SV=2"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 295.049,
+                  "score": 754,
+                  "evalue": 7.16893e-107,
+                  "identity": 146,
+                  "positive": 146,
+                  "query_from": 1,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 0,
+                  "qseq": "MRNIAIKFAAAGILAMLAAPALAENIEVHMLNKGAEGAMVFEPAYIKANPGDTVTFIPVDKGHNVESIKDMIPEGAEKFKSKINENYVLTVTQPGAYLVKCTPHYAMGMIALIAVGDSPANLDQIVSAKKPKIVQERLEKVIASAK",
+                  "hseq": "MRNIAIKFAAAGILAMLAAPALAENIEVHMLNKGAEGAMVFEPAYIKANPGDTVTFIPVDKGHNVESIKDMIPEGAEKFKSKINENYVLTVTQPGAYLVKCTPHYAMGMIALIAVGDSPANLDQIVSAKKPKIVQERLEKVIASAK",
+                  "midline": "MRNIAIKFAAAGILAMLAAPALAENIEVHMLNKGAEGAMVFEPAYIKANPGDTVTFIPVDKGHNVESIKDMIPEGAEKFKSKINENYVLTVTQPGAYLVKCTPHYAMGMIALIAVGDSPANLDQIVSAKKPKIVQERLEKVIASAK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P22364|AMCY_PARDE",
+                  "accession": "P22364",
+                  "title": "Amicyanin OS=Paracoccus denitrificans OX=266 GN=mauC PE=1 SV=1"
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 38.5058,
+                  "score": 88,
+                  "evalue": 1.95136e-06,
+                  "identity": 25,
+                  "positive": 34,
+                  "query_from": 39,
+                  "query_to": 104,
+                  "hit_from": 54,
+                  "hit_to": 121,
+                  "align_len": 68,
+                  "gaps": 2,
+                  "qseq": "MVFEPAYIKANPGDTVTFIPVDK-GHNVESIKDMIPEGAEKF-KSKINENYVLTVTQPGAYLVKCTPH",
+                  "hseq": "MKYETPELHVKVGDTVTWINREAMPHNVHFVAGVLGEAALKGPMMKKEQAYSLTFTEAGTYDYHCTPH",
+                  "midline": "M +E   +    GDTVT+I  +   HNV  +  ++ E A K    K  + Y LT T+ G Y   CTPH"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P0C6U8|R1A_SARS",
+                  "accession": "P0C6U8",
+                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                }
+              ],
+              "len": 4382,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 1.75357,
+                  "identity": 25,
+                  "positive": 31,
+                  "query_from": 3,
+                  "query_to": 65,
+                  "hit_from": 1015,
+                  "hit_to": 1088,
+                  "align_len": 74,
+                  "gaps": 11,
+                  "qseq": "NIAIKFAAAGILAMLAAPALAENI-EVHM---------LNKGAEGAMVFEP-AYIKANPGDTVTFIPVDKGHNV",
+                  "hseq": "NVAIKCVDIVKEAQSANPMVIVNAANIHLKHGGGVAGALNKATNGAMQKESDDYIKLNGPLTVGGSCLLSGHNL",
+                  "midline": "N+AIK       A  A P +  N   +H+         LNK   GAM  E   YIK N   TV    +  GHN+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P37156|LYSC1_TACAC",
+                  "accession": "P37156",
+                  "title": "Lysozyme C I OS=Tachyglossus aculeatus aculeatus OX=49271 PE=1 SV=1"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 1.98822,
+                  "identity": 10,
+                  "positive": 19,
+                  "query_from": 66,
+                  "query_to": 108,
+                  "hit_from": 7,
+                  "hit_to": 49,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "ESIKDMIPEGAEKFKSKINENYVLTVTQPGAYLVKCTPHYAMG",
+                  "hseq": "ELCKNLVAQGMNGYQHITLPNWVCTAFHESSYNTRATNHNTDG",
+                  "midline": "E  K+++ +G   ++     N+V T     +Y  + T H   G"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P00327|ADH1E_HORSE",
+                  "accession": "P00327",
+                  "title": "Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2"
+                }
+              ],
+              "len": 375,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 3.89158,
+                  "identity": 11,
+                  "positive": 13,
+                  "query_from": 51,
+                  "query_to": 75,
+                  "hit_from": 56,
+                  "hit_to": 80,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "GDTVTFIPVDKGHNVESIKDMIPEG",
+                  "hseq": "GTLVTPLPVIAGHEAAGIVESIGEG",
+                  "midline": "G  VT +PV  GH    I + I EG"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P07327|ADH1A_HUMAN",
+                  "accession": "P07327",
+                  "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
+                }
+              ],
+              "len": 375,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 4.30108,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 51,
+                  "query_to": 80,
+                  "hit_from": 56,
+                  "hit_to": 85,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "GDTVTFIPVDKGHNVESIKDMIPEGAEKFK",
+                  "hseq": "GTMVTPLPVILGHEAAGIVESVGEGVTTVK",
+                  "midline": "G  VT +PV  GH    I + + EG    K"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P74881|PUR4_SALTY",
+                  "accession": "P74881",
+                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                }
+              ],
+              "len": 1295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 5.42324,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 104,
+                  "query_to": 129,
+                  "hit_from": 835,
+                  "hit_to": 864,
+                  "align_len": 30,
+                  "gaps": 4,
+                  "qseq": "HYAMGMIALIAV----GDSPANLDQIVSAK",
+                  "hseq": "HNALGATALAQVYRQLGDKPADVRDVAQLK",
+                  "midline": "H A+G  AL  V    GD PA++  +   K"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|O43896|KIF1C_HUMAN",
+                  "accession": "O43896",
+                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                }
+              ],
+              "len": 1103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 8.22977,
+                  "identity": 16,
+                  "positive": 27,
+                  "query_from": 25,
+                  "query_to": 86,
+                  "hit_from": 76,
+                  "hit_to": 133,
+                  "align_len": 62,
+                  "gaps": 4,
+                  "qseq": "NIEVHMLNKGAEGAMVFEPAYIKANPGDTVTFIPVDKGHNVESIKDMIPEGAEKFKSKINEN",
+                  "hseq": "DIGEEMLLHAFEGYNVCIFAYGQTGAGKSYTMM----GRQEPGQQGIVPQLCEDLFSRVSEN",
+                  "midline": "+I   ML    EG  V   AY +   G + T +    G      + ++P+  E   S+++EN"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 58,
+            "eff_space": 6212800,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

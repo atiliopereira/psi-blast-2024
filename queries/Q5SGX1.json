@@ -1,0 +1,100 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q5SGX1|SYFB_THET8 Phenylalanine--tRNA ligase beta subunit OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=pheT PE=1 SV=1",
+          "query_len": 785,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q5SGX1|SYFB_THET8",
+                  "accession": "Q5SGX1",
+                  "title": "Phenylalanine--tRNA ligase beta subunit OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=pheT PE=1 SV=1"
+                }
+              ],
+              "len": 785,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1518.44,
+                  "score": 3930,
+                  "evalue": 0,
+                  "identity": 785,
+                  "positive": 785,
+                  "query_from": 1,
+                  "query_to": 785,
+                  "hit_from": 1,
+                  "hit_to": 785,
+                  "align_len": 785,
+                  "gaps": 0,
+                  "qseq": "MRVPFSWLKAYVPELESPEVLEERLAGLGFETDRIERVFPIPRGVVFARVLEAHPIPGTRLKRLVLDAGRTVEVVSGAENARKGIGVALALPGTELPGLGQKVGERVIQGVRSFGMALSPRELGVGEYGGGLLEFPEDALPPGTPLSEAWPEEVVLDLEVTPNRPDALGLLGLARDLHALGYALVEPEAALKAEALPLPFALKVEDPEGAPHFTLGYAFGLRVAPSPLWMQRALFAAGMRPINNVVDVTNYVMLERAQPMHAFDLRFVGEGIAVRRAREGERLKTLDGVERTLHPEDLVIAGWRGEESFPLGLAGVMGGAESEVREDTEAIALEVACFDPVSIRKTARRHGLRTEASHRFERGVDPLGQVPAQRRALSLLQALAGARVAEALLEAGSPKPPEAIPFRPEYANRLLGTSYPEAEQIAILKRLGCRVEGEGPTYRVTPPSHRLDLRLEEDLVEEVARIQGYETIPLALPAFFPAPDNRGVEAPYRKEQRLREVLSGLGFQEVYTYSFMDPEDARRFRLDPPRLLLLNPLAPEKAALRTHLFPGLVRVLKENLDLDRPERALLFEVGRVFREREETHLAGLLFGEGVGLPWAKERLSGYFLLKGYLEALFARLGLAFRVEAQAFPFLHPGVSGRVLVEGEEVGFLGALHPEIAQELELPPVHLFELRLPLPDKPLAFQDPSRHPAAFRDLAVVVPAPTPYGEVEALVREAAGPYLESLALFDLYQGPPLPEGHKSLAFHLRFRHPKRTLRDEEVEEAVSRVAEALRARGFGLRGLDTP",
+                  "hseq": "MRVPFSWLKAYVPELESPEVLEERLAGLGFETDRIERVFPIPRGVVFARVLEAHPIPGTRLKRLVLDAGRTVEVVSGAENARKGIGVALALPGTELPGLGQKVGERVIQGVRSFGMALSPRELGVGEYGGGLLEFPEDALPPGTPLSEAWPEEVVLDLEVTPNRPDALGLLGLARDLHALGYALVEPEAALKAEALPLPFALKVEDPEGAPHFTLGYAFGLRVAPSPLWMQRALFAAGMRPINNVVDVTNYVMLERAQPMHAFDLRFVGEGIAVRRAREGERLKTLDGVERTLHPEDLVIAGWRGEESFPLGLAGVMGGAESEVREDTEAIALEVACFDPVSIRKTARRHGLRTEASHRFERGVDPLGQVPAQRRALSLLQALAGARVAEALLEAGSPKPPEAIPFRPEYANRLLGTSYPEAEQIAILKRLGCRVEGEGPTYRVTPPSHRLDLRLEEDLVEEVARIQGYETIPLALPAFFPAPDNRGVEAPYRKEQRLREVLSGLGFQEVYTYSFMDPEDARRFRLDPPRLLLLNPLAPEKAALRTHLFPGLVRVLKENLDLDRPERALLFEVGRVFREREETHLAGLLFGEGVGLPWAKERLSGYFLLKGYLEALFARLGLAFRVEAQAFPFLHPGVSGRVLVEGEEVGFLGALHPEIAQELELPPVHLFELRLPLPDKPLAFQDPSRHPAAFRDLAVVVPAPTPYGEVEALVREAAGPYLESLALFDLYQGPPLPEGHKSLAFHLRFRHPKRTLRDEEVEEAVSRVAEALRARGFGLRGLDTP",
+                  "midline": "MRVPFSWLKAYVPELESPEVLEERLAGLGFETDRIERVFPIPRGVVFARVLEAHPIPGTRLKRLVLDAGRTVEVVSGAENARKGIGVALALPGTELPGLGQKVGERVIQGVRSFGMALSPRELGVGEYGGGLLEFPEDALPPGTPLSEAWPEEVVLDLEVTPNRPDALGLLGLARDLHALGYALVEPEAALKAEALPLPFALKVEDPEGAPHFTLGYAFGLRVAPSPLWMQRALFAAGMRPINNVVDVTNYVMLERAQPMHAFDLRFVGEGIAVRRAREGERLKTLDGVERTLHPEDLVIAGWRGEESFPLGLAGVMGGAESEVREDTEAIALEVACFDPVSIRKTARRHGLRTEASHRFERGVDPLGQVPAQRRALSLLQALAGARVAEALLEAGSPKPPEAIPFRPEYANRLLGTSYPEAEQIAILKRLGCRVEGEGPTYRVTPPSHRLDLRLEEDLVEEVARIQGYETIPLALPAFFPAPDNRGVEAPYRKEQRLREVLSGLGFQEVYTYSFMDPEDARRFRLDPPRLLLLNPLAPEKAALRTHLFPGLVRVLKENLDLDRPERALLFEVGRVFREREETHLAGLLFGEGVGLPWAKERLSGYFLLKGYLEALFARLGLAFRVEAQAFPFLHPGVSGRVLVEGEEVGFLGALHPEIAQELELPPVHLFELRLPLPDKPLAFQDPSRHPAAFRDLAVVVPAPTPYGEVEALVREAAGPYLESLALFDLYQGPPLPEGHKSLAFHLRFRHPKRTLRDEEVEEAVSRVAEALRARGFGLRGLDTP"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P04395|3MG2_ECOLI",
+                  "accession": "P04395",
+                  "title": "DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1"
+                }
+              ],
+              "len": 282,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 3.73825,
+                  "identity": 11,
+                  "positive": 17,
+                  "query_from": 103,
+                  "query_to": 139,
+                  "hit_from": 19,
+                  "hit_to": 55,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "VGERVIQGVRSFGMALSPRELGVGEYGGGLLEFPEDA",
+                  "hseq": "LAARAVSSVETVADSYYARSLAVGEYRGVVTAIPDIA",
+                  "midline": "+  R +  V +   +   R L VGEY G +   P+ A"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 73,
+            "eff_space": 48035080,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

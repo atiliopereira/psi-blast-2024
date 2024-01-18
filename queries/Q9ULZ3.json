@@ -1,0 +1,280 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q9ULZ3|ASC_HUMAN Apoptosis-associated speck-like protein containing a CARD OS=Homo sapiens OX=9606 GN=PYCARD PE=1 SV=2",
+          "query_len": 195,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q9ULZ3|ASC_HUMAN",
+                  "accession": "Q9ULZ3",
+                  "title": "Apoptosis-associated speck-like protein containing a CARD OS=Homo sapiens OX=9606 GN=PYCARD PE=1 SV=2"
+                }
+              ],
+              "len": 195,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 398.282,
+                  "score": 1022,
+                  "evalue": 3.34217e-146,
+                  "identity": 195,
+                  "positive": 195,
+                  "query_from": 1,
+                  "query_to": 195,
+                  "hit_from": 1,
+                  "hit_to": 195,
+                  "align_len": 195,
+                  "gaps": 0,
+                  "qseq": "MGRARDAILDALENLTAEELKKFKLKLLSVPLREGYGRIPRGALLSMDALDLTDKLVSFYLETYGAELTANVLRDMGLQEMAGQLQAATHQGSGAAPAGIQAPPQSAAKPGLHFIDQHRAALIARVTNVEWLLDALYGKVLTDEQYQAVRAEPTNPSKMRKLFSFTPAWNWTCKDLLLQALRESQSYLVEDLERS",
+                  "hseq": "MGRARDAILDALENLTAEELKKFKLKLLSVPLREGYGRIPRGALLSMDALDLTDKLVSFYLETYGAELTANVLRDMGLQEMAGQLQAATHQGSGAAPAGIQAPPQSAAKPGLHFIDQHRAALIARVTNVEWLLDALYGKVLTDEQYQAVRAEPTNPSKMRKLFSFTPAWNWTCKDLLLQALRESQSYLVEDLERS",
+                  "midline": "MGRARDAILDALENLTAEELKKFKLKLLSVPLREGYGRIPRGALLSMDALDLTDKLVSFYLETYGAELTANVLRDMGLQEMAGQLQAATHQGSGAAPAGIQAPPQSAAKPGLHFIDQHRAALIARVTNVEWLLDALYGKVLTDEQYQAVRAEPTNPSKMRKLFSFTPAWNWTCKDLLLQALRESQSYLVEDLERS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P10688|PLCD1_RAT",
+                  "accession": "P10688",
+                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
+                }
+              ],
+              "len": 756,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 0.129559,
+                  "identity": 26,
+                  "positive": 36,
+                  "query_from": 5,
+                  "query_to": 83,
+                  "hit_from": 150,
+                  "hit_to": 223,
+                  "align_len": 80,
+                  "gaps": 7,
+                  "qseq": "RDAILDALENLTAEELKKFKLKLLSVPLREGYGR-IPRGALLSMDALDLTDKLVSFYLETYGAELTANVLRDMGLQEMAG",
+                  "hseq": "RKADKNKDNKMNFKELKDF-LKELNIQVDDGYARKIFRECDHSQ-----TDSLEDEEIETFYKMLTQRAEIDRAFEEAAG",
+                  "midline": "R A  +    +  +ELK F LK L++ + +GY R I R    S      TD L    +ET+   LT     D   +E AG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P69328|AMYG_ASPNG",
+                  "accession": "P69328",
+                  "title": "Glucoamylase OS=Aspergillus niger OX=5061 GN=GLAA PE=1 SV=1"
+                }
+              ],
+              "len": 640,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 1.77132,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 63,
+                  "query_to": 100,
+                  "hit_from": 442,
+                  "hit_to": 479,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "TYGAELTANVLRDMGLQEMAGQLQAATHQGSGAAPAGI",
+                  "hseq": "SYAALLTANNRRNSVVPASWGETSASSVPGTCAATSAI",
+                  "midline": "+Y A LTAN  R+  +    G+  A++  G+ AA + I"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P38398|BRCA1_HUMAN",
+                  "accession": "P38398",
+                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                }
+              ],
+              "len": 1863,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 1.84398,
+                  "identity": 17,
+                  "positive": 22,
+                  "query_from": 92,
+                  "query_to": 137,
+                  "hit_from": 1801,
+                  "hit_to": 1845,
+                  "align_len": 49,
+                  "gaps": 7,
+                  "qseq": "GSGAAPAGIQAPPQSAAKPGLHFIDQH-RAALIARVTNVEWLLD--ALY",
+                  "hseq": "GTGVHPIVVVQPDAWTEDNGFHAIGQMCEAPVVTR----EWVLDSVALY",
+                  "midline": "G+G  P  +  P       G H I Q   A ++ R    EW+LD  ALY"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P00787|CATB_RAT",
+                  "accession": "P00787",
+                  "title": "Cathepsin B OS=Rattus norvegicus OX=10116 GN=Ctsb PE=1 SV=2"
+                }
+              ],
+              "len": 339,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 1.87932,
+                  "identity": 9,
+                  "positive": 17,
+                  "query_from": 122,
+                  "query_to": 152,
+                  "hit_from": 295,
+                  "hit_to": 324,
+                  "align_len": 31,
+                  "gaps": 1,
+                  "qseq": "LIARVTNVEWLLDALYGKVLTDEQYQAVRAE",
+                  "hseq": "LVANSWNVDWGDNGFF-KILRGENHCGIESE",
+                  "midline": "L+A   NV+W  +  + K+L  E +  + +E"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 3.08845,
+                  "identity": 15,
+                  "positive": 25,
+                  "query_from": 105,
+                  "query_to": 154,
+                  "hit_from": 5672,
+                  "hit_to": 5724,
+                  "align_len": 53,
+                  "gaps": 3,
+                  "qseq": "QSAAKPGLHFIDQHRA---ALIARVTNVEWLLDALYGKVLTDEQYQAVRAEPT",
+                  "hseq": "QNTVKQQVNFTDADQGKKDAYTNAVTNAQGILDKANGQNMTKAQVEAALNQVT",
+                  "midline": "Q+  K  ++F D  +    A    VTN + +LD   G+ +T  Q +A   + T"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P26827|CDGT_THETU",
+                  "accession": "P26827",
+                  "title": "Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium thermosulfurigenes OX=33950 GN=amyA PE=1 SV=2"
+                }
+              ],
+              "len": 710,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 3.38007,
+                  "identity": 14,
+                  "positive": 19,
+                  "query_from": 144,
+                  "query_to": 184,
+                  "hit_from": 390,
+                  "hit_to": 427,
+                  "align_len": 41,
+                  "gaps": 3,
+                  "qseq": "EQYQAVRAEPTNPSKMRKLFSFTPAWNWTCKDLLLQALRES",
+                  "hseq": "EQYMTGNGDPYNRAMMTSFNTSTTAYNVIKK---LAPLRKS",
+                  "midline": "EQY     +P N + M    + T A+N   K   L  LR+S"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|O43896|KIF1C_HUMAN",
+                  "accession": "O43896",
+                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                }
+              ],
+              "len": 1103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 6.72189,
+                  "identity": 8,
+                  "positive": 10,
+                  "query_from": 92,
+                  "query_to": 110,
+                  "hit_from": 995,
+                  "hit_to": 1013,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "GSGAAPAGIQAPPQSAAKP",
+                  "hseq": "GSGEAPTPLQPPEEVTPHP",
+                  "midline": "GSG AP  +Q P +    P"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 61,
+            "eff_space": 9376382,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

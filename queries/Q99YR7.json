@@ -1,0 +1,220 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "tr|Q99YR7|Q99YR7_STRP1 Aldose 1-epimerase OS=Streptococcus pyogenes serotype M1 OX=301447 GN=SPy_1572 PE=1 SV=1",
+          "query_len": 84,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "tr|Q99YR7|Q99YR7_STRP1",
+                  "accession": "Q99YR7",
+                  "title": "Aldose 1-epimerase OS=Streptococcus pyogenes serotype M1 OX=301447 GN=SPy_1572 PE=1 SV=1"
+                }
+              ],
+              "len": 84,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 173.711,
+                  "score": 439,
+                  "evalue": 7.8389e-61,
+                  "identity": 84,
+                  "positive": 84,
+                  "query_from": 1,
+                  "query_to": 84,
+                  "hit_from": 1,
+                  "hit_to": 84,
+                  "align_len": 84,
+                  "gaps": 0,
+                  "qseq": "MSYEKEFLKDFEDWVKTQIQVNQLAMATSQEVAQEDGDERAKDAFIRYESKLDAYEFLLGKFDNYKNGKAFHDIPDELFGARHY",
+                  "hseq": "MSYEKEFLKDFEDWVKTQIQVNQLAMATSQEVAQEDGDERAKDAFIRYESKLDAYEFLLGKFDNYKNGKAFHDIPDELFGARHY",
+                  "midline": "MSYEKEFLKDFEDWVKTQIQVNQLAMATSQEVAQEDGDERAKDAFIRYESKLDAYEFLLGKFDNYKNGKAFHDIPDELFGARHY"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|O43896|KIF1C_HUMAN",
+                  "accession": "O43896",
+                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                }
+              ],
+              "len": 1103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 0.122564,
+                  "identity": 16,
+                  "positive": 24,
+                  "query_from": 5,
+                  "query_to": 55,
+                  "hit_from": 48,
+                  "hit_to": 96,
+                  "align_len": 51,
+                  "gaps": 2,
+                  "qseq": "KEFLKDFEDWVKTQIQVNQLAMATSQEVAQEDGDERAKDAFIRYESKLDAY",
+                  "hseq": "KSFTFDYSYWSHTSTEDPQFA--SQQQVYRDIGEEMLLHAFEGYNVCIFAY",
+                  "midline": "K F  D+  W  T  +  Q A  + Q+V ++ G+E    AF  Y   + AY"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P03422|PHOSP_MEASE",
+                  "accession": "P03422",
+                  "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
+                }
+              ],
+              "len": 507,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 2.95383,
+                  "identity": 8,
+                  "positive": 10,
+                  "query_from": 25,
+                  "query_to": 41,
+                  "hit_from": 32,
+                  "hit_to": 48,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "AMATSQEVAQEDGDERA",
+                  "hseq": "AMAAWSEISDNPGQERA",
+                  "midline": "AMA   E++   G ERA"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P69328|AMYG_ASPNG",
+                  "accession": "P69328",
+                  "title": "Glucoamylase OS=Aspergillus niger OX=5061 GN=GLAA PE=1 SV=1"
+                }
+              ],
+              "len": 640,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 5.34817,
+                  "identity": 6,
+                  "positive": 10,
+                  "query_from": 57,
+                  "query_to": 69,
+                  "hit_from": 256,
+                  "hit_to": 268,
+                  "align_len": 13,
+                  "gaps": 0,
+                  "qseq": "FLLGKFDNYKNGK",
+                  "hseq": "FILANFDSSRSGK",
+                  "midline": "F+L  FD+ ++GK"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P43593|UBP6_YEAST",
+                  "accession": "P43593",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
+                }
+              ],
+              "len": 499,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 7.69508,
+                  "identity": 14,
+                  "positive": 19,
+                  "query_from": 3,
+                  "query_to": 49,
+                  "hit_from": 412,
+                  "hit_to": 455,
+                  "align_len": 47,
+                  "gaps": 3,
+                  "qseq": "YEKEFLKDFEDWVKTQIQVNQLAMATSQEVAQEDGDERAKDAFIRYE",
+                  "hseq": "YKKHFPPNLEKGENPSCVYNLIGVITHQGANSESGHYQ---AFIRDE",
+                  "midline": "Y+K F  + E         N + + T Q    E G  +   AFIR E"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P0C6U8|R1A_SARS",
+                  "accession": "P0C6U8",
+                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                }
+              ],
+              "len": 4382,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 8.01878,
+                  "identity": 11,
+                  "positive": 17,
+                  "query_from": 50,
+                  "query_to": 80,
+                  "hit_from": 1217,
+                  "hit_to": 1249,
+                  "align_len": 33,
+                  "gaps": 2,
+                  "qseq": "SKLDAYEFLLGKFDNYK--NGKAFHDIPDELFG",
+                  "hseq": "TTLEETKFLTNKLLLFADINGKLYHDSQNMLRG",
+                  "midline": "+ L+  +FL  K   +   NGK +HD  + L G"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 51,
+            "eff_space": 2378079,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

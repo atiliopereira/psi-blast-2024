@@ -1,0 +1,327 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|O66529|RISB_AQUAE 6,7-dimethyl-8-ribityllumazine synthase OS=Aquifex aeolicus (strain VF5) OX=224324 GN=ribH PE=1 SV=1",
+          "query_len": 154,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|O66529|RISB_AQUAE",
+                  "accession": "O66529",
+                  "title": "6,7-dimethyl-8-ribityllumazine synthase OS=Aquifex aeolicus (strain VF5) OX=224324 GN=ribH PE=1 SV=1"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 310.071,
+                  "score": 793,
+                  "evalue": 1.3523e-112,
+                  "identity": 154,
+                  "positive": 154,
+                  "query_from": 1,
+                  "query_to": 154,
+                  "hit_from": 1,
+                  "hit_to": 154,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "MQIYEGKLTAEGLRFGIVASRFNHALVDRLVEGAIDCIVRHGGREEDITLVRVPGSWEIPVAAGELARKEDIDAVIAIGVLIRGATPHFDYIASEVSKGLANLSLELRKPITFGVITADTLEQAIERAGTKHGNKGWEAALSAIEMANLFKSLR",
+                  "hseq": "MQIYEGKLTAEGLRFGIVASRFNHALVDRLVEGAIDCIVRHGGREEDITLVRVPGSWEIPVAAGELARKEDIDAVIAIGVLIRGATPHFDYIASEVSKGLANLSLELRKPITFGVITADTLEQAIERAGTKHGNKGWEAALSAIEMANLFKSLR",
+                  "midline": "MQIYEGKLTAEGLRFGIVASRFNHALVDRLVEGAIDCIVRHGGREEDITLVRVPGSWEIPVAAGELARKEDIDAVIAIGVLIRGATPHFDYIASEVSKGLANLSLELRKPITFGVITADTLEQAIERAGTKHGNKGWEAALSAIEMANLFKSLR"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P61711|RISB2_BRUAB",
+                  "accession": "P61711",
+                  "title": "6,7-dimethyl-8-ribityllumazine synthase 2 OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 GN=ribH2 PE=3 SV=1"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 54.6842,
+                  "score": 130,
+                  "evalue": 3.68387e-12,
+                  "identity": 34,
+                  "positive": 67,
+                  "query_from": 12,
+                  "query_to": 148,
+                  "hit_from": 10,
+                  "hit_to": 149,
+                  "align_len": 140,
+                  "gaps": 3,
+                  "qseq": "GLRFGIVASRFNHALVDRLVEGAIDCIVRHGGREEDITLVRVPGSWEIPVAAGELARKEDIDAVIAIGVLIRGATPHFDYIASEVSKGLANLSLELRKPITFGVITADTLEQAIERAGTKHGN---KGWEAALSAIEMAN",
+                  "hseq": "SFKIAFIQARWHADIVDEARKSFVAELAAKTGGSVEVEIFDVPGAYEIPLHAKTLARTGRYAAIVGAAFVIDGGIYRHDFVATAVINGMMQVQLETEVPVLSVVLTPHHFHESKEHHDFFHAHFKVKGVEAAHAALQIVS",
+                  "midline": "  +   + +R++  +VD   +  +  +    G   ++ +  VPG++EIP+ A  LAR     A++    +I G     D++A+ V  G+  + LE   P+   V+T     ++ E     H +   KG EAA +A+++ +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 2.38808,
+                  "identity": 13,
+                  "positive": 16,
+                  "query_from": 116,
+                  "query_to": 135,
+                  "hit_from": 2684,
+                  "hit_to": 2708,
+                  "align_len": 25,
+                  "gaps": 5,
+                  "qseq": "ITADT--LEQAIE---RAGTKHGNK",
+                  "hseq": "LTADTHTLEQAVQQLNRTGTTTGKK",
+                  "midline": "+TADT  LEQA++   R GT  G K"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|O07615|YHFP_BACSU",
+                  "accession": "O07615",
+                  "title": "Putative quinone oxidoreductase YhfP OS=Bacillus subtilis (strain 168) OX=224308 GN=yhfP PE=1 SV=1"
+                }
+              ],
+              "len": 330,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 3.84988,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 38,
+                  "query_to": 70,
+                  "hit_from": 96,
+                  "hit_to": 124,
+                  "align_len": 33,
+                  "gaps": 4,
+                  "qseq": "IVRHGGREEDITLVRVPGSWEIPVAAGELARKE",
+                  "hseq": "VSRDGGLSE---YASVPGDWLVPLPQ-NLSLKE",
+                  "midline": "+ R GG  E      VPG W +P+    L+ KE"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P0C6U8|R1A_SARS",
+                  "accession": "P0C6U8",
+                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                }
+              ],
+              "len": 4382,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 6.02023,
+                  "identity": 8,
+                  "positive": 16,
+                  "query_from": 91,
+                  "query_to": 111,
+                  "hit_from": 2441,
+                  "hit_to": 2458,
+                  "align_len": 21,
+                  "gaps": 3,
+                  "qseq": "YIASEVSKGLANLSLELRKPI",
+                  "hseq": "FISDEVAR---DLSLQFKRPI",
+                  "midline": "+I+ EV++   +LSL+ ++PI"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 8.99543,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 107,
+                  "query_to": 124,
+                  "hit_from": 3138,
+                  "hit_to": 3155,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "LRKPITFGVITADTLEQA",
+                  "hseq": "LRKRVMFNGVTFSTFEEA",
+                  "midline": "LRK + F  +T  T E+A"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P00654|RNU2_USTSP",
+                  "accession": "P00654",
+                  "title": "Ribonuclease U2 OS=Ustilago sphaerogena OX=5271 GN=RNU2 PE=1 SV=4"
+                }
+              ],
+              "len": 114,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 7.02246,
+                  "identity": 15,
+                  "positive": 25,
+                  "query_from": 22,
+                  "query_to": 61,
+                  "hit_from": 14,
+                  "hit_to": 65,
+                  "align_len": 53,
+                  "gaps": 14,
+                  "qseq": "FNHALVDRLVEGAIDCIVRHGGR------------EEDITLVRVPGSW-EIPV",
+                  "hseq": "YSNDDINTAIQGALD-DVANGDRPDNYPHQYYDEASEDITLCCGSGPWSEFPL",
+                  "midline": "+++  ++  ++GA+D  V +G R             EDITL    G W E P+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|O33840|PULA_THEMA",
+                  "accession": "O33840",
+                  "title": "Pullulanase OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=pulA PE=1 SV=2"
+                }
+              ],
+              "len": 843,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 9.03379,
+                  "identity": 12,
+                  "positive": 18,
+                  "query_from": 44,
+                  "query_to": 73,
+                  "hit_from": 148,
+                  "hit_to": 176,
+                  "align_len": 30,
+                  "gaps": 1,
+                  "qseq": "REEDITLVRVPGSWEIPVAAGELARKEDID",
+                  "hseq": "KKKELFKVTVDGK-EIPVSRVEKADPTDID",
+                  "midline": "+++++  V V G  EIPV+  E A   DID"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P0A6W5|GREA_ECOLI",
+                  "accession": "P0A6W5",
+                  "title": "Transcription elongation factor GreA OS=Escherichia coli (strain K12) OX=83333 GN=greA PE=1 SV=1"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 9.46634,
+                  "identity": 5,
+                  "positive": 10,
+                  "query_from": 42,
+                  "query_to": 55,
+                  "hit_from": 132,
+                  "hit_to": 145,
+                  "align_len": 14,
+                  "gaps": 0,
+                  "qseq": "GGREEDITLVRVPG",
+                  "hseq": "GKEEDDVVVIKTPG",
+                  "midline": "G  E+D+ +++ PG"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P04395|3MG2_ECOLI",
+                  "accession": "P04395",
+                  "title": "DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1"
+                }
+              ],
+              "len": 282,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 9.55929,
+                  "identity": 17,
+                  "positive": 23,
+                  "query_from": 100,
+                  "query_to": 144,
+                  "hit_from": 185,
+                  "hit_to": 225,
+                  "align_len": 45,
+                  "gaps": 4,
+                  "qseq": "LANLSLELRKPITFGVITADTLEQAIERAGTKHGNKGWEAALSAI",
+                  "hseq": "LANAALEGTLPMT---IPGD-VEQAMKTLQTFPGIGRWTANYFAL",
+                  "midline": "LAN +LE   P+T   I  D +EQA++   T  G   W A   A+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 59,
+            "eff_space": 6687145,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

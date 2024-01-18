@@ -1,0 +1,280 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P26222|GUN2_THEFU Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2",
+          "query_len": 441,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P26222|GUN2_THEFU",
+                  "accession": "P26222",
+                  "title": "Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2"
+                }
+              ],
+              "len": 441,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 895.96,
+                  "score": 2314,
+                  "evalue": 0,
+                  "identity": 441,
+                  "positive": 441,
+                  "query_from": 1,
+                  "query_to": 441,
+                  "hit_from": 1,
+                  "hit_to": 441,
+                  "align_len": 441,
+                  "gaps": 0,
+                  "qseq": "MSPRPLRALLGAAAAALVSAAALAFPSQAAANDSPFYVNPNMSSAEWVRNNPNDPRTPVIRDRIASVPQGTWFAHHNPGQITGQVDALMSAAQAAGKIPILVVYNAPGRDCGNHSSGGAPSHSAYRSWIDEFAAGLKNRPAYIIVEPDLISLMSSCMQHVQQEVLETMAYAGKALKAGSSQARIYFDAGHSAWHSPAQMASWLQQADISNSAHGIATNTSNYRWTADEVAYAKAVLSAIGNPSLRAVIDTSRNGNGPAGNEWCDPSGRAIGTPSTTNTGDPMIDAFLWIKLPGEADGCIAGAGQFVPQAAYEMAIAAGGTNPNPNPNPTPTPTPTPTPPPGSSGACTATYTIANEWNDGFQATVTVTANQNITGWTVTWTFTDGQTITNAWNADVSTSGSSVTARNVGHNGTLSQGASTEFGFVGSKGNSNSVPTLTCAAS",
+                  "hseq": "MSPRPLRALLGAAAAALVSAAALAFPSQAAANDSPFYVNPNMSSAEWVRNNPNDPRTPVIRDRIASVPQGTWFAHHNPGQITGQVDALMSAAQAAGKIPILVVYNAPGRDCGNHSSGGAPSHSAYRSWIDEFAAGLKNRPAYIIVEPDLISLMSSCMQHVQQEVLETMAYAGKALKAGSSQARIYFDAGHSAWHSPAQMASWLQQADISNSAHGIATNTSNYRWTADEVAYAKAVLSAIGNPSLRAVIDTSRNGNGPAGNEWCDPSGRAIGTPSTTNTGDPMIDAFLWIKLPGEADGCIAGAGQFVPQAAYEMAIAAGGTNPNPNPNPTPTPTPTPTPPPGSSGACTATYTIANEWNDGFQATVTVTANQNITGWTVTWTFTDGQTITNAWNADVSTSGSSVTARNVGHNGTLSQGASTEFGFVGSKGNSNSVPTLTCAAS",
+                  "midline": "MSPRPLRALLGAAAAALVSAAALAFPSQAAANDSPFYVNPNMSSAEWVRNNPNDPRTPVIRDRIASVPQGTWFAHHNPGQITGQVDALMSAAQAAGKIPILVVYNAPGRDCGNHSSGGAPSHSAYRSWIDEFAAGLKNRPAYIIVEPDLISLMSSCMQHVQQEVLETMAYAGKALKAGSSQARIYFDAGHSAWHSPAQMASWLQQADISNSAHGIATNTSNYRWTADEVAYAKAVLSAIGNPSLRAVIDTSRNGNGPAGNEWCDPSGRAIGTPSTTNTGDPMIDAFLWIKLPGEADGCIAGAGQFVPQAAYEMAIAAGGTNPNPNPNPTPTPTPTPTPPPGSSGACTATYTIANEWNDGFQATVTVTANQNITGWTVTWTFTDGQTITNAWNADVSTSGSSVTARNVGHNGTLSQGASTEFGFVGSKGNSNSVPTLTCAAS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P07987|GUX2_HYPJE",
+                  "accession": "P07987",
+                  "title": "Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1"
+                }
+              ],
+              "len": 471,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.4925,
+                  "score": 197,
+                  "evalue": 1.74401e-18,
+                  "identity": 75,
+                  "positive": 115,
+                  "query_from": 56,
+                  "query_to": 297,
+                  "hit_from": 165,
+                  "hit_to": 426,
+                  "align_len": 285,
+                  "gaps": 66,
+                  "qseq": "RTPVIRDRIASVPQGTWFAHHNPGQITGQVDALMSAAQAAGKIPILVVYNAPGRDC------GNHS--SGGAPSHSAYRSWIDEFAAGLKNRPAYIIVEPDLISLMSSCM-----QHVQQEVLETMAYAGKALKAGSSQARIYFDAGHSAW------HSPAQ--MASWLQQADISNSAHGIATNTSNYR---------WTADEVAY-AKAVLSAIGNPSL--------RAVIDTSRNGNGPAGNE----WCDPSGRAIGTPSTTNTGDPMIDAFLWIKLPGEADG",
+                  "hseq": "KTPLMEQTLADIRT----ANKNGGNYAGQ----------------FVVYDLPDRDCAALASNGEYSIADGGVAKYKNYIDTIRQIVVEYSDIRTLLVIEPDSLANLVTNLGTPKCANAQSAYLECINYAVTQLNL--PNVAMYLDAGHAGWLGWPANQDPAAQLFANVYKNASSPRALRGLATNVANYNGWNITSPPSYTQGNAVYNEKLYIHAIG-PLLANHGWSNAFFITDQGRSGKQPTGQQQWGDWCNVIGTGFGIRPSANTGDSLLDSFVWVKPGGECDG",
+                  "midline": "+TP++   +A +      A+ N G   GQ                 VVY+ P RDC      G +S   GG   +  Y   I +      +    +++EPD ++ + + +      + Q   LE + YA   L        +Y DAGH+ W        PA    A+  + A    +  G+ATN +NY          +T     Y  K  + AIG P L          + D  R+G  P G +    WC+  G   G   + NTGD ++D+F+W+K  GE DG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 2.33061,
+                  "identity": 14,
+                  "positive": 18,
+                  "query_from": 307,
+                  "query_to": 348,
+                  "hit_from": 3686,
+                  "hit_to": 3727,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "PQAAYEMAIAAGGTNPNPNPNPTPTPTPTPTPPPGSSGACTA",
+                  "hseq": "KQTAYNNAVAAAETIINANSNPEMNPSTITQKAEQVNSSKTA",
+                  "midline": " Q AY  A+AA  T  N N NP   P+         + + TA"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "tr|Q09LX0|Q09LX0_GEOSE",
+                  "accession": "Q09LX0",
+                  "title": "Beta-xylosidase OS=Geobacillus stearothermophilus OX=1422 GN=xynB3 PE=1 SV=1"
+                }
+              ],
+              "len": 535,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 3.80777,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 327,
+                  "query_to": 356,
+                  "hit_from": 231,
+                  "hit_to": 260,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "NPTPTPTPTPTPPPGSSGACTATYTIANEW",
+                  "hseq": "NPLLTSWPYPRNPLQKAGHASIVHTHTDEW",
+                  "midline": "NP  T  P P  P   +G  +  +T  +EW"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P0A6Z1|HSCA_ECOLI",
+                  "accession": "P0A6Z1",
+                  "title": "Chaperone protein HscA OS=Escherichia coli (strain K12) OX=83333 GN=hscA PE=1 SV=1"
+                }
+              ],
+              "len": 616,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 5.18592,
+                  "identity": 8,
+                  "positive": 21,
+                  "query_from": 134,
+                  "query_to": 168,
+                  "hit_from": 494,
+                  "hit_to": 528,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "AGLKNRPAYIIVEPDLISLMSSCMQHVQQEVLETM",
+                  "hseq": "ASIQVKPSYGLTDSEIASMIKDSMSYAEQDVKARM",
+                  "midline": "A ++ +P+Y + + ++ S++   M + +Q+V   M"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q8WTS6|SETD7_HUMAN",
+                  "accession": "Q8WTS6",
+                  "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
+                }
+              ],
+              "len": 366,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 7.24167,
+                  "identity": 14,
+                  "positive": 21,
+                  "query_from": 344,
+                  "query_to": 394,
+                  "hit_from": 24,
+                  "hit_to": 66,
+                  "align_len": 51,
+                  "gaps": 8,
+                  "qseq": "GACTATYTIANEWNDGFQATVTVTANQNITGWTVTWTFTDGQTITNAWNAD",
+                  "hseq": "GFCTVTYSSTDRFEGNF-----VHGEKNGRG---KFFFFDGSTLEGYYVDD",
+                  "midline": "G CT TY+  + +   F     V   +N  G    + F DG T+   +  D"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P07858|CATB_HUMAN",
+                  "accession": "P07858",
+                  "title": "Cathepsin B OS=Homo sapiens OX=9606 GN=CTSB PE=1 SV=3"
+                }
+              ],
+              "len": 339,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 7.85466,
+                  "identity": 14,
+                  "positive": 18,
+                  "query_from": 371,
+                  "query_to": 415,
+                  "hit_from": 281,
+                  "hit_to": 324,
+                  "align_len": 45,
+                  "gaps": 1,
+                  "qseq": "NITGWTVTWTFTDGQTITNAWNADVSTSGSSVTARNVGHNGTLSQ",
+                  "hseq": "RILGWGVE-NGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESE",
+                  "midline": " I GW V    T    + N+WN D   +G     R   H G  S+"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P03422|PHOSP_MEASE",
+                  "accession": "P03422",
+                  "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
+                }
+              ],
+              "len": 507,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 8.00631,
+                  "identity": 15,
+                  "positive": 25,
+                  "query_from": 329,
+                  "query_to": 391,
+                  "hit_from": 258,
+                  "hit_to": 322,
+                  "align_len": 65,
+                  "gaps": 2,
+                  "qseq": "TPTPTPTPTPPPGSSGACTATYTIANEWNDGFQATVTVTANQNITG--WTVTWTFTDGQTITNAW",
+                  "hseq": "SPSEPSGPGAPAGNVPECVSNAALIQEWTPESGTTISPRSQNNEEGGDYYDDELFSDVQDIKTAL",
+                  "midline": "+P+    P  P G+   C +   +  EW      T++  +  N  G  +     F+D Q I  A "
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 68,
+            "eff_space": 25554230,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

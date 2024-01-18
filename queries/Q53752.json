@@ -1,0 +1,490 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "tr|Q53752|Q53752_KITAU Ribonuclease OS=Kitasatospora aureofaciens OX=1894 GN=ribonuclease PE=1 SV=1",
+          "query_len": 163,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "tr|Q53752|Q53752_KITAU",
+                  "accession": "Q53752",
+                  "title": "Ribonuclease OS=Kitasatospora aureofaciens OX=1894 GN=ribonuclease PE=1 SV=1"
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 332.413,
+                  "score": 851,
+                  "evalue": 3.56723e-121,
+                  "identity": 163,
+                  "positive": 163,
+                  "query_from": 1,
+                  "query_to": 163,
+                  "hit_from": 1,
+                  "hit_to": 163,
+                  "align_len": 163,
+                  "gaps": 0,
+                  "qseq": "MTRSKSPLVVGAVLILAVLAGVGYLLAGRGGSTHPKAAASSAAAGTSAPKSSAPKPSPPAGGAWTPADPALADVCRTKLPSQAQDTLALIAKNGPYPYNRDGVVFENRESRLPKKGNGYYHEFTVVTPGSNDRGTRRVVTGGYGEQYWSPDHYATFQEIDPRC",
+                  "hseq": "MTRSKSPLVVGAVLILAVLAGVGYLLAGRGGSTHPKAAASSAAAGTSAPKSSAPKPSPPAGGAWTPADPALADVCRTKLPSQAQDTLALIAKNGPYPYNRDGVVFENRESRLPKKGNGYYHEFTVVTPGSNDRGTRRVVTGGYGEQYWSPDHYATFQEIDPRC",
+                  "midline": "MTRSKSPLVVGAVLILAVLAGVGYLLAGRGGSTHPKAAASSAAAGTSAPKSSAPKPSPPAGGAWTPADPALADVCRTKLPSQAQDTLALIAKNGPYPYNRDGVVFENRESRLPKKGNGYYHEFTVVTPGSNDRGTRRVVTGGYGEQYWSPDHYATFQEIDPRC"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P05798|RNSA_KITAU",
+                  "accession": "P05798",
+                  "title": "Guanyl-specific ribonuclease Sa OS=Kitasatospora aureofaciens OX=1894 GN=rnaSA PE=1 SV=2"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 6.01761e-38,
+                  "identity": 54,
+                  "positive": 69,
+                  "query_from": 74,
+                  "query_to": 163,
+                  "hit_from": 6,
+                  "hit_to": 96,
+                  "align_len": 91,
+                  "gaps": 1,
+                  "qseq": "VCRTKLPSQAQDTLALIAKNGPYPYNRDGVVFENRESRLPKKGNGYYHEFTVVTPGSNDRGTRRVVTG-GYGEQYWSPDHYATFQEIDPRC",
+                  "hseq": "VCLSALPPEATDTLNLIASDGPFPYSQDGVVFQNRESVLPTQSYGYYHEYTVITPGARTRGTRRIITGEATQEDYYTGDHYATFSLIDQTC",
+                  "midline": "VC + LP +A DTL LIA +GP+PY++DGVVF+NRES LP +  GYYHE+TV+TPG+  RGTRR++TG    E Y++ DHYATF  ID  C"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P00649|RN_BACIN",
+                  "accession": "P00649",
+                  "title": "Ribonuclease OS=Bacillus intermedius OX=1400 PE=1 SV=3"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.4982,
+                  "score": 75,
+                  "evalue": 0.000202809,
+                  "identity": 22,
+                  "positive": 26,
+                  "query_from": 102,
+                  "query_to": 159,
+                  "hit_from": 105,
+                  "hit_to": 161,
+                  "align_len": 58,
+                  "gaps": 1,
+                  "qseq": "GVVFENRESRLPKKGNGYYHEFTVVTPGSNDRGTRRVVTGGYGEQYWSPDHYATFQEI",
+                  "hseq": "GDVFSNREGRLPSASGRTWRE-ADINYVSGFRNADRLVYSSDWLIYKTTDHYATFTRI",
+                  "midline": "G VF NRE RLP      + E   +   S  R   R+V       Y + DHYATF  I"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P18887|XRCC1_HUMAN",
+                  "accession": "P18887",
+                  "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
+                }
+              ],
+              "len": 633,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 0.0338527,
+                  "identity": 30,
+                  "positive": 41,
+                  "query_from": 24,
+                  "query_to": 113,
+                  "hit_from": 401,
+                  "hit_to": 504,
+                  "align_len": 107,
+                  "gaps": 20,
+                  "qseq": "YLLAGRGGSTHPKAAASSAAAGTSAPKSSAPKPS----------------PPAGGAWTPADPAL-ADVCRTKLPSQAQDTLALIAKNGPYPYNRDGVVFENRESRLP",
+                  "hseq": "YLMAGPGSSSEEDEASHSGGSGDEAPKLPQKQPQTKTKPTQAAGPSSPQKPPTPEETKAASPVLQEDIDIEGVQSEGQDNGAEDSGDTEDELRR---VAEQKEHRLP",
+                  "midline": "YL+AG G S+    A+ S  +G  APK    +P                 PP       A P L  D+    + S+ QD  A  + +      R   V E +E RLP"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P54396|YPMB_BACSU",
+                  "accession": "P54396",
+                  "title": "Uncharacterized protein YpmB OS=Bacillus subtilis (strain 168) OX=224308 GN=ypmB PE=1 SV=1"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.0238,
+                  "score": 53,
+                  "evalue": 0.142365,
+                  "identity": 16,
+                  "positive": 27,
+                  "query_from": 63,
+                  "query_to": 124,
+                  "hit_from": 81,
+                  "hit_to": 135,
+                  "align_len": 62,
+                  "gaps": 7,
+                  "qseq": "AWTPADPALADVCRTKLPSQAQDTLALIAKNGPYPYNRDGVVFENRESRLPKKGNGYYHEFT",
+                  "hseq": "VWVPADKKAKILSKEAKEGISEDKAAKIIKD-------EGLVSKQKEVHLAREGNVLLWEVT",
+                  "midline": " W PAD     + +      ++D  A I K+       +G+V + +E  L ++GN    E T"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P12994|YBHB_ECOLI",
+                  "accession": "P12994",
+                  "title": "UPF0098 protein YbhB OS=Escherichia coli (strain K12) OX=83333 GN=ybhB PE=1 SV=2"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 0.707583,
+                  "identity": 14,
+                  "positive": 18,
+                  "query_from": 18,
+                  "query_to": 64,
+                  "hit_from": 19,
+                  "hit_to": 61,
+                  "align_len": 47,
+                  "gaps": 4,
+                  "qseq": "VLAGVGYLLAGRGGSTHPKAAASSAAAGTSAPKSSAPKPSPPAGGAW",
+                  "hseq": "VFNGMGY----DGDNISPHLAWDDVPAGTKSFVVTCYDPDAPTGSGW",
+                  "midline": "V  G+GY     G +  P  A     AGT +   +   P  P G  W"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|Q9CQM5|TXD17_MOUSE",
+                  "accession": "Q9CQM5",
+                  "title": "Thioredoxin domain-containing protein 17 OS=Mus musculus OX=10090 GN=Txndc17 PE=1 SV=1"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 0.898391,
+                  "identity": 11,
+                  "positive": 17,
+                  "query_from": 61,
+                  "query_to": 101,
+                  "hit_from": 39,
+                  "hit_to": 79,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "GGAWTPADPALADVCRTKLPSQAQDTLALIAKNGPYPYNRD",
+                  "hseq": "GKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKD",
+                  "midline": "G +W P       V R  L    +D + +  + G  PY +D"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "tr|Q9X0V2|Q9X0V2_THEMA",
+                  "accession": "Q9X0V2",
+                  "title": "Uncharacterized protein OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=TM_1225 PE=1 SV=1"
+                }
+              ],
+              "len": 326,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 1.10299,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 93,
+                  "query_to": 120,
+                  "hit_from": 145,
+                  "hit_to": 165,
+                  "align_len": 28,
+                  "gaps": 7,
+                  "qseq": "NGPYPYNRDGVVFENRESRLPKKGNGYY",
+                  "hseq": "NAYVPFNRNGVLF-------PRKINGKY",
+                  "midline": "N   P+NR+GV+F       P+K NG Y"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|Q93HT9|IABN_GEOTD",
+                  "accession": "Q93HT9",
+                  "title": "Intracellular endo-alpha-(1->5)-L-arabinanase OS=Geobacillus thermodenitrificans OX=33940 GN=abn-ts PE=1 SV=1"
+                }
+              ],
+              "len": 313,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 1.83586,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 69,
+                  "query_to": 96,
+                  "hit_from": 65,
+                  "hit_to": 95,
+                  "align_len": 31,
+                  "gaps": 3,
+                  "qseq": "PALADVCRTKLPSQAQDTLA---LIAKNGPY",
+                  "hseq": "PSLPDWCKQYVPEKDEDHLWAPDICFYNGIY",
+                  "midline": "P+L D C+  +P + +D L    +   NG Y"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "tr|Q09LX0|Q09LX0_GEOSE",
+                  "accession": "Q09LX0",
+                  "title": "Beta-xylosidase OS=Geobacillus stearothermophilus OX=1422 GN=xynB3 PE=1 SV=1"
+                }
+              ],
+              "len": 535,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 1.85616,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 16,
+                  "query_to": 54,
+                  "hit_from": 191,
+                  "hit_to": 229,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "LAVLAGVGYLLAGRGGSTHPKAAASSAAAGTSAPKSSAP",
+                  "hseq": "LYKINGYYYLLTAEGGTRYNHAATIARSTSLYGPYEVHP",
+                  "midline": "L  + G  YLL   GG+ +  AA  + +     P    P"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "sp|Q9BRA2|TXD17_HUMAN",
+                  "accession": "Q9BRA2",
+                  "title": "Thioredoxin domain-containing protein 17 OS=Homo sapiens OX=9606 GN=TXNDC17 PE=1 SV=1"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 5.15159,
+                  "identity": 13,
+                  "positive": 20,
+                  "query_from": 57,
+                  "query_to": 101,
+                  "hit_from": 34,
+                  "hit_to": 79,
+                  "align_len": 46,
+                  "gaps": 1,
+                  "qseq": "SPPAGG-AWTPADPALADVCRTKLPSQAQDTLALIAKNGPYPYNRD",
+                  "hseq": "SKDAGGKSWCPDCVQAEPVVREGLKHISEGCVFIYCQVGEKPYWKD",
+                  "midline": "S  AGG +W P       V R  L   ++  + +  + G  PY +D"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "tr|Q57265|Q57265_NEIME",
+                  "accession": "Q57265",
+                  "title": "Capsule biosynthesis protein OS=Neisseria meningitidis OX=487 GN=synC PE=1 SV=1"
+                }
+              ],
+              "len": 349,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 6.86699,
+                  "identity": 9,
+                  "positive": 15,
+                  "query_from": 107,
+                  "query_to": 137,
+                  "hit_from": 4,
+                  "hit_to": 35,
+                  "align_len": 32,
+                  "gaps": 1,
+                  "qseq": "NRESRLPKKGNGYYHE-FTVVTPGSNDRGTRR",
+                  "hseq": "NNEFKIGNRSVGYNHEPLIICEIGINHEGSLK",
+                  "midline": "N E ++  +  GY HE   +   G N  G+ +"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "sp|P26827|CDGT_THETU",
+                  "accession": "P26827",
+                  "title": "Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium thermosulfurigenes OX=33950 GN=amyA PE=1 SV=2"
+                }
+              ],
+              "len": 710,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 8.40987,
+                  "identity": 14,
+                  "positive": 21,
+                  "query_from": 61,
+                  "query_to": 100,
+                  "hit_from": 363,
+                  "hit_to": 402,
+                  "align_len": 41,
+                  "gaps": 2,
+                  "qseq": "GGAWTPADPALADVCRTK-LPSQAQDTLALIAKNGPYPYNR",
+                  "hseq": "GGSTRPVEQALAFTLTSRGVPAIYYGTEQYMTGNGD-PYNR",
+                  "midline": "GG+  P + ALA    ++ +P+    T   +  NG  PYNR"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "sp|Q9ULZ3|ASC_HUMAN",
+                  "accession": "Q9ULZ3",
+                  "title": "Apoptosis-associated speck-like protein containing a CARD OS=Homo sapiens OX=9606 GN=PYCARD PE=1 SV=2"
+                }
+              ],
+              "len": 195,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 9.13676,
+                  "identity": 20,
+                  "positive": 25,
+                  "query_from": 11,
+                  "query_to": 56,
+                  "hit_from": 65,
+                  "hit_to": 110,
+                  "align_len": 48,
+                  "gaps": 4,
+                  "qseq": "GAVLILAVLAGVGYL-LAGR-GGSTHPKAAASSAAAGTSAPKSSAPKP",
+                  "hseq": "GAELTANVLRDMGLQEMAGQLQAATHQGSGA--APAGIQAPPQSAAKP",
+                  "midline": "GA L   VL  +G   +AG+   +TH  + A  A AG  AP  SA KP"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "tr|Q97DM1|Q97DM1_CLOAB",
+                  "accession": "Q97DM1",
+                  "title": "Beta-xylosidase, family 43 glycosyl hydrolase OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=xynD PE=1 SV=1"
+                }
+              ],
+              "len": 533,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 9.6733,
+                  "identity": 6,
+                  "positive": 8,
+                  "query_from": 55,
+                  "query_to": 66,
+                  "hit_from": 63,
+                  "hit_to": 74,
+                  "align_len": 12,
+                  "gaps": 0,
+                  "qseq": "KPSPPAGGAWTP",
+                  "hseq": "KGNPNSGGIWAP",
+                  "midline": "K +P +GG W P"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 59,
+            "eff_space": 7320664,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

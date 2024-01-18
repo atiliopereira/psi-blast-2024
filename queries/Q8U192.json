@@ -1,0 +1,344 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q8U192|THIE_PYRFU Thiamine-phosphate synthase OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=thiE PE=1 SV=1",
+          "query_len": 207,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q8U192|THIE_PYRFU",
+                  "accession": "Q8U192",
+                  "title": "Thiamine-phosphate synthase OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=thiE PE=1 SV=1"
+                }
+              ],
+              "len": 207,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 404.445,
+                  "score": 1038,
+                  "evalue": 4.05037e-148,
+                  "identity": 207,
+                  "positive": 207,
+                  "query_from": 1,
+                  "query_to": 207,
+                  "hit_from": 1,
+                  "hit_to": 207,
+                  "align_len": 207,
+                  "gaps": 0,
+                  "qseq": "MNLRNKLKLYVITDRRLKPEVESVREALEGGATAIQMRIKNAPTREMYEIGKTLRQLTREYDALFFVDDRVDVALAVDADGVQLGPEDMPIEVAKEIAPNLIIGASVYSLEEALEAEKKGADYLGAGSVFPTKTKEDARVIGLEGLRKIVESVKIPVVAIGGINKDNAREVLKTGVDGIAVISAVMGAEDVRKATEELRKIVEEVLG",
+                  "hseq": "MNLRNKLKLYVITDRRLKPEVESVREALEGGATAIQMRIKNAPTREMYEIGKTLRQLTREYDALFFVDDRVDVALAVDADGVQLGPEDMPIEVAKEIAPNLIIGASVYSLEEALEAEKKGADYLGAGSVFPTKTKEDARVIGLEGLRKIVESVKIPVVAIGGINKDNAREVLKTGVDGIAVISAVMGAEDVRKATEELRKIVEEVLG",
+                  "midline": "MNLRNKLKLYVITDRRLKPEVESVREALEGGATAIQMRIKNAPTREMYEIGKTLRQLTREYDALFFVDDRVDVALAVDADGVQLGPEDMPIEVAKEIAPNLIIGASVYSLEEALEAEKKGADYLGAGSVFPTKTKEDARVIGLEGLRKIVESVKIPVVAIGGINKDNAREVLKTGVDGIAVISAVMGAEDVRKATEELRKIVEEVLG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P39594|THIE_BACSU",
+                  "accession": "P39594",
+                  "title": "Thiamine-phosphate synthase OS=Bacillus subtilis (strain 168) OX=224308 GN=thiE PE=1 SV=1"
+                }
+              ],
+              "len": 222,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 2.31559e-35,
+                  "identity": 74,
+                  "positive": 124,
+                  "query_from": 3,
+                  "query_to": 203,
+                  "hit_from": 9,
+                  "hit_to": 216,
+                  "align_len": 211,
+                  "gaps": 13,
+                  "qseq": "LRNKLKLYVI---TDRRLKPEVESVREALEGGATAIQMRIK--NAPTREM-YEIGKTLRQLTREYDALFFVDDRVDVALAVDADGVQLGPEDMPIEVAKEIAPNLIIGASVYSLEEALEAEKKGADYLGAGSVFPTKTKEDARVIG----LEGLRKIVESVKIPVVAIGGINKDNAREVLKTGVDGIAVISAVMGAEDVRKATEELRKIVE",
+                  "hseq": "MKELLSVYFIMGSNNTKADP-VTVVQKALKGGATLYQFREKGGDALTGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRR--QGISIPIVGIGGITIDNAAPVIQAGADGVSMISAISQAEDPESAARKFREEIQ",
+                  "midline": "++  L +Y I    + +  P V  V++AL+GGAT  Q R K  +A T E   +  +  +   RE    F V+D V++AL + ADG+ +G ED   +  +    ++I+G S +++ E  +AE+ GADY+G G ++PT+TK+D R +     +E +R+  + + IP+V IGGI  DNA  V++ G DG+++ISA+  AED   A  + R+ ++"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "tr|O28835|O28835_ARCFU",
+                  "accession": "O28835",
+                  "title": "HAD family hydrolase OS=Archaeoglobus fulgidus (strain ATCC 49558 / DSM 4304 / JCM 9628 / NBRC 100126 / VC-16) OX=224325 GN=AF_1437 PE=1 SV=1"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 3.74398,
+                  "identity": 15,
+                  "positive": 19,
+                  "query_from": 179,
+                  "query_to": 205,
+                  "hit_from": 147,
+                  "hit_to": 178,
+                  "align_len": 32,
+                  "gaps": 5,
+                  "qseq": "IAVISAVMGAEDVRKATE-----ELRKIVEEV",
+                  "hseq": "IDVIASLSGEELFRKLDELFSRSEVRKIVESV",
+                  "midline": "I VI+++ G E  RK  E     E+RKIVE V"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 7.9179,
+                  "identity": 9,
+                  "positive": 10,
+                  "query_from": 45,
+                  "query_to": 58,
+                  "hit_from": 46,
+                  "hit_to": 59,
+                  "align_len": 14,
+                  "gaps": 0,
+                  "qseq": "REMYEIGKTLRQLT",
+                  "hseq": "REGYEAGYTLKLLT",
+                  "midline": "RE YE G TL+ LT"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P18887|XRCC1_HUMAN",
+                  "accession": "P18887",
+                  "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
+                }
+              ],
+              "len": 633,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 4.22518,
+                  "identity": 13,
+                  "positive": 20,
+                  "query_from": 168,
+                  "query_to": 204,
+                  "hit_from": 460,
+                  "hit_to": 498,
+                  "align_len": 39,
+                  "gaps": 2,
+                  "qseq": "AREVLKTGVD--GIAVISAVMGAEDVRKATEELRKIVEE",
+                  "hseq": "ASPVLQEDIDIEGVQSEGQDNGAEDSGDTEDELRRVAEQ",
+                  "midline": "A  VL+  +D  G+       GAED     +ELR++ E+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P83772|CRNA_PSEPU",
+                  "accession": "P83772",
+                  "title": "Creatinine amidohydrolase OS=Pseudomonas putida OX=303 GN=crnA PE=1 SV=1"
+                }
+              ],
+              "len": 260,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 4.89688,
+                  "identity": 14,
+                  "positive": 20,
+                  "query_from": 69,
+                  "query_to": 113,
+                  "hit_from": 193,
+                  "hit_to": 238,
+                  "align_len": 46,
+                  "gaps": 1,
+                  "qseq": "DRVDVALAVDADGVQLGPED-MPIEVAKEIAPNLIIGASVYSLEEA",
+                  "hseq": "DLVDLDRVVDHPPATFPPYDVFPVDPARTPAPGTLSSAKTASREKG",
+                  "midline": "D VD+   VD       P D  P++ A+  AP  +  A   S E+ "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 9.75721,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 89,
+                  "query_to": 141,
+                  "hit_from": 48,
+                  "hit_to": 95,
+                  "align_len": 54,
+                  "gaps": 7,
+                  "qseq": "MPIEVAKEIAPNLIIGASVYS-LEEALEAEKKGADYLGAGSVFPTKTKEDARVI",
+                  "hseq": "LPTAVCKRVAER--IGALVMPGLQYGYKSQQKS----GGGNHFPGTTSLDGATL",
+                  "midline": "+P  V K +A    IGA V   L+   ++++K     G G+ FP  T  D   +"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q9D967|MGDP1_MOUSE",
+                  "accession": "Q9D967",
+                  "title": "Magnesium-dependent phosphatase 1 OS=Mus musculus OX=10090 GN=Mdp1 PE=1 SV=1"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 7.08219,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 65,
+                  "query_to": 87,
+                  "hit_from": 19,
+                  "hit_to": 50,
+                  "align_len": 32,
+                  "gaps": 9,
+                  "qseq": "FFVDDRVDVALAVDADG---------VQLGPE",
+                  "hseq": "FWVDTHVDPPFHKSSDGTVRDRRGQNIQLYPE",
+                  "midline": "F+VD  VD      +DG         +QL PE"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|O75604|UBP2_HUMAN",
+                  "accession": "O75604",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
+                }
+              ],
+              "len": 605,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 7.73366,
+                  "identity": 7,
+                  "positive": 13,
+                  "query_from": 162,
+                  "query_to": 179,
+                  "hit_from": 352,
+                  "hit_to": 369,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "GINKDNAREVLKTGVDGI",
+                  "hseq": "GYNQQDAQEFLRFLLDGL",
+                  "midline": "G N+ +A+E L+  +DG+"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P0C6U8|R1A_SARS",
+                  "accession": "P0C6U8",
+                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                }
+              ],
+              "len": 4382,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 9.12267,
+                  "identity": 17,
+                  "positive": 27,
+                  "query_from": 54,
+                  "query_to": 115,
+                  "hit_from": 170,
+                  "hit_to": 220,
+                  "align_len": 62,
+                  "gaps": 11,
+                  "qseq": "LRQLTREYDALFFVDDRVDVALAVDADGVQLGPEDMPIEVAKEIAPNLIIGASVYSLEEALE",
+                  "hseq": "LRELTRELNG---------GAVTRYVDNNFCGPDGYPLDCIKDFLAR--AGKSMCTLSEQLD",
+                  "midline": "LR+LTRE +           A+    D    GP+  P++  K+       G S+ +L E L+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P03422|PHOSP_MEASE",
+                  "accession": "P03422",
+                  "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
+                }
+              ],
+              "len": 507,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 9.40593,
+                  "identity": 19,
+                  "positive": 22,
+                  "query_from": 10,
+                  "query_to": 54,
+                  "hit_from": 163,
+                  "hit_to": 210,
+                  "align_len": 53,
+                  "gaps": 13,
+                  "qseq": "YVITDRRLKPEVESVR----EALEGGATA----IQMRIKNAPTREMYEIGKTL",
+                  "hseq": "YAITDRGSAPISMGFRASDVETAEGGEIHELLRLQSRGNNFP-----KLGKTL",
+                  "midline": "Y ITDR   P     R    E  EGG       +Q R  N P     ++GKTL"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 62,
+            "eff_space": 10115780,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

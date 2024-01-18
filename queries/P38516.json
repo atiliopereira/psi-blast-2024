@@ -1,0 +1,160 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P38516|RL4_THEMA Large ribosomal subunit protein uL4 OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=rplD PE=1 SV=2",
+          "query_len": 235,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P38516|RL4_THEMA",
+                  "accession": "P38516",
+                  "title": "Large ribosomal subunit protein uL4 OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=rplD PE=1 SV=2"
+                }
+              ],
+              "len": 235,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 475.707,
+                  "score": 1223,
+                  "evalue": 1.97714e-175,
+                  "identity": 235,
+                  "positive": 235,
+                  "query_from": 1,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 235,
+                  "align_len": 235,
+                  "gaps": 0,
+                  "qseq": "MAQVDLLNVKGEKVGTLEISDFVFNIDPNYDVMWRYVDMQLSNRRAGTASTKTRGEVSGGGRKPWPQKHTGRARHGSIRSPIWRHGGVVHGPKPRDWSKKLNKKMKKLALRSALSVKYRENKLLVLDDLKLERPKTKSLKEILQNLQLSDKKTLIVLPWKEEGYMNVKLSGRNLPDVKVIIADNPNNSKNGEKAVRIDGLNVFDMLKYDYLVLTRDMVSKIEEVLGNEAGKALTA",
+                  "hseq": "MAQVDLLNVKGEKVGTLEISDFVFNIDPNYDVMWRYVDMQLSNRRAGTASTKTRGEVSGGGRKPWPQKHTGRARHGSIRSPIWRHGGVVHGPKPRDWSKKLNKKMKKLALRSALSVKYRENKLLVLDDLKLERPKTKSLKEILQNLQLSDKKTLIVLPWKEEGYMNVKLSGRNLPDVKVIIADNPNNSKNGEKAVRIDGLNVFDMLKYDYLVLTRDMVSKIEEVLGNEAGKALTA",
+                  "midline": "MAQVDLLNVKGEKVGTLEISDFVFNIDPNYDVMWRYVDMQLSNRRAGTASTKTRGEVSGGGRKPWPQKHTGRARHGSIRSPIWRHGGVVHGPKPRDWSKKLNKKMKKLALRSALSVKYRENKLLVLDDLKLERPKTKSLKEILQNLQLSDKKTLIVLPWKEEGYMNVKLSGRNLPDVKVIIADNPNNSKNGEKAVRIDGLNVFDMLKYDYLVLTRDMVSKIEEVLGNEAGKALTA"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P34024|PLC_LISMO",
+                  "accession": "P34024",
+                  "title": "1-phosphatidylinositol phosphodiesterase OS=Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 GN=plcA PE=1 SV=1"
+                }
+              ],
+              "len": 317,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 0.708053,
+                  "identity": 15,
+                  "positive": 30,
+                  "query_from": 94,
+                  "query_to": 145,
+                  "hit_from": 268,
+                  "hit_to": 313,
+                  "align_len": 52,
+                  "gaps": 6,
+                  "qseq": "PRDWSKKLNKKMKKLALRSALSVKYRENKLLVLDDLKLERPKTKSLKEILQN",
+                  "hseq": "PRQYAAALNNKVEQFVL-NLTSEKVRGLGILIMD-----FPEKQTIKNIIKN",
+                  "midline": "PR ++  LN K+++  L +  S K R   +L++D      P+ +++K I++N"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "tr|O28835|O28835_ARCFU",
+                  "accession": "O28835",
+                  "title": "HAD family hydrolase OS=Archaeoglobus fulgidus (strain ATCC 49558 / DSM 4304 / JCM 9628 / NBRC 100126 / VC-16) OX=224325 GN=AF_1437 PE=1 SV=1"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 2.46186,
+                  "identity": 16,
+                  "positive": 33,
+                  "query_from": 142,
+                  "query_to": 200,
+                  "hit_from": 242,
+                  "hit_to": 303,
+                  "align_len": 63,
+                  "gaps": 5,
+                  "qseq": "ILQNLQLSDKKTLIVLPWKEEGYMNVKLSGRNLPDVKVIIADNPNNSKNGEKA----VRIDGL",
+                  "hseq": "IISPTAMSEAKVIELFMERKERAFEV-LSAVSIPETEIYIMENSDFGEVLEKSKRMRVRLRGL",
+                  "midline": "I+    +S+ K + +   ++E    V LS  ++P+ ++ I +N +  +  EK+    VR+ GL"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P0AGC3|SLT_ECOLI",
+                  "accession": "P0AGC3",
+                  "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
+                }
+              ],
+              "len": 645,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 9.00547,
+                  "identity": 10,
+                  "positive": 11,
+                  "query_from": 128,
+                  "query_to": 146,
+                  "hit_from": 354,
+                  "hit_to": 372,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "DLKLERPKTKSLKEILQNL",
+                  "hseq": "DLLLERGREAEAKEILHQL",
+                  "midline": "DL LER +    KEIL  L"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 63,
+            "eff_space": 11963460,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

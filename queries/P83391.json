@@ -1,0 +1,574 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P83391|CYC6_CLAGO Cytochrome c6 OS=Cladophora glomerata OX=162068 GN=petJ PE=1 SV=1",
+          "query_len": 91,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P83391|CYC6_CLAGO",
+                  "accession": "P83391",
+                  "title": "Cytochrome c6 OS=Cladophora glomerata OX=162068 GN=petJ PE=1 SV=1"
+                }
+              ],
+              "len": 91,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 184.111,
+                  "score": 466,
+                  "evalue": 9.2216e-65,
+                  "identity": 91,
+                  "positive": 91,
+                  "query_from": 1,
+                  "query_to": 91,
+                  "hit_from": 1,
+                  "hit_to": 91,
+                  "align_len": 91,
+                  "gaps": 0,
+                  "qseq": "VDAELLADGKKVFAGNCAACHLGGNNSVLADKTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMPAWADRLDEDDIEAVSNYVYDQAVNSKW",
+                  "hseq": "VDAELLADGKKVFAGNCAACHLGGNNSVLADKTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMPAWADRLDEDDIEAVSNYVYDQAVNSKW",
+                  "midline": "VDAELLADGKKVFAGNCAACHLGGNNSVLADKTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMPAWADRLDEDDIEAVSNYVYDQAVNSKW"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P0A3Y0|CYC6_SYNEL",
+                  "accession": "P0A3Y0",
+                  "title": "Cytochrome c6 OS=Synechococcus elongatus OX=32046 GN=petJ PE=1 SV=1"
+                }
+              ],
+              "len": 87,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.9005,
+                  "score": 237,
+                  "evalue": 6.82999e-30,
+                  "identity": 47,
+                  "positive": 64,
+                  "query_from": 6,
+                  "query_to": 86,
+                  "hit_from": 3,
+                  "hit_to": 81,
+                  "align_len": 81,
+                  "gaps": 2,
+                  "qseq": "LADGKKVFAGNCAACHLGGNNSVLADKTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMPAWADRLDEDDIEAVSNYVYDQA",
+                  "hseq": "LANGAKVFSGNCAACHMGGGNVVMANKTLKKEALEQF--GMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQA",
+                  "midline": "LA+G KVF+GNCAACH+GG N V+A+KTLKK+A+E++  G  + +AI YQV +GK AMPA+A RL ++ I+ V+ YV DQA"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P14774|CYCL_METEA",
+                  "accession": "P14774",
+                  "title": "Cytochrome c-L OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxG PE=1 SV=1"
+                }
+              ],
+              "len": 197,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.0238,
+                  "score": 53,
+                  "evalue": 0.0421861,
+                  "identity": 8,
+                  "positive": 13,
+                  "query_from": 2,
+                  "query_to": 21,
+                  "hit_from": 75,
+                  "hit_to": 94,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "DAELLADGKKVFAGNCAACH",
+                  "hseq": "DKSCLRNGESLFATSCSGCH",
+                  "midline": "D   L +G+ +FA +C+ CH"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P00101|CY551_STUST",
+                  "accession": "P00101",
+                  "title": "Cytochrome c-551 OS=Stutzerimonas stutzeri OX=316 GN=nirM PE=1 SV=2"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 0.504731,
+                  "identity": 20,
+                  "positive": 42,
+                  "query_from": 1,
+                  "query_to": 84,
+                  "hit_from": 17,
+                  "hit_to": 102,
+                  "align_len": 90,
+                  "gaps": 10,
+                  "qseq": "VDAELLADGKKVF-AGNCAACHLGGNNSVLADKTLKKDAIEKY-LEGGLTLEAIKYQVNNGK----GAMPAWADRLDEDDIEAVSNYVYD",
+                  "hseq": "MQPALAQDGEALFKSKPCAACH--SVDTKMVGPALKEVAAKNAGVEG--AADTLALHIKNGSQGVWGPIPMPPNPVTEEEAKILAEWVLS",
+                  "midline": "+   L  DG+ +F +  CAACH    ++ +    LK+ A +   +EG    + +   + NG     G +P   + + E++ + ++ +V  "
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 0.895014,
+                  "identity": 17,
+                  "positive": 28,
+                  "query_from": 5,
+                  "query_to": 63,
+                  "hit_from": 3854,
+                  "hit_to": 3912,
+                  "align_len": 62,
+                  "gaps": 6,
+                  "qseq": "LLADGKKVFAGNCAACHLGGNNSVLADKTLKKDAIEKYLEGGLTL---EAIKYQVNNGKGAM",
+                  "hseq": "LNGDAKLIAAQNAAKQHLG---TLTHITTAQRNDLTNQISQATNLAGVESVKQNANSLDGAM",
+                  "midline": "L  D K + A N A  HLG   ++    T +++ +   +     L   E++K   N+  GAM"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 4.4863,
+                  "identity": 16,
+                  "positive": 30,
+                  "query_from": 35,
+                  "query_to": 89,
+                  "hit_from": 4624,
+                  "hit_to": 4691,
+                  "align_len": 68,
+                  "gaps": 13,
+                  "qseq": "KKDAIEKYLEGGLTLEAIKYQVNNG---KGAMPAWADRL-DEDDIEAVSNYV---------YDQAVNS",
+                  "hseq": "QKDALTRSIDGATTVAGVNQETAKATELNNAMHSLQNGINDETQTKQTQKYLDAEPNKKSAYDQAVNA",
+                  "midline": "+KDA+ + ++G  T+  +  +         AM +  + + DE   +    Y+         YDQAVN+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 5.58745,
+                  "identity": 13,
+                  "positive": 23,
+                  "query_from": 43,
+                  "query_to": 87,
+                  "hit_from": 9787,
+                  "hit_to": 9826,
+                  "align_len": 45,
+                  "gaps": 5,
+                  "qseq": "LEGGLTLEAIKYQVNNGKGAMPAWADRLDEDDIEAVSNYVYDQAV",
+                  "hseq": "LNNGESLDKVKH----TPFFLPKRRRKEDEEDVE-VTNENTDEKV",
+                  "midline": "L  G +L+ +K+        +P    + DE+D+E V+N   D+ V"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 6.82529,
+                  "identity": 16,
+                  "positive": 22,
+                  "query_from": 49,
+                  "query_to": 89,
+                  "hit_from": 3141,
+                  "hit_to": 3191,
+                  "align_len": 51,
+                  "gaps": 10,
+                  "qseq": "LEAIKYQVNNGKGAMPAWADRL-DEDDIEAVSNYV---------YDQAVNS",
+                  "hseq": "LETIKSNITALNTAMTKLKDSVADNNTIKSGQNYTDATPANKQAYDNAVNA",
+                  "midline": "LE IK  +     AM    D + D + I++  NY          YD AVN+"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 8.57604,
+                  "identity": 14,
+                  "positive": 22,
+                  "query_from": 14,
+                  "query_to": 59,
+                  "hit_from": 5110,
+                  "hit_to": 5152,
+                  "align_len": 47,
+                  "gaps": 5,
+                  "qseq": "AGNCAACHLGGNNSVLADKT-LKKDAIEKYLEGGLTLEAIKYQVNNG",
+                  "hseq": "AQTNAKQHLNG----LSDLTNAQKEAAKRQIEGATHVNEVTQAQNNA",
+                  "midline": "A   A  HL G    L+D T  +K+A ++ +EG   +  +    NN "
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P00700|LYSC_COLVI",
+                  "accession": "P00700",
+                  "title": "Lysozyme C OS=Colinus virginianus OX=9014 GN=LYZ PE=1 SV=2"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 2.20612,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 58,
+                  "query_to": 77,
+                  "hit_from": 103,
+                  "hit_to": 122,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "NGKGAMPAWADRLDEDDIEA",
+                  "hseq": "NGMNAWVAWRNRCKGTDVQA",
+                  "midline": "NG  A  AW +R    D++A"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P00698|LYSC_CHICK",
+                  "accession": "P00698",
+                  "title": "Lysozyme C OS=Gallus gallus OX=9031 GN=LYZ PE=1 SV=1"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 2.22895,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 58,
+                  "query_to": 77,
+                  "hit_from": 121,
+                  "hit_to": 140,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "NGKGAMPAWADRLDEDDIEA",
+                  "hseq": "NGMNAWVAWRNRCKGTDVQA",
+                  "midline": "NG  A  AW +R    D++A"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P00703|LYSC_MELGA",
+                  "accession": "P00703",
+                  "title": "Lysozyme C OS=Meleagris gallopavo OX=9103 GN=LYZ PE=1 SV=2"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 3.35098,
+                  "identity": 8,
+                  "positive": 10,
+                  "query_from": 58,
+                  "query_to": 77,
+                  "hit_from": 121,
+                  "hit_to": 140,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "NGKGAMPAWADRLDEDDIEA",
+                  "hseq": "NGMNAWVAWRNRCKGTDVHA",
+                  "midline": "NG  A  AW +R    D+ A"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P0CG48|UBC_HUMAN",
+                  "accession": "P0CG48",
+                  "title": "Polyubiquitin-C OS=Homo sapiens OX=9606 GN=UBC PE=1 SV=3"
+                }
+              ],
+              "len": 685,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 3.38153,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 32,
+                  "query_to": 64,
+                  "hit_from": 6,
+                  "hit_to": 38,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "KTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMP",
+                  "hseq": "KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPP",
+                  "midline": "KTL    I   +E   T+E +K ++ + +G  P"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 3.38153,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 32,
+                  "query_to": 64,
+                  "hit_from": 82,
+                  "hit_to": 114,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "KTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMP",
+                  "hseq": "KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPP",
+                  "midline": "KTL    I   +E   T+E +K ++ + +G  P"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 3.38153,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 32,
+                  "query_to": 64,
+                  "hit_from": 158,
+                  "hit_to": 190,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "KTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMP",
+                  "hseq": "KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPP",
+                  "midline": "KTL    I   +E   T+E +K ++ + +G  P"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 3.38153,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 32,
+                  "query_to": 64,
+                  "hit_from": 234,
+                  "hit_to": 266,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "KTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMP",
+                  "hseq": "KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPP",
+                  "midline": "KTL    I   +E   T+E +K ++ + +G  P"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 3.38153,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 32,
+                  "query_to": 64,
+                  "hit_from": 310,
+                  "hit_to": 342,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "KTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMP",
+                  "hseq": "KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPP",
+                  "midline": "KTL    I   +E   T+E +K ++ + +G  P"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 3.38153,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 32,
+                  "query_to": 64,
+                  "hit_from": 386,
+                  "hit_to": 418,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "KTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMP",
+                  "hseq": "KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPP",
+                  "midline": "KTL    I   +E   T+E +K ++ + +G  P"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 3.38153,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 32,
+                  "query_to": 64,
+                  "hit_from": 462,
+                  "hit_to": 494,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "KTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMP",
+                  "hseq": "KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPP",
+                  "midline": "KTL    I   +E   T+E +K ++ + +G  P"
+                },
+                {
+                  "num": 8,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 3.38153,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 32,
+                  "query_to": 64,
+                  "hit_from": 538,
+                  "hit_to": 570,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "KTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMP",
+                  "hseq": "KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPP",
+                  "midline": "KTL    I   +E   T+E +K ++ + +G  P"
+                },
+                {
+                  "num": 9,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 3.38153,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 32,
+                  "query_to": 64,
+                  "hit_from": 614,
+                  "hit_to": 646,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "KTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMP",
+                  "hseq": "KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPP",
+                  "midline": "KTL    I   +E   T+E +K ++ + +G  P"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|P82599|CY553_SPOPA",
+                  "accession": "P82599",
+                  "title": "Cytochrome c-553 OS=Sporosarcina pasteurii OX=1474 PE=1 SV=1"
+                }
+              ],
+              "len": 92,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 5.37322,
+                  "identity": 18,
+                  "positive": 26,
+                  "query_from": 8,
+                  "query_to": 64,
+                  "hit_from": 23,
+                  "hit_to": 72,
+                  "align_len": 57,
+                  "gaps": 7,
+                  "qseq": "DGKKVFAGNCAACHLGGNNSVLADKTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMP",
+                  "hseq": "DAEAVVQQKCISCH-GGDLTGASAPAIDK-AGANYSE-----EEILDIILNGQGGMP",
+                  "midline": "D + V    C +CH GG+ +  +   + K A   Y E     E I   + NG+G MP"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "sp|P32589|HSP7F_YEAST",
+                  "accession": "P32589",
+                  "title": "Heat shock protein homolog SSE1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSE1 PE=1 SV=4"
+                }
+              ],
+              "len": 693,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 7.06773,
+                  "identity": 8,
+                  "positive": 8,
+                  "query_from": 22,
+                  "query_to": 30,
+                  "hit_from": 9,
+                  "hit_to": 17,
+                  "align_len": 9,
+                  "gaps": 0,
+                  "qseq": "LGGNNSVLA",
+                  "hseq": "LGNNNSVLA",
+                  "midline": "LG NNSVLA"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 52,
+            "eff_space": 2802306,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

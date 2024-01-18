@@ -1,0 +1,250 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q56185|HPPE_STRWE (S)-2-hydroxypropylphosphonic acid epoxidase OS=Streptomyces wedmorensis OX=43759 GN=hppE PE=1 SV=1",
+          "query_len": 198,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q56185|HPPE_STRWE",
+                  "accession": "Q56185",
+                  "title": "(S)-2-hydroxypropylphosphonic acid epoxidase OS=Streptomyces wedmorensis OX=43759 GN=hppE PE=1 SV=1"
+                }
+              ],
+              "len": 198,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 407.527,
+                  "score": 1046,
+                  "evalue": 9.72059e-150,
+                  "identity": 198,
+                  "positive": 198,
+                  "query_from": 1,
+                  "query_to": 198,
+                  "hit_from": 1,
+                  "hit_to": 198,
+                  "align_len": 198,
+                  "gaps": 0,
+                  "qseq": "MSNTKTASTGFAELLKDRREQVKMDHAALASLLGETPETVAAWENGEGGELTLTQLGRIAHVLGTSIGALTPPAGNDLDDGVIIQMPDERPILKGVRDNVDYYVYNCLVRTKRAPSLVPLVVDVLTDNPDDAKFNSGHAGNEFLFVLEGEIHMKWGDKENPKEALLPTGASMFVEEHVPHAFTAAKGTGSAKLIAVNF",
+                  "hseq": "MSNTKTASTGFAELLKDRREQVKMDHAALASLLGETPETVAAWENGEGGELTLTQLGRIAHVLGTSIGALTPPAGNDLDDGVIIQMPDERPILKGVRDNVDYYVYNCLVRTKRAPSLVPLVVDVLTDNPDDAKFNSGHAGNEFLFVLEGEIHMKWGDKENPKEALLPTGASMFVEEHVPHAFTAAKGTGSAKLIAVNF",
+                  "midline": "MSNTKTASTGFAELLKDRREQVKMDHAALASLLGETPETVAAWENGEGGELTLTQLGRIAHVLGTSIGALTPPAGNDLDDGVIIQMPDERPILKGVRDNVDYYVYNCLVRTKRAPSLVPLVVDVLTDNPDDAKFNSGHAGNEFLFVLEGEIHMKWGDKENPKEALLPTGASMFVEEHVPHAFTAAKGTGSAKLIAVNF"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q16878|CDO1_HUMAN",
+                  "accession": "Q16878",
+                  "title": "Cysteine dioxygenase type 1 OS=Homo sapiens OX=9606 GN=CDO1 PE=1 SV=2"
+                }
+              ],
+              "len": 200,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 2.28073,
+                  "identity": 9,
+                  "positive": 13,
+                  "query_from": 26,
+                  "query_to": 51,
+                  "hit_from": 92,
+                  "hit_to": 117,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "HAALASLLGETPETVAAWENGEGGEL",
+                  "hseq": "HCFLKMLQGNLKETLFAWPDKKSNEM",
+                  "midline": "H  L  L G   ET+ AW + +  E+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P40818|UBP8_HUMAN",
+                  "accession": "P40818",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                }
+              ],
+              "len": 1118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 3.48641,
+                  "identity": 7,
+                  "positive": 13,
+                  "query_from": 161,
+                  "query_to": 179,
+                  "hit_from": 222,
+                  "hit_to": 240,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "PKEALLPTGASMFVEEHVP",
+                  "hseq": "PEEAISPGVTASWIEAHLP",
+                  "midline": "P+EA+ P   + ++E H+P"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P18887|XRCC1_HUMAN",
+                  "accession": "P18887",
+                  "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
+                }
+              ],
+              "len": 633,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 5.5142,
+                  "identity": 11,
+                  "positive": 21,
+                  "query_from": 103,
+                  "query_to": 142,
+                  "hit_from": 385,
+                  "hit_to": 424,
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "YVYNCLVRTKRAPSLVPLVVDVLTDNPDDAKFNSGHAGNE",
+                  "hseq": "WVLDCHRMRRRLPSQRYLMAGPGSSSEEDEASHSGGSGDE",
+                  "midline": "+V +C    +R PS   L+    + + +D   +SG +G+E"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q9Z297|PEA15_CRIGR",
+                  "accession": "Q9Z297",
+                  "title": "Astrocytic phosphoprotein PEA-15 OS=Cricetulus griseus OX=10029 GN=PEA15 PE=1 SV=1"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 6.14171,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 97,
+                  "query_to": 126,
+                  "hit_from": 57,
+                  "hit_to": 84,
+                  "align_len": 30,
+                  "gaps": 2,
+                  "qseq": "RDNVDYYVYNCLVRTKRAPSLVPLVVDVLT",
+                  "hseq": "KDNLSYIEH--IFEISRRPDLLTMVVDYRT",
+                  "midline": "+DN+ Y  +  +    R P L+ +VVD  T"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q9ZFV5|EUTQ_SALTY",
+                  "accession": "Q9ZFV5",
+                  "title": "Acetate kinase EutQ OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=eutQ PE=1 SV=1"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 7.68607,
+                  "identity": 10,
+                  "positive": 15,
+                  "query_from": 130,
+                  "query_to": 154,
+                  "hit_from": 161,
+                  "hit_to": 185,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "DDAKFNSGHAGNEFLFVLEGEIHMK",
+                  "hseq": "DNAFFPWTLNYDEIDMVLEGELHVR",
+                  "midline": "D+A F      +E   VLEGE+H++"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|Q12888|TP53B_HUMAN",
+                  "accession": "Q12888",
+                  "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
+                }
+              ],
+              "len": 1972,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 9.34532,
+                  "identity": 15,
+                  "positive": 26,
+                  "query_from": 146,
+                  "query_to": 188,
+                  "hit_from": 1124,
+                  "hit_to": 1173,
+                  "align_len": 50,
+                  "gaps": 7,
+                  "qseq": "VLEGEIHMKWGDKENPKEALL--PTGASMFVEE-----HVPHAFTAAKGT",
+                  "hseq": "VLEDQKEGRSTNKENPSKALIERPSQNNIGIQTMECSLRVPETVSAATQT",
+                  "midline": "VLE +   +  +KENP +AL+  P+  ++ ++       VP   +AA  T"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 61,
+            "eff_space": 9586301,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

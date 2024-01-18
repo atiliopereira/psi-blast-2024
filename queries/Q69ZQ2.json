@@ -1,0 +1,190 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q69ZQ2|ISY1_MOUSE Pre-mRNA-splicing factor ISY1 homolog OS=Mus musculus OX=10090 GN=Isy1 PE=1 SV=2",
+          "query_len": 285,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q69ZQ2|ISY1_MOUSE",
+                  "accession": "Q69ZQ2",
+                  "title": "Pre-mRNA-splicing factor ISY1 homolog OS=Mus musculus OX=10090 GN=Isy1 PE=1 SV=2"
+                }
+              ],
+              "len": 285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 565.074,
+                  "score": 1455,
+                  "evalue": 0,
+                  "identity": 285,
+                  "positive": 285,
+                  "query_from": 1,
+                  "query_to": 285,
+                  "hit_from": 1,
+                  "hit_to": 285,
+                  "align_len": 285,
+                  "gaps": 0,
+                  "qseq": "MARNAEKAMTALARFRQAQLEEGKVKERRPFLASECTELPKAEKWRRQIIGEISKKVAQIQNAGLGEFRIRDLNDEINKLLREKGHWEVRIKELGGPDYGKVGPKMLDHEGKEVPGNRGYKYFGAAKDLPGVRELFEKEPLPPPRKTRAELMKAIDFEYYGYLDEDDGVIVPLEQEYEKKLRAELVEKWKAEREARLARGEKEEEEEEEEEINIYAVTEEESDEEGNQEKAGEDGQQKFIAHVPVPSQQEIEEALVRRKKMELLQKYASETLQAQSEEAKRLLGY",
+                  "hseq": "MARNAEKAMTALARFRQAQLEEGKVKERRPFLASECTELPKAEKWRRQIIGEISKKVAQIQNAGLGEFRIRDLNDEINKLLREKGHWEVRIKELGGPDYGKVGPKMLDHEGKEVPGNRGYKYFGAAKDLPGVRELFEKEPLPPPRKTRAELMKAIDFEYYGYLDEDDGVIVPLEQEYEKKLRAELVEKWKAEREARLARGEKEEEEEEEEEINIYAVTEEESDEEGNQEKAGEDGQQKFIAHVPVPSQQEIEEALVRRKKMELLQKYASETLQAQSEEAKRLLGY",
+                  "midline": "MARNAEKAMTALARFRQAQLEEGKVKERRPFLASECTELPKAEKWRRQIIGEISKKVAQIQNAGLGEFRIRDLNDEINKLLREKGHWEVRIKELGGPDYGKVGPKMLDHEGKEVPGNRGYKYFGAAKDLPGVRELFEKEPLPPPRKTRAELMKAIDFEYYGYLDEDDGVIVPLEQEYEKKLRAELVEKWKAEREARLARGEKEEEEEEEEEINIYAVTEEESDEEGNQEKAGEDGQQKFIAHVPVPSQQEIEEALVRRKKMELLQKYASETLQAQSEEAKRLLGY"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P40818|UBP8_HUMAN",
+                  "accession": "P40818",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                }
+              ],
+              "len": 1118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 0.904958,
+                  "identity": 8,
+                  "positive": 12,
+                  "query_from": 142,
+                  "query_to": 159,
+                  "hit_from": 319,
+                  "hit_to": 336,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "PPPRKTRAELMKAIDFEY",
+                  "hseq": "PPPRRQNEEVSISLDFTY",
+                  "midline": "PPPR+   E+  ++DF Y"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q9CQM5|TXD17_MOUSE",
+                  "accession": "Q9CQM5",
+                  "title": "Thioredoxin domain-containing protein 17 OS=Mus musculus OX=10090 GN=Txndc17 PE=1 SV=1"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 4.54694,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 109,
+                  "query_to": 141,
+                  "hit_from": 22,
+                  "hit_to": 52,
+                  "align_len": 36,
+                  "gaps": 8,
+                  "qseq": "HEGKEVPGNRGYKYFGAAKDLPG---VRELFEKEPL",
+                  "hseq": "HEGKTI-----FAYFSGSKDTEGKSWCPDCVEAEPV",
+                  "midline": "HEGK +     + YF  +KD  G     +  E EP+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P39625|SPSE_BACSU",
+                  "accession": "P39625",
+                  "title": "Spore coat polysaccharide biosynthesis protein SpsE OS=Bacillus subtilis (strain 168) OX=224308 GN=spsE PE=1 SV=1"
+                }
+              ],
+              "len": 373,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 5.53369,
+                  "identity": 15,
+                  "positive": 19,
+                  "query_from": 121,
+                  "query_to": 155,
+                  "hit_from": 235,
+                  "hit_to": 275,
+                  "align_len": 41,
+                  "gaps": 6,
+                  "qseq": "KYFGAAKDLPGVRELFEKEP------LPPPRKTRAELMKAI",
+                  "hseq": "KHFTIDKNLPGADHSFALNPDELKEMVDGIRKTEAELKQGI",
+                  "midline": "K+F   K+LPG    F   P      +   RKT AEL + I"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P16099|DHTM_METME",
+                  "accession": "P16099",
+                  "title": "Trimethylamine dehydrogenase OS=Methylophilus methylotrophus OX=17 GN=tmd PE=1 SV=3"
+                }
+              ],
+              "len": 730,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 8.98513,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 101,
+                  "query_to": 134,
+                  "hit_from": 15,
+                  "hit_to": 43,
+                  "align_len": 34,
+                  "gaps": 5,
+                  "qseq": "KVGPKMLDHEGKEVPGNRGYKYFGAAKDLPGVRE",
+                  "hseq": "QIGPKTLRNRFYQVP-----HCIGAGSDKPGFQS",
+                  "midline": "++GPK L +   +VP        GA  D PG + "
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 64,
+            "eff_space": 15325466,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

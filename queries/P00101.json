@@ -1,0 +1,340 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P00101|CY551_STUST Cytochrome c-551 OS=Stutzerimonas stutzeri OX=316 GN=nirM PE=1 SV=2",
+          "query_len": 104,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P00101|CY551_STUST",
+                  "accession": "P00101",
+                  "title": "Cytochrome c-551 OS=Stutzerimonas stutzeri OX=316 GN=nirM PE=1 SV=2"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 206.453,
+                  "score": 524,
+                  "evalue": 3.36162e-73,
+                  "identity": 104,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 1,
+                  "hit_to": 104,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "MKKILIPMLALGGALAMQPALAQDGEALFKSKPCAACHSVDTKMVGPALKEVAAKNAGVEGAADTLALHIKNGSQGVWGPIPMPPNPVTEEEAKILAEWVLSLK",
+                  "hseq": "MKKILIPMLALGGALAMQPALAQDGEALFKSKPCAACHSVDTKMVGPALKEVAAKNAGVEGAADTLALHIKNGSQGVWGPIPMPPNPVTEEEAKILAEWVLSLK",
+                  "midline": "MKKILIPMLALGGALAMQPALAQDGEALFKSKPCAACHSVDTKMVGPALKEVAAKNAGVEGAADTLALHIKNGSQGVWGPIPMPPNPVTEEEAKILAEWVLSLK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P0A3Y0|CYC6_SYNEL",
+                  "accession": "P0A3Y0",
+                  "title": "Cytochrome c6 OS=Synechococcus elongatus OX=32046 GN=petJ PE=1 SV=1"
+                }
+              ],
+              "len": 87,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 0.0135603,
+                  "identity": 21,
+                  "positive": 39,
+                  "query_from": 24,
+                  "query_to": 102,
+                  "hit_from": 5,
+                  "hit_to": 79,
+                  "align_len": 81,
+                  "gaps": 8,
+                  "qseq": "DGEALFKSKPCAACH--SVDTKMVGPALKEVAAKNAGVEGAADTLALHIKNGSQGVWGPIPMPPNPVTEEEAKILAEWVLS",
+                  "hseq": "NGAKVF-SGNCAACHMGGGNVVMANKTLKKEALEQFGMY-SEDAIIYQVQHGKN----AMPAFAGRLTDEQIQDVAAYVLD",
+                  "midline": "+G  +F S  CAACH    +  M    LK+ A +  G+  + D +   +++G       +P     +T+E+ + +A +VL "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P83391|CYC6_CLAGO",
+                  "accession": "P83391",
+                  "title": "Cytochrome c6 OS=Cladophora glomerata OX=162068 GN=petJ PE=1 SV=1"
+                }
+              ],
+              "len": 91,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 0.576835,
+                  "identity": 20,
+                  "positive": 42,
+                  "query_from": 17,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 84,
+                  "align_len": 90,
+                  "gaps": 10,
+                  "qseq": "MQPALAQDGEALFKSKPCAACH--SVDTKMVGPALKEVAAKNAGVEG--AADTLALHIKNGSQGVWGPIPMPPNPVTEEEAKILAEWVLS",
+                  "hseq": "VDAELLADGKKVF-AGNCAACHLGGNNSVLADKTLKKDAIEKY-LEGGLTLEAIKYQVNNGK----GAMPAWADRLDEDDIEAVSNYVYD",
+                  "midline": "+   L  DG+ +F +  CAACH    ++ +    LK+ A +   +EG    + +   + NG     G +P   + + E++ + ++ +V  "
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P14774|CYCL_METEA",
+                  "accession": "P14774",
+                  "title": "Cytochrome c-L OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxG PE=1 SV=1"
+                }
+              ],
+              "len": 197,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 0.662362,
+                  "identity": 10,
+                  "positive": 18,
+                  "query_from": 23,
+                  "query_to": 51,
+                  "hit_from": 80,
+                  "hit_to": 108,
+                  "align_len": 30,
+                  "gaps": 2,
+                  "qseq": "QDGEALFKSKPCAACHS-VDTKMVGPALKE",
+                  "hseq": "RNGESLFATS-CSGCHGHLAEGKLGPGLND",
+                  "midline": "++GE+LF +  C+ CH  +    +GP L +"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P0AA25|THIO_ECOLI",
+                  "accession": "P0AA25",
+                  "title": "Thioredoxin 1 OS=Escherichia coli (strain K12) OX=83333 GN=trxA PE=1 SV=2"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 2.34851,
+                  "identity": 14,
+                  "positive": 19,
+                  "query_from": 21,
+                  "query_to": 58,
+                  "hit_from": 18,
+                  "hit_to": 52,
+                  "align_len": 40,
+                  "gaps": 7,
+                  "qseq": "LAQDGEAL--FKSKPCAACHSVDTKMVGPALKEVAAKNAG",
+                  "hseq": "LKADGAILVDFWAEWCGPC-----KMIAPILDEIADEYQG",
+                  "midline": "L  DG  L  F ++ C  C     KM+ P L E+A +  G"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P29898|DHM2_PARDE",
+                  "accession": "P29898",
+                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Paracoccus denitrificans OX=266 GN=moxI PE=1 SV=1"
+                }
+              ],
+              "len": 103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 5.11579,
+                  "identity": 14,
+                  "positive": 17,
+                  "query_from": 1,
+                  "query_to": 25,
+                  "hit_from": 1,
+                  "hit_to": 23,
+                  "align_len": 26,
+                  "gaps": 4,
+                  "qseq": "MKKILIPMLALGGALAM-QPALAQDG",
+                  "hseq": "MKRILTLTVA---ALALGTPALAYDG",
+                  "midline": "MK+IL   +A   ALA+  PALA DG"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P38935|SMBP2_HUMAN",
+                  "accession": "P38935",
+                  "title": "DNA-binding protein SMUBP-2 OS=Homo sapiens OX=9606 GN=IGHMBP2 PE=1 SV=3"
+                }
+              ],
+              "len": 993,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 6.24262,
+                  "identity": 7,
+                  "positive": 10,
+                  "query_from": 76,
+                  "query_to": 94,
+                  "hit_from": 798,
+                  "hit_to": 816,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "GVWGPIPMPPNPVTEEEAK",
+                  "hseq": "GTGGPAPLQPVPPTPAQTE",
+                  "midline": "G  GP P+ P P T  + +"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "tr|Q53752|Q53752_KITAU",
+                  "accession": "Q53752",
+                  "title": "Ribonuclease OS=Kitasatospora aureofaciens OX=1894 GN=ribonuclease PE=1 SV=1"
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 6.62506,
+                  "identity": 9,
+                  "positive": 9,
+                  "query_from": 62,
+                  "query_to": 73,
+                  "hit_from": 83,
+                  "hit_to": 94,
+                  "align_len": 12,
+                  "gaps": 0,
+                  "qseq": "AADTLALHIKNG",
+                  "hseq": "AQDTLALIAKNG",
+                  "midline": "A DTLAL  KNG"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P38540|DHM2_METME",
+                  "accession": "P38540",
+                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylophilus methylotrophus OX=17 GN=moxI PE=1 SV=2"
+                }
+              ],
+              "len": 91,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 6.94995,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 1,
+                  "query_to": 26,
+                  "hit_from": 1,
+                  "hit_to": 26,
+                  "align_len": 27,
+                  "gaps": 2,
+                  "qseq": "MKKILIPMLALGGALAM-QPALAQDGE",
+                  "hseq": "MKHVLT-LLALASVFAVSNQALAYDGQ",
+                  "midline": "MK +L  +LAL    A+   ALA DG+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|Q8U192|THIE_PYRFU",
+                  "accession": "Q8U192",
+                  "title": "Thiamine-phosphate synthase OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=thiE PE=1 SV=1"
+                }
+              ],
+              "len": 207,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 8.36122,
+                  "identity": 8,
+                  "positive": 12,
+                  "query_from": 51,
+                  "query_to": 72,
+                  "hit_from": 20,
+                  "hit_to": 41,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "EVAAKNAGVEGAADTLALHIKN",
+                  "hseq": "EVESVREALEGGATAIQMRIKN",
+                  "midline": "EV +    +EG A  + + IKN"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 54,
+            "eff_space": 3571800,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

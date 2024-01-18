@@ -1,0 +1,220 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P26646|ACUI_ECOLI Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1",
+          "query_len": 324,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P26646|ACUI_ECOLI",
+                  "accession": "P26646",
+                  "title": "Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1"
+                }
+              ],
+              "len": 324,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 662.529,
+                  "score": 1708,
+                  "evalue": 0,
+                  "identity": 324,
+                  "positive": 324,
+                  "query_from": 1,
+                  "query_to": 324,
+                  "hit_from": 1,
+                  "hit_to": 324,
+                  "align_len": 324,
+                  "gaps": 0,
+                  "qseq": "MQALLLEQQDGKTLASVQTLDESRLPEGDVTVDVHWSSLNYKDALAITGKGKIIRNFPMIPGIDFAGTVRTSEDPRFHAGQEVLLTGWGVGENHWGGLAEQARVKGDWLVAMPQGLDARKAMIIGTAGFTAMLCVMALEDAGVRPQDGEIVVTGASGGVGSTAVALLHKLGYQVVAVSGRESTHEYLKSLGASRVLPRDEFAESRPLEKQVWAGAIDTVGDKVLAKVLAQMNYGGCVAACGLAGGFTLPTTVMPFILRNVRLQGVDSVMTPPERRAQAWQRLVADLPESFYTQAAKEISLSEAPNFAEAIINNQIQGRTLVKVN",
+                  "hseq": "MQALLLEQQDGKTLASVQTLDESRLPEGDVTVDVHWSSLNYKDALAITGKGKIIRNFPMIPGIDFAGTVRTSEDPRFHAGQEVLLTGWGVGENHWGGLAEQARVKGDWLVAMPQGLDARKAMIIGTAGFTAMLCVMALEDAGVRPQDGEIVVTGASGGVGSTAVALLHKLGYQVVAVSGRESTHEYLKSLGASRVLPRDEFAESRPLEKQVWAGAIDTVGDKVLAKVLAQMNYGGCVAACGLAGGFTLPTTVMPFILRNVRLQGVDSVMTPPERRAQAWQRLVADLPESFYTQAAKEISLSEAPNFAEAIINNQIQGRTLVKVN",
+                  "midline": "MQALLLEQQDGKTLASVQTLDESRLPEGDVTVDVHWSSLNYKDALAITGKGKIIRNFPMIPGIDFAGTVRTSEDPRFHAGQEVLLTGWGVGENHWGGLAEQARVKGDWLVAMPQGLDARKAMIIGTAGFTAMLCVMALEDAGVRPQDGEIVVTGASGGVGSTAVALLHKLGYQVVAVSGRESTHEYLKSLGASRVLPRDEFAESRPLEKQVWAGAIDTVGDKVLAKVLAQMNYGGCVAACGLAGGFTLPTTVMPFILRNVRLQGVDSVMTPPERRAQAWQRLVADLPESFYTQAAKEISLSEAPNFAEAIINNQIQGRTLVKVN"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|O07615|YHFP_BACSU",
+                  "accession": "O07615",
+                  "title": "Putative quinone oxidoreductase YhfP OS=Bacillus subtilis (strain 168) OX=224308 GN=yhfP PE=1 SV=1"
+                }
+              ],
+              "len": 330,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 274.633,
+                  "score": 701,
+                  "evalue": 3.10713e-93,
+                  "identity": 154,
+                  "positive": 208,
+                  "query_from": 1,
+                  "query_to": 323,
+                  "hit_from": 5,
+                  "hit_to": 330,
+                  "align_len": 326,
+                  "gaps": 3,
+                  "qseq": "MQALLLEQQDGKTLASVQTLDESRLPEGDVTVDVHWSSLNYKDALAITGKGKIIRNFPMIPGIDFAGTVRTSEDPRFHAGQEVLLTGWGVGENHWGGLAEQARVKGDWLVAMPQGLDARKAMIIGTAGFTAMLCVMALEDAGVRPQDGEIVVTGASGGVGSTAVALLHKLGYQVVAVSGRESTHEYLKSLGASRVLPRDEFAES--RPLEKQVWAGAIDTVGDKVLAKVLAQMNYGGCVAACGLAGGFTLPTTVMPFILRNVRLQGVDSVMTPPERRAQAWQRLVADL-PESFYTQAAKEISLSEAPNFAEAIINNQIQGRTLVKV",
+                  "hseq": "FQALQAEKNADDVSVHVKTISTEDLPKDGVLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSNDPRFAEGDEVIATSYELGVSRDGGLSEYASVPGDWLVPLPQNLSLKEAMVYGTAGFTAALSVHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGYDVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGAVDPVGGKQLASLLSKIQYGGSVAVSGLTGGGEVPATVYPFILRGVSLLGIDSVYCPMDVRAAVWERMSSDLKPDQLLTIVDREVSLEETPGALKDILQNRIQGRVIVKL",
+                  "midline": " QAL  E+        V+T+    LP+  V + V +S +NYKD LA    G I+R +P+I GID AGTV +S DPRF  G EV+ T + +G +  GGL+E A V GDWLV +PQ L  ++AM+ GTAGFTA L V  LE  G+ P+ G ++VTGA+GGVG  AV++L+K GY VVA +G     +YLK LGAS V+ R++  +   + L KQ W GA+D VG K LA +L+++ YGG VA  GL GG  +P TV PFILR V L G+DSV  P + RA  W+R+ +DL P+   T   +E+SL E P   + I+ N+IQGR +VK+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P07174|TNR16_RAT",
+                  "accession": "P07174",
+                  "title": "Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1"
+                }
+              ],
+              "len": 425,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 2.35949,
+                  "identity": 15,
+                  "positive": 15,
+                  "query_from": 234,
+                  "query_to": 271,
+                  "hit_from": 42,
+                  "hit_to": 83,
+                  "align_len": 42,
+                  "gaps": 4,
+                  "qseq": "GGCVAACGLAGGFTLPT----TVMPFILRNVRLQGVDSVMTP",
+                  "hseq": "GECCKACNLGEGVAQPCGANQTVCEPCLDNVTFSDVVSATEP",
+                  "midline": "G C  AC L  G   P     TV    L NV    V S   P"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|Q9HIW7|OTSBH_THEAC",
+                  "accession": "Q9HIW7",
+                  "title": "Trehalose-6-phosphate phosphatase-related protein OS=Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=Ta1209 PE=1 SV=1"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 3.31232,
+                  "identity": 16,
+                  "positive": 19,
+                  "query_from": 268,
+                  "query_to": 312,
+                  "hit_from": 14,
+                  "hit_to": 59,
+                  "align_len": 46,
+                  "gaps": 1,
+                  "qseq": "VMTPPERRAQA-WQRLVADLPESFYTQAAKEISLSEAPNFAEAIIN",
+                  "hseq": "IMNPEESYADAGLLSLISDLKERFDTYIVTGRSPEEISRFLPLDIN",
+                  "midline": "+M P E  A A    L++DL E F T      S  E   F    IN"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P0A6Z1|HSCA_ECOLI",
+                  "accession": "P0A6Z1",
+                  "title": "Chaperone protein HscA OS=Escherichia coli (strain K12) OX=83333 GN=hscA PE=1 SV=1"
+                }
+              ],
+              "len": 616,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 4.06088,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 130,
+                  "query_to": 169,
+                  "hit_from": 311,
+                  "hit_to": 346,
+                  "align_len": 41,
+                  "gaps": 6,
+                  "qseq": "TAMLCVMALEDAGVRPQDG-EIVVTGASGGVGSTAVALLHK",
+                  "hseq": "TLLACRRALKDAGVEADEVLEVVMVG-----GSTRVPLVRE",
+                  "midline": "T + C  AL+DAGV   +  E+V+ G     GST V L+ +"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P04395|3MG2_ECOLI",
+                  "accession": "P04395",
+                  "title": "DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1"
+                }
+              ],
+              "len": 282,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 6.34002,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 215,
+                  "query_to": 239,
+                  "hit_from": 26,
+                  "hit_to": 50,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "AIDTVGDKVLAKVLAQMNYGGCVAA",
+                  "hseq": "SVETVADSYYARSLAVGEYRGVVTA",
+                  "midline": "+++TV D   A+ LA   Y G V A"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 66,
+            "eff_space": 17783424,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

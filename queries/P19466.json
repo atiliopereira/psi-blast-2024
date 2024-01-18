@@ -1,0 +1,190 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P19466|MTRB_BACSU Transcription attenuation protein MtrB OS=Bacillus subtilis (strain 168) OX=224308 GN=mtrB PE=1 SV=1",
+          "query_len": 75,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P19466|MTRB_BACSU",
+                  "accession": "P19466",
+                  "title": "Transcription attenuation protein MtrB OS=Bacillus subtilis (strain 168) OX=224308 GN=mtrB PE=1 SV=1"
+                }
+              ],
+              "len": 75,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 152.14,
+                  "score": 383,
+                  "evalue": 1.37538e-52,
+                  "identity": 75,
+                  "positive": 75,
+                  "query_from": 1,
+                  "query_to": 75,
+                  "hit_from": 1,
+                  "hit_to": 75,
+                  "align_len": 75,
+                  "gaps": 0,
+                  "qseq": "MNQKHSSDFVVIKAVEDGVNVIGLTRGTDTKFHHSEKLDKGEVIIAQFTEHTSAIKVRGEALIQTAYGEMKSEKK",
+                  "hseq": "MNQKHSSDFVVIKAVEDGVNVIGLTRGTDTKFHHSEKLDKGEVIIAQFTEHTSAIKVRGEALIQTAYGEMKSEKK",
+                  "midline": "MNQKHSSDFVVIKAVEDGVNVIGLTRGTDTKFHHSEKLDKGEVIIAQFTEHTSAIKVRGEALIQTAYGEMKSEKK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q9X6J6|MTRB_GEOSE",
+                  "accession": "Q9X6J6",
+                  "title": "Transcription attenuation protein MtrB OS=Geobacillus stearothermophilus OX=1422 GN=mtrB PE=1 SV=1"
+                }
+              ],
+              "len": 74,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 9.98457e-39,
+                  "identity": 57,
+                  "positive": 65,
+                  "query_from": 6,
+                  "query_to": 75,
+                  "hit_from": 4,
+                  "hit_to": 73,
+                  "align_len": 70,
+                  "gaps": 0,
+                  "qseq": "SSDFVVIKAVEDGVNVIGLTRGTDTKFHHSEKLDKGEVIIAQFTEHTSAIKVRGEALIQTAYGEMKSEKK",
+                  "hseq": "NSDFVVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFTEHTSAIKVRGKAYIQTRHGVIESEGK",
+                  "midline": "+SDFVVIKA+EDGVNVIGLTRG DT+FHHSEKLDKGEV+IAQFTEHTSAIKVRG+A IQT +G ++SE K"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q8VDG3|PARN_MOUSE",
+                  "accession": "Q8VDG3",
+                  "title": "Poly(A)-specific ribonuclease PARN OS=Mus musculus OX=10090 GN=Parn PE=1 SV=1"
+                }
+              ],
+              "len": 624,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 0.139749,
+                  "identity": 14,
+                  "positive": 18,
+                  "query_from": 7,
+                  "query_to": 40,
+                  "hit_from": 22,
+                  "hit_to": 59,
+                  "align_len": 38,
+                  "gaps": 4,
+                  "qseq": "SDFVVI----KAVEDGVNVIGLTRGTDTKFHHSEKLDK",
+                  "hseq": "ADFFAIDGEFSGISDGPSVTALTSGFDTPEERYQKLKK",
+                  "midline": "+DF  I      + DG +V  LT G DT     +KL K"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "tr|A9CJW3|A9CJW3_AGRFC",
+                  "accession": "A9CJW3",
+                  "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 0.3598,
+                  "identity": 14,
+                  "positive": 24,
+                  "query_from": 18,
+                  "query_to": 60,
+                  "hit_from": 180,
+                  "hit_to": 224,
+                  "align_len": 45,
+                  "gaps": 2,
+                  "qseq": "GVNVIGLTRGTDTKFHHSEKL-DKG-EVIIAQFTEHTSAIKVRGE",
+                  "hseq": "GMRVIGFTGASHTYPSHADRLTDAGAETVISRMQDLPAVIAAMAE",
+                  "midline": "G+ VIG T  + T   H+++L D G E +I++  +  + I    E"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|O43896|KIF1C_HUMAN",
+                  "accession": "O43896",
+                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                }
+              ],
+              "len": 1103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 1.77812,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 36,
+                  "query_to": 63,
+                  "hit_from": 442,
+                  "hit_to": 476,
+                  "align_len": 35,
+                  "gaps": 7,
+                  "qseq": "EKLDKGEVIIAQFTE-------HTSAIKVRGEALI",
+                  "hseq": "ERLQETEKIIAELNETWEEKLRKTEALRMEREALL",
+                  "midline": "E+L + E IIA+  E        T A+++  EAL+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 47,
+            "eff_space": 2041172,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

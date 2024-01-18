@@ -1,0 +1,400 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P07824|ARGI1_RAT Arginase-1 OS=Rattus norvegicus OX=10116 GN=Arg1 PE=1 SV=2",
+          "query_len": 323,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P07824|ARGI1_RAT",
+                  "accession": "P07824",
+                  "title": "Arginase-1 OS=Rattus norvegicus OX=10116 GN=Arg1 PE=1 SV=2"
+                }
+              ],
+              "len": 323,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 657.907,
+                  "score": 1696,
+                  "evalue": 0,
+                  "identity": 323,
+                  "positive": 323,
+                  "query_from": 1,
+                  "query_to": 323,
+                  "hit_from": 1,
+                  "hit_to": 323,
+                  "align_len": 323,
+                  "gaps": 0,
+                  "qseq": "MSSKPKPIEIIGAPFSKGQPRGGVEKGPAALRKAGLVEKLKETEYNVRDHGDLAFVDVPNDSPFQIVKNPRSVGKANEQLAAVVAETQKNGTISVVLGGDHSMAIGSISGHARVHPDLCVIWVDAHTDINTPLTTSSGNLHGQPVAFLLKELKGKFPDVPGFSWVTPCISAKDIVYIGLRDVDPGEHYIIKTLGIKYFSMTEVDKLGIGKVMEETFSYLLGRKKRPIHLSFDVDGLDPVFTPATGTPVVGGLSYREGLYITEEIYKTGLLSGLDIMEVNPTLGKTPEEVTRTVNTAVALTLSCFGTKREGNHKPETDYLKPPK",
+                  "hseq": "MSSKPKPIEIIGAPFSKGQPRGGVEKGPAALRKAGLVEKLKETEYNVRDHGDLAFVDVPNDSPFQIVKNPRSVGKANEQLAAVVAETQKNGTISVVLGGDHSMAIGSISGHARVHPDLCVIWVDAHTDINTPLTTSSGNLHGQPVAFLLKELKGKFPDVPGFSWVTPCISAKDIVYIGLRDVDPGEHYIIKTLGIKYFSMTEVDKLGIGKVMEETFSYLLGRKKRPIHLSFDVDGLDPVFTPATGTPVVGGLSYREGLYITEEIYKTGLLSGLDIMEVNPTLGKTPEEVTRTVNTAVALTLSCFGTKREGNHKPETDYLKPPK",
+                  "midline": "MSSKPKPIEIIGAPFSKGQPRGGVEKGPAALRKAGLVEKLKETEYNVRDHGDLAFVDVPNDSPFQIVKNPRSVGKANEQLAAVVAETQKNGTISVVLGGDHSMAIGSISGHARVHPDLCVIWVDAHTDINTPLTTSSGNLHGQPVAFLLKELKGKFPDVPGFSWVTPCISAKDIVYIGLRDVDPGEHYIIKTLGIKYFSMTEVDKLGIGKVMEETFSYLLGRKKRPIHLSFDVDGLDPVFTPATGTPVVGGLSYREGLYITEEIYKTGLLSGLDIMEVNPTLGKTPEEVTRTVNTAVALTLSCFGTKREGNHKPETDYLKPPK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P08037|B4GT1_BOVIN",
+                  "accession": "P08037",
+                  "title": "Beta-1,4-galactosyltransferase 1 OS=Bos taurus OX=9913 GN=B4GALT1 PE=1 SV=3"
+                }
+              ],
+              "len": 402,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 0.013701,
+                  "identity": 15,
+                  "positive": 30,
+                  "query_from": 29,
+                  "query_to": 96,
+                  "hit_from": 229,
+                  "hit_to": 296,
+                  "align_len": 68,
+                  "gaps": 0,
+                  "qseq": "AALRKAGLVEKLKETEYNVRDHGDLAFVDVPNDSPFQIVKNPRSVGKANEQLAAVVAETQKNGTISVV",
+                  "hseq": "AKLLNVGFKEALKDYDYNCFVFSDVDLIPMNDHNTYRCFSQPRHISVAMDKFGFSLPYVQYFGGVSAL",
+                  "midline": "A L   G  E LK+ +YN     D+  + + + + ++    PR +  A ++    +   Q  G +S +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q9BRA2|TXD17_HUMAN",
+                  "accession": "Q9BRA2",
+                  "title": "Thioredoxin domain-containing protein 17 OS=Homo sapiens OX=9606 GN=TXNDC17 PE=1 SV=1"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 0.0330438,
+                  "identity": 13,
+                  "positive": 20,
+                  "query_from": 158,
+                  "query_to": 196,
+                  "hit_from": 36,
+                  "hit_to": 74,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "DVPGFSWVTPCISAKDIVYIGLRDVDPGEHYIIKTLGIK",
+                  "hseq": "DAGGKSWCPDCVQAEPVVREGLKHISEGCVFIYCQVGEK",
+                  "midline": "D  G SW   C+ A+ +V  GL+ +  G  +I   +G K"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|Q9CQM5|TXD17_MOUSE",
+                  "accession": "Q9CQM5",
+                  "title": "Thioredoxin domain-containing protein 17 OS=Mus musculus OX=10090 GN=Txndc17 PE=1 SV=1"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 0.382485,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 158,
+                  "query_to": 196,
+                  "hit_from": 36,
+                  "hit_to": 74,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "DVPGFSWVTPCISAKDIVYIGLRDVDPGEHYIIKTLGIK",
+                  "hseq": "DTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDK",
+                  "midline": "D  G SW   C+ A+ ++  GL+ V     +I   +G K"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q00722|PLCB2_HUMAN",
+                  "accession": "Q00722",
+                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
+                }
+              ],
+              "len": 1185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 0.782539,
+                  "identity": 11,
+                  "positive": 17,
+                  "query_from": 263,
+                  "query_to": 288,
+                  "hit_from": 343,
+                  "hit_to": 368,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "EIYKTGLLSGLDIMEVNPTLGKTPEE",
+                  "hseq": "EMYRQVLLSGCRCVELDCWKGKPPDE",
+                  "midline": "E+Y+  LLSG   +E++   GK P+E"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 1.89348,
+                  "identity": 11,
+                  "positive": 16,
+                  "query_from": 262,
+                  "query_to": 294,
+                  "hit_from": 4065,
+                  "hit_to": 4097,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "EEIYKTGLLSGLDIMEVNPTLGKTPEEVTRTVN",
+                  "hseq": "QNAYTTKVTNAEHIISGTPTVVTTPSEVTAAAN",
+                  "midline": "+  Y T + +   I+   PT+  TP EVT   N"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P07327|ADH1A_HUMAN",
+                  "accession": "P07327",
+                  "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
+                }
+              ],
+              "len": 375,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 3.40785,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 34,
+                  "query_to": 72,
+                  "hit_from": 71,
+                  "hit_to": 109,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "AGLVEKLKETEYNVRDHGDLAFVDVPNDSPFQIVKNPRS",
+                  "hseq": "AGIVESVGEGVTTVKPGDKVIPLAIPQCGKCRICKNPES",
+                  "midline": "AG+VE + E    V+    +  + +P     +I KNP S"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P0AB52|YCHN_ECOLI",
+                  "accession": "P0AB52",
+                  "title": "Protein YchN OS=Escherichia coli (strain K12) OX=83333 GN=ychN PE=1 SV=1"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 3.82583,
+                  "identity": 10,
+                  "positive": 12,
+                  "query_from": 173,
+                  "query_to": 193,
+                  "hit_from": 44,
+                  "hit_to": 64,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "DIVYIGLRDVDPGEHYIIKTL",
+                  "hseq": "DAVTAGLRGQKPGEGYNIQQM",
+                  "midline": "D V  GLR   PGE Y I+ +"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P0A707|IF3_ECOLI",
+                  "accession": "P0A707",
+                  "title": "Translation initiation factor IF-3 OS=Escherichia coli (strain K12) OX=83333 GN=infC PE=1 SV=1"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 3.93891,
+                  "identity": 15,
+                  "positive": 28,
+                  "query_from": 225,
+                  "query_to": 281,
+                  "hit_from": 11,
+                  "hit_to": 59,
+                  "align_len": 57,
+                  "gaps": 8,
+                  "qseq": "RPIHLSFDVDGLDPVFTPATGTPVVGGLSYREGLYITEEIYKTGLLSGLDIMEVNPT",
+                  "hseq": "RPNRINGEIRAQEVRLTGLEGEQL-GIVSLREALEKAEE-------AGVDLVEISPN",
+                  "midline": "RP  ++ ++   +   T   G  + G +S RE L   EE       +G+D++E++P "
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|P56968|PYRK_LACLM",
+                  "accession": "P56968",
+                  "title": "Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit OS=Lactococcus lactis subsp. cremoris (strain MG1363) OX=416870 GN=pyrK PE=1 SV=1"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 7.20979,
+                  "identity": 12,
+                  "positive": 15,
+                  "query_from": 228,
+                  "query_to": 263,
+                  "hit_from": 186,
+                  "hit_to": 221,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "HLSFDVDGLDPVFTPATGTPVVGGLSYREGLYITEE",
+                  "hseq": "EIDFEVDALYTCGAPAMLKAVAKKYDQLERLYISME",
+                  "midline": " + F+VD L     PA    V       E LYI+ E"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "sp|P0AEC8|DCUS_ECOLI",
+                  "accession": "P0AEC8",
+                  "title": "Sensor histidine kinase DcuS OS=Escherichia coli (strain K12) OX=83333 GN=dcuS PE=1 SV=1"
+                }
+              ],
+              "len": 543,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 8.86651,
+                  "identity": 13,
+                  "positive": 22,
+                  "query_from": 187,
+                  "query_to": 237,
+                  "hit_from": 356,
+                  "hit_to": 406,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "HYIIKTLGIKYFSMTEVDKLGIGKVMEETFSYLLGRKKRPIHLSFDVDGLD",
+                  "hseq": "HVILGLLHLKSYKQLEDYILKTANNYQEEIGSLLGKIKSPVIAGFLISKIN",
+                  "midline": "H I+  L +K +   E   L      +E    LLG+ K P+   F +  ++"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "sp|P83772|CRNA_PSEPU",
+                  "accession": "P83772",
+                  "title": "Creatinine amidohydrolase OS=Pseudomonas putida OX=303 GN=crnA PE=1 SV=1"
+                }
+              ],
+              "len": 260,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 8.8929,
+                  "identity": 13,
+                  "positive": 20,
+                  "query_from": 231,
+                  "query_to": 273,
+                  "hit_from": 211,
+                  "hit_to": 253,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "FDVDGLDPVFTPATGTPVVGGLSYREGLYITEEIYKTGLLSGL",
+                  "hseq": "YDVFPVDPARTPAPGTLSSAKTASREKGELILEVCVQGIADAI",
+                  "midline": "+DV  +DP  TPA GT      + RE   +  E+   G+   +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 66,
+            "eff_space": 17714496,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

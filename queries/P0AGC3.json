@@ -1,0 +1,250 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P0AGC3|SLT_ECOLI Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1",
+          "query_len": 645,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P0AGC3|SLT_ECOLI",
+                  "accession": "P0AGC3",
+                  "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
+                }
+              ],
+              "len": 645,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1332.78,
+                  "score": 3448,
+                  "evalue": 0,
+                  "identity": 645,
+                  "positive": 645,
+                  "query_from": 1,
+                  "query_to": 645,
+                  "hit_from": 1,
+                  "hit_to": 645,
+                  "align_len": 645,
+                  "gaps": 0,
+                  "qseq": "MEKAKQVTWRLLAAGVCLLTVSSVARADSLDEQRSRYAQIKQAWDNRQMDVVEQMMPGLKDYPLYPYLEYRQITDDLMNQPAVTVTNFVRANPTLPPARTLQSRFVNELARREDWRGLLAFSPEKPGTTEAQCNYYYAKWNTGQSEEAWQGAKELWLTGKSQPNACDKLFSVWRASGKQDPLAYLERIRLAMKAGNTGLVTVLAGQMPADYQTIASAIISLANNPNTVLTFARTTGATDFTRQMAAVAFASVARQDAENARLMIPSLAQAQQLNEDQIQELRDIVAWRLMGNDVTDEQAKWRDDAIMRSQSTSLIERRVRMALGTGDRRGLNTWLARLPMEAKEKDEWRYWQADLLLERGREAEAKEILHQLMQQRGFYPMVAAQRIGEEYELKIDKAPQNVDSALTQGPEMARVRELMYWNLDNTARSEWANLVKSKSKTEQAQLARYAFNNQWWDLSVQATIAGKLWDHLEERFPLAYNDLFKRYTSGKEIPQSYAMAIARQESAWNPKVKSPVGASGLMQIMPGTATHTVKMFSIPGYSSPGQLLDPETNINIGTSYLQYVYQQFGNNRIFSSAAYNAGPGRVRTWLGNSAGRIDAVAFVESIPFSETRGYVKNVLAYDAYYRYFMGDKPTLMSATEWGRRY",
+                  "hseq": "MEKAKQVTWRLLAAGVCLLTVSSVARADSLDEQRSRYAQIKQAWDNRQMDVVEQMMPGLKDYPLYPYLEYRQITDDLMNQPAVTVTNFVRANPTLPPARTLQSRFVNELARREDWRGLLAFSPEKPGTTEAQCNYYYAKWNTGQSEEAWQGAKELWLTGKSQPNACDKLFSVWRASGKQDPLAYLERIRLAMKAGNTGLVTVLAGQMPADYQTIASAIISLANNPNTVLTFARTTGATDFTRQMAAVAFASVARQDAENARLMIPSLAQAQQLNEDQIQELRDIVAWRLMGNDVTDEQAKWRDDAIMRSQSTSLIERRVRMALGTGDRRGLNTWLARLPMEAKEKDEWRYWQADLLLERGREAEAKEILHQLMQQRGFYPMVAAQRIGEEYELKIDKAPQNVDSALTQGPEMARVRELMYWNLDNTARSEWANLVKSKSKTEQAQLARYAFNNQWWDLSVQATIAGKLWDHLEERFPLAYNDLFKRYTSGKEIPQSYAMAIARQESAWNPKVKSPVGASGLMQIMPGTATHTVKMFSIPGYSSPGQLLDPETNINIGTSYLQYVYQQFGNNRIFSSAAYNAGPGRVRTWLGNSAGRIDAVAFVESIPFSETRGYVKNVLAYDAYYRYFMGDKPTLMSATEWGRRY",
+                  "midline": "MEKAKQVTWRLLAAGVCLLTVSSVARADSLDEQRSRYAQIKQAWDNRQMDVVEQMMPGLKDYPLYPYLEYRQITDDLMNQPAVTVTNFVRANPTLPPARTLQSRFVNELARREDWRGLLAFSPEKPGTTEAQCNYYYAKWNTGQSEEAWQGAKELWLTGKSQPNACDKLFSVWRASGKQDPLAYLERIRLAMKAGNTGLVTVLAGQMPADYQTIASAIISLANNPNTVLTFARTTGATDFTRQMAAVAFASVARQDAENARLMIPSLAQAQQLNEDQIQELRDIVAWRLMGNDVTDEQAKWRDDAIMRSQSTSLIERRVRMALGTGDRRGLNTWLARLPMEAKEKDEWRYWQADLLLERGREAEAKEILHQLMQQRGFYPMVAAQRIGEEYELKIDKAPQNVDSALTQGPEMARVRELMYWNLDNTARSEWANLVKSKSKTEQAQLARYAFNNQWWDLSVQATIAGKLWDHLEERFPLAYNDLFKRYTSGKEIPQSYAMAIARQESAWNPKVKSPVGASGLMQIMPGTATHTVKMFSIPGYSSPGQLLDPETNINIGTSYLQYVYQQFGNNRIFSSAAYNAGPGRVRTWLGNSAGRIDAVAFVESIPFSETRGYVKNVLAYDAYYRYFMGDKPTLMSATEWGRRY"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P00711|LALBA_BOVIN",
+                  "accession": "P00711",
+                  "title": "Alpha-lactalbumin OS=Bos taurus OX=9913 GN=LALBA PE=1 SV=2"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 0.806278,
+                  "identity": 8,
+                  "positive": 15,
+                  "query_from": 327,
+                  "query_to": 348,
+                  "hit_from": 116,
+                  "hit_to": 137,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "DRRGLNTWLARLPMEAKEKDEW",
+                  "hseq": "DKVGINYWLAHKALCSEKLDQW",
+                  "midline": "D+ G+N WLA   + +++ D+W"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P00712|LALBA_CAPHI",
+                  "accession": "P00712",
+                  "title": "Alpha-lactalbumin OS=Capra hircus OX=9925 GN=LALBA PE=1 SV=1"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 0.806278,
+                  "identity": 8,
+                  "positive": 15,
+                  "query_from": 327,
+                  "query_to": 348,
+                  "hit_from": 116,
+                  "hit_to": 137,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "DRRGLNTWLARLPMEAKEKDEW",
+                  "hseq": "DKVGINYWLAHKALCSEKLDQW",
+                  "midline": "D+ G+N WLA   + +++ D+W"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P00713|LALBA_CAVPO",
+                  "accession": "P00713",
+                  "title": "Alpha-lactalbumin OS=Cavia porcellus OX=10141 GN=LALBA PE=1 SV=2"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 1.77683,
+                  "identity": 7,
+                  "positive": 15,
+                  "query_from": 327,
+                  "query_to": 348,
+                  "hit_from": 116,
+                  "hit_to": 137,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "DRRGLNTWLARLPMEAKEKDEW",
+                  "hseq": "DIKGIDYWLAHKPLCSDKLEQW",
+                  "midline": "D +G++ WLA  P+ + + ++W"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P0C6U8|R1A_SARS",
+                  "accession": "P0C6U8",
+                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                }
+              ],
+              "len": 4382,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 2.5254,
+                  "identity": 16,
+                  "positive": 27,
+                  "query_from": 564,
+                  "query_to": 623,
+                  "hit_from": 2063,
+                  "hit_to": 2127,
+                  "align_len": 65,
+                  "gaps": 5,
+                  "qseq": "VYQQFGNNRIFSSAAYNAG-----PGRVRTWLGNSAGRIDAVAFVESIPFSETRGYVKNVLAYDA",
+                  "hseq": "VTQELGHEDLMAAYVENTSITIKKPNELSLALGLKTIATHGIAAINSVPWSKILAYVKPFLGQAA",
+                  "midline": "V Q+ G+  + ++   N       P  +   LG        +A + S+P+S+   YVK  L   A"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P00718|LYG_ANSAN",
+                  "accession": "P00718",
+                  "title": "Lysozyme g OS=Anser anser anser OX=8844 PE=1 SV=1"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 5.37819,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 577,
+                  "query_to": 589,
+                  "hit_from": 145,
+                  "hit_to": 157,
+                  "align_len": 13,
+                  "gaps": 0,
+                  "qseq": "AAYNAGPGRVRTW",
+                  "hseq": "SAYNAGAGNVRSY",
+                  "midline": "+AYNAG G VR++"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P00717|LYG_CYGAT",
+                  "accession": "P00717",
+                  "title": "Lysozyme g OS=Cygnus atratus OX=8868 PE=1 SV=1"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 5.57309,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 577,
+                  "query_to": 589,
+                  "hit_from": 145,
+                  "hit_to": 157,
+                  "align_len": 13,
+                  "gaps": 0,
+                  "qseq": "AAYNAGPGRVRTW",
+                  "hseq": "SAYNAGAGNVRSY",
+                  "midline": "+AYNAG G VR++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 71,
+            "eff_space": 38964842,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

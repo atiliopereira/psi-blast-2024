@@ -1,0 +1,314 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|O75604|UBP2_HUMAN Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2",
+          "query_len": 605,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|O75604|UBP2_HUMAN",
+                  "accession": "O75604",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
+                }
+              ],
+              "len": 605,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1251.11,
+                  "score": 3236,
+                  "evalue": 0,
+                  "identity": 605,
+                  "positive": 605,
+                  "query_from": 1,
+                  "query_to": 605,
+                  "hit_from": 1,
+                  "hit_to": 605,
+                  "align_len": 605,
+                  "gaps": 0,
+                  "qseq": "MSQLSSTLKRYTESARYTDAHYAKSGYGAYTPSSYGANLAASLLEKEKLGFKPVPTSSFLTRPRTYGPSSLLDYDRGRPLLRPDITGGGKRAESQTRGTERPLGSGLSGGSGFPYGVTNNCLSYLPINAYDQGVTLTQKLDSQSDLARDFSSLRTSDSYRIDPRNLGRSPMLARTRKELCTLQGLYQTASCPEYLVDYLENYGRKGSASQVPSQAPPSRVPEIISPTYRPIGRYTLWETGKGQAPGPSRSSSPGRDGMNSKSAQGLAGLRNLGNTCFMNSILQCLSNTRELRDYCLQRLYMRDLHHGSNAHTALVEEFAKLIQTIWTSSPNDVVSPSEFKTQIQRYAPRFVGYNQQDAQEFLRFLLDGLHNEVNRVTLRPKSNPENLDHLPDDEKGRQMWRKYLEREDSRIGDLFVGQLKSSLTCTDCGYCSTVFDPFWDLSLPIAKRGYPEVTLMDCMRLFTKEDVLDGDEKPTCCRCRGRKRCIKKFSIQRFPKILVLHLKRFSESRIRTSKLTTFVNFPLRDLDLREFASENTNHAVYNLYAVSNHSGTTMGGHYTAYCRSPGTGEWHTFNDSSVTPMSSSQVRTSDAYLLFYELASPPSRM",
+                  "hseq": "MSQLSSTLKRYTESARYTDAHYAKSGYGAYTPSSYGANLAASLLEKEKLGFKPVPTSSFLTRPRTYGPSSLLDYDRGRPLLRPDITGGGKRAESQTRGTERPLGSGLSGGSGFPYGVTNNCLSYLPINAYDQGVTLTQKLDSQSDLARDFSSLRTSDSYRIDPRNLGRSPMLARTRKELCTLQGLYQTASCPEYLVDYLENYGRKGSASQVPSQAPPSRVPEIISPTYRPIGRYTLWETGKGQAPGPSRSSSPGRDGMNSKSAQGLAGLRNLGNTCFMNSILQCLSNTRELRDYCLQRLYMRDLHHGSNAHTALVEEFAKLIQTIWTSSPNDVVSPSEFKTQIQRYAPRFVGYNQQDAQEFLRFLLDGLHNEVNRVTLRPKSNPENLDHLPDDEKGRQMWRKYLEREDSRIGDLFVGQLKSSLTCTDCGYCSTVFDPFWDLSLPIAKRGYPEVTLMDCMRLFTKEDVLDGDEKPTCCRCRGRKRCIKKFSIQRFPKILVLHLKRFSESRIRTSKLTTFVNFPLRDLDLREFASENTNHAVYNLYAVSNHSGTTMGGHYTAYCRSPGTGEWHTFNDSSVTPMSSSQVRTSDAYLLFYELASPPSRM",
+                  "midline": "MSQLSSTLKRYTESARYTDAHYAKSGYGAYTPSSYGANLAASLLEKEKLGFKPVPTSSFLTRPRTYGPSSLLDYDRGRPLLRPDITGGGKRAESQTRGTERPLGSGLSGGSGFPYGVTNNCLSYLPINAYDQGVTLTQKLDSQSDLARDFSSLRTSDSYRIDPRNLGRSPMLARTRKELCTLQGLYQTASCPEYLVDYLENYGRKGSASQVPSQAPPSRVPEIISPTYRPIGRYTLWETGKGQAPGPSRSSSPGRDGMNSKSAQGLAGLRNLGNTCFMNSILQCLSNTRELRDYCLQRLYMRDLHHGSNAHTALVEEFAKLIQTIWTSSPNDVVSPSEFKTQIQRYAPRFVGYNQQDAQEFLRFLLDGLHNEVNRVTLRPKSNPENLDHLPDDEKGRQMWRKYLEREDSRIGDLFVGQLKSSLTCTDCGYCSTVFDPFWDLSLPIAKRGYPEVTLMDCMRLFTKEDVLDGDEKPTCCRCRGRKRCIKKFSIQRFPKILVLHLKRFSESRIRTSKLTTFVNFPLRDLDLREFASENTNHAVYNLYAVSNHSGTTMGGHYTAYCRSPGTGEWHTFNDSSVTPMSSSQVRTSDAYLLFYELASPPSRM"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P40818|UBP8_HUMAN",
+                  "accession": "P40818",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                }
+              ],
+              "len": 1118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.003,
+                  "score": 676,
+                  "evalue": 4.2984e-79,
+                  "identity": 144,
+                  "positive": 200,
+                  "query_from": 262,
+                  "query_to": 601,
+                  "hit_from": 772,
+                  "hit_to": 1111,
+                  "align_len": 343,
+                  "gaps": 6,
+                  "qseq": "SAQGLAGLRNLGNTCFMNSILQCLSNTRELRDYCLQRLYMRDLHHGS--NAHTALVEEFAKLIQTIWTSSPNDVVSPSEFKTQIQRYAPRFVGYNQQDAQEFLRFLLDGLHNEVNRVTLRPKSNPENLDHLPDDEKGRQMWRKYLEREDSRIGDLFVGQLKSSLTCTDCGYCSTVFDPFWDLSLPIAKRGYPEVTLMDCMRLFTKEDVLDGDEKPTCCRCRGRKRCIKKFSIQRFPKILVLHLKRFSESRIRTSKLTTFVNFPLRDLDLREFA-SENTNHAVYNLYAVSNHSGTTMGGHYTAYCRSPGTGEWHTFNDSSVTPMSSSQVRTSDAYLLFYELASP",
+                  "hseq": "SGPALTGLRNLGNTCYMNSILQCLCNAPHLADYFNRNCYQDDINRSNLLGHKGEVAEEFGIIMKALWTGQYR-YISPKDFKITIGKINDQFAGYSQQDSQELLLFLMDGLHEDLNKADNRKRYKEENNDHLDDFKAAEHAWQKHKQLNESIIVALFQGQFKSTVQCLTCHKKSRTFEAFMYLSLPLASTS--KCTLQDCLRLFSKEEKLTDNNRFYCSHCRARRDSLKKIEIWKLPPVLLVHLKRFSYDGRWKQKLQTSVDFPLENLDLSQYVIGPKNNLKKYNLFSVSNHYGGLDGGHYTAYCKNAARQRWFKFDDHEVSDISVSSVKSSAAYILFYTSLGP",
+                  "midline": "S   L GLRNLGNTC+MNSILQCL N   L DY  +  Y  D++  +       + EEF  +++ +WT      +SP +FK  I +   +F GY+QQD+QE L FL+DGLH ++N+   R +   EN DHL D +     W+K+ +  +S I  LF GQ KS++ C  C   S  F+ F  LSLP+A     + TL DC+RLF+KE+ L  + +  C  CR R+  +KK  I + P +L++HLKRFS       KL T V+FPL +LDL ++      N   YNL++VSNH G   GGHYTAYC++     W  F+D  V+ +S S V++S AY+LFY    P"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P43593|UBP6_YEAST",
+                  "accession": "P43593",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
+                }
+              ],
+              "len": 499,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 1.53037e-06,
+                  "identity": 31,
+                  "positive": 51,
+                  "query_from": 263,
+                  "query_to": 369,
+                  "hit_from": 105,
+                  "hit_to": 221,
+                  "align_len": 118,
+                  "gaps": 12,
+                  "qseq": "AQGLAGLRNLGNTCFMNSILQCLSNTRELRDYCLQRLYMRDLHHG----SNAHTALVEEFAKLIQTIWTSSPNDVVSPSEFKTQIQRYAPRFVG-------YNQQDAQEFLRFLLDGL",
+                  "hseq": "AQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVL-PIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLFHSM",
+                  "midline": "AQ   G +N+GNTC++N+ LQ L    +LRD  L     + + +        H  +V E  +  + +   S   V+ P      +++  P+F         Y QQDA+E    L   +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 38.5058,
+                  "score": 88,
+                  "evalue": 8.11618e-05,
+                  "identity": 17,
+                  "positive": 26,
+                  "query_from": 540,
+                  "query_to": 588,
+                  "hit_from": 429,
+                  "hit_to": 479,
+                  "align_len": 51,
+                  "gaps": 2,
+                  "qseq": "VYNLYAVSNHSGT-TMGGHYTAYCRSP-GTGEWHTFNDSSVTPMSSSQVRT",
+                  "hseq": "VYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIES",
+                  "midline": "VYNL  V  H G  +  GHY A+ R      +W+ FND  V+ +   ++ +"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P54578|UBP14_HUMAN",
+                  "accession": "P54578",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 14 OS=Homo sapiens OX=9606 GN=USP14 PE=1 SV=3"
+                }
+              ],
+              "len": 494,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 40.817,
+                  "score": 94,
+                  "evalue": 1.21114e-05,
+                  "identity": 15,
+                  "positive": 21,
+                  "query_from": 268,
+                  "query_to": 293,
+                  "hit_from": 106,
+                  "hit_to": 131,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "GLRNLGNTCFMNSILQCLSNTRELRD",
+                  "hseq": "GLTNLGNTCYMNATVQCIRSVPELKD",
+                  "midline": "GL NLGNTC+MN+ +QC+ +  EL+D"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 32.3426,
+                  "score": 72,
+                  "evalue": 0.00600965,
+                  "identity": 21,
+                  "positive": 34,
+                  "query_from": 535,
+                  "query_to": 596,
+                  "hit_from": 412,
+                  "hit_to": 480,
+                  "align_len": 70,
+                  "gaps": 9,
+                  "qseq": "NTNHAVYNLYAVSNHSG-TTMGGHYTAYCRSPGTGEWHTFNDSSVTPMSSSQV-RTSD------AYLLFY",
+                  "hseq": "SNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRK-QDEWIKFDDDKVSIVTPEDILRLSGGGDWHIAYVLLY",
+                  "midline": "+ N   Y+L AV  H G ++  GHY ++ +     EW  F+D  V+ ++   + R S       AY+L Y"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P16099|DHTM_METME",
+                  "accession": "P16099",
+                  "title": "Trimethylamine dehydrogenase OS=Methylophilus methylotrophus OX=17 GN=tmd PE=1 SV=3"
+                }
+              ],
+              "len": 730,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 2.16635,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 443,
+                  "query_to": 582,
+                  "hit_from": 308,
+                  "hit_to": 453,
+                  "align_len": 152,
+                  "gaps": 18,
+                  "qseq": "LPIAKRGYPEVTLMDCMRL-----FTKEDVLDG--DEKPTCCRCRGRKRCIKKFSIQRFPKILVLHLKRFSESRIRTSKLTTFVNFPLRDLDLREFASENTNHAVYNL----YAVS-NHSGTTMGGHYTAYCRSPGTGEWHTFNDSSVTPMS",
+                  "hseq": "IEIVTKGYADI--IGCARPSIADPFLPQKVEQGRYDDIRVCIGC---NVCISRWEIGGPPMICTQNATAGEEYR-RGWHPEKFRQTKNKDSVLIVGAGPSGSEAARVLMESGYTVHLTDTAEKIGGHLNQVAALPGLGEWSYHRDYRETQIT",
+                  "midline": "+ I  +GY ++  + C R      F  + V  G  D+   C  C     CI ++ I   P I   +     E R R      F     +D  L   A  + + A   L    Y V    +   +GGH       PG GEW    D   T ++"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P38935|SMBP2_HUMAN",
+                  "accession": "P38935",
+                  "title": "DNA-binding protein SMUBP-2 OS=Homo sapiens OX=9606 GN=IGHMBP2 PE=1 SV=3"
+                }
+              ],
+              "len": 993,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 3.40546,
+                  "identity": 31,
+                  "positive": 43,
+                  "query_from": 162,
+                  "query_to": 267,
+                  "hit_from": 613,
+                  "hit_to": 703,
+                  "align_len": 107,
+                  "gaps": 17,
+                  "qseq": "DPRNLGRSPMLARTRKELCTLQGLYQTASCPEYLVDYL-ENYGRKGSASQVPSQAPPSRVPEIISPTYRPIGRYTLWETGKGQAPGPSRSSSPGRDGMNSKSAQGLA",
+                  "hseq": "DSRTVNNHAFL-KTLVEYFTQHGEVRTAF--EYLDDIVPENYSHENS--QGSSHA-----------ATKPQGPATSTRTGSQRQEGGQEAAAPARQGRKKPAGKSLA",
+                  "midline": "D R +     L +T  E  T  G  +TA   EYL D + ENY  + S  Q  S A             +P G  T   TG  +  G   +++P R G    + + LA"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|Q8WWM9|CYGB_HUMAN",
+                  "accession": "Q8WWM9",
+                  "title": "Cytoglobin OS=Homo sapiens OX=9606 GN=CYGB PE=1 SV=1"
+                }
+              ],
+              "len": 190,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 8.35047,
+                  "identity": 11,
+                  "positive": 13,
+                  "query_from": 162,
+                  "query_to": 188,
+                  "hit_from": 68,
+                  "hit_to": 91,
+                  "align_len": 27,
+                  "gaps": 3,
+                  "qseq": "DPRNLGRSPMLARTRKELCTLQGLYQT",
+                  "hseq": "DPLEMERSPQL---RKHACRVMGALNT",
+                  "midline": "DP  + RSP L   RK  C + G   T"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "tr|A9CIQ1|A9CIQ1_AGRFC",
+                  "accession": "A9CIQ1",
+                  "title": "HTH cro/C1-type domain-containing protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu1735 PE=1 SV=1"
+                }
+              ],
+              "len": 95,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 9.37097,
+                  "identity": 7,
+                  "positive": 12,
+                  "query_from": 230,
+                  "query_to": 250,
+                  "hit_from": 54,
+                  "hit_to": 74,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "PIGRYTLWETGKGQAPGPSRS",
+                  "hseq": "PLGTLRDWEQGRSEPDQPARA",
+                  "midline": "P+G    WE G+ +   P+R+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 71,
+            "eff_space": 36249522,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

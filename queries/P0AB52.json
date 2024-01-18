@@ -1,0 +1,340 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P0AB52|YCHN_ECOLI Protein YchN OS=Escherichia coli (strain K12) OX=83333 GN=ychN PE=1 SV=1",
+          "query_len": 117,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P0AB52|YCHN_ECOLI",
+                  "accession": "P0AB52",
+                  "title": "Protein YchN OS=Escherichia coli (strain K12) OX=83333 GN=ychN PE=1 SV=1"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.424,
+                  "score": 607,
+                  "evalue": 1.80333e-85,
+                  "identity": 117,
+                  "positive": 117,
+                  "query_from": 1,
+                  "query_to": 117,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 117,
+                  "gaps": 0,
+                  "qseq": "MQKIVIVANGAPYGSESLFNSLRLAIALREQESNLDLRLFLMSDAVTAGLRGQKPGEGYNIQQMLEILTAQNVPVKLCKTCTDGRGISTLPLIDGVEIGTLVELAQWTLSADKVLTF",
+                  "hseq": "MQKIVIVANGAPYGSESLFNSLRLAIALREQESNLDLRLFLMSDAVTAGLRGQKPGEGYNIQQMLEILTAQNVPVKLCKTCTDGRGISTLPLIDGVEIGTLVELAQWTLSADKVLTF",
+                  "midline": "MQKIVIVANGAPYGSESLFNSLRLAIALREQESNLDLRLFLMSDAVTAGLRGQKPGEGYNIQQMLEILTAQNVPVKLCKTCTDGRGISTLPLIDGVEIGTLVELAQWTLSADKVLTF"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P03000|IF3_GEOSE",
+                  "accession": "P03000",
+                  "title": "Translation initiation factor IF-3 OS=Geobacillus stearothermophilus OX=1422 GN=infC PE=1 SV=2"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 0.534365,
+                  "identity": 22,
+                  "positive": 35,
+                  "query_from": 21,
+                  "query_to": 95,
+                  "hit_from": 87,
+                  "hit_to": 158,
+                  "align_len": 79,
+                  "gaps": 11,
+                  "qseq": "SLRLAIALREQESNLDLR---LFLMS-DAVTAGLRGQKPGEGYNIQQMLEILTAQNVPVKLCKTCTDGRGISTLPLIDG",
+                  "hseq": "EVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFK--GRAITHKEI-----GQRVLDRLSEACADIAVVETAPKMDG",
+                  "midline": " +RL+  + E + N  LR    FL   D V A +R +  G     +++      Q V  +L + C D   + T P +DG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q15796|SMAD2_HUMAN",
+                  "accession": "Q15796",
+                  "title": "Mothers against decapentaplegic homolog 2 OS=Homo sapiens OX=9606 GN=SMAD2 PE=1 SV=1"
+                }
+              ],
+              "len": 467,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 0.745165,
+                  "identity": 15,
+                  "positive": 27,
+                  "query_from": 61,
+                  "query_to": 112,
+                  "hit_from": 58,
+                  "hit_to": 112,
+                  "align_len": 55,
+                  "gaps": 3,
+                  "qseq": "IQQMLEILTAQNVPVK---LCKTCTDGRGISTLPLIDGVEIGTLVELAQWTLSAD",
+                  "hseq": "LDELEKAITTQNCNTKCVTIPSTCSEIWGLSTPNTIDQWDTTGLYSFSEQTRSLD",
+                  "midline": "+ ++ + +T QN   K   +  TC++  G+ST   ID  +   L   ++ T S D"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P07824|ARGI1_RAT",
+                  "accession": "P07824",
+                  "title": "Arginase-1 OS=Rattus norvegicus OX=10116 GN=Arg1 PE=1 SV=2"
+                }
+              ],
+              "len": 323,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 1.38583,
+                  "identity": 10,
+                  "positive": 12,
+                  "query_from": 44,
+                  "query_to": 64,
+                  "hit_from": 173,
+                  "hit_to": 193,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "DAVTAGLRGQKPGEGYNIQQM",
+                  "hseq": "DIVYIGLRDVDPGEHYIIKTL",
+                  "midline": "D V  GLR   PGE Y I+ +"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P08037|B4GT1_BOVIN",
+                  "accession": "P08037",
+                  "title": "Beta-1,4-galactosyltransferase 1 OS=Bos taurus OX=9913 GN=B4GALT1 PE=1 SV=3"
+                }
+              ],
+              "len": 402,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 1.73462,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 16,
+                  "query_to": 44,
+                  "hit_from": 223,
+                  "hit_to": 252,
+                  "align_len": 30,
+                  "gaps": 1,
+                  "qseq": "ESLFNSLRLA-IALREQESNLDLRLFLMSD",
+                  "hseq": "ESMFNRAKLLNVGFKEALKDYDYNCFVFSD",
+                  "midline": "ES+FN  +L  +  +E   + D   F+ SD"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "tr|Q97DM1|Q97DM1_CLOAB",
+                  "accession": "Q97DM1",
+                  "title": "Beta-xylosidase, family 43 glycosyl hydrolase OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=xynD PE=1 SV=1"
+                }
+              ],
+              "len": 533,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 4.23225,
+                  "identity": 15,
+                  "positive": 19,
+                  "query_from": 67,
+                  "query_to": 111,
+                  "hit_from": 6,
+                  "hit_to": 51,
+                  "align_len": 46,
+                  "gaps": 1,
+                  "qseq": "ILTAQNVPVKLCKTCTDGR-GISTLPLIDGVEIGTLVELAQWTLSA",
+                  "hseq": "ILRGFNPDPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVA",
+                  "midline": "IL   N    +C+  TD     ST     GV+I    +L  W L A"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P07327|ADH1A_HUMAN",
+                  "accession": "P07327",
+                  "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
+                }
+              ],
+              "len": 375,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 6.70137,
+                  "identity": 12,
+                  "positive": 17,
+                  "query_from": 73,
+                  "query_to": 103,
+                  "hit_from": 42,
+                  "hit_to": 75,
+                  "align_len": 34,
+                  "gaps": 3,
+                  "qseq": "VPVKLCKT---CTDGRGISTLPLIDGVEIGTLVE",
+                  "hseq": "VAVGICGTDDHVVSGTMVTPLPVILGHEAAGIVE",
+                  "midline": "V V +C T      G  ++ LP+I G E   +VE"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P0C6U8|R1A_SARS",
+                  "accession": "P0C6U8",
+                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                }
+              ],
+              "len": 4382,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 8.21537,
+                  "identity": 8,
+                  "positive": 16,
+                  "query_from": 28,
+                  "query_to": 55,
+                  "hit_from": 1109,
+                  "hit_to": 1136,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "LREQESNLDLRLFLMSDAVTAGLRGQKP",
+                  "hseq": "LKAAYENFNSQDILLAPLLSAGIFGAKP",
+                  "midline": "L+    N + +  L++  ++AG+ G KP"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P40818|UBP8_HUMAN",
+                  "accession": "P40818",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                }
+              ],
+              "len": 1118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 8.47247,
+                  "identity": 8,
+                  "positive": 20,
+                  "query_from": 30,
+                  "query_to": 72,
+                  "hit_from": 327,
+                  "hit_to": 369,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "EQESNLDLRLFLMSDAVTAGLRGQKPGEGYNIQQMLEILTAQN",
+                  "hseq": "EVSISLDFTYPSLEESIPSKPAAQTPPASIEVDENIELISGQN",
+                  "midline": "E   +LD     + +++ +    Q P     + + +E+++ QN"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|P07254|CHIA_SERMA",
+                  "accession": "P07254",
+                  "title": "Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3"
+                }
+              ],
+              "len": 563,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 9.94987,
+                  "identity": 13,
+                  "positive": 27,
+                  "query_from": 10,
+                  "query_to": 63,
+                  "hit_from": 327,
+                  "hit_to": 379,
+                  "align_len": 54,
+                  "gaps": 1,
+                  "qseq": "GAPYGSESLFNSLRLAIALREQESNLDLRLFLMSDAVTAGLRGQKPGEGYNIQQ",
+                  "hseq": "GSPQDGETYVLLMKELRAMLDQLSAETGRKYELTSAISAG-KDKIDKVAYNVAQ",
+                  "midline": "G+P   E+    ++   A+ +Q S    R + ++ A++AG + +     YN+ Q"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 56,
+            "eff_space": 4332098,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

@@ -1,0 +1,220 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "tr|Q82XT5|Q82XT5_NITEU Ferritin OS=Nitrosomonas europaea (strain ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC 14298) OX=228410 GN=NE0167 PE=1 SV=1",
+          "query_len": 95,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "tr|Q82XT5|Q82XT5_NITEU",
+                  "accession": "Q82XT5",
+                  "title": "Ferritin OS=Nitrosomonas europaea (strain ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC 14298) OX=228410 GN=NE0167 PE=1 SV=1"
+                }
+              ],
+              "len": 95,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 196.823,
+                  "score": 499,
+                  "evalue": 1.2673e-69,
+                  "identity": 95,
+                  "positive": 95,
+                  "query_from": 1,
+                  "query_to": 95,
+                  "hit_from": 1,
+                  "hit_to": 95,
+                  "align_len": 95,
+                  "gaps": 0,
+                  "qseq": "MANDGYFEPTQELSDETRDMHRAIISLREELEAVDLYNQRVNACKDKELKAILAHNRDEEKEHAAMLLEWIRRCDPAFDKELKDYLFTNKPIAHE",
+                  "hseq": "MANDGYFEPTQELSDETRDMHRAIISLREELEAVDLYNQRVNACKDKELKAILAHNRDEEKEHAAMLLEWIRRCDPAFDKELKDYLFTNKPIAHE",
+                  "midline": "MANDGYFEPTQELSDETRDMHRAIISLREELEAVDLYNQRVNACKDKELKAILAHNRDEEKEHAAMLLEWIRRCDPAFDKELKDYLFTNKPIAHE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P10688|PLCD1_RAT",
+                  "accession": "P10688",
+                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
+                }
+              ],
+              "len": 756,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 0.254047,
+                  "identity": 17,
+                  "positive": 30,
+                  "query_from": 10,
+                  "query_to": 77,
+                  "hit_from": 193,
+                  "hit_to": 261,
+                  "align_len": 69,
+                  "gaps": 1,
+                  "qseq": "TQELSDETRDMHRAIISLREELE-AVDLYNQRVNACKDKELKAILAHNRDEEKEHAAMLLEWIRRCDPA",
+                  "hseq": "TDSLEDEEIETFYKMLTQRAEIDRAFEEAAGSAETLSVERLVTFLQHQQREEEAGPALALSLIERYEPS",
+                  "midline": "T  L DE  +    +++ R E++ A +           + L   L H + EE+   A+ L  I R +P+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 1.69372,
+                  "identity": 8,
+                  "positive": 15,
+                  "query_from": 11,
+                  "query_to": 31,
+                  "hit_from": 8668,
+                  "hit_to": 8688,
+                  "align_len": 21,
+                  "gaps": 0,
+                  "qseq": "QELSDETRDMHRAIISLREEL",
+                  "hseq": "QQIVDEAKALNRAMDQLSEEI",
+                  "midline": "Q++ DE + ++RA+  L EE+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "tr|Q9HQM9|Q9HQM9_HALSA",
+                  "accession": "Q9HQM9",
+                  "title": "UPF0058 family protein OS=Halobacterium salinarum (strain ATCC 700922 / JCM 11081 / NRC-1) OX=64091 GN=VNG_1086C PE=1 SV=1"
+                }
+              ],
+              "len": 92,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 5.72904,
+                  "identity": 11,
+                  "positive": 28,
+                  "query_from": 15,
+                  "query_to": 68,
+                  "hit_from": 4,
+                  "hit_to": 58,
+                  "align_len": 55,
+                  "gaps": 1,
+                  "qseq": "DETRDMHRAIISLREELEAVDLYNQRVNACKDK-ELKAILAHNRDEEKEHAAMLL",
+                  "hseq": "DELLELHEQMVNIKDQFLGFDHVDETAFAAYEELDVEPSHVHKSKSEHKHAVFLL",
+                  "midline": "DE  ++H  +++++++    D  ++   A  ++ +++    H    E +HA  LL"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P0A707|IF3_ECOLI",
+                  "accession": "P0A707",
+                  "title": "Translation initiation factor IF-3 OS=Escherichia coli (strain K12) OX=83333 GN=infC PE=1 SV=1"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 5.84409,
+                  "identity": 12,
+                  "positive": 13,
+                  "query_from": 23,
+                  "query_to": 43,
+                  "hit_from": 35,
+                  "hit_to": 60,
+                  "align_len": 26,
+                  "gaps": 5,
+                  "qseq": "AIISLREELE-----AVDLYNQRVNA",
+                  "hseq": "GIVSLREALEKAEEAGVDLVEISPNA",
+                  "midline": " I+SLRE LE      VDL     NA"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P38935|SMBP2_HUMAN",
+                  "accession": "P38935",
+                  "title": "DNA-binding protein SMUBP-2 OS=Homo sapiens OX=9606 GN=IGHMBP2 PE=1 SV=3"
+                }
+              ],
+              "len": 993,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 5.99753,
+                  "identity": 14,
+                  "positive": 29,
+                  "query_from": 19,
+                  "query_to": 67,
+                  "hit_from": 288,
+                  "hit_to": 339,
+                  "align_len": 54,
+                  "gaps": 7,
+                  "qseq": "DMHRAIISLREELEAVDLYNQRVNACKDK-----ELKAILAHNRDEEKEHAAML",
+                  "hseq": "DSAQIVADIRKDIDQVFVKNKKTQDKREKSNFRNEIK--LLRKELKEREEAAML",
+                  "midline": "D  + +  +R++++ V + N++    ++K     E+K  L     +E+E AAML"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 53,
+            "eff_space": 3009090,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

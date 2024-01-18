@@ -1,0 +1,190 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P05798|RNSA_KITAU Guanyl-specific ribonuclease Sa OS=Kitasatospora aureofaciens OX=1894 GN=rnaSA PE=1 SV=2",
+          "query_len": 96,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P05798|RNSA_KITAU",
+                  "accession": "P05798",
+                  "title": "Guanyl-specific ribonuclease Sa OS=Kitasatospora aureofaciens OX=1894 GN=rnaSA PE=1 SV=2"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 197.208,
+                  "score": 500,
+                  "evalue": 8.0481e-70,
+                  "identity": 96,
+                  "positive": 96,
+                  "query_from": 1,
+                  "query_to": 96,
+                  "hit_from": 1,
+                  "hit_to": 96,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "DVSGTVCLSALPPEATDTLNLIASDGPFPYSQDGVVFQNRESVLPTQSYGYYHEYTVITPGARTRGTRRIITGEATQEDYYTGDHYATFSLIDQTC",
+                  "hseq": "DVSGTVCLSALPPEATDTLNLIASDGPFPYSQDGVVFQNRESVLPTQSYGYYHEYTVITPGARTRGTRRIITGEATQEDYYTGDHYATFSLIDQTC",
+                  "midline": "DVSGTVCLSALPPEATDTLNLIASDGPFPYSQDGVVFQNRESVLPTQSYGYYHEYTVITPGARTRGTRRIITGEATQEDYYTGDHYATFSLIDQTC"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "tr|Q53752|Q53752_KITAU",
+                  "accession": "Q53752",
+                  "title": "Ribonuclease OS=Kitasatospora aureofaciens OX=1894 GN=ribonuclease PE=1 SV=1"
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 6.18109e-38,
+                  "identity": 54,
+                  "positive": 69,
+                  "query_from": 6,
+                  "query_to": 96,
+                  "hit_from": 74,
+                  "hit_to": 163,
+                  "align_len": 91,
+                  "gaps": 1,
+                  "qseq": "VCLSALPPEATDTLNLIASDGPFPYSQDGVVFQNRESVLPTQSYGYYHEYTVITPGARTRGTRRIITGEATQEDYYTGDHYATFSLIDQTC",
+                  "hseq": "VCRTKLPSQAQDTLALIAKNGPYPYNRDGVVFENRESRLPKKGNGYYHEFTVVTPGSNDRGTRRVVTG-GYGEQYWSPDHYATFQEIDPRC",
+                  "midline": "VC + LP +A DTL LIA +GP+PY++DGVVF+NRES LP +  GYYHE+TV+TPG+  RGTRR++TG    E Y++ DHYATF  ID  C"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P00649|RN_BACIN",
+                  "accession": "P00649",
+                  "title": "Ribonuclease OS=Bacillus intermedius OX=1400 PE=1 SV=3"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 0.00195928,
+                  "identity": 25,
+                  "positive": 33,
+                  "query_from": 19,
+                  "query_to": 92,
+                  "hit_from": 85,
+                  "hit_to": 161,
+                  "align_len": 79,
+                  "gaps": 7,
+                  "qseq": "LNLIASDGPFP-----YSQDGVVFQNRESVLPTQSYGYYHEYTVITPGARTRGTRRIITGEATQEDYYTGDHYATFSLI",
+                  "hseq": "LGWVASKGNLAEVAPGKSIGGDVFSNREGRLPSASGRTWREADINYVSGFRNADRLVYSSDWLI--YKTTDHYATFTRI",
+                  "midline": "L  +AS G         S  G VF NRE  LP+ S   + E  +          R + + +     Y T DHYATF+ I"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 6.66272,
+                  "identity": 8,
+                  "positive": 15,
+                  "query_from": 24,
+                  "query_to": 50,
+                  "hit_from": 1372,
+                  "hit_to": 1398,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "SDGPFPYSQDGVVFQNRESVLPTQSYG",
+                  "hseq": "TDGQRQFTLNGQVIQVLDIINPSNGYG",
+                  "midline": "+DG   ++ +G V Q  + + P+  YG"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q93HT9|IABN_GEOTD",
+                  "accession": "Q93HT9",
+                  "title": "Intracellular endo-alpha-(1->5)-L-arabinanase OS=Geobacillus thermodenitrificans OX=33940 GN=abn-ts PE=1 SV=1"
+                }
+              ],
+              "len": 313,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.4754,
+                  "score": 36,
+                  "evalue": 9.85157,
+                  "identity": 7,
+                  "positive": 11,
+                  "query_from": 31,
+                  "query_to": 46,
+                  "hit_from": 51,
+                  "hit_to": 66,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "SQDGVVFQNRESVLPT",
+                  "hseq": "SEDGVHWENMGRVFPS",
+                  "midline": "S+DGV ++N   V P+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 53,
+            "eff_space": 3080735,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

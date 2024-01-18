@@ -1,0 +1,357 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P0A6Z1|HSCA_ECOLI Chaperone protein HscA OS=Escherichia coli (strain K12) OX=83333 GN=hscA PE=1 SV=1",
+          "query_len": 616,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P0A6Z1|HSCA_ECOLI",
+                  "accession": "P0A6Z1",
+                  "title": "Chaperone protein HscA OS=Escherichia coli (strain K12) OX=83333 GN=hscA PE=1 SV=1"
+                }
+              ],
+              "len": 616,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1231.47,
+                  "score": 3185,
+                  "evalue": 0,
+                  "identity": 616,
+                  "positive": 616,
+                  "query_from": 1,
+                  "query_to": 616,
+                  "hit_from": 1,
+                  "hit_to": 616,
+                  "align_len": 616,
+                  "gaps": 0,
+                  "qseq": "MALLQISEPGLSAAPHQRRLAAGIDLGTTNSLVATVRSGQAETLADHEGRHLLPSVVHYQQQGHSVGYDARTNAALDTANTISSVKRLMGRSLADIQQRYPHLPYQFQASENGLPMIETAAGLLNPVRVSADILKALAARATEALAGELDGVVITVPAYFDDAQRQGTKDAARLAGLHVLRLLNEPTAAAIAYGLDSGQEGVIAVYDLGGGTFDISILRLSRGVFEVLATGGDSALGGDDFDHLLADYIREQAGIPDRSDNRVQRELLDAAIAAKIALSDADSVTVNVAGWQGEISREQFNELIAPLVKRTLLACRRALKDAGVEADEVLEVVMVGGSTRVPLVRERVGEFFGRPPLTSIDPDKVVAIGAAIQADILVGNKPDSEMLLLDVIPLSLGLETMGGLVEKVIPRNTTIPVARAQDFTTFKDGQTAMSIHVMQGERELVQDCRSLARFALRGIPALPAGGAHIRVTFQVDADGLLSVTAMEKSTGVEASIQVKPSYGLTDSEIASMIKDSMSYAEQDVKARMLAEQKVEAARVLESLHGALAADAALLSAAERQVIDDAAAHLSEVAQGDDVDAIEQAIKNVDKQTQDFAARRMDQSVRRALKGHSVDEV",
+                  "hseq": "MALLQISEPGLSAAPHQRRLAAGIDLGTTNSLVATVRSGQAETLADHEGRHLLPSVVHYQQQGHSVGYDARTNAALDTANTISSVKRLMGRSLADIQQRYPHLPYQFQASENGLPMIETAAGLLNPVRVSADILKALAARATEALAGELDGVVITVPAYFDDAQRQGTKDAARLAGLHVLRLLNEPTAAAIAYGLDSGQEGVIAVYDLGGGTFDISILRLSRGVFEVLATGGDSALGGDDFDHLLADYIREQAGIPDRSDNRVQRELLDAAIAAKIALSDADSVTVNVAGWQGEISREQFNELIAPLVKRTLLACRRALKDAGVEADEVLEVVMVGGSTRVPLVRERVGEFFGRPPLTSIDPDKVVAIGAAIQADILVGNKPDSEMLLLDVIPLSLGLETMGGLVEKVIPRNTTIPVARAQDFTTFKDGQTAMSIHVMQGERELVQDCRSLARFALRGIPALPAGGAHIRVTFQVDADGLLSVTAMEKSTGVEASIQVKPSYGLTDSEIASMIKDSMSYAEQDVKARMLAEQKVEAARVLESLHGALAADAALLSAAERQVIDDAAAHLSEVAQGDDVDAIEQAIKNVDKQTQDFAARRMDQSVRRALKGHSVDEV",
+                  "midline": "MALLQISEPGLSAAPHQRRLAAGIDLGTTNSLVATVRSGQAETLADHEGRHLLPSVVHYQQQGHSVGYDARTNAALDTANTISSVKRLMGRSLADIQQRYPHLPYQFQASENGLPMIETAAGLLNPVRVSADILKALAARATEALAGELDGVVITVPAYFDDAQRQGTKDAARLAGLHVLRLLNEPTAAAIAYGLDSGQEGVIAVYDLGGGTFDISILRLSRGVFEVLATGGDSALGGDDFDHLLADYIREQAGIPDRSDNRVQRELLDAAIAAKIALSDADSVTVNVAGWQGEISREQFNELIAPLVKRTLLACRRALKDAGVEADEVLEVVMVGGSTRVPLVRERVGEFFGRPPLTSIDPDKVVAIGAAIQADILVGNKPDSEMLLLDVIPLSLGLETMGGLVEKVIPRNTTIPVARAQDFTTFKDGQTAMSIHVMQGERELVQDCRSLARFALRGIPALPAGGAHIRVTFQVDADGLLSVTAMEKSTGVEASIQVKPSYGLTDSEIASMIKDSMSYAEQDVKARMLAEQKVEAARVLESLHGALAADAALLSAAERQVIDDAAAHLSEVAQGDDVDAIEQAIKNVDKQTQDFAARRMDQSVRRALKGHSVDEV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P0A6Y8|DNAK_ECOLI",
+                  "accession": "P0A6Y8",
+                  "title": "Chaperone protein DnaK OS=Escherichia coli (strain K12) OX=83333 GN=dnaK PE=1 SV=2"
+                }
+              ],
+              "len": 638,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 436.802,
+                  "score": 1122,
+                  "evalue": 3.50644e-148,
+                  "identity": 249,
+                  "positive": 362,
+                  "query_from": 23,
+                  "query_to": 593,
+                  "hit_from": 6,
+                  "hit_to": 596,
+                  "align_len": 593,
+                  "gaps": 24,
+                  "qseq": "GIDLGTTNSLVATVRSGQAETLADHEGRHLLPSVVHYQQQGHS-VGYDARTNAALDTANTISSVKRLMGRSLAD--IQQRYPHLPYQFQASENGLPMIETAAGLLNPVRVSADILKALAARATEALAGELDGVVITVPAYFDDAQRQGTKDAARLAGLHVLRLLNEPTAAAIAYGLDSGQEG-VIAVYDLGGGTFDISILRLSR----GVFEVLATGGDSALGGDDFDHLLADYIREQ----AGIPDRSDNRVQRELLDAAIAAKIALSDADSVTVNV----AGWQG------EISREQFNELIAPLVKRTLLACRRALKDAGVEADEVLEVVMVGGSTRVPLVRERVGEFFGRPPLTSIDPDKVVAIGAAIQADILVGNKPDSEMLLLDVIPLSLGLETMGGLVEKVIPRNTTIPVARAQDFTTFKDGQTAMSIHVMQGERELVQDCRSLARFALRGIPALPAGGAHIRVTFQVDADGLLSVTAMEKSTGVEASIQVKPSYGLTDSEIASMIKDSMSYAEQDVKARMLAEQKVEAARVLESLHGALAADAALLSAAERQVIDDAAAHLSEVAQGDDVDAIEQAIKNVDKQTQ",
+                  "hseq": "GIDLGTTNSCVAIMDGTTPRVLENAEGDRTTPSIIAYTQDGETLVGQPAKRQAVTNPQNTLFAIKRLIGRRFQDEEVQRDVSIMPFKIIAADNGDAWVEVKGQKMAPPQISAEVLKKMKKTAEDYLGEPVTEAVITVPAYFNDAQRQATKDAGRIAGLEVKRIINEPTAAALAYGLDKGTGNRTIAVYDLGGGTFDISIIEIDEVDGEKTFEVLATNGDTHLGGEDFDSRLINYLVEEFKKDQGIDLRNDPLAMQRLKEAAEKAKIELSSAQQTDVNLPYITADATGPKHMNIKVTRAKLESLVEDLVNRSIEPLKVALQDAGLSVSDIDDVILVGGQTRMPMVQKKVAEFFGKEPRKDVNPDEAVAIGAAVQGGVLTGDVKD--VLLLDVTPLSLGIETMGGVMTTLIAKNTTIPTKHSQVFSTAEDNQSAVTIHVLQGERKRAADNKSLGQFNLDGINPAPRGMPQIEVTFDIDADGILHVSAKDKNSGKEQKITIKASSGLNEDEIQKMVRDAEANAEADRKFEELVQTRNQGDHLLHSTRKQVEEAGDKLPADDKTAIESALTALETALKGEDKAAIEAKMQELAQVSQ",
+                  "midline": "GIDLGTTNS VA +       L + EG    PS++ Y Q G + VG  A+  A  +  NT+ ++KRL+GR   D  +Q+    +P++  A++NG   +E     + P ++SA++LK +   A + L   +   VITVPAYF+DAQRQ TKDA R+AGL V R++NEPTAAA+AYGLD G     IAVYDLGGGTFDISI+ +        FEVLAT GD+ LGG+DFD  L +Y+ E+     GI  R+D    + L +AA  AKI LS A    VN+    A   G      +++R +   L+  LV R++   + AL+DAG+   ++ +V++VGG TR+P+V+++V EFFG+ P   ++PD+ VAIGAA+Q  +L G+  D  +LLLDV PLSLG+ETMGG++  +I +NTTIP   +Q F+T +D Q+A++IHV+QGER+   D +SL +F L GI   P G   I VTF +DADG+L V+A +K++G E  I +K S GL + EI  M++D+ + AE D K   L + + +   +L S    +      L A ++  I+ A   L    +G+D  AIE  ++ + + +Q"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P63018|HSP7C_RAT",
+                  "accession": "P63018",
+                  "title": "Heat shock cognate 71 kDa protein OS=Rattus norvegicus OX=10116 GN=Hspa8 PE=1 SV=1"
+                }
+              ],
+              "len": 646,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 383.645,
+                  "score": 984,
+                  "evalue": 2.36401e-127,
+                  "identity": 224,
+                  "positive": 328,
+                  "query_from": 21,
+                  "query_to": 549,
+                  "hit_from": 6,
+                  "hit_to": 551,
+                  "align_len": 553,
+                  "gaps": 31,
+                  "qseq": "AAGIDLGTTNSLVATVRSGQAETLADHEGRHLLPSVVHYQQQGHSVGYDARTNAALDTANTISSVKRLMGRSLAD--IQQRYPHLPYQFQASENGLPMIETA----AGLLNPVRVSADILKALAARATEALAGELDGVVITVPAYFDDAQRQGTKDAARLAGLHVLRLLNEPTAAAIAYGLDS--GQEGVIAVYDLGGGTFDISILRLSRGVFEVLATGGDSALGGDDFD-----HLLADYIREQAGIPDRSDN-RVQRELLDAAIAAKIALSDADSVTVNVAG-WQG-----EISREQFNELIAPLVKRTLLACRRALKDAGVEADEVLEVVMVGGSTRVPLVRERVGEFF-GRPPLTSIDPDKVVAIGAAIQADILVGNKPDS--EMLLLDVIPLSLGLETMGGLVEKVIPRNTTIPVARAQDFTTFKDGQTAMSIHVMQGERELVQDCRSLARFALRGIPALPAGGAHIRVTFQVDADGLLSVTAMEKSTGVEASIQVKPSYG-LTDSEIASMIKDSMSYAEQDVKARMLAEQKVEAARVLESLHGALAA",
+                  "hseq": "AVGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQVAMNPTNTVFDAKRLIGRRFDDAVVQSDMKHWPFMV-VNDAGRPKVQVEYKGETKSFYPEEVSSMVLTKMKEIAEAYLGKTVTNAVVTVPAYFNDSQRQATKDAGTIAGLNVLRIINEPTAAAIAYGLDKKVGAERNVLIFDLGGGTFDVSILTIEDGIFEVKSTAGDTHLGGEDFDNRMVNHFIAEFKRKHK--KDISENKRAVRRLRTACERAKRTLSSSTQASIEIDSLYEGIDFYTSITRARFEELNADLFRGTLDPVEKALRDAKLDKSQIHDIVLVGGSTRIPKIQKLLQDFFNGKELNKSINPDEAVAYGAAVQAAILSGDKSENVQDLLLLDVTPLSLGIETAGGVMTVLIKRNTTIPTKQTQTFTTYSDNQPGVLIQVYEGERAMTKDNNLLGKFELTGIPPAPRGVPQIEVTFDIDANGILNVSAVDKSTGKENKITITNDKGRLSKEDIERMVQEAEKYKAEDEKQR----DKVSSKNSLESYAFNMKA",
+                  "midline": "A GIDLGTT S V   + G+ E +A+ +G    PS V +      +G  A+   A++  NT+   KRL+GR   D  +Q    H P+    ++ G P ++           P  VS+ +L  +   A   L   +   V+TVPAYF+D+QRQ TKDA  +AGL+VLR++NEPTAAAIAYGLD   G E  + ++DLGGGTFD+SIL +  G+FEV +T GD+ LGG+DFD     H +A++ R+     D S+N R  R L  A   AK  LS +   ++ +   ++G      I+R +F EL A L + TL    +AL+DA ++  ++ ++V+VGGSTR+P +++ + +FF G+    SI+PD+ VA GAA+QA IL G+K ++  ++LLLDV PLSLG+ET GG++  +I RNTTIP  + Q FTT+ D Q  + I V +GER + +D   L +F L GIP  P G   I VTF +DA+G+L+V+A++KSTG E  I +    G L+  +I  M++++  Y  +D K R     KV +   LES    + A"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P19120|HSP7C_BOVIN",
+                  "accession": "P19120",
+                  "title": "Heat shock cognate 71 kDa protein OS=Bos taurus OX=9913 GN=HSPA8 PE=1 SV=2"
+                }
+              ],
+              "len": 650,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 383.259,
+                  "score": 983,
+                  "evalue": 3.24662e-127,
+                  "identity": 224,
+                  "positive": 328,
+                  "query_from": 21,
+                  "query_to": 549,
+                  "hit_from": 6,
+                  "hit_to": 551,
+                  "align_len": 553,
+                  "gaps": 31,
+                  "qseq": "AAGIDLGTTNSLVATVRSGQAETLADHEGRHLLPSVVHYQQQGHSVGYDARTNAALDTANTISSVKRLMGRSLAD--IQQRYPHLPYQFQASENGLPMIETA----AGLLNPVRVSADILKALAARATEALAGELDGVVITVPAYFDDAQRQGTKDAARLAGLHVLRLLNEPTAAAIAYGLDS--GQEGVIAVYDLGGGTFDISILRLSRGVFEVLATGGDSALGGDDFD-----HLLADYIREQAGIPDRSDN-RVQRELLDAAIAAKIALSDADSVTVNVAG-WQG-----EISREQFNELIAPLVKRTLLACRRALKDAGVEADEVLEVVMVGGSTRVPLVRERVGEFF-GRPPLTSIDPDKVVAIGAAIQADILVGNKPDS--EMLLLDVIPLSLGLETMGGLVEKVIPRNTTIPVARAQDFTTFKDGQTAMSIHVMQGERELVQDCRSLARFALRGIPALPAGGAHIRVTFQVDADGLLSVTAMEKSTGVEASIQVKPSYG-LTDSEIASMIKDSMSYAEQDVKARMLAEQKVEAARVLESLHGALAA",
+                  "hseq": "AVGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQVAMNPTNTVFDAKRLIGRRFDDAVVQSDMKHWPFMV-VNDAGRPKVQVEYKGETKSFYPEEVSSMVLTKMKEIAEAYLGKTVTNAVVTVPAYFNDSQRQATKDAGTIAGLNVLRIINEPTAAAIAYGLDKKVGAERNVLIFDLGGGTFDVSILTIEDGIFEVKSTAGDTHLGGEDFDNRMVNHFIAEFKRKHK--KDISENKRAVRRLRTACERAKRTLSSSTQASIEIDSLYEGIDFYTSITRARFEELNADLFRGTLDPVEKALRDAKLDKSQIHDIVLVGGSTRIPKIQKLLQDFFNGKELNKSINPDEAVAYGAAVQAAILSGDKSENVQDLLLLDVTPLSLGIETAGGVMTVLIKRNTTIPTKQTQTFTTYSDNQPGVLIQVYEGERAMTKDNNLLGKFELTGIPPAPRGVPQIEVTFDIDANGILNVSAVDKSTGKENKITITNDKGRLSKEDIERMVQEAEKYKAEDEKQR----DKVSSKNSLESYAFNMKA",
+                  "midline": "A GIDLGTT S V   + G+ E +A+ +G    PS V +      +G  A+   A++  NT+   KRL+GR   D  +Q    H P+    ++ G P ++           P  VS+ +L  +   A   L   +   V+TVPAYF+D+QRQ TKDA  +AGL+VLR++NEPTAAAIAYGLD   G E  + ++DLGGGTFD+SIL +  G+FEV +T GD+ LGG+DFD     H +A++ R+     D S+N R  R L  A   AK  LS +   ++ +   ++G      I+R +F EL A L + TL    +AL+DA ++  ++ ++V+VGGSTR+P +++ + +FF G+    SI+PD+ VA GAA+QA IL G+K ++  ++LLLDV PLSLG+ET GG++  +I RNTTIP  + Q FTT+ D Q  + I V +GER + +D   L +F L GIP  P G   I VTF +DA+G+L+V+A++KSTG E  I +    G L+  +I  M++++  Y  +D K R     KV +   LES    + A"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P32589|HSP7F_YEAST",
+                  "accession": "P32589",
+                  "title": "Heat shock protein homolog SSE1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSE1 PE=1 SV=4"
+                }
+              ],
+              "len": 693,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 157.532,
+                  "score": 397,
+                  "evalue": 7.69546e-43,
+                  "identity": 124,
+                  "positive": 226,
+                  "query_from": 23,
+                  "query_to": 483,
+                  "hit_from": 6,
+                  "hit_to": 492,
+                  "align_len": 491,
+                  "gaps": 34,
+                  "qseq": "GIDLGTTNSLVATVRSGQAETLADHEGRHLLPSVVHYQQQGHSVGYDARTNAALDTANTISSVKRLMGRSL--ADIQQRYPHLPYQFQASENGLPMIET-AAG---LLNPVRVSADILKALAARATEALAGELDGVVITVPAYFDDAQRQGTKDAARLAGLHVLRLLNEPTAAAIAYG-----LDSGQEG--VIAVYDLGGGTFDISILRLSRGVFEVLATGGDSALGGDDFD----HLLADYIREQAGIPDRSDNRVQRELLDAAIAAKIALSDADSVTVNVAGWQGEI------SREQFNELIAPLVKRTLLACRRALKDAGVEADEVLEVVMVGGSTRVPLVRERVGEFFGRPPLTSIDPDKVVAIGAAIQADILVGNKPDSEMLLLDVIPLSLGLETMGGLVE-----KVIPRNTTIPVARAQDFTTFKDGQTAMSIHVMQGERELVQDCRSLARFALRGIPALPAG--GAHIRVTFQVDADGLLSV",
+                  "hseq": "GLDLGNNNSVLAVARNRGIDIVVNEVSNRSTPSVVGFGPKNRYLGETGKNKQTSNIKNTVANLKRIIGLDYHHPDFEQESKHFTSKLVELDDKKTGAEVRFAGEKHVFSATQLAAMFIDKVKDTVKQDTKANITDVCIAVPPWYTEEQRYNIADAARIAGLNPVRIVNDVTAAGVSYGIFKTDLPEGEEKPRIVAFVDIGHSSYTCSIMAFKKGQLKVLGTACDKHFGGRDFDLAITEHFADEFKTKYKIDIRENPKAYNRILTAAEKLKKVLSANTNAPFSVESVMNDVDVSSQLSREELEELVKPLLERVTEPVTKALAQAKLSAEEVDFVEIIGGTTRIPTLKQSISEAFGKPLSTTLNQDEAIAKGAAFICAIHSPTLRVRPFKFEDIHPYSVSY-SWDKQVEDEDHMEVFPAGSSFPSTKL--ITLNRTGDFSMAASYTDITQLPPNTPEQIANWEITGV-QLPEGQDSVPVKLKLRCDPSGLHTI",
+                  "midline": "G+DLG  NS++A  R+   + + +       PSVV +  +   +G   +     +  NT++++KR++G      D +Q   H   +    ++     E   AG   + +  +++A  +  +     +     +  V I VP ++ + QR    DAAR+AGL+ +R++N+ TAA ++YG     L  G+E   ++A  D+G  ++  SI+   +G  +VL T  D   GG DFD       AD  + +  I  R + +    +L AA   K  LS   +   +V     ++      SRE+  EL+ PL++R      +AL  A + A+EV  V ++GG+TR+P +++ + E FG+P  T+++ D+ +A GAA    I             D+ P S+   +    VE     +V P  ++ P  +    T  + G  +M+       +        +A + + G+  LP G     +++  + D  GL ++"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P16009|NEEDL_BPT4",
+                  "accession": "P16009",
+                  "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
+                }
+              ],
+              "len": 575,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 0.0902839,
+                  "identity": 38,
+                  "positive": 61,
+                  "query_from": 23,
+                  "query_to": 148,
+                  "hit_from": 94,
+                  "hit_to": 232,
+                  "align_len": 142,
+                  "gaps": 19,
+                  "qseq": "GIDLGTTNSLVATVRSGQAETLADHEGRH--LLPSVVHYQQQGHSVGYDARTN----AALDTANTISSVKRLMGR---------SLADIQQRYPHLPYQFQASENGLPMIETAAGLLN-PVRVSADILKALAARATEALAGE",
+                  "hseq": "GIVLGTYGGIVRE-KPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTA--INPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGN",
+                  "midline": "GI LGT   +V   +  + E  +D  G++   L +  +   QG  VGYD+ +N    + LDTA  I+   R +           S+A++ +R   L  +      G P I     ++  PVR  A I K L+ +    + G "
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.409,
+                  "score": 54,
+                  "evalue": 0.95399,
+                  "identity": 30,
+                  "positive": 42,
+                  "query_from": 95,
+                  "query_to": 199,
+                  "hit_from": 7199,
+                  "hit_to": 7281,
+                  "align_len": 107,
+                  "gaps": 26,
+                  "qseq": "DIQQRYPHLPYQFQASENGLPMIETAAGLLNPVRVSADILKALAA--RATEALAGELDGVVITVPAYFDDAQRQGTKDAARLAGLHVLRLLNEPTAAAIAYGLDSGQ",
+                  "hseq": "DKQQAYNNAANQAQQIANGTPT---------PVLAPDTVTQAVTTMNQAKDALNG-------------DEKLAQAKQDA--LANLDTLRDLNQPQRDALRNQINQAQ",
+                  "midline": "D QQ Y +   Q Q   NG P          PV     + +A+    +A +AL G             D+   Q  +DA  LA L  LR LN+P   A+   ++  Q"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 3.72373,
+                  "identity": 28,
+                  "positive": 45,
+                  "query_from": 505,
+                  "query_to": 594,
+                  "hit_from": 8100,
+                  "hit_to": 8190,
+                  "align_len": 93,
+                  "gaps": 5,
+                  "qseq": "TDSEIASMIKDSMSYAEQDVKARMLAEQKV--EAARVLESLHGALAADAALLSAAERQVIDDAAAHLSEVAQG-DDVDAIEQAIKNVDKQTQD",
+                  "hseq": "TDPTLAKSIIDQATQAVTDAKNNLHGDQKLAQDKQRATETLNNLSNLNTPQRQALENQ-INNAATRV-EVAQKLTEAQALNQAMEALRNSIQD",
+                  "midline": "TD  +A  I D  + A  D K  +  +QK+  +  R  E+L+     +     A E Q I++AA  + EVAQ   +  A+ QA++ +    QD"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P05618|CDGT_BACS0",
+                  "accession": "P05618",
+                  "title": "Cyclomaltodextrin glucanotransferase OS=Bacillus sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1"
+                }
+              ],
+              "len": 713,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.0238,
+                  "score": 53,
+                  "evalue": 1.23381,
+                  "identity": 17,
+                  "positive": 28,
+                  "query_from": 399,
+                  "query_to": 465,
+                  "hit_from": 325,
+                  "hit_to": 388,
+                  "align_len": 67,
+                  "gaps": 3,
+                  "qseq": "ETMGGLVEKVIPRNTTIPVARAQDFTTFKDGQTAMSIHVMQGERELVQDCRSLARFALRGIPALPAG",
+                  "hseq": "DNMYGL--KAMLEGSEVDYAQVNDQVTFIDNHDMERFHTSNGDRRKLEQALAFT-LTSRGVPAIYYG",
+                  "midline": "+ M GL  K +   + +  A+  D  TF D       H   G+R  ++   +      RG+PA+  G"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P26222|GUN2_THEFU",
+                  "accession": "P26222",
+                  "title": "Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2"
+                }
+              ],
+              "len": 441,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 2.28773,
+                  "identity": 17,
+                  "positive": 39,
+                  "query_from": 494,
+                  "query_to": 566,
+                  "hit_from": 134,
+                  "hit_to": 212,
+                  "align_len": 79,
+                  "gaps": 6,
+                  "qseq": "ASIQVKPSYGLTDSEIASMIKDSMSYAEQDVKARMLAEQKV-----EAARV-LESLHGALAADAALLSAAERQVIDDAA",
+                  "hseq": "AGLKNRPAYIIVEPDLISLMSSCMQHVQQEVLETMAYAGKALKAGSSQARIYFDAGHSAWHSPAQMASWLQQADISNSA",
+                  "midline": "A ++ +P+Y + + ++ S++   M + +Q+V   M    K        AR+  ++ H A  + A + S  ++  I ++A"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|P26646|ACUI_ECOLI",
+                  "accession": "P26646",
+                  "title": "Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1"
+                }
+              ],
+              "len": 324,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 8.64111,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 311,
+                  "query_to": 346,
+                  "hit_from": 130,
+                  "hit_to": 169,
+                  "align_len": 41,
+                  "gaps": 6,
+                  "qseq": "TLLACRRALKDAGVEADEVLEVVMVG-----GSTRVPLVRE",
+                  "hseq": "TAMLCVMALEDAGVRPQDG-EIVVTGASGGVGSTAVALLHK",
+                  "midline": "T + C  AL+DAGV   +  E+V+ G     GST V L+ +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 71,
+            "eff_space": 36996235,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

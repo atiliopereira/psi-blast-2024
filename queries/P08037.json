@@ -1,0 +1,250 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P08037|B4GT1_BOVIN Beta-1,4-galactosyltransferase 1 OS=Bos taurus OX=9913 GN=B4GALT1 PE=1 SV=3",
+          "query_len": 402,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P08037|B4GT1_BOVIN",
+                  "accession": "P08037",
+                  "title": "Beta-1,4-galactosyltransferase 1 OS=Bos taurus OX=9913 GN=B4GALT1 PE=1 SV=3"
+                }
+              ],
+              "len": 402,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 832.402,
+                  "score": 2149,
+                  "evalue": 0,
+                  "identity": 402,
+                  "positive": 402,
+                  "query_from": 1,
+                  "query_to": 402,
+                  "hit_from": 1,
+                  "hit_to": 402,
+                  "align_len": 402,
+                  "gaps": 0,
+                  "qseq": "MKFREPLLGGSAAMPGASLQRACRLLVAVCALHLGVTLVYYLAGRDLRRLPQLVGVHPPLQGSSHGAAAIGQPSGELRLRGVAPPPPLQNSSKPRSRAPSNLDAYSHPGPGPGPGSNLTSAPVPSTTTRSLTACPEESPLLVGPMLIEFNIPVDLKLVEQQNPKVKLGGRYTPMDCISPHKVAIIIPFRNRQEHLKYWLYYLHPILQRQQLDYGIYVINQAGESMFNRAKLLNVGFKEALKDYDYNCFVFSDVDLIPMNDHNTYRCFSQPRHISVAMDKFGFSLPYVQYFGGVSALSKQQFLSINGFPNNYWGWGGEDDDIYNRLAFRGMSVSRPNAVIGKCRMIRHSRDKKNEPNPQRFDRIAHTKETMLSDGLNSLTYMVLEVQRYPLYTKITVDIGTPS",
+                  "hseq": "MKFREPLLGGSAAMPGASLQRACRLLVAVCALHLGVTLVYYLAGRDLRRLPQLVGVHPPLQGSSHGAAAIGQPSGELRLRGVAPPPPLQNSSKPRSRAPSNLDAYSHPGPGPGPGSNLTSAPVPSTTTRSLTACPEESPLLVGPMLIEFNIPVDLKLVEQQNPKVKLGGRYTPMDCISPHKVAIIIPFRNRQEHLKYWLYYLHPILQRQQLDYGIYVINQAGESMFNRAKLLNVGFKEALKDYDYNCFVFSDVDLIPMNDHNTYRCFSQPRHISVAMDKFGFSLPYVQYFGGVSALSKQQFLSINGFPNNYWGWGGEDDDIYNRLAFRGMSVSRPNAVIGKCRMIRHSRDKKNEPNPQRFDRIAHTKETMLSDGLNSLTYMVLEVQRYPLYTKITVDIGTPS",
+                  "midline": "MKFREPLLGGSAAMPGASLQRACRLLVAVCALHLGVTLVYYLAGRDLRRLPQLVGVHPPLQGSSHGAAAIGQPSGELRLRGVAPPPPLQNSSKPRSRAPSNLDAYSHPGPGPGPGSNLTSAPVPSTTTRSLTACPEESPLLVGPMLIEFNIPVDLKLVEQQNPKVKLGGRYTPMDCISPHKVAIIIPFRNRQEHLKYWLYYLHPILQRQQLDYGIYVINQAGESMFNRAKLLNVGFKEALKDYDYNCFVFSDVDLIPMNDHNTYRCFSQPRHISVAMDKFGFSLPYVQYFGGVSALSKQQFLSINGFPNNYWGWGGEDDDIYNRLAFRGMSVSRPNAVIGKCRMIRHSRDKKNEPNPQRFDRIAHTKETMLSDGLNSLTYMVLEVQRYPLYTKITVDIGTPS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P07824|ARGI1_RAT",
+                  "accession": "P07824",
+                  "title": "Arginase-1 OS=Rattus norvegicus OX=10116 GN=Arg1 PE=1 SV=2"
+                }
+              ],
+              "len": 323,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 0.0145613,
+                  "identity": 15,
+                  "positive": 30,
+                  "query_from": 229,
+                  "query_to": 296,
+                  "hit_from": 29,
+                  "hit_to": 96,
+                  "align_len": 68,
+                  "gaps": 0,
+                  "qseq": "AKLLNVGFKEALKDYDYNCFVFSDVDLIPMNDHNTYRCFSQPRHISVAMDKFGFSLPYVQYFGGVSAL",
+                  "hseq": "AALRKAGLVEKLKETEYNVRDHGDLAFVDVPNDSPFQIVKNPRSVGKANEQLAAVVAETQKNGTISVV",
+                  "midline": "A L   G  E LK+ +YN     D+  + + + + ++    PR +  A ++    +   Q  G +S +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q79FE1|PPE41_MYCTU",
+                  "accession": "Q79FE1",
+                  "title": "PPE family protein PPE41 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=PPE41 PE=1 SV=1"
+                }
+              ],
+              "len": 194,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 1.11873,
+                  "identity": 15,
+                  "positive": 26,
+                  "query_from": 111,
+                  "query_to": 166,
+                  "hit_from": 18,
+                  "hit_to": 73,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "GPGPGSNLTSAPVPSTTTRSLTACPEESPLLVGPMLIEFNIPVDLKLVEQQNPKVK",
+                  "hseq": "GPGPDSMLAAARAWRSLDVEMTAVQRSFNRTLLSLMDAWAGPVVMQLMEAAKPFVR",
+                  "midline": "GPGP S L +A    +    +TA        +  ++  +  PV ++L+E   P V+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "tr|Q08242|Q08242_PSESX",
+                  "accession": "Q08242",
+                  "title": "Avirulence protein OS=Pseudomonas syringae OX=317 GN=avrP PE=1 SV=1"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 1.30921,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 46,
+                  "query_to": 86,
+                  "hit_from": 118,
+                  "hit_to": 159,
+                  "align_len": 42,
+                  "gaps": 1,
+                  "qseq": "DLRR-LPQLVGVHPPLQGSSHGAAAIGQPSGELRLRGVAPPP",
+                  "hseq": "DMREALQHAMGIHADIPPSPERFVATMNPSGSIRMSTLSPSP",
+                  "midline": "D+R  L   +G+H  +  S     A   PSG +R+  ++P P"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "tr|O28835|O28835_ARCFU",
+                  "accession": "O28835",
+                  "title": "HAD family hydrolase OS=Archaeoglobus fulgidus (strain ATCC 49558 / DSM 4304 / JCM 9628 / NBRC 100126 / VC-16) OX=224325 GN=AF_1437 PE=1 SV=1"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 1.58153,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 47,
+                  "query_to": 75,
+                  "hit_from": 110,
+                  "hit_to": 138,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "LRRLPQLVGVHPPLQGSSHGAAAIGQPSG",
+                  "hseq": "LRRTASMIGVRGELHGTEVDFDSIAVPEG",
+                  "midline": "LRR   ++GV   L G+     +I  P G"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|O43896|KIF1C_HUMAN",
+                  "accession": "O43896",
+                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                }
+              ],
+              "len": 1103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 5.44351,
+                  "identity": 7,
+                  "positive": 13,
+                  "query_from": 173,
+                  "query_to": 198,
+                  "hit_from": 966,
+                  "hit_to": 991,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "PMDCISPHKVAIIIPFRNRQEHLKYW",
+                  "hseq": "PARFVPPHDCKLRFPFKSNPQHRESW",
+                  "midline": "P   + PH   +  PF++  +H + W"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|Q12888|TP53B_HUMAN",
+                  "accession": "Q12888",
+                  "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
+                }
+              ],
+              "len": 1972,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 6.44638,
+                  "identity": 12,
+                  "positive": 18,
+                  "query_from": 58,
+                  "query_to": 100,
+                  "hit_from": 227,
+                  "hit_to": 269,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "PPLQGSSHGAAAIGQPSGELRLRGVAPPPPLQNSSKPRSRAPS",
+                  "hseq": "PIAEQSSKDIPVTAQPSKDVHVVKEQNPPPARSEDMPFSPKAS",
+                  "midline": "P  + SS       QPS ++ +     PPP ++   P S   S"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 67,
+            "eff_space": 23020865,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

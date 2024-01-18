@@ -1,0 +1,327 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P38540|DHM2_METME Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylophilus methylotrophus OX=17 GN=moxI PE=1 SV=2",
+          "query_len": 91,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P38540|DHM2_METME",
+                  "accession": "P38540",
+                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylophilus methylotrophus OX=17 GN=moxI PE=1 SV=2"
+                }
+              ],
+              "len": 91,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 190.66,
+                  "score": 483,
+                  "evalue": 2.79689e-67,
+                  "identity": 91,
+                  "positive": 91,
+                  "query_from": 1,
+                  "query_to": 91,
+                  "hit_from": 1,
+                  "hit_to": 91,
+                  "align_len": 91,
+                  "gaps": 0,
+                  "qseq": "MKHVLTLLALASVFAVSNQALAYDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKSSGNFVFDVK",
+                  "hseq": "MKHVLTLLALASVFAVSNQALAYDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKSSGNFVFDVK",
+                  "midline": "MKHVLTLLALASVFAVSNQALAYDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKSSGNFVFDVK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P14775|DHM2_METEA",
+                  "accession": "P14775",
+                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxI PE=1 SV=1"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.857,
+                  "score": 294,
+                  "evalue": 1.74781e-38,
+                  "identity": 54,
+                  "positive": 65,
+                  "query_from": 1,
+                  "query_to": 90,
+                  "hit_from": 1,
+                  "hit_to": 90,
+                  "align_len": 90,
+                  "gaps": 0,
+                  "qseq": "MKHVLTLLALASVFAVSNQALAYDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKSSGNFVFDV",
+                  "hseq": "MKTTLIAAAIVALSGLAAPALAYDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKKTGKFEYDV",
+                  "midline": "MK  L   A+ ++  ++  ALAYDG  CK  GNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K +G F +DV"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P29898|DHM2_PARDE",
+                  "accession": "P29898",
+                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Paracoccus denitrificans OX=266 GN=moxI PE=1 SV=1"
+                }
+              ],
+              "len": 103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.857,
+                  "score": 294,
+                  "evalue": 2.55767e-38,
+                  "identity": 55,
+                  "positive": 64,
+                  "query_from": 1,
+                  "query_to": 91,
+                  "hit_from": 1,
+                  "hit_to": 89,
+                  "align_len": 91,
+                  "gaps": 2,
+                  "qseq": "MKHVLTLLALASVFAVSNQALAYDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKSSGNFVFDVK",
+                  "hseq": "MKRILTLTVAA--LALGTPALAYDGTNCKAPGNCWEPKPDYPAKVEGSKYDPQHDPAELSKQGESLAVMDARNEWRVWNMKKTGKFEYDVK",
+                  "midline": "MK +LTL   A   A+   ALAYDG NCK PGNCWE KP YP K+ GSKYDP+HDP EL+KQ ES+  MDARN  R+ N K +G F +DVK"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P12994|YBHB_ECOLI",
+                  "accession": "P12994",
+                  "title": "UPF0098 protein YbhB OS=Escherichia coli (strain K12) OX=83333 GN=ybhB PE=1 SV=2"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 0.247125,
+                  "identity": 10,
+                  "positive": 15,
+                  "query_from": 20,
+                  "query_to": 52,
+                  "hit_from": 22,
+                  "hit_to": 53,
+                  "align_len": 33,
+                  "gaps": 1,
+                  "qseq": "ALAYDGQNCKEPGNCWENKPGYPEKIAGSKYDP",
+                  "hseq": "GMGYDGDNI-SPHLAWDDVPAGTKSFVVTCYDP",
+                  "midline": " + YDG N   P   W++ P   +    + YDP"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 3.24131,
+                  "identity": 8,
+                  "positive": 13,
+                  "query_from": 43,
+                  "query_to": 60,
+                  "hit_from": 8627,
+                  "hit_to": 8644,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "EKIAGSKYDPKHDPVELN",
+                  "hseq": "ERVALAKTNGKHDIDQLN",
+                  "midline": "E++A +K + KHD  +LN"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 7.7981,
+                  "identity": 12,
+                  "positive": 18,
+                  "query_from": 53,
+                  "query_to": 87,
+                  "hit_from": 4393,
+                  "hit_to": 4423,
+                  "align_len": 35,
+                  "gaps": 4,
+                  "qseq": "KHDPVELNKQEESIKAMDARNAKRIANAKSSGNFV",
+                  "hseq": "QHTATELNGAMTALKAAIADKER----TKASGNYV",
+                  "midline": "+H   ELN    ++KA  A   +     K+SGN+V"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P00101|CY551_STUST",
+                  "accession": "P00101",
+                  "title": "Cytochrome c-551 OS=Stutzerimonas stutzeri OX=316 GN=nirM PE=1 SV=2"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 6.0812,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 1,
+                  "query_to": 26,
+                  "hit_from": 1,
+                  "hit_to": 26,
+                  "align_len": 27,
+                  "gaps": 2,
+                  "qseq": "MKHVLT-LLALASVFAVSNQALAYDGQ",
+                  "hseq": "MKKILIPMLALGGALAM-QPALAQDGE",
+                  "midline": "MK +L  +LAL    A+   ALA DG+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P0A0A5|FEMA_STAAU",
+                  "accession": "P0A0A5",
+                  "title": "Aminoacyltransferase FemA OS=Staphylococcus aureus OX=1280 GN=femA PE=1 SV=2"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.2458,
+                  "score": 38,
+                  "evalue": 6.17441,
+                  "identity": 7,
+                  "positive": 9,
+                  "query_from": 19,
+                  "query_to": 35,
+                  "hit_from": 114,
+                  "hit_to": 130,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "QALAYDGQNCKEPGNCW",
+                  "hseq": "QYLNHDGEITGNAGNDW",
+                  "midline": "Q L +DG+     GN W"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P74881|PUR4_SALTY",
+                  "accession": "P74881",
+                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                }
+              ],
+              "len": 1295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 8.40453,
+                  "identity": 9,
+                  "positive": 13,
+                  "query_from": 21,
+                  "query_to": 45,
+                  "hit_from": 333,
+                  "hit_to": 359,
+                  "align_len": 27,
+                  "gaps": 2,
+                  "qseq": "LAYDGQNCKEPG--NCWENKPGYPEKI",
+                  "hseq": "VGFSVSNLRIPGFEQPWEEDFGKPERI",
+                  "midline": "+ +   N + PG    WE   G PE+I"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P37330|MASZ_ECOLI",
+                  "accession": "P37330",
+                  "title": "Malate synthase G OS=Escherichia coli (strain K12) OX=83333 GN=glcB PE=1 SV=3"
+                }
+              ],
+              "len": 723,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 8.56898,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 66,
+                  "query_to": 81,
+                  "hit_from": 119,
+                  "hit_to": 134,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "IKAMDARNAKRIANAK",
+                  "hseq": "VPAMNARYALNAANAR",
+                  "midline": "+ AM+AR A   ANA+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 52,
+            "eff_space": 2802306,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

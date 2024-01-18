@@ -1,0 +1,318 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q92547|TOPB1_HUMAN DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3",
+          "query_len": 1522,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q92547|TOPB1_HUMAN",
+                  "accession": "Q92547",
+                  "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
+                }
+              ],
+              "len": 1522,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 3168.25,
+                  "score": 8213,
+                  "evalue": 0,
+                  "identity": 1522,
+                  "positive": 1522,
+                  "query_from": 1,
+                  "query_to": 1522,
+                  "hit_from": 1,
+                  "hit_to": 1522,
+                  "align_len": 1522,
+                  "gaps": 0,
+                  "qseq": "MSRNDKEPFFVKFLKSSDNSKCFFKALESIKEFQSEEYLQIITEEEALKIKENDRSLYICDPFSGVVFDHLKKLGCRIVGPQVVIFCMHHQRCVPRAEHPVYNMVMSDVTISCTSLEKEKREEVHKYVQMMGGRVYRDLNVSVTHLIAGEVGSKKYLVAANLKKPILLPSWIKTLWEKSQEKKITRYTDINMEDFKCPIFLGCIICVTGLCGLDRKEVQQLTVKHGGQYMGQLKMNECTHLIVQEPKGQKYECAKRWNVHCVTTQWFFDSIEKGFCQDESIYKTEPRPEAKTMPNSSTPTSQINTIDSRTLSDVSNISNINASCVSESICNSLNSKLEPTLENLENLDVSAFQAPEDLLDGCRIYLCGFSGRKLDKLRRLINSGGGVRFNQLNEDVTHVIVGDYDDELKQFWNKSAHRPHVVGAKWLLECFSKGYMLSEEPYIHANYQPVEIPVSHKPESKAALLKKKNSSFSKKDFAPSEKHEQADEDLLSQYENGSSTVVEAKTSEARPFNDSTHAEPLNDSTHISLQEENQSSVSHCVPDVSTITEEGLFSQKSFLVLGFSNENESNIANIIKENAGKIMSLLSRTVADYAVVPLLGCEVEATVGEVVTNTWLVTCIDYQTLFDPKSNPLFTPVPVMTGMTPLEDCVISFSQCAGAEKESLTFLANLLGASVQEYFVRKSNAKKGMFASTHLILKERGGSKYEAAKKWNLPAVTIAWLLETARTGKRADESHFLIENSTKEERSLETEITNGINLNSDTAEHPGTRLQTHRKTVVTPLDMNRFQSKAFRAVVSQHARQVAASPAVGQPLQKEPSLHLDTPSKFLSKDKLFKPSFDVKDALAALETPGRPSQQKRKPSTPLSEVIVKNLQLALANSSRNAVALSASPQLKEAQSEKEEAPKPLHKVVVCVSKKLSKKQSELNGIAASLGADYRWSFDETVTHFIYQGRPNDTNREYKSVKERGVHIVSEHWLLDCAQECKHLPESLYPHTYNPKMSLDISAVQDGRLCNSRLLSAVSSTKDDEPDPLILEENDVDNMATNNKESAPSNGSGKNDSKGVLTQTLEMRENFQKQLQEIMSATSIVKPQGQRTSLSRSGCNSASSTPDSTRSARSGRSRVLEALRQSRQTVPDVNTEPSQNEQIIWDDPTAREERARLASNLQWPSCPTQYSELQVDIQNLEDSPFQKPLHDSEIAKQAVCDPGNIRVTEAPKHPISEELETPIKDSHLIPTPQAPSIAFPLANPPVAPHPREKIITIEETHEELKKQYIFQLSSLNPQERIDYCHLIEKLGGLVIEKQCFDPTCTHIVVGHPLRNEKYLASVAAGKWVLHRSYLEACRTAGHFVQEEDYEWGSSSILDVLTGINVQQRRLALAAMRWRKKIQQRQESGIVEGAFSGWKVILHVDQSREAGFKRLLQSGGAKVLPGHSVPLFKEATHLFSDLNKLKPDDSGVNIAEAAAQNVYCLRTEYIADYLMQESPPHVENYCLPEAISFIQNNKELGTGLSQKRKAPTEKNKIKRPRVH",
+                  "hseq": "MSRNDKEPFFVKFLKSSDNSKCFFKALESIKEFQSEEYLQIITEEEALKIKENDRSLYICDPFSGVVFDHLKKLGCRIVGPQVVIFCMHHQRCVPRAEHPVYNMVMSDVTISCTSLEKEKREEVHKYVQMMGGRVYRDLNVSVTHLIAGEVGSKKYLVAANLKKPILLPSWIKTLWEKSQEKKITRYTDINMEDFKCPIFLGCIICVTGLCGLDRKEVQQLTVKHGGQYMGQLKMNECTHLIVQEPKGQKYECAKRWNVHCVTTQWFFDSIEKGFCQDESIYKTEPRPEAKTMPNSSTPTSQINTIDSRTLSDVSNISNINASCVSESICNSLNSKLEPTLENLENLDVSAFQAPEDLLDGCRIYLCGFSGRKLDKLRRLINSGGGVRFNQLNEDVTHVIVGDYDDELKQFWNKSAHRPHVVGAKWLLECFSKGYMLSEEPYIHANYQPVEIPVSHKPESKAALLKKKNSSFSKKDFAPSEKHEQADEDLLSQYENGSSTVVEAKTSEARPFNDSTHAEPLNDSTHISLQEENQSSVSHCVPDVSTITEEGLFSQKSFLVLGFSNENESNIANIIKENAGKIMSLLSRTVADYAVVPLLGCEVEATVGEVVTNTWLVTCIDYQTLFDPKSNPLFTPVPVMTGMTPLEDCVISFSQCAGAEKESLTFLANLLGASVQEYFVRKSNAKKGMFASTHLILKERGGSKYEAAKKWNLPAVTIAWLLETARTGKRADESHFLIENSTKEERSLETEITNGINLNSDTAEHPGTRLQTHRKTVVTPLDMNRFQSKAFRAVVSQHARQVAASPAVGQPLQKEPSLHLDTPSKFLSKDKLFKPSFDVKDALAALETPGRPSQQKRKPSTPLSEVIVKNLQLALANSSRNAVALSASPQLKEAQSEKEEAPKPLHKVVVCVSKKLSKKQSELNGIAASLGADYRWSFDETVTHFIYQGRPNDTNREYKSVKERGVHIVSEHWLLDCAQECKHLPESLYPHTYNPKMSLDISAVQDGRLCNSRLLSAVSSTKDDEPDPLILEENDVDNMATNNKESAPSNGSGKNDSKGVLTQTLEMRENFQKQLQEIMSATSIVKPQGQRTSLSRSGCNSASSTPDSTRSARSGRSRVLEALRQSRQTVPDVNTEPSQNEQIIWDDPTAREERARLASNLQWPSCPTQYSELQVDIQNLEDSPFQKPLHDSEIAKQAVCDPGNIRVTEAPKHPISEELETPIKDSHLIPTPQAPSIAFPLANPPVAPHPREKIITIEETHEELKKQYIFQLSSLNPQERIDYCHLIEKLGGLVIEKQCFDPTCTHIVVGHPLRNEKYLASVAAGKWVLHRSYLEACRTAGHFVQEEDYEWGSSSILDVLTGINVQQRRLALAAMRWRKKIQQRQESGIVEGAFSGWKVILHVDQSREAGFKRLLQSGGAKVLPGHSVPLFKEATHLFSDLNKLKPDDSGVNIAEAAAQNVYCLRTEYIADYLMQESPPHVENYCLPEAISFIQNNKELGTGLSQKRKAPTEKNKIKRPRVH",
+                  "midline": "MSRNDKEPFFVKFLKSSDNSKCFFKALESIKEFQSEEYLQIITEEEALKIKENDRSLYICDPFSGVVFDHLKKLGCRIVGPQVVIFCMHHQRCVPRAEHPVYNMVMSDVTISCTSLEKEKREEVHKYVQMMGGRVYRDLNVSVTHLIAGEVGSKKYLVAANLKKPILLPSWIKTLWEKSQEKKITRYTDINMEDFKCPIFLGCIICVTGLCGLDRKEVQQLTVKHGGQYMGQLKMNECTHLIVQEPKGQKYECAKRWNVHCVTTQWFFDSIEKGFCQDESIYKTEPRPEAKTMPNSSTPTSQINTIDSRTLSDVSNISNINASCVSESICNSLNSKLEPTLENLENLDVSAFQAPEDLLDGCRIYLCGFSGRKLDKLRRLINSGGGVRFNQLNEDVTHVIVGDYDDELKQFWNKSAHRPHVVGAKWLLECFSKGYMLSEEPYIHANYQPVEIPVSHKPESKAALLKKKNSSFSKKDFAPSEKHEQADEDLLSQYENGSSTVVEAKTSEARPFNDSTHAEPLNDSTHISLQEENQSSVSHCVPDVSTITEEGLFSQKSFLVLGFSNENESNIANIIKENAGKIMSLLSRTVADYAVVPLLGCEVEATVGEVVTNTWLVTCIDYQTLFDPKSNPLFTPVPVMTGMTPLEDCVISFSQCAGAEKESLTFLANLLGASVQEYFVRKSNAKKGMFASTHLILKERGGSKYEAAKKWNLPAVTIAWLLETARTGKRADESHFLIENSTKEERSLETEITNGINLNSDTAEHPGTRLQTHRKTVVTPLDMNRFQSKAFRAVVSQHARQVAASPAVGQPLQKEPSLHLDTPSKFLSKDKLFKPSFDVKDALAALETPGRPSQQKRKPSTPLSEVIVKNLQLALANSSRNAVALSASPQLKEAQSEKEEAPKPLHKVVVCVSKKLSKKQSELNGIAASLGADYRWSFDETVTHFIYQGRPNDTNREYKSVKERGVHIVSEHWLLDCAQECKHLPESLYPHTYNPKMSLDISAVQDGRLCNSRLLSAVSSTKDDEPDPLILEENDVDNMATNNKESAPSNGSGKNDSKGVLTQTLEMRENFQKQLQEIMSATSIVKPQGQRTSLSRSGCNSASSTPDSTRSARSGRSRVLEALRQSRQTVPDVNTEPSQNEQIIWDDPTAREERARLASNLQWPSCPTQYSELQVDIQNLEDSPFQKPLHDSEIAKQAVCDPGNIRVTEAPKHPISEELETPIKDSHLIPTPQAPSIAFPLANPPVAPHPREKIITIEETHEELKKQYIFQLSSLNPQERIDYCHLIEKLGGLVIEKQCFDPTCTHIVVGHPLRNEKYLASVAAGKWVLHRSYLEACRTAGHFVQEEDYEWGSSSILDVLTGINVQQRRLALAAMRWRKKIQQRQESGIVEGAFSGWKVILHVDQSREAGFKRLLQSGGAKVLPGHSVPLFKEATHLFSDLNKLKPDDSGVNIAEAAAQNVYCLRTEYIADYLMQESPPHVENYCLPEAISFIQNNKELGTGLSQKRKAPTEKNKIKRPRVH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P18887|XRCC1_HUMAN",
+                  "accession": "P18887",
+                  "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
+                }
+              ],
+              "len": 633,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 1.8208e-06,
+                  "identity": 39,
+                  "positive": 54,
+                  "query_from": 861,
+                  "query_to": 989,
+                  "hit_from": 281,
+                  "hit_to": 401,
+                  "align_len": 131,
+                  "gaps": 12,
+                  "qseq": "TPLSEVIVKNLQLALANSSRNAVALSASPQLKEAQSEKEEAPKPLHKVVVCVSKKLSKKQSELNGIAASLGADYRWSFDETVTHFI--YQGRPNDTNREYKSVKERGVHIVSEHWLLDCAQECKHLPESLY",
+                  "hseq": "TPATAPVPARAQGAVTGKPRGEGTEPRRPR-----AGPEELGKILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANTP-----KYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRY",
+                  "midline": "TP +  +    Q A+    R        P+     +  EE  K L  VVV +S   +  +SEL   A  LGA YR  +    TH I  +   P     +Y  V   G  IV + W+LDC +  + LP   Y"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 0.225241,
+                  "identity": 17,
+                  "positive": 28,
+                  "query_from": 95,
+                  "query_to": 172,
+                  "hit_from": 309,
+                  "hit_to": 386,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "PRAEHPVYNMVMSDVTISCTSLEKEKREEVHKYVQMMGGRVYRDLNVSVTHLIAGEVGSKKYLVAANLKKPILLPSWI",
+                  "hseq": "PRAGPEELGKILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANTPKYSQVLGLGGRIVRKEWV",
+                  "midline": "PRA       ++  V +  +  +   R E+      +G +   D     THLI     + KY     L   I+   W+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 5.48425,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 126,
+                  "query_to": 160,
+                  "hit_from": 369,
+                  "hit_to": 405,
+                  "align_len": 37,
+                  "gaps": 2,
+                  "qseq": "KYVQMMG--GRVYRDLNVSVTHLIAGEVGSKKYLVAA",
+                  "hseq": "KYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRYLMAG",
+                  "midline": "KY Q++G  GR+ R   V   H +   + S++YL+A "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P38398|BRCA1_HUMAN",
+                  "accession": "P38398",
+                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                }
+              ],
+              "len": 1863,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 0.109676,
+                  "identity": 30,
+                  "positive": 47,
+                  "query_from": 1262,
+                  "query_to": 1371,
+                  "hit_from": 1644,
+                  "hit_to": 1752,
+                  "align_len": 119,
+                  "gaps": 19,
+                  "qseq": "EELKKQYIFQLSSLNPQERIDYCHLIEK----LGGLVIEKQCFDPTCTHIVVGHPL-----RNEKYLASVAAGKWVLHRSYLEACRTAGHFVQEEDYEWGSSSILDVLTGINVQQRRLA",
+                  "hseq": "ERVNKRMSMVVSGLTPEEFMLVYKFARKHHITLTNLITEE------TTHVVMKTDAEFVCERTLKYFLGIAGGKWVVSYFWVTQSIKERKMLNEHDFEVRG----DVVNGRNHQGPKRA",
+                  "midline": "E + K+    +S L P+E +       K    L  L+ E+       TH+V+         R  KY   +A GKWV+   ++         + E D+E       DV+ G N Q  + A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 1.01224,
+                  "identity": 24,
+                  "positive": 34,
+                  "query_from": 466,
+                  "query_to": 535,
+                  "hit_from": 222,
+                  "hit_to": 289,
+                  "align_len": 77,
+                  "gaps": 16,
+                  "qseq": "KKKNSSFSKKDFAPSEKHEQADEDLLSQYENGSSTVVEAKTSEARP--FNDST----HAEPLNDSTHI-SLQEENQS",
+                  "hseq": "KKAACEFSETDVTNTEHHQPSNNDL---------NTTEKRAAERHPEKYQGSSVSNLHVEPCGTNTHASSLQHENSS",
+                  "midline": "KK    FS+ D   +E H+ ++ DL            E + +E  P  +  S+    H EP   +TH  SLQ EN S"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P40818|UBP8_HUMAN",
+                  "accession": "P40818",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                }
+              ],
+              "len": 1118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 0.606557,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 1350,
+                  "query_to": 1397,
+                  "hit_from": 260,
+                  "hit_to": 304,
+                  "align_len": 48,
+                  "gaps": 3,
+                  "qseq": "EWGSSSILDVLTGINVQQRRLALAAMRWRKKIQQRQESGIVEGAFSGW",
+                  "hseq": "DWFSSA-KDLQIGTTL--RSLKDALFKWESKTVLRNEPLVLEGGYENW",
+                  "midline": "+W SS+  D+  G  +  R L  A  +W  K   R E  ++EG +  W"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.7942,
+                  "score": 55,
+                  "evalue": 2.23403,
+                  "identity": 12,
+                  "positive": 18,
+                  "query_from": 291,
+                  "query_to": 319,
+                  "hit_from": 1623,
+                  "hit_to": 1651,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "KTMPNSSTPTSQINTIDSRTLSDVSNISN",
+                  "hseq": "ETVPNRSYARASANEITSKTVSNVSRTGN",
+                  "midline": "+T+PN S   +  N I S+T+S+VS   N"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 25.0238,
+                  "score": 53,
+                  "evalue": 3.95261,
+                  "identity": 16,
+                  "positive": 39,
+                  "query_from": 1042,
+                  "query_to": 1130,
+                  "hit_from": 4652,
+                  "hit_to": 4740,
+                  "align_len": 89,
+                  "gaps": 0,
+                  "qseq": "NNKESAPSNGSGKNDSKGVLTQTLEMRENFQKQLQEIMSATSIVKPQGQRTSLSRSGCNSASSTPDSTRSARSGRSRVLEALRQSRQTV",
+                  "hseq": "NNAMHSLQNGINDETQTKQTQKYLDAEPNKKSAYDQAVNAAKAILTKASGQNVDKAAVEQALQNVNSTKTALNGDAKLNEAKAAAKQTL",
+                  "midline": "NN   +  NG           + L+   N +    + ++A   +  +    ++ ++    A    +ST++A +G +++ EA   ++QT+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "tr|Q09LX0|Q09LX0_GEOSE",
+                  "accession": "Q09LX0",
+                  "title": "Beta-xylosidase OS=Geobacillus stearothermophilus OX=1422 GN=xynB3 PE=1 SV=1"
+                }
+              ],
+              "len": 535,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.0238,
+                  "score": 53,
+                  "evalue": 2.66779,
+                  "identity": 18,
+                  "positive": 31,
+                  "query_from": 539,
+                  "query_to": 603,
+                  "hit_from": 389,
+                  "hit_to": 452,
+                  "align_len": 67,
+                  "gaps": 5,
+                  "qseq": "HCVPDVSTITEEGLFSQKSFLVLGFSNENESNIANIIKENAGKIMSLLSRTVADYAVV--PLLGCEV",
+                  "hseq": "HFVAETKVSFRPTTFQQSAGLVNYYNTQNWTTLQITWHEEKGRILELMT---CDHLVVDQPLRGREI",
+                  "midline": "H V +         F Q + LV  ++ +N + +     E  G+I+ L++    D+ VV  PL G E+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P0A836|SUCC_ECOLI",
+                  "accession": "P0A836",
+                  "title": "Succinate--CoA ligase [ADP-forming] subunit beta OS=Escherichia coli (strain K12) OX=83333 GN=sucC PE=1 SV=1"
+                }
+              ],
+              "len": 388,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 6.76969,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 867,
+                  "query_to": 910,
+                  "hit_from": 104,
+                  "hit_to": 149,
+                  "align_len": 46,
+                  "gaps": 2,
+                  "qseq": "IVKNLQLA--LANSSRNAVALSASPQLKEAQSEKEEAPKPLHKVVV",
+                  "hseq": "IAKELYLGAVVDRSSRRVVFMASTEGGVEIEKVAEETPHLIHKVAL",
+                  "midline": "I K L L   +  SSR  V ++++    E +   EE P  +HKV +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 78,
+            "eff_space": 95910480,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

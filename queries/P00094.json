@@ -1,0 +1,340 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P00094|CYC2_RHOCB Cytochrome c2 OS=Rhodobacter capsulatus (strain ATCC BAA-309 / NBRC 16581 / SB1003) OX=272942 GN=cycA PE=1 SV=1",
+          "query_len": 137,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P00094|CYC2_RHOCB",
+                  "accession": "P00094",
+                  "title": "Cytochrome c2 OS=Rhodobacter capsulatus (strain ATCC BAA-309 / NBRC 16581 / SB1003) OX=272942 GN=cycA PE=1 SV=1"
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 271.166,
+                  "score": 692,
+                  "evalue": 1.04393e-97,
+                  "identity": 137,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 137,
+                  "hit_from": 1,
+                  "hit_to": 137,
+                  "align_len": 137,
+                  "gaps": 0,
+                  "qseq": "MKISLTAATVAALVLAAPAFAGDAAKGEKEFNKCKTCHSIIAPDGTEIVKGAKTGPNLYGVVGRTAGTYPEFKYKDSIVALGASGFAWTEEDIATYVKDPGAFLKEKLDDKKAKTGMAFKLAKGGEDVAAYLASVVK",
+                  "hseq": "MKISLTAATVAALVLAAPAFAGDAAKGEKEFNKCKTCHSIIAPDGTEIVKGAKTGPNLYGVVGRTAGTYPEFKYKDSIVALGASGFAWTEEDIATYVKDPGAFLKEKLDDKKAKTGMAFKLAKGGEDVAAYLASVVK",
+                  "midline": "MKISLTAATVAALVLAAPAFAGDAAKGEKEFNKCKTCHSIIAPDGTEIVKGAKTGPNLYGVVGRTAGTYPEFKYKDSIVALGASGFAWTEEDIATYVKDPGAFLKEKLDDKKAKTGMAFKLAKGGEDVAAYLASVVK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P14775|DHM2_METEA",
+                  "accession": "P14775",
+                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxI PE=1 SV=1"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 0.108973,
+                  "identity": 15,
+                  "positive": 17,
+                  "query_from": 1,
+                  "query_to": 26,
+                  "hit_from": 1,
+                  "hit_to": 27,
+                  "align_len": 27,
+                  "gaps": 1,
+                  "qseq": "MKISLTAATVAALV-LAAPAFAGDAAK",
+                  "hseq": "MKTTLIAAAIVALSGLAAPALAYDGTK",
+                  "midline": "MK +L AA + AL  LAAPA A D  K"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P29898|DHM2_PARDE",
+                  "accession": "P29898",
+                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Paracoccus denitrificans OX=266 GN=moxI PE=1 SV=1"
+                }
+              ],
+              "len": 103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 0.6688,
+                  "identity": 22,
+                  "positive": 25,
+                  "query_from": 1,
+                  "query_to": 57,
+                  "hit_from": 1,
+                  "hit_to": 51,
+                  "align_len": 57,
+                  "gaps": 6,
+                  "qseq": "MKISLTAATVAALVLAAPAFAGDAAKGEKEFNKCKTCHSIIAPDGTEIVKGAKTGPN",
+                  "hseq": "MKRILTL-TVAALALGTPALAYDGTNCKAPGN----CWE-PKPDYPAKVEGSKYDPQ",
+                  "midline": "MK  LT  TVAAL L  PA A D    +   N    C     PD    V+G+K  P "
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P30922|CH3L1_BOVIN",
+                  "accession": "P30922",
+                  "title": "Chitinase-3-like protein 1 OS=Bos taurus OX=9913 GN=CHI3L1 PE=1 SV=3"
+                }
+              ],
+              "len": 383,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 1.1976,
+                  "identity": 17,
+                  "positive": 26,
+                  "query_from": 73,
+                  "query_to": 130,
+                  "hit_from": 310,
+                  "hit_to": 381,
+                  "align_len": 72,
+                  "gaps": 14,
+                  "qseq": "KYKDSIVALGASGFAWTEEDIATYVKDPGAFLKEK-----------LDDKKAK---TGMAFKLAKGGEDVAA",
+                  "hseq": "RFRDQQVPYATKGNQWVAYDDQESVKNKARYLKNRQLAGAMVWALDLDDFRGTFCGQNLTFPLTSAIKDVLA",
+                  "midline": "+++D  V     G  W   D    VK+   +LK +           LDD +       + F L    +DV A"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P0A3Y0|CYC6_SYNEL",
+                  "accession": "P0A3Y0",
+                  "title": "Cytochrome c6 OS=Synechococcus elongatus OX=32046 GN=petJ PE=1 SV=1"
+                }
+              ],
+              "len": 87,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 1.60209,
+                  "identity": 23,
+                  "positive": 32,
+                  "query_from": 23,
+                  "query_to": 102,
+                  "hit_from": 2,
+                  "hit_to": 82,
+                  "align_len": 85,
+                  "gaps": 9,
+                  "qseq": "DAAKGEKEFN-KCKTCHSIIAPDGTEIVKGAKT----GPNLYGVVGRTAGTYPEFKYKDSIVALGASGFAWTEEDIATYVKDPGA",
+                  "hseq": "DLANGAKVFSGNCAACHM----GGGNVVMANKTLKKEALEQFGMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQAA",
+                  "midline": "D A G K F+  C  CH      G  +V   KT        +G+    A  Y     K+++ A          +D+A YV D  A"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P00720|ENLYS_BPT4",
+                  "accession": "P00720",
+                  "title": "Endolysin OS=Enterobacteria phage T4 OX=10665 GN=E PE=1 SV=2"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 3.86723,
+                  "identity": 21,
+                  "positive": 43,
+                  "query_from": 10,
+                  "query_to": 110,
+                  "hit_from": 29,
+                  "hit_to": 128,
+                  "align_len": 103,
+                  "gaps": 5,
+                  "qseq": "VAALVLAAPAFAGDAAKGEKEFNKCKTCHSIIAPDGTEIVKGAKTGPNLYGVVGRTAGTYPEFKYKDSI--VALGASGFAWTEEDIATYVKDPGAFLKEKLDD",
+                  "hseq": "IGHLLTKSPSL--NAAKSELDKAIGRNCNGVITKDEAEKLFNQDVDAAVRGIL-RNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDE",
+                  "midline": "+  L+  +P+   +AAK E +    + C+ +I  D  E +        + G++ R A   P +   D++   AL    F   E  +A +        +++ D+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P0A6W5|GREA_ECOLI",
+                  "accession": "P0A6W5",
+                  "title": "Transcription elongation factor GreA OS=Escherichia coli (strain K12) OX=83333 GN=greA PE=1 SV=1"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 3.96336,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 59,
+                  "query_to": 101,
+                  "hit_from": 105,
+                  "hit_to": 145,
+                  "align_len": 46,
+                  "gaps": 8,
+                  "qseq": "YGVVGRTAGTYPEFKYKDSIVALG---ASGFAWTEEDIATYVKDPG",
+                  "hseq": "YRIVGDD-----EADFKQNLISVNSPIARGLIGKEEDDVVVIKTPG",
+                  "midline": "Y +VG       E  +K +++++    A G    EED    +K PG"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|Q8VDG3|PARN_MOUSE",
+                  "accession": "Q8VDG3",
+                  "title": "Poly(A)-specific ribonuclease PARN OS=Mus musculus OX=10090 GN=Parn PE=1 SV=1"
+                }
+              ],
+              "len": 624,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 4.52703,
+                  "identity": 8,
+                  "positive": 14,
+                  "query_from": 104,
+                  "query_to": 123,
+                  "hit_from": 142,
+                  "hit_to": 161,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "LKEKLDDKKAKTGMAFKLAK",
+                  "hseq": "LREQFDEKRSQANGAGALAK",
+                  "midline": "L+E+ D+K+++   A  LAK"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P22868|MMOC_METCA",
+                  "accession": "P22868",
+                  "title": "Methane monooxygenase component C OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoC PE=1 SV=2"
+                }
+              ],
+              "len": 348,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 6.93569,
+                  "identity": 8,
+                  "positive": 10,
+                  "query_from": 42,
+                  "query_to": 59,
+                  "hit_from": 242,
+                  "hit_to": 259,
+                  "align_len": 18,
+                  "gaps": 0,
+                  "qseq": "APDGTEIVKGAKTGPNLY",
+                  "hseq": "APNETRIYFGVNTEPELF",
+                  "midline": "AP+ T I  G  T P L+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|P56968|PYRK_LACLM",
+                  "accession": "P56968",
+                  "title": "Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit OS=Lactococcus lactis subsp. cremoris (strain MG1363) OX=416870 GN=pyrK PE=1 SV=1"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 7.69554,
+                  "identity": 10,
+                  "positive": 11,
+                  "query_from": 50,
+                  "query_to": 69,
+                  "hit_from": 62,
+                  "hit_to": 81,
+                  "align_len": 20,
+                  "gaps": 0,
+                  "qseq": "KGAKTGPNLYGVVGRTAGTY",
+                  "hseq": "KRAKTCTILYRIGDETTGTY",
+                  "midline": "K AKT   LY +   T GTY"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 57,
+            "eff_space": 5664720,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

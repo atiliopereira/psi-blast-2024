@@ -1,0 +1,220 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P10688|PLCD1_RAT 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1",
+          "query_len": 756,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P10688|PLCD1_RAT",
+                  "accession": "P10688",
+                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
+                }
+              ],
+              "len": 756,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1580.46,
+                  "score": 4091,
+                  "evalue": 0,
+                  "identity": 756,
+                  "positive": 756,
+                  "query_from": 1,
+                  "query_to": 756,
+                  "hit_from": 1,
+                  "hit_to": 756,
+                  "align_len": 756,
+                  "gaps": 0,
+                  "qseq": "MDSGRDFLTLHGLQDDPDLQALLKGSQLLKVKSSSWRRERFYKLQEDCKTIWQESRKVMRSPESQLFSIEDIQEVRMGHRTEGLEKFARDIPEDRCFSIVFKDQRNTLDLIAPSPADAQHWVQGLRKIIHHSGSMDQRQKLQHWIHSCLRKADKNKDNKMNFKELKDFLKELNIQVDDGYARKIFRECDHSQTDSLEDEEIETFYKMLTQRAEIDRAFEEAAGSAETLSVERLVTFLQHQQREEEAGPALALSLIERYEPSETAKAQRQMTKDGFLMYLLSADGNAFSLAHRRVYQDMDQPLSHYLVSSSHNTYLLEDQLTGPSSTEAYIRALCKGCRCLELDCWDGPNQEPIIYHGYTFTSKILFCDVLRAIRDYAFKASPYPVILSLENHCSLEQQRVMARHLRAILGPILLDQPLDGVTTSLPSPEQLKGKILLKGKKLGGLLPAGGENGSEATDVSDEVEAAEMEDEAVRSQVQHKPKEDKLKLVPELSDMIIYCKSVHFGGFSSPGTSGQAFYEMASFSESRALRLLQESGNGFVRHNVSCLSRIYPAGWRTDSSNYSPVEMWNGGCQIVALNFQTPGPEMDVYLGCFQDNGGCGYVLKPAFLRDPNTTFNSRALTQGPWWRPERLRVRIISGQQLPKVNKNKNSIVDPKVIVEIHGVGRDTGSRQTAVITNNGFNPRWDMEFEFEVTVPDLALVRFMVEDYDSSSKNDFIGQSTIPWNSLKQGYRHVHLLSKNGDQHPSATLFVKISIQD",
+                  "hseq": "MDSGRDFLTLHGLQDDPDLQALLKGSQLLKVKSSSWRRERFYKLQEDCKTIWQESRKVMRSPESQLFSIEDIQEVRMGHRTEGLEKFARDIPEDRCFSIVFKDQRNTLDLIAPSPADAQHWVQGLRKIIHHSGSMDQRQKLQHWIHSCLRKADKNKDNKMNFKELKDFLKELNIQVDDGYARKIFRECDHSQTDSLEDEEIETFYKMLTQRAEIDRAFEEAAGSAETLSVERLVTFLQHQQREEEAGPALALSLIERYEPSETAKAQRQMTKDGFLMYLLSADGNAFSLAHRRVYQDMDQPLSHYLVSSSHNTYLLEDQLTGPSSTEAYIRALCKGCRCLELDCWDGPNQEPIIYHGYTFTSKILFCDVLRAIRDYAFKASPYPVILSLENHCSLEQQRVMARHLRAILGPILLDQPLDGVTTSLPSPEQLKGKILLKGKKLGGLLPAGGENGSEATDVSDEVEAAEMEDEAVRSQVQHKPKEDKLKLVPELSDMIIYCKSVHFGGFSSPGTSGQAFYEMASFSESRALRLLQESGNGFVRHNVSCLSRIYPAGWRTDSSNYSPVEMWNGGCQIVALNFQTPGPEMDVYLGCFQDNGGCGYVLKPAFLRDPNTTFNSRALTQGPWWRPERLRVRIISGQQLPKVNKNKNSIVDPKVIVEIHGVGRDTGSRQTAVITNNGFNPRWDMEFEFEVTVPDLALVRFMVEDYDSSSKNDFIGQSTIPWNSLKQGYRHVHLLSKNGDQHPSATLFVKISIQD",
+                  "midline": "MDSGRDFLTLHGLQDDPDLQALLKGSQLLKVKSSSWRRERFYKLQEDCKTIWQESRKVMRSPESQLFSIEDIQEVRMGHRTEGLEKFARDIPEDRCFSIVFKDQRNTLDLIAPSPADAQHWVQGLRKIIHHSGSMDQRQKLQHWIHSCLRKADKNKDNKMNFKELKDFLKELNIQVDDGYARKIFRECDHSQTDSLEDEEIETFYKMLTQRAEIDRAFEEAAGSAETLSVERLVTFLQHQQREEEAGPALALSLIERYEPSETAKAQRQMTKDGFLMYLLSADGNAFSLAHRRVYQDMDQPLSHYLVSSSHNTYLLEDQLTGPSSTEAYIRALCKGCRCLELDCWDGPNQEPIIYHGYTFTSKILFCDVLRAIRDYAFKASPYPVILSLENHCSLEQQRVMARHLRAILGPILLDQPLDGVTTSLPSPEQLKGKILLKGKKLGGLLPAGGENGSEATDVSDEVEAAEMEDEAVRSQVQHKPKEDKLKLVPELSDMIIYCKSVHFGGFSSPGTSGQAFYEMASFSESRALRLLQESGNGFVRHNVSCLSRIYPAGWRTDSSNYSPVEMWNGGCQIVALNFQTPGPEMDVYLGCFQDNGGCGYVLKPAFLRDPNTTFNSRALTQGPWWRPERLRVRIISGQQLPKVNKNKNSIVDPKVIVEIHGVGRDTGSRQTAVITNNGFNPRWDMEFEFEVTVPDLALVRFMVEDYDSSSKNDFIGQSTIPWNSLKQGYRHVHLLSKNGDQHPSATLFVKISIQD"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q00722|PLCB2_HUMAN",
+                  "accession": "Q00722",
+                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
+                }
+              ],
+              "len": 1185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 318.546,
+                  "score": 815,
+                  "evalue": 1.82455e-96,
+                  "identity": 209,
+                  "positive": 301,
+                  "query_from": 202,
+                  "query_to": 756,
+                  "hit_from": 209,
+                  "hit_to": 803,
+                  "align_len": 606,
+                  "gaps": 62,
+                  "qseq": "ETFYKMLTQRAEIDRAFEEAAGSAET-LSVERLVTFLQHQQREEE--------AGPALALSLIERYEPSETAKAQRQMTKDGFLMYLLSADGNAFSLAHRRVYQDMDQPLSHYLVSSSHNTYLLEDQLTGPSSTEAYIRALCKGCRCLELDCWDG--PNQEPIIYHGYTFTSKILFCDVLRAIRDYAFKASPYPVILSLENHC-SLEQQRVMARHLRAILGPILLDQPLDGVT----TSLPSPEQLKGKILLKGKK--LGGLLPAGGENGSEATDVSDEVEAAEM-----------------------------EDEAVRSQVQHKPKEDKLKLVPELSDMIIYCKSVHFGGFSSPGTSGQAFYEMASFSESRALRLLQESGNGFVRHNVSCLSRIYPAGWRTDSSNYSPVEMWNGGCQIVALNFQTPGPEMDVYLGCFQDNGGCGYVLKPAFLRDPNTTFNSRALTQGPWWRPERLRVRIISGQQLPKVNKNKNSIVDPKVIVEIHGVGRDTGSRQTAVI--TNNGFNPRWDME-FEFE-VTVPDLALVRFMVEDYDSSSKNDFIGQSTIPWNSLKQGYRHVHLLSKNGDQHPSATLFVKISIQD",
+                  "hseq": "KSFLMSLCPRPEIDEIFTSYHAKAKPYMTKEHLTKFINQKQRDSRLNSLLFPPARPDQVQGLIDKYEPSGINAQRGQLSPEGMVWFLCGPENSVLAQDKLLLHHDMTQPLNHYFINSSHNTYLTAGQFSGLSSAEMYRQVLLSGCRCVELDCWKGKPPDEEPIITHGFTMTTDIFFKEAIEAIAESAFKTSPYPIILSFENHVDSPRQQAKMAEYCRTIFGDMLLTEPLEKFPLKPGVPLPSPEDLRGKILIKNKKNQFSGPTSSSKDTGGEAEGSSPPSAPAGEGTVWAGEEGTELEEEEVEEEEEEESGNLDEEEIKKMQSDEGTAGLEVTAYEEMSSLVNYIQPTKFVSFEFSAQKNRS-YVISSFTELKAYDLLSKASVQFVDYNKRQMSRIYPKGTRMDSSNYMPQMFWNAGCQMVALNFQTMDLPMQQNMAVFEFNGQSGYLLKHEFMRRPDKQFNPFSVDRIDVVVATTLSITVISGQFLSERS------VRTYVEVELFGLPGDPKRRYRTKLSPSTNSINPVWKEEPFVFEKILMPELASLRVAVME----EGNKFLGHRIIPINALNSGYHHLCLHSESNMPLTMPALFIFLEMKD",
+                  "midline": "++F   L  R EID  F      A+  ++ E L  F+  +QR+          A P     LI++YEPS     + Q++ +G + +L   + +  +     ++ DM QPL+HY ++SSHNTYL   Q +G SS E Y + L  GCRC+ELDCW G  P++EPII HG+T T+ I F + + AI + AFK SPYP+ILS ENH  S  QQ  MA + R I G +LL +PL+         LPSPE L+GKIL+K KK    G   +  + G EA   S     A                               E+E  + Q        ++    E+S ++ Y +   F  F       ++ Y ++SF+E +A  LL ++   FV +N   +SRIYP G R DSSNY P   WN GCQ+VALNFQT    M   +  F+ NG  GY+LK  F+R P+  FN  ++ +        L + +ISGQ L + +      V   V VE+ G+  D   R    +  + N  NP W  E F FE + +P+LA +R  V +      N F+G   IP N+L  GY H+ L S++        LF+ + ++D"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P34024|PLC_LISMO",
+                  "accession": "P34024",
+                  "title": "1-phosphatidylinositol phosphodiesterase OS=Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 GN=plcA PE=1 SV=1"
+                }
+              ],
+              "len": 317,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 0.321939,
+                  "identity": 31,
+                  "positive": 51,
+                  "query_from": 320,
+                  "query_to": 437,
+                  "hit_from": 80,
+                  "hit_to": 196,
+                  "align_len": 122,
+                  "gaps": 9,
+                  "qseq": "LTGP---SSTEAYIRALCKGCRCLELDCWDGPNQEPIIYHGYTFTSKILFCDVLRAIRDYAFKASPYPVILSLEN-HCSLEQQRVMARHLRAILGPILLDQPLDGVTTSLPSPEQLKGKILL",
+                  "hseq": "LTKPLAQTQTMSLYQQLEAGIRYIDIRAKDNLN----IYHGPIFLNASL-SGVLETITQFLKKNPKETIIMRLKDEQNSNDSFDYRIQPLINIYKDYFYTTPRTDTSNKIPTLKDVRGKILL",
+                  "midline": "LT P   + T +  + L  G R +++   D  N    IYHG  F +  L   VL  I  +  K     +I+ L++   S +      + L  I        P    +  +P+ + ++GKILL"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P07598|PHFL_DESVH",
+                  "accession": "P07598",
+                  "title": "Periplasmic [Fe] hydrogenase large subunit OS=Desulfovibrio vulgaris (strain ATCC 29579 / DSM 644 / NCIMB 8303 / VKM B-1760 / Hildenborough) OX=882 GN=hydA PE=1 SV=1"
+                }
+              ],
+              "len": 421,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 0.383964,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 663,
+                  "query_to": 694,
+                  "hit_from": 122,
+                  "hit_to": 153,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "VGRDTGSRQTAVITNNGFNPRWDMEFEFEVTV",
+                  "hseq": "VGSVTTGKMLAALQKLGFAHCWDTEFTADVTI",
+                  "midline": "VG  T  +  A +   GF   WD EF  +VT+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "tr|Q82XT5|Q82XT5_NITEU",
+                  "accession": "Q82XT5",
+                  "title": "Ferritin OS=Nitrosomonas europaea (strain ATCC 19718 / CIP 103999 / KCTC 2705 / NBRC 14298) OX=228410 GN=NE0167 PE=1 SV=1"
+                }
+              ],
+              "len": 95,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.483,
+                  "score": 49,
+                  "evalue": 1.81819,
+                  "identity": 17,
+                  "positive": 30,
+                  "query_from": 193,
+                  "query_to": 261,
+                  "hit_from": 10,
+                  "hit_to": 77,
+                  "align_len": 69,
+                  "gaps": 1,
+                  "qseq": "TDSLEDEEIETFYKMLTQRAEIDRAFEEAAGSAETLSVERLVTFLQHQQREEEAGPALALSLIERYEPS",
+                  "hseq": "TQELSDETRDMHRAIISLREELE-AVDLYNQRVNACKDKELKAILAHNRDEEKEHAAMLLEWIRRCDPA",
+                  "midline": "T  L DE  +    +++ R E++ A +           + L   L H + EE+   A+ L  I R +P+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 3.59741,
+                  "identity": 21,
+                  "positive": 37,
+                  "query_from": 391,
+                  "query_to": 472,
+                  "hit_from": 6449,
+                  "hit_to": 6530,
+                  "align_len": 85,
+                  "gaps": 6,
+                  "qseq": "NHCSLEQQRVMARHLRAILGPILLDQPLDGVTTS---LPSPEQLKGKILLKGKKLGGLLPAGGENGSEATDVSDEVEAAEMEDEA",
+                  "hseq": "NNAVTTAQGIIDQTTSPTLDPTVINQAAGQVSTTKNALNSNENLEAAKQQATQSLGSL---DNLNNAQKQAVTDQINGAHTVDEA",
+                  "midline": "N+     Q ++ +     L P +++Q    V+T+   L S E L+       + LG L      N ++   V+D++  A   DEA"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 72,
+            "eff_space": 46289016,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

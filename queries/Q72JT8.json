@@ -1,0 +1,297 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q72JT8|GFH1_THET2 Transcription inhibitor protein Gfh1 OS=Thermus thermophilus (strain ATCC BAA-163 / DSM 7039 / HB27) OX=262724 GN=gfh1 PE=1 SV=1",
+          "query_len": 156,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q72JT8|GFH1_THET2",
+                  "accession": "Q72JT8",
+                  "title": "Transcription inhibitor protein Gfh1 OS=Thermus thermophilus (strain ATCC BAA-163 / DSM 7039 / HB27) OX=262724 GN=gfh1 PE=1 SV=1"
+                }
+              ],
+              "len": 156,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 305.449,
+                  "score": 781,
+                  "evalue": 1.04091e-110,
+                  "identity": 156,
+                  "positive": 156,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 1,
+                  "hit_to": 156,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "MAREVKLTKAGYERLMQQLERERERLQEATKILQELMESSDDYDDSGLEAAKQEKARIEARIDSLEDILSRAVILEEGSGEVIGLGSVVELEDPLSGERLSVQVVSPAEANVLDTPMKISDASPMGKALLGHRVGDVLSLDTPKGKREFRVVAIHG",
+                  "hseq": "MAREVKLTKAGYERLMQQLERERERLQEATKILQELMESSDDYDDSGLEAAKQEKARIEARIDSLEDILSRAVILEEGSGEVIGLGSVVELEDPLSGERLSVQVVSPAEANVLDTPMKISDASPMGKALLGHRVGDVLSLDTPKGKREFRVVAIHG",
+                  "midline": "MAREVKLTKAGYERLMQQLERERERLQEATKILQELMESSDDYDDSGLEAAKQEKARIEARIDSLEDILSRAVILEEGSGEVIGLGSVVELEDPLSGERLSVQVVSPAEANVLDTPMKISDASPMGKALLGHRVGDVLSLDTPKGKREFRVVAIHG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q8VQD7|GFH1_THEAQ",
+                  "accession": "Q8VQD7",
+                  "title": "Transcription inhibitor protein Gfh1 OS=Thermus aquaticus OX=271 GN=gfh1 PE=1 SV=1"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 290.812,
+                  "score": 743,
+                  "evalue": 7.92063e-105,
+                  "identity": 146,
+                  "positive": 154,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 1,
+                  "hit_to": 156,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "MAREVKLTKAGYERLMQQLERERERLQEATKILQELMESSDDYDDSGLEAAKQEKARIEARIDSLEDILSRAVILEEGSGEVIGLGSVVELEDPLSGERLSVQVVSPAEANVLDTPMKISDASPMGKALLGHRVGDVLSLDTPKGKREFRVVAIHG",
+                  "hseq": "MAREVKLTKAGYERLMKQLEQERERLQEATKILQELMESSDDYDDSGLEAAKQEKARIEARIDSLEDVLSRAVILEEGTGEVIGLGSVVELEDPATGERLSVQVVSPAEASVLENPMKISDASPMGKALLGHRVGDVLSLDTPKGKKEFRVVAIHG",
+                  "midline": "MAREVKLTKAGYERLM+QLE+ERERLQEATKILQELMESSDDYDDSGLEAAKQEKARIEARIDSLED+LSRAVILEEG+GEVIGLGSVVELEDP +GERLSVQVVSPAEA+VL+ PMKISDASPMGKALLGHRVGDVLSLDTPKGK+EFRVVAIHG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P0A6W5|GREA_ECOLI",
+                  "accession": "P0A6W5",
+                  "title": "Transcription elongation factor GreA OS=Escherichia coli (strain K12) OX=83333 GN=greA PE=1 SV=1"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 5.81325e-10,
+                  "identity": 41,
+                  "positive": 79,
+                  "query_from": 5,
+                  "query_to": 154,
+                  "hit_from": 4,
+                  "hit_to": 155,
+                  "align_len": 155,
+                  "gaps": 8,
+                  "qseq": "VKLTKAGYERLMQQLERERE-RLQEATKILQELMESSDDYDDSGLEAAKQEKARIEARIDSLEDILSRAVILE----EGSGEVIGLGSVVELEDPLSGERLSVQVVSPAEANVLDTPMKISDASPMGKALLGHRVGDVLSLDTPKGKREFRVVAI",
+                  "hseq": "IPMTLRGAEKLREELDFLKSVRRPEIIAAIAEAREHGDLKENAEYHAAREQQGFCEGRIKDIEAKLSNAQVIDVTKMPNNGRVI-FGATVTVLNLDSDEEQTYRIVGDDEADFKQNLISVN--SPIARGLIGKEEDDVVVIKTPGGEVEFEVIKV",
+                  "midline": "+ +T  G E+L ++L+  +  R  E    + E  E  D  +++   AA++++   E RI  +E  LS A +++      +G VI  G+ V + +  S E  + ++V   EA+     + ++  SP+ + L+G    DV+ + TP G+ EF V+ +"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|O43896|KIF1C_HUMAN",
+                  "accession": "O43896",
+                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                }
+              ],
+              "len": 1103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 1.62143,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 24,
+                  "query_to": 42,
+                  "hit_from": 442,
+                  "hit_to": 460,
+                  "align_len": 19,
+                  "gaps": 0,
+                  "qseq": "ERLQEATKILQELMESSDD",
+                  "hseq": "ERLQETEKIIAELNETWEE",
+                  "midline": "ERLQE  KI+ EL E+ ++"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 3.30375,
+                  "identity": 10,
+                  "positive": 19,
+                  "query_from": 66,
+                  "query_to": 98,
+                  "hit_from": 9352,
+                  "hit_to": 9384,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "EDILSRAVILEEGSGEVIGLGSVVELEDPLSGE",
+                  "hseq": "QDILAHINLIDQLSAEVIDTPSTATISDSLTAK",
+                  "midline": "+DIL+   ++++ S EVI   S   + D L+ +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 4.68041,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 45,
+                  "query_to": 73,
+                  "hit_from": 6489,
+                  "hit_to": 6517,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "DSGLEAAKQEKARIEARIDSLEDILSRAV",
+                  "hseq": "NENLEAAKQQATQSLGSLDNLNNAQKQAV",
+                  "midline": "+  LEAAKQ+  +    +D+L +   +AV"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q00722|PLCB2_HUMAN",
+                  "accession": "Q00722",
+                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
+                }
+              ],
+              "len": 1185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 4.73258,
+                  "identity": 15,
+                  "positive": 27,
+                  "query_from": 13,
+                  "query_to": 66,
+                  "hit_from": 1088,
+                  "hit_to": 1135,
+                  "align_len": 55,
+                  "gaps": 8,
+                  "qseq": "ERLMQQLERERERLQEA-TKILQELMESSDDYDDSGLEAAKQEKARIEARIDSLE",
+                  "hseq": "KQMTENLERHQEKLEEKQAACLEQIREMEKQFQKEAL-------AEYEARMKGLE",
+                  "midline": "+++ + LER +E+L+E     L+++ E    +    L       A  EAR+  LE"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P52687|CITA_KLEPN",
+                  "accession": "P52687",
+                  "title": "Sensor histidine kinase CitA OS=Klebsiella pneumoniae OX=573 GN=citA PE=1 SV=1"
+                }
+              ],
+              "len": 547,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 4.89998,
+                  "identity": 17,
+                  "positive": 27,
+                  "query_from": 49,
+                  "query_to": 96,
+                  "hit_from": 129,
+                  "hit_to": 180,
+                  "align_len": 52,
+                  "gaps": 4,
+                  "qseq": "EAAKQEKARIEARIDSLEDILSRAVILEEGSGEVIGLGSV----VELEDPLS",
+                  "hseq": "EALINAKSYVSVRKGSLGSSLRGKSPIQDATGKVIGIVSVGYTIEQLENWLS",
+                  "midline": "EA    K+ +  R  SL   L     +++ +G+VIG+ SV     +LE+ LS"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P28632|HOLD_ECOLI",
+                  "accession": "P28632",
+                  "title": "DNA polymerase III subunit psi OS=Escherichia coli (strain K12) OX=83333 GN=holD PE=1 SV=1"
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 5.67566,
+                  "identity": 17,
+                  "positive": 21,
+                  "query_from": 91,
+                  "query_to": 135,
+                  "hit_from": 49,
+                  "hit_to": 91,
+                  "align_len": 45,
+                  "gaps": 2,
+                  "qseq": "LEDPLSGERLSVQVVSPAEANVLDTPMKISDASPMGKALLGHRVG",
+                  "hseq": "LTDPLVSDVLRALTVSPDQVLQL-TPEKIA-MLPQGSHCNSWRLG",
+                  "midline": "L DPL  + L    VSP +   L TP KI+   P G      R+G"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 59,
+            "eff_space": 6827927,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

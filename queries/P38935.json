@@ -1,0 +1,190 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P38935|SMBP2_HUMAN DNA-binding protein SMUBP-2 OS=Homo sapiens OX=9606 GN=IGHMBP2 PE=1 SV=3",
+          "query_len": 993,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P38935|SMBP2_HUMAN",
+                  "accession": "P38935",
+                  "title": "DNA-binding protein SMUBP-2 OS=Homo sapiens OX=9606 GN=IGHMBP2 PE=1 SV=3"
+                }
+              ],
+              "len": 993,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 2034.61,
+                  "score": 5270,
+                  "evalue": 0,
+                  "identity": 993,
+                  "positive": 993,
+                  "query_from": 1,
+                  "query_to": 993,
+                  "hit_from": 1,
+                  "hit_to": 993,
+                  "align_len": 993,
+                  "gaps": 0,
+                  "qseq": "MASAAVESFVTKQLDLLELERDAEVEERRSWQENISLKELQSRGVCLLKLQVSSQRTGLYGRLLVTFEPRRYGSAAALPSNSFTSGDIVGLYDAANEGSQLATGILTRVTQKSVTVAFDESHDFQLSLDRENSYRLLKLANDVTYRRLKKALIALKKYHSGPASSLIEVLFGRSAPSPASEIHPLTFFNTCLDTSQKEAVLFALSQKELAIIHGPPGTGKTTTVVEIILQAVKQGLKVLCCAPSNIAVDNLVERLALCKQRILRLGHPARLLESIQQHSLDAVLARSDSAQIVADIRKDIDQVFVKNKKTQDKREKSNFRNEIKLLRKELKEREEAAMLESLTSANVVLATNTGASADGPLKLLPESYFDVVVIDECAQALEASCWIPLLKARKCILAGDHKQLPPTTVSHKAALAGLSLSLMERLAEEYGARVVRTLTVQYRMHQAIMRWASDTMYLGQLTAHSSVARHLLRDLPGVAATEETGVPLLLVDTAGCGLFELEEEDEQSKGNPGEVRLVSLHIQALVDAGVPARDIAVVSPYNLQVDLLRQSLVHRHPELEIKSVDGFQGREKEAVILSFVRSNRKGEVGFLAEDRRINVAVTRARRHVAVICDSRTVNNHAFLKTLVEYFTQHGEVRTAFEYLDDIVPENYSHENSQGSSHAATKPQGPATSTRTGSQRQEGGQEAAAPARQGRKKPAGKSLASEAPSQPSLNGGSPEGVESQDGVDHFRAMIVEFMASKKMQLEFPPSLNSHDRLRVHQIAEEHGLRHDSSGEGKRRFITVSKRAPRPRAALGPPAGTGGPAPLQPVPPTPAQTEQPPREQRGPDQPDLRTLHLERLQRVRSAQGQPASKEQQASGQQKLPEKKKKKAKGHPATDLPTEEDFEALVSAAVKADNTCGFAKCTAGVTTLGQFCQLCSRRYCLSHHLPEIHGCGERARAHARQRISREGVLYAGSGTKNGSLDPAKRAQLQRRLDKKLSELSNQRTSRRKERGT",
+                  "hseq": "MASAAVESFVTKQLDLLELERDAEVEERRSWQENISLKELQSRGVCLLKLQVSSQRTGLYGRLLVTFEPRRYGSAAALPSNSFTSGDIVGLYDAANEGSQLATGILTRVTQKSVTVAFDESHDFQLSLDRENSYRLLKLANDVTYRRLKKALIALKKYHSGPASSLIEVLFGRSAPSPASEIHPLTFFNTCLDTSQKEAVLFALSQKELAIIHGPPGTGKTTTVVEIILQAVKQGLKVLCCAPSNIAVDNLVERLALCKQRILRLGHPARLLESIQQHSLDAVLARSDSAQIVADIRKDIDQVFVKNKKTQDKREKSNFRNEIKLLRKELKEREEAAMLESLTSANVVLATNTGASADGPLKLLPESYFDVVVIDECAQALEASCWIPLLKARKCILAGDHKQLPPTTVSHKAALAGLSLSLMERLAEEYGARVVRTLTVQYRMHQAIMRWASDTMYLGQLTAHSSVARHLLRDLPGVAATEETGVPLLLVDTAGCGLFELEEEDEQSKGNPGEVRLVSLHIQALVDAGVPARDIAVVSPYNLQVDLLRQSLVHRHPELEIKSVDGFQGREKEAVILSFVRSNRKGEVGFLAEDRRINVAVTRARRHVAVICDSRTVNNHAFLKTLVEYFTQHGEVRTAFEYLDDIVPENYSHENSQGSSHAATKPQGPATSTRTGSQRQEGGQEAAAPARQGRKKPAGKSLASEAPSQPSLNGGSPEGVESQDGVDHFRAMIVEFMASKKMQLEFPPSLNSHDRLRVHQIAEEHGLRHDSSGEGKRRFITVSKRAPRPRAALGPPAGTGGPAPLQPVPPTPAQTEQPPREQRGPDQPDLRTLHLERLQRVRSAQGQPASKEQQASGQQKLPEKKKKKAKGHPATDLPTEEDFEALVSAAVKADNTCGFAKCTAGVTTLGQFCQLCSRRYCLSHHLPEIHGCGERARAHARQRISREGVLYAGSGTKNGSLDPAKRAQLQRRLDKKLSELSNQRTSRRKERGT",
+                  "midline": "MASAAVESFVTKQLDLLELERDAEVEERRSWQENISLKELQSRGVCLLKLQVSSQRTGLYGRLLVTFEPRRYGSAAALPSNSFTSGDIVGLYDAANEGSQLATGILTRVTQKSVTVAFDESHDFQLSLDRENSYRLLKLANDVTYRRLKKALIALKKYHSGPASSLIEVLFGRSAPSPASEIHPLTFFNTCLDTSQKEAVLFALSQKELAIIHGPPGTGKTTTVVEIILQAVKQGLKVLCCAPSNIAVDNLVERLALCKQRILRLGHPARLLESIQQHSLDAVLARSDSAQIVADIRKDIDQVFVKNKKTQDKREKSNFRNEIKLLRKELKEREEAAMLESLTSANVVLATNTGASADGPLKLLPESYFDVVVIDECAQALEASCWIPLLKARKCILAGDHKQLPPTTVSHKAALAGLSLSLMERLAEEYGARVVRTLTVQYRMHQAIMRWASDTMYLGQLTAHSSVARHLLRDLPGVAATEETGVPLLLVDTAGCGLFELEEEDEQSKGNPGEVRLVSLHIQALVDAGVPARDIAVVSPYNLQVDLLRQSLVHRHPELEIKSVDGFQGREKEAVILSFVRSNRKGEVGFLAEDRRINVAVTRARRHVAVICDSRTVNNHAFLKTLVEYFTQHGEVRTAFEYLDDIVPENYSHENSQGSSHAATKPQGPATSTRTGSQRQEGGQEAAAPARQGRKKPAGKSLASEAPSQPSLNGGSPEGVESQDGVDHFRAMIVEFMASKKMQLEFPPSLNSHDRLRVHQIAEEHGLRHDSSGEGKRRFITVSKRAPRPRAALGPPAGTGGPAPLQPVPPTPAQTEQPPREQRGPDQPDLRTLHLERLQRVRSAQGQPASKEQQASGQQKLPEKKKKKAKGHPATDLPTEEDFEALVSAAVKADNTCGFAKCTAGVTTLGQFCQLCSRRYCLSHHLPEIHGCGERARAHARQRISREGVLYAGSGTKNGSLDPAKRAQLQRRLDKKLSELSNQRTSRRKERGT"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P00282|AZUR_PSEAE",
+                  "accession": "P00282",
+                  "title": "Azurin OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=azu PE=1 SV=2"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 4.59572,
+                  "identity": 8,
+                  "positive": 13,
+                  "query_from": 258,
+                  "query_to": 279,
+                  "hit_from": 46,
+                  "hit_to": 67,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "CKQRILRLGHPARLLESIQQHS",
+                  "hseq": "CKQFTVNLSHPGNLPKNVMGHN",
+                  "midline": "CKQ  + L HP  L +++  H+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|O75604|UBP2_HUMAN",
+                  "accession": "O75604",
+                  "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
+                }
+              ],
+              "len": 605,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 6.74101,
+                  "identity": 31,
+                  "positive": 43,
+                  "query_from": 613,
+                  "query_to": 703,
+                  "hit_from": 162,
+                  "hit_to": 267,
+                  "align_len": 107,
+                  "gaps": 17,
+                  "qseq": "DSRTVNNHAFL-KTLVEYFTQHGEVRTAF--EYLDDIVPENYSHENS--QGSSHA-----------ATKPQGPATSTRTGSQRQEGGQEAAAPARQGRKKPAGKSLA",
+                  "hseq": "DPRNLGRSPMLARTRKELCTLQGLYQTASCPEYLVDYL-ENYGRKGSASQVPSQAPPSRVPEIISPTYRPIGRYTLWETGKGQAPGPSRSSSPGRDGMNSKSAQGLA",
+                  "midline": "D R +     L +T  E  T  G  +TA   EYL D + ENY  + S  Q  S A             +P G  T   TG  +  G   +++P R G    + + LA"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|Q8NWQ6|EBH_STAAW",
+                  "accession": "Q8NWQ6",
+                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                }
+              ],
+              "len": 9904,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 7.68402,
+                  "identity": 30,
+                  "positive": 52,
+                  "query_from": 193,
+                  "query_to": 309,
+                  "hit_from": 6945,
+                  "hit_to": 7053,
+                  "align_len": 123,
+                  "gaps": 20,
+                  "qseq": "DTSQKEAVLFALSQKELAIIHGPPGTGKTTTVVEIILQAVKQGLKVLCCAPSNIAVDNLVERLALCKQRILRLGHPARLLESIQQHSLDAVLARSDSAQIVADIR------KDIDQVFVKNKK",
+                  "hseq": "DQAKKDAYTNAVSHAE-GILSKANGSNASQTEVEQAMQRVNEAKQALN------GNDNVQRAKDAAKQVITNA-------NDLNQAQKDALKQQVDAAQTVANVNTIKQTAQDLNQAMTQLKQ",
+                  "midline": "D ++K+A   A+S  E  I+    G+  + T VE  +Q V +  + L         DN+       KQ I            + Q   DA+  + D+AQ VA++       +D++Q   + K+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q12888|TP53B_HUMAN",
+                  "accession": "Q12888",
+                  "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
+                }
+              ],
+              "len": 1972,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 9.24024,
+                  "identity": 9,
+                  "positive": 13,
+                  "query_from": 34,
+                  "query_to": 49,
+                  "hit_from": 690,
+                  "hit_to": 705,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "NISLKELQSRGVCLLK",
+                  "hseq": "HLSLTETQSQGLCLQK",
+                  "midline": "++SL E QS+G+CL K"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 74,
+            "eff_space": 61808264,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

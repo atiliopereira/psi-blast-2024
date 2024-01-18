@@ -1,0 +1,670 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P00713|LALBA_CAVPO Alpha-lactalbumin OS=Cavia porcellus OX=10141 GN=LALBA PE=1 SV=2",
+          "query_len": 142,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P00713|LALBA_CAVPO",
+                  "accession": "P00713",
+                  "title": "Alpha-lactalbumin OS=Cavia porcellus OX=10141 GN=LALBA PE=1 SV=2"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 292.352,
+                  "score": 747,
+                  "evalue": 6.12985e-106,
+                  "identity": 142,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 142,
+                  "hit_from": 1,
+                  "hit_to": 142,
+                  "align_len": 142,
+                  "gaps": 0,
+                  "qseq": "MMSFFPLLLVGILFPAVQAKQLTKCALSHELNDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHKEYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKILDIKGIDYWLAHKPLCSDKLEQWYCEAQ",
+                  "hseq": "MMSFFPLLLVGILFPAVQAKQLTKCALSHELNDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHKEYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKILDIKGIDYWLAHKPLCSDKLEQWYCEAQ",
+                  "midline": "MMSFFPLLLVGILFPAVQAKQLTKCALSHELNDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHKEYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKILDIKGIDYWLAHKPLCSDKLEQWYCEAQ"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P00709|LALBA_HUMAN",
+                  "accession": "P00709",
+                  "title": "Alpha-lactalbumin OS=Homo sapiens OX=9606 GN=LALBA PE=1 SV=1"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.223,
+                  "score": 526,
+                  "evalue": 3.37384e-72,
+                  "identity": 99,
+                  "positive": 113,
+                  "query_from": 1,
+                  "query_to": 140,
+                  "hit_from": 1,
+                  "hit_to": 140,
+                  "align_len": 140,
+                  "gaps": 0,
+                  "qseq": "MMSFFPLLLVGILFPAVQAKQLTKCALSHELNDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHKEYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKILDIKGIDYWLAHKPLCSDKLEQWYCE",
+                  "hseq": "MRFFVPLFLVGILFPAILAKQFTKCELSQLLKDIDGYGGIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNKLWCKSSQVPQSRNICDISCDKFLDDDITDDIMCAKKILDIKGIDYWLAHKALCTEKLEQWLCE",
+                  "midline": "M  F PL LVGILFPA+ AKQ TKC LS  L D+ GY  I LPE +C +FH SGYDTQAIV+N++  EYGLFQI++K +C+SS   QSRNICDISCDK LDDD+TDDIMC KKILDIKGIDYWLAHK LC++KLEQW CE"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P00711|LALBA_BOVIN",
+                  "accession": "P00711",
+                  "title": "Alpha-lactalbumin OS=Bos taurus OX=9913 GN=LALBA PE=1 SV=2"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 202.601,
+                  "score": 514,
+                  "evalue": 1.88381e-70,
+                  "identity": 97,
+                  "positive": 111,
+                  "query_from": 1,
+                  "query_to": 140,
+                  "hit_from": 1,
+                  "hit_to": 140,
+                  "align_len": 140,
+                  "gaps": 0,
+                  "qseq": "MMSFFPLLLVGILFPAVQAKQLTKCALSHELNDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHKEYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKILDIKGIDYWLAHKPLCSDKLEQWYCE",
+                  "hseq": "MMSFVSLLLVGILFHATQAEQLTKCEVFRELKDLKGYGGVSLPEWVCTTFHTSGYDTQAIVQNNDSTEYGLFQINNKIWCKDDQNPHSSNICNISCDKFLDDDLTDDIMCVKKILDKVGINYWLAHKALCSEKLDQWLCE",
+                  "midline": "MMSF  LLLVGILF A QA+QLTKC +  EL DL GY  ++LPEW+C  FH SGYDTQAIV+N+D  EYGLFQIN+K +C+      S NIC+ISCDK LDDDLTDDIMCVKKILD  GI+YWLAHK LCS+KL+QW CE"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P00712|LALBA_CAPHI",
+                  "accession": "P00712",
+                  "title": "Alpha-lactalbumin OS=Capra hircus OX=9925 GN=LALBA PE=1 SV=1"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 196.823,
+                  "score": 499,
+                  "evalue": 3.91549e-68,
+                  "identity": 94,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 140,
+                  "hit_from": 1,
+                  "hit_to": 140,
+                  "align_len": 140,
+                  "gaps": 0,
+                  "qseq": "MMSFFPLLLVGILFPAVQAKQLTKCALSHELNDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHKEYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKILDIKGIDYWLAHKPLCSDKLEQWYCE",
+                  "hseq": "MMSFVSLLLVGILFHATQAEQLTKCEVFQKLKDLKDYGGVSLPEWVCTAFHTSGYDTQAIVQNNDSTEYGLFQINNKIWCKDDQNPHSRNICNISCDKFLDDDLTDDIVCAKKILDKVGINYWLAHKALCSEKLDQWLCE",
+                  "midline": "MMSF  LLLVGILF A QA+QLTKC +  +L DL  Y  ++LPEW+C  FH SGYDTQAIV+N+D  EYGLFQIN+K +C+      SRNIC+ISCDK LDDDLTDDI+C KKILD  GI+YWLAHK LCS+KL+QW CE"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P12065|LALBA_PAPCY",
+                  "accession": "P12065",
+                  "title": "Alpha-lactalbumin OS=Papio cynocephalus OX=9556 GN=LALBA PE=1 SV=1"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 177.948,
+                  "score": 450,
+                  "evalue": 6.2141e-61,
+                  "identity": 83,
+                  "positive": 100,
+                  "query_from": 20,
+                  "query_to": 142,
+                  "hit_from": 1,
+                  "hit_to": 123,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "KQLTKCALSHELNDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHKEYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKILDIKGIDYWLAHKPLCSDKLEQWYCEAQ",
+                  "hseq": "KQFTKCELSQNLYDIDGYGRIALPELICTMFHTSGYDTQAIVENNESTEYGLFQISNALWCKSSQSPQSRNICDITCDKFLDDDITDDIMCAKKILDIKGIDYWIAHKALCTEKLEQWLCEKE",
+                  "midline": "KQ TKC LS  L D+ GY  I LPE +C +FH SGYDTQAIV+N++  EYGLFQI++  +C+SS + QSRNICDI+CDK LDDD+TDDIMC KKILDIKGIDYW+AHK LC++KLEQW CE +"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P61626|LYSC_HUMAN",
+                  "accession": "P61626",
+                  "title": "Lysozyme C OS=Homo sapiens OX=9606 GN=LYZ PE=1 SV=1"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 2.1879e-27,
+                  "identity": 49,
+                  "positive": 77,
+                  "query_from": 1,
+                  "query_to": 133,
+                  "hit_from": 1,
+                  "hit_to": 137,
+                  "align_len": 138,
+                  "gaps": 6,
+                  "qseq": "MMSFFPLLLVGILFPAVQAKQLTKCALSHELNDLA--GYRDITLPEWLCIIFHISGYDTQAIVKNSDHK--EYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKIL-DIKGIDYWLAHKPLCSDK",
+                  "hseq": "MKALIVLGLV-LLSVTVQGKVFERCELARTLKRLGMDGYRGISLANWMCLAKWESGYNTRATNYNAGDRSTDYGIFQINSRYWCNDGKTPGAVNACHLSCSALLQDNIADAVACAKRVVRDPQGIRAWVAWRNRCQNR",
+                  "midline": "M +   L LV +L   VQ K   +C L+  L  L   GYR I+L  W+C+    SGY+T+A   N+  +  +YG+FQIN + +C    T  + N C +SC  LL D++ D + C K+++ D +GI  W+A +  C ++"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P08905|LYZ2_MOUSE",
+                  "accession": "P08905",
+                  "title": "Lysozyme C-2 OS=Mus musculus OX=10090 GN=Lyz2 PE=1 SV=2"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.5077,
+                  "score": 223,
+                  "evalue": 3.56086e-26,
+                  "identity": 44,
+                  "positive": 71,
+                  "query_from": 17,
+                  "query_to": 133,
+                  "hit_from": 16,
+                  "hit_to": 137,
+                  "align_len": 122,
+                  "gaps": 5,
+                  "qseq": "VQAKQLTKCALSHEL--NDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHK--EYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKIL-DIKGIDYWLAHKPLCSDK",
+                  "hseq": "AQAKVYERCEFARTLKRNGMAGYYGVSLADWVCLAQHESNYNTRATNYNRGDQSTDYGIFQINSRYWCNDGKTPRAVNACGINCSALLQDDITAAIQCAKRVVRDPQGIRAWVAWRAHCQNR",
+                  "midline": " QAK   +C  +  L  N +AGY  ++L +W+C+  H S Y+T+A   N   +  +YG+FQIN + +C    T ++ N C I+C  LL DD+T  I C K+++ D +GI  W+A +  C ++"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P11941|LYSC2_ONCMY",
+                  "accession": "P11941",
+                  "title": "Lysozyme C II OS=Oncorhynchus mykiss OX=8022 PE=1 SV=2"
+                }
+              ],
+              "len": 144,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 9.75826e-25,
+                  "identity": 45,
+                  "positive": 70,
+                  "query_from": 19,
+                  "query_to": 133,
+                  "hit_from": 15,
+                  "hit_to": 133,
+                  "align_len": 119,
+                  "gaps": 4,
+                  "qseq": "AKQLTKCALSHEL--NDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHK-EYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKK-ILDIKGIDYWLAHKPLCSDK",
+                  "hseq": "AKVYDRCELARALKASGMDGYAGNSLPNWVCLSKWESSYNTQATNRNTDGSTDYGIFQINSRYWCDDGRTPGAKNVCGIRCSQLLTADLTVAIRCAKRVVLDPNGIGAWVAWRLHCQNQ",
+                  "midline": "AK   +C L+  L  + + GY   +LP W+C+    S Y+TQA  +N+D   +YG+FQIN + +C+   T  ++N+C I C +LL  DLT  I C K+ +LD  GI  W+A +  C ++"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P00698|LYSC_CHICK",
+                  "accession": "P00698",
+                  "title": "Lysozyme C OS=Gallus gallus OX=9031 GN=LYZ PE=1 SV=1"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 4.37258e-24,
+                  "identity": 45,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 130,
+                  "hit_from": 8,
+                  "hit_to": 133,
+                  "align_len": 132,
+                  "gaps": 8,
+                  "qseq": "MMSFFPLLLVGILFPAVQAKQLTKCALSHELNDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHK-EYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKIL-DIKGIDYWLAHKPLC",
+                  "hseq": "VLCFLPLAALGKVFGRCELAAAMK---RHGLDN---YRGYSLGNWVCAAKFESNFNTQATNRNTDGSTDYGILQINSRWWCNDGRTPGSRNLCNIPCSALLSSDITASVNCAKKIVSDGNGMNAWVAWRNRC",
+                  "midline": "++ F PL  +G +F   +     K    H L++   YR  +L  W+C     S ++TQA  +N+D   +YG+ QIN + +C    T  SRN+C+I C  LL  D+T  + C KKI+ D  G++ W+A +  C"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|P00701|LYSC_COTJA",
+                  "accession": "P00701",
+                  "title": "Lysozyme C OS=Coturnix japonica OX=93934 GN=LYZ PE=1 SV=2"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 83.9593,
+                  "score": 206,
+                  "evalue": 1.14125e-23,
+                  "identity": 44,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 130,
+                  "hit_from": 8,
+                  "hit_to": 133,
+                  "align_len": 132,
+                  "gaps": 8,
+                  "qseq": "MMSFFPLLLVGILFPAVQAKQLTKCALSHELNDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHK-EYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKIL-DIKGIDYWLAHKPLC",
+                  "hseq": "VLCFLPLAALGKVYGRCELAAAMK---RHGLDKYQGY---SLGNWVCAAKFESNFNTQATNRNTDGSTDYGILQINSRWWCNDGRTPGSRNLCNIPCSALLSSDITASVNCAKKIVSDVHGMNAWVAWRNRC",
+                  "midline": "++ F PL  +G ++   +     K    H L+   GY   +L  W+C     S ++TQA  +N+D   +YG+ QIN + +C    T  SRN+C+I C  LL  D+T  + C KKI+ D+ G++ W+A +  C"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "sp|P37156|LYSC1_TACAC",
+                  "accession": "P37156",
+                  "title": "Lysozyme C I OS=Tachyglossus aculeatus aculeatus OX=49271 PE=1 SV=1"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 8.52501e-23,
+                  "identity": 48,
+                  "positive": 65,
+                  "query_from": 33,
+                  "query_to": 130,
+                  "hit_from": 16,
+                  "hit_to": 115,
+                  "align_len": 100,
+                  "gaps": 2,
+                  "qseq": "DLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHK-EYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKIL-DIKGIDYWLAHKPLC",
+                  "hseq": "GMNGYQHITLPNWVCTAFHESSYNTRATNHNTDGSTDYGILQINSRYWCHDGKTPGSKNACNISCSKLLDDDITDDLKCAKKIAGEAKGLTPWVAWKSKC",
+                  "midline": " + GY+ ITLP W+C  FH S Y+T+A   N+D   +YG+ QIN + +C    T  S+N C+ISC KLLDDD+TDD+ C KKI  + KG+  W+A K  C"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "sp|P11376|LYSC1_HORSE",
+                  "accession": "P11376",
+                  "title": "Lysozyme C, milk isozyme OS=Equus caballus OX=9796 GN=LYZ PE=1 SV=1"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.1073,
+                  "score": 196,
+                  "evalue": 2.46832e-22,
+                  "identity": 45,
+                  "positive": 74,
+                  "query_from": 20,
+                  "query_to": 133,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 119,
+                  "gaps": 6,
+                  "qseq": "KQLTKCALSHELN--DLAGYRDITLPEWLCIIFHISGYDTQAI-VKNSD-HKEYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKIL-DIKGIDYWLAHKPLCSDK",
+                  "hseq": "KVFSKCELAHKLKAQEMDGFGGYSLANWVCMAEYESNFNTRAFNGKNANGSSDYGLFQLNNKWWCKDNKR-SSSNACNIMCSKLLDENIDDDISCAKRVVRDPKGMSAWKAWVKHCKDK",
+                  "midline": "K  +KC L+H+L   ++ G+   +L  W+C+  + S ++T+A   KN++   +YGLFQ+N+K +C+ +    S N C+I C KLLD+++ DDI C K+++ D KG+  W A    C DK"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "sp|P00700|LYSC_COLVI",
+                  "accession": "P00700",
+                  "title": "Lysozyme C OS=Colinus virginianus OX=9014 GN=LYZ PE=1 SV=2"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 78.9518,
+                  "score": 193,
+                  "evalue": 7.18037e-22,
+                  "identity": 40,
+                  "positive": 64,
+                  "query_from": 20,
+                  "query_to": 130,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 115,
+                  "gaps": 4,
+                  "qseq": "KQLTKCALSHEL--NDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHK-EYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKIL-DIKGIDYWLAHKPLC",
+                  "hseq": "KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNSQATNRNTDGSTDYGVLQINSRWWCNDGKTPGSRNLCNIPCSALLSSDITATVNCAKKIVSDGNGMNAWVAWRNRC",
+                  "midline": "K   +C L+  +  + L  YR  +L  W+C     S +++QA  +N+D   +YG+ QIN + +C    T  SRN+C+I C  LL  D+T  + C KKI+ D  G++ W+A +  C"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "sp|P81708|LYSC1_CANLF",
+                  "accession": "P81708",
+                  "title": "Lysozyme C, milk isozyme OS=Canis lupus familiaris OX=9615 PE=1 SV=1"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 78.1814,
+                  "score": 191,
+                  "evalue": 1.20473e-21,
+                  "identity": 43,
+                  "positive": 71,
+                  "query_from": 20,
+                  "query_to": 133,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 119,
+                  "gaps": 6,
+                  "qseq": "KQLTKCALSHELNDLA--GYRDITLPEWLCIIFHISGYDTQAI-VKNSD-HKEYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKIL-DIKGIDYWLAHKPLCSDK",
+                  "hseq": "KIFSKCELARKLKSMGMDGFHGYSLANWVCMAEYESNFNTQAFNGRNSNGSSDYGIFQLNSKWWCKSNSH-SSANACNIMCSKFLDDNIDDDIACAKRVVKDPNGMSAWVAWVKHCKGK",
+                  "midline": "K  +KC L+ +L  +   G+   +L  W+C+  + S ++TQA   +NS+   +YG+FQ+N K +C+S++   S N C+I C K LDD++ DDI C K+++ D  G+  W+A    C  K"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "sp|P00702|LYSC_PHACO",
+                  "accession": "P00702",
+                  "title": "Lysozyme C OS=Phasianus colchicus colchicus OX=9057 GN=LYZ PE=1 SV=2"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 78.5666,
+                  "score": 192,
+                  "evalue": 1.40071e-21,
+                  "identity": 43,
+                  "positive": 67,
+                  "query_from": 7,
+                  "query_to": 130,
+                  "hit_from": 5,
+                  "hit_to": 133,
+                  "align_len": 129,
+                  "gaps": 5,
+                  "qseq": "LLLVGILFP-AVQAKQLTKCALSHELNDLA--GYRDITLPEWLCIIFHISGYDTQAIVKNSDHK-EYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKIL-DIKGIDYWLAHKPLC",
+                  "hseq": "LILVLCFLPLAAPGKVYGRCELAAAMKRMGLDNYRGYSLGNWVCAAKFESNFNTGATNRNTDGSTDYGILQINSRWWCNDGRTPGSKNLCHIPCSALLSSDITASVNCAKKIVSDGNGMNAWVAWRKHC",
+                  "midline": "L+LV    P A   K   +C L+  +  +    YR  +L  W+C     S ++T A  +N+D   +YG+ QIN + +C    T  S+N+C I C  LL  D+T  + C KKI+ D  G++ W+A +  C"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "sp|P00703|LYSC_MELGA",
+                  "accession": "P00703",
+                  "title": "Lysozyme C OS=Meleagris gallopavo OX=9103 GN=LYZ PE=1 SV=2"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 78.1814,
+                  "score": 191,
+                  "evalue": 2.29587e-21,
+                  "identity": 43,
+                  "positive": 66,
+                  "query_from": 7,
+                  "query_to": 130,
+                  "hit_from": 5,
+                  "hit_to": 133,
+                  "align_len": 129,
+                  "gaps": 5,
+                  "qseq": "LLLVGILFP-AVQAKQLTKCALSHELNDLA--GYRDITLPEWLCIIFHISGYDTQAIVKNSDHK-EYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKILD-IKGIDYWLAHKPLC",
+                  "hseq": "LILVLCFLPLAALGKVYGRCELAAAMKRLGLDNYRGYSLGNWVCAAKFESNFNTHATNRNTDGSTDYGILQINSRWWCNDGRTPGSKNLCNIPCSALLSSDITASVNCAKKIASGGNGMNAWVAWRNRC",
+                  "midline": "L+LV    P A   K   +C L+  +  L    YR  +L  W+C     S ++T A  +N+D   +YG+ QIN + +C    T  S+N+C+I C  LL  D+T  + C KKI     G++ W+A +  C"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "sp|P00704|LYSC_NUMME",
+                  "accession": "P00704",
+                  "title": "Lysozyme C OS=Numida meleagris OX=8996 GN=LYZ PE=1 SV=2"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 74.7146,
+                  "score": 182,
+                  "evalue": 2.59303e-20,
+                  "identity": 39,
+                  "positive": 62,
+                  "query_from": 20,
+                  "query_to": 130,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 115,
+                  "gaps": 4,
+                  "qseq": "KQLTKCALSHEL--NDLAGYRDITLPEWLCIIFHISGYDTQAIVKNSDHK-EYGLFQINDKDFCESSTTVQSRNICDISCDKLLDDDLTDDIMCVKKIL-DIKGIDYWLAHKPLC",
+                  "hseq": "KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNSQATNRNTDGSTDYGVLQINSRWWCNDGRTPGSRNLCNIPCSALQSSDITATANCAKKIVSDGNGMNAWVAWRKHC",
+                  "midline": "K   +C L+  +  + L  YR  +L  W+C     S +++QA  +N+D   +YG+ QIN + +C    T  SRN+C+I C  L   D+T    C KKI+ D  G++ W+A +  C"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "sp|P0AGC3|SLT_ECOLI",
+                  "accession": "P0AGC3",
+                  "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
+                }
+              ],
+              "len": 645,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 0.391179,
+                  "identity": 7,
+                  "positive": 15,
+                  "query_from": 116,
+                  "query_to": 137,
+                  "hit_from": 327,
+                  "hit_to": 348,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "DIKGIDYWLAHKPLCSDKLEQW",
+                  "hseq": "DRRGLNTWLARLPMEAKEKDEW",
+                  "midline": "D +G++ WLA  P+ + + ++W"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "sp|P55211|CASP9_HUMAN",
+                  "accession": "P55211",
+                  "title": "Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3"
+                }
+              ],
+              "len": 416,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 0.875218,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 74,
+                  "query_to": 99,
+                  "hit_from": 166,
+                  "hit_to": 190,
+                  "align_len": 26,
+                  "gaps": 1,
+                  "qseq": "INDKDFCESSTTVQSRNICDISCDKL",
+                  "hseq": "INNVNFCRES-GLRTRTGSNIDCEKL",
+                  "midline": "IN+ +FC  S  +++R   +I C+KL"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "tr|O66683|O66683_AQUAE",
+                  "accession": "O66683",
+                  "title": "Anti sigma factor FlgM OS=Aquifex aeolicus (strain VF5) OX=224324 GN=flgM PE=1 SV=1"
+                }
+              ],
+              "len": 88,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 2.27159,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 62,
+                  "query_to": 77,
+                  "hit_from": 21,
+                  "hit_to": 36,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "KNSDHKEYGLFQINDK",
+                  "hseq": "KNTEQKESGTNKIEDK",
+                  "midline": "KN++ KE G  +I DK"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "sp|P47096|3HAO_YEAST",
+                  "accession": "P47096",
+                  "title": "3-hydroxyanthranilate 3,4-dioxygenase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BNA1 PE=1 SV=1"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 6.16554,
+                  "identity": 12,
+                  "positive": 16,
+                  "query_from": 11,
+                  "query_to": 46,
+                  "hit_from": 18,
+                  "hit_to": 57,
+                  "align_len": 40,
+                  "gaps": 4,
+                  "qseq": "GILFPAVQAKQLTKCALSHEL----NDLAGYRDITLPEWL",
+                  "hseq": "GLLKPPVNNYCLHKGGFTVMIVGGPNERTGYHINPTPEWF",
+                  "midline": "G+L P V    L K   +  +    N+  GY     PEW "
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 58,
+            "eff_space": 5930400,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

@@ -1,0 +1,280 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|Q96T60|PNKP_HUMAN Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1",
+          "query_len": 521,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|Q96T60|PNKP_HUMAN",
+                  "accession": "Q96T60",
+                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
+                }
+              ],
+              "len": 521,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1065.83,
+                  "score": 2755,
+                  "evalue": 0,
+                  "identity": 521,
+                  "positive": 521,
+                  "query_from": 1,
+                  "query_to": 521,
+                  "hit_from": 1,
+                  "hit_to": 521,
+                  "align_len": 521,
+                  "gaps": 0,
+                  "qseq": "MGEVEAPGRLWLESPPGGAPPIFLPSDGQALVLGRGPLTQVTDRKCSRTQVELVADPETRTVAVKQLGVNPSTTGTQELKPGLEGSLGVGDTLYLVNGLHPLTLRWEETRTPESQPDTPPGTPLVSQDEKRDAELPKKRMRKSNPGWENLEKLLVFTAAGVKPQGKVAGFDLDGTLITTRSGKVFPTGPSDWRILYPEIPRKLRELEAEGYKLVIFTNQMSIGRGKLPAEEFKAKVEAVVEKLGVPFQVLVATHAGLYRKPVTGMWDHLQEQANDGTPISIGDSIFVGDAAGRPANWAPGRKKKDFSCADRLFALNLGLPFATPEEFFLKWPAAGFELPAFDPRTVSRSGPLCLPESRALLSASPEVVVAVGFPGAGKSTFLKKHLVSAGYVHVNRDTLGSWQRCVTTCETALKQGKRVAIDNTNPDAASRARYVQCARAAGVPCRCFLFTATLEQARHNNRFREMTDSSHIPVSDMVMYGYRKQFEAPTLAEGFSAILEIPFRLWVEPRLGRLYCQFSEG",
+                  "hseq": "MGEVEAPGRLWLESPPGGAPPIFLPSDGQALVLGRGPLTQVTDRKCSRTQVELVADPETRTVAVKQLGVNPSTTGTQELKPGLEGSLGVGDTLYLVNGLHPLTLRWEETRTPESQPDTPPGTPLVSQDEKRDAELPKKRMRKSNPGWENLEKLLVFTAAGVKPQGKVAGFDLDGTLITTRSGKVFPTGPSDWRILYPEIPRKLRELEAEGYKLVIFTNQMSIGRGKLPAEEFKAKVEAVVEKLGVPFQVLVATHAGLYRKPVTGMWDHLQEQANDGTPISIGDSIFVGDAAGRPANWAPGRKKKDFSCADRLFALNLGLPFATPEEFFLKWPAAGFELPAFDPRTVSRSGPLCLPESRALLSASPEVVVAVGFPGAGKSTFLKKHLVSAGYVHVNRDTLGSWQRCVTTCETALKQGKRVAIDNTNPDAASRARYVQCARAAGVPCRCFLFTATLEQARHNNRFREMTDSSHIPVSDMVMYGYRKQFEAPTLAEGFSAILEIPFRLWVEPRLGRLYCQFSEG",
+                  "midline": "MGEVEAPGRLWLESPPGGAPPIFLPSDGQALVLGRGPLTQVTDRKCSRTQVELVADPETRTVAVKQLGVNPSTTGTQELKPGLEGSLGVGDTLYLVNGLHPLTLRWEETRTPESQPDTPPGTPLVSQDEKRDAELPKKRMRKSNPGWENLEKLLVFTAAGVKPQGKVAGFDLDGTLITTRSGKVFPTGPSDWRILYPEIPRKLRELEAEGYKLVIFTNQMSIGRGKLPAEEFKAKVEAVVEKLGVPFQVLVATHAGLYRKPVTGMWDHLQEQANDGTPISIGDSIFVGDAAGRPANWAPGRKKKDFSCADRLFALNLGLPFATPEEFFLKWPAAGFELPAFDPRTVSRSGPLCLPESRALLSASPEVVVAVGFPGAGKSTFLKKHLVSAGYVHVNRDTLGSWQRCVTTCETALKQGKRVAIDNTNPDAASRARYVQCARAAGVPCRCFLFTATLEQARHNNRFREMTDSSHIPVSDMVMYGYRKQFEAPTLAEGFSAILEIPFRLWVEPRLGRLYCQFSEG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q9JLV6|PNKP_MOUSE",
+                  "accession": "Q9JLV6",
+                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
+                }
+              ],
+              "len": 522,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 862.833,
+                  "score": 2228,
+                  "evalue": 0,
+                  "identity": 422,
+                  "positive": 461,
+                  "query_from": 1,
+                  "query_to": 521,
+                  "hit_from": 1,
+                  "hit_to": 522,
+                  "align_len": 523,
+                  "gaps": 3,
+                  "qseq": "MGEVEAPGRLWLESPPGGAPPIFLPSDGQALVLGRGPLTQVTDRKCSRTQVELVADPETRTVAVKQLGVNPSTTGTQELKPGLEGSLGVGDTLYLVNGLHPLTLRWEETRTPESQPDTPPGTPLVSQDEKRDAELPKKRMRKSNPGWENLEKLLVFTAAGVKPQGKVAGFDLDGTLITTRSGKVFPTGPSDWRILYPEIPRKLRELEAEGYKLVIFTNQMSIGRGKLPAEEFKAKVEAVVEKLGVPFQVLVATHAGLYRKPVTGMWDHLQEQANDGTPISIGDSIFVGDAAGRPANWAPGRKKKDFSCADRLFALNLGLPFATPEEFFLKWPAAGFELPAFDPRTVSRSGPLCLPESRALLSASPEVVVAVGFPGAGKSTFLKKHLVSAGYVHVNRDTLGSWQRCVTTCETALKQGKRVAIDNTNPDAASRARYVQCARAAGVPCRCFLFTATLEQARHNNRFREMTDSSHIPVSDMVMYGYRKQFEAPTLAEGFSAILEIPFRL--WVEPRLGRLYCQFSEG",
+                  "hseq": "MSQLGSRGRLWLQSPTGGPPPIFLPSDGQALVLGRGPLTQVTDRKCSRNQVELIADPESRTVAVKQLGVNPSTVGVHELKPGLSGSLSLGDVLYLVNGLYPLTLRWEELSTSGSQPDAPPDTP-GDPEEGEDTEPQKKRVRKSSLGWESLKKLLVFTASGVKPQGKVAAFDLDGTLITTRSGKVFPTSPSDWRILYPEIPKKLQELAAEGYKLVIFTNQMGIGRGKLPAEVFKGKVEAVLEKLGVPFQVLVATHAGLNRKPVSGMWDHLQEQANEGIPISVEDSVFVGDAAGRLANWAPGRKKKDFSCADRLFALNVGLPFATPEEFFLKWPAARFELPAFDPRTISSAGPLYLPESSSLLSPNPEVVVAVGFPGAGKSTFIQEHLVSAGYVHVNRDTLGSWQRCVSSCQAALRQGKRVVIDNTNPDVPSRARYIQCAKDAGVPCRCFNFCATIEQARHNNRFREMTDPSHAPVSDMVMFSYRKQFEPPTLAEGFLEILEIPFRLQEHLDPALQRLYRQFSEG",
+                  "midline": "M ++ + GRLWL+SP GG PPIFLPSDGQALVLGRGPLTQVTDRKCSR QVEL+ADPE+RTVAVKQLGVNPST G  ELKPGL GSL +GD LYLVNGL+PLTLRWEE  T  SQPD PP TP    +E  D E  KKR+RKS+ GWE+L+KLLVFTA+GVKPQGKVA FDLDGTLITTRSGKVFPT PSDWRILYPEIP+KL+EL AEGYKLVIFTNQM IGRGKLPAE FK KVEAV+EKLGVPFQVLVATHAGL RKPV+GMWDHLQEQAN+G PIS+ DS+FVGDAAGR ANWAPGRKKKDFSCADRLFALN+GLPFATPEEFFLKWPAA FELPAFDPRT+S +GPL LPES +LLS +PEVVVAVGFPGAGKSTF+++HLVSAGYVHVNRDTLGSWQRCV++C+ AL+QGKRV IDNTNPD  SRARY+QCA+ AGVPCRCF F AT+EQARHNNRFREMTD SH PVSDMVM+ YRKQFE PTLAEGF  ILEIPFRL   ++P L RLY QFSEG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P63228|GMHBB_ECOLI",
+                  "accession": "P63228",
+                  "title": "D-glycero-beta-D-manno-heptose-1,7-bisphosphate 7-phosphatase OS=Escherichia coli (strain K12) OX=83333 GN=gmhB PE=1 SV=1"
+                }
+              ],
+              "len": 191,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.6538,
+                  "score": 78,
+                  "evalue": 0.000465683,
+                  "identity": 15,
+                  "positive": 21,
+                  "query_from": 203,
+                  "query_to": 237,
+                  "hit_from": 39,
+                  "hit_to": 73,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "LRELEAEGYKLVIFTNQMSIGRGKLPAEEFKAKVE",
+                  "hseq": "MRELKKMGFALVVVTNQSGIARGKFTEAQFETLTE",
+                  "midline": "+REL+  G+ LV+ TNQ  I RGK    +F+   E"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P09394|GLPQ_ECOLI",
+                  "accession": "P09394",
+                  "title": "Glycerophosphodiester phosphodiesterase, periplasmic OS=Escherichia coli (strain K12) OX=83333 GN=glpQ PE=1 SV=2"
+                }
+              ],
+              "len": 358,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 0.346413,
+                  "identity": 15,
+                  "positive": 22,
+                  "query_from": 156,
+                  "query_to": 194,
+                  "hit_from": 107,
+                  "hit_to": 145,
+                  "align_len": 40,
+                  "gaps": 2,
+                  "qseq": "FTAAGVKPQGKVAGFDL-DGTLITTRSGKVFPTGPSDWRI",
+                  "hseq": "FTLDEIKSLKFTEGFDIENGKKVQTYPGR-FPMGKSDFRV",
+                  "midline": "FT   +K      GFD+ +G  + T  G+ FP G SD+R+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "tr|Q8RR56|Q8RR56_9BACI",
+                  "accession": "Q8RR56",
+                  "title": "Kumamolisin OS=Bacillus sp. MN-32 OX=198803 GN=kscp PE=1 SV=2"
+                }
+              ],
+              "len": 552,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 0.366896,
+                  "identity": 24,
+                  "positive": 30,
+                  "query_from": 208,
+                  "query_to": 275,
+                  "hit_from": 448,
+                  "hit_to": 511,
+                  "align_len": 68,
+                  "gaps": 4,
+                  "qseq": "AEGYKLVIFTNQMSIGRGKLPAEEFKAKVEAVVEKLGVPFQVLVATHAGLYRKPVTGMWDHLQEQAND",
+                  "hseq": "ATGYEVVIDGETTVIGGTSAVAPLFAALVARINQKLGKPVGYLNPT---LYQLPPEVFHD-ITEGNND",
+                  "midline": "A GY++VI      IG     A  F A V  + +KLG P   L  T   LY+ P     D + E  ND"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P16099|DHTM_METME",
+                  "accession": "P16099",
+                  "title": "Trimethylamine dehydrogenase OS=Methylophilus methylotrophus OX=17 GN=tmd PE=1 SV=3"
+                }
+              ],
+              "len": 730,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 4.01645,
+                  "identity": 10,
+                  "positive": 13,
+                  "query_from": 91,
+                  "query_to": 115,
+                  "hit_from": 637,
+                  "hit_to": 661,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "DTLYLVNGLHPLTLRWEETRTPESQ",
+                  "hseq": "DSLVLVTGRHSECTLWNELKARESE",
+                  "midline": "D+L LV G H     W E +  ES+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P30086|PEBP1_HUMAN",
+                  "accession": "P30086",
+                  "title": "Phosphatidylethanolamine-binding protein 1 OS=Homo sapiens OX=9606 GN=PEBP1 PE=1 SV=3"
+                }
+              ],
+              "len": 187,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 4.79833,
+                  "identity": 26,
+                  "positive": 35,
+                  "query_from": 349,
+                  "query_to": 431,
+                  "hit_from": 9,
+                  "hit_to": 76,
+                  "align_len": 83,
+                  "gaps": 15,
+                  "qseq": "SGPLCLPESRALLSASPEVVVAVGFPGAGKSTFLKKHLVSAGYVHVNRDTLGSWQRCVTTCETALKQGKRVAIDNTNPDAASR",
+                  "hseq": "SGPLSLQE----VDEQPQHPLHVTYAGAAVDELGK--VLTPTQVK-NRPTSISWD--------GLDSGKLYTLVLTDPDAPSR",
+                  "midline": "SGPL L E    +   P+  + V + GA      K  +++   V  NR T  SW          L  GK   +  T+PDA SR"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P04395|3MG2_ECOLI",
+                  "accession": "P04395",
+                  "title": "DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1"
+                }
+              ],
+              "len": 282,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 4.94373,
+                  "identity": 8,
+                  "positive": 14,
+                  "query_from": 352,
+                  "query_to": 374,
+                  "hit_from": 153,
+                  "hit_to": 175,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "LCLPESRALLSASPEVVVAVGFP",
+                  "hseq": "ICFPTPQRLAAADPQALKALGMP",
+                  "midline": "+C P  + L +A P+ + A+G P"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 69,
+            "eff_space": 30872052,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

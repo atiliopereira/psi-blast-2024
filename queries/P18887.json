@@ -1,0 +1,335 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P18887|XRCC1_HUMAN DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3",
+          "query_len": 633,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P18887|XRCC1_HUMAN",
+                  "accession": "P18887",
+                  "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
+                }
+              ],
+              "len": 633,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1294.26,
+                  "score": 3348,
+                  "evalue": 0,
+                  "identity": 633,
+                  "positive": 633,
+                  "query_from": 1,
+                  "query_to": 633,
+                  "hit_from": 1,
+                  "hit_to": 633,
+                  "align_len": 633,
+                  "gaps": 0,
+                  "qseq": "MPEIRLRHVVSCSSQDSTHCAENLLKADTYRKWRAAKAGEKTISVVLQLEKEEQIHSVDIGNDGSAFVEVLVGSSAGGAGEQDYEVLLVTSSFMSPSESRSGSNPNRVRMFGPDKLVRAAAEKRWDRVKIVCSQPYSKDSPFGLSFVRFHSPPDKDEAEAPSQKVTVTKLGQFRVKEEDESANSLRPGALFFSRINKTSPVTASDPAGPSYAAATLQASSAASSASPVSRAIGSTSKPQESPKGKRKLDLNQEEKKTPSKPPAQLSPSVPKRPKLPAPTRTPATAPVPARAQGAVTGKPRGEGTEPRRPRAGPEELGKILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANTPKYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRYLMAGPGSSSEEDEASHSGGSGDEAPKLPQKQPQTKTKPTQAAGPSSPQKPPTPEETKAASPVLQEDIDIEGVQSEGQDNGAEDSGDTEDELRRVAEQKEHRLPPGQEENGEDPYAGSTDENTDSEEHQEPPDLPVPELPDFFQGKHFFLYGEFPGDERRKLIRYVTAFNGELEDYMSDRVQFVITAQEWDPSFEEALMDNPSLAFVRPRWIYSCNEKQKLLPHQLYGVVPQA",
+                  "hseq": "MPEIRLRHVVSCSSQDSTHCAENLLKADTYRKWRAAKAGEKTISVVLQLEKEEQIHSVDIGNDGSAFVEVLVGSSAGGAGEQDYEVLLVTSSFMSPSESRSGSNPNRVRMFGPDKLVRAAAEKRWDRVKIVCSQPYSKDSPFGLSFVRFHSPPDKDEAEAPSQKVTVTKLGQFRVKEEDESANSLRPGALFFSRINKTSPVTASDPAGPSYAAATLQASSAASSASPVSRAIGSTSKPQESPKGKRKLDLNQEEKKTPSKPPAQLSPSVPKRPKLPAPTRTPATAPVPARAQGAVTGKPRGEGTEPRRPRAGPEELGKILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANTPKYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRYLMAGPGSSSEEDEASHSGGSGDEAPKLPQKQPQTKTKPTQAAGPSSPQKPPTPEETKAASPVLQEDIDIEGVQSEGQDNGAEDSGDTEDELRRVAEQKEHRLPPGQEENGEDPYAGSTDENTDSEEHQEPPDLPVPELPDFFQGKHFFLYGEFPGDERRKLIRYVTAFNGELEDYMSDRVQFVITAQEWDPSFEEALMDNPSLAFVRPRWIYSCNEKQKLLPHQLYGVVPQA",
+                  "midline": "MPEIRLRHVVSCSSQDSTHCAENLLKADTYRKWRAAKAGEKTISVVLQLEKEEQIHSVDIGNDGSAFVEVLVGSSAGGAGEQDYEVLLVTSSFMSPSESRSGSNPNRVRMFGPDKLVRAAAEKRWDRVKIVCSQPYSKDSPFGLSFVRFHSPPDKDEAEAPSQKVTVTKLGQFRVKEEDESANSLRPGALFFSRINKTSPVTASDPAGPSYAAATLQASSAASSASPVSRAIGSTSKPQESPKGKRKLDLNQEEKKTPSKPPAQLSPSVPKRPKLPAPTRTPATAPVPARAQGAVTGKPRGEGTEPRRPRAGPEELGKILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANTPKYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRYLMAGPGSSSEEDEASHSGGSGDEAPKLPQKQPQTKTKPTQAAGPSSPQKPPTPEETKAASPVLQEDIDIEGVQSEGQDNGAEDSGDTEDELRRVAEQKEHRLPPGQEENGEDPYAGSTDENTDSEEHQEPPDLPVPELPDFFQGKHFFLYGEFPGDERRKLIRYVTAFNGELEDYMSDRVQFVITAQEWDPSFEEALMDNPSLAFVRPRWIYSCNEKQKLLPHQLYGVVPQA"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q92547|TOPB1_HUMAN",
+                  "accession": "Q92547",
+                  "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
+                }
+              ],
+              "len": 1522,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 8.03775e-07,
+                  "identity": 33,
+                  "positive": 43,
+                  "query_from": 314,
+                  "query_to": 401,
+                  "hit_from": 899,
+                  "hit_to": 989,
+                  "align_len": 93,
+                  "gaps": 7,
+                  "qseq": "EELGKILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANTP-----KYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRY",
+                  "hseq": "EEAPKPLHKVVVCVSKKLSKKQSELNGIAASLGADYRWSFDETVTHFI--YQGRPNDTNREYKSVKERGVHIVSEHWLLDCAQECKHLPESLY",
+                  "midline": "EE  K L  VVV +S   +  +SEL   A  LGA YR  +    TH I  +   P     +Y  V   G  IV + W+LDC +  + LP   Y"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 0.0521338,
+                  "identity": 61,
+                  "positive": 101,
+                  "query_from": 319,
+                  "query_to": 627,
+                  "hit_from": 199,
+                  "hit_to": 442,
+                  "align_len": 317,
+                  "gaps": 81,
+                  "qseq": "ILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDW-TRDSTHLICAFANTPKYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRYLMAGPGSSSEEDEASHSGGSGDEAPKLPQKQPQTKTKPTQAAGPSSPQKPPTPEETKAASPVLQEDIDIEGVQSEGQDNGAEDSGDTEDELRRVAEQKEHRLPPGQEENGEDPYAGSTDENTDSEEHQEPPDLPVPELPDFFQGKHFFLYGEFPGDERRKLIRYVTAFNGELEDYMSDRVQFVITA-------QEWDPSFEEALMDNPSLAFVRPRWIYSCNEKQKLLPHQLY",
+                  "hseq": "IFLGCIICVTGLCGLDRKEVQQLTVKHGGQYMGQLKMNECTHLIVQEPKGQKYECAKRWNVHCVTTQWFFD--------------------------SIEKGFCQDESIYKTEPRPEAKTMPNSST--------PTSQINTIDSRTLSDVSNISNINASCVSESICNSLNS-------------KLEPTLE----------NLENLDVSAFQAPEDL--------LDGCRIYLCG-FSGRKLDKLRRLINSGGGVRFNQLNEDVTHVIVGDYDDELKQFWNKS-----AHRPHV--VGAKWLLECFSKGYMLSEEPY",
+                  "midline": "I  G ++ ++G     R E++   ++ G +Y       + THLI       KY          V  +W  D                          +   G   DE+    + +P+ KT P  +         PT +     S  L +  +I  + +        +S ++             +L P  E            EN D    Q P DL          G   +L G F G +  KL R + +  G   + +++ V  VI         Q W+ S        P +  V  +W+  C  K  +L  + Y"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 0.0960954,
+                  "identity": 17,
+                  "positive": 28,
+                  "query_from": 309,
+                  "query_to": 386,
+                  "hit_from": 95,
+                  "hit_to": 172,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "PRAGPEELGKILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANTPKYSQVLGLGGRIVRKEWV",
+                  "hseq": "PRAEHPVYNMVMSDVTISCTSLEKEKREEVHKYVQMMGGRVYRDLNVSVTHLIAGEVGSKKYLVAANLKKPILLPSWI",
+                  "midline": "PRA       ++  V +  +  +   R E+      +G +   D     THLI     + KY     L   I+   W+"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 2.40007,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 369,
+                  "query_to": 405,
+                  "hit_from": 126,
+                  "hit_to": 160,
+                  "align_len": 37,
+                  "gaps": 2,
+                  "qseq": "KYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRYLMAG",
+                  "hseq": "KYVQMMG--GRVYRDLNVSVTHLIAGEVGSKKYLVAA",
+                  "midline": "KY Q++G  GR+ R   V   H +   + S++YL+A "
+                },
+                {
+                  "num": 5,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 6.26252,
+                  "identity": 8,
+                  "positive": 11,
+                  "query_from": 606,
+                  "query_to": 627,
+                  "hit_from": 968,
+                  "hit_to": 989,
+                  "align_len": 22,
+                  "gaps": 0,
+                  "qseq": "FVRPRWIYSCNEKQKLLPHQLY",
+                  "hseq": "IVSEHWLLDCAQECKHLPESLY",
+                  "midline": " V   W+  C ++ K LP  LY"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 6.93391,
+                  "identity": 24,
+                  "positive": 35,
+                  "query_from": 312,
+                  "query_to": 405,
+                  "hit_from": 354,
+                  "hit_to": 446,
+                  "align_len": 102,
+                  "gaps": 17,
+                  "qseq": "GPEELGKILQGVVVVLSGFQNPFRSELRDKALELGAKYRPDWTRDSTHLICA--------FANTPKYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRYLMAG",
+                  "hseq": "APEDL---LDGCRIYLCGFSGRKLDKLRRLINSGGGVRFNQLNEDVTHVIVGDYDDELKQFWNKSAHR------PHVVGAKWLLECFSKGYMLSEEPYIHAN",
+                  "midline": " PE+L   L G  + L GF      +LR      G         D TH+I          F N   +         +V  +W+L+C      L  + Y+ A "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P55211|CASP9_HUMAN",
+                  "accession": "P55211",
+                  "title": "Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3"
+                }
+              ],
+              "len": 416,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.0238,
+                  "score": 53,
+                  "evalue": 1.05631,
+                  "identity": 12,
+                  "positive": 20,
+                  "query_from": 362,
+                  "query_to": 407,
+                  "hit_from": 163,
+                  "hit_to": 205,
+                  "align_len": 46,
+                  "gaps": 3,
+                  "qseq": "CAFANTPKYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRYLMAGPG",
+                  "hseq": "CLIINNVNFCRESGLRTRTGSN---IDCEKLRRRFSSLHFMVEVKG",
+                  "midline": "C   N   + +  GL  R       +DC ++RRR  S  +++   G"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P69328|AMYG_ASPNG",
+                  "accession": "P69328",
+                  "title": "Glucoamylase OS=Aspergillus niger OX=5061 GN=GLAA PE=1 SV=1"
+                }
+              ],
+              "len": 640,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 4.72584,
+                  "identity": 19,
+                  "positive": 24,
+                  "query_from": 63,
+                  "query_to": 108,
+                  "hit_from": 222,
+                  "hit_to": 273,
+                  "align_len": 53,
+                  "gaps": 8,
+                  "qseq": "DGSAFVEVLVGSSAGGAGEQDYEVLLVTSSFMSPS-------ESRSGSNPNRV",
+                  "hseq": "EGSAFATA-VGSSCSWCDSQAPEILCYLQSFWTGSFILANFDSSRSGKDANTL",
+                  "midline": "+GSAF    VGSS      Q  E+L    SF + S        SRSG + N +"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|Q12888|TP53B_HUMAN",
+                  "accession": "Q12888",
+                  "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
+                }
+              ],
+              "len": 1972,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 5.07159,
+                  "identity": 26,
+                  "positive": 34,
+                  "query_from": 333,
+                  "query_to": 412,
+                  "hit_from": 1770,
+                  "hit_to": 1856,
+                  "align_len": 89,
+                  "gaps": 11,
+                  "qseq": "PFRSELRDKALELGAKY-RPDWT--RDSTHLICAF-----ANTPKYSQVLGLGGRIVRKEWVLD-CHRMRRRLPSQRYLMAGPGSSSEE",
+                  "hseq": "PFNKQYTESQLRAGAGYILEDFNEAQCNTAYQCLLIADQHCRTRKYFLCLASGIPCVSHVWVHDSCH--ANQLQNYRNYLLPAGYSLEE",
+                  "midline": "PF  +  +  L  GA Y   D+   + +T   C         T KY   L  G   V   WV D CH    +L + R  +   G S EE"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|Q8WVQ1|CANT1_HUMAN",
+                  "accession": "Q8WVQ1",
+                  "title": "Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1"
+                }
+              ],
+              "len": 401,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 6.45836,
+                  "identity": 14,
+                  "positive": 35,
+                  "query_from": 329,
+                  "query_to": 393,
+                  "hit_from": 211,
+                  "hit_to": 270,
+                  "align_len": 65,
+                  "gaps": 5,
+                  "qseq": "GFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANTPKYSQVLGLGGRIVRKEWVLDCHRMR",
+                  "hseq": "GFKAEWLA-VKDERLYVGGLGK-EWTTTTGDVV---NENPEWVKVVGYKGSVDHENWVSNYNALR",
+                  "midline": "GF+  + + ++D+ L +G   + +WT  +  ++      P++ +V+G  G +  + WV + + +R"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P52687|CITA_KLEPN",
+                  "accession": "P52687",
+                  "title": "Sensor histidine kinase CitA OS=Klebsiella pneumoniae OX=573 GN=citA PE=1 SV=1"
+                }
+              ],
+              "len": 547,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 8.81801,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 288,
+                  "query_to": 322,
+                  "hit_from": 90,
+                  "hit_to": 124,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "PARAQGAVTGKPRGEGTEPRRPRAGPEELGKILQG",
+                  "hseq": "PMRSFSDATYITVGDASGQRLYHVNPDEIGKSMEG",
+                  "midline": "P R+    T    G+ +  R     P+E+GK ++G"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 71,
+            "eff_space": 38150246,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

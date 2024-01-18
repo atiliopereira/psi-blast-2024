@@ -1,0 +1,340 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "sp|P12994|YBHB_ECOLI UPF0098 protein YbhB OS=Escherichia coli (strain K12) OX=83333 GN=ybhB PE=1 SV=2",
+          "query_len": 158,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P12994|YBHB_ECOLI",
+                  "accession": "P12994",
+                  "title": "UPF0098 protein YbhB OS=Escherichia coli (strain K12) OX=83333 GN=ybhB PE=1 SV=2"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 325.479,
+                  "score": 833,
+                  "evalue": 1.74805e-118,
+                  "identity": 158,
+                  "positive": 158,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MKLISNDLRDGDKLPHRHVFNGMGYDGDNISPHLAWDDVPAGTKSFVVTCYDPDAPTGSGWWHWVVVNLPADTRVLPQGFGSGLVAMPDGVLQTRTDFGKTGYDGAAPPKGETHRYIFTVHALDIERIDVDEGASGAMVGFNVHFHSLASASITAMFS",
+                  "hseq": "MKLISNDLRDGDKLPHRHVFNGMGYDGDNISPHLAWDDVPAGTKSFVVTCYDPDAPTGSGWWHWVVVNLPADTRVLPQGFGSGLVAMPDGVLQTRTDFGKTGYDGAAPPKGETHRYIFTVHALDIERIDVDEGASGAMVGFNVHFHSLASASITAMFS",
+                  "midline": "MKLISNDLRDGDKLPHRHVFNGMGYDGDNISPHLAWDDVPAGTKSFVVTCYDPDAPTGSGWWHWVVVNLPADTRVLPQGFGSGLVAMPDGVLQTRTDFGKTGYDGAAPPKGETHRYIFTVHALDIERIDVDEGASGAMVGFNVHFHSLASASITAMFS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|P30086|PEBP1_HUMAN",
+                  "accession": "P30086",
+                  "title": "Phosphatidylethanolamine-binding protein 1 OS=Homo sapiens OX=9606 GN=PEBP1 PE=1 SV=3"
+                }
+              ],
+              "len": 187,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.8834,
+                  "score": 76,
+                  "evalue": 0.000143522,
+                  "identity": 28,
+                  "positive": 44,
+                  "query_from": 34,
+                  "query_to": 124,
+                  "hit_from": 53,
+                  "hit_to": 128,
+                  "align_len": 97,
+                  "gaps": 27,
+                  "qseq": "LAWDDVPAGTKSFVVTCYDPDAPTGS-----GWWHWVVVNLPADTRVLPQGFGSGLVAMPDGVLQTRTDFGKTGYDGAAPPKGE-THRYIFTVHALD",
+                  "hseq": "ISWDGLDSG-KLYTLVLTDPDAPSRKDPKYREWHHFLVVNMKGN------DISSGTVL--------------SDYVGSGPPKGTGLHRYVWLVYEQD",
+                  "midline": "++WD + +G K + +   DPDAP+        W H++VVN+  +         SG V               + Y G+ PPKG   HRY++ V+  D"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|P14306|CPYI_YEAST",
+                  "accession": "P14306",
+                  "title": "Carboxypeptidase Y inhibitor OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TFS1 PE=1 SV=2"
+                }
+              ],
+              "len": 219,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.5722,
+                  "score": 70,
+                  "evalue": 0.000836289,
+                  "identity": 25,
+                  "positive": 36,
+                  "query_from": 39,
+                  "query_to": 121,
+                  "hit_from": 82,
+                  "hit_to": 168,
+                  "align_len": 87,
+                  "gaps": 4,
+                  "qseq": "VPAGTKSFVVTCYDPDAPTGSG-WWHWVVVNLPADTRVLPQGF--GSGLVAMPDGVLQTRTDFGKTGYDGAAPPKGE-THRYIFTVH",
+                  "hseq": "VPQDDDLFTLVMTDPDAPSKTDHKWSEFCHLVECDLKLLNEATHETSGATEFFASEFNTKGSNTLIEYMGPAPPKGSGPHRYVFLLY",
+                  "midline": "VP     F +   DPDAP+ +   W      +  D ++L +     SG          T+       Y G APPKG   HRY+F ++"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P38540|DHM2_METME",
+                  "accession": "P38540",
+                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylophilus methylotrophus OX=17 GN=moxI PE=1 SV=2"
+                }
+              ],
+              "len": 91,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 0.429075,
+                  "identity": 10,
+                  "positive": 15,
+                  "query_from": 22,
+                  "query_to": 53,
+                  "hit_from": 20,
+                  "hit_to": 52,
+                  "align_len": 33,
+                  "gaps": 1,
+                  "qseq": "GMGYDGDNI-SPHLAWDDVPAGTKSFVVTCYDP",
+                  "hseq": "ALAYDGQNCKEPGNCWENKPGYPEKIAGSKYDP",
+                  "midline": " + YDG N   P   W++ P   +    + YDP"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "sp|P32589|HSP7F_YEAST",
+                  "accession": "P32589",
+                  "title": "Heat shock protein homolog SSE1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSE1 PE=1 SV=4"
+                }
+              ],
+              "len": 693,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.0978,
+                  "score": 48,
+                  "evalue": 0.911661,
+                  "identity": 9,
+                  "positive": 17,
+                  "query_from": 128,
+                  "query_to": 157,
+                  "hit_from": 93,
+                  "hit_to": 122,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "IDVDEGASGAMVGFNVHFHSLASASITAMF",
+                  "hseq": "VELDDKKTGAEVRFAGEKHVFSATQLAAMF",
+                  "midline": "+++D+  +GA V F    H  ++  + AMF"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "sp|P37330|MASZ_ECOLI",
+                  "accession": "P37330",
+                  "title": "Malate synthase G OS=Escherichia coli (strain K12) OX=83333 GN=glcB PE=1 SV=3"
+                }
+              ],
+              "len": 723,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 1.57119,
+                  "identity": 22,
+                  "positive": 32,
+                  "query_from": 81,
+                  "query_to": 154,
+                  "hit_from": 505,
+                  "hit_to": 578,
+                  "align_len": 78,
+                  "gaps": 8,
+                  "qseq": "GSGLVAMPD---GVLQTRTDFGKTGYDGAAPPKGETHRYIFTVHALDIERIDVDE-GASGAMVGFNVHFHSLASASIT",
+                  "hseq": "GKGMWAMPDLMADMYSQKGDQLRAGANTAWVPSPTAA----TLHALHYHQTNVQSVQANIAQTEFNAEFEPLLDDLLT",
+                  "midline": "G G+ AMPD    +   + D  + G + A  P         T+HAL   + +V    A+ A   FN  F  L    +T"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "sp|P00655|RNAS_ASPGI",
+                  "accession": "P00655",
+                  "title": "Ribonuclease alpha-sarcin OS=Aspergillus giganteus OX=5060 GN=sar PE=1 SV=2"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 2.98182,
+                  "identity": 21,
+                  "positive": 28,
+                  "query_from": 54,
+                  "query_to": 118,
+                  "hit_from": 68,
+                  "hit_to": 122,
+                  "align_len": 71,
+                  "gaps": 22,
+                  "qseq": "DAPTGSGWWHWVVVNLPADTRVLPQGFGSGLVAMPDGVLQTRTDFGKTGYDGAAPPK------GETHRYIF",
+                  "hseq": "DGKTGSSYPHWFTNGYDGDGK-LPKG-------------RTPIKFGKSDCD--RPPKHSKDGNGKTDHYLL",
+                  "midline": "D  TGS + HW       D + LP+G             +T   FGK+  D   PPK      G+T  Y+ "
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "sp|P18203|FKB1A_BOVIN",
+                  "accession": "P18203",
+                  "title": "Peptidyl-prolyl cis-trans isomerase FKBP1A OS=Bos taurus OX=9913 GN=FKBP1A PE=1 SV=2"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 3.34806,
+                  "identity": 11,
+                  "positive": 14,
+                  "query_from": 98,
+                  "query_to": 126,
+                  "hit_from": 83,
+                  "hit_to": 108,
+                  "align_len": 29,
+                  "gaps": 3,
+                  "qseq": "FGKTGYDGAAPPKGETHRYIFTVHALDIE",
+                  "hseq": "YGATGHPGIIPPNAT---LIFDVELLKLE",
+                  "midline": "+G TG+ G  PP       IF V  L +E"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "sp|P84066|DTD2_LEIMA",
+                  "accession": "P84066",
+                  "title": "Putative D-tyrosyl-tRNA(Tyr) deacylase 2 OS=Leishmania major OX=5664 PE=1 SV=2"
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 7.61375,
+                  "identity": 9,
+                  "positive": 14,
+                  "query_from": 54,
+                  "query_to": 82,
+                  "hit_from": 142,
+                  "hit_to": 163,
+                  "align_len": 29,
+                  "gaps": 7,
+                  "qseq": "DAPTGSGWWHWVVVNLPADTRVLPQGFGS",
+                  "hseq": "DAPKAEGWIKY-------NSRVISGTFGN",
+                  "midline": "DAP   GW  +       ++RV+   FG+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "sp|P62942|FKB1A_HUMAN",
+                  "accession": "P62942",
+                  "title": "Peptidyl-prolyl cis-trans isomerase FKBP1A OS=Homo sapiens OX=9606 GN=FKBP1A PE=1 SV=2"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 8.19793,
+                  "identity": 10,
+                  "positive": 14,
+                  "query_from": 98,
+                  "query_to": 126,
+                  "hit_from": 83,
+                  "hit_to": 108,
+                  "align_len": 29,
+                  "gaps": 3,
+                  "qseq": "FGKTGYDGAAPPKGETHRYIFTVHALDIE",
+                  "hseq": "YGATGHPGIIPPHAT---LVFDVELLKLE",
+                  "midline": "+G TG+ G  PP       +F V  L +E"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 59,
+            "eff_space": 6968709,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

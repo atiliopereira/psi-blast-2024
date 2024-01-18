@@ -1,0 +1,160 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "data/myDatabase.fasta"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "tr|O67135|O67135_AQUAE Acetoin utilization protein AcuC OS=Aquifex aeolicus (strain VF5) OX=224324 GN=acuC1 PE=1 SV=1",
+          "query_len": 375,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "tr|O67135|O67135_AQUAE",
+                  "accession": "O67135",
+                  "title": "Acetoin utilization protein AcuC OS=Aquifex aeolicus (strain VF5) OX=224324 GN=acuC1 PE=1 SV=1"
+                }
+              ],
+              "len": 375,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 768.459,
+                  "score": 1983,
+                  "evalue": 0,
+                  "identity": 375,
+                  "positive": 375,
+                  "query_from": 1,
+                  "query_to": 375,
+                  "hit_from": 1,
+                  "hit_to": 375,
+                  "align_len": 375,
+                  "gaps": 0,
+                  "qseq": "MKKVKLIGTLDYGKYRYPKNHPLKIPRVSLLLRFLDAMNLIDEKELIKSRPATKEELLLFHTEDYINTLMEAERCQCVPKGAREKYNIGGYENPVSYAMFTGSSLATGSTVQAIEEFLKGNVAFNPAGGMHHAFKSRANGFCYINDPAVGIEYLRKKGFKRILYIDLDAHHCDGVQEAFYDTDQVFVLSLHQSPEYAFPFEKGFLEEIGEGKGKGYNLNIPLPKGLNDNEFLFALEKSLEIVKEVFEPEVYLLQLGTDPLLEDYLSKFNLSNVAFLKAFNIVREVFGEGVYLGGGGYHPYALARAWTLIWCELSGREVPEKLNNKAKELLKSIDFEEFDDEVDRSYMLETLKDPWRGGEVRKEVKDTLEKAKASS",
+                  "hseq": "MKKVKLIGTLDYGKYRYPKNHPLKIPRVSLLLRFLDAMNLIDEKELIKSRPATKEELLLFHTEDYINTLMEAERCQCVPKGAREKYNIGGYENPVSYAMFTGSSLATGSTVQAIEEFLKGNVAFNPAGGMHHAFKSRANGFCYINDPAVGIEYLRKKGFKRILYIDLDAHHCDGVQEAFYDTDQVFVLSLHQSPEYAFPFEKGFLEEIGEGKGKGYNLNIPLPKGLNDNEFLFALEKSLEIVKEVFEPEVYLLQLGTDPLLEDYLSKFNLSNVAFLKAFNIVREVFGEGVYLGGGGYHPYALARAWTLIWCELSGREVPEKLNNKAKELLKSIDFEEFDDEVDRSYMLETLKDPWRGGEVRKEVKDTLEKAKASS",
+                  "midline": "MKKVKLIGTLDYGKYRYPKNHPLKIPRVSLLLRFLDAMNLIDEKELIKSRPATKEELLLFHTEDYINTLMEAERCQCVPKGAREKYNIGGYENPVSYAMFTGSSLATGSTVQAIEEFLKGNVAFNPAGGMHHAFKSRANGFCYINDPAVGIEYLRKKGFKRILYIDLDAHHCDGVQEAFYDTDQVFVLSLHQSPEYAFPFEKGFLEEIGEGKGKGYNLNIPLPKGLNDNEFLFALEKSLEIVKEVFEPEVYLLQLGTDPLLEDYLSKFNLSNVAFLKAFNIVREVFGEGVYLGGGGYHPYALARAWTLIWCELSGREVPEKLNNKAKELLKSIDFEEFDDEVDRSYMLETLKDPWRGGEVRKEVKDTLEKAKASS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "sp|Q99176|SRN2_YEAST",
+                  "accession": "Q99176",
+                  "title": "Protein SRN2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SRN2 PE=1 SV=1"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 2.8899,
+                  "identity": 17,
+                  "positive": 27,
+                  "query_from": 219,
+                  "query_to": 269,
+                  "hit_from": 49,
+                  "hit_to": 83,
+                  "align_len": 51,
+                  "gaps": 16,
+                  "qseq": "NIPLPKGLNDNEFLFALEKSLEIVKEVFEPEVYLLQLGTDPLLEDYLSKFN",
+                  "hseq": "NIPLPEGIN-------LLSSKEII-DLIQTHRHQLEL--------YVTKFN",
+                  "midline": "NIPLP+G+N       L  S EI+ ++ +   + L+L        Y++KFN"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "sp|Q79FE1|PPE41_MYCTU",
+                  "accession": "Q79FE1",
+                  "title": "PPE family protein PPE41 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=PPE41 PE=1 SV=1"
+                }
+              ],
+              "len": 194,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 3.83736,
+                  "identity": 11,
+                  "positive": 15,
+                  "query_from": 284,
+                  "query_to": 315,
+                  "hit_from": 9,
+                  "hit_to": 40,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "EVFGEGVYLGGGGYHPYALARAWTLIWCELSG",
+                  "hseq": "EVNSANIYAGPGPDSMLAAARAWRSLDVEMTA",
+                  "midline": "EV    +Y G G     A ARAW  +  E++ "
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P84022|SMAD3_HUMAN",
+                  "accession": "P84022",
+                  "title": "Mothers against decapentaplegic homolog 3 OS=Homo sapiens OX=9606 GN=SMAD3 PE=1 SV=1"
+                }
+              ],
+              "len": 425,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.3274,
+                  "score": 46,
+                  "evalue": 4.5397,
+                  "identity": 15,
+                  "positive": 18,
+                  "query_from": 257,
+                  "query_to": 294,
+                  "hit_from": 261,
+                  "hit_to": 301,
+                  "align_len": 41,
+                  "gaps": 3,
+                  "qseq": "TDPLLEDYLSKFNLSNVAFLKAFNIVREVFGEGV---YLGG",
+                  "hseq": "TDPSNSERFCLGLLSNVNRNAAVELTRRHIGRGVRLYYIGG",
+                  "midline": "TDP   +      LSNV    A  + R   G GV   Y+GG"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 209,
+            "db_len": 82722,
+            "hsp_len": 67,
+            "eff_space": 21165452,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}
