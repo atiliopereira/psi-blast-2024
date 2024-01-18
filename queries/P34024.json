@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,172 +17,177 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P34024|PLC_LISMO 1-phosphatidylinositol phosphodiesterase OS=Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 GN=plcA PE=1 SV=1",
-          "query_len": 317,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P34024|PLC_LISMO",
-                  "accession": "P34024",
-                  "title": "1-phosphatidylinositol phosphodiesterase OS=Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 GN=plcA PE=1 SV=1"
-                }
-              ],
-              "len": 317,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P34024|PLC_LISMO 1-phosphatidylinositol phosphodiesterase OS=Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 GN=plcA PE=1 SV=1",
+              "query_len": 317,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 650.203,
-                  "score": 1676,
-                  "evalue": 0,
-                  "identity": 317,
-                  "positive": 317,
-                  "query_from": 1,
-                  "query_to": 317,
-                  "hit_from": 1,
-                  "hit_to": 317,
-                  "align_len": 317,
-                  "gaps": 0,
-                  "qseq": "MYKNYLQRTLVLLLCFILYFFTFPLGGKAYSLNNWNKPIKNSVTTKQWMSALPDTTNLAALSIPGTHDTMSYNGDITWTLTKPLAQTQTMSLYQQLEAGIRYIDIRAKDNLNIYHGPIFLNASLSGVLETITQFLKKNPKETIIMRLKDEQNSNDSFDYRIQPLINIYKDYFYTTPRTDTSNKIPTLKDVRGKILLLSENHTKKPLVINSRKFGMQFGAPNQVIQDDYNGPSVKTKFKEIVQTAYQASKADNKLFLNHISATSLTFTPRQYAAALNNKVEQFVLNLTSEKVRGLGILIMDFPEKQTIKNIIKNNKFN",
-                  "hseq": "MYKNYLQRTLVLLLCFILYFFTFPLGGKAYSLNNWNKPIKNSVTTKQWMSALPDTTNLAALSIPGTHDTMSYNGDITWTLTKPLAQTQTMSLYQQLEAGIRYIDIRAKDNLNIYHGPIFLNASLSGVLETITQFLKKNPKETIIMRLKDEQNSNDSFDYRIQPLINIYKDYFYTTPRTDTSNKIPTLKDVRGKILLLSENHTKKPLVINSRKFGMQFGAPNQVIQDDYNGPSVKTKFKEIVQTAYQASKADNKLFLNHISATSLTFTPRQYAAALNNKVEQFVLNLTSEKVRGLGILIMDFPEKQTIKNIIKNNKFN",
-                  "midline": "MYKNYLQRTLVLLLCFILYFFTFPLGGKAYSLNNWNKPIKNSVTTKQWMSALPDTTNLAALSIPGTHDTMSYNGDITWTLTKPLAQTQTMSLYQQLEAGIRYIDIRAKDNLNIYHGPIFLNASLSGVLETITQFLKKNPKETIIMRLKDEQNSNDSFDYRIQPLINIYKDYFYTTPRTDTSNKIPTLKDVRGKILLLSENHTKKPLVINSRKFGMQFGAPNQVIQDDYNGPSVKTKFKEIVQTAYQASKADNKLFLNHISATSLTFTPRQYAAALNNKVEQFVLNLTSEKVRGLGILIMDFPEKQTIKNIIKNNKFN"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P34024|PLC_LISMO",
+                      "accession": "P34024",
+                      "title": "1-phosphatidylinositol phosphodiesterase OS=Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 GN=plcA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 317,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 650.203,
+                      "score": 1676,
+                      "evalue": 0,
+                      "identity": 317,
+                      "positive": 317,
+                      "query_from": 1,
+                      "query_to": 317,
+                      "hit_from": 1,
+                      "hit_to": 317,
+                      "align_len": 317,
+                      "gaps": 0,
+                      "qseq": "MYKNYLQRTLVLLLCFILYFFTFPLGGKAYSLNNWNKPIKNSVTTKQWMSALPDTTNLAALSIPGTHDTMSYNGDITWTLTKPLAQTQTMSLYQQLEAGIRYIDIRAKDNLNIYHGPIFLNASLSGVLETITQFLKKNPKETIIMRLKDEQNSNDSFDYRIQPLINIYKDYFYTTPRTDTSNKIPTLKDVRGKILLLSENHTKKPLVINSRKFGMQFGAPNQVIQDDYNGPSVKTKFKEIVQTAYQASKADNKLFLNHISATSLTFTPRQYAAALNNKVEQFVLNLTSEKVRGLGILIMDFPEKQTIKNIIKNNKFN",
+                      "hseq": "MYKNYLQRTLVLLLCFILYFFTFPLGGKAYSLNNWNKPIKNSVTTKQWMSALPDTTNLAALSIPGTHDTMSYNGDITWTLTKPLAQTQTMSLYQQLEAGIRYIDIRAKDNLNIYHGPIFLNASLSGVLETITQFLKKNPKETIIMRLKDEQNSNDSFDYRIQPLINIYKDYFYTTPRTDTSNKIPTLKDVRGKILLLSENHTKKPLVINSRKFGMQFGAPNQVIQDDYNGPSVKTKFKEIVQTAYQASKADNKLFLNHISATSLTFTPRQYAAALNNKVEQFVLNLTSEKVRGLGILIMDFPEKQTIKNIIKNNKFN",
+                      "midline": "MYKNYLQRTLVLLLCFILYFFTFPLGGKAYSLNNWNKPIKNSVTTKQWMSALPDTTNLAALSIPGTHDTMSYNGDITWTLTKPLAQTQTMSLYQQLEAGIRYIDIRAKDNLNIYHGPIFLNASLSGVLETITQFLKKNPKETIIMRLKDEQNSNDSFDYRIQPLINIYKDYFYTTPRTDTSNKIPTLKDVRGKILLLSENHTKKPLVINSRKFGMQFGAPNQVIQDDYNGPSVKTKFKEIVQTAYQASKADNKLFLNHISATSLTFTPRQYAAALNNKVEQFVLNLTSEKVRGLGILIMDFPEKQTIKNIIKNNKFN"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P74881|PUR4_SALTY",
-                  "accession": "P74881",
-                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P74881|PUR4_SALTY",
+                      "accession": "P74881",
+                      "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1295,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 2.6129,
+                      "identity": 8,
+                      "positive": 21,
+                      "query_from": 229,
+                      "query_to": 265,
+                      "hit_from": 473,
+                      "hit_to": 509,
+                      "align_len": 37,
+                      "gaps": 0,
+                      "qseq": "NGPSVKTKFKEIVQTAYQASKADNKLFLNHISATSLT",
+                      "hseq": "DNPEMERRCQEVIDRCWQLGDANPILFIHDVGAGGLS",
+                      "midline": "+ P ++ + +E++   +Q   A+  LF++ + A  L+"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q00722|PLCB2_HUMAN",
+                      "accession": "Q00722",
+                      "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1185,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 6.77382,
+                      "identity": 18,
+                      "positive": 31,
+                      "query_from": 128,
+                      "query_to": 196,
+                      "hit_from": 388,
+                      "hit_to": 460,
+                      "align_len": 73,
+                      "gaps": 4,
+                      "qseq": "LETITQFLKKNPKETIIMRLKDEQNSNDSFDYRIQPLINIYKDYFYTTPRTDTSNK----IPTLKDVRGKILL",
+                      "hseq": "IEAIAESAFKTSPYPIILSFENHVDSPRQQAKMAEYCRTIFGDMLLTEPLEKFPLKPGVPLPSPEDLRGKILI",
+                      "midline": "+E I +   K     II+  ++  +S        +    I+ D   T P      K    +P+ +D+RGKIL+"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P0C6U8|R1A_SARS",
+                      "accession": "P0C6U8",
+                      "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                    }
+                  ],
+                  "len": 4382,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 8.17608,
+                      "identity": 14,
+                      "positive": 25,
+                      "query_from": 54,
+                      "query_to": 108,
+                      "hit_from": 1683,
+                      "hit_to": 1730,
+                      "align_len": 55,
+                      "gaps": 7,
+                      "qseq": "DTTNLAALSIPGTHDTMSYNGDITWTLTKPLAQTQTMSLYQQLEAGIRYIDIRAK",
+                      "hseq": "DAANFCALILAYSNKTVGELGDVRETMTHLLQ-------HANLESAKRVLNVVCK",
+                      "midline": "D  N  AL +  ++ T+   GD+  T+T  L        +  LE+  R +++  K"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P60472|UPPS_ECOLI",
+                      "accession": "P60472",
+                      "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Escherichia coli (strain K12) OX=83333 GN=ispU PE=1 SV=1"
+                    }
+                  ],
+                  "len": 253,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 9.86379,
+                      "identity": 6,
+                      "positive": 9,
+                      "query_from": 29,
+                      "query_to": 40,
+                      "hit_from": 69,
+                      "hit_to": 80,
+                      "align_len": 12,
+                      "gaps": 0,
+                      "qseq": "AYSLNNWNKPIK",
+                      "hseq": "AFSSENWNRPAQ",
+                      "midline": "A+S  NWN+P +"
+                    }
+                  ]
                 }
               ],
-              "len": 1295,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 2.6129,
-                  "identity": 8,
-                  "positive": 21,
-                  "query_from": 229,
-                  "query_to": 265,
-                  "hit_from": 473,
-                  "hit_to": 509,
-                  "align_len": 37,
-                  "gaps": 0,
-                  "qseq": "NGPSVKTKFKEIVQTAYQASKADNKLFLNHISATSLT",
-                  "hseq": "DNPEMERRCQEVIDRCWQLGDANPILFIHDVGAGGLS",
-                  "midline": "+ P ++ + +E++   +Q   A+  LF++ + A  L+"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q00722|PLCB2_HUMAN",
-                  "accession": "Q00722",
-                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
-                }
-              ],
-              "len": 1185,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 6.77382,
-                  "identity": 18,
-                  "positive": 31,
-                  "query_from": 128,
-                  "query_to": 196,
-                  "hit_from": 388,
-                  "hit_to": 460,
-                  "align_len": 73,
-                  "gaps": 4,
-                  "qseq": "LETITQFLKKNPKETIIMRLKDEQNSNDSFDYRIQPLINIYKDYFYTTPRTDTSNK----IPTLKDVRGKILL",
-                  "hseq": "IEAIAESAFKTSPYPIILSFENHVDSPRQQAKMAEYCRTIFGDMLLTEPLEKFPLKPGVPLPSPEDLRGKILI",
-                  "midline": "+E I +   K     II+  ++  +S        +    I+ D   T P      K    +P+ +D+RGKIL+"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P0C6U8|R1A_SARS",
-                  "accession": "P0C6U8",
-                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
-                }
-              ],
-              "len": 4382,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 8.17608,
-                  "identity": 14,
-                  "positive": 25,
-                  "query_from": 54,
-                  "query_to": 108,
-                  "hit_from": 1683,
-                  "hit_to": 1730,
-                  "align_len": 55,
-                  "gaps": 7,
-                  "qseq": "DTTNLAALSIPGTHDTMSYNGDITWTLTKPLAQTQTMSLYQQLEAGIRYIDIRAK",
-                  "hseq": "DAANFCALILAYSNKTVGELGDVRETMTHLLQ-------HANLESAKRVLNVVCK",
-                  "midline": "D  N  AL +  ++ T+   GD+  T+T  L        +  LE+  R +++  K"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P60472|UPPS_ECOLI",
-                  "accession": "P60472",
-                  "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Escherichia coli (strain K12) OX=83333 GN=ispU PE=1 SV=1"
-                }
-              ],
-              "len": 253,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 9.86379,
-                  "identity": 6,
-                  "positive": 9,
-                  "query_from": 29,
-                  "query_to": 40,
-                  "hit_from": 69,
-                  "hit_to": 80,
-                  "align_len": 12,
-                  "gaps": 0,
-                  "qseq": "AYSLNNWNKPIK",
-                  "hseq": "AFSSENWNRPAQ",
-                  "midline": "A+S  NWN+P +"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 65,
+                "eff_space": 17422524,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 65,
-            "eff_space": 17422524,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

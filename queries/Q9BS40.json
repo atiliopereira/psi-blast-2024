@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,202 +17,207 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q9BS40|LXN_HUMAN Latexin OS=Homo sapiens OX=9606 GN=LXN PE=1 SV=2",
-          "query_len": 222,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q9BS40|LXN_HUMAN",
-                  "accession": "Q9BS40",
-                  "title": "Latexin OS=Homo sapiens OX=9606 GN=LXN PE=1 SV=2"
-                }
-              ],
-              "len": 222,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q9BS40|LXN_HUMAN Latexin OS=Homo sapiens OX=9606 GN=LXN PE=1 SV=2",
+              "query_len": 222,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 464.537,
-                  "score": 1194,
-                  "evalue": 1.75341e-171,
-                  "identity": 222,
-                  "positive": 222,
-                  "query_from": 1,
-                  "query_to": 222,
-                  "hit_from": 1,
-                  "hit_to": 222,
-                  "align_len": 222,
-                  "gaps": 0,
-                  "qseq": "MEIPPTNYPASRAALVAQNYINYQQGTPHRVFEVQKVKQASMEDIPGRGHKYHLKFAVEEIIQKQVKVNCTAEVLYPSTGQETAPEVNFTFEGETGKNPDEEDNTFYQRLKSMKEPLEAQNIPDNFGNVSPEMTLVLHLAWVACGYIIWQNSTEDTWYKMVKIQTVKQVQRNDDFIELDYTILLHNIASQEIIPWQMQVLWHPQYGTKVKHNSRLPKEVQLE",
-                  "hseq": "MEIPPTNYPASRAALVAQNYINYQQGTPHRVFEVQKVKQASMEDIPGRGHKYHLKFAVEEIIQKQVKVNCTAEVLYPSTGQETAPEVNFTFEGETGKNPDEEDNTFYQRLKSMKEPLEAQNIPDNFGNVSPEMTLVLHLAWVACGYIIWQNSTEDTWYKMVKIQTVKQVQRNDDFIELDYTILLHNIASQEIIPWQMQVLWHPQYGTKVKHNSRLPKEVQLE",
-                  "midline": "MEIPPTNYPASRAALVAQNYINYQQGTPHRVFEVQKVKQASMEDIPGRGHKYHLKFAVEEIIQKQVKVNCTAEVLYPSTGQETAPEVNFTFEGETGKNPDEEDNTFYQRLKSMKEPLEAQNIPDNFGNVSPEMTLVLHLAWVACGYIIWQNSTEDTWYKMVKIQTVKQVQRNDDFIELDYTILLHNIASQEIIPWQMQVLWHPQYGTKVKHNSRLPKEVQLE"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|Q9BS40|LXN_HUMAN",
+                      "accession": "Q9BS40",
+                      "title": "Latexin OS=Homo sapiens OX=9606 GN=LXN PE=1 SV=2"
+                    }
+                  ],
+                  "len": 222,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 464.537,
+                      "score": 1194,
+                      "evalue": 1.75341e-171,
+                      "identity": 222,
+                      "positive": 222,
+                      "query_from": 1,
+                      "query_to": 222,
+                      "hit_from": 1,
+                      "hit_to": 222,
+                      "align_len": 222,
+                      "gaps": 0,
+                      "qseq": "MEIPPTNYPASRAALVAQNYINYQQGTPHRVFEVQKVKQASMEDIPGRGHKYHLKFAVEEIIQKQVKVNCTAEVLYPSTGQETAPEVNFTFEGETGKNPDEEDNTFYQRLKSMKEPLEAQNIPDNFGNVSPEMTLVLHLAWVACGYIIWQNSTEDTWYKMVKIQTVKQVQRNDDFIELDYTILLHNIASQEIIPWQMQVLWHPQYGTKVKHNSRLPKEVQLE",
+                      "hseq": "MEIPPTNYPASRAALVAQNYINYQQGTPHRVFEVQKVKQASMEDIPGRGHKYHLKFAVEEIIQKQVKVNCTAEVLYPSTGQETAPEVNFTFEGETGKNPDEEDNTFYQRLKSMKEPLEAQNIPDNFGNVSPEMTLVLHLAWVACGYIIWQNSTEDTWYKMVKIQTVKQVQRNDDFIELDYTILLHNIASQEIIPWQMQVLWHPQYGTKVKHNSRLPKEVQLE",
+                      "midline": "MEIPPTNYPASRAALVAQNYINYQQGTPHRVFEVQKVKQASMEDIPGRGHKYHLKFAVEEIIQKQVKVNCTAEVLYPSTGQETAPEVNFTFEGETGKNPDEEDNTFYQRLKSMKEPLEAQNIPDNFGNVSPEMTLVLHLAWVACGYIIWQNSTEDTWYKMVKIQTVKQVQRNDDFIELDYTILLHNIASQEIIPWQMQVLWHPQYGTKVKHNSRLPKEVQLE"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P07598|PHFL_DESVH",
-                  "accession": "P07598",
-                  "title": "Periplasmic [Fe] hydrogenase large subunit OS=Desulfovibrio vulgaris (strain ATCC 29579 / DSM 644 / NCIMB 8303 / VKM B-1760 / Hildenborough) OX=882 GN=hydA PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P07598|PHFL_DESVH",
+                      "accession": "P07598",
+                      "title": "Periplasmic [Fe] hydrogenase large subunit OS=Desulfovibrio vulgaris (strain ATCC 29579 / DSM 644 / NCIMB 8303 / VKM B-1760 / Hildenborough) OX=882 GN=hydA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 421,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 26.5646,
+                      "score": 57,
+                      "evalue": 0.0999611,
+                      "identity": 13,
+                      "positive": 19,
+                      "query_from": 75,
+                      "query_to": 115,
+                      "hit_from": 295,
+                      "hit_to": 335,
+                      "align_len": 41,
+                      "gaps": 0,
+                      "qseq": "LYPSTGQETAPEVNFTFEGETGKNPDEEDNTFYQRLKSMKE",
+                      "hseq": "IFGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKE",
+                      "midline": "++  TG      + F +E  TGK PD  D    + L  +KE"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P55211|CASP9_HUMAN",
+                      "accession": "P55211",
+                      "title": "Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 416,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 1.54719,
+                      "identity": 12,
+                      "positive": 28,
+                      "query_from": 96,
+                      "query_to": 158,
+                      "hit_from": 309,
+                      "hit_to": 363,
+                      "align_len": 63,
+                      "gaps": 8,
+                      "qseq": "GKNPDEEDNTFYQRLKSMKEPLEAQNIPDNFGNVSPEMTLVLHLAWVACGYIIWQNSTEDTWY",
+                      "hseq": "GSNPEPDATPFQEGLRTFDQLDAISSLP------TPSDIFVSYSTFP--GFVSWRDPKSGSWY",
+                      "midline": "G NP+ +   F + L++  +     ++P      +P    V +  +   G++ W++    +WY"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "tr|A9CJW3|A9CJW3_AGRFC",
+                      "accession": "A9CJW3",
+                      "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 229,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 8.5093,
+                      "identity": 14,
+                      "positive": 17,
+                      "query_from": 59,
+                      "query_to": 98,
+                      "hit_from": 18,
+                      "hit_to": 53,
+                      "align_len": 40,
+                      "gaps": 4,
+                      "qseq": "EEIIQKQVKVNCTAEVLYPSTGQETAPEVNFTFEGETGKN",
+                      "hseq": "SEIIAAQVESRLLTEAGYPISVEEMGER----FAGMTWKN",
+                      "midline": " EII  QV+     E  YP + +E        F G T KN"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P04859|PHOSP_SENDH",
+                      "accession": "P04859",
+                      "title": "Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1"
+                    }
+                  ],
+                  "len": 568,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 9.28357,
+                      "identity": 28,
+                      "positive": 45,
+                      "query_from": 41,
+                      "query_to": 131,
+                      "hit_from": 197,
+                      "hit_to": 304,
+                      "align_len": 110,
+                      "gaps": 21,
+                      "qseq": "SMEDIPGRGHKYHLKFAV-------EEIIQKQVK---VNCTAEVLYPST--GQETAPEVNFTFEGET-GKNPDEED------NTFYQRLKSMKEPLEAQNIPDNFGNVSP",
+                      "hseq": "SME--PGSSHSARVTGVLVIPSPELEEAVLRRNKRRPTNSGSKPLTPATVPGTRSPPLNRYNSTGSPPGKPPSTQDEHINSGDTPAVRVKDRKPPIGTRSVSDCPANGRP",
+                      "midline": "SME  PG  H   +   +       EE + ++ K    N  ++ L P+T  G  + P   +   G   GK P  +D      +T   R+K  K P+  +++ D   N  P"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q92547|TOPB1_HUMAN",
+                      "accession": "Q92547",
+                      "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1522,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 9.97256,
+                      "identity": 8,
+                      "positive": 13,
+                      "query_from": 1,
+                      "query_to": 16,
+                      "hit_from": 450,
+                      "hit_to": 465,
+                      "align_len": 16,
+                      "gaps": 0,
+                      "qseq": "MEIPPTNYPASRAALV",
+                      "hseq": "VEIPVSHKPESKAALL",
+                      "midline": "+EIP ++ P S+AAL+"
+                    }
+                  ]
                 }
               ],
-              "len": 421,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 26.5646,
-                  "score": 57,
-                  "evalue": 0.0999611,
-                  "identity": 13,
-                  "positive": 19,
-                  "query_from": 75,
-                  "query_to": 115,
-                  "hit_from": 295,
-                  "hit_to": 335,
-                  "align_len": 41,
-                  "gaps": 0,
-                  "qseq": "LYPSTGQETAPEVNFTFEGETGKNPDEEDNTFYQRLKSMKE",
-                  "hseq": "IFGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKE",
-                  "midline": "++  TG      + F +E  TGK PD  D    + L  +KE"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P55211|CASP9_HUMAN",
-                  "accession": "P55211",
-                  "title": "Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3"
-                }
-              ],
-              "len": 416,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 1.54719,
-                  "identity": 12,
-                  "positive": 28,
-                  "query_from": 96,
-                  "query_to": 158,
-                  "hit_from": 309,
-                  "hit_to": 363,
-                  "align_len": 63,
-                  "gaps": 8,
-                  "qseq": "GKNPDEEDNTFYQRLKSMKEPLEAQNIPDNFGNVSPEMTLVLHLAWVACGYIIWQNSTEDTWY",
-                  "hseq": "GSNPEPDATPFQEGLRTFDQLDAISSLP------TPSDIFVSYSTFP--GFVSWRDPKSGSWY",
-                  "midline": "G NP+ +   F + L++  +     ++P      +P    V +  +   G++ W++    +WY"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "tr|A9CJW3|A9CJW3_AGRFC",
-                  "accession": "A9CJW3",
-                  "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
-                }
-              ],
-              "len": 229,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 8.5093,
-                  "identity": 14,
-                  "positive": 17,
-                  "query_from": 59,
-                  "query_to": 98,
-                  "hit_from": 18,
-                  "hit_to": 53,
-                  "align_len": 40,
-                  "gaps": 4,
-                  "qseq": "EEIIQKQVKVNCTAEVLYPSTGQETAPEVNFTFEGETGKN",
-                  "hseq": "SEIIAAQVESRLLTEAGYPISVEEMGER----FAGMTWKN",
-                  "midline": " EII  QV+     E  YP + +E        F G T KN"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P04859|PHOSP_SENDH",
-                  "accession": "P04859",
-                  "title": "Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1"
-                }
-              ],
-              "len": 568,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 9.28357,
-                  "identity": 28,
-                  "positive": 45,
-                  "query_from": 41,
-                  "query_to": 131,
-                  "hit_from": 197,
-                  "hit_to": 304,
-                  "align_len": 110,
-                  "gaps": 21,
-                  "qseq": "SMEDIPGRGHKYHLKFAV-------EEIIQKQVK---VNCTAEVLYPST--GQETAPEVNFTFEGET-GKNPDEED------NTFYQRLKSMKEPLEAQNIPDNFGNVSP",
-                  "hseq": "SME--PGSSHSARVTGVLVIPSPELEEAVLRRNKRRPTNSGSKPLTPATVPGTRSPPLNRYNSTGSPPGKPPSTQDEHINSGDTPAVRVKDRKPPIGTRSVSDCPANGRP",
-                  "midline": "SME  PG  H   +   +       EE + ++ K    N  ++ L P+T  G  + P   +   G   GK P  +D      +T   R+K  K P+  +++ D   N  P"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q92547|TOPB1_HUMAN",
-                  "accession": "Q92547",
-                  "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
-                }
-              ],
-              "len": 1522,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 9.97256,
-                  "identity": 8,
-                  "positive": 13,
-                  "query_from": 1,
-                  "query_to": 16,
-                  "hit_from": 450,
-                  "hit_to": 465,
-                  "align_len": 16,
-                  "gaps": 0,
-                  "qseq": "MEIPPTNYPASRAALV",
-                  "hseq": "VEIPVSHKPESKAALL",
-                  "midline": "+EIP ++ P S+AAL+"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 62,
+                "eff_space": 11162240,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 62,
-            "eff_space": 11162240,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,142 +17,147 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "tr|Q7X0F0|Q7X0F0_AERHY C.AhdI OS=Aeromonas hydrophila OX=644 GN=ahdIC PE=1 SV=1",
-          "query_len": 74,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "tr|Q7X0F0|Q7X0F0_AERHY",
-                  "accession": "Q7X0F0",
-                  "title": "C.AhdI OS=Aeromonas hydrophila OX=644 GN=ahdIC PE=1 SV=1"
-                }
-              ],
-              "len": 74,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "tr|Q7X0F0|Q7X0F0_AERHY C.AhdI OS=Aeromonas hydrophila OX=644 GN=ahdIC PE=1 SV=1",
+              "query_len": 74,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 152.91,
-                  "score": 385,
-                  "evalue": 6.55568e-53,
-                  "identity": 74,
-                  "positive": 74,
-                  "query_from": 1,
-                  "query_to": 74,
-                  "hit_from": 1,
-                  "hit_to": 74,
-                  "align_len": 74,
-                  "gaps": 0,
-                  "qseq": "MQSHHDHYADLVKFGQRLRELRTAKGLSQETLAFLSGLDRSYVGGVERGQRNVSLVNILKLATALDIEPRELFC",
-                  "hseq": "MQSHHDHYADLVKFGQRLRELRTAKGLSQETLAFLSGLDRSYVGGVERGQRNVSLVNILKLATALDIEPRELFC",
-                  "midline": "MQSHHDHYADLVKFGQRLRELRTAKGLSQETLAFLSGLDRSYVGGVERGQRNVSLVNILKLATALDIEPRELFC"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "tr|Q7X0F0|Q7X0F0_AERHY",
+                      "accession": "Q7X0F0",
+                      "title": "C.AhdI OS=Aeromonas hydrophila OX=644 GN=ahdIC PE=1 SV=1"
+                    }
+                  ],
+                  "len": 74,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 152.91,
+                      "score": 385,
+                      "evalue": 6.55568e-53,
+                      "identity": 74,
+                      "positive": 74,
+                      "query_from": 1,
+                      "query_to": 74,
+                      "hit_from": 1,
+                      "hit_to": 74,
+                      "align_len": 74,
+                      "gaps": 0,
+                      "qseq": "MQSHHDHYADLVKFGQRLRELRTAKGLSQETLAFLSGLDRSYVGGVERGQRNVSLVNILKLATALDIEPRELFC",
+                      "hseq": "MQSHHDHYADLVKFGQRLRELRTAKGLSQETLAFLSGLDRSYVGGVERGQRNVSLVNILKLATALDIEPRELFC",
+                      "midline": "MQSHHDHYADLVKFGQRLRELRTAKGLSQETLAFLSGLDRSYVGGVERGQRNVSLVNILKLATALDIEPRELFC"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q99633|PRP18_HUMAN",
-                  "accession": "Q99633",
-                  "title": "Pre-mRNA-splicing factor 18 OS=Homo sapiens OX=9606 GN=PRPF18 PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|Q99633|PRP18_HUMAN",
+                      "accession": "Q99633",
+                      "title": "Pre-mRNA-splicing factor 18 OS=Homo sapiens OX=9606 GN=PRPF18 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 342,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 0.311205,
+                      "identity": 16,
+                      "positive": 23,
+                      "query_from": 16,
+                      "query_to": 52,
+                      "hit_from": 107,
+                      "hit_to": 152,
+                      "align_len": 46,
+                      "gaps": 9,
+                      "qseq": "QRLRELR-----TAKGLSQETLAFLSGLDRSY----VGGVERGQRN",
+                      "hseq": "QRLRKIEILTPEVNKGLRNDLKAALDKIDQQYLNEIVGGQEPGEED",
+                      "midline": "QRLR++        KGL  +  A L  +D+ Y    VGG E G+ +"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|O43896|KIF1C_HUMAN",
+                      "accession": "O43896",
+                      "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1103,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 1.21124,
+                      "identity": 13,
+                      "positive": 16,
+                      "query_from": 17,
+                      "query_to": 46,
+                      "hit_from": 372,
+                      "hit_to": 401,
+                      "align_len": 30,
+                      "gaps": 0,
+                      "qseq": "RLRELRTAKGLSQETLAFLSGLDRSYVGGV",
+                      "hseq": "RLRELLMAQGLSASALEGLKTEEGSVRGAL",
+                      "midline": "RLREL  A+GLS   L  L   + S  G +"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P09394|GLPQ_ECOLI",
+                      "accession": "P09394",
+                      "title": "Glycerophosphodiester phosphodiesterase, periplasmic OS=Escherichia coli (strain K12) OX=83333 GN=glpQ PE=1 SV=2"
+                    }
+                  ],
+                  "len": 358,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 4.02829,
+                      "identity": 9,
+                      "positive": 11,
+                      "query_from": 5,
+                      "query_to": 20,
+                      "hit_from": 78,
+                      "hit_to": 98,
+                      "align_len": 21,
+                      "gaps": 5,
+                      "qseq": "HDHYADLV-----KFGQRLRE",
+                      "hseq": "HDHYLDRVTDVADRFPDRARK",
+                      "midline": "HDHY D V     +F  R R+"
+                    }
+                  ]
                 }
               ],
-              "len": 342,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 0.311205,
-                  "identity": 16,
-                  "positive": 23,
-                  "query_from": 16,
-                  "query_to": 52,
-                  "hit_from": 107,
-                  "hit_to": 152,
-                  "align_len": 46,
-                  "gaps": 9,
-                  "qseq": "QRLRELR-----TAKGLSQETLAFLSGLDRSY----VGGVERGQRN",
-                  "hseq": "QRLRKIEILTPEVNKGLRNDLKAALDKIDQQYLNEIVGGQEPGEED",
-                  "midline": "QRLR++        KGL  +  A L  +D+ Y    VGG E G+ +"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|O43896|KIF1C_HUMAN",
-                  "accession": "O43896",
-                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
-                }
-              ],
-              "len": 1103,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 1.21124,
-                  "identity": 13,
-                  "positive": 16,
-                  "query_from": 17,
-                  "query_to": 46,
-                  "hit_from": 372,
-                  "hit_to": 401,
-                  "align_len": 30,
-                  "gaps": 0,
-                  "qseq": "RLRELRTAKGLSQETLAFLSGLDRSYVGGV",
-                  "hseq": "RLRELLMAQGLSASALEGLKTEEGSVRGAL",
-                  "midline": "RLREL  A+GLS   L  L   + S  G +"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P09394|GLPQ_ECOLI",
-                  "accession": "P09394",
-                  "title": "Glycerophosphodiester phosphodiesterase, periplasmic OS=Escherichia coli (strain K12) OX=83333 GN=glpQ PE=1 SV=2"
-                }
-              ],
-              "len": 358,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 4.02829,
-                  "identity": 9,
-                  "positive": 11,
-                  "query_from": 5,
-                  "query_to": 20,
-                  "hit_from": 78,
-                  "hit_to": 98,
-                  "align_len": 21,
-                  "gaps": 5,
-                  "qseq": "HDHYADLV-----KFGQRLRE",
-                  "hseq": "HDHYLDRVTDVADRFPDRARK",
-                  "midline": "HDHY D V     +F  R R+"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 46,
+                "eff_space": 2047024,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 46,
-            "eff_space": 2047024,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

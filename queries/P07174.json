@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,206 +17,211 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P07174|TNR16_RAT Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1",
-          "query_len": 425,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P07174|TNR16_RAT",
-                  "accession": "P07174",
-                  "title": "Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1"
-                }
-              ],
-              "len": 425,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P07174|TNR16_RAT Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1",
+              "query_len": 425,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 867.84,
-                  "score": 2241,
-                  "evalue": 0,
-                  "identity": 425,
-                  "positive": 425,
-                  "query_from": 1,
-                  "query_to": 425,
-                  "hit_from": 1,
-                  "hit_to": 425,
-                  "align_len": 425,
-                  "gaps": 0,
-                  "qseq": "MRRAGAACSAMDRLRLLLLLILGVSSGGAKETCSTGLYTHSGECCKACNLGEGVAQPCGANQTVCEPCLDNVTFSDVVSATEPCKPCTECLGLQSMSAPCVEADDAVCRCAYGYYQDEETGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEANHVDPCLPCTVCEDTERQLRECTPWADAECEEIPGRWIPRSTPPEGSDSTAPSTQEPEVPPEQDLVPSTVADMVTTVMGSSQPVVTRGTTDNLIPVYCSILAAVVVGLVAYIAFKRWNSCKQNKQGANSRPVNQTPPPEGEKLHSDSGISVDSQSLHDQQTHTQTASGQALKGDGNLYSSLPLTKREEVEKLLNGDTWRHLAGELGYQPEHIDSFTHEACPVRALLASWGAQDSATLDALLAALRRIQRADIVESLCSESTATSPV",
-                  "hseq": "MRRAGAACSAMDRLRLLLLLILGVSSGGAKETCSTGLYTHSGECCKACNLGEGVAQPCGANQTVCEPCLDNVTFSDVVSATEPCKPCTECLGLQSMSAPCVEADDAVCRCAYGYYQDEETGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEANHVDPCLPCTVCEDTERQLRECTPWADAECEEIPGRWIPRSTPPEGSDSTAPSTQEPEVPPEQDLVPSTVADMVTTVMGSSQPVVTRGTTDNLIPVYCSILAAVVVGLVAYIAFKRWNSCKQNKQGANSRPVNQTPPPEGEKLHSDSGISVDSQSLHDQQTHTQTASGQALKGDGNLYSSLPLTKREEVEKLLNGDTWRHLAGELGYQPEHIDSFTHEACPVRALLASWGAQDSATLDALLAALRRIQRADIVESLCSESTATSPV",
-                  "midline": "MRRAGAACSAMDRLRLLLLLILGVSSGGAKETCSTGLYTHSGECCKACNLGEGVAQPCGANQTVCEPCLDNVTFSDVVSATEPCKPCTECLGLQSMSAPCVEADDAVCRCAYGYYQDEETGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEANHVDPCLPCTVCEDTERQLRECTPWADAECEEIPGRWIPRSTPPEGSDSTAPSTQEPEVPPEQDLVPSTVADMVTTVMGSSQPVVTRGTTDNLIPVYCSILAAVVVGLVAYIAFKRWNSCKQNKQGANSRPVNQTPPPEGEKLHSDSGISVDSQSLHDQQTHTQTASGQALKGDGNLYSSLPLTKREEVEKLLNGDTWRHLAGELGYQPEHIDSFTHEACPVRALLASWGAQDSATLDALLAALRRIQRADIVESLCSESTATSPV"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P19438|TNR1A_HUMAN",
-                  "accession": "P19438",
-                  "title": "Tumor necrosis factor receptor superfamily member 1A OS=Homo sapiens OX=9606 GN=TNFRSF1A PE=1 SV=1"
-                }
-              ],
-              "len": 455,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 50.447,
-                  "score": 119,
-                  "evalue": 7.39475e-09,
-                  "identity": 50,
-                  "positive": 75,
-                  "query_from": 32,
-                  "query_to": 183,
-                  "hit_from": 43,
-                  "hit_to": 197,
-                  "align_len": 163,
-                  "gaps": 19,
-                  "qseq": "TCSTGLYTH---SGECCKACNLGEGVAQPC-GANQ-TVCEPCLDNVTFSDVVSATEPCKPCTEC---LGLQSMSAPCVEADDAVCRC---AYGYYQDEETGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEANHVDPCLPCTVCEDTERQLRECTP",
-                  "hseq": "VCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCREC-ESGSFTASENHLRHCLSCSKCRKEMGQVEISS-CTVDRDTVCGCRKNQYRHYWSENLFQCFNCSLCLNGT-VHLSCQEKQNTVC-TCHAGFFLRE----NECVSCSNCKKSLECTKLCLP",
-                  "midline": " C  G Y H   +  CC  C+ G  +   C G  Q T C  C ++ +F+   +    C  C++C   +G   +S+ C    D VC C    Y +Y  E    C  CS+C  G+ +  SCQ+KQNTVC  C  G +  E    + C+ C+ C+ +    + C P"
+                  "description": [
+                    {
+                      "id": "sp|P07174|TNR16_RAT",
+                      "accession": "P07174",
+                      "title": "Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1"
+                    }
+                  ],
+                  "len": 425,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 867.84,
+                      "score": 2241,
+                      "evalue": 0,
+                      "identity": 425,
+                      "positive": 425,
+                      "query_from": 1,
+                      "query_to": 425,
+                      "hit_from": 1,
+                      "hit_to": 425,
+                      "align_len": 425,
+                      "gaps": 0,
+                      "qseq": "MRRAGAACSAMDRLRLLLLLILGVSSGGAKETCSTGLYTHSGECCKACNLGEGVAQPCGANQTVCEPCLDNVTFSDVVSATEPCKPCTECLGLQSMSAPCVEADDAVCRCAYGYYQDEETGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEANHVDPCLPCTVCEDTERQLRECTPWADAECEEIPGRWIPRSTPPEGSDSTAPSTQEPEVPPEQDLVPSTVADMVTTVMGSSQPVVTRGTTDNLIPVYCSILAAVVVGLVAYIAFKRWNSCKQNKQGANSRPVNQTPPPEGEKLHSDSGISVDSQSLHDQQTHTQTASGQALKGDGNLYSSLPLTKREEVEKLLNGDTWRHLAGELGYQPEHIDSFTHEACPVRALLASWGAQDSATLDALLAALRRIQRADIVESLCSESTATSPV",
+                      "hseq": "MRRAGAACSAMDRLRLLLLLILGVSSGGAKETCSTGLYTHSGECCKACNLGEGVAQPCGANQTVCEPCLDNVTFSDVVSATEPCKPCTECLGLQSMSAPCVEADDAVCRCAYGYYQDEETGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEANHVDPCLPCTVCEDTERQLRECTPWADAECEEIPGRWIPRSTPPEGSDSTAPSTQEPEVPPEQDLVPSTVADMVTTVMGSSQPVVTRGTTDNLIPVYCSILAAVVVGLVAYIAFKRWNSCKQNKQGANSRPVNQTPPPEGEKLHSDSGISVDSQSLHDQQTHTQTASGQALKGDGNLYSSLPLTKREEVEKLLNGDTWRHLAGELGYQPEHIDSFTHEACPVRALLASWGAQDSATLDALLAALRRIQRADIVESLCSESTATSPV",
+                      "midline": "MRRAGAACSAMDRLRLLLLLILGVSSGGAKETCSTGLYTHSGECCKACNLGEGVAQPCGANQTVCEPCLDNVTFSDVVSATEPCKPCTECLGLQSMSAPCVEADDAVCRCAYGYYQDEETGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEANHVDPCLPCTVCEDTERQLRECTPWADAECEEIPGRWIPRSTPPEGSDSTAPSTQEPEVPPEQDLVPSTVADMVTTVMGSSQPVVTRGTTDNLIPVYCSILAAVVVGLVAYIAFKRWNSCKQNKQGANSRPVNQTPPPEGEKLHSDSGISVDSQSLHDQQTHTQTASGQALKGDGNLYSSLPLTKREEVEKLLNGDTWRHLAGELGYQPEHIDSFTHEACPVRALLASWGAQDSATLDALLAALRRIQRADIVESLCSESTATSPV"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 35.039,
-                  "score": 79,
-                  "evalue": 0.000475421,
-                  "identity": 28,
-                  "positive": 41,
-                  "query_from": 102,
-                  "query_to": 189,
-                  "hit_from": 38,
-                  "hit_to": 125,
-                  "align_len": 91,
-                  "gaps": 6,
-                  "qseq": "EADDAVCRCAYGYYQDEETGHCEACSVCEVGSGLVFSCQDK-QNTVCEECPEGTYSDEANHVDPCLPCTVC--EDTERQLRECTPWADAEC",
-                  "hseq": "EKRDSVCPQG-KYIHPQNNSIC--CTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVC",
-                  "midline": "E  D+VC     Y   +    C  C+ C  G+ L   C    Q+T C EC  G+++   NH+  CL C+ C  E  + ++  CT   D  C"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P07206|PULA_KLEPN",
-                  "accession": "P07206",
-                  "title": "Pullulanase OS=Klebsiella pneumoniae OX=573 GN=pulA PE=1 SV=2"
-                }
-              ],
-              "len": 1090,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 25.409,
-                  "score": 54,
-                  "evalue": 0.62101,
-                  "identity": 14,
-                  "positive": 24,
-                  "query_from": 5,
-                  "query_to": 48,
-                  "hit_from": 51,
-                  "hit_to": 95,
-                  "align_len": 45,
-                  "gaps": 1,
-                  "qseq": "GAACSAMDRLRLLLLL-ILGVSSGGAKETCSTGLYTHSGECCKAC",
-                  "hseq": "GEAVTAVENQAVIHLVDIAGITSSSAADYSSKNLYLWNNETCDAL",
-                  "midline": "G A +A++   ++ L+ I G++S  A +  S  LY  + E C A "
+                  "description": [
+                    {
+                      "id": "sp|P19438|TNR1A_HUMAN",
+                      "accession": "P19438",
+                      "title": "Tumor necrosis factor receptor superfamily member 1A OS=Homo sapiens OX=9606 GN=TNFRSF1A PE=1 SV=1"
+                    }
+                  ],
+                  "len": 455,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 50.447,
+                      "score": 119,
+                      "evalue": 7.39475e-09,
+                      "identity": 50,
+                      "positive": 75,
+                      "query_from": 32,
+                      "query_to": 183,
+                      "hit_from": 43,
+                      "hit_to": 197,
+                      "align_len": 163,
+                      "gaps": 19,
+                      "qseq": "TCSTGLYTH---SGECCKACNLGEGVAQPC-GANQ-TVCEPCLDNVTFSDVVSATEPCKPCTEC---LGLQSMSAPCVEADDAVCRC---AYGYYQDEETGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEANHVDPCLPCTVCEDTERQLRECTP",
+                      "hseq": "VCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCREC-ESGSFTASENHLRHCLSCSKCRKEMGQVEISS-CTVDRDTVCGCRKNQYRHYWSENLFQCFNCSLCLNGT-VHLSCQEKQNTVC-TCHAGFFLRE----NECVSCSNCKKSLECTKLCLP",
+                      "midline": " C  G Y H   +  CC  C+ G  +   C G  Q T C  C ++ +F+   +    C  C++C   +G   +S+ C    D VC C    Y +Y  E    C  CS+C  G+ +  SCQ+KQNTVC  C  G +  E    + C+ C+ C+ +    + C P"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 35.039,
+                      "score": 79,
+                      "evalue": 0.000475421,
+                      "identity": 28,
+                      "positive": 41,
+                      "query_from": 102,
+                      "query_to": 189,
+                      "hit_from": 38,
+                      "hit_to": 125,
+                      "align_len": 91,
+                      "gaps": 6,
+                      "qseq": "EADDAVCRCAYGYYQDEETGHCEACSVCEVGSGLVFSCQDK-QNTVCEECPEGTYSDEANHVDPCLPCTVC--EDTERQLRECTPWADAEC",
+                      "hseq": "EKRDSVCPQG-KYIHPQNNSIC--CTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVC",
+                      "midline": "E  D+VC     Y   +    C  C+ C  G+ L   C    Q+T C EC  G+++   NH+  CL C+ C  E  + ++  CT   D  C"
+                    }
+                  ]
                 },
                 {
-                  "num": 2,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 1.84307,
-                  "identity": 19,
-                  "positive": 30,
-                  "query_from": 201,
-                  "query_to": 260,
-                  "hit_from": 572,
-                  "hit_to": 638,
-                  "align_len": 67,
-                  "gaps": 7,
-                  "qseq": "TPPEGSDSTAP--STQEPEVPP-----EQDLVPSTVADMVTTVMGSSQPVVTRGTTDNLIPVYCSIL",
-                  "hseq": "TVPEGSYATDPEGTTRIKEFRTMIQAIKQDLGMNVIMDVVYNHTNAAGPTDRTSVLDKIVPWYYQRL",
-                  "midline": "T PEGS +T P  +T+  E        +QDL  + + D+V     ++ P       D ++P Y   L"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P07206|PULA_KLEPN",
+                      "accession": "P07206",
+                      "title": "Pullulanase OS=Klebsiella pneumoniae OX=573 GN=pulA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1090,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 25.409,
+                      "score": 54,
+                      "evalue": 0.62101,
+                      "identity": 14,
+                      "positive": 24,
+                      "query_from": 5,
+                      "query_to": 48,
+                      "hit_from": 51,
+                      "hit_to": 95,
+                      "align_len": 45,
+                      "gaps": 1,
+                      "qseq": "GAACSAMDRLRLLLLL-ILGVSSGGAKETCSTGLYTHSGECCKAC",
+                      "hseq": "GEAVTAVENQAVIHLVDIAGITSSSAADYSSKNLYLWNNETCDAL",
+                      "midline": "G A +A++   ++ L+ I G++S  A +  S  LY  + E C A "
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 1.84307,
+                      "identity": 19,
+                      "positive": 30,
+                      "query_from": 201,
+                      "query_to": 260,
+                      "hit_from": 572,
+                      "hit_to": 638,
+                      "align_len": 67,
+                      "gaps": 7,
+                      "qseq": "TPPEGSDSTAP--STQEPEVPP-----EQDLVPSTVADMVTTVMGSSQPVVTRGTTDNLIPVYCSIL",
+                      "hseq": "TVPEGSYATDPEGTTRIKEFRTMIQAIKQDLGMNVIMDVVYNHTNAAGPTDRTSVLDKIVPWYYQRL",
+                      "midline": "T PEGS +T P  +T+  E        +QDL  + + D+V     ++ P       D ++P Y   L"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P26646|ACUI_ECOLI",
-                  "accession": "P26646",
-                  "title": "Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1"
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P26646|ACUI_ECOLI",
+                      "accession": "P26646",
+                      "title": "Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1"
+                    }
+                  ],
+                  "len": 324,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 3.3769,
+                      "identity": 15,
+                      "positive": 15,
+                      "query_from": 42,
+                      "query_to": 83,
+                      "hit_from": 234,
+                      "hit_to": 271,
+                      "align_len": 42,
+                      "gaps": 4,
+                      "qseq": "GECCKACNLGEGVAQPCGANQTVCEPCLDNVTFSDVVSATEP",
+                      "hseq": "GGCVAACGLAGGFTLPT----TVMPFILRNVRLQGVDSVMTP",
+                      "midline": "G C  AC L  G   P     TV    L NV    V S   P"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P03422|PHOSP_MEASE",
+                      "accession": "P03422",
+                      "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
+                    }
+                  ],
+                  "len": 507,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 9.60348,
+                      "identity": 16,
+                      "positive": 22,
+                      "query_from": 31,
+                      "query_to": 83,
+                      "hit_from": 101,
+                      "hit_to": 158,
+                      "align_len": 58,
+                      "gaps": 5,
+                      "qseq": "ETCSTGL-----YTHSGECCKACNLGEGVAQPCGANQTVCEPCLDNVTFSDVVSATEP",
+                      "hseq": "QASSTGLQCYYVYDHSGEAVKGIQDADSIMVQSGLDGDSTLSGGDNESENSDVDIGEP",
+                      "midline": "+  STGL     Y HSGE  K     + +    G +        DN + +  V   EP"
+                    }
+                  ]
                 }
               ],
-              "len": 324,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 3.3769,
-                  "identity": 15,
-                  "positive": 15,
-                  "query_from": 42,
-                  "query_to": 83,
-                  "hit_from": 234,
-                  "hit_to": 271,
-                  "align_len": 42,
-                  "gaps": 4,
-                  "qseq": "GECCKACNLGEGVAQPCGANQTVCEPCLDNVTFSDVVSATEP",
-                  "hseq": "GGCVAACGLAGGFTLPT----TVMPFILRNVRLQGVDSVMTP",
-                  "midline": "G C  AC L  G   P     TV    L NV    V S   P"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P03422|PHOSP_MEASE",
-                  "accession": "P03422",
-                  "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
-                }
-              ],
-              "len": 507,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 9.60348,
-                  "identity": 16,
-                  "positive": 22,
-                  "query_from": 31,
-                  "query_to": 83,
-                  "hit_from": 101,
-                  "hit_to": 158,
-                  "align_len": 58,
-                  "gaps": 5,
-                  "qseq": "ETCSTGL-----YTHSGECCKACNLGEGVAQPCGANQTVCEPCLDNVTFSDVVSATEP",
-                  "hseq": "QASSTGLQCYYVYDHSGEAVKGIQDADSIMVQSGLDGDSTLSGGDNESENSDVDIGEP",
-                  "midline": "+  STGL     Y HSGE  K     + +    G +        DN + +  V   EP"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 68,
+                "eff_space": 24458070,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 68,
-            "eff_space": 24458070,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

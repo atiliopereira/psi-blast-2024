@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,232 +17,237 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q8WVQ1|CANT1_HUMAN Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1",
-          "query_len": 401,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q8WVQ1|CANT1_HUMAN",
-                  "accession": "Q8WVQ1",
-                  "title": "Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1"
-                }
-              ],
-              "len": 401,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q8WVQ1|CANT1_HUMAN Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1",
+              "query_len": 401,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 827.009,
-                  "score": 2135,
-                  "evalue": 0,
-                  "identity": 401,
-                  "positive": 401,
-                  "query_from": 1,
-                  "query_to": 401,
-                  "hit_from": 1,
-                  "hit_to": 401,
-                  "align_len": 401,
-                  "gaps": 0,
-                  "qseq": "MPVQLSEHPEWNESMHSLRISVGGLPVLASMTKAADPRFRPRWKVILTFFVGAAILWLLCSHRPAPGRPPTHNAHNWRLGQAPANWYNDTYPLSPPQRTPAGIRYRIAVIADLDTESRAQEENTWFSYLKKGYLTLSDSGDKVAVEWDKDHGVLESHLAEKGRGMELSDLIVFNGKLYSVDDRTGVVYQIEGSKAVPWVILSDGDGTVEKGFKAEWLAVKDERLYVGGLGKEWTTTTGDVVNENPEWVKVVGYKGSVDHENWVSNYNALRAAAGIQPPGYLIHESACWSDTLQRWFFLPRRASQERYSEKDDERKGANLLLSASPDFGDIAVSHVGAVVPTHGFSSFKFIPNTDDQIIVALKSEEDSGRVASYIMAFTLDGRFLLPETKIGSVKYEGIEFI",
-                  "hseq": "MPVQLSEHPEWNESMHSLRISVGGLPVLASMTKAADPRFRPRWKVILTFFVGAAILWLLCSHRPAPGRPPTHNAHNWRLGQAPANWYNDTYPLSPPQRTPAGIRYRIAVIADLDTESRAQEENTWFSYLKKGYLTLSDSGDKVAVEWDKDHGVLESHLAEKGRGMELSDLIVFNGKLYSVDDRTGVVYQIEGSKAVPWVILSDGDGTVEKGFKAEWLAVKDERLYVGGLGKEWTTTTGDVVNENPEWVKVVGYKGSVDHENWVSNYNALRAAAGIQPPGYLIHESACWSDTLQRWFFLPRRASQERYSEKDDERKGANLLLSASPDFGDIAVSHVGAVVPTHGFSSFKFIPNTDDQIIVALKSEEDSGRVASYIMAFTLDGRFLLPETKIGSVKYEGIEFI",
-                  "midline": "MPVQLSEHPEWNESMHSLRISVGGLPVLASMTKAADPRFRPRWKVILTFFVGAAILWLLCSHRPAPGRPPTHNAHNWRLGQAPANWYNDTYPLSPPQRTPAGIRYRIAVIADLDTESRAQEENTWFSYLKKGYLTLSDSGDKVAVEWDKDHGVLESHLAEKGRGMELSDLIVFNGKLYSVDDRTGVVYQIEGSKAVPWVILSDGDGTVEKGFKAEWLAVKDERLYVGGLGKEWTTTTGDVVNENPEWVKVVGYKGSVDHENWVSNYNALRAAAGIQPPGYLIHESACWSDTLQRWFFLPRRASQERYSEKDDERKGANLLLSASPDFGDIAVSHVGAVVPTHGFSSFKFIPNTDDQIIVALKSEEDSGRVASYIMAFTLDGRFLLPETKIGSVKYEGIEFI"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|Q8WVQ1|CANT1_HUMAN",
+                      "accession": "Q8WVQ1",
+                      "title": "Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 401,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 827.009,
+                      "score": 2135,
+                      "evalue": 0,
+                      "identity": 401,
+                      "positive": 401,
+                      "query_from": 1,
+                      "query_to": 401,
+                      "hit_from": 1,
+                      "hit_to": 401,
+                      "align_len": 401,
+                      "gaps": 0,
+                      "qseq": "MPVQLSEHPEWNESMHSLRISVGGLPVLASMTKAADPRFRPRWKVILTFFVGAAILWLLCSHRPAPGRPPTHNAHNWRLGQAPANWYNDTYPLSPPQRTPAGIRYRIAVIADLDTESRAQEENTWFSYLKKGYLTLSDSGDKVAVEWDKDHGVLESHLAEKGRGMELSDLIVFNGKLYSVDDRTGVVYQIEGSKAVPWVILSDGDGTVEKGFKAEWLAVKDERLYVGGLGKEWTTTTGDVVNENPEWVKVVGYKGSVDHENWVSNYNALRAAAGIQPPGYLIHESACWSDTLQRWFFLPRRASQERYSEKDDERKGANLLLSASPDFGDIAVSHVGAVVPTHGFSSFKFIPNTDDQIIVALKSEEDSGRVASYIMAFTLDGRFLLPETKIGSVKYEGIEFI",
+                      "hseq": "MPVQLSEHPEWNESMHSLRISVGGLPVLASMTKAADPRFRPRWKVILTFFVGAAILWLLCSHRPAPGRPPTHNAHNWRLGQAPANWYNDTYPLSPPQRTPAGIRYRIAVIADLDTESRAQEENTWFSYLKKGYLTLSDSGDKVAVEWDKDHGVLESHLAEKGRGMELSDLIVFNGKLYSVDDRTGVVYQIEGSKAVPWVILSDGDGTVEKGFKAEWLAVKDERLYVGGLGKEWTTTTGDVVNENPEWVKVVGYKGSVDHENWVSNYNALRAAAGIQPPGYLIHESACWSDTLQRWFFLPRRASQERYSEKDDERKGANLLLSASPDFGDIAVSHVGAVVPTHGFSSFKFIPNTDDQIIVALKSEEDSGRVASYIMAFTLDGRFLLPETKIGSVKYEGIEFI",
+                      "midline": "MPVQLSEHPEWNESMHSLRISVGGLPVLASMTKAADPRFRPRWKVILTFFVGAAILWLLCSHRPAPGRPPTHNAHNWRLGQAPANWYNDTYPLSPPQRTPAGIRYRIAVIADLDTESRAQEENTWFSYLKKGYLTLSDSGDKVAVEWDKDHGVLESHLAEKGRGMELSDLIVFNGKLYSVDDRTGVVYQIEGSKAVPWVILSDGDGTVEKGFKAEWLAVKDERLYVGGLGKEWTTTTGDVVNENPEWVKVVGYKGSVDHENWVSNYNALRAAAGIQPPGYLIHESACWSDTLQRWFFLPRRASQERYSEKDDERKGANLLLSASPDFGDIAVSHVGAVVPTHGFSSFKFIPNTDDQIIVALKSEEDSGRVASYIMAFTLDGRFLLPETKIGSVKYEGIEFI"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q27084|TAL2_TACTR",
-                  "accession": "Q27084",
-                  "title": "Tachylectin-2 OS=Tachypleus tridentatus OX=6853 PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|Q27084|TAL2_TACTR",
+                      "accession": "Q27084",
+                      "title": "Tachylectin-2 OS=Tachypleus tridentatus OX=6853 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 255,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 3.41062,
+                      "identity": 10,
+                      "positive": 17,
+                      "query_from": 56,
+                      "query_to": 82,
+                      "hit_from": 73,
+                      "hit_to": 98,
+                      "align_len": 27,
+                      "gaps": 1,
+                      "qseq": "LWLLCSHRPAPGRPPTHNAHNWRLGQA",
+                      "hseq": "LYGVLNDKIYKGTPPTHDNDNW-MGRA",
+                      "midline": "L+ + + +   G PPTH+  NW +G+A"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P18887|XRCC1_HUMAN",
+                      "accession": "P18887",
+                      "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 633,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 4.16242,
+                      "identity": 14,
+                      "positive": 35,
+                      "query_from": 211,
+                      "query_to": 270,
+                      "hit_from": 329,
+                      "hit_to": 393,
+                      "align_len": 65,
+                      "gaps": 5,
+                      "qseq": "GFKAEWLA-VKDERLYVGGLGK-EWTTTTGDVV---NENPEWVKVVGYKGSVDHENWVSNYNALR",
+                      "hseq": "GFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANTPKYSQVLGLGGRIVRKEWVLDCHRMR",
+                      "midline": "GF+  + + ++D+ L +G   + +WT  +  ++      P++ +V+G  G +  + WV + + +R"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P74881|PUR4_SALTY",
+                      "accession": "P74881",
+                      "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1295,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 4.49351,
+                      "identity": 13,
+                      "positive": 21,
+                      "query_from": 288,
+                      "query_to": 322,
+                      "hit_from": 985,
+                      "hit_to": 1022,
+                      "align_len": 38,
+                      "gaps": 3,
+                      "qseq": "WSDT---LQRWFFLPRRASQERYSEKDDERKGANLLLS",
+                      "hseq": "WAETTWQMQRLRDNPQCADQEHEAKANDTDPGLNVKLS",
+                      "midline": "W++T   +QR    P+ A QE  ++ +D   G N+ LS"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q9JLV6|PNKP_MOUSE",
+                      "accession": "Q9JLV6",
+                      "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
+                    }
+                  ],
+                  "len": 522,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 5.36836,
+                      "identity": 8,
+                      "positive": 14,
+                      "query_from": 172,
+                      "query_to": 190,
+                      "hit_from": 230,
+                      "hit_to": 248,
+                      "align_len": 19,
+                      "gaps": 0,
+                      "qseq": "VFNGKLYSVDDRTGVVYQI",
+                      "hseq": "VFKGKVEAVLEKLGVPFQV",
+                      "midline": "VF GK+ +V ++ GV +Q+"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P04859|PHOSP_SENDH",
+                      "accession": "P04859",
+                      "title": "Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1"
+                    }
+                  ],
+                  "len": 568,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 6.55427,
+                      "identity": 9,
+                      "positive": 12,
+                      "query_from": 66,
+                      "query_to": 92,
+                      "hit_from": 262,
+                      "hit_to": 288,
+                      "align_len": 27,
+                      "gaps": 0,
+                      "qseq": "PGRPPTHNAHNWRLGQAPANWYNDTYP",
+                      "hseq": "PGKPPSTQDEHINSGDTPAVRVKDRKP",
+                      "midline": "PG+PP+    +   G  PA    D  P"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "tr|Q9X0V2|Q9X0V2_THEMA",
+                      "accession": "Q9X0V2",
+                      "title": "Uncharacterized protein OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=TM_1225 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 326,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 6.92793,
+                      "identity": 12,
+                      "positive": 18,
+                      "query_from": 338,
+                      "query_to": 376,
+                      "hit_from": 266,
+                      "hit_to": 302,
+                      "align_len": 39,
+                      "gaps": 2,
+                      "qseq": "VVPTHGFSSFKFIPNTDDQIIVALKSEEDSGRVASYIMA",
+                      "hseq": "LTPEEEYETVGFVPNV--VFPCAALCDADTGRVAIYYGA",
+                      "midline": "+ P   + +  F+PN       A   + D+GRVA Y  A"
+                    }
+                  ]
                 }
               ],
-              "len": 255,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 3.41062,
-                  "identity": 10,
-                  "positive": 17,
-                  "query_from": 56,
-                  "query_to": 82,
-                  "hit_from": 73,
-                  "hit_to": 98,
-                  "align_len": 27,
-                  "gaps": 1,
-                  "qseq": "LWLLCSHRPAPGRPPTHNAHNWRLGQA",
-                  "hseq": "LYGVLNDKIYKGTPPTHDNDNW-MGRA",
-                  "midline": "L+ + + +   G PPTH+  NW +G+A"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P18887|XRCC1_HUMAN",
-                  "accession": "P18887",
-                  "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
-                }
-              ],
-              "len": 633,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 4.16242,
-                  "identity": 14,
-                  "positive": 35,
-                  "query_from": 211,
-                  "query_to": 270,
-                  "hit_from": 329,
-                  "hit_to": 393,
-                  "align_len": 65,
-                  "gaps": 5,
-                  "qseq": "GFKAEWLA-VKDERLYVGGLGK-EWTTTTGDVV---NENPEWVKVVGYKGSVDHENWVSNYNALR",
-                  "hseq": "GFQNPFRSELRDKALELGAKYRPDWTRDSTHLICAFANTPKYSQVLGLGGRIVRKEWVLDCHRMR",
-                  "midline": "GF+  + + ++D+ L +G   + +WT  +  ++      P++ +V+G  G +  + WV + + +R"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P74881|PUR4_SALTY",
-                  "accession": "P74881",
-                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
-                }
-              ],
-              "len": 1295,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 4.49351,
-                  "identity": 13,
-                  "positive": 21,
-                  "query_from": 288,
-                  "query_to": 322,
-                  "hit_from": 985,
-                  "hit_to": 1022,
-                  "align_len": 38,
-                  "gaps": 3,
-                  "qseq": "WSDT---LQRWFFLPRRASQERYSEKDDERKGANLLLS",
-                  "hseq": "WAETTWQMQRLRDNPQCADQEHEAKANDTDPGLNVKLS",
-                  "midline": "W++T   +QR    P+ A QE  ++ +D   G N+ LS"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q9JLV6|PNKP_MOUSE",
-                  "accession": "Q9JLV6",
-                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
-                }
-              ],
-              "len": 522,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 5.36836,
-                  "identity": 8,
-                  "positive": 14,
-                  "query_from": 172,
-                  "query_to": 190,
-                  "hit_from": 230,
-                  "hit_to": 248,
-                  "align_len": 19,
-                  "gaps": 0,
-                  "qseq": "VFNGKLYSVDDRTGVVYQI",
-                  "hseq": "VFKGKVEAVLEKLGVPFQV",
-                  "midline": "VF GK+ +V ++ GV +Q+"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P04859|PHOSP_SENDH",
-                  "accession": "P04859",
-                  "title": "Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1"
-                }
-              ],
-              "len": 568,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 6.55427,
-                  "identity": 9,
-                  "positive": 12,
-                  "query_from": 66,
-                  "query_to": 92,
-                  "hit_from": 262,
-                  "hit_to": 288,
-                  "align_len": 27,
-                  "gaps": 0,
-                  "qseq": "PGRPPTHNAHNWRLGQAPANWYNDTYP",
-                  "hseq": "PGKPPSTQDEHINSGDTPAVRVKDRKP",
-                  "midline": "PG+PP+    +   G  PA    D  P"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "tr|Q9X0V2|Q9X0V2_THEMA",
-                  "accession": "Q9X0V2",
-                  "title": "Uncharacterized protein OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=TM_1225 PE=1 SV=1"
-                }
-              ],
-              "len": 326,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 6.92793,
-                  "identity": 12,
-                  "positive": 18,
-                  "query_from": 338,
-                  "query_to": 376,
-                  "hit_from": 266,
-                  "hit_to": 302,
-                  "align_len": 39,
-                  "gaps": 2,
-                  "qseq": "VVPTHGFSSFKFIPNTDDQIIVALKSEEDSGRVASYIMA",
-                  "hseq": "LTPEEEYETVGFVPNV--VFPCAALCDADTGRVAIYYGA",
-                  "midline": "+ P   + +  F+PN       A   + D+GRVA Y  A"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 67,
+                "eff_space": 22952146,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 67,
-            "eff_space": 22952146,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

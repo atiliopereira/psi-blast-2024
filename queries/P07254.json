@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,279 +17,284 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P07254|CHIA_SERMA Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3",
-          "query_len": 563,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P07254|CHIA_SERMA",
-                  "accession": "P07254",
-                  "title": "Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3"
-                }
-              ],
-              "len": 563,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P07254|CHIA_SERMA Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3",
+              "query_len": 563,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 1157.51,
-                  "score": 2993,
-                  "evalue": 0,
-                  "identity": 563,
-                  "positive": 563,
-                  "query_from": 1,
-                  "query_to": 563,
-                  "hit_from": 1,
-                  "hit_to": 563,
-                  "align_len": 563,
-                  "gaps": 0,
-                  "qseq": "MRKFNKPLLALLIGSTLCSAAQAAAPGKPTIAWGNTKFAIVEVDQAATAYNNLVKVKNAADVSVSWNLWNGDAGTTAKILLNGKEAWSGPSTGSSGTANFKVNKGGRYQMQVALCNADGCTASDATEIVVADTDGSHLAPLKEPLLEKNKPYKQNSGKVVGSYFVEWGVYGRNFTVDKIPAQNLTHLLYGFIPICGGNGINDSLKEIEGSFQALQRSCQGREDFKVSIHDPFAALQKAQKGVTAWDDPYKGNFGQLMALKQAHPDLKILPSIGGWTLSDPFFFMGDKVKRDRFVGSVKEFLQTWKFFDGVDIDWEFPGGKGANPNLGSPQDGETYVLLMKELRAMLDQLSAETGRKYELTSAISAGKDKIDKVAYNVAQNSMDHIFLMSYDFYGPFDLKNLGHQTALNAPAWKPDTAYTTVNGVNALLAQGVKPGKVVVGTAMYGRGWTGVNGYQNNIPFTGTATGPVKGTWKNGIVDYRQIAGQFMSGEWQYTYDATAEAPYVFKPSTGDLITFDDARSVQAKGKYVLDKQLGGLFSWEIDADNGDILNSMNASLGNSAGVQ",
-                  "hseq": "MRKFNKPLLALLIGSTLCSAAQAAAPGKPTIAWGNTKFAIVEVDQAATAYNNLVKVKNAADVSVSWNLWNGDAGTTAKILLNGKEAWSGPSTGSSGTANFKVNKGGRYQMQVALCNADGCTASDATEIVVADTDGSHLAPLKEPLLEKNKPYKQNSGKVVGSYFVEWGVYGRNFTVDKIPAQNLTHLLYGFIPICGGNGINDSLKEIEGSFQALQRSCQGREDFKVSIHDPFAALQKAQKGVTAWDDPYKGNFGQLMALKQAHPDLKILPSIGGWTLSDPFFFMGDKVKRDRFVGSVKEFLQTWKFFDGVDIDWEFPGGKGANPNLGSPQDGETYVLLMKELRAMLDQLSAETGRKYELTSAISAGKDKIDKVAYNVAQNSMDHIFLMSYDFYGPFDLKNLGHQTALNAPAWKPDTAYTTVNGVNALLAQGVKPGKVVVGTAMYGRGWTGVNGYQNNIPFTGTATGPVKGTWKNGIVDYRQIAGQFMSGEWQYTYDATAEAPYVFKPSTGDLITFDDARSVQAKGKYVLDKQLGGLFSWEIDADNGDILNSMNASLGNSAGVQ",
-                  "midline": "MRKFNKPLLALLIGSTLCSAAQAAAPGKPTIAWGNTKFAIVEVDQAATAYNNLVKVKNAADVSVSWNLWNGDAGTTAKILLNGKEAWSGPSTGSSGTANFKVNKGGRYQMQVALCNADGCTASDATEIVVADTDGSHLAPLKEPLLEKNKPYKQNSGKVVGSYFVEWGVYGRNFTVDKIPAQNLTHLLYGFIPICGGNGINDSLKEIEGSFQALQRSCQGREDFKVSIHDPFAALQKAQKGVTAWDDPYKGNFGQLMALKQAHPDLKILPSIGGWTLSDPFFFMGDKVKRDRFVGSVKEFLQTWKFFDGVDIDWEFPGGKGANPNLGSPQDGETYVLLMKELRAMLDQLSAETGRKYELTSAISAGKDKIDKVAYNVAQNSMDHIFLMSYDFYGPFDLKNLGHQTALNAPAWKPDTAYTTVNGVNALLAQGVKPGKVVVGTAMYGRGWTGVNGYQNNIPFTGTATGPVKGTWKNGIVDYRQIAGQFMSGEWQYTYDATAEAPYVFKPSTGDLITFDDARSVQAKGKYVLDKQLGGLFSWEIDADNGDILNSMNASLGNSAGVQ"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P30922|CH3L1_BOVIN",
-                  "accession": "P30922",
-                  "title": "Chitinase-3-like protein 1 OS=Bos taurus OX=9913 GN=CHI3L1 PE=1 SV=3"
-                }
-              ],
-              "len": 383,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 108.227,
-                  "score": 269,
-                  "evalue": 1.31297e-27,
-                  "identity": 89,
-                  "positive": 148,
-                  "query_from": 253,
-                  "query_to": 545,
-                  "hit_from": 77,
-                  "hit_to": 358,
-                  "align_len": 300,
-                  "gaps": 25,
-                  "qseq": "FGQLMALKQAHPDLKILPSIGGWTL-SDPFFFMGDKVKRDR-FVGSVKEFLQTWKFFDGVDIDWEFPGGKGANPNLGSPQDGETYVLLMKELRAMLDQLSAETGRKYELTSAISAGKDKIDKVAYNVAQNS--MDHIFLMSYDFYGPFDLKNLGHQTAL--NAPAWKPDTAYTTVNGVNALLAQGVKPGKVVVGTAMYGRGWTGVNGYQN-NIPFTGTATGPVKGTWKNGIVDYRQIAGQFMSGEWQYTYDATAEAPYVFKPSTGDLITFDDARSVQAKGKYVLDKQLGGLFSWEIDADN",
-                  "hseq": "YDTLNTLKNRNPNLKTLLSVGGWNFGSQRFSKIASKTQSRRTFIKSVPPFLRT-HGFDGLDLAWLYPGWR----------DKRHLTTLVKEMKAEFVREAQAGTEQLLLSAAVPAGKIAIDR-GYDIAQISRHLDFISLLTYDFHGAWR-QTVGHHSPLFRGQEDASSDRFSNADYAVSYMLRLGAPANKLVMGIPTFGRSYTLASSKTDVGAPISGPGI-PGQFTKEKGILAYYEIC-DFLHGATTHRF-RDQQVPYATKGN--QWVAYDDQESVKNKARYLKNRQLAGAMVWALDLDD",
-                  "midline": "+  L  LK  +P+LK L S+GGW   S  F  +  K +  R F+ SV  FL+T   FDG+D+ W +PG +          D      L+KE++A   + +     +  L++A+ AGK  ID+  Y++AQ S  +D I L++YDF+G +  + +GH + L         D        V+ +L  G    K+V+G   +GR +T  +   +   P +G    P + T + GI+ Y +I   F+ G   + +    + PY  K +    + +DD  SV+ K +Y+ ++QL G   W +D D+"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q9V3D4|IDGF2_DROME",
-                  "accession": "Q9V3D4",
-                  "title": "Chitinase-like protein Idgf2 OS=Drosophila melanogaster OX=7227 GN=Idgf2 PE=1 SV=1"
-                }
-              ],
-              "len": 440,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 72.0182,
-                  "score": 175,
-                  "evalue": 1.66657e-15,
-                  "identity": 91,
-                  "positive": 153,
-                  "query_from": 247,
-                  "query_to": 545,
-                  "hit_from": 78,
-                  "hit_to": 420,
-                  "align_len": 355,
-                  "gaps": 68,
-                  "qseq": "DPYKGNFGQLMALKQAHPDLKILPSIGGWTLSDP-------FFFMGDKVKRDRFVGSVKEFLQTWKFFDGVDIDWEFPGGK--GANPNLGSPQDG-----------ETYVLLMKE-----LRAMLDQLSAETGRKYELTSAISAGKD-KIDKVAYNVAQNSMDHIFLMSYDFYGPFDLKNLGHQTALNAPAWKPDTAYTTVNGVNA------LLAQGVKPGKVVVGTAMYGRGW-----TGVNGYQNNIPFTGTATGPVK---GTWKNGIVDYRQIAG-------QFMSGE---WQYTYDATAE-APYVFKPSTGDL-----ITFDDARSVQAKGKYVLDKQLGGLFSWEIDADN",
-                  "hseq": "DIYKHQFSEVTSLKRKYPHLKVLLSVGGDHDIDPDHPNKYIDLLEGEKVRQIGFIRSAYDLVKTYG-FDGLDLAYQFPKNKPRKVHGDLGLAWKSIKKLFTGDFIVDPHAALHKEQFTALVRDVKDSLRAD-GFLLSLTVLPNVNSTWYFDIPALN---GLVDFVNLATFDFLTP--ARN-PEEADYSAPIYHPDGSKDRLAHLNADFQVEYWLSQGFPSNKINLGVATYGNAWKLTKDSGLEG----VPVVPETSGPAPEGFQSQKPGLLSYAEICGKLSNPQNQFLKGNESPLRRVSDPTKRFGGIAYRPVDGQITEGIWVSYDDPDSASNKAAYARVKNLGGVALFDLSYDD",
-                  "midline": "D YK  F ++ +LK+ +P LK+L S+GG    DP           G+KV++  F+ S  + ++T+  FDG+D+ ++FP  K    + +LG                + +  L KE     +R + D L A+ G    LT   +       D  A N     +D + L ++DF  P   +N   +   +AP + PD +   +  +NA       L+QG    K+ +G A YG  W     +G+ G    +P     +GP      + K G++ Y +I G       QF+ G     +   D T       ++P  G +     +++DD  S   K  Y   K LGG+  +++  D+"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P0AEC8|DCUS_ECOLI",
-                  "accession": "P0AEC8",
-                  "title": "Sensor histidine kinase DcuS OS=Escherichia coli (strain K12) OX=83333 GN=dcuS PE=1 SV=1"
-                }
-              ],
-              "len": 543,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 30.8018,
-                  "score": 68,
-                  "evalue": 0.0166681,
-                  "identity": 21,
-                  "positive": 28,
-                  "query_from": 400,
-                  "query_to": 448,
-                  "hit_from": 410,
-                  "hit_to": 468,
-                  "align_len": 59,
-                  "gaps": 10,
-                  "qseq": "NLGHQTALNAPAWKPD--------TAYTTVNGV--NALLAQGVKPGKVVVGTAMYGRGW",
-                  "hseq": "DLGHTLILNSESQLPDSGSEDQVATLITTLGNLIENALEALGPEPGGEISVTLHYRHGW",
-                  "midline": "+LGH   LN+ +  PD        T  TT+  +  NAL A G +PG  +  T  Y  GW"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P83772|CRNA_PSEPU",
-                  "accession": "P83772",
-                  "title": "Creatinine amidohydrolase OS=Pseudomonas putida OX=303 GN=crnA PE=1 SV=1"
-                }
-              ],
-              "len": 260,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.2534,
-                  "score": 51,
-                  "evalue": 1.67463,
-                  "identity": 21,
-                  "positive": 32,
-                  "query_from": 198,
-                  "query_to": 266,
-                  "hit_from": 129,
-                  "hit_to": 194,
-                  "align_len": 76,
-                  "gaps": 17,
-                  "qseq": "NGINDSLKEIEGSFQALQRSCQGREDFKVSI-------HDPFAALQKAQKGVTAWDDPYKGNFGQLMALKQAHPDL",
-                  "hseq": "EGIDLALRELRYA---------GIQDFKVVVLSYWDFVKDPAVIQQLYPEGFLGWDIEHGGVFETSLMLA-LYPDL",
-                  "midline": " GI+ +L+E+  +         G +DFKV +        DP    Q   +G   WD  + G F   + L   +PDL"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P04395|3MG2_ECOLI",
-                  "accession": "P04395",
-                  "title": "DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1"
-                }
-              ],
-              "len": 282,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 1.82831,
-                  "identity": 15,
-                  "positive": 25,
-                  "query_from": 259,
-                  "query_to": 305,
-                  "hit_from": 202,
-                  "hit_to": 261,
-                  "align_len": 60,
-                  "gaps": 13,
-                  "qseq": "LKQAHPDLKILPSIGGWTL---------SDPFFFMGDKVKRDRFVG----SVKEFLQTWK",
-                  "hseq": "VEQAMKTLQTFPGIGRWTANYFALRGWQAKDVFLPDDYLIKQRFPGMTPAQIRRYAERWK",
-                  "midline": "++QA   L+  P IG WT          +   F   D + + RF G     ++ + + WK"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 3.75608,
-                  "identity": 13,
-                  "positive": 19,
-                  "query_from": 183,
-                  "query_to": 227,
-                  "hit_from": 4249,
-                  "hit_to": 4293,
-                  "align_len": 45,
-                  "gaps": 0,
-                  "qseq": "NLTHLLYGFIPICGGNGINDSLKEIEGSFQALQRSCQGREDFKVS",
-                  "hseq": "NLKHQVEQAQNVAGVNGVKDKGNTLNTAMGALRTSIQNDNTTKTS",
-                  "midline": "NL H +     + G NG+ D    +  +  AL+ S Q     K S"
+                  "description": [
+                    {
+                      "id": "sp|P07254|CHIA_SERMA",
+                      "accession": "P07254",
+                      "title": "Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3"
+                    }
+                  ],
+                  "len": 563,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 1157.51,
+                      "score": 2993,
+                      "evalue": 0,
+                      "identity": 563,
+                      "positive": 563,
+                      "query_from": 1,
+                      "query_to": 563,
+                      "hit_from": 1,
+                      "hit_to": 563,
+                      "align_len": 563,
+                      "gaps": 0,
+                      "qseq": "MRKFNKPLLALLIGSTLCSAAQAAAPGKPTIAWGNTKFAIVEVDQAATAYNNLVKVKNAADVSVSWNLWNGDAGTTAKILLNGKEAWSGPSTGSSGTANFKVNKGGRYQMQVALCNADGCTASDATEIVVADTDGSHLAPLKEPLLEKNKPYKQNSGKVVGSYFVEWGVYGRNFTVDKIPAQNLTHLLYGFIPICGGNGINDSLKEIEGSFQALQRSCQGREDFKVSIHDPFAALQKAQKGVTAWDDPYKGNFGQLMALKQAHPDLKILPSIGGWTLSDPFFFMGDKVKRDRFVGSVKEFLQTWKFFDGVDIDWEFPGGKGANPNLGSPQDGETYVLLMKELRAMLDQLSAETGRKYELTSAISAGKDKIDKVAYNVAQNSMDHIFLMSYDFYGPFDLKNLGHQTALNAPAWKPDTAYTTVNGVNALLAQGVKPGKVVVGTAMYGRGWTGVNGYQNNIPFTGTATGPVKGTWKNGIVDYRQIAGQFMSGEWQYTYDATAEAPYVFKPSTGDLITFDDARSVQAKGKYVLDKQLGGLFSWEIDADNGDILNSMNASLGNSAGVQ",
+                      "hseq": "MRKFNKPLLALLIGSTLCSAAQAAAPGKPTIAWGNTKFAIVEVDQAATAYNNLVKVKNAADVSVSWNLWNGDAGTTAKILLNGKEAWSGPSTGSSGTANFKVNKGGRYQMQVALCNADGCTASDATEIVVADTDGSHLAPLKEPLLEKNKPYKQNSGKVVGSYFVEWGVYGRNFTVDKIPAQNLTHLLYGFIPICGGNGINDSLKEIEGSFQALQRSCQGREDFKVSIHDPFAALQKAQKGVTAWDDPYKGNFGQLMALKQAHPDLKILPSIGGWTLSDPFFFMGDKVKRDRFVGSVKEFLQTWKFFDGVDIDWEFPGGKGANPNLGSPQDGETYVLLMKELRAMLDQLSAETGRKYELTSAISAGKDKIDKVAYNVAQNSMDHIFLMSYDFYGPFDLKNLGHQTALNAPAWKPDTAYTTVNGVNALLAQGVKPGKVVVGTAMYGRGWTGVNGYQNNIPFTGTATGPVKGTWKNGIVDYRQIAGQFMSGEWQYTYDATAEAPYVFKPSTGDLITFDDARSVQAKGKYVLDKQLGGLFSWEIDADNGDILNSMNASLGNSAGVQ",
+                      "midline": "MRKFNKPLLALLIGSTLCSAAQAAAPGKPTIAWGNTKFAIVEVDQAATAYNNLVKVKNAADVSVSWNLWNGDAGTTAKILLNGKEAWSGPSTGSSGTANFKVNKGGRYQMQVALCNADGCTASDATEIVVADTDGSHLAPLKEPLLEKNKPYKQNSGKVVGSYFVEWGVYGRNFTVDKIPAQNLTHLLYGFIPICGGNGINDSLKEIEGSFQALQRSCQGREDFKVSIHDPFAALQKAQKGVTAWDDPYKGNFGQLMALKQAHPDLKILPSIGGWTLSDPFFFMGDKVKRDRFVGSVKEFLQTWKFFDGVDIDWEFPGGKGANPNLGSPQDGETYVLLMKELRAMLDQLSAETGRKYELTSAISAGKDKIDKVAYNVAQNSMDHIFLMSYDFYGPFDLKNLGHQTALNAPAWKPDTAYTTVNGVNALLAQGVKPGKVVVGTAMYGRGWTGVNGYQNNIPFTGTATGPVKGTWKNGIVDYRQIAGQFMSGEWQYTYDATAEAPYVFKPSTGDLITFDDARSVQAKGKYVLDKQLGGLFSWEIDADNGDILNSMNASLGNSAGVQ"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 8.46829,
-                  "identity": 22,
-                  "positive": 27,
-                  "query_from": 18,
-                  "query_to": 65,
-                  "hit_from": 4812,
-                  "hit_to": 4867,
-                  "align_len": 56,
-                  "gaps": 8,
-                  "qseq": "CSAAQAAAPGKPTIAWGNTKFAIVE-----VDQAATAYN---NLVKVKNAADVSVS",
-                  "hseq": "SQAVNAAATILNKTAGGNTPKADVERAMQAVAQANTALNGIQNLERAKQAANTAIT",
-                  "midline": "  A  AAA      A GNT  A VE     V QA TA N   NL + K AA+ +++"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P30922|CH3L1_BOVIN",
+                      "accession": "P30922",
+                      "title": "Chitinase-3-like protein 1 OS=Bos taurus OX=9913 GN=CHI3L1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 383,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 108.227,
+                      "score": 269,
+                      "evalue": 1.31297e-27,
+                      "identity": 89,
+                      "positive": 148,
+                      "query_from": 253,
+                      "query_to": 545,
+                      "hit_from": 77,
+                      "hit_to": 358,
+                      "align_len": 300,
+                      "gaps": 25,
+                      "qseq": "FGQLMALKQAHPDLKILPSIGGWTL-SDPFFFMGDKVKRDR-FVGSVKEFLQTWKFFDGVDIDWEFPGGKGANPNLGSPQDGETYVLLMKELRAMLDQLSAETGRKYELTSAISAGKDKIDKVAYNVAQNS--MDHIFLMSYDFYGPFDLKNLGHQTAL--NAPAWKPDTAYTTVNGVNALLAQGVKPGKVVVGTAMYGRGWTGVNGYQN-NIPFTGTATGPVKGTWKNGIVDYRQIAGQFMSGEWQYTYDATAEAPYVFKPSTGDLITFDDARSVQAKGKYVLDKQLGGLFSWEIDADN",
+                      "hseq": "YDTLNTLKNRNPNLKTLLSVGGWNFGSQRFSKIASKTQSRRTFIKSVPPFLRT-HGFDGLDLAWLYPGWR----------DKRHLTTLVKEMKAEFVREAQAGTEQLLLSAAVPAGKIAIDR-GYDIAQISRHLDFISLLTYDFHGAWR-QTVGHHSPLFRGQEDASSDRFSNADYAVSYMLRLGAPANKLVMGIPTFGRSYTLASSKTDVGAPISGPGI-PGQFTKEKGILAYYEIC-DFLHGATTHRF-RDQQVPYATKGN--QWVAYDDQESVKNKARYLKNRQLAGAMVWALDLDD",
+                      "midline": "+  L  LK  +P+LK L S+GGW   S  F  +  K +  R F+ SV  FL+T   FDG+D+ W +PG +          D      L+KE++A   + +     +  L++A+ AGK  ID+  Y++AQ S  +D I L++YDF+G +  + +GH + L         D        V+ +L  G    K+V+G   +GR +T  +   +   P +G    P + T + GI+ Y +I   F+ G   + +    + PY  K +    + +DD  SV+ K +Y+ ++QL G   W +D D+"
+                    }
+                  ]
+                },
                 {
-                  "id": "tr|A9CIQ1|A9CIQ1_AGRFC",
-                  "accession": "A9CIQ1",
-                  "title": "HTH cro/C1-type domain-containing protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu1735 PE=1 SV=1"
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q9V3D4|IDGF2_DROME",
+                      "accession": "Q9V3D4",
+                      "title": "Chitinase-like protein Idgf2 OS=Drosophila melanogaster OX=7227 GN=Idgf2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 440,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 72.0182,
+                      "score": 175,
+                      "evalue": 1.66657e-15,
+                      "identity": 91,
+                      "positive": 153,
+                      "query_from": 247,
+                      "query_to": 545,
+                      "hit_from": 78,
+                      "hit_to": 420,
+                      "align_len": 355,
+                      "gaps": 68,
+                      "qseq": "DPYKGNFGQLMALKQAHPDLKILPSIGGWTLSDP-------FFFMGDKVKRDRFVGSVKEFLQTWKFFDGVDIDWEFPGGK--GANPNLGSPQDG-----------ETYVLLMKE-----LRAMLDQLSAETGRKYELTSAISAGKD-KIDKVAYNVAQNSMDHIFLMSYDFYGPFDLKNLGHQTALNAPAWKPDTAYTTVNGVNA------LLAQGVKPGKVVVGTAMYGRGW-----TGVNGYQNNIPFTGTATGPVK---GTWKNGIVDYRQIAG-------QFMSGE---WQYTYDATAE-APYVFKPSTGDL-----ITFDDARSVQAKGKYVLDKQLGGLFSWEIDADN",
+                      "hseq": "DIYKHQFSEVTSLKRKYPHLKVLLSVGGDHDIDPDHPNKYIDLLEGEKVRQIGFIRSAYDLVKTYG-FDGLDLAYQFPKNKPRKVHGDLGLAWKSIKKLFTGDFIVDPHAALHKEQFTALVRDVKDSLRAD-GFLLSLTVLPNVNSTWYFDIPALN---GLVDFVNLATFDFLTP--ARN-PEEADYSAPIYHPDGSKDRLAHLNADFQVEYWLSQGFPSNKINLGVATYGNAWKLTKDSGLEG----VPVVPETSGPAPEGFQSQKPGLLSYAEICGKLSNPQNQFLKGNESPLRRVSDPTKRFGGIAYRPVDGQITEGIWVSYDDPDSASNKAAYARVKNLGGVALFDLSYDD",
+                      "midline": "D YK  F ++ +LK+ +P LK+L S+GG    DP           G+KV++  F+ S  + ++T+  FDG+D+ ++FP  K    + +LG                + +  L KE     +R + D L A+ G    LT   +       D  A N     +D + L ++DF  P   +N   +   +AP + PD +   +  +NA       L+QG    K+ +G A YG  W     +G+ G    +P     +GP      + K G++ Y +I G       QF+ G     +   D T       ++P  G +     +++DD  S   K  Y   K LGG+  +++  D+"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P0AEC8|DCUS_ECOLI",
+                      "accession": "P0AEC8",
+                      "title": "Sensor histidine kinase DcuS OS=Escherichia coli (strain K12) OX=83333 GN=dcuS PE=1 SV=1"
+                    }
+                  ],
+                  "len": 543,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 30.8018,
+                      "score": 68,
+                      "evalue": 0.0166681,
+                      "identity": 21,
+                      "positive": 28,
+                      "query_from": 400,
+                      "query_to": 448,
+                      "hit_from": 410,
+                      "hit_to": 468,
+                      "align_len": 59,
+                      "gaps": 10,
+                      "qseq": "NLGHQTALNAPAWKPD--------TAYTTVNGV--NALLAQGVKPGKVVVGTAMYGRGW",
+                      "hseq": "DLGHTLILNSESQLPDSGSEDQVATLITTLGNLIENALEALGPEPGGEISVTLHYRHGW",
+                      "midline": "+LGH   LN+ +  PD        T  TT+  +  NAL A G +PG  +  T  Y  GW"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P83772|CRNA_PSEPU",
+                      "accession": "P83772",
+                      "title": "Creatinine amidohydrolase OS=Pseudomonas putida OX=303 GN=crnA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 260,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.2534,
+                      "score": 51,
+                      "evalue": 1.67463,
+                      "identity": 21,
+                      "positive": 32,
+                      "query_from": 198,
+                      "query_to": 266,
+                      "hit_from": 129,
+                      "hit_to": 194,
+                      "align_len": 76,
+                      "gaps": 17,
+                      "qseq": "NGINDSLKEIEGSFQALQRSCQGREDFKVSI-------HDPFAALQKAQKGVTAWDDPYKGNFGQLMALKQAHPDL",
+                      "hseq": "EGIDLALRELRYA---------GIQDFKVVVLSYWDFVKDPAVIQQLYPEGFLGWDIEHGGVFETSLMLA-LYPDL",
+                      "midline": " GI+ +L+E+  +         G +DFKV +        DP    Q   +G   WD  + G F   + L   +PDL"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P04395|3MG2_ECOLI",
+                      "accession": "P04395",
+                      "title": "DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 282,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 1.82831,
+                      "identity": 15,
+                      "positive": 25,
+                      "query_from": 259,
+                      "query_to": 305,
+                      "hit_from": 202,
+                      "hit_to": 261,
+                      "align_len": 60,
+                      "gaps": 13,
+                      "qseq": "LKQAHPDLKILPSIGGWTL---------SDPFFFMGDKVKRDRFVG----SVKEFLQTWK",
+                      "hseq": "VEQAMKTLQTFPGIGRWTANYFALRGWQAKDVFLPDDYLIKQRFPGMTPAQIRRYAERWK",
+                      "midline": "++QA   L+  P IG WT          +   F   D + + RF G     ++ + + WK"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 3.75608,
+                      "identity": 13,
+                      "positive": 19,
+                      "query_from": 183,
+                      "query_to": 227,
+                      "hit_from": 4249,
+                      "hit_to": 4293,
+                      "align_len": 45,
+                      "gaps": 0,
+                      "qseq": "NLTHLLYGFIPICGGNGINDSLKEIEGSFQALQRSCQGREDFKVS",
+                      "hseq": "NLKHQVEQAQNVAGVNGVKDKGNTLNTAMGALRTSIQNDNTTKTS",
+                      "midline": "NL H +     + G NG+ D    +  +  AL+ S Q     K S"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 8.46829,
+                      "identity": 22,
+                      "positive": 27,
+                      "query_from": 18,
+                      "query_to": 65,
+                      "hit_from": 4812,
+                      "hit_to": 4867,
+                      "align_len": 56,
+                      "gaps": 8,
+                      "qseq": "CSAAQAAAPGKPTIAWGNTKFAIVE-----VDQAATAYN---NLVKVKNAADVSVS",
+                      "hseq": "SQAVNAAATILNKTAGGNTPKADVERAMQAVAQANTALNGIQNLERAKQAANTAIT",
+                      "midline": "  A  AAA      A GNT  A VE     V QA TA N   NL + K AA+ +++"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "tr|A9CIQ1|A9CIQ1_AGRFC",
+                      "accession": "A9CIQ1",
+                      "title": "HTH cro/C1-type domain-containing protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu1735 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 95,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 6.20626,
+                      "identity": 8,
+                      "positive": 15,
+                      "query_from": 221,
+                      "query_to": 251,
+                      "hit_from": 44,
+                      "hit_to": 74,
+                      "align_len": 31,
+                      "gaps": 0,
+                      "qseq": "REDFKVSIHDPFAALQKAQKGVTAWDDPYKG",
+                      "hseq": "QEEFSARYHIPLGTLRDWEQGRSEPDQPARA",
+                      "midline": "+E+F    H P   L+  ++G +  D P + "
+                    }
+                  ]
                 }
               ],
-              "len": 95,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 6.20626,
-                  "identity": 8,
-                  "positive": 15,
-                  "query_from": 221,
-                  "query_to": 251,
-                  "hit_from": 44,
-                  "hit_to": 74,
-                  "align_len": 31,
-                  "gaps": 0,
-                  "qseq": "REDFKVSIHDPFAALQKAQKGVTAWDDPYKG",
-                  "hseq": "QEEFSARYHIPLGTLRDWEQGRSEPDQPARA",
-                  "midline": "+E+F    H P   L+  ++G +  D P + "
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 70,
+                "eff_space": 33569356,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 70,
-            "eff_space": 33569356,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

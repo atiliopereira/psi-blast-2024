@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,262 +17,267 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P03422|PHOSP_MEASE Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1",
-          "query_len": 507,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P03422|PHOSP_MEASE",
-                  "accession": "P03422",
-                  "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
-                }
-              ],
-              "len": 507,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P03422|PHOSP_MEASE Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1",
+              "query_len": 507,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 1028.85,
-                  "score": 2659,
-                  "evalue": 0,
-                  "identity": 507,
-                  "positive": 507,
-                  "query_from": 1,
-                  "query_to": 507,
-                  "hit_from": 1,
-                  "hit_to": 507,
-                  "align_len": 507,
-                  "gaps": 0,
-                  "qseq": "MAEEQARHVKNGLECIRALKAEPIGSLAIEEAMAAWSEISDNPGQERATCREEKAGSSGLSKPCLSAIGSTEGGAPRIRGQGPGESDDDAETLGIPPRNLQASSTGLQCYYVYDHSGEAVKGIQDADSIMVQSGLDGDSTLSGGDNESENSDVDIGEPDTEGYAITDRGSAPISMGFRASDVETAEGGEIHELLRLQSRGNNFPKLGKTLNVPPPPDPGRASTSGTPIKKGTERRLASFGTEIASLLTGGATQCARKSPSEPSGPGAPAGNVPECVSNAALIQEWTPESGTTISPRSQNNEEGGDYYDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGHLSSIMIAIPGLGKDPNDPTADVEINPDLKPIIGRDSGRALAEVLKKPVASRQLQGMTNGRTSSRGQLLKEFQLKPIGKKMSSAVGFVPDTGPASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLMKIIMK",
-                  "hseq": "MAEEQARHVKNGLECIRALKAEPIGSLAIEEAMAAWSEISDNPGQERATCREEKAGSSGLSKPCLSAIGSTEGGAPRIRGQGPGESDDDAETLGIPPRNLQASSTGLQCYYVYDHSGEAVKGIQDADSIMVQSGLDGDSTLSGGDNESENSDVDIGEPDTEGYAITDRGSAPISMGFRASDVETAEGGEIHELLRLQSRGNNFPKLGKTLNVPPPPDPGRASTSGTPIKKGTERRLASFGTEIASLLTGGATQCARKSPSEPSGPGAPAGNVPECVSNAALIQEWTPESGTTISPRSQNNEEGGDYYDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGHLSSIMIAIPGLGKDPNDPTADVEINPDLKPIIGRDSGRALAEVLKKPVASRQLQGMTNGRTSSRGQLLKEFQLKPIGKKMSSAVGFVPDTGPASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLMKIIMK",
-                  "midline": "MAEEQARHVKNGLECIRALKAEPIGSLAIEEAMAAWSEISDNPGQERATCREEKAGSSGLSKPCLSAIGSTEGGAPRIRGQGPGESDDDAETLGIPPRNLQASSTGLQCYYVYDHSGEAVKGIQDADSIMVQSGLDGDSTLSGGDNESENSDVDIGEPDTEGYAITDRGSAPISMGFRASDVETAEGGEIHELLRLQSRGNNFPKLGKTLNVPPPPDPGRASTSGTPIKKGTERRLASFGTEIASLLTGGATQCARKSPSEPSGPGAPAGNVPECVSNAALIQEWTPESGTTISPRSQNNEEGGDYYDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGHLSSIMIAIPGLGKDPNDPTADVEINPDLKPIIGRDSGRALAEVLKKPVASRQLQGMTNGRTSSRGQLLKEFQLKPIGKKMSSAVGFVPDTGPASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLMKIIMK"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P03422|PHOSP_MEASE",
+                      "accession": "P03422",
+                      "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
+                    }
+                  ],
+                  "len": 507,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 1028.85,
+                      "score": 2659,
+                      "evalue": 0,
+                      "identity": 507,
+                      "positive": 507,
+                      "query_from": 1,
+                      "query_to": 507,
+                      "hit_from": 1,
+                      "hit_to": 507,
+                      "align_len": 507,
+                      "gaps": 0,
+                      "qseq": "MAEEQARHVKNGLECIRALKAEPIGSLAIEEAMAAWSEISDNPGQERATCREEKAGSSGLSKPCLSAIGSTEGGAPRIRGQGPGESDDDAETLGIPPRNLQASSTGLQCYYVYDHSGEAVKGIQDADSIMVQSGLDGDSTLSGGDNESENSDVDIGEPDTEGYAITDRGSAPISMGFRASDVETAEGGEIHELLRLQSRGNNFPKLGKTLNVPPPPDPGRASTSGTPIKKGTERRLASFGTEIASLLTGGATQCARKSPSEPSGPGAPAGNVPECVSNAALIQEWTPESGTTISPRSQNNEEGGDYYDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGHLSSIMIAIPGLGKDPNDPTADVEINPDLKPIIGRDSGRALAEVLKKPVASRQLQGMTNGRTSSRGQLLKEFQLKPIGKKMSSAVGFVPDTGPASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLMKIIMK",
+                      "hseq": "MAEEQARHVKNGLECIRALKAEPIGSLAIEEAMAAWSEISDNPGQERATCREEKAGSSGLSKPCLSAIGSTEGGAPRIRGQGPGESDDDAETLGIPPRNLQASSTGLQCYYVYDHSGEAVKGIQDADSIMVQSGLDGDSTLSGGDNESENSDVDIGEPDTEGYAITDRGSAPISMGFRASDVETAEGGEIHELLRLQSRGNNFPKLGKTLNVPPPPDPGRASTSGTPIKKGTERRLASFGTEIASLLTGGATQCARKSPSEPSGPGAPAGNVPECVSNAALIQEWTPESGTTISPRSQNNEEGGDYYDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGHLSSIMIAIPGLGKDPNDPTADVEINPDLKPIIGRDSGRALAEVLKKPVASRQLQGMTNGRTSSRGQLLKEFQLKPIGKKMSSAVGFVPDTGPASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLMKIIMK",
+                      "midline": "MAEEQARHVKNGLECIRALKAEPIGSLAIEEAMAAWSEISDNPGQERATCREEKAGSSGLSKPCLSAIGSTEGGAPRIRGQGPGESDDDAETLGIPPRNLQASSTGLQCYYVYDHSGEAVKGIQDADSIMVQSGLDGDSTLSGGDNESENSDVDIGEPDTEGYAITDRGSAPISMGFRASDVETAEGGEIHELLRLQSRGNNFPKLGKTLNVPPPPDPGRASTSGTPIKKGTERRLASFGTEIASLLTGGATQCARKSPSEPSGPGAPAGNVPECVSNAALIQEWTPESGTTISPRSQNNEEGGDYYDDELFSDVQDIKTALAKIHEDNQKIISKLESLLLLKGEVESIKKQINRQNISISTLEGHLSSIMIAIPGLGKDPNDPTADVEINPDLKPIIGRDSGRALAEVLKKPVASRQLQGMTNGRTSSRGQLLKEFQLKPIGKKMSSAVGFVPDTGPASRSVIRSIIKSSRLEEDRKRYLMTLLDDIKGANDLAKFHQMLMKIIMK"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P07987|GUX2_HYPJE",
-                  "accession": "P07987",
-                  "title": "Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P07987|GUX2_HYPJE",
+                      "accession": "P07987",
+                      "title": "Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 471,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 25.7942,
+                      "score": 55,
+                      "evalue": 0.555022,
+                      "identity": 15,
+                      "positive": 20,
+                      "query_from": 204,
+                      "query_to": 246,
+                      "hit_from": 93,
+                      "hit_to": 135,
+                      "align_len": 43,
+                      "gaps": 0,
+                      "qseq": "PKLGKTLNVPPPPDPGRASTSGTPIKKGTERRLASFGTEIASL",
+                      "hseq": "PPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEVSSL",
+                      "midline": "P  G T    PP   G A+ SG P    T    A + +E++SL"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P52687|CITA_KLEPN",
+                      "accession": "P52687",
+                      "title": "Sensor histidine kinase CitA OS=Klebsiella pneumoniae OX=573 GN=citA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 547,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.2534,
+                      "score": 51,
+                      "evalue": 1.81756,
+                      "identity": 30,
+                      "positive": 54,
+                      "query_from": 312,
+                      "query_to": 424,
+                      "hit_from": 335,
+                      "hit_to": 466,
+                      "align_len": 132,
+                      "gaps": 19,
+                      "qseq": "FSDVQDIKTALAKIHEDNQKIISKLESLLLLK---GEVESIKKQINRQNISISTL-----EGHLSSIMIAIPGLGKDPN-----DPTADVEINP------DLKPIIGRDSGRALAEVLKKPVASRQLQGMTN",
+                      "hseq": "LSQVQQYADNLRAVQHEHRNLISTIAGLLFLKRYNQALELIQQQSESHQKVIDFIARNFQDNHLAGLLIGKYYRAKELGLELIFDPACFVDRLPTALSHNEWISIVGNLLDNAYNASLRQPQGSKQIECLIN",
+                      "midline": " S VQ     L  +  +++ +IS +  LL LK     +E I++Q       I  +     + HL+ ++I      K+       DP   V+  P      +   I+G     A    L++P  S+Q++ + N"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "tr|Q8RR56|Q8RR56_9BACI",
+                      "accession": "Q8RR56",
+                      "title": "Kumamolisin OS=Bacillus sp. MN-32 OX=198803 GN=kscp PE=1 SV=2"
+                    }
+                  ],
+                  "len": 552,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 3.07393,
+                      "identity": 12,
+                      "positive": 14,
+                      "query_from": 198,
+                      "query_to": 227,
+                      "hit_from": 410,
+                      "hit_to": 439,
+                      "align_len": 30,
+                      "gaps": 0,
+                      "qseq": "SRGNNFPKLGKTLNVPPPPDPGRASTSGTP",
+                      "hseq": "SRIFPLPSWQERANVPPSANPGAGSGRGVP",
+                      "midline": "SR    P   +  NVPP  +PG  S  G P"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P10688|PLCD1_RAT",
+                      "accession": "P10688",
+                      "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 756,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 3.64766,
+                      "identity": 20,
+                      "positive": 31,
+                      "query_from": 374,
+                      "query_to": 439,
+                      "hit_from": 641,
+                      "hit_to": 692,
+                      "align_len": 69,
+                      "gaps": 20,
+                      "qseq": "IPGLGKDPN---DPTADVEINPDLKPIIGRDSGRALAEVLKKPVASRQLQGMTNGRTSSRGQLLKEFQL",
+                      "hseq": "LPKVNKNKNSIVDPKVIVEIHG-----VGRDTG------------SRQTAVITNNGFNPRWDMEFEFEV",
+                      "midline": "+P + K+ N   DP   VEI+      +GRD+G            SRQ   +TN   + R  +  EF++"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P0A707|IF3_ECOLI",
+                      "accession": "P0A707",
+                      "title": "Translation initiation factor IF-3 OS=Escherichia coli (strain K12) OX=83333 GN=infC PE=1 SV=1"
+                    }
+                  ],
+                  "len": 180,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 6.53632,
+                      "identity": 18,
+                      "positive": 28,
+                      "query_from": 349,
+                      "query_to": 406,
+                      "hit_from": 15,
+                      "hit_to": 74,
+                      "align_len": 60,
+                      "gaps": 2,
+                      "qseq": "IKKQINRQNISISTLEGHLSSIMIAIPGLGKDPNDPTADVEINPDLKPIIGR--DSGRAL",
+                      "hseq": "INGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFL",
+                      "midline": "I  +I  Q + ++ LEG    I+     L K        VEI+P+ +P + R  D G+ L"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q1LCS4|3HAO_CUPMC",
+                      "accession": "Q1LCS4",
+                      "title": "3-hydroxyanthranilate 3,4-dioxygenase OS=Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34) OX=266264 GN=nbaC PE=1 SV=1"
+                    }
+                  ],
+                  "len": 174,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 7.0993,
+                      "identity": 14,
+                      "positive": 18,
+                      "query_from": 407,
+                      "query_to": 437,
+                      "hit_from": 18,
+                      "hit_to": 58,
+                      "align_len": 41,
+                      "gaps": 10,
+                      "qseq": "AEVLKKPVASRQLQ----------GMTNGRTSSRGQLLKEF",
+                      "hseq": "AHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEF",
+                      "midline": "A +LK PV +RQ+           G  N RT      L+EF"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|O15527|OGG1_HUMAN",
+                      "accession": "O15527",
+                      "title": "N-glycosylase/DNA lyase OS=Homo sapiens OX=9606 GN=OGG1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 345,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 7.96141,
+                      "identity": 7,
+                      "positive": 12,
+                      "query_from": 285,
+                      "query_to": 307,
+                      "hit_from": 281,
+                      "hit_to": 303,
+                      "align_len": 23,
+                      "gaps": 0,
+                      "qseq": "WTPESGTTISPRSQNNEEGGDYY",
+                      "hseq": "WHPTTSQAKGPSPQTNKELGNFF",
+                      "midline": "W P +     P  Q N+E G+++"
+                    }
+                  ]
                 }
               ],
-              "len": 471,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 25.7942,
-                  "score": 55,
-                  "evalue": 0.555022,
-                  "identity": 15,
-                  "positive": 20,
-                  "query_from": 204,
-                  "query_to": 246,
-                  "hit_from": 93,
-                  "hit_to": 135,
-                  "align_len": 43,
-                  "gaps": 0,
-                  "qseq": "PKLGKTLNVPPPPDPGRASTSGTPIKKGTERRLASFGTEIASL",
-                  "hseq": "PPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEVSSL",
-                  "midline": "P  G T    PP   G A+ SG P    T    A + +E++SL"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P52687|CITA_KLEPN",
-                  "accession": "P52687",
-                  "title": "Sensor histidine kinase CitA OS=Klebsiella pneumoniae OX=573 GN=citA PE=1 SV=1"
-                }
-              ],
-              "len": 547,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.2534,
-                  "score": 51,
-                  "evalue": 1.81756,
-                  "identity": 30,
-                  "positive": 54,
-                  "query_from": 312,
-                  "query_to": 424,
-                  "hit_from": 335,
-                  "hit_to": 466,
-                  "align_len": 132,
-                  "gaps": 19,
-                  "qseq": "FSDVQDIKTALAKIHEDNQKIISKLESLLLLK---GEVESIKKQINRQNISISTL-----EGHLSSIMIAIPGLGKDPN-----DPTADVEINP------DLKPIIGRDSGRALAEVLKKPVASRQLQGMTN",
-                  "hseq": "LSQVQQYADNLRAVQHEHRNLISTIAGLLFLKRYNQALELIQQQSESHQKVIDFIARNFQDNHLAGLLIGKYYRAKELGLELIFDPACFVDRLPTALSHNEWISIVGNLLDNAYNASLRQPQGSKQIECLIN",
-                  "midline": " S VQ     L  +  +++ +IS +  LL LK     +E I++Q       I  +     + HL+ ++I      K+       DP   V+  P      +   I+G     A    L++P  S+Q++ + N"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "tr|Q8RR56|Q8RR56_9BACI",
-                  "accession": "Q8RR56",
-                  "title": "Kumamolisin OS=Bacillus sp. MN-32 OX=198803 GN=kscp PE=1 SV=2"
-                }
-              ],
-              "len": 552,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 3.07393,
-                  "identity": 12,
-                  "positive": 14,
-                  "query_from": 198,
-                  "query_to": 227,
-                  "hit_from": 410,
-                  "hit_to": 439,
-                  "align_len": 30,
-                  "gaps": 0,
-                  "qseq": "SRGNNFPKLGKTLNVPPPPDPGRASTSGTP",
-                  "hseq": "SRIFPLPSWQERANVPPSANPGAGSGRGVP",
-                  "midline": "SR    P   +  NVPP  +PG  S  G P"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P10688|PLCD1_RAT",
-                  "accession": "P10688",
-                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
-                }
-              ],
-              "len": 756,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 3.64766,
-                  "identity": 20,
-                  "positive": 31,
-                  "query_from": 374,
-                  "query_to": 439,
-                  "hit_from": 641,
-                  "hit_to": 692,
-                  "align_len": 69,
-                  "gaps": 20,
-                  "qseq": "IPGLGKDPN---DPTADVEINPDLKPIIGRDSGRALAEVLKKPVASRQLQGMTNGRTSSRGQLLKEFQL",
-                  "hseq": "LPKVNKNKNSIVDPKVIVEIHG-----VGRDTG------------SRQTAVITNNGFNPRWDMEFEFEV",
-                  "midline": "+P + K+ N   DP   VEI+      +GRD+G            SRQ   +TN   + R  +  EF++"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P0A707|IF3_ECOLI",
-                  "accession": "P0A707",
-                  "title": "Translation initiation factor IF-3 OS=Escherichia coli (strain K12) OX=83333 GN=infC PE=1 SV=1"
-                }
-              ],
-              "len": 180,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 6.53632,
-                  "identity": 18,
-                  "positive": 28,
-                  "query_from": 349,
-                  "query_to": 406,
-                  "hit_from": 15,
-                  "hit_to": 74,
-                  "align_len": 60,
-                  "gaps": 2,
-                  "qseq": "IKKQINRQNISISTLEGHLSSIMIAIPGLGKDPNDPTADVEINPDLKPIIGR--DSGRAL",
-                  "hseq": "INGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFL",
-                  "midline": "I  +I  Q + ++ LEG    I+     L K        VEI+P+ +P + R  D G+ L"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q1LCS4|3HAO_CUPMC",
-                  "accession": "Q1LCS4",
-                  "title": "3-hydroxyanthranilate 3,4-dioxygenase OS=Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34) OX=266264 GN=nbaC PE=1 SV=1"
-                }
-              ],
-              "len": 174,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 7.0993,
-                  "identity": 14,
-                  "positive": 18,
-                  "query_from": 407,
-                  "query_to": 437,
-                  "hit_from": 18,
-                  "hit_to": 58,
-                  "align_len": 41,
-                  "gaps": 10,
-                  "qseq": "AEVLKKPVASRQLQ----------GMTNGRTSSRGQLLKEF",
-                  "hseq": "AHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEF",
-                  "midline": "A +LK PV +RQ+           G  N RT      L+EF"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|O15527|OGG1_HUMAN",
-                  "accession": "O15527",
-                  "title": "N-glycosylase/DNA lyase OS=Homo sapiens OX=9606 GN=OGG1 PE=1 SV=2"
-                }
-              ],
-              "len": 345,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 7.96141,
-                  "identity": 7,
-                  "positive": 12,
-                  "query_from": 285,
-                  "query_to": 307,
-                  "hit_from": 281,
-                  "hit_to": 303,
-                  "align_len": 23,
-                  "gaps": 0,
-                  "qseq": "WTPESGTTISPRSQNNEEGGDYY",
-                  "hseq": "WHPTTSQAKGPSPQTNKELGNFF",
-                  "midline": "W P +     P  Q N+E G+++"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 69,
+                "eff_space": 29915838,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 69,
-            "eff_space": 29915838,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

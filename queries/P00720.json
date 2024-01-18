@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,364 +17,369 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P00720|ENLYS_BPT4 Endolysin OS=Enterobacteria phage T4 OX=10665 GN=E PE=1 SV=2",
-          "query_len": 164,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P00720|ENLYS_BPT4",
-                  "accession": "P00720",
-                  "title": "Endolysin OS=Enterobacteria phage T4 OX=10665 GN=E PE=1 SV=2"
-                }
-              ],
-              "len": 164,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P00720|ENLYS_BPT4 Endolysin OS=Enterobacteria phage T4 OX=10665 GN=E PE=1 SV=2",
+              "query_len": 164,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 340.502,
-                  "score": 872,
-                  "evalue": 2.81178e-124,
-                  "identity": 164,
-                  "positive": 164,
-                  "query_from": 1,
-                  "query_to": 164,
-                  "hit_from": 1,
-                  "hit_to": 164,
-                  "align_len": 164,
-                  "gaps": 0,
-                  "qseq": "MNIFEMLRIDERLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNCNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSIWYNQTPNRAKRVITTFRTGTWDAYKNL",
-                  "hseq": "MNIFEMLRIDERLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNCNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSIWYNQTPNRAKRVITTFRTGTWDAYKNL",
-                  "midline": "MNIFEMLRIDERLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNCNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSIWYNQTPNRAKRVITTFRTGTWDAYKNL"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P16009|NEEDL_BPT4",
-                  "accession": "P16009",
-                  "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
-                }
-              ],
-              "len": 575,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 124.02,
-                  "score": 310,
-                  "evalue": 8.2701e-36,
-                  "identity": 72,
-                  "positive": 96,
-                  "query_from": 1,
-                  "query_to": 161,
-                  "hit_from": 174,
-                  "hit_to": 339,
-                  "align_len": 166,
-                  "gaps": 5,
-                  "qseq": "MNIFEMLRIDERLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSE--LDKAIGRNCNG---VITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSIWYNQTPNRAKRVITTFRTGTWDAY",
-                  "hseq": "MSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESY",
-                  "midline": "M++ EMLR DE LRLK+Y DTEGY TIGIGHL+ K P  + A+    L K +GR   G    IT +EA  LF +D+    R I  ++K+ PV+ +++  R+ AL NM FQMG  GVA F   L  +    W++A      S+WY QT  RA RV     TG  ++Y"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q15796|SMAD2_HUMAN",
-                  "accession": "Q15796",
-                  "title": "Mothers against decapentaplegic homolog 2 OS=Homo sapiens OX=9606 GN=SMAD2 PE=1 SV=1"
-                }
-              ],
-              "len": 467,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 0.401212,
-                  "identity": 13,
-                  "positive": 19,
-                  "query_from": 56,
-                  "query_to": 92,
-                  "hit_from": 224,
-                  "hit_to": 262,
-                  "align_len": 39,
-                  "gaps": 2,
-                  "qseq": "GVITKD--EAEKLFNQDVDAAVRGILRNAKLKPVYDSLD",
-                  "hseq": "GYISEDGETSDQQLNQSMDTGSPAELSPTTLSPVNHSLD",
-                  "midline": "G I++D   +++  NQ +D      L    L PV  SLD"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P37330|MASZ_ECOLI",
-                  "accession": "P37330",
-                  "title": "Malate synthase G OS=Escherichia coli (strain K12) OX=83333 GN=glcB PE=1 SV=3"
-                }
-              ],
-              "len": 723,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.2534,
-                  "score": 51,
-                  "evalue": 0.412992,
-                  "identity": 34,
-                  "positive": 55,
-                  "query_from": 29,
-                  "query_to": 156,
-                  "hit_from": 340,
-                  "hit_to": 458,
-                  "align_len": 130,
-                  "gaps": 13,
-                  "qseq": "IGHLLTKSPSLNAAKSELDKAIGRNCNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSIWYNQTPNRAKRVITTF--RTG",
-                  "hseq": "VGHLMTIPVIWDSEGNEIPEGI---LDGVMTG--AIALY----DLKVQKNSRTGSVYIVKPKMHGPQEVAFANKLFTRIETMLGMAPNTLKMGIMDEERRTSLNLRSCI--AQARNRVAFINTGFLDRTG",
-                  "midline": "+GHL+T     ++  +E+ + I    +GV+T   A  L+    D  V+   R   +  V   +   +  A  N +F   ET +    N+L+M         ++NL   I   Q  NR   + T F  RTG"
+                  "description": [
+                    {
+                      "id": "sp|P00720|ENLYS_BPT4",
+                      "accession": "P00720",
+                      "title": "Endolysin OS=Enterobacteria phage T4 OX=10665 GN=E PE=1 SV=2"
+                    }
+                  ],
+                  "len": 164,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 340.502,
+                      "score": 872,
+                      "evalue": 2.81178e-124,
+                      "identity": 164,
+                      "positive": 164,
+                      "query_from": 1,
+                      "query_to": 164,
+                      "hit_from": 1,
+                      "hit_to": 164,
+                      "align_len": 164,
+                      "gaps": 0,
+                      "qseq": "MNIFEMLRIDERLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNCNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSIWYNQTPNRAKRVITTFRTGTWDAYKNL",
+                      "hseq": "MNIFEMLRIDERLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNCNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSIWYNQTPNRAKRVITTFRTGTWDAYKNL",
+                      "midline": "MNIFEMLRIDERLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIGRNCNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSIWYNQTPNRAKRVITTFRTGTWDAYKNL"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 7.1676,
-                  "identity": 10,
-                  "positive": 16,
-                  "query_from": 53,
-                  "query_to": 79,
-                  "hit_from": 243,
-                  "hit_to": 269,
-                  "align_len": 27,
-                  "gaps": 0,
-                  "qseq": "NCNGVITKDEAEKLFNQDVDAAVRGIL",
-                  "hseq": "DANGRIGKDDPAHINDVIVEAAISTIL",
-                  "midline": "+ NG I KD+   + +  V+AA+  IL"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 0.748418,
-                  "identity": 18,
-                  "positive": 22,
-                  "query_from": 64,
-                  "query_to": 107,
-                  "hit_from": 3480,
-                  "hit_to": 3527,
-                  "align_len": 49,
-                  "gaps": 6,
-                  "qseq": "EKLFNQDVDAAVRGI-----LRNAKLKPVYDSLDAVRRCALINMVFQMG",
-                  "hseq": "EKLAQSKTDAA-RAIDALPHLNNAQKADVKSKINAASNIAGVNTVKQQG",
-                  "midline": "EKL     DAA R I     L NA+   V   ++A    A +N V Q G"
-                },
-                {
-                  "num": 2,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 0.895068,
-                  "identity": 10,
-                  "positive": 13,
-                  "query_from": 31,
-                  "query_to": 52,
-                  "hit_from": 3348,
-                  "hit_to": 3369,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "HLLTKSPSLNAAKSELDKAIGR",
-                  "hseq": "HALNGEAKLNAAKQEANTALGQ",
-                  "midline": "H L     LNAAK E + A+G+"
+                  "description": [
+                    {
+                      "id": "sp|P16009|NEEDL_BPT4",
+                      "accession": "P16009",
+                      "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 575,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 124.02,
+                      "score": 310,
+                      "evalue": 8.2701e-36,
+                      "identity": 72,
+                      "positive": 96,
+                      "query_from": 1,
+                      "query_to": 161,
+                      "hit_from": 174,
+                      "hit_to": 339,
+                      "align_len": 166,
+                      "gaps": 5,
+                      "qseq": "MNIFEMLRIDERLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSE--LDKAIGRNCNG---VITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSIWYNQTPNRAKRVITTFRTGTWDAY",
+                      "hseq": "MSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESY",
+                      "midline": "M++ EMLR DE LRLK+Y DTEGY TIGIGHL+ K P  + A+    L K +GR   G    IT +EA  LF +D+    R I  ++K+ PV+ +++  R+ AL NM FQMG  GVA F   L  +    W++A      S+WY QT  RA RV     TG  ++Y"
+                    }
+                  ]
                 },
                 {
                   "num": 3,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 1.4372,
-                  "identity": 17,
-                  "positive": 32,
-                  "query_from": 31,
-                  "query_to": 80,
-                  "hit_from": 6583,
-                  "hit_to": 6644,
-                  "align_len": 62,
-                  "gaps": 12,
-                  "qseq": "HLLTKSPSLNAAKSELDKAIGR----------NCNGVITKDEAEKLFNQ--DVDAAVRGILR",
-                  "hseq": "NIISKANGGNATQTEVEQAIQQVNAAKQALNGNANVQHAKDEATALINSSNDLNQAQKNALK",
-                  "midline": "++++K+   NA ++E+++AI +          N N    KDEA  L N   D++ A +  L+"
+                  "description": [
+                    {
+                      "id": "sp|Q15796|SMAD2_HUMAN",
+                      "accession": "Q15796",
+                      "title": "Mothers against decapentaplegic homolog 2 OS=Homo sapiens OX=9606 GN=SMAD2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 467,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 0.401212,
+                      "identity": 13,
+                      "positive": 19,
+                      "query_from": 56,
+                      "query_to": 92,
+                      "hit_from": 224,
+                      "hit_to": 262,
+                      "align_len": 39,
+                      "gaps": 2,
+                      "qseq": "GVITKD--EAEKLFNQDVDAAVRGILRNAKLKPVYDSLD",
+                      "hseq": "GYISEDGETSDQQLNQSMDTGSPAELSPTTLSPVNHSLD",
+                      "midline": "G I++D   +++  NQ +D      L    L PV  SLD"
+                    }
+                  ]
                 },
                 {
                   "num": 4,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 2.49808,
-                  "identity": 9,
-                  "positive": 16,
-                  "query_from": 45,
-                  "query_to": 68,
-                  "hit_from": 6161,
-                  "hit_to": 6184,
-                  "align_len": 24,
-                  "gaps": 0,
-                  "qseq": "ELDKAIGRNCNGVITKDEAEKLFN",
-                  "hseq": "QLDQAMERLINGIQDKDQVKQSVN",
-                  "midline": "+LD+A+ R  NG+  KD+ ++  N"
+                  "description": [
+                    {
+                      "id": "sp|P37330|MASZ_ECOLI",
+                      "accession": "P37330",
+                      "title": "Malate synthase G OS=Escherichia coli (strain K12) OX=83333 GN=glcB PE=1 SV=3"
+                    }
+                  ],
+                  "len": 723,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.2534,
+                      "score": 51,
+                      "evalue": 0.412992,
+                      "identity": 34,
+                      "positive": 55,
+                      "query_from": 29,
+                      "query_to": 156,
+                      "hit_from": 340,
+                      "hit_to": 458,
+                      "align_len": 130,
+                      "gaps": 13,
+                      "qseq": "IGHLLTKSPSLNAAKSELDKAIGRNCNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEAAVNLAKSIWYNQTPNRAKRVITTF--RTG",
+                      "hseq": "VGHLMTIPVIWDSEGNEIPEGI---LDGVMTG--AIALY----DLKVQKNSRTGSVYIVKPKMHGPQEVAFANKLFTRIETMLGMAPNTLKMGIMDEERRTSLNLRSCI--AQARNRVAFINTGFLDRTG",
+                      "midline": "+GHL+T     ++  +E+ + I    +GV+T   A  L+    D  V+   R   +  V   +   +  A  N +F   ET +    N+L+M         ++NL   I   Q  NR   + T F  RTG"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 7.1676,
+                      "identity": 10,
+                      "positive": 16,
+                      "query_from": 53,
+                      "query_to": 79,
+                      "hit_from": 243,
+                      "hit_to": 269,
+                      "align_len": 27,
+                      "gaps": 0,
+                      "qseq": "NCNGVITKDEAEKLFNQDVDAAVRGIL",
+                      "hseq": "DANGRIGKDDPAHINDVIVEAAISTIL",
+                      "midline": "+ NG I KD+   + +  V+AA+  IL"
+                    }
+                  ]
                 },
                 {
                   "num": 5,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 2.73075,
-                  "identity": 32,
-                  "positive": 40,
-                  "query_from": 42,
-                  "query_to": 137,
-                  "hit_from": 8846,
-                  "hit_to": 8918,
-                  "align_len": 102,
-                  "gaps": 35,
-                  "qseq": "AKSELDKAIGRNCNGVITKDEAEKLFNQDVDA--AVRGI--LRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEA--AVNLAKSI",
-                  "hseq": "AAHELDKVQG----NAIAKAEAEQLKQNIIDAQNALNGDQNLANAKDK-------------------------ANAFVNSLNGLNQQQQDLAHKAINNADTV",
-                  "midline": "A  ELDK  G      I K EAE+L    +DA  A+ G   L NAK K                            F NSL  L Q++ D A  A+N A ++"
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 0.748418,
+                      "identity": 18,
+                      "positive": 22,
+                      "query_from": 64,
+                      "query_to": 107,
+                      "hit_from": 3480,
+                      "hit_to": 3527,
+                      "align_len": 49,
+                      "gaps": 6,
+                      "qseq": "EKLFNQDVDAAVRGI-----LRNAKLKPVYDSLDAVRRCALINMVFQMG",
+                      "hseq": "EKLAQSKTDAA-RAIDALPHLNNAQKADVKSKINAASNIAGVNTVKQQG",
+                      "midline": "EKL     DAA R I     L NA+   V   ++A    A +N V Q G"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 0.895068,
+                      "identity": 10,
+                      "positive": 13,
+                      "query_from": 31,
+                      "query_to": 52,
+                      "hit_from": 3348,
+                      "hit_to": 3369,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "HLLTKSPSLNAAKSELDKAIGR",
+                      "hseq": "HALNGEAKLNAAKQEANTALGQ",
+                      "midline": "H L     LNAAK E + A+G+"
+                    },
+                    {
+                      "num": 3,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 1.4372,
+                      "identity": 17,
+                      "positive": 32,
+                      "query_from": 31,
+                      "query_to": 80,
+                      "hit_from": 6583,
+                      "hit_to": 6644,
+                      "align_len": 62,
+                      "gaps": 12,
+                      "qseq": "HLLTKSPSLNAAKSELDKAIGR----------NCNGVITKDEAEKLFNQ--DVDAAVRGILR",
+                      "hseq": "NIISKANGGNATQTEVEQAIQQVNAAKQALNGNANVQHAKDEATALINSSNDLNQAQKNALK",
+                      "midline": "++++K+   NA ++E+++AI +          N N    KDEA  L N   D++ A +  L+"
+                    },
+                    {
+                      "num": 4,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 2.49808,
+                      "identity": 9,
+                      "positive": 16,
+                      "query_from": 45,
+                      "query_to": 68,
+                      "hit_from": 6161,
+                      "hit_to": 6184,
+                      "align_len": 24,
+                      "gaps": 0,
+                      "qseq": "ELDKAIGRNCNGVITKDEAEKLFN",
+                      "hseq": "QLDQAMERLINGIQDKDQVKQSVN",
+                      "midline": "+LD+A+ R  NG+  KD+ ++  N"
+                    },
+                    {
+                      "num": 5,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 2.73075,
+                      "identity": 32,
+                      "positive": 40,
+                      "query_from": 42,
+                      "query_to": 137,
+                      "hit_from": 8846,
+                      "hit_to": 8918,
+                      "align_len": 102,
+                      "gaps": 35,
+                      "qseq": "AKSELDKAIGRNCNGVITKDEAEKLFNQDVDA--AVRGI--LRNAKLKPVYDSLDAVRRCALINMVFQMGETGVAGFTNSLRMLQQKRWDEA--AVNLAKSI",
+                      "hseq": "AAHELDKVQG----NAIAKAEAEQLKQNIIDAQNALNGDQNLANAKDK-------------------------ANAFVNSLNGLNQQQQDLAHKAINNADTV",
+                      "midline": "A  ELDK  G      I K EAE+L    +DA  A+ G   L NAK K                            F NSL  L Q++ D A  A+N A ++"
+                    },
+                    {
+                      "num": 6,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 9.22306,
+                      "identity": 9,
+                      "positive": 13,
+                      "query_from": 38,
+                      "query_to": 54,
+                      "hit_from": 4688,
+                      "hit_to": 4704,
+                      "align_len": 17,
+                      "gaps": 0,
+                      "qseq": "SLNAAKSELDKAIGRNC",
+                      "hseq": "AVNAAKAILTKASGQNV",
+                      "midline": "++NAAK+ L KA G+N "
+                    }
+                  ]
                 },
                 {
                   "num": 6,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 9.22306,
-                  "identity": 9,
-                  "positive": 13,
-                  "query_from": 38,
-                  "query_to": 54,
-                  "hit_from": 4688,
-                  "hit_to": 4704,
-                  "align_len": 17,
-                  "gaps": 0,
-                  "qseq": "SLNAAKSELDKAIGRNC",
-                  "hseq": "AVNAAKAILTKASGQNV",
-                  "midline": "++NAAK+ L KA G+N "
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P0A6W5|GREA_ECOLI",
+                      "accession": "P0A6W5",
+                      "title": "Transcription elongation factor GreA OS=Escherichia coli (strain K12) OX=83333 GN=greA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 158,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 3.9743,
+                      "identity": 14,
+                      "positive": 20,
+                      "query_from": 74,
+                      "query_to": 110,
+                      "hit_from": 3,
+                      "hit_to": 40,
+                      "align_len": 38,
+                      "gaps": 1,
+                      "qseq": "AVRGILRNA-KLKPVYDSLDAVRRCALINMVFQMGETG",
+                      "hseq": "AIPMTLRGAEKLREELDFLKSVRRPEIIAAIAEAREHG",
+                      "midline": "A+   LR A KL+   D L +VRR  +I  + +  E G"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P0A6W5|GREA_ECOLI",
-                  "accession": "P0A6W5",
-                  "title": "Transcription elongation factor GreA OS=Escherichia coli (strain K12) OX=83333 GN=greA PE=1 SV=1"
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P07987|GUX2_HYPJE",
+                      "accession": "P07987",
+                      "title": "Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 471,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 4.75036,
+                      "identity": 13,
+                      "positive": 21,
+                      "query_from": 87,
+                      "query_to": 123,
+                      "hit_from": 192,
+                      "hit_to": 228,
+                      "align_len": 39,
+                      "gaps": 4,
+                      "qseq": "VYDSLDAVRRCALI--NMVFQMGETGVAGFTNSLRMLQQ",
+                      "hseq": "VYDLPD--RDCAALASNGEYSIADGGVAKYKNYIDTIRQ",
+                      "midline": "VYD  D  R CA +  N  + + + GVA + N +  ++Q"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P0C6U8|R1A_SARS",
+                      "accession": "P0C6U8",
+                      "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                    }
+                  ],
+                  "len": 4382,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 6.7839,
+                      "identity": 8,
+                      "positive": 9,
+                      "query_from": 38,
+                      "query_to": 48,
+                      "hit_from": 3960,
+                      "hit_to": 3970,
+                      "align_len": 11,
+                      "gaps": 0,
+                      "qseq": "SLNAAKSELDK",
+                      "hseq": "SLNVAKSEFDR",
+                      "midline": "SLN AKSE D+"
+                    }
+                  ]
                 }
               ],
-              "len": 158,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 3.9743,
-                  "identity": 14,
-                  "positive": 20,
-                  "query_from": 74,
-                  "query_to": 110,
-                  "hit_from": 3,
-                  "hit_to": 40,
-                  "align_len": 38,
-                  "gaps": 1,
-                  "qseq": "AVRGILRNA-KLKPVYDSLDAVRRCALINMVFQMGETG",
-                  "hseq": "AIPMTLRGAEKLREELDFLKSVRRPEIIAAIAEAREHG",
-                  "midline": "A+   LR A KL+   D L +VRR  +I  + +  E G"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P07987|GUX2_HYPJE",
-                  "accession": "P07987",
-                  "title": "Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1"
-                }
-              ],
-              "len": 471,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 4.75036,
-                  "identity": 13,
-                  "positive": 21,
-                  "query_from": 87,
-                  "query_to": 123,
-                  "hit_from": 192,
-                  "hit_to": 228,
-                  "align_len": 39,
-                  "gaps": 4,
-                  "qseq": "VYDSLDAVRRCALI--NMVFQMGETGVAGFTNSLRMLQQ",
-                  "hseq": "VYDLPD--RDCAALASNGEYSIADGGVAKYKNYIDTIRQ",
-                  "midline": "VYD  D  R CA +  N  + + + GVA + N +  ++Q"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P0C6U8|R1A_SARS",
-                  "accession": "P0C6U8",
-                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
-                }
-              ],
-              "len": 4382,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 6.7839,
-                  "identity": 8,
-                  "positive": 9,
-                  "query_from": 38,
-                  "query_to": 48,
-                  "hit_from": 3960,
-                  "hit_to": 3970,
-                  "align_len": 11,
-                  "gaps": 0,
-                  "qseq": "SLNAAKSELDK",
-                  "hseq": "SLNVAKSEFDR",
-                  "midline": "SLN AKSE D+"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 59,
+                "eff_space": 7391055,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 59,
-            "eff_space": 7391055,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

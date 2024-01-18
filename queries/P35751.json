@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,142 +17,147 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P35751|ANP1_LYCDA Ice-structuring protein RD1 OS=Lycodichthys dearborni OX=8201 PE=1 SV=1",
-          "query_len": 64,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P35751|ANP1_LYCDA",
-                  "accession": "P35751",
-                  "title": "Ice-structuring protein RD1 OS=Lycodichthys dearborni OX=8201 PE=1 SV=1"
-                }
-              ],
-              "len": 64,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P35751|ANP1_LYCDA Ice-structuring protein RD1 OS=Lycodichthys dearborni OX=8201 PE=1 SV=1",
+              "query_len": 64,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 126.331,
-                  "score": 316,
-                  "evalue": 1.32366e-42,
-                  "identity": 64,
-                  "positive": 64,
-                  "query_from": 1,
-                  "query_to": 64,
-                  "hit_from": 1,
-                  "hit_to": 64,
-                  "align_len": 64,
-                  "gaps": 0,
-                  "qseq": "NKASVVANQLIPINTALTLIMMKAEVVTPMGIPAEEIPKLVGMQVNRAVPLGTTLMPDMVKNYE",
-                  "hseq": "NKASVVANQLIPINTALTLIMMKAEVVTPMGIPAEEIPKLVGMQVNRAVPLGTTLMPDMVKNYE",
-                  "midline": "NKASVVANQLIPINTALTLIMMKAEVVTPMGIPAEEIPKLVGMQVNRAVPLGTTLMPDMVKNYE"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P35751|ANP1_LYCDA",
+                      "accession": "P35751",
+                      "title": "Ice-structuring protein RD1 OS=Lycodichthys dearborni OX=8201 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 64,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 126.331,
+                      "score": 316,
+                      "evalue": 1.32366e-42,
+                      "identity": 64,
+                      "positive": 64,
+                      "query_from": 1,
+                      "query_to": 64,
+                      "hit_from": 1,
+                      "hit_to": 64,
+                      "align_len": 64,
+                      "gaps": 0,
+                      "qseq": "NKASVVANQLIPINTALTLIMMKAEVVTPMGIPAEEIPKLVGMQVNRAVPLGTTLMPDMVKNYE",
+                      "hseq": "NKASVVANQLIPINTALTLIMMKAEVVTPMGIPAEEIPKLVGMQVNRAVPLGTTLMPDMVKNYE",
+                      "midline": "NKASVVANQLIPINTALTLIMMKAEVVTPMGIPAEEIPKLVGMQVNRAVPLGTTLMPDMVKNYE"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q9ZFV5|EUTQ_SALTY",
-                  "accession": "Q9ZFV5",
-                  "title": "Acetate kinase EutQ OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=eutQ PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|Q9ZFV5|EUTQ_SALTY",
+                      "accession": "Q9ZFV5",
+                      "title": "Acetate kinase EutQ OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=eutQ PE=1 SV=1"
+                    }
+                  ],
+                  "len": 229,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 0.539062,
+                      "identity": 10,
+                      "positive": 23,
+                      "query_from": 20,
+                      "query_to": 54,
+                      "hit_from": 23,
+                      "hit_to": 57,
+                      "align_len": 38,
+                      "gaps": 6,
+                      "qseq": "IMMKAEVVTPMGIPAEEIPKLVGMQV---NRAVPLGTT",
+                      "hseq": "VVLRASIITP---EAREVAELLGFTITECDESVPASTS",
+                      "midline": "++++A ++TP    A E+ +L+G  +   + +VP  T+"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P16009|NEEDL_BPT4",
+                      "accession": "P16009",
+                      "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 575,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 4.22445,
+                      "identity": 6,
+                      "positive": 9,
+                      "query_from": 30,
+                      "query_to": 40,
+                      "hit_from": 45,
+                      "hit_to": 55,
+                      "align_len": 11,
+                      "gaps": 0,
+                      "qseq": "MGIPAEEIPKL",
+                      "hseq": "MGIPTEKLPWM",
+                      "midline": "MGIP E++P +"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P11941|LYSC2_ONCMY",
+                      "accession": "P11941",
+                      "title": "Lysozyme C II OS=Oncorhynchus mykiss OX=8022 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 144,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.4754,
+                      "score": 36,
+                      "evalue": 5.16693,
+                      "identity": 10,
+                      "positive": 18,
+                      "query_from": 1,
+                      "query_to": 40,
+                      "hit_from": 89,
+                      "hit_to": 128,
+                      "align_len": 40,
+                      "gaps": 0,
+                      "qseq": "NKASVVANQLIPINTALTLIMMKAEVVTPMGIPAEEIPKL",
+                      "hseq": "NVCGIRCSQLLTADLTVAIRCAKRVVLDPNGIGAWVAWRL",
+                      "midline": "N   +  +QL+  +  + +   K  V+ P GI A    +L"
+                    }
+                  ]
                 }
               ],
-              "len": 229,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 0.539062,
-                  "identity": 10,
-                  "positive": 23,
-                  "query_from": 20,
-                  "query_to": 54,
-                  "hit_from": 23,
-                  "hit_to": 57,
-                  "align_len": 38,
-                  "gaps": 6,
-                  "qseq": "IMMKAEVVTPMGIPAEEIPKLVGMQV---NRAVPLGTT",
-                  "hseq": "VVLRASIITP---EAREVAELLGFTITECDESVPASTS",
-                  "midline": "++++A ++TP    A E+ +L+G  +   + +VP  T+"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P16009|NEEDL_BPT4",
-                  "accession": "P16009",
-                  "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
-                }
-              ],
-              "len": 575,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 4.22445,
-                  "identity": 6,
-                  "positive": 9,
-                  "query_from": 30,
-                  "query_to": 40,
-                  "hit_from": 45,
-                  "hit_to": 55,
-                  "align_len": 11,
-                  "gaps": 0,
-                  "qseq": "MGIPAEEIPKL",
-                  "hseq": "MGIPTEKLPWM",
-                  "midline": "MGIP E++P +"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P11941|LYSC2_ONCMY",
-                  "accession": "P11941",
-                  "title": "Lysozyme C II OS=Oncorhynchus mykiss OX=8022 PE=1 SV=2"
-                }
-              ],
-              "len": 144,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.4754,
-                  "score": 36,
-                  "evalue": 5.16693,
-                  "identity": 10,
-                  "positive": 18,
-                  "query_from": 1,
-                  "query_to": 40,
-                  "hit_from": 89,
-                  "hit_to": 128,
-                  "align_len": 40,
-                  "gaps": 0,
-                  "qseq": "NKASVVANQLIPINTALTLIMMKAEVVTPMGIPAEEIPKL",
-                  "hseq": "NVCGIRCSQLLTADLTVAIRCAKRVVLDPNGIGAWVAWRL",
-                  "midline": "N   +  +QL+  +  + +   K  V+ P GI A    +L"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 37,
+                "eff_space": 2024703,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 37,
-            "eff_space": 2024703,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

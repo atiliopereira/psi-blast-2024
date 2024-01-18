@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,552 +17,557 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P00327|ADH1E_HORSE Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2",
-          "query_len": 375,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P00327|ADH1E_HORSE",
-                  "accession": "P00327",
-                  "title": "Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2"
-                }
-              ],
-              "len": 375,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P00327|ADH1E_HORSE Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2",
+              "query_len": 375,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 764.222,
-                  "score": 1972,
-                  "evalue": 0,
-                  "identity": 375,
-                  "positive": 375,
-                  "query_from": 1,
-                  "query_to": 375,
-                  "hit_from": 1,
-                  "hit_to": 375,
-                  "align_len": 375,
-                  "gaps": 0,
-                  "qseq": "MSTAGKVIKCKAAVLWEEKKPFSIEEVEVAPPKAHEVRIKMVATGICRSDDHVVSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVIPLFTPQCGKCRVCKHPEGNFCLKNDLSMPRGTMQDGTSRFTCRGKPIHHFLGTSTFSQYTVVDEISVAKIDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGGVGLSVIMGCKAAGAARIIGVDINKDKFAKAKEVGATECVNPQDYKKPIQEVLTEMSNGGVDFSFEVIGRLDTMVTALSCCQEAYGVSVIVGVPPDSQNLSMNPMLLLSGRTWKGAIFGGFKSKDSVPKLVADFMAKKFALDPLITHVLPFEKINEGFDLLRSGESIRTILTF",
-                  "hseq": "MSTAGKVIKCKAAVLWEEKKPFSIEEVEVAPPKAHEVRIKMVATGICRSDDHVVSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVIPLFTPQCGKCRVCKHPEGNFCLKNDLSMPRGTMQDGTSRFTCRGKPIHHFLGTSTFSQYTVVDEISVAKIDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGGVGLSVIMGCKAAGAARIIGVDINKDKFAKAKEVGATECVNPQDYKKPIQEVLTEMSNGGVDFSFEVIGRLDTMVTALSCCQEAYGVSVIVGVPPDSQNLSMNPMLLLSGRTWKGAIFGGFKSKDSVPKLVADFMAKKFALDPLITHVLPFEKINEGFDLLRSGESIRTILTF",
-                  "midline": "MSTAGKVIKCKAAVLWEEKKPFSIEEVEVAPPKAHEVRIKMVATGICRSDDHVVSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVIPLFTPQCGKCRVCKHPEGNFCLKNDLSMPRGTMQDGTSRFTCRGKPIHHFLGTSTFSQYTVVDEISVAKIDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGGVGLSVIMGCKAAGAARIIGVDINKDKFAKAKEVGATECVNPQDYKKPIQEVLTEMSNGGVDFSFEVIGRLDTMVTALSCCQEAYGVSVIVGVPPDSQNLSMNPMLLLSGRTWKGAIFGGFKSKDSVPKLVADFMAKKFALDPLITHVLPFEKINEGFDLLRSGESIRTILTF"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P07327|ADH1A_HUMAN",
-                  "accession": "P07327",
-                  "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
-                }
-              ],
-              "len": 375,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 676.396,
-                  "score": 1744,
-                  "evalue": 0,
-                  "identity": 328,
-                  "positive": 349,
-                  "query_from": 1,
-                  "query_to": 375,
-                  "hit_from": 1,
-                  "hit_to": 375,
-                  "align_len": 375,
-                  "gaps": 0,
-                  "qseq": "MSTAGKVIKCKAAVLWEEKKPFSIEEVEVAPPKAHEVRIKMVATGICRSDDHVVSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVIPLFTPQCGKCRVCKHPEGNFCLKNDLSMPRGTMQDGTSRFTCRGKPIHHFLGTSTFSQYTVVDEISVAKIDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGGVGLSVIMGCKAAGAARIIGVDINKDKFAKAKEVGATECVNPQDYKKPIQEVLTEMSNGGVDFSFEVIGRLDTMVTALSCCQEAYGVSVIVGVPPDSQNLSMNPMLLLSGRTWKGAIFGGFKSKDSVPKLVADFMAKKFALDPLITHVLPFEKINEGFDLLRSGESIRTILTF",
-                  "hseq": "MSTAGKVIKCKAAVLWELKKPFSIEEVEVAPPKAHEVRIKMVAVGICGTDDHVVSGTMVTPLPVILGHEAAGIVESVGEGVTTVKPGDKVIPLAIPQCGKCRICKNPESNYCLKNDVSNPQGTLQDGTSRFTCRRKPIHHFLGISTFSQYTVVDENAVAKIDAASPLEKVCLIGCGFSTGYGSAVNVAKVTPGSTCAVFGLGGVGLSAIMGCKAAGAARIIAVDINKDKFAKAKELGATECINPQDYKKPIQEVLKEMTDGGVDFSFEVIGRLDTMMASLLCCHEACGTSVIVGVPPDSQNLSMNPMLLLTGRTWKGAILGGFKSKECVPKLVADFMAKKFSLDALITHVLPFEKINEGFDLLHSGKSIRTILMF",
-                  "midline": "MSTAGKVIKCKAAVLWE KKPFSIEEVEVAPPKAHEVRIKMVA GIC +DDHVVSGT+VTPLPVI GHEAAGIVES+GEGVTTV+PGDKVIPL  PQCGKCR+CK+PE N+CLKND+S P+GT+QDGTSRFTCR KPIHHFLG STFSQYTVVDE +VAKIDAASPLEKVCLIGCGFSTGYGSAV VAKVT GSTCAVFGLGGVGLS IMGCKAAGAARII VDINKDKFAKAKE+GATEC+NPQDYKKPIQEVL EM++GGVDFSFEVIGRLDTM+ +L CC EA G SVIVGVPPDSQNLSMNPMLLL+GRTWKGAI GGFKSK+ VPKLVADFMAKKF+LD LITHVLPFEKINEGFDLL SG+SIRTIL F"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P28632|HOLD_ECOLI",
-                  "accession": "P28632",
-                  "title": "DNA polymerase III subunit psi OS=Escherichia coli (strain K12) OX=83333 GN=holD PE=1 SV=1"
-                }
-              ],
-              "len": 137,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 1.521,
-                  "identity": 16,
-                  "positive": 26,
-                  "query_from": 16,
-                  "query_to": 58,
-                  "hit_from": 17,
-                  "hit_to": 58,
-                  "align_len": 44,
-                  "gaps": 3,
-                  "qseq": "WEEKKPFSIE-EVEVAPPKAHEVRIKMVATGICRSDDHVVSGTL",
-                  "hseq": "WSLRRPGALQGEIAIAIP-AH-VRLVMVANDLPALTDPLVSDVL",
-                  "midline": "W  ++P +++ E+ +A P AH VR+ MVA  +    D +VS  L"
+                  "description": [
+                    {
+                      "id": "sp|P00327|ADH1E_HORSE",
+                      "accession": "P00327",
+                      "title": "Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 375,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 764.222,
+                      "score": 1972,
+                      "evalue": 0,
+                      "identity": 375,
+                      "positive": 375,
+                      "query_from": 1,
+                      "query_to": 375,
+                      "hit_from": 1,
+                      "hit_to": 375,
+                      "align_len": 375,
+                      "gaps": 0,
+                      "qseq": "MSTAGKVIKCKAAVLWEEKKPFSIEEVEVAPPKAHEVRIKMVATGICRSDDHVVSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVIPLFTPQCGKCRVCKHPEGNFCLKNDLSMPRGTMQDGTSRFTCRGKPIHHFLGTSTFSQYTVVDEISVAKIDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGGVGLSVIMGCKAAGAARIIGVDINKDKFAKAKEVGATECVNPQDYKKPIQEVLTEMSNGGVDFSFEVIGRLDTMVTALSCCQEAYGVSVIVGVPPDSQNLSMNPMLLLSGRTWKGAIFGGFKSKDSVPKLVADFMAKKFALDPLITHVLPFEKINEGFDLLRSGESIRTILTF",
+                      "hseq": "MSTAGKVIKCKAAVLWEEKKPFSIEEVEVAPPKAHEVRIKMVATGICRSDDHVVSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVIPLFTPQCGKCRVCKHPEGNFCLKNDLSMPRGTMQDGTSRFTCRGKPIHHFLGTSTFSQYTVVDEISVAKIDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGGVGLSVIMGCKAAGAARIIGVDINKDKFAKAKEVGATECVNPQDYKKPIQEVLTEMSNGGVDFSFEVIGRLDTMVTALSCCQEAYGVSVIVGVPPDSQNLSMNPMLLLSGRTWKGAIFGGFKSKDSVPKLVADFMAKKFALDPLITHVLPFEKINEGFDLLRSGESIRTILTF",
+                      "midline": "MSTAGKVIKCKAAVLWEEKKPFSIEEVEVAPPKAHEVRIKMVATGICRSDDHVVSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVIPLFTPQCGKCRVCKHPEGNFCLKNDLSMPRGTMQDGTSRFTCRGKPIHHFLGTSTFSQYTVVDEISVAKIDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGGVGLSVIMGCKAAGAARIIGVDINKDKFAKAKEVGATECVNPQDYKKPIQEVLTEMSNGGVDFSFEVIGRLDTMVTALSCCQEAYGVSVIVGVPPDSQNLSMNPMLLLSGRTWKGAIFGGFKSKDSVPKLVADFMAKKFALDPLITHVLPFEKINEGFDLLRSGESIRTILTF"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 4.89763,
-                  "identity": 14,
-                  "positive": 22,
-                  "query_from": 186,
-                  "query_to": 233,
-                  "hit_from": 75,
-                  "hit_to": 119,
-                  "align_len": 48,
-                  "gaps": 3,
-                  "qseq": "KVAKVTQGSTCAVFGLGGVGLSVIMGCKAAGAARIIGVDINKDKFAKA",
-                  "hseq": "KIAMLPQGSHCNSWRLGTDEPLSLEGAQVASPAL---TDLRANPTARA",
-                  "midline": "K+A + QGS C  + LG      + G + A  A     D+  +  A+A"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P0CG48|UBC_HUMAN",
-                  "accession": "P0CG48",
-                  "title": "Polyubiquitin-C OS=Homo sapiens OX=9606 GN=UBC PE=1 SV=3"
-                }
-              ],
-              "len": 685,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 2.96607,
-                  "identity": 10,
-                  "positive": 11,
-                  "query_from": 294,
-                  "query_to": 315,
-                  "hit_from": 35,
-                  "hit_to": 56,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
-                  "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
-                  "midline": "G+PPD Q L      L  GRT "
-                },
-                {
-                  "num": 2,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 2.96607,
-                  "identity": 10,
-                  "positive": 11,
-                  "query_from": 294,
-                  "query_to": 315,
-                  "hit_from": 111,
-                  "hit_to": 132,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
-                  "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
-                  "midline": "G+PPD Q L      L  GRT "
+                  "description": [
+                    {
+                      "id": "sp|P07327|ADH1A_HUMAN",
+                      "accession": "P07327",
+                      "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
+                    }
+                  ],
+                  "len": 375,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 676.396,
+                      "score": 1744,
+                      "evalue": 0,
+                      "identity": 328,
+                      "positive": 349,
+                      "query_from": 1,
+                      "query_to": 375,
+                      "hit_from": 1,
+                      "hit_to": 375,
+                      "align_len": 375,
+                      "gaps": 0,
+                      "qseq": "MSTAGKVIKCKAAVLWEEKKPFSIEEVEVAPPKAHEVRIKMVATGICRSDDHVVSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVIPLFTPQCGKCRVCKHPEGNFCLKNDLSMPRGTMQDGTSRFTCRGKPIHHFLGTSTFSQYTVVDEISVAKIDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGGVGLSVIMGCKAAGAARIIGVDINKDKFAKAKEVGATECVNPQDYKKPIQEVLTEMSNGGVDFSFEVIGRLDTMVTALSCCQEAYGVSVIVGVPPDSQNLSMNPMLLLSGRTWKGAIFGGFKSKDSVPKLVADFMAKKFALDPLITHVLPFEKINEGFDLLRSGESIRTILTF",
+                      "hseq": "MSTAGKVIKCKAAVLWELKKPFSIEEVEVAPPKAHEVRIKMVAVGICGTDDHVVSGTMVTPLPVILGHEAAGIVESVGEGVTTVKPGDKVIPLAIPQCGKCRICKNPESNYCLKNDVSNPQGTLQDGTSRFTCRRKPIHHFLGISTFSQYTVVDENAVAKIDAASPLEKVCLIGCGFSTGYGSAVNVAKVTPGSTCAVFGLGGVGLSAIMGCKAAGAARIIAVDINKDKFAKAKELGATECINPQDYKKPIQEVLKEMTDGGVDFSFEVIGRLDTMMASLLCCHEACGTSVIVGVPPDSQNLSMNPMLLLTGRTWKGAILGGFKSKECVPKLVADFMAKKFSLDALITHVLPFEKINEGFDLLHSGKSIRTILMF",
+                      "midline": "MSTAGKVIKCKAAVLWE KKPFSIEEVEVAPPKAHEVRIKMVA GIC +DDHVVSGT+VTPLPVI GHEAAGIVES+GEGVTTV+PGDKVIPL  PQCGKCR+CK+PE N+CLKND+S P+GT+QDGTSRFTCR KPIHHFLG STFSQYTVVDE +VAKIDAASPLEKVCLIGCGFSTGYGSAV VAKVT GSTCAVFGLGGVGLS IMGCKAAGAARII VDINKDKFAKAKE+GATEC+NPQDYKKPIQEVL EM++GGVDFSFEVIGRLDTM+ +L CC EA G SVIVGVPPDSQNLSMNPMLLL+GRTWKGAI GGFKSK+ VPKLVADFMAKKF+LD LITHVLPFEKINEGFDLL SG+SIRTIL F"
+                    }
+                  ]
                 },
                 {
                   "num": 3,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 2.96607,
-                  "identity": 10,
-                  "positive": 11,
-                  "query_from": 294,
-                  "query_to": 315,
-                  "hit_from": 187,
-                  "hit_to": 208,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
-                  "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
-                  "midline": "G+PPD Q L      L  GRT "
+                  "description": [
+                    {
+                      "id": "sp|P28632|HOLD_ECOLI",
+                      "accession": "P28632",
+                      "title": "DNA polymerase III subunit psi OS=Escherichia coli (strain K12) OX=83333 GN=holD PE=1 SV=1"
+                    }
+                  ],
+                  "len": 137,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 1.521,
+                      "identity": 16,
+                      "positive": 26,
+                      "query_from": 16,
+                      "query_to": 58,
+                      "hit_from": 17,
+                      "hit_to": 58,
+                      "align_len": 44,
+                      "gaps": 3,
+                      "qseq": "WEEKKPFSIE-EVEVAPPKAHEVRIKMVATGICRSDDHVVSGTL",
+                      "hseq": "WSLRRPGALQGEIAIAIP-AH-VRLVMVANDLPALTDPLVSDVL",
+                      "midline": "W  ++P +++ E+ +A P AH VR+ MVA  +    D +VS  L"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 4.89763,
+                      "identity": 14,
+                      "positive": 22,
+                      "query_from": 186,
+                      "query_to": 233,
+                      "hit_from": 75,
+                      "hit_to": 119,
+                      "align_len": 48,
+                      "gaps": 3,
+                      "qseq": "KVAKVTQGSTCAVFGLGGVGLSVIMGCKAAGAARIIGVDINKDKFAKA",
+                      "hseq": "KIAMLPQGSHCNSWRLGTDEPLSLEGAQVASPAL---TDLRANPTARA",
+                      "midline": "K+A + QGS C  + LG      + G + A  A     D+  +  A+A"
+                    }
+                  ]
                 },
                 {
                   "num": 4,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 2.96607,
-                  "identity": 10,
-                  "positive": 11,
-                  "query_from": 294,
-                  "query_to": 315,
-                  "hit_from": 263,
-                  "hit_to": 284,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
-                  "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
-                  "midline": "G+PPD Q L      L  GRT "
+                  "description": [
+                    {
+                      "id": "sp|P0CG48|UBC_HUMAN",
+                      "accession": "P0CG48",
+                      "title": "Polyubiquitin-C OS=Homo sapiens OX=9606 GN=UBC PE=1 SV=3"
+                    }
+                  ],
+                  "len": 685,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 2.96607,
+                      "identity": 10,
+                      "positive": 11,
+                      "query_from": 294,
+                      "query_to": 315,
+                      "hit_from": 35,
+                      "hit_to": 56,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
+                      "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
+                      "midline": "G+PPD Q L      L  GRT "
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 2.96607,
+                      "identity": 10,
+                      "positive": 11,
+                      "query_from": 294,
+                      "query_to": 315,
+                      "hit_from": 111,
+                      "hit_to": 132,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
+                      "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
+                      "midline": "G+PPD Q L      L  GRT "
+                    },
+                    {
+                      "num": 3,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 2.96607,
+                      "identity": 10,
+                      "positive": 11,
+                      "query_from": 294,
+                      "query_to": 315,
+                      "hit_from": 187,
+                      "hit_to": 208,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
+                      "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
+                      "midline": "G+PPD Q L      L  GRT "
+                    },
+                    {
+                      "num": 4,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 2.96607,
+                      "identity": 10,
+                      "positive": 11,
+                      "query_from": 294,
+                      "query_to": 315,
+                      "hit_from": 263,
+                      "hit_to": 284,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
+                      "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
+                      "midline": "G+PPD Q L      L  GRT "
+                    },
+                    {
+                      "num": 5,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 2.96607,
+                      "identity": 10,
+                      "positive": 11,
+                      "query_from": 294,
+                      "query_to": 315,
+                      "hit_from": 339,
+                      "hit_to": 360,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
+                      "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
+                      "midline": "G+PPD Q L      L  GRT "
+                    },
+                    {
+                      "num": 6,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 2.96607,
+                      "identity": 10,
+                      "positive": 11,
+                      "query_from": 294,
+                      "query_to": 315,
+                      "hit_from": 415,
+                      "hit_to": 436,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
+                      "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
+                      "midline": "G+PPD Q L      L  GRT "
+                    },
+                    {
+                      "num": 7,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 2.96607,
+                      "identity": 10,
+                      "positive": 11,
+                      "query_from": 294,
+                      "query_to": 315,
+                      "hit_from": 491,
+                      "hit_to": 512,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
+                      "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
+                      "midline": "G+PPD Q L      L  GRT "
+                    },
+                    {
+                      "num": 8,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 2.96607,
+                      "identity": 10,
+                      "positive": 11,
+                      "query_from": 294,
+                      "query_to": 315,
+                      "hit_from": 567,
+                      "hit_to": 588,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
+                      "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
+                      "midline": "G+PPD Q L      L  GRT "
+                    },
+                    {
+                      "num": 9,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 2.96607,
+                      "identity": 10,
+                      "positive": 11,
+                      "query_from": 294,
+                      "query_to": 315,
+                      "hit_from": 643,
+                      "hit_to": 664,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
+                      "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
+                      "midline": "G+PPD Q L      L  GRT "
+                    }
+                  ]
                 },
                 {
                   "num": 5,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 2.96607,
-                  "identity": 10,
-                  "positive": 11,
-                  "query_from": 294,
-                  "query_to": 315,
-                  "hit_from": 339,
-                  "hit_to": 360,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
-                  "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
-                  "midline": "G+PPD Q L      L  GRT "
+                  "description": [
+                    {
+                      "id": "sp|O07615|YHFP_BACSU",
+                      "accession": "O07615",
+                      "title": "Putative quinone oxidoreductase YhfP OS=Bacillus subtilis (strain 168) OX=224308 GN=yhfP PE=1 SV=1"
+                    }
+                  ],
+                  "len": 330,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 3.03194,
+                      "identity": 20,
+                      "positive": 27,
+                      "query_from": 37,
+                      "query_to": 91,
+                      "hit_from": 34,
+                      "hit_to": 88,
+                      "align_len": 57,
+                      "gaps": 4,
+                      "qseq": "VRIKMVATGICRSDDHV--VSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVI",
+                      "hseq": "VLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSND--PRFAEGDEVI",
+                      "midline": "V IK+  +GI   D       G +V   P+I G +AAG V S  +       GD+VI"
+                    }
+                  ]
                 },
                 {
                   "num": 6,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 2.96607,
-                  "identity": 10,
-                  "positive": 11,
-                  "query_from": 294,
-                  "query_to": 315,
-                  "hit_from": 415,
-                  "hit_to": 436,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
-                  "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
-                  "midline": "G+PPD Q L      L  GRT "
+                  "description": [
+                    {
+                      "id": "tr|Q8RR56|Q8RR56_9BACI",
+                      "accession": "Q8RR56",
+                      "title": "Kumamolisin OS=Bacillus sp. MN-32 OX=198803 GN=kscp PE=1 SV=2"
+                    }
+                  ],
+                  "len": 552,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 3.15904,
+                      "identity": 14,
+                      "positive": 20,
+                      "query_from": 36,
+                      "query_to": 73,
+                      "hit_from": 90,
+                      "hit_to": 127,
+                      "align_len": 38,
+                      "gaps": 0,
+                      "qseq": "EVRIKMVATGICRSDDHVVSGTLVTPLPVIAGHEAAGI",
+                      "hseq": "EIRKFAEAHGLTLDRAHVAAGTAVLSGPVDAVNQAFGV",
+                      "midline": "E+R    A G+     HV +GT V   PV A ++A G+"
+                    }
+                  ]
                 },
                 {
                   "num": 7,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 2.96607,
-                  "identity": 10,
-                  "positive": 11,
-                  "query_from": 294,
-                  "query_to": 315,
-                  "hit_from": 491,
-                  "hit_to": 512,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
-                  "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
-                  "midline": "G+PPD Q L      L  GRT "
+                  "description": [
+                    {
+                      "id": "sp|P84022|SMAD3_HUMAN",
+                      "accession": "P84022",
+                      "title": "Mothers against decapentaplegic homolog 3 OS=Homo sapiens OX=9606 GN=SMAD3 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 425,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 3.26406,
+                      "identity": 11,
+                      "positive": 17,
+                      "query_from": 161,
+                      "query_to": 203,
+                      "hit_from": 360,
+                      "hit_to": 402,
+                      "align_len": 43,
+                      "gaps": 0,
+                      "qseq": "IDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGG",
+                      "hseq": "FEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNG",
+                      "midline": " +A   L ++C I   F  G+G+  +   VT         L G"
+                    }
+                  ]
                 },
                 {
                   "num": 8,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 2.96607,
-                  "identity": 10,
-                  "positive": 11,
-                  "query_from": 294,
-                  "query_to": 315,
-                  "hit_from": 567,
-                  "hit_to": 588,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
-                  "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
-                  "midline": "G+PPD Q L      L  GRT "
+                  "description": [
+                    {
+                      "id": "sp|Q00722|PLCB2_HUMAN",
+                      "accession": "Q00722",
+                      "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1185,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 3.42107,
+                      "identity": 9,
+                      "positive": 13,
+                      "query_from": 87,
+                      "query_to": 113,
+                      "hit_from": 764,
+                      "hit_to": 790,
+                      "align_len": 27,
+                      "gaps": 0,
+                      "qseq": "GDKVIPLFTPQCGKCRVCKHPEGNFCL",
+                      "hseq": "GHRIIPINALNSGYHHLCLHSESNMPL",
+                      "midline": "G ++IP+     G   +C H E N  L"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 7.66396,
+                      "identity": 5,
+                      "positive": 11,
+                      "query_from": 237,
+                      "query_to": 251,
+                      "hit_from": 193,
+                      "hit_to": 207,
+                      "align_len": 15,
+                      "gaps": 0,
+                      "qseq": "GATECVNPQDYKKPI",
+                      "hseq": "GKNDAINPEDFPEPV",
+                      "midline": "G  + +NP+D+ +P+"
+                    }
+                  ]
                 },
                 {
                   "num": 9,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 2.96607,
-                  "identity": 10,
-                  "positive": 11,
-                  "query_from": 294,
-                  "query_to": 315,
-                  "hit_from": 643,
-                  "hit_to": 664,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "GVPPDSQNLSMNPMLLLSGRTW",
-                  "hseq": "GIPPDQQRLIFAGKQLEDGRTL",
-                  "midline": "G+PPD Q L      L  GRT "
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|O07615|YHFP_BACSU",
-                  "accession": "O07615",
-                  "title": "Putative quinone oxidoreductase YhfP OS=Bacillus subtilis (strain 168) OX=224308 GN=yhfP PE=1 SV=1"
-                }
-              ],
-              "len": 330,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 3.03194,
-                  "identity": 20,
-                  "positive": 27,
-                  "query_from": 37,
-                  "query_to": 91,
-                  "hit_from": 34,
-                  "hit_to": 88,
-                  "align_len": 57,
-                  "gaps": 4,
-                  "qseq": "VRIKMVATGICRSDDHV--VSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVI",
-                  "hseq": "VLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSND--PRFAEGDEVI",
-                  "midline": "V IK+  +GI   D       G +V   P+I G +AAG V S  +       GD+VI"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "tr|Q8RR56|Q8RR56_9BACI",
-                  "accession": "Q8RR56",
-                  "title": "Kumamolisin OS=Bacillus sp. MN-32 OX=198803 GN=kscp PE=1 SV=2"
-                }
-              ],
-              "len": 552,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 3.15904,
-                  "identity": 14,
-                  "positive": 20,
-                  "query_from": 36,
-                  "query_to": 73,
-                  "hit_from": 90,
-                  "hit_to": 127,
-                  "align_len": 38,
-                  "gaps": 0,
-                  "qseq": "EVRIKMVATGICRSDDHVVSGTLVTPLPVIAGHEAAGI",
-                  "hseq": "EIRKFAEAHGLTLDRAHVAAGTAVLSGPVDAVNQAFGV",
-                  "midline": "E+R    A G+     HV +GT V   PV A ++A G+"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P84022|SMAD3_HUMAN",
-                  "accession": "P84022",
-                  "title": "Mothers against decapentaplegic homolog 3 OS=Homo sapiens OX=9606 GN=SMAD3 PE=1 SV=1"
-                }
-              ],
-              "len": 425,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 3.26406,
-                  "identity": 11,
-                  "positive": 17,
-                  "query_from": 161,
-                  "query_to": 203,
-                  "hit_from": 360,
-                  "hit_to": 402,
-                  "align_len": 43,
-                  "gaps": 0,
-                  "qseq": "IDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGG",
-                  "hseq": "FEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNG",
-                  "midline": " +A   L ++C I   F  G+G+  +   VT         L G"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|Q00722|PLCB2_HUMAN",
-                  "accession": "Q00722",
-                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
-                }
-              ],
-              "len": 1185,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 3.42107,
-                  "identity": 9,
-                  "positive": 13,
-                  "query_from": 87,
-                  "query_to": 113,
-                  "hit_from": 764,
-                  "hit_to": 790,
-                  "align_len": 27,
-                  "gaps": 0,
-                  "qseq": "GDKVIPLFTPQCGKCRVCKHPEGNFCL",
-                  "hseq": "GHRIIPINALNSGYHHLCLHSESNMPL",
-                  "midline": "G ++IP+     G   +C H E N  L"
+                  "description": [
+                    {
+                      "id": "sp|Q15796|SMAD2_HUMAN",
+                      "accession": "Q15796",
+                      "title": "Mothers against decapentaplegic homolog 2 OS=Homo sapiens OX=9606 GN=SMAD2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 467,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 3.64266,
+                      "identity": 11,
+                      "positive": 17,
+                      "query_from": 161,
+                      "query_to": 203,
+                      "hit_from": 402,
+                      "hit_to": 444,
+                      "align_len": 43,
+                      "gaps": 0,
+                      "qseq": "IDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGG",
+                      "hseq": "FEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNG",
+                      "midline": " +A   L ++C I   F  G+G+  +   VT         L G"
+                    }
+                  ]
                 },
                 {
-                  "num": 2,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 7.66396,
-                  "identity": 5,
-                  "positive": 11,
-                  "query_from": 237,
-                  "query_to": 251,
-                  "hit_from": 193,
-                  "hit_to": 207,
-                  "align_len": 15,
-                  "gaps": 0,
-                  "qseq": "GATECVNPQDYKKPI",
-                  "hseq": "GKNDAINPEDFPEPV",
-                  "midline": "G  + +NP+D+ +P+"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P39625|SPSE_BACSU",
+                      "accession": "P39625",
+                      "title": "Spore coat polysaccharide biosynthesis protein SpsE OS=Bacillus subtilis (strain 168) OX=224308 GN=spsE PE=1 SV=1"
+                    }
+                  ],
+                  "len": 373,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 7.82022,
+                      "identity": 8,
+                      "positive": 10,
+                      "query_from": 296,
+                      "query_to": 308,
+                      "hit_from": 188,
+                      "hit_to": 200,
+                      "align_len": 13,
+                      "gaps": 0,
+                      "qseq": "PPDSQNLSMNPML",
+                      "hseq": "PPEYSNLSVIPML",
+                      "midline": "PP+  NLS+ PML"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q15796|SMAD2_HUMAN",
-                  "accession": "Q15796",
-                  "title": "Mothers against decapentaplegic homolog 2 OS=Homo sapiens OX=9606 GN=SMAD2 PE=1 SV=1"
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|P04377|AZUP_ALCFA",
+                      "accession": "P04377",
+                      "title": "Pseudoazurin OS=Alcaligenes faecalis OX=511 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 146,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 8.33216,
+                      "identity": 11,
+                      "positive": 13,
+                      "query_from": 56,
+                      "query_to": 80,
+                      "hit_from": 51,
+                      "hit_to": 75,
+                      "align_len": 25,
+                      "gaps": 0,
+                      "qseq": "GTLVTPLPVIAGHEAAGIVESIGEG",
+                      "hseq": "GDTVTFIPVDKGHNVESIKDMIPEG",
+                      "midline": "G  VT +PV  GH    I + I EG"
+                    }
+                  ]
+                },
+                {
+                  "num": 12,
+                  "description": [
+                    {
+                      "id": "sp|P00649|RN_BACIN",
+                      "accession": "P00649",
+                      "title": "Ribonuclease OS=Bacillus intermedius OX=1400 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 162,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 9.60541,
+                      "identity": 9,
+                      "positive": 13,
+                      "query_from": 311,
+                      "query_to": 329,
+                      "hit_from": 119,
+                      "hit_to": 140,
+                      "align_len": 22,
+                      "gaps": 3,
+                      "qseq": "SGRTWKGA---IFGGFKSKDSV",
+                      "hseq": "SGRTWREADINYVSGFRNADRL",
+                      "midline": "SGRTW+ A      GF++ D +"
+                    }
+                  ]
                 }
               ],
-              "len": 467,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 3.64266,
-                  "identity": 11,
-                  "positive": 17,
-                  "query_from": 161,
-                  "query_to": 203,
-                  "hit_from": 402,
-                  "hit_to": 444,
-                  "align_len": 43,
-                  "gaps": 0,
-                  "qseq": "IDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGG",
-                  "hseq": "FEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNG",
-                  "midline": " +A   L ++C I   F  G+G+  +   VT         L G"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|P39625|SPSE_BACSU",
-                  "accession": "P39625",
-                  "title": "Spore coat polysaccharide biosynthesis protein SpsE OS=Bacillus subtilis (strain 168) OX=224308 GN=spsE PE=1 SV=1"
-                }
-              ],
-              "len": 373,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 7.82022,
-                  "identity": 8,
-                  "positive": 10,
-                  "query_from": 296,
-                  "query_to": 308,
-                  "hit_from": 188,
-                  "hit_to": 200,
-                  "align_len": 13,
-                  "gaps": 0,
-                  "qseq": "PPDSQNLSMNPML",
-                  "hseq": "PPEYSNLSVIPML",
-                  "midline": "PP+  NLS+ PML"
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|P04377|AZUP_ALCFA",
-                  "accession": "P04377",
-                  "title": "Pseudoazurin OS=Alcaligenes faecalis OX=511 PE=1 SV=2"
-                }
-              ],
-              "len": 146,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 8.33216,
-                  "identity": 11,
-                  "positive": 13,
-                  "query_from": 56,
-                  "query_to": 80,
-                  "hit_from": 51,
-                  "hit_to": 75,
-                  "align_len": 25,
-                  "gaps": 0,
-                  "qseq": "GTLVTPLPVIAGHEAAGIVESIGEG",
-                  "hseq": "GDTVTFIPVDKGHNVESIKDMIPEG",
-                  "midline": "G  VT +PV  GH    I + I EG"
-                }
-              ]
-            },
-            {
-              "num": 12,
-              "description": [
-                {
-                  "id": "sp|P00649|RN_BACIN",
-                  "accession": "P00649",
-                  "title": "Ribonuclease OS=Bacillus intermedius OX=1400 PE=1 SV=3"
-                }
-              ],
-              "len": 162,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 9.60541,
-                  "identity": 9,
-                  "positive": 13,
-                  "query_from": 311,
-                  "query_to": 329,
-                  "hit_from": 119,
-                  "hit_to": 140,
-                  "align_len": 22,
-                  "gaps": 3,
-                  "qseq": "SGRTWKGA---IFGGFKSKDSV",
-                  "hseq": "SGRTWREADINYVSGFRNADRL",
-                  "midline": "SGRTW+ A      GF++ D +"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 67,
+                "eff_space": 21165452,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 67,
-            "eff_space": 21165452,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

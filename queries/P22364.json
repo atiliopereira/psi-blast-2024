@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,142 +17,147 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P22364|AMCY_PARDE Amicyanin OS=Paracoccus denitrificans OX=266 GN=mauC PE=1 SV=1",
-          "query_len": 131,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P22364|AMCY_PARDE",
-                  "accession": "P22364",
-                  "title": "Amicyanin OS=Paracoccus denitrificans OX=266 GN=mauC PE=1 SV=1"
-                }
-              ],
-              "len": 131,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P22364|AMCY_PARDE Amicyanin OS=Paracoccus denitrificans OX=266 GN=mauC PE=1 SV=1",
+              "query_len": 131,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 270.396,
-                  "score": 690,
-                  "evalue": 1.2174e-97,
-                  "identity": 131,
-                  "positive": 131,
-                  "query_from": 1,
-                  "query_to": 131,
-                  "hit_from": 1,
-                  "hit_to": 131,
-                  "align_len": 131,
-                  "gaps": 0,
-                  "qseq": "MISATKIRSCLAACVLAAFGATGALADKATIPSESPFAAAEVADGAIVVDIAKMKYETPELHVKVGDTVTWINREAMPHNVHFVAGVLGEAALKGPMMKKEQAYSLTFTEAGTYDYHCTPHPFMRGKVVVE",
-                  "hseq": "MISATKIRSCLAACVLAAFGATGALADKATIPSESPFAAAEVADGAIVVDIAKMKYETPELHVKVGDTVTWINREAMPHNVHFVAGVLGEAALKGPMMKKEQAYSLTFTEAGTYDYHCTPHPFMRGKVVVE",
-                  "midline": "MISATKIRSCLAACVLAAFGATGALADKATIPSESPFAAAEVADGAIVVDIAKMKYETPELHVKVGDTVTWINREAMPHNVHFVAGVLGEAALKGPMMKKEQAYSLTFTEAGTYDYHCTPHPFMRGKVVVE"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P22364|AMCY_PARDE",
+                      "accession": "P22364",
+                      "title": "Amicyanin OS=Paracoccus denitrificans OX=266 GN=mauC PE=1 SV=1"
+                    }
+                  ],
+                  "len": 131,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 270.396,
+                      "score": 690,
+                      "evalue": 1.2174e-97,
+                      "identity": 131,
+                      "positive": 131,
+                      "query_from": 1,
+                      "query_to": 131,
+                      "hit_from": 1,
+                      "hit_to": 131,
+                      "align_len": 131,
+                      "gaps": 0,
+                      "qseq": "MISATKIRSCLAACVLAAFGATGALADKATIPSESPFAAAEVADGAIVVDIAKMKYETPELHVKVGDTVTWINREAMPHNVHFVAGVLGEAALKGPMMKKEQAYSLTFTEAGTYDYHCTPHPFMRGKVVVE",
+                      "hseq": "MISATKIRSCLAACVLAAFGATGALADKATIPSESPFAAAEVADGAIVVDIAKMKYETPELHVKVGDTVTWINREAMPHNVHFVAGVLGEAALKGPMMKKEQAYSLTFTEAGTYDYHCTPHPFMRGKVVVE",
+                      "midline": "MISATKIRSCLAACVLAAFGATGALADKATIPSESPFAAAEVADGAIVVDIAKMKYETPELHVKVGDTVTWINREAMPHNVHFVAGVLGEAALKGPMMKKEQAYSLTFTEAGTYDYHCTPHPFMRGKVVVE"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P04377|AZUP_ALCFA",
-                  "accession": "P04377",
-                  "title": "Pseudoazurin OS=Alcaligenes faecalis OX=511 PE=1 SV=2"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P04377|AZUP_ALCFA",
+                      "accession": "P04377",
+                      "title": "Pseudoazurin OS=Alcaligenes faecalis OX=511 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 146,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 37.7354,
+                      "score": 86,
+                      "evalue": 2.64386e-06,
+                      "identity": 25,
+                      "positive": 34,
+                      "query_from": 54,
+                      "query_to": 121,
+                      "hit_from": 39,
+                      "hit_to": 104,
+                      "align_len": 68,
+                      "gaps": 2,
+                      "qseq": "MKYETPELHVKVGDTVTWINREAMPHNVHFVAGVLGEAALKGPMMKKEQAYSLTFTEAGTYDYHCTPH",
+                      "hseq": "MVFEPAYIKANPGDTVTFIPVDK-GHNVESIKDMIPEGAEKFKS-KINENYVLTVTQPGAYLVKCTPH",
+                      "midline": "M +E   +    GDTVT+I  +   HNV  +  ++ E A K    K  + Y LT T+ G Y   CTPH"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P0C6U8|R1A_SARS",
+                      "accession": "P0C6U8",
+                      "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                    }
+                  ],
+                  "len": 4382,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 5.55644,
+                      "identity": 8,
+                      "positive": 12,
+                      "query_from": 57,
+                      "query_to": 79,
+                      "hit_from": 1335,
+                      "hit_to": 1357,
+                      "align_len": 23,
+                      "gaps": 0,
+                      "qseq": "ETPELHVKVGDTVTWINREAMPH",
+                      "hseq": "EAPNAKEEILGTVSWNLREMLAH",
+                      "midline": "E P    ++  TV+W  RE + H"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P16009|NEEDL_BPT4",
+                      "accession": "P16009",
+                      "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 575,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 9.10638,
+                      "identity": 15,
+                      "positive": 21,
+                      "query_from": 50,
+                      "query_to": 91,
+                      "hit_from": 248,
+                      "hit_to": 290,
+                      "align_len": 44,
+                      "gaps": 3,
+                      "qseq": "DIAKMKYETPELHVKVGDTVTWIN--REAMPHNVHFVAGVLGEA",
+                      "hseq": "DLADMQRDIKS-HSKVGPVWQAVNRSRQMALENMAFQMGVGGVA",
+                      "midline": "D+A M+ +    H KVG     +N  R+    N+ F  GV G A"
+                    }
+                  ]
                 }
               ],
-              "len": 146,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 37.7354,
-                  "score": 86,
-                  "evalue": 2.64386e-06,
-                  "identity": 25,
-                  "positive": 34,
-                  "query_from": 54,
-                  "query_to": 121,
-                  "hit_from": 39,
-                  "hit_to": 104,
-                  "align_len": 68,
-                  "gaps": 2,
-                  "qseq": "MKYETPELHVKVGDTVTWINREAMPHNVHFVAGVLGEAALKGPMMKKEQAYSLTFTEAGTYDYHCTPH",
-                  "hseq": "MVFEPAYIKANPGDTVTFIPVDK-GHNVESIKDMIPEGAEKFKS-KINENYVLTVTQPGAYLVKCTPH",
-                  "midline": "M +E   +    GDTVT+I  +   HNV  +  ++ E A K    K  + Y LT T+ G Y   CTPH"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P0C6U8|R1A_SARS",
-                  "accession": "P0C6U8",
-                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
-                }
-              ],
-              "len": 4382,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 5.55644,
-                  "identity": 8,
-                  "positive": 12,
-                  "query_from": 57,
-                  "query_to": 79,
-                  "hit_from": 1335,
-                  "hit_to": 1357,
-                  "align_len": 23,
-                  "gaps": 0,
-                  "qseq": "ETPELHVKVGDTVTWINREAMPH",
-                  "hseq": "EAPNAKEEILGTVSWNLREMLAH",
-                  "midline": "E P    ++  TV+W  RE + H"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P16009|NEEDL_BPT4",
-                  "accession": "P16009",
-                  "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
-                }
-              ],
-              "len": 575,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 9.10638,
-                  "identity": 15,
-                  "positive": 21,
-                  "query_from": 50,
-                  "query_to": 91,
-                  "hit_from": 248,
-                  "hit_to": 290,
-                  "align_len": 44,
-                  "gaps": 3,
-                  "qseq": "DIAKMKYETPELHVKVGDTVTWIN--REAMPHNVHFVAGVLGEA",
-                  "hseq": "DLADMQRDIKS-HSKVGPVWQAVNRSRQMALENMAFQMGVGGVA",
-                  "midline": "D+A M+ +    H KVG     +N  R+    N+ F  GV G A"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 57,
+                "eff_space": 5239866,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 57,
-            "eff_space": 5239866,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

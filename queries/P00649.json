@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,339 +17,344 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P00649|RN_BACIN Ribonuclease OS=Bacillus intermedius OX=1400 PE=1 SV=3",
-          "query_len": 162,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P00649|RN_BACIN",
-                  "accession": "P00649",
-                  "title": "Ribonuclease OS=Bacillus intermedius OX=1400 PE=1 SV=3"
-                }
-              ],
-              "len": 162,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P00649|RN_BACIN Ribonuclease OS=Bacillus intermedius OX=1400 PE=1 SV=3",
+              "query_len": 162,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 333.569,
-                  "score": 854,
-                  "evalue": 1.16547e-121,
-                  "identity": 162,
-                  "positive": 162,
-                  "query_from": 1,
-                  "query_to": 162,
-                  "hit_from": 1,
-                  "hit_to": 162,
-                  "align_len": 162,
-                  "gaps": 0,
-                  "qseq": "MKKISSVFTMFALIAAILFSGFIPQQAYAETPLTQTATNETATIQLTSDVHTLAVINTFDGVADYLIRYKRLPDNYITKSQASALGWVASKGNLAEVAPGKSIGGDVFSNREGRLPSASGRTWREADINYVSGFRNADRLVYSSDWLIYKTTDHYATFTRIR",
-                  "hseq": "MKKISSVFTMFALIAAILFSGFIPQQAYAETPLTQTATNETATIQLTSDVHTLAVINTFDGVADYLIRYKRLPDNYITKSQASALGWVASKGNLAEVAPGKSIGGDVFSNREGRLPSASGRTWREADINYVSGFRNADRLVYSSDWLIYKTTDHYATFTRIR",
-                  "midline": "MKKISSVFTMFALIAAILFSGFIPQQAYAETPLTQTATNETATIQLTSDVHTLAVINTFDGVADYLIRYKRLPDNYITKSQASALGWVASKGNLAEVAPGKSIGGDVFSNREGRLPSASGRTWREADINYVSGFRNADRLVYSSDWLIYKTTDHYATFTRIR"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "tr|Q53752|Q53752_KITAU",
-                  "accession": "Q53752",
-                  "title": "Ribonuclease OS=Kitasatospora aureofaciens OX=1894 GN=ribonuclease PE=1 SV=1"
-                }
-              ],
-              "len": 163,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 33.113,
-                  "score": 74,
-                  "evalue": 0.000217609,
-                  "identity": 22,
-                  "positive": 26,
-                  "query_from": 105,
-                  "query_to": 161,
-                  "hit_from": 102,
-                  "hit_to": 159,
-                  "align_len": 58,
-                  "gaps": 1,
-                  "qseq": "GDVFSNREGRLPSASGRTWRE-ADINYVSGFRNADRLVYSSDWLIYKTTDHYATFTRI",
-                  "hseq": "GVVFENRESRLPKKGNGYYHEFTVVTPGSNDRGTRRVVTGGYGEQYWSPDHYATFQEI",
-                  "midline": "G VF NRE RLP      + E   +   S  R   R+V       Y + DHYATF  I"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P05798|RNSA_KITAU",
-                  "accession": "P05798",
-                  "title": "Guanyl-specific ribonuclease Sa OS=Kitasatospora aureofaciens OX=1894 GN=rnaSA PE=1 SV=2"
-                }
-              ],
-              "len": 96,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 28.8758,
-                  "score": 63,
-                  "evalue": 0.00330628,
-                  "identity": 25,
-                  "positive": 33,
-                  "query_from": 85,
-                  "query_to": 161,
-                  "hit_from": 19,
-                  "hit_to": 92,
-                  "align_len": 79,
-                  "gaps": 7,
-                  "qseq": "LGWVASKGNLAEVAPGKSIGGDVFSNREGRLPSASGRTWREADINYVSGFRNADRLVYSSDWLI--YKTTDHYATFTRI",
-                  "hseq": "LNLIASDGPFP-----YSQDGVVFQNRESVLPTQSYGYYHEYTVITPGARTRGTRRIITGEATQEDYYTGDHYATFSLI",
-                  "midline": "L  +AS G         S  G VF NRE  LP+ S   + E  +          R + + +     Y T DHYATF+ I"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "tr|Q9X0V2|Q9X0V2_THEMA",
-                  "accession": "Q9X0V2",
-                  "title": "Uncharacterized protein OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=TM_1225 PE=1 SV=1"
-                }
-              ],
-              "len": 326,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.2534,
-                  "score": 51,
-                  "evalue": 0.300078,
-                  "identity": 11,
-                  "positive": 17,
-                  "query_from": 21,
-                  "query_to": 68,
-                  "hit_from": 276,
-                  "hit_to": 323,
-                  "align_len": 48,
-                  "gaps": 0,
-                  "qseq": "GFIPQQAYAETPLTQTATNETATIQLTSDVHTLAVINTFDGVADYLIR",
-                  "hseq": "GFVPNVVFPCAALCDADTGRVAIYYGAADTHVALAFGYIDEIVDFVKR",
-                  "midline": "GF+P   +    L    T   A     +D H        D + D++ R"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q9JLV6|PNKP_MOUSE",
-                  "accession": "Q9JLV6",
-                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
-                }
-              ],
-              "len": 522,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 1.9185,
-                  "identity": 14,
-                  "positive": 23,
-                  "query_from": 79,
-                  "query_to": 124,
-                  "hit_from": 138,
-                  "hit_to": 192,
-                  "align_len": 55,
-                  "gaps": 9,
-                  "qseq": "KSQASALGWVASKGNLAEVAPGKS---------IGGDVFSNREGRLPSASGRTWR",
-                  "hseq": "RVRKSSLGWESLKKLLVFTASGVKPQGKVAAFDLDGTLITTRSGKVFPTSPSDWR",
-                  "midline": "+ + S+LGW + K  L   A G           + G + + R G++   S   WR"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P0C6U8|R1A_SARS",
-                  "accession": "P0C6U8",
-                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
-                }
-              ],
-              "len": 4382,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 3.47992,
-                  "identity": 9,
-                  "positive": 14,
-                  "query_from": 122,
-                  "query_to": 144,
-                  "hit_from": 3642,
-                  "hit_to": 3664,
-                  "align_len": 23,
-                  "gaps": 0,
-                  "qseq": "TWREADINYVSGFRNADRLVYSS",
-                  "hseq": "TWLELADTSLSGYRLKDCVMYAS",
-                  "midline": "TW E     +SG+R  D ++Y+S"
+                  "description": [
+                    {
+                      "id": "sp|P00649|RN_BACIN",
+                      "accession": "P00649",
+                      "title": "Ribonuclease OS=Bacillus intermedius OX=1400 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 162,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 333.569,
+                      "score": 854,
+                      "evalue": 1.16547e-121,
+                      "identity": 162,
+                      "positive": 162,
+                      "query_from": 1,
+                      "query_to": 162,
+                      "hit_from": 1,
+                      "hit_to": 162,
+                      "align_len": 162,
+                      "gaps": 0,
+                      "qseq": "MKKISSVFTMFALIAAILFSGFIPQQAYAETPLTQTATNETATIQLTSDVHTLAVINTFDGVADYLIRYKRLPDNYITKSQASALGWVASKGNLAEVAPGKSIGGDVFSNREGRLPSASGRTWREADINYVSGFRNADRLVYSSDWLIYKTTDHYATFTRIR",
+                      "hseq": "MKKISSVFTMFALIAAILFSGFIPQQAYAETPLTQTATNETATIQLTSDVHTLAVINTFDGVADYLIRYKRLPDNYITKSQASALGWVASKGNLAEVAPGKSIGGDVFSNREGRLPSASGRTWREADINYVSGFRNADRLVYSSDWLIYKTTDHYATFTRIR",
+                      "midline": "MKKISSVFTMFALIAAILFSGFIPQQAYAETPLTQTATNETATIQLTSDVHTLAVINTFDGVADYLIRYKRLPDNYITKSQASALGWVASKGNLAEVAPGKSIGGDVFSNREGRLPSASGRTWREADINYVSGFRNADRLVYSSDWLIYKTTDHYATFTRIR"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 7.09164,
-                  "identity": 10,
-                  "positive": 15,
-                  "query_from": 50,
-                  "query_to": 74,
-                  "hit_from": 2770,
-                  "hit_to": 2791,
-                  "align_len": 25,
-                  "gaps": 3,
-                  "qseq": "VHTLAVINTFDGVADYLIRYKRLPD",
-                  "hseq": "VHTLSI---HDGYTNEIIGYKAIQD",
-                  "midline": "VHTL++    DG  + +I YK + D"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
+                  "description": [
+                    {
+                      "id": "tr|Q53752|Q53752_KITAU",
+                      "accession": "Q53752",
+                      "title": "Ribonuclease OS=Kitasatospora aureofaciens OX=1894 GN=ribonuclease PE=1 SV=1"
+                    }
+                  ],
+                  "len": 163,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 33.113,
+                      "score": 74,
+                      "evalue": 0.000217609,
+                      "identity": 22,
+                      "positive": 26,
+                      "query_from": 105,
+                      "query_to": 161,
+                      "hit_from": 102,
+                      "hit_to": 159,
+                      "align_len": 58,
+                      "gaps": 1,
+                      "qseq": "GDVFSNREGRLPSASGRTWRE-ADINYVSGFRNADRLVYSSDWLIYKTTDHYATFTRI",
+                      "hseq": "GVVFENRESRLPKKGNGYYHEFTVVTPGSNDRGTRRVVTGGYGEQYWSPDHYATFQEI",
+                      "midline": "G VF NRE RLP      + E   +   S  R   R+V       Y + DHYATF  I"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P00327|ADH1E_HORSE",
-                  "accession": "P00327",
-                  "title": "Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2"
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P05798|RNSA_KITAU",
+                      "accession": "P05798",
+                      "title": "Guanyl-specific ribonuclease Sa OS=Kitasatospora aureofaciens OX=1894 GN=rnaSA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 96,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 28.8758,
+                      "score": 63,
+                      "evalue": 0.00330628,
+                      "identity": 25,
+                      "positive": 33,
+                      "query_from": 85,
+                      "query_to": 161,
+                      "hit_from": 19,
+                      "hit_to": 92,
+                      "align_len": 79,
+                      "gaps": 7,
+                      "qseq": "LGWVASKGNLAEVAPGKSIGGDVFSNREGRLPSASGRTWREADINYVSGFRNADRLVYSSDWLI--YKTTDHYATFTRI",
+                      "hseq": "LNLIASDGPFP-----YSQDGVVFQNRESVLPTQSYGYYHEYTVITPGARTRGTRRIITGEATQEDYYTGDHYATFSLI",
+                      "midline": "L  +AS G         S  G VF NRE  LP+ S   + E  +          R + + +     Y T DHYATF+ I"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "tr|Q9X0V2|Q9X0V2_THEMA",
+                      "accession": "Q9X0V2",
+                      "title": "Uncharacterized protein OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=TM_1225 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 326,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.2534,
+                      "score": 51,
+                      "evalue": 0.300078,
+                      "identity": 11,
+                      "positive": 17,
+                      "query_from": 21,
+                      "query_to": 68,
+                      "hit_from": 276,
+                      "hit_to": 323,
+                      "align_len": 48,
+                      "gaps": 0,
+                      "qseq": "GFIPQQAYAETPLTQTATNETATIQLTSDVHTLAVINTFDGVADYLIR",
+                      "hseq": "GFVPNVVFPCAALCDADTGRVAIYYGAADTHVALAFGYIDEIVDFVKR",
+                      "midline": "GF+P   +    L    T   A     +D H        D + D++ R"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q9JLV6|PNKP_MOUSE",
+                      "accession": "Q9JLV6",
+                      "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
+                    }
+                  ],
+                  "len": 522,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 1.9185,
+                      "identity": 14,
+                      "positive": 23,
+                      "query_from": 79,
+                      "query_to": 124,
+                      "hit_from": 138,
+                      "hit_to": 192,
+                      "align_len": 55,
+                      "gaps": 9,
+                      "qseq": "KSQASALGWVASKGNLAEVAPGKS---------IGGDVFSNREGRLPSASGRTWR",
+                      "hseq": "RVRKSSLGWESLKKLLVFTASGVKPQGKVAAFDLDGTLITTRSGKVFPTSPSDWR",
+                      "midline": "+ + S+LGW + K  L   A G           + G + + R G++   S   WR"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P0C6U8|R1A_SARS",
+                      "accession": "P0C6U8",
+                      "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                    }
+                  ],
+                  "len": 4382,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 3.47992,
+                      "identity": 9,
+                      "positive": 14,
+                      "query_from": 122,
+                      "query_to": 144,
+                      "hit_from": 3642,
+                      "hit_to": 3664,
+                      "align_len": 23,
+                      "gaps": 0,
+                      "qseq": "TWREADINYVSGFRNADRLVYSS",
+                      "hseq": "TWLELADTSLSGYRLKDCVMYAS",
+                      "midline": "TW E     +SG+R  D ++Y+S"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 7.09164,
+                      "identity": 10,
+                      "positive": 15,
+                      "query_from": 50,
+                      "query_to": 74,
+                      "hit_from": 2770,
+                      "hit_to": 2791,
+                      "align_len": 25,
+                      "gaps": 3,
+                      "qseq": "VHTLAVINTFDGVADYLIRYKRLPD",
+                      "hseq": "VHTLSI---HDGYTNEIIGYKAIQD",
+                      "midline": "VHTL++    DG  + +I YK + D"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P00327|ADH1E_HORSE",
+                      "accession": "P00327",
+                      "title": "Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 375,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 4.14954,
+                      "identity": 9,
+                      "positive": 13,
+                      "query_from": 119,
+                      "query_to": 140,
+                      "hit_from": 311,
+                      "hit_to": 329,
+                      "align_len": 22,
+                      "gaps": 3,
+                      "qseq": "SGRTWREADINYVSGFRNADRL",
+                      "hseq": "SGRTWKGA---IFGGFKSKDSV",
+                      "midline": "SGRTW+ A      GF++ D +"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P26827|CDGT_THETU",
+                      "accession": "P26827",
+                      "title": "Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium thermosulfurigenes OX=33950 GN=amyA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 710,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 5.42733,
+                      "identity": 26,
+                      "positive": 48,
+                      "query_from": 1,
+                      "query_to": 105,
+                      "hit_from": 1,
+                      "hit_to": 121,
+                      "align_len": 122,
+                      "gaps": 18,
+                      "qseq": "MKKISSVFTMFALIAAILFSGFIPQQAYAETPLTQTATNETATI-QLTSD------VHTLAVINTFDGVADYLIRY---------KRLPDNYITKSQASALGWVASK-GNLAEVAPGKSIGG",
+                      "hseq": "MKKTFKLILVLMLSLTLVFGLTAPIQAASDTAVSNVVNYSTDVIYQIVTDRFVDGNTSNNPTGDLYDPTHTSLKKYFGGDWQGIINKINDGYLTGMGVTAI-WISQPVENIYAVLPDSTFGG",
+                      "midline": "MKK   +  +  L   ++F    P QA ++T ++      T  I Q+ +D             + +D     L +Y          ++ D Y+T    +A+ W++    N+  V P  + GG"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P74881|PUR4_SALTY",
+                      "accession": "P74881",
+                      "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1295,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 5.74152,
+                      "identity": 11,
+                      "positive": 16,
+                      "query_from": 103,
+                      "query_to": 125,
+                      "hit_from": 371,
+                      "hit_to": 394,
+                      "align_len": 25,
+                      "gaps": 3,
+                      "qseq": "IGGDVFSNREGRLPSASG--RTWRE",
+                      "hseq": "LGGAAFNNEFGR-PALTGYFRTYEE",
+                      "midline": "+GG  F+N  GR P+ +G  RT+ E"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P07327|ADH1A_HUMAN",
+                      "accession": "P07327",
+                      "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
+                    }
+                  ],
+                  "len": 375,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 8.60818,
+                      "identity": 16,
+                      "positive": 25,
+                      "query_from": 119,
+                      "query_to": 161,
+                      "hit_from": 311,
+                      "hit_to": 356,
+                      "align_len": 53,
+                      "gaps": 17,
+                      "qseq": "SGRTWREADINYVSGFRNAD---RLV-------YSSDWLIYKTTDHYATFTRI",
+                      "hseq": "TGRTWKGA---ILGGFKSKECVPKLVADFMAKKFSLDALIT----HVLPFEKI",
+                      "midline": "+GRTW+ A    + GF++ +   +LV       +S D LI     H   F +I"
+                    }
+                  ]
                 }
               ],
-              "len": 375,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 4.14954,
-                  "identity": 9,
-                  "positive": 13,
-                  "query_from": 119,
-                  "query_to": 140,
-                  "hit_from": 311,
-                  "hit_to": 329,
-                  "align_len": 22,
-                  "gaps": 3,
-                  "qseq": "SGRTWREADINYVSGFRNADRL",
-                  "hseq": "SGRTWKGA---IFGGFKSKDSV",
-                  "midline": "SGRTW+ A      GF++ D +"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P26827|CDGT_THETU",
-                  "accession": "P26827",
-                  "title": "Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium thermosulfurigenes OX=33950 GN=amyA PE=1 SV=2"
-                }
-              ],
-              "len": 710,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 5.42733,
-                  "identity": 26,
-                  "positive": 48,
-                  "query_from": 1,
-                  "query_to": 105,
-                  "hit_from": 1,
-                  "hit_to": 121,
-                  "align_len": 122,
-                  "gaps": 18,
-                  "qseq": "MKKISSVFTMFALIAAILFSGFIPQQAYAETPLTQTATNETATI-QLTSD------VHTLAVINTFDGVADYLIRY---------KRLPDNYITKSQASALGWVASK-GNLAEVAPGKSIGG",
-                  "hseq": "MKKTFKLILVLMLSLTLVFGLTAPIQAASDTAVSNVVNYSTDVIYQIVTDRFVDGNTSNNPTGDLYDPTHTSLKKYFGGDWQGIINKINDGYLTGMGVTAI-WISQPVENIYAVLPDSTFGG",
-                  "midline": "MKK   +  +  L   ++F    P QA ++T ++      T  I Q+ +D             + +D     L +Y          ++ D Y+T    +A+ W++    N+  V P  + GG"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|P74881|PUR4_SALTY",
-                  "accession": "P74881",
-                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
-                }
-              ],
-              "len": 1295,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 5.74152,
-                  "identity": 11,
-                  "positive": 16,
-                  "query_from": 103,
-                  "query_to": 125,
-                  "hit_from": 371,
-                  "hit_to": 394,
-                  "align_len": 25,
-                  "gaps": 3,
-                  "qseq": "IGGDVFSNREGRLPSASG--RTWRE",
-                  "hseq": "LGGAAFNNEFGR-PALTGYFRTYEE",
-                  "midline": "+GG  F+N  GR P+ +G  RT+ E"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|P07327|ADH1A_HUMAN",
-                  "accession": "P07327",
-                  "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
-                }
-              ],
-              "len": 375,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 8.60818,
-                  "identity": 16,
-                  "positive": 25,
-                  "query_from": 119,
-                  "query_to": 161,
-                  "hit_from": 311,
-                  "hit_to": 356,
-                  "align_len": 53,
-                  "gaps": 17,
-                  "qseq": "SGRTWREADINYVSGFRNAD---RLV-------YSSDWLIYKTTDHYATFTRI",
-                  "hseq": "TGRTWKGA---ILGGFKSKECVPKLVADFMAKKFSLDALIT----HVLPFEKI",
-                  "midline": "+GRTW+ A    + GF++ +   +LV       +S D LI     H   F +I"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 59,
+                "eff_space": 7250273,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 59,
-            "eff_space": 7250273,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,356 +17,361 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "tr|Q97DM1|Q97DM1_CLOAB Beta-xylosidase, family 43 glycosyl hydrolase OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=xynD PE=1 SV=1",
-          "query_len": 533,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "tr|Q97DM1|Q97DM1_CLOAB",
-                  "accession": "Q97DM1",
-                  "title": "Beta-xylosidase, family 43 glycosyl hydrolase OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=xynD PE=1 SV=1"
-                }
-              ],
-              "len": 533,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "tr|Q97DM1|Q97DM1_CLOAB Beta-xylosidase, family 43 glycosyl hydrolase OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=xynD PE=1 SV=1",
+              "query_len": 533,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 1112.83,
-                  "score": 2877,
-                  "evalue": 0,
-                  "identity": 533,
-                  "positive": 533,
-                  "query_from": 1,
-                  "query_to": 533,
-                  "hit_from": 1,
-                  "hit_to": 533,
-                  "align_len": 533,
-                  "gaps": 0,
-                  "qseq": "MIKNPILRGFNPDPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAHPLNRTSLLDMKGNPNSGGIWAPDLSYHDGKFWLIYTDVKVTDGMWKDCHNYLTTCESVDGVWSDPITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGIVLQEYSDKEKKLIGKAKIIYKGTDIKYTEGPHIYHIGDYYYLFTAEGGTTYEHSETVARSKNIDGPYEIDPEYPLLTSWHDPRNSLQKCGHASLVHTHTDEWYLAHLVGRPLPVGNQPVLEQRGYCPLGRETSIQRIEWVDNWPRVVGGKQGSVNVEAPKIPEVKWEKTYDEKDNFDSDKLNINFQSLRIPLTENIASLKAKKGNLRLYGKESLTSTFTQAFIARRWQSFKFDASTSVSFSPDTFQQAAGLTCYYNTENWSTIQVTWNEDKGRVIDIVCCDNFHFDMPLKSNVIPIPKDVEYIHLKVEVRVETYQYSYSFDGINWSKVPAIFESRKLSDDYVQGGGFFTGAFVGINCIDITGNNKPADFDYFCYKEL",
-                  "hseq": "MIKNPILRGFNPDPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAHPLNRTSLLDMKGNPNSGGIWAPDLSYHDGKFWLIYTDVKVTDGMWKDCHNYLTTCESVDGVWSDPITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGIVLQEYSDKEKKLIGKAKIIYKGTDIKYTEGPHIYHIGDYYYLFTAEGGTTYEHSETVARSKNIDGPYEIDPEYPLLTSWHDPRNSLQKCGHASLVHTHTDEWYLAHLVGRPLPVGNQPVLEQRGYCPLGRETSIQRIEWVDNWPRVVGGKQGSVNVEAPKIPEVKWEKTYDEKDNFDSDKLNINFQSLRIPLTENIASLKAKKGNLRLYGKESLTSTFTQAFIARRWQSFKFDASTSVSFSPDTFQQAAGLTCYYNTENWSTIQVTWNEDKGRVIDIVCCDNFHFDMPLKSNVIPIPKDVEYIHLKVEVRVETYQYSYSFDGINWSKVPAIFESRKLSDDYVQGGGFFTGAFVGINCIDITGNNKPADFDYFCYKEL",
-                  "midline": "MIKNPILRGFNPDPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAHPLNRTSLLDMKGNPNSGGIWAPDLSYHDGKFWLIYTDVKVTDGMWKDCHNYLTTCESVDGVWSDPITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGIVLQEYSDKEKKLIGKAKIIYKGTDIKYTEGPHIYHIGDYYYLFTAEGGTTYEHSETVARSKNIDGPYEIDPEYPLLTSWHDPRNSLQKCGHASLVHTHTDEWYLAHLVGRPLPVGNQPVLEQRGYCPLGRETSIQRIEWVDNWPRVVGGKQGSVNVEAPKIPEVKWEKTYDEKDNFDSDKLNINFQSLRIPLTENIASLKAKKGNLRLYGKESLTSTFTQAFIARRWQSFKFDASTSVSFSPDTFQQAAGLTCYYNTENWSTIQVTWNEDKGRVIDIVCCDNFHFDMPLKSNVIPIPKDVEYIHLKVEVRVETYQYSYSFDGINWSKVPAIFESRKLSDDYVQGGGFFTGAFVGINCIDITGNNKPADFDYFCYKEL"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "tr|Q09LX0|Q09LX0_GEOSE",
-                  "accession": "Q09LX0",
-                  "title": "Beta-xylosidase OS=Geobacillus stearothermophilus OX=1422 GN=xynB3 PE=1 SV=1"
-                }
-              ],
-              "len": 535,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 770.77,
-                  "score": 1989,
-                  "evalue": 0,
-                  "identity": 355,
-                  "positive": 427,
-                  "query_from": 2,
-                  "query_to": 533,
-                  "hit_from": 4,
-                  "hit_to": 535,
-                  "align_len": 532,
-                  "gaps": 0,
-                  "qseq": "IKNPILRGFNPDPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAHPLNRTSLLDMKGNPNSGGIWAPDLSYHDGKFWLIYTDVKVTDGMWKDCHNYLTTCESVDGVWSDPITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGIVLQEYSDKEKKLIGKAKIIYKGTDIKYTEGPHIYHIGDYYYLFTAEGGTTYEHSETVARSKNIDGPYEIDPEYPLLTSWHDPRNSLQKCGHASLVHTHTDEWYLAHLVGRPLPVGNQPVLEQRGYCPLGRETSIQRIEWVDNWPRVVGGKQGSVNVEAPKIPEVKWEKTYDEKDNFDSDKLNINFQSLRIPLTENIASLKAKKGNLRLYGKESLTSTFTQAFIARRWQSFKFDASTSVSFSPDTFQQAAGLTCYYNTENWSTIQVTWNEDKGRVIDIVCCDNFHFDMPLKSNVIPIPKDVEYIHLKVEVRVETYQYSYSFDGINWSKVPAIFESRKLSDDYVQGGGFFTGAFVGINCIDITGNNKPADFDYFCYKEL",
-                  "hseq": "IKNPILTGFHPDPSICRVGDDYYIAVSTFEWFPGVRIYHSKDLKNWRLVARPLNRLSQLNMIGNPDSGGVWAPHLSYSDGKFWLIYTDVKVVEGQWKDGHNYLVTCDTIDGAWSDPIYLNSSGFDPSLFHDEDGRKYLVNMYWDHRVDHHPFYGIVLQEYSVEQKKLVGEPKIIFKGTDLRITEGPHLYKINGYYYLLTAEGGTRYNHAATIARSTSLYGPYEVHPDNPLLTSWPYPRNPLQKAGHASIVHTHTDEWFLVHLTGRPLPREGQPLLEHRGYCPLGRETAIQRLEWKDGWPYVVGGNGPSLEIDGPSVEEVSWEKDYDEKDDFDGDTLNHHFQTLRIPLGEDIATLKARPGHLRLYGRESLTSRFTQAFVARRWQHFHFVAETKVSFRPTTFQQSAGLVNYYNTQNWTTLQITWHEEKGRILELMTCDHLVVDQPLRGREIVVPDDIEYVYLRVTVQATTYKYSYSFDGMNWIDLPVTFESYKLSDDYIKSRAAFTGAFVGMHCRDGSGQNNYADFDYFLYKEL",
-                  "midline": "IKNPIL GF+PDPSICR   DYYIA STFEWFPGV+I+HSKDL NW LVA PLNR S L+M GNP+SGG+WAP LSY DGKFWLIYTDVKV +G WKD HNYL TC+++DG WSDPI LN SGFD SLFHD DG+KYLVNMYWD R  +H FYGIVLQEYS ++KKL+G+ KII+KGTD++ TEGPH+Y I  YYYL TAEGGT Y H+ T+ARS ++ GPYE+ P+ PLLTSW  PRN LQK GHAS+VHTHTDEW+L HL GRPLP   QP+LE RGYCPLGRET+IQR+EW D WP VVGG   S+ ++ P + EV WEK YDEKD+FD D LN +FQ+LRIPL E+IA+LKA+ G+LRLYG+ESLTS FTQAF+ARRWQ F F A T VSF P TFQQ+AGL  YYNT+NW+T+Q+TW+E+KGR+++++ CD+   D PL+   I +P D+EY++L+V V+  TY+YSYSFDG+NW  +P  FES KLSDDY++    FTGAFVG++C D +G N  ADFDYF YKEL"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q93HT9|IABN_GEOTD",
-                  "accession": "Q93HT9",
-                  "title": "Intracellular endo-alpha-(1->5)-L-arabinanase OS=Geobacillus thermodenitrificans OX=33940 GN=abn-ts PE=1 SV=1"
-                }
-              ],
-              "len": 313,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 46.595,
-                  "score": 109,
-                  "evalue": 1.37483e-07,
-                  "identity": 54,
-                  "positive": 95,
-                  "query_from": 13,
-                  "query_to": 223,
-                  "hit_from": 27,
-                  "hit_to": 243,
-                  "align_len": 239,
-                  "gaps": 50,
-                  "qseq": "DPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAHPLNRTSLLDMKGNP--NSGGIWAPDLSYHDGKFWLIYT-------------------DVKVTDGMWKDCHNYLTTCESVDGVWSDPITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGIVLQEYSDKEKKLIGKAKIIY---KGTDIKYTEGPHIYHIGDYYYLFTAEG----GTTYEHSETVARSKNIDGPY",
-                  "hseq": "DPVIAKEGSRWYV----FHTGSGIQIKTSEDGVHWENMGRVFPSLPDWCKQYVPEKDEDHLWAPDICFYNGIYYLYYSVSTFGKNTSVIGLATNRTLDPRDPDYEWKDMGPVIHSTASD----------NYNAIDPNVVFDQEGQPWL--------SFGSFWSGIQLIQLDTETMKPAAQAELLTIASRGEEPNAIEAPFIVCRNGYYYLFVSFDFCCRGIESTYKIAVGRSKDITGPY",
-                  "midline": "DP I +  + +Y+    F    G+QI  S+D V+W  +            +  P  +   +WAPD+ +++G ++L Y+                   D +  D  WKD    + +  S           N +  D ++  D +G+ +L        ++   + GI L +   +  K   +A+++    +G +    E P I     YYYLF +      G    +   V RSK+I GPY"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P64618|YHCO_ECO57",
-                  "accession": "P64618",
-                  "title": "Uncharacterized protein YhcO OS=Escherichia coli O157:H7 OX=83334 GN=yhcO PE=1 SV=1"
-                }
-              ],
-              "len": 90,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 25.7942,
-                  "score": 55,
-                  "evalue": 0.16098,
-                  "identity": 8,
-                  "positive": 17,
-                  "query_from": 445,
-                  "query_to": 466,
-                  "hit_from": 42,
-                  "hit_to": 63,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "LKSNVIPIPKDVEYIHLKVEVR",
-                  "hseq": "LMNDVLPLPLEIEFVHLGEKTR",
-                  "midline": "L ++V+P+P ++E++HL  + R"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "tr|Q9X0V2|Q9X0V2_THEMA",
-                  "accession": "Q9X0V2",
-                  "title": "Uncharacterized protein OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=TM_1225 PE=1 SV=1"
-                }
-              ],
-              "len": 326,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.2534,
-                  "score": 51,
-                  "evalue": 1.74399,
-                  "identity": 13,
-                  "positive": 24,
-                  "query_from": 13,
-                  "query_to": 60,
-                  "hit_from": 106,
-                  "hit_to": 156,
-                  "align_len": 51,
-                  "gaps": 3,
-                  "qseq": "DPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAH---PLNRTSLL",
-                  "hseq": "DPRVVKIEDTYYITFCTDDHGPTIGVGMTKDFKTFVRLPNAYVPFNRNGVL",
-                  "midline": "DP + + +  YYI   T +  P + +  +KD   +  + +   P NR  +L"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P36924|AMYB_BACCE",
-                  "accession": "P36924",
-                  "title": "Beta-amylase OS=Bacillus cereus OX=1396 GN=spoII PE=1 SV=2"
-                }
-              ],
-              "len": 546,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 2.15171,
-                  "identity": 17,
-                  "positive": 27,
-                  "query_from": 330,
-                  "query_to": 371,
-                  "hit_from": 348,
-                  "hit_to": 401,
-                  "align_len": 55,
-                  "gaps": 14,
-                  "qseq": "DNFDSDKLNINFQSLRIP-------------LTENIASLKAKKGNLRLYGKESLT",
-                  "hseq": "DAFKSAKLDVTFTCLEMTDKGSYPEYSMPKTLVQNIATLANEKG-IVLNGENALS",
-                  "midline": "D F S KL++ F  L +              L +NIA+L  +KG + L G+ +L+"
+                  "description": [
+                    {
+                      "id": "tr|Q97DM1|Q97DM1_CLOAB",
+                      "accession": "Q97DM1",
+                      "title": "Beta-xylosidase, family 43 glycosyl hydrolase OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=xynD PE=1 SV=1"
+                    }
+                  ],
+                  "len": 533,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 1112.83,
+                      "score": 2877,
+                      "evalue": 0,
+                      "identity": 533,
+                      "positive": 533,
+                      "query_from": 1,
+                      "query_to": 533,
+                      "hit_from": 1,
+                      "hit_to": 533,
+                      "align_len": 533,
+                      "gaps": 0,
+                      "qseq": "MIKNPILRGFNPDPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAHPLNRTSLLDMKGNPNSGGIWAPDLSYHDGKFWLIYTDVKVTDGMWKDCHNYLTTCESVDGVWSDPITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGIVLQEYSDKEKKLIGKAKIIYKGTDIKYTEGPHIYHIGDYYYLFTAEGGTTYEHSETVARSKNIDGPYEIDPEYPLLTSWHDPRNSLQKCGHASLVHTHTDEWYLAHLVGRPLPVGNQPVLEQRGYCPLGRETSIQRIEWVDNWPRVVGGKQGSVNVEAPKIPEVKWEKTYDEKDNFDSDKLNINFQSLRIPLTENIASLKAKKGNLRLYGKESLTSTFTQAFIARRWQSFKFDASTSVSFSPDTFQQAAGLTCYYNTENWSTIQVTWNEDKGRVIDIVCCDNFHFDMPLKSNVIPIPKDVEYIHLKVEVRVETYQYSYSFDGINWSKVPAIFESRKLSDDYVQGGGFFTGAFVGINCIDITGNNKPADFDYFCYKEL",
+                      "hseq": "MIKNPILRGFNPDPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAHPLNRTSLLDMKGNPNSGGIWAPDLSYHDGKFWLIYTDVKVTDGMWKDCHNYLTTCESVDGVWSDPITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGIVLQEYSDKEKKLIGKAKIIYKGTDIKYTEGPHIYHIGDYYYLFTAEGGTTYEHSETVARSKNIDGPYEIDPEYPLLTSWHDPRNSLQKCGHASLVHTHTDEWYLAHLVGRPLPVGNQPVLEQRGYCPLGRETSIQRIEWVDNWPRVVGGKQGSVNVEAPKIPEVKWEKTYDEKDNFDSDKLNINFQSLRIPLTENIASLKAKKGNLRLYGKESLTSTFTQAFIARRWQSFKFDASTSVSFSPDTFQQAAGLTCYYNTENWSTIQVTWNEDKGRVIDIVCCDNFHFDMPLKSNVIPIPKDVEYIHLKVEVRVETYQYSYSFDGINWSKVPAIFESRKLSDDYVQGGGFFTGAFVGINCIDITGNNKPADFDYFCYKEL",
+                      "midline": "MIKNPILRGFNPDPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAHPLNRTSLLDMKGNPNSGGIWAPDLSYHDGKFWLIYTDVKVTDGMWKDCHNYLTTCESVDGVWSDPITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGIVLQEYSDKEKKLIGKAKIIYKGTDIKYTEGPHIYHIGDYYYLFTAEGGTTYEHSETVARSKNIDGPYEIDPEYPLLTSWHDPRNSLQKCGHASLVHTHTDEWYLAHLVGRPLPVGNQPVLEQRGYCPLGRETSIQRIEWVDNWPRVVGGKQGSVNVEAPKIPEVKWEKTYDEKDNFDSDKLNINFQSLRIPLTENIASLKAKKGNLRLYGKESLTSTFTQAFIARRWQSFKFDASTSVSFSPDTFQQAAGLTCYYNTENWSTIQVTWNEDKGRVIDIVCCDNFHFDMPLKSNVIPIPKDVEYIHLKVEVRVETYQYSYSFDGINWSKVPAIFESRKLSDDYVQGGGFFTGAFVGINCIDITGNNKPADFDYFCYKEL"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 7.93579,
-                  "identity": 13,
-                  "positive": 19,
-                  "query_from": 146,
-                  "query_to": 184,
-                  "hit_from": 413,
-                  "hit_to": 453,
-                  "align_len": 41,
-                  "gaps": 2,
-                  "qseq": "QRTYNHNFYGIVLQEYSDK--EKKLIGKAKIIYKGTDIKYT",
-                  "hseq": "EMAFNYNFAGFTLLRYQDVMYNNSLMGKFKDLLGVTPVMQT",
-                  "midline": "+  +N+NF G  L  Y D      L+GK K +   T +  T"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q00722|PLCB2_HUMAN",
-                  "accession": "Q00722",
-                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
-                }
-              ],
-              "len": 1185,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 6.36995,
-                  "identity": 7,
-                  "positive": 15,
-                  "query_from": 331,
-                  "query_to": 353,
-                  "hit_from": 622,
-                  "hit_to": 644,
-                  "align_len": 23,
-                  "gaps": 0,
-                  "qseq": "NFDSDKLNINFQSLRIPLTENIA",
-                  "hseq": "NAGCQMVALNFQTMDLPMQQNMA",
-                  "midline": "N     + +NFQ++ +P+ +N+A"
+                  "description": [
+                    {
+                      "id": "tr|Q09LX0|Q09LX0_GEOSE",
+                      "accession": "Q09LX0",
+                      "title": "Beta-xylosidase OS=Geobacillus stearothermophilus OX=1422 GN=xynB3 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 535,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 770.77,
+                      "score": 1989,
+                      "evalue": 0,
+                      "identity": 355,
+                      "positive": 427,
+                      "query_from": 2,
+                      "query_to": 533,
+                      "hit_from": 4,
+                      "hit_to": 535,
+                      "align_len": 532,
+                      "gaps": 0,
+                      "qseq": "IKNPILRGFNPDPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAHPLNRTSLLDMKGNPNSGGIWAPDLSYHDGKFWLIYTDVKVTDGMWKDCHNYLTTCESVDGVWSDPITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGIVLQEYSDKEKKLIGKAKIIYKGTDIKYTEGPHIYHIGDYYYLFTAEGGTTYEHSETVARSKNIDGPYEIDPEYPLLTSWHDPRNSLQKCGHASLVHTHTDEWYLAHLVGRPLPVGNQPVLEQRGYCPLGRETSIQRIEWVDNWPRVVGGKQGSVNVEAPKIPEVKWEKTYDEKDNFDSDKLNINFQSLRIPLTENIASLKAKKGNLRLYGKESLTSTFTQAFIARRWQSFKFDASTSVSFSPDTFQQAAGLTCYYNTENWSTIQVTWNEDKGRVIDIVCCDNFHFDMPLKSNVIPIPKDVEYIHLKVEVRVETYQYSYSFDGINWSKVPAIFESRKLSDDYVQGGGFFTGAFVGINCIDITGNNKPADFDYFCYKEL",
+                      "hseq": "IKNPILTGFHPDPSICRVGDDYYIAVSTFEWFPGVRIYHSKDLKNWRLVARPLNRLSQLNMIGNPDSGGVWAPHLSYSDGKFWLIYTDVKVVEGQWKDGHNYLVTCDTIDGAWSDPIYLNSSGFDPSLFHDEDGRKYLVNMYWDHRVDHHPFYGIVLQEYSVEQKKLVGEPKIIFKGTDLRITEGPHLYKINGYYYLLTAEGGTRYNHAATIARSTSLYGPYEVHPDNPLLTSWPYPRNPLQKAGHASIVHTHTDEWFLVHLTGRPLPREGQPLLEHRGYCPLGRETAIQRLEWKDGWPYVVGGNGPSLEIDGPSVEEVSWEKDYDEKDDFDGDTLNHHFQTLRIPLGEDIATLKARPGHLRLYGRESLTSRFTQAFVARRWQHFHFVAETKVSFRPTTFQQSAGLVNYYNTQNWTTLQITWHEEKGRILELMTCDHLVVDQPLRGREIVVPDDIEYVYLRVTVQATTYKYSYSFDGMNWIDLPVTFESYKLSDDYIKSRAAFTGAFVGMHCRDGSGQNNYADFDYFLYKEL",
+                      "midline": "IKNPIL GF+PDPSICR   DYYIA STFEWFPGV+I+HSKDL NW LVA PLNR S L+M GNP+SGG+WAP LSY DGKFWLIYTDVKV +G WKD HNYL TC+++DG WSDPI LN SGFD SLFHD DG+KYLVNMYWD R  +H FYGIVLQEYS ++KKL+G+ KII+KGTD++ TEGPH+Y I  YYYL TAEGGT Y H+ T+ARS ++ GPYE+ P+ PLLTSW  PRN LQK GHAS+VHTHTDEW+L HL GRPLP   QP+LE RGYCPLGRET+IQR+EW D WP VVGG   S+ ++ P + EV WEK YDEKD+FD D LN +FQ+LRIPL E+IA+LKA+ G+LRLYG+ESLTS FTQAF+ARRWQ F F A T VSF P TFQQ+AGL  YYNT+NW+T+Q+TW+E+KGR+++++ CD+   D PL+   I +P D+EY++L+V V+  TY+YSYSFDG+NW  +P  FES KLSDDY++    FTGAFVG++C D +G N  ADFDYF YKEL"
+                    }
+                  ]
                 },
                 {
-                  "num": 2,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 8.80503,
-                  "identity": 21,
-                  "positive": 38,
-                  "query_from": 75,
-                  "query_to": 156,
-                  "hit_from": 86,
-                  "hit_to": 173,
-                  "align_len": 91,
-                  "gaps": 12,
-                  "qseq": "DLSYHDGKFWL-IYTDVKVTDGMWKDCHNYLTTCESVDGVWSD--------PITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGI",
-                  "hseq": "NMDFPDNSFLLKTLTVVSGPDMVDLTFHNFVSYKENVGKAWAEDVLALVKHPLTANAS---RSTFLDKILVKLKMQLNSEGKIPVKNFFQM",
-                  "midline": "++ + D  F L   T V   D +    HN+++  E+V   W++        P+T N S    S F D    K  + +  + +    NF+ +"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q93HT9|IABN_GEOTD",
+                      "accession": "Q93HT9",
+                      "title": "Intracellular endo-alpha-(1->5)-L-arabinanase OS=Geobacillus thermodenitrificans OX=33940 GN=abn-ts PE=1 SV=1"
+                    }
+                  ],
+                  "len": 313,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 46.595,
+                      "score": 109,
+                      "evalue": 1.37483e-07,
+                      "identity": 54,
+                      "positive": 95,
+                      "query_from": 13,
+                      "query_to": 223,
+                      "hit_from": 27,
+                      "hit_to": 243,
+                      "align_len": 239,
+                      "gaps": 50,
+                      "qseq": "DPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAHPLNRTSLLDMKGNP--NSGGIWAPDLSYHDGKFWLIYT-------------------DVKVTDGMWKDCHNYLTTCESVDGVWSDPITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGIVLQEYSDKEKKLIGKAKIIY---KGTDIKYTEGPHIYHIGDYYYLFTAEG----GTTYEHSETVARSKNIDGPY",
+                      "hseq": "DPVIAKEGSRWYV----FHTGSGIQIKTSEDGVHWENMGRVFPSLPDWCKQYVPEKDEDHLWAPDICFYNGIYYLYYSVSTFGKNTSVIGLATNRTLDPRDPDYEWKDMGPVIHSTASD----------NYNAIDPNVVFDQEGQPWL--------SFGSFWSGIQLIQLDTETMKPAAQAELLTIASRGEEPNAIEAPFIVCRNGYYYLFVSFDFCCRGIESTYKIAVGRSKDITGPY",
+                      "midline": "DP I +  + +Y+    F    G+QI  S+D V+W  +            +  P  +   +WAPD+ +++G ++L Y+                   D +  D  WKD    + +  S           N +  D ++  D +G+ +L        ++   + GI L +   +  K   +A+++    +G +    E P I     YYYLF +      G    +   V RSK+I GPY"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P03706|ENLYS_LAMBD",
-                  "accession": "P03706",
-                  "title": "Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1"
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P64618|YHCO_ECO57",
+                      "accession": "P64618",
+                      "title": "Uncharacterized protein YhcO OS=Escherichia coli O157:H7 OX=83334 GN=yhcO PE=1 SV=1"
+                    }
+                  ],
+                  "len": 90,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 25.7942,
+                      "score": 55,
+                      "evalue": 0.16098,
+                      "identity": 8,
+                      "positive": 17,
+                      "query_from": 445,
+                      "query_to": 466,
+                      "hit_from": 42,
+                      "hit_to": 63,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "LKSNVIPIPKDVEYIHLKVEVR",
+                      "hseq": "LMNDVLPLPLEIEFVHLGEKTR",
+                      "midline": "L ++V+P+P ++E++HL  + R"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "tr|Q9X0V2|Q9X0V2_THEMA",
+                      "accession": "Q9X0V2",
+                      "title": "Uncharacterized protein OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=TM_1225 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 326,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.2534,
+                      "score": 51,
+                      "evalue": 1.74399,
+                      "identity": 13,
+                      "positive": 24,
+                      "query_from": 13,
+                      "query_to": 60,
+                      "hit_from": 106,
+                      "hit_to": 156,
+                      "align_len": 51,
+                      "gaps": 3,
+                      "qseq": "DPSICRADTDYYIATSTFEWFPGVQIHHSKDLVNWHLVAH---PLNRTSLL",
+                      "hseq": "DPRVVKIEDTYYITFCTDDHGPTIGVGMTKDFKTFVRLPNAYVPFNRNGVL",
+                      "midline": "DP + + +  YYI   T +  P + +  +KD   +  + +   P NR  +L"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P36924|AMYB_BACCE",
+                      "accession": "P36924",
+                      "title": "Beta-amylase OS=Bacillus cereus OX=1396 GN=spoII PE=1 SV=2"
+                    }
+                  ],
+                  "len": 546,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 2.15171,
+                      "identity": 17,
+                      "positive": 27,
+                      "query_from": 330,
+                      "query_to": 371,
+                      "hit_from": 348,
+                      "hit_to": 401,
+                      "align_len": 55,
+                      "gaps": 14,
+                      "qseq": "DNFDSDKLNINFQSLRIP-------------LTENIASLKAKKGNLRLYGKESLT",
+                      "hseq": "DAFKSAKLDVTFTCLEMTDKGSYPEYSMPKTLVQNIATLANEKG-IVLNGENALS",
+                      "midline": "D F S KL++ F  L +              L +NIA+L  +KG + L G+ +L+"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 7.93579,
+                      "identity": 13,
+                      "positive": 19,
+                      "query_from": 146,
+                      "query_to": 184,
+                      "hit_from": 413,
+                      "hit_to": 453,
+                      "align_len": 41,
+                      "gaps": 2,
+                      "qseq": "QRTYNHNFYGIVLQEYSDK--EKKLIGKAKIIYKGTDIKYT",
+                      "hseq": "EMAFNYNFAGFTLLRYQDVMYNNSLMGKFKDLLGVTPVMQT",
+                      "midline": "+  +N+NF G  L  Y D      L+GK K +   T +  T"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q00722|PLCB2_HUMAN",
+                      "accession": "Q00722",
+                      "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1185,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 6.36995,
+                      "identity": 7,
+                      "positive": 15,
+                      "query_from": 331,
+                      "query_to": 353,
+                      "hit_from": 622,
+                      "hit_to": 644,
+                      "align_len": 23,
+                      "gaps": 0,
+                      "qseq": "NFDSDKLNINFQSLRIPLTENIA",
+                      "hseq": "NAGCQMVALNFQTMDLPMQQNMA",
+                      "midline": "N     + +NFQ++ +P+ +N+A"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 8.80503,
+                      "identity": 21,
+                      "positive": 38,
+                      "query_from": 75,
+                      "query_to": 156,
+                      "hit_from": 86,
+                      "hit_to": 173,
+                      "align_len": 91,
+                      "gaps": 12,
+                      "qseq": "DLSYHDGKFWL-IYTDVKVTDGMWKDCHNYLTTCESVDGVWSD--------PITLNGSGFDASLFHDNDGKKYLVNMYWDQRTYNHNFYGI",
+                      "hseq": "NMDFPDNSFLLKTLTVVSGPDMVDLTFHNFVSYKENVGKAWAEDVLALVKHPLTANAS---RSTFLDKILVKLKMQLNSEGKIPVKNFFQM",
+                      "midline": "++ + D  F L   T V   D +    HN+++  E+V   W++        P+T N S    S F D    K  + +  + +    NF+ +"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P03706|ENLYS_LAMBD",
+                      "accession": "P03706",
+                      "title": "Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1"
+                    }
+                  ],
+                  "len": 158,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 9.27775,
+                      "identity": 15,
+                      "positive": 23,
+                      "query_from": 132,
+                      "query_to": 169,
+                      "hit_from": 5,
+                      "hit_to": 53,
+                      "align_len": 49,
+                      "gaps": 11,
+                      "qseq": "DNDGKKYLVNMYWD-------QRTYNHNFYGIV----LQEYSDKEKKLI",
+                      "hseq": "NNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLV",
+                      "midline": "+N  K +L  + W        Q+T NH +  IV      +YSD  +KL+"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|Q92547|TOPB1_HUMAN",
+                      "accession": "Q92547",
+                      "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1522,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 9.44997,
+                      "identity": 9,
+                      "positive": 18,
+                      "query_from": 401,
+                      "query_to": 434,
+                      "hit_from": 553,
+                      "hit_to": 586,
+                      "align_len": 34,
+                      "gaps": 0,
+                      "qseq": "FQQAAGLTCYYNTENWSTIQVTWNEDKGRVIDIV",
+                      "hseq": "FSQKSFLVLGFSNENESNIANIIKENAGKIMSLL",
+                      "midline": "F Q + L   ++ EN S I     E+ G+++ ++"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P10282|RNF1_GIBFU",
+                      "accession": "P10282",
+                      "title": "Guanyl-specific ribonuclease F1 OS=Gibberella fujikuroi OX=5127 PE=1 SV=4"
+                    }
+                  ],
+                  "len": 131,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 9.7746,
+                      "identity": 12,
+                      "positive": 19,
+                      "query_from": 195,
+                      "query_to": 231,
+                      "hit_from": 51,
+                      "hit_to": 86,
+                      "align_len": 39,
+                      "gaps": 5,
+                      "qseq": "YYYLFTAEGGTTYEHSETVARSKN--IDGPYEIDPEYPL",
+                      "hseq": "YYQNDDTAGSSTYPHTYNNYEGFDFPVDGPYQ---EFPI",
+                      "midline": "YY      G +TY H+       +  +DGPY+   E+P+"
+                    }
+                  ]
                 }
               ],
-              "len": 158,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 9.27775,
-                  "identity": 15,
-                  "positive": 23,
-                  "query_from": 132,
-                  "query_to": 169,
-                  "hit_from": 5,
-                  "hit_to": 53,
-                  "align_len": 49,
-                  "gaps": 11,
-                  "qseq": "DNDGKKYLVNMYWD-------QRTYNHNFYGIV----LQEYSDKEKKLI",
-                  "hseq": "NNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLV",
-                  "midline": "+N  K +L  + W        Q+T NH +  IV      +YSD  +KL+"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|Q92547|TOPB1_HUMAN",
-                  "accession": "Q92547",
-                  "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
-                }
-              ],
-              "len": 1522,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 9.44997,
-                  "identity": 9,
-                  "positive": 18,
-                  "query_from": 401,
-                  "query_to": 434,
-                  "hit_from": 553,
-                  "hit_to": 586,
-                  "align_len": 34,
-                  "gaps": 0,
-                  "qseq": "FQQAAGLTCYYNTENWSTIQVTWNEDKGRVIDIV",
-                  "hseq": "FSQKSFLVLGFSNENESNIANIIKENAGKIMSLL",
-                  "midline": "F Q + L   ++ EN S I     E+ G+++ ++"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|P10282|RNF1_GIBFU",
-                  "accession": "P10282",
-                  "title": "Guanyl-specific ribonuclease F1 OS=Gibberella fujikuroi OX=5127 PE=1 SV=4"
-                }
-              ],
-              "len": 131,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 9.7746,
-                  "identity": 12,
-                  "positive": 19,
-                  "query_from": 195,
-                  "query_to": 231,
-                  "hit_from": 51,
-                  "hit_to": 86,
-                  "align_len": 39,
-                  "gaps": 5,
-                  "qseq": "YYYLFTAEGGTTYEHSETVARSKN--IDGPYEIDPEYPL",
-                  "hseq": "YYQNDDTAGSSTYPHTYNNYEGFDFPVDGPYQ---EFPI",
-                  "midline": "YY      G +TY H+       +  +DGPY+   E+P+"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 70,
+                "eff_space": 31526596,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 70,
-            "eff_space": 31526596,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

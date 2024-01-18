@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,202 +17,207 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P39594|THIE_BACSU Thiamine-phosphate synthase OS=Bacillus subtilis (strain 168) OX=224308 GN=thiE PE=1 SV=1",
-          "query_len": 222,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P39594|THIE_BACSU",
-                  "accession": "P39594",
-                  "title": "Thiamine-phosphate synthase OS=Bacillus subtilis (strain 168) OX=224308 GN=thiE PE=1 SV=1"
-                }
-              ],
-              "len": 222,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P39594|THIE_BACSU Thiamine-phosphate synthase OS=Bacillus subtilis (strain 168) OX=224308 GN=thiE PE=1 SV=1",
+              "query_len": 222,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 448.743,
-                  "score": 1153,
-                  "evalue": 3.77821e-165,
-                  "identity": 222,
-                  "positive": 222,
-                  "query_from": 1,
-                  "query_to": 222,
-                  "hit_from": 1,
-                  "hit_to": 222,
-                  "align_len": 222,
-                  "gaps": 0,
-                  "qseq": "MTRISREMMKELLSVYFIMGSNNTKADPVTVVQKALKGGATLYQFREKGGDALTGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRRQGISIPIVGIGGITIDNAAPVIQAGADGVSMISAISQAEDPESAARKFREEIQTYKTGR",
-                  "hseq": "MTRISREMMKELLSVYFIMGSNNTKADPVTVVQKALKGGATLYQFREKGGDALTGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRRQGISIPIVGIGGITIDNAAPVIQAGADGVSMISAISQAEDPESAARKFREEIQTYKTGR",
-                  "midline": "MTRISREMMKELLSVYFIMGSNNTKADPVTVVQKALKGGATLYQFREKGGDALTGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRRQGISIPIVGIGGITIDNAAPVIQAGADGVSMISAISQAEDPESAARKFREEIQTYKTGR"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P39594|THIE_BACSU",
+                      "accession": "P39594",
+                      "title": "Thiamine-phosphate synthase OS=Bacillus subtilis (strain 168) OX=224308 GN=thiE PE=1 SV=1"
+                    }
+                  ],
+                  "len": 222,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 448.743,
+                      "score": 1153,
+                      "evalue": 3.77821e-165,
+                      "identity": 222,
+                      "positive": 222,
+                      "query_from": 1,
+                      "query_to": 222,
+                      "hit_from": 1,
+                      "hit_to": 222,
+                      "align_len": 222,
+                      "gaps": 0,
+                      "qseq": "MTRISREMMKELLSVYFIMGSNNTKADPVTVVQKALKGGATLYQFREKGGDALTGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRRQGISIPIVGIGGITIDNAAPVIQAGADGVSMISAISQAEDPESAARKFREEIQTYKTGR",
+                      "hseq": "MTRISREMMKELLSVYFIMGSNNTKADPVTVVQKALKGGATLYQFREKGGDALTGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRRQGISIPIVGIGGITIDNAAPVIQAGADGVSMISAISQAEDPESAARKFREEIQTYKTGR",
+                      "midline": "MTRISREMMKELLSVYFIMGSNNTKADPVTVVQKALKGGATLYQFREKGGDALTGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRRQGISIPIVGIGGITIDNAAPVIQAGADGVSMISAISQAEDPESAARKFREEIQTYKTGR"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q8U192|THIE_PYRFU",
-                  "accession": "Q8U192",
-                  "title": "Thiamine-phosphate synthase OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=thiE PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|Q8U192|THIE_PYRFU",
+                      "accession": "Q8U192",
+                      "title": "Thiamine-phosphate synthase OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=thiE PE=1 SV=1"
+                    }
+                  ],
+                  "len": 207,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 118.627,
+                      "score": 296,
+                      "evalue": 2.48338e-35,
+                      "identity": 74,
+                      "positive": 124,
+                      "query_from": 9,
+                      "query_to": 216,
+                      "hit_from": 3,
+                      "hit_to": 203,
+                      "align_len": 211,
+                      "gaps": 13,
+                      "qseq": "MKELLSVYFIMGSNNTKADP-VTVVQKALKGGATLYQFREKGGDALTGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRR--QGISIPIVGIGGITIDNAAPVIQAGADGVSMISAISQAEDPESAARKFREEIQ",
+                      "hseq": "LRNKLKLYVI---TDRRLKPEVESVREALEGGATAIQMRIK--NAPTREM-YEIGKTLRQLTREYDALFFVDDRVDVALAVDADGVQLGPEDMPIEVAKEIAPNLIIGASVYSLEEALEAEKKGADYLGAGSVFPTKTKEDARVIG----LEGLRKIVESVKIPVVAIGGINKDNAREVLKTGVDGIAVISAVMGAEDVRKATEELRKIVE",
+                      "midline": "++  L +Y I    + +  P V  V++AL+GGAT  Q R K  +A T E   +  +  +   RE    F V+D V++AL + ADG+ +G ED   +  +    ++I+G S +++ E  +AE+ GADY+G G ++PT+TK+D R +     +E +R+  + + IP+V IGGI  DNA  V++ G DG+++ISA+  AED   A  + R+ ++"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "tr|Q57265|Q57265_NEIME",
+                      "accession": "Q57265",
+                      "title": "Capsule biosynthesis protein OS=Neisseria meningitidis OX=487 GN=synC PE=1 SV=1"
+                    }
+                  ],
+                  "len": 349,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.2534,
+                      "score": 51,
+                      "evalue": 0.489618,
+                      "identity": 19,
+                      "positive": 32,
+                      "query_from": 54,
+                      "query_to": 121,
+                      "hit_from": 155,
+                      "hit_to": 217,
+                      "align_len": 68,
+                      "gaps": 5,
+                      "qseq": "TGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTM",
+                      "hseq": "TGMNSIESIKKSVEIIREAGVPYALLHCTNIYPTPYED-VRLG----GMNDLSEAFPDAIIGLSDHTL",
+                      "midline": "TG   I+  +K+    REAGVP+ +     +      D + +G       ++  A  D I+G+S HT+"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P84022|SMAD3_HUMAN",
+                      "accession": "P84022",
+                      "title": "Mothers against decapentaplegic homolog 3 OS=Homo sapiens OX=9606 GN=SMAD3 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 425,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 0.95398,
+                      "identity": 8,
+                      "positive": 14,
+                      "query_from": 22,
+                      "query_to": 53,
+                      "hit_from": 217,
+                      "hit_to": 248,
+                      "align_len": 32,
+                      "gaps": 0,
+                      "qseq": "NNTKADPVTVVQKALKGGATLYQFREKGGDAL",
+                      "hseq": "NNLDLQPVTYCEPAFWCSISYYELNQRVGETF",
+                      "midline": "NN    PVT  + A     + Y+  ++ G+  "
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|O82827|UPPS_MICLU",
+                      "accession": "O82827",
+                      "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Micrococcus luteus OX=1270 GN=uppS PE=1 SV=1"
+                    }
+                  ],
+                  "len": 249,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 6.46366,
+                      "identity": 18,
+                      "positive": 31,
+                      "query_from": 80,
+                      "query_to": 165,
+                      "hit_from": 83,
+                      "hit_to": 168,
+                      "align_len": 86,
+                      "gaps": 0,
+                      "qseq": "DDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRRQG",
+                      "hseq": "DEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSG",
+                      "midline": "D+V   + L  D ++    +   K V+      I  +  HT   V +A+E      GL  ++          +  V LI    + G"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q9V3D4|IDGF2_DROME",
+                      "accession": "Q9V3D4",
+                      "title": "Chitinase-like protein Idgf2 OS=Drosophila melanogaster OX=7227 GN=Idgf2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 440,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 8.88577,
+                      "identity": 12,
+                      "positive": 24,
+                      "query_from": 77,
+                      "query_to": 124,
+                      "hit_from": 41,
+                      "hit_to": 87,
+                      "align_len": 48,
+                      "gaps": 1,
+                      "qseq": "IVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEV",
+                      "hseq": "LLNPDLEIALQFCSHLVY-GYAGLRGENLQAYSMNENLDIYKHQFSEV",
+                      "midline": "++N D+E+AL   +  ++ G      + ++A   +  L +  H  SEV"
+                    }
+                  ]
                 }
               ],
-              "len": 207,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 118.627,
-                  "score": 296,
-                  "evalue": 2.48338e-35,
-                  "identity": 74,
-                  "positive": 124,
-                  "query_from": 9,
-                  "query_to": 216,
-                  "hit_from": 3,
-                  "hit_to": 203,
-                  "align_len": 211,
-                  "gaps": 13,
-                  "qseq": "MKELLSVYFIMGSNNTKADP-VTVVQKALKGGATLYQFREKGGDALTGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRR--QGISIPIVGIGGITIDNAAPVIQAGADGVSMISAISQAEDPESAARKFREEIQ",
-                  "hseq": "LRNKLKLYVI---TDRRLKPEVESVREALEGGATAIQMRIK--NAPTREM-YEIGKTLRQLTREYDALFFVDDRVDVALAVDADGVQLGPEDMPIEVAKEIAPNLIIGASVYSLEEALEAEKKGADYLGAGSVFPTKTKEDARVIG----LEGLRKIVESVKIPVVAIGGINKDNAREVLKTGVDGIAVISAVMGAEDVRKATEELRKIVE",
-                  "midline": "++  L +Y I    + +  P V  V++AL+GGAT  Q R K  +A T E   +  +  +   RE    F V+D V++AL + ADG+ +G ED   +  +    ++I+G S +++ E  +AE+ GADY+G G ++PT+TK+D R +     +E +R+  + + IP+V IGGI  DNA  V++ G DG+++ISA+  AED   A  + R+ ++"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "tr|Q57265|Q57265_NEIME",
-                  "accession": "Q57265",
-                  "title": "Capsule biosynthesis protein OS=Neisseria meningitidis OX=487 GN=synC PE=1 SV=1"
-                }
-              ],
-              "len": 349,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.2534,
-                  "score": 51,
-                  "evalue": 0.489618,
-                  "identity": 19,
-                  "positive": 32,
-                  "query_from": 54,
-                  "query_to": 121,
-                  "hit_from": 155,
-                  "hit_to": 217,
-                  "align_len": 68,
-                  "gaps": 5,
-                  "qseq": "TGEARIKFAEKAQAACREAGVPFIVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTM",
-                  "hseq": "TGMNSIESIKKSVEIIREAGVPYALLHCTNIYPTPYED-VRLG----GMNDLSEAFPDAIIGLSDHTL",
-                  "midline": "TG   I+  +K+    REAGVP+ +     +      D + +G       ++  A  D I+G+S HT+"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P84022|SMAD3_HUMAN",
-                  "accession": "P84022",
-                  "title": "Mothers against decapentaplegic homolog 3 OS=Homo sapiens OX=9606 GN=SMAD3 PE=1 SV=1"
-                }
-              ],
-              "len": 425,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 0.95398,
-                  "identity": 8,
-                  "positive": 14,
-                  "query_from": 22,
-                  "query_to": 53,
-                  "hit_from": 217,
-                  "hit_to": 248,
-                  "align_len": 32,
-                  "gaps": 0,
-                  "qseq": "NNTKADPVTVVQKALKGGATLYQFREKGGDAL",
-                  "hseq": "NNLDLQPVTYCEPAFWCSISYYELNQRVGETF",
-                  "midline": "NN    PVT  + A     + Y+  ++ G+  "
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|O82827|UPPS_MICLU",
-                  "accession": "O82827",
-                  "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Micrococcus luteus OX=1270 GN=uppS PE=1 SV=1"
-                }
-              ],
-              "len": 249,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 6.46366,
-                  "identity": 18,
-                  "positive": 31,
-                  "query_from": 80,
-                  "query_to": 165,
-                  "hit_from": 83,
-                  "hit_to": 168,
-                  "align_len": 86,
-                  "gaps": 0,
-                  "qseq": "DDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRRQG",
-                  "hseq": "DEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSG",
-                  "midline": "D+V   + L  D ++    +   K V+      I  +  HT   V +A+E      GL  ++          +  V LI    + G"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q9V3D4|IDGF2_DROME",
-                  "accession": "Q9V3D4",
-                  "title": "Chitinase-like protein Idgf2 OS=Drosophila melanogaster OX=7227 GN=Idgf2 PE=1 SV=1"
-                }
-              ],
-              "len": 440,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 8.88577,
-                  "identity": 12,
-                  "positive": 24,
-                  "query_from": 77,
-                  "query_to": 124,
-                  "hit_from": 41,
-                  "hit_to": 87,
-                  "align_len": 48,
-                  "gaps": 1,
-                  "qseq": "IVNDDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEV",
-                  "hseq": "LLNPDLEIALQFCSHLVY-GYAGLRGENLQAYSMNENLDIYKHQFSEV",
-                  "midline": "++N D+E+AL   +  ++ G      + ++A   +  L +  H  SEV"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 62,
+                "eff_space": 11162240,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 62,
-            "eff_space": 11162240,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

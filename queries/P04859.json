@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,232 +17,237 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P04859|PHOSP_SENDH Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1",
-          "query_len": 568,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P04859|PHOSP_SENDH",
-                  "accession": "P04859",
-                  "title": "Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1"
-                }
-              ],
-              "len": 568,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P04859|PHOSP_SENDH Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1",
+              "query_len": 568,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 1156.35,
-                  "score": 2990,
-                  "evalue": 0,
-                  "identity": 568,
-                  "positive": 568,
-                  "query_from": 1,
-                  "query_to": 568,
-                  "hit_from": 1,
-                  "hit_to": 568,
-                  "align_len": 568,
-                  "gaps": 0,
-                  "qseq": "MDQDAFILKEDSEVEREAPGGRESLSDVIGFLDAVLSSEPTDIGGDRSWLHNTINTPQGPGSAHRAKSEGEGEVSTPSTQDNRSGEESRVSGRTSKPEAEAHAGNLDKQNIHRAFGGRTGTNSVSQDLGDGGDSGILENPPNERGYPRSGIEDENREMAAHPDKRGEDQAEGLPEEVRGGTSLPDEGEGGASNNGRSMEPGSSHSARVTGVLVIPSPELEEAVLRRNKRRPTNSGSKPLTPATVPGTRSPPLNRYNSTGSPPGKPPSTQDEHINSGDTPAVRVKDRKPPIGTRSVSDCPANGRPIHPGLESDSTKKGIGENTSSMKEMATLLTSLGVIQSAQEFESSRDASYVFARRALKSANYAEMTFNVCGLILSAEKSSARKVDENKQLLKQIQESVESFRDIYKRFSEYQKEQNSLLMSNLSTLHIITDRGGKTDNTDSLTRSPSVFAKSKENKTKATRFDPSMETLEDMKYKPDLIREDEFRDEIRNPVYQERDTEPRASNASRLLPSKEKPTMHSLRLVIESSPLSRAEKAAYVKSLSKCKTDQEVKAVMELVEEDIESLTN",
-                  "hseq": "MDQDAFILKEDSEVEREAPGGRESLSDVIGFLDAVLSSEPTDIGGDRSWLHNTINTPQGPGSAHRAKSEGEGEVSTPSTQDNRSGEESRVSGRTSKPEAEAHAGNLDKQNIHRAFGGRTGTNSVSQDLGDGGDSGILENPPNERGYPRSGIEDENREMAAHPDKRGEDQAEGLPEEVRGGTSLPDEGEGGASNNGRSMEPGSSHSARVTGVLVIPSPELEEAVLRRNKRRPTNSGSKPLTPATVPGTRSPPLNRYNSTGSPPGKPPSTQDEHINSGDTPAVRVKDRKPPIGTRSVSDCPANGRPIHPGLESDSTKKGIGENTSSMKEMATLLTSLGVIQSAQEFESSRDASYVFARRALKSANYAEMTFNVCGLILSAEKSSARKVDENKQLLKQIQESVESFRDIYKRFSEYQKEQNSLLMSNLSTLHIITDRGGKTDNTDSLTRSPSVFAKSKENKTKATRFDPSMETLEDMKYKPDLIREDEFRDEIRNPVYQERDTEPRASNASRLLPSKEKPTMHSLRLVIESSPLSRAEKAAYVKSLSKCKTDQEVKAVMELVEEDIESLTN",
-                  "midline": "MDQDAFILKEDSEVEREAPGGRESLSDVIGFLDAVLSSEPTDIGGDRSWLHNTINTPQGPGSAHRAKSEGEGEVSTPSTQDNRSGEESRVSGRTSKPEAEAHAGNLDKQNIHRAFGGRTGTNSVSQDLGDGGDSGILENPPNERGYPRSGIEDENREMAAHPDKRGEDQAEGLPEEVRGGTSLPDEGEGGASNNGRSMEPGSSHSARVTGVLVIPSPELEEAVLRRNKRRPTNSGSKPLTPATVPGTRSPPLNRYNSTGSPPGKPPSTQDEHINSGDTPAVRVKDRKPPIGTRSVSDCPANGRPIHPGLESDSTKKGIGENTSSMKEMATLLTSLGVIQSAQEFESSRDASYVFARRALKSANYAEMTFNVCGLILSAEKSSARKVDENKQLLKQIQESVESFRDIYKRFSEYQKEQNSLLMSNLSTLHIITDRGGKTDNTDSLTRSPSVFAKSKENKTKATRFDPSMETLEDMKYKPDLIREDEFRDEIRNPVYQERDTEPRASNASRLLPSKEKPTMHSLRLVIESSPLSRAEKAAYVKSLSKCKTDQEVKAVMELVEEDIESLTN"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P04859|PHOSP_SENDH",
+                      "accession": "P04859",
+                      "title": "Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1"
+                    }
+                  ],
+                  "len": 568,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 1156.35,
+                      "score": 2990,
+                      "evalue": 0,
+                      "identity": 568,
+                      "positive": 568,
+                      "query_from": 1,
+                      "query_to": 568,
+                      "hit_from": 1,
+                      "hit_to": 568,
+                      "align_len": 568,
+                      "gaps": 0,
+                      "qseq": "MDQDAFILKEDSEVEREAPGGRESLSDVIGFLDAVLSSEPTDIGGDRSWLHNTINTPQGPGSAHRAKSEGEGEVSTPSTQDNRSGEESRVSGRTSKPEAEAHAGNLDKQNIHRAFGGRTGTNSVSQDLGDGGDSGILENPPNERGYPRSGIEDENREMAAHPDKRGEDQAEGLPEEVRGGTSLPDEGEGGASNNGRSMEPGSSHSARVTGVLVIPSPELEEAVLRRNKRRPTNSGSKPLTPATVPGTRSPPLNRYNSTGSPPGKPPSTQDEHINSGDTPAVRVKDRKPPIGTRSVSDCPANGRPIHPGLESDSTKKGIGENTSSMKEMATLLTSLGVIQSAQEFESSRDASYVFARRALKSANYAEMTFNVCGLILSAEKSSARKVDENKQLLKQIQESVESFRDIYKRFSEYQKEQNSLLMSNLSTLHIITDRGGKTDNTDSLTRSPSVFAKSKENKTKATRFDPSMETLEDMKYKPDLIREDEFRDEIRNPVYQERDTEPRASNASRLLPSKEKPTMHSLRLVIESSPLSRAEKAAYVKSLSKCKTDQEVKAVMELVEEDIESLTN",
+                      "hseq": "MDQDAFILKEDSEVEREAPGGRESLSDVIGFLDAVLSSEPTDIGGDRSWLHNTINTPQGPGSAHRAKSEGEGEVSTPSTQDNRSGEESRVSGRTSKPEAEAHAGNLDKQNIHRAFGGRTGTNSVSQDLGDGGDSGILENPPNERGYPRSGIEDENREMAAHPDKRGEDQAEGLPEEVRGGTSLPDEGEGGASNNGRSMEPGSSHSARVTGVLVIPSPELEEAVLRRNKRRPTNSGSKPLTPATVPGTRSPPLNRYNSTGSPPGKPPSTQDEHINSGDTPAVRVKDRKPPIGTRSVSDCPANGRPIHPGLESDSTKKGIGENTSSMKEMATLLTSLGVIQSAQEFESSRDASYVFARRALKSANYAEMTFNVCGLILSAEKSSARKVDENKQLLKQIQESVESFRDIYKRFSEYQKEQNSLLMSNLSTLHIITDRGGKTDNTDSLTRSPSVFAKSKENKTKATRFDPSMETLEDMKYKPDLIREDEFRDEIRNPVYQERDTEPRASNASRLLPSKEKPTMHSLRLVIESSPLSRAEKAAYVKSLSKCKTDQEVKAVMELVEEDIESLTN",
+                      "midline": "MDQDAFILKEDSEVEREAPGGRESLSDVIGFLDAVLSSEPTDIGGDRSWLHNTINTPQGPGSAHRAKSEGEGEVSTPSTQDNRSGEESRVSGRTSKPEAEAHAGNLDKQNIHRAFGGRTGTNSVSQDLGDGGDSGILENPPNERGYPRSGIEDENREMAAHPDKRGEDQAEGLPEEVRGGTSLPDEGEGGASNNGRSMEPGSSHSARVTGVLVIPSPELEEAVLRRNKRRPTNSGSKPLTPATVPGTRSPPLNRYNSTGSPPGKPPSTQDEHINSGDTPAVRVKDRKPPIGTRSVSDCPANGRPIHPGLESDSTKKGIGENTSSMKEMATLLTSLGVIQSAQEFESSRDASYVFARRALKSANYAEMTFNVCGLILSAEKSSARKVDENKQLLKQIQESVESFRDIYKRFSEYQKEQNSLLMSNLSTLHIITDRGGKTDNTDSLTRSPSVFAKSKENKTKATRFDPSMETLEDMKYKPDLIREDEFRDEIRNPVYQERDTEPRASNASRLLPSKEKPTMHSLRLVIESSPLSRAEKAAYVKSLSKCKTDQEVKAVMELVEEDIESLTN"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P16009|NEEDL_BPT4",
-                  "accession": "P16009",
-                  "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P16009|NEEDL_BPT4",
+                      "accession": "P16009",
+                      "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 575,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 4.101,
+                      "identity": 15,
+                      "positive": 20,
+                      "query_from": 131,
+                      "query_to": 165,
+                      "hit_from": 126,
+                      "hit_to": 161,
+                      "align_len": 37,
+                      "gaps": 3,
+                      "qseq": "GGDSGILENPPNERGYPRSG--IEDENREMAAHPDKR",
+                      "hseq": "GNDTNVL-NQGGEVGYDSSSNVIQDSNLDTAINPDDR",
+                      "midline": "G D+ +L N   E GY  S   I+D N + A +PD R"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P60472|UPPS_ECOLI",
+                      "accession": "P60472",
+                      "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Escherichia coli (strain K12) OX=83333 GN=ispU PE=1 SV=1"
+                    }
+                  ],
+                  "len": 253,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 4.92006,
+                      "identity": 11,
+                      "positive": 16,
+                      "query_from": 108,
+                      "query_to": 136,
+                      "hit_from": 34,
+                      "hit_to": 62,
+                      "align_len": 29,
+                      "gaps": 0,
+                      "qseq": "KQNIHRAFGGRTGTNSVSQDLGDGGDSGI",
+                      "hseq": "KQGKIRAFGHKAGAKSVRRAVSFAANNGI",
+                      "midline": "KQ   RAFG + G  SV + +    ++GI"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|O43896|KIF1C_HUMAN",
+                      "accession": "O43896",
+                      "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1103,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 6.15304,
+                      "identity": 13,
+                      "positive": 25,
+                      "query_from": 359,
+                      "query_to": 406,
+                      "hit_from": 336,
+                      "hit_to": 376,
+                      "align_len": 49,
+                      "gaps": 9,
+                      "qseq": "LKSANYAEMTFNV-CGLILSAEKSSARKVDENKQLLKQIQESVESFRDI",
+                      "hseq": "LSTLRYADRTKQIRCNAIINE--------DPNARLIRELQEEVARLREL",
+                      "midline": "L +  YA+ T  + C  I++         D N +L++++QE V   R++"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 8.12889,
+                      "identity": 39,
+                      "positive": 73,
+                      "query_from": 391,
+                      "query_to": 568,
+                      "hit_from": 5409,
+                      "hit_to": 5579,
+                      "align_len": 182,
+                      "gaps": 15,
+                      "qseq": "QLLKQIQESVESFRDIYKRFSEYQKE----QNSLLMSNLSTLHIITDRGGKTDNTDSLTRSPSVFAKSKENKTKATRFDPSMETLEDMKYKPDLIREDEFRDEIRNPVYQERDTEPRASNASRLLPSKEKPTMHSLRLVIESSPLSRAEKAAYVKSLSKCKTDQEVKAVMELVEEDIESLTN",
+                      "hseq": "QAMNQLRQSIAS-KDATKSSEDYQDANADLQNAYNDAVTNAEGIISATNNPEMNPDTINQKASQVNSAKSALNGDEKLAAAKQTA-----KSDIGRLTDLNNAQRTAANAEVDQAP---NLAAVTAAKNKAT--SLNTAMGNLKHALAEKDNTKRSVNYTDADQPKQQAYDTAVTQAEAITN",
+                      "midline": "Q + Q+++S+ S +D  K   +YQ      QN+   +  +   II+       N D++ +  S    +K       +   + +T      K D+ R  +  +  R     E D  P   N + +  +K K T  SL   + +   + AEK    +S++    DQ  +   +      E++TN"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P38398|BRCA1_HUMAN",
+                      "accession": "P38398",
+                      "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1863,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 9.22851,
+                      "identity": 23,
+                      "positive": 39,
+                      "query_from": 264,
+                      "query_to": 357,
+                      "hit_from": 33,
+                      "hit_to": 110,
+                      "align_len": 94,
+                      "gaps": 16,
+                      "qseq": "KPPSTQDEHINSGDTPAVRVKDRKPPIGTRSVSDCPANGRPIHPGLESDSTKKGIGENTSSMKEMATLLTSLGVIQSAQEFESSRDASYVFARR",
+                      "hseq": "EPVSTKCDHIFCKFCMLKLLNQKKGP------SQCPL--------CKNDITKRSLQESTRFSQLVEELLKIICAFQLDTGLEYAN--SYNFAKK",
+                      "midline": "+P ST+ +HI         +  +K P      S CP          ++D TK+ + E+T   + +  LL  +   Q     E +   SY FA++"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q8WVQ1|CANT1_HUMAN",
+                      "accession": "Q8WVQ1",
+                      "title": "Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 401,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 9.28386,
+                      "identity": 9,
+                      "positive": 12,
+                      "query_from": 262,
+                      "query_to": 288,
+                      "hit_from": 66,
+                      "hit_to": 92,
+                      "align_len": 27,
+                      "gaps": 0,
+                      "qseq": "PGKPPSTQDEHINSGDTPAVRVKDRKP",
+                      "hseq": "PGRPPTHNAHNWRLGQAPANWYNDTYP",
+                      "midline": "PG+PP+    +   G  PA    D  P"
+                    }
+                  ]
                 }
               ],
-              "len": 575,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 4.101,
-                  "identity": 15,
-                  "positive": 20,
-                  "query_from": 131,
-                  "query_to": 165,
-                  "hit_from": 126,
-                  "hit_to": 161,
-                  "align_len": 37,
-                  "gaps": 3,
-                  "qseq": "GGDSGILENPPNERGYPRSG--IEDENREMAAHPDKR",
-                  "hseq": "GNDTNVL-NQGGEVGYDSSSNVIQDSNLDTAINPDDR",
-                  "midline": "G D+ +L N   E GY  S   I+D N + A +PD R"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P60472|UPPS_ECOLI",
-                  "accession": "P60472",
-                  "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Escherichia coli (strain K12) OX=83333 GN=ispU PE=1 SV=1"
-                }
-              ],
-              "len": 253,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 4.92006,
-                  "identity": 11,
-                  "positive": 16,
-                  "query_from": 108,
-                  "query_to": 136,
-                  "hit_from": 34,
-                  "hit_to": 62,
-                  "align_len": 29,
-                  "gaps": 0,
-                  "qseq": "KQNIHRAFGGRTGTNSVSQDLGDGGDSGI",
-                  "hseq": "KQGKIRAFGHKAGAKSVRRAVSFAANNGI",
-                  "midline": "KQ   RAFG + G  SV + +    ++GI"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|O43896|KIF1C_HUMAN",
-                  "accession": "O43896",
-                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
-                }
-              ],
-              "len": 1103,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 6.15304,
-                  "identity": 13,
-                  "positive": 25,
-                  "query_from": 359,
-                  "query_to": 406,
-                  "hit_from": 336,
-                  "hit_to": 376,
-                  "align_len": 49,
-                  "gaps": 9,
-                  "qseq": "LKSANYAEMTFNV-CGLILSAEKSSARKVDENKQLLKQIQESVESFRDI",
-                  "hseq": "LSTLRYADRTKQIRCNAIINE--------DPNARLIRELQEEVARLREL",
-                  "midline": "L +  YA+ T  + C  I++         D N +L++++QE V   R++"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 8.12889,
-                  "identity": 39,
-                  "positive": 73,
-                  "query_from": 391,
-                  "query_to": 568,
-                  "hit_from": 5409,
-                  "hit_to": 5579,
-                  "align_len": 182,
-                  "gaps": 15,
-                  "qseq": "QLLKQIQESVESFRDIYKRFSEYQKE----QNSLLMSNLSTLHIITDRGGKTDNTDSLTRSPSVFAKSKENKTKATRFDPSMETLEDMKYKPDLIREDEFRDEIRNPVYQERDTEPRASNASRLLPSKEKPTMHSLRLVIESSPLSRAEKAAYVKSLSKCKTDQEVKAVMELVEEDIESLTN",
-                  "hseq": "QAMNQLRQSIAS-KDATKSSEDYQDANADLQNAYNDAVTNAEGIISATNNPEMNPDTINQKASQVNSAKSALNGDEKLAAAKQTA-----KSDIGRLTDLNNAQRTAANAEVDQAP---NLAAVTAAKNKAT--SLNTAMGNLKHALAEKDNTKRSVNYTDADQPKQQAYDTAVTQAEAITN",
-                  "midline": "Q + Q+++S+ S +D  K   +YQ      QN+   +  +   II+       N D++ +  S    +K       +   + +T      K D+ R  +  +  R     E D  P   N + +  +K K T  SL   + +   + AEK    +S++    DQ  +   +      E++TN"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P38398|BRCA1_HUMAN",
-                  "accession": "P38398",
-                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
-                }
-              ],
-              "len": 1863,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 9.22851,
-                  "identity": 23,
-                  "positive": 39,
-                  "query_from": 264,
-                  "query_to": 357,
-                  "hit_from": 33,
-                  "hit_to": 110,
-                  "align_len": 94,
-                  "gaps": 16,
-                  "qseq": "KPPSTQDEHINSGDTPAVRVKDRKPPIGTRSVSDCPANGRPIHPGLESDSTKKGIGENTSSMKEMATLLTSLGVIQSAQEFESSRDASYVFARR",
-                  "hseq": "EPVSTKCDHIFCKFCMLKLLNQKKGP------SQCPL--------CKNDITKRSLQESTRFSQLVEELLKIICAFQLDTGLEYAN--SYNFAKK",
-                  "midline": "+P ST+ +HI         +  +K P      S CP          ++D TK+ + E+T   + +  LL  +   Q     E +   SY FA++"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q8WVQ1|CANT1_HUMAN",
-                  "accession": "Q8WVQ1",
-                  "title": "Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1"
-                }
-              ],
-              "len": 401,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 9.28386,
-                  "identity": 9,
-                  "positive": 12,
-                  "query_from": 262,
-                  "query_to": 288,
-                  "hit_from": 66,
-                  "hit_to": 92,
-                  "align_len": 27,
-                  "gaps": 0,
-                  "qseq": "PGKPPSTQDEHINSGDTPAVRVKDRKP",
-                  "hseq": "PGRPPTHNAHNWRLGQAPANWYNDTYP",
-                  "midline": "PG+PP+    +   G  PA    D  P"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 70,
+                "eff_space": 33909816,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 70,
-            "eff_space": 33909816,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

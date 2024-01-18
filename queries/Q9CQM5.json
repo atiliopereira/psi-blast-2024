@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,412 +17,417 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q9CQM5|TXD17_MOUSE Thioredoxin domain-containing protein 17 OS=Mus musculus OX=10090 GN=Txndc17 PE=1 SV=1",
-          "query_len": 123,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q9CQM5|TXD17_MOUSE",
-                  "accession": "Q9CQM5",
-                  "title": "Thioredoxin domain-containing protein 17 OS=Mus musculus OX=10090 GN=Txndc17 PE=1 SV=1"
-                }
-              ],
-              "len": 123,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q9CQM5|TXD17_MOUSE Thioredoxin domain-containing protein 17 OS=Mus musculus OX=10090 GN=Txndc17 PE=1 SV=1",
+              "query_len": 123,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 254.988,
-                  "score": 650,
-                  "evalue": 9.76907e-92,
-                  "identity": 123,
-                  "positive": 123,
-                  "query_from": 1,
-                  "query_to": 123,
-                  "hit_from": 1,
-                  "hit_to": 123,
-                  "align_len": 123,
-                  "gaps": 0,
-                  "qseq": "MATFEEVSVLGFEEFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTLLKYGTPQKLVESECCQSSLVEMIFSED",
-                  "hseq": "MATFEEVSVLGFEEFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTLLKYGTPQKLVESECCQSSLVEMIFSED",
-                  "midline": "MATFEEVSVLGFEEFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTLLKYGTPQKLVESECCQSSLVEMIFSED"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|Q9CQM5|TXD17_MOUSE",
+                      "accession": "Q9CQM5",
+                      "title": "Thioredoxin domain-containing protein 17 OS=Mus musculus OX=10090 GN=Txndc17 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 123,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 254.988,
+                      "score": 650,
+                      "evalue": 9.76907e-92,
+                      "identity": 123,
+                      "positive": 123,
+                      "query_from": 1,
+                      "query_to": 123,
+                      "hit_from": 1,
+                      "hit_to": 123,
+                      "align_len": 123,
+                      "gaps": 0,
+                      "qseq": "MATFEEVSVLGFEEFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTLLKYGTPQKLVESECCQSSLVEMIFSED",
+                      "hseq": "MATFEEVSVLGFEEFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTLLKYGTPQKLVESECCQSSLVEMIFSED",
+                      "midline": "MATFEEVSVLGFEEFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTLLKYGTPQKLVESECCQSSLVEMIFSED"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q9BRA2|TXD17_HUMAN",
-                  "accession": "Q9BRA2",
-                  "title": "Thioredoxin domain-containing protein 17 OS=Homo sapiens OX=9606 GN=TXNDC17 PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|Q9BRA2|TXD17_HUMAN",
+                      "accession": "Q9BRA2",
+                      "title": "Thioredoxin domain-containing protein 17 OS=Homo sapiens OX=9606 GN=TXNDC17 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 123,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 220.32,
+                      "score": 560,
+                      "evalue": 4.68451e-78,
+                      "identity": 99,
+                      "positive": 114,
+                      "query_from": 1,
+                      "query_to": 123,
+                      "hit_from": 1,
+                      "hit_to": 123,
+                      "align_len": 123,
+                      "gaps": 0,
+                      "qseq": "MATFEEVSVLGFEEFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTLLKYGTPQKLVESECCQSSLVEMIFSED",
+                      "hseq": "MARYEEVSVSGFEEFHRAVEQHNGKTIFAYFTGSKDAGGKSWCPDCVQAEPVVREGLKHISEGCVFIYCQVGEKPYWKDPNNDFRKNLKVTAVPTLLKYGTPQKLVESECLQANLVEMLFSED",
+                      "midline": "MA +EEVSV GFEEF +AV++H GKTIFAYF+GSKD  GKSWCPDCV+AEPV+REGLKH++E CVFIYCQVG+KPYWKDPNNDFR+ LK+TAVPTLLKYGTPQKLVESEC Q++LVEM+FSED"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P20857|THIO2_NOSS1",
+                      "accession": "P20857",
+                      "title": "Thioredoxin 2 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=trxB PE=1 SV=3"
+                    }
+                  ],
+                  "len": 111,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.6386,
+                      "score": 52,
+                      "evalue": 0.0954546,
+                      "identity": 20,
+                      "positive": 32,
+                      "query_from": 14,
+                      "query_to": 96,
+                      "hit_from": 12,
+                      "hit_to": 79,
+                      "align_len": 83,
+                      "gaps": 15,
+                      "qseq": "EFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTL",
+                      "hseq": "EFESEVLKAE-QPVLVYFWAS-------WCGPCQLMSPLINLAANTYSDRLKVVKLEI-------DPNPTTVKKYKVEGVPAL",
+                      "midline": "EF+  V + E + +  YF  S       WC  C    P+I       ++    +  ++       DPN    +K K+  VP L"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P07824|ARGI1_RAT",
+                      "accession": "P07824",
+                      "title": "Arginase-1 OS=Rattus norvegicus OX=10116 GN=Arg1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 323,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.6386,
+                      "score": 52,
+                      "evalue": 0.145652,
+                      "identity": 12,
+                      "positive": 19,
+                      "query_from": 36,
+                      "query_to": 74,
+                      "hit_from": 158,
+                      "hit_to": 196,
+                      "align_len": 39,
+                      "gaps": 0,
+                      "qseq": "DTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDK",
+                      "hseq": "DVPGFSWVTPCISAKDIVYIGLRDVDPGEHYIIKTLGIK",
+                      "midline": "D  G SW   C+ A+ ++  GL+ V     +I   +G K"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "tr|Q53752|Q53752_KITAU",
+                      "accession": "Q53752",
+                      "title": "Ribonuclease OS=Kitasatospora aureofaciens OX=1894 GN=ribonuclease PE=1 SV=1"
+                    }
+                  ],
+                  "len": 163,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 0.79631,
+                      "identity": 11,
+                      "positive": 17,
+                      "query_from": 39,
+                      "query_to": 79,
+                      "hit_from": 61,
+                      "hit_to": 101,
+                      "align_len": 41,
+                      "gaps": 0,
+                      "qseq": "GKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKD",
+                      "hseq": "GGAWTPADPALADVCRTKLPSQAQDTLALIAKNGPYPYNRD",
+                      "midline": "G +W P       V R  L    +D + +  + G  PY +D"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q69ZQ2|ISY1_MOUSE",
+                      "accession": "Q69ZQ2",
+                      "title": "Pre-mRNA-splicing factor ISY1 homolog OS=Mus musculus OX=10090 GN=Isy1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 285,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 1.78774,
+                      "identity": 12,
+                      "positive": 18,
+                      "query_from": 21,
+                      "query_to": 52,
+                      "hit_from": 108,
+                      "hit_to": 141,
+                      "align_len": 37,
+                      "gaps": 8,
+                      "qseq": "EHEGKTI-----FAYFSGSKDTEGKSWCPDCVEAEPV",
+                      "hseq": "DHEGKEVPGNRGYKYFGAAKDLPG---VRELFEKEPL",
+                      "midline": "+HEGK +     + YF  +KD  G     +  E EP+"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P05618|CDGT_BACS0",
+                      "accession": "P05618",
+                      "title": "Cyclomaltodextrin glucanotransferase OS=Bacillus sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1"
+                    }
+                  ],
+                  "len": 713,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 2.20324,
+                      "identity": 19,
+                      "positive": 25,
+                      "query_from": 56,
+                      "query_to": 109,
+                      "hit_from": 329,
+                      "hit_to": 390,
+                      "align_len": 62,
+                      "gaps": 8,
+                      "qseq": "GLKHVTEDCVFIYCQVGDKPYWKD--------PNNDFRQKLKITAVPTLLKYGTPQKLVESE",
+                      "hseq": "GLKAMLEGSEVDYAQVNDQVTFIDNHDMERFHTSNGDRRKLEQALAFTLTSRGVPAIYYGSE",
+                      "midline": "GLK + E     Y QV D+  + D         +N  R+KL+     TL   G P     SE"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|Q9JLV6|PNKP_MOUSE",
+                      "accession": "Q9JLV6",
+                      "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
+                    }
+                  ],
+                  "len": 522,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 2.92218,
+                      "identity": 14,
+                      "positive": 22,
+                      "query_from": 55,
+                      "query_to": 105,
+                      "hit_from": 274,
+                      "hit_to": 326,
+                      "align_len": 53,
+                      "gaps": 2,
+                      "qseq": "EGLKHVTEDCVFIYCQVGDKPYWKD--PNNDFRQKLKITAVPTLLKYGTPQKL",
+                      "hseq": "EGIPISVEDSVFVGDAAGRLANWAPGRKKKDFSCADRLFALNVGLPFATPEEF",
+                      "midline": "EG+    ED VF+    G    W       DF    ++ A+   L + TP++ "
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P0AA25|THIO_ECOLI",
+                      "accession": "P0AA25",
+                      "title": "Thioredoxin 1 OS=Escherichia coli (strain K12) OX=83333 GN=trxA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 109,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 3.38157,
+                      "identity": 17,
+                      "positive": 29,
+                      "query_from": 13,
+                      "query_to": 99,
+                      "hit_from": 11,
+                      "hit_to": 82,
+                      "align_len": 87,
+                      "gaps": 15,
+                      "qseq": "EEFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTLLKY",
+                      "hseq": "DSFDTDVLKADGAILVDFWA--------EWCGPCKMIAPILDEIADEYQGKLTVAKLNI-------DQNPGTAPKYGIRGIPTLLLF",
+                      "midline": "+ FD  V + +G  +  +++         WC  C    P++ E               +       D N     K  I  +PTLL +"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|Q15797|SMAD1_HUMAN",
+                      "accession": "Q15797",
+                      "title": "Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 465,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 4.30287,
+                      "identity": 13,
+                      "positive": 18,
+                      "query_from": 54,
+                      "query_to": 89,
+                      "hit_from": 80,
+                      "hit_to": 104,
+                      "align_len": 36,
+                      "gaps": 11,
+                      "qseq": "REGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLK",
+                      "hseq": "RKGLPHV------IYCRV-----WRWPDLQSHHELK",
+                      "midline": "R+GL HV      IYC+V     W+ P+     +LK"
+                    }
+                  ]
+                },
+                {
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|P38507|SPA_STAAU",
+                      "accession": "P38507",
+                      "title": "Immunoglobulin G-binding protein A OS=Staphylococcus aureus OX=1280 GN=spa PE=1 SV=1"
+                    }
+                  ],
+                  "len": 508,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 6.62421,
+                      "identity": 13,
+                      "positive": 21,
+                      "query_from": 79,
+                      "query_to": 123,
+                      "hit_from": 59,
+                      "hit_to": 103,
+                      "align_len": 45,
+                      "gaps": 0,
+                      "qseq": "DPNNDFRQKLKITAVPTLLKYGTPQKLVESECCQSSLVEMIFSED",
+                      "hseq": "DQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPKADAQQNKFNKD",
+                      "midline": "D  N F Q LK     +    G  QKL +S+  ++   +  F++D"
+                    }
+                  ]
+                },
+                {
+                  "num": 12,
+                  "description": [
+                    {
+                      "id": "sp|P07254|CHIA_SERMA",
+                      "accession": "P07254",
+                      "title": "Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3"
+                    }
+                  ],
+                  "len": 563,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 7.73319,
+                      "identity": 7,
+                      "positive": 12,
+                      "query_from": 14,
+                      "query_to": 31,
+                      "hit_from": 147,
+                      "hit_to": 164,
+                      "align_len": 18,
+                      "gaps": 0,
+                      "qseq": "EFDKAVKEHEGKTIFAYF",
+                      "hseq": "EKNKPYKQNSGKVVGSYF",
+                      "midline": "E +K  K++ GK + +YF"
+                    }
+                  ]
+                },
+                {
+                  "num": 13,
+                  "description": [
+                    {
+                      "id": "sp|P74881|PUR4_SALTY",
+                      "accession": "P74881",
+                      "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1295,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 9.30749,
+                      "identity": 6,
+                      "positive": 8,
+                      "query_from": 67,
+                      "query_to": 75,
+                      "hit_from": 846,
+                      "hit_to": 854,
+                      "align_len": 9,
+                      "gaps": 0,
+                      "qseq": "IYCQVGDKP",
+                      "hseq": "VYRQLGDKP",
+                      "midline": "+Y Q+GDKP"
+                    }
+                  ]
                 }
               ],
-              "len": 123,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 220.32,
-                  "score": 560,
-                  "evalue": 4.68451e-78,
-                  "identity": 99,
-                  "positive": 114,
-                  "query_from": 1,
-                  "query_to": 123,
-                  "hit_from": 1,
-                  "hit_to": 123,
-                  "align_len": 123,
-                  "gaps": 0,
-                  "qseq": "MATFEEVSVLGFEEFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTLLKYGTPQKLVESECCQSSLVEMIFSED",
-                  "hseq": "MARYEEVSVSGFEEFHRAVEQHNGKTIFAYFTGSKDAGGKSWCPDCVQAEPVVREGLKHISEGCVFIYCQVGEKPYWKDPNNDFRKNLKVTAVPTLLKYGTPQKLVESECLQANLVEMLFSED",
-                  "midline": "MA +EEVSV GFEEF +AV++H GKTIFAYF+GSKD  GKSWCPDCV+AEPV+REGLKH++E CVFIYCQVG+KPYWKDPNNDFR+ LK+TAVPTLLKYGTPQKLVESEC Q++LVEM+FSED"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P20857|THIO2_NOSS1",
-                  "accession": "P20857",
-                  "title": "Thioredoxin 2 OS=Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576) OX=103690 GN=trxB PE=1 SV=3"
-                }
-              ],
-              "len": 111,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.6386,
-                  "score": 52,
-                  "evalue": 0.0954546,
-                  "identity": 20,
-                  "positive": 32,
-                  "query_from": 14,
-                  "query_to": 96,
-                  "hit_from": 12,
-                  "hit_to": 79,
-                  "align_len": 83,
-                  "gaps": 15,
-                  "qseq": "EFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTL",
-                  "hseq": "EFESEVLKAE-QPVLVYFWAS-------WCGPCQLMSPLINLAANTYSDRLKVVKLEI-------DPNPTTVKKYKVEGVPAL",
-                  "midline": "EF+  V + E + +  YF  S       WC  C    P+I       ++    +  ++       DPN    +K K+  VP L"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P07824|ARGI1_RAT",
-                  "accession": "P07824",
-                  "title": "Arginase-1 OS=Rattus norvegicus OX=10116 GN=Arg1 PE=1 SV=2"
-                }
-              ],
-              "len": 323,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.6386,
-                  "score": 52,
-                  "evalue": 0.145652,
-                  "identity": 12,
-                  "positive": 19,
-                  "query_from": 36,
-                  "query_to": 74,
-                  "hit_from": 158,
-                  "hit_to": 196,
-                  "align_len": 39,
-                  "gaps": 0,
-                  "qseq": "DTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDK",
-                  "hseq": "DVPGFSWVTPCISAKDIVYIGLRDVDPGEHYIIKTLGIK",
-                  "midline": "D  G SW   C+ A+ ++  GL+ V     +I   +G K"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "tr|Q53752|Q53752_KITAU",
-                  "accession": "Q53752",
-                  "title": "Ribonuclease OS=Kitasatospora aureofaciens OX=1894 GN=ribonuclease PE=1 SV=1"
-                }
-              ],
-              "len": 163,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 0.79631,
-                  "identity": 11,
-                  "positive": 17,
-                  "query_from": 39,
-                  "query_to": 79,
-                  "hit_from": 61,
-                  "hit_to": 101,
-                  "align_len": 41,
-                  "gaps": 0,
-                  "qseq": "GKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKD",
-                  "hseq": "GGAWTPADPALADVCRTKLPSQAQDTLALIAKNGPYPYNRD",
-                  "midline": "G +W P       V R  L    +D + +  + G  PY +D"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q69ZQ2|ISY1_MOUSE",
-                  "accession": "Q69ZQ2",
-                  "title": "Pre-mRNA-splicing factor ISY1 homolog OS=Mus musculus OX=10090 GN=Isy1 PE=1 SV=2"
-                }
-              ],
-              "len": 285,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 1.78774,
-                  "identity": 12,
-                  "positive": 18,
-                  "query_from": 21,
-                  "query_to": 52,
-                  "hit_from": 108,
-                  "hit_to": 141,
-                  "align_len": 37,
-                  "gaps": 8,
-                  "qseq": "EHEGKTI-----FAYFSGSKDTEGKSWCPDCVEAEPV",
-                  "hseq": "DHEGKEVPGNRGYKYFGAAKDLPG---VRELFEKEPL",
-                  "midline": "+HEGK +     + YF  +KD  G     +  E EP+"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P05618|CDGT_BACS0",
-                  "accession": "P05618",
-                  "title": "Cyclomaltodextrin glucanotransferase OS=Bacillus sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1"
-                }
-              ],
-              "len": 713,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 2.20324,
-                  "identity": 19,
-                  "positive": 25,
-                  "query_from": 56,
-                  "query_to": 109,
-                  "hit_from": 329,
-                  "hit_to": 390,
-                  "align_len": 62,
-                  "gaps": 8,
-                  "qseq": "GLKHVTEDCVFIYCQVGDKPYWKD--------PNNDFRQKLKITAVPTLLKYGTPQKLVESE",
-                  "hseq": "GLKAMLEGSEVDYAQVNDQVTFIDNHDMERFHTSNGDRRKLEQALAFTLTSRGVPAIYYGSE",
-                  "midline": "GLK + E     Y QV D+  + D         +N  R+KL+     TL   G P     SE"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|Q9JLV6|PNKP_MOUSE",
-                  "accession": "Q9JLV6",
-                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
-                }
-              ],
-              "len": 522,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 2.92218,
-                  "identity": 14,
-                  "positive": 22,
-                  "query_from": 55,
-                  "query_to": 105,
-                  "hit_from": 274,
-                  "hit_to": 326,
-                  "align_len": 53,
-                  "gaps": 2,
-                  "qseq": "EGLKHVTEDCVFIYCQVGDKPYWKD--PNNDFRQKLKITAVPTLLKYGTPQKL",
-                  "hseq": "EGIPISVEDSVFVGDAAGRLANWAPGRKKKDFSCADRLFALNVGLPFATPEEF",
-                  "midline": "EG+    ED VF+    G    W       DF    ++ A+   L + TP++ "
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|P0AA25|THIO_ECOLI",
-                  "accession": "P0AA25",
-                  "title": "Thioredoxin 1 OS=Escherichia coli (strain K12) OX=83333 GN=trxA PE=1 SV=2"
-                }
-              ],
-              "len": 109,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 3.38157,
-                  "identity": 17,
-                  "positive": 29,
-                  "query_from": 13,
-                  "query_to": 99,
-                  "hit_from": 11,
-                  "hit_to": 82,
-                  "align_len": 87,
-                  "gaps": 15,
-                  "qseq": "EEFDKAVKEHEGKTIFAYFSGSKDTEGKSWCPDCVEAEPVIREGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLKITAVPTLLKY",
-                  "hseq": "DSFDTDVLKADGAILVDFWA--------EWCGPCKMIAPILDEIADEYQGKLTVAKLNI-------DQNPGTAPKYGIRGIPTLLLF",
-                  "midline": "+ FD  V + +G  +  +++         WC  C    P++ E               +       D N     K  I  +PTLL +"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|Q15797|SMAD1_HUMAN",
-                  "accession": "Q15797",
-                  "title": "Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1"
-                }
-              ],
-              "len": 465,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 4.30287,
-                  "identity": 13,
-                  "positive": 18,
-                  "query_from": 54,
-                  "query_to": 89,
-                  "hit_from": 80,
-                  "hit_to": 104,
-                  "align_len": 36,
-                  "gaps": 11,
-                  "qseq": "REGLKHVTEDCVFIYCQVGDKPYWKDPNNDFRQKLK",
-                  "hseq": "RKGLPHV------IYCRV-----WRWPDLQSHHELK",
-                  "midline": "R+GL HV      IYC+V     W+ P+     +LK"
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|P38507|SPA_STAAU",
-                  "accession": "P38507",
-                  "title": "Immunoglobulin G-binding protein A OS=Staphylococcus aureus OX=1280 GN=spa PE=1 SV=1"
-                }
-              ],
-              "len": 508,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 6.62421,
-                  "identity": 13,
-                  "positive": 21,
-                  "query_from": 79,
-                  "query_to": 123,
-                  "hit_from": 59,
-                  "hit_to": 103,
-                  "align_len": 45,
-                  "gaps": 0,
-                  "qseq": "DPNNDFRQKLKITAVPTLLKYGTPQKLVESECCQSSLVEMIFSED",
-                  "hseq": "DQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPKADAQQNKFNKD",
-                  "midline": "D  N F Q LK     +    G  QKL +S+  ++   +  F++D"
-                }
-              ]
-            },
-            {
-              "num": 12,
-              "description": [
-                {
-                  "id": "sp|P07254|CHIA_SERMA",
-                  "accession": "P07254",
-                  "title": "Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3"
-                }
-              ],
-              "len": 563,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 7.73319,
-                  "identity": 7,
-                  "positive": 12,
-                  "query_from": 14,
-                  "query_to": 31,
-                  "hit_from": 147,
-                  "hit_to": 164,
-                  "align_len": 18,
-                  "gaps": 0,
-                  "qseq": "EFDKAVKEHEGKTIFAYF",
-                  "hseq": "EKNKPYKQNSGKVVGSYF",
-                  "midline": "E +K  K++ GK + +YF"
-                }
-              ]
-            },
-            {
-              "num": 13,
-              "description": [
-                {
-                  "id": "sp|P74881|PUR4_SALTY",
-                  "accession": "P74881",
-                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
-                }
-              ],
-              "len": 1295,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 9.30749,
-                  "identity": 6,
-                  "positive": 8,
-                  "query_from": 67,
-                  "query_to": 75,
-                  "hit_from": 846,
-                  "hit_to": 854,
-                  "align_len": 9,
-                  "gaps": 0,
-                  "qseq": "IYCQVGDKP",
-                  "hseq": "VYRQLGDKP",
-                  "midline": "+Y Q+GDKP"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 56,
+                "eff_space": 4758206,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 56,
-            "eff_space": 4758206,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

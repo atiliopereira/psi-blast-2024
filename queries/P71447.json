@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,249 +17,254 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P71447|PGMB_LACLA Beta-phosphoglucomutase OS=Lactococcus lactis subsp. lactis (strain IL1403) OX=272623 GN=pgmB PE=1 SV=2",
-          "query_len": 221,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P71447|PGMB_LACLA",
-                  "accession": "P71447",
-                  "title": "Beta-phosphoglucomutase OS=Lactococcus lactis subsp. lactis (strain IL1403) OX=272623 GN=pgmB PE=1 SV=2"
-                }
-              ],
-              "len": 221,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P71447|PGMB_LACLA Beta-phosphoglucomutase OS=Lactococcus lactis subsp. lactis (strain IL1403) OX=272623 GN=pgmB PE=1 SV=2",
+              "query_len": 221,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 444.121,
-                  "score": 1141,
-                  "evalue": 2.14181e-163,
-                  "identity": 221,
-                  "positive": 221,
-                  "query_from": 1,
-                  "query_to": 221,
-                  "hit_from": 1,
-                  "hit_to": 221,
-                  "align_len": 221,
-                  "gaps": 0,
-                  "qseq": "MFKAVLFDLDGVITDTAEYHFRAWKALAEEIGINGVDRQFNEQLKGVSREDSLQKILDLADKKVSAEEFKELAKRKNDNYVKMIQDVSPADVYPGILQLLKDLRSNKIKIALASASKNGPFLLEKMNLTGYFDAIADPAEVAASKPAPDIFIAAAHAVGVAPSESIGLEDSQAGIQAIKDSGALPIGVGRPEDLGDDIVIVPDTSYYTLEFLKEVWLQKQK",
-                  "hseq": "MFKAVLFDLDGVITDTAEYHFRAWKALAEEIGINGVDRQFNEQLKGVSREDSLQKILDLADKKVSAEEFKELAKRKNDNYVKMIQDVSPADVYPGILQLLKDLRSNKIKIALASASKNGPFLLEKMNLTGYFDAIADPAEVAASKPAPDIFIAAAHAVGVAPSESIGLEDSQAGIQAIKDSGALPIGVGRPEDLGDDIVIVPDTSYYTLEFLKEVWLQKQK",
-                  "midline": "MFKAVLFDLDGVITDTAEYHFRAWKALAEEIGINGVDRQFNEQLKGVSREDSLQKILDLADKKVSAEEFKELAKRKNDNYVKMIQDVSPADVYPGILQLLKDLRSNKIKIALASASKNGPFLLEKMNLTGYFDAIADPAEVAASKPAPDIFIAAAHAVGVAPSESIGLEDSQAGIQAIKDSGALPIGVGRPEDLGDDIVIVPDTSYYTLEFLKEVWLQKQK"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "tr|A9CJW3|A9CJW3_AGRFC",
-                  "accession": "A9CJW3",
-                  "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
-                }
-              ],
-              "len": 229,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 50.0618,
-                  "score": 118,
-                  "evalue": 1.22684e-09,
-                  "identity": 51,
-                  "positive": 85,
-                  "query_from": 2,
-                  "query_to": 187,
-                  "hit_from": 4,
-                  "hit_to": 185,
-                  "align_len": 189,
-                  "gaps": 10,
-                  "qseq": "FKAVLFDLDGVITDTAEYHFRAWKALAEEIGINGVDRQFNEQLKGVSREDSLQKILDLADKKVSAEEFKELAKRKNDNYVKMIQDVSPADVYPGILQLLKDLRSNKIKIALASASKNGPFLLEKMNLTGYF-DAIADPAEVAAS--KPAPDIFIAAAHAVGVAPSESIGLEDSQAGIQAIKDSGALPIG",
-                  "hseq": "FDLIIFDCDGVLVDSEIIAAQVESRLLTEAGYPISVEEMGERFAGMTWKNILLQVESEASIPLSASLLDKSEKLLD---MRLERDVKIID---GVKFALSRLTTPRC-ICSNSSSHRLDMMLTKVGLKPYFAPHIYSAKDLGADRVKPKPDIFLHGAAQFGVSPDRVVVVEDSVHGIHGARAAGMRVIG",
-                  "midline": "F  ++FD DGV+ D+     +    L  E G      +  E+  G++ ++ L ++   A   +SA    +  K  +   +++ +DV   D   G+   L  L + +  I   S+S     +L K+ L  YF   I    ++ A   KP PDIF+  A   GV+P   + +EDS  GI   + +G   IG"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q12888|TP53B_HUMAN",
-                  "accession": "Q12888",
-                  "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
-                }
-              ],
-              "len": 1972,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 26.1794,
-                  "score": 56,
-                  "evalue": 0.15498,
-                  "identity": 16,
-                  "positive": 27,
-                  "query_from": 123,
-                  "query_to": 185,
-                  "hit_from": 339,
-                  "hit_to": 404,
-                  "align_len": 66,
-                  "gaps": 3,
-                  "qseq": "LEKMNLTGYFDAIADPAEVAASK---PAPDIFIAAAHAVGVAPSESIGLEDSQAGIQAIKDSGALP",
-                  "hseq": "LHLLQLSGQRSLVQDSLSTNSSDLVAPSPDAFRSTPFIVPSSPTEQEGRQDKPMDTSVLSEEGGEP",
-                  "midline": "L  + L+G    + D     +S    P+PD F +    V  +P+E  G +D       + + G  P"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P40818|UBP8_HUMAN",
-                  "accession": "P40818",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
-                }
-              ],
-              "len": 1118,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 2.59285,
-                  "identity": 14,
-                  "positive": 23,
-                  "query_from": 16,
-                  "query_to": 61,
-                  "hit_from": 839,
-                  "hit_to": 878,
-                  "align_len": 46,
-                  "gaps": 6,
-                  "qseq": "TAEYHFRAWKALAEEIGINGVDRQFNEQLKGVSREDSLQKILDLAD",
-                  "hseq": "TGQYRYISPKDFKITIG------KINDQFAGYSQQDSQELLLFLMD",
-                  "midline": "T +Y + + K     IG      + N+Q  G S++DS + +L L D"
+                  "description": [
+                    {
+                      "id": "sp|P71447|PGMB_LACLA",
+                      "accession": "P71447",
+                      "title": "Beta-phosphoglucomutase OS=Lactococcus lactis subsp. lactis (strain IL1403) OX=272623 GN=pgmB PE=1 SV=2"
+                    }
+                  ],
+                  "len": 221,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 444.121,
+                      "score": 1141,
+                      "evalue": 2.14181e-163,
+                      "identity": 221,
+                      "positive": 221,
+                      "query_from": 1,
+                      "query_to": 221,
+                      "hit_from": 1,
+                      "hit_to": 221,
+                      "align_len": 221,
+                      "gaps": 0,
+                      "qseq": "MFKAVLFDLDGVITDTAEYHFRAWKALAEEIGINGVDRQFNEQLKGVSREDSLQKILDLADKKVSAEEFKELAKRKNDNYVKMIQDVSPADVYPGILQLLKDLRSNKIKIALASASKNGPFLLEKMNLTGYFDAIADPAEVAASKPAPDIFIAAAHAVGVAPSESIGLEDSQAGIQAIKDSGALPIGVGRPEDLGDDIVIVPDTSYYTLEFLKEVWLQKQK",
+                      "hseq": "MFKAVLFDLDGVITDTAEYHFRAWKALAEEIGINGVDRQFNEQLKGVSREDSLQKILDLADKKVSAEEFKELAKRKNDNYVKMIQDVSPADVYPGILQLLKDLRSNKIKIALASASKNGPFLLEKMNLTGYFDAIADPAEVAASKPAPDIFIAAAHAVGVAPSESIGLEDSQAGIQAIKDSGALPIGVGRPEDLGDDIVIVPDTSYYTLEFLKEVWLQKQK",
+                      "midline": "MFKAVLFDLDGVITDTAEYHFRAWKALAEEIGINGVDRQFNEQLKGVSREDSLQKILDLADKKVSAEEFKELAKRKNDNYVKMIQDVSPADVYPGILQLLKDLRSNKIKIALASASKNGPFLLEKMNLTGYFDAIADPAEVAASKPAPDIFIAAAHAVGVAPSESIGLEDSQAGIQAIKDSGALPIGVGRPEDLGDDIVIVPDTSYYTLEFLKEVWLQKQK"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 4.38437,
-                  "identity": 22,
-                  "positive": 31,
-                  "query_from": 3,
-                  "query_to": 68,
-                  "hit_from": 447,
-                  "hit_to": 511,
-                  "align_len": 69,
-                  "gaps": 7,
-                  "qseq": "KAVLFDLDGVITDTAEYHFRAWKALAEEIGINGV---DRQFNEQLKGVSREDSLQKILDLADKKVSAEE",
-                  "hseq": "KPVVFSPTLMLTDEEKARIHAETALLMEKNKQEKELRERQQEEQKEKLRKEEQEQK----AKKKQEAEE",
-                  "midline": "K V+F    ++TD  +    A  AL  E         +RQ  EQ + + +E+  QK    A KK  AEE"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
+                  "description": [
+                    {
+                      "id": "tr|A9CJW3|A9CJW3_AGRFC",
+                      "accession": "A9CJW3",
+                      "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 229,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 50.0618,
+                      "score": 118,
+                      "evalue": 1.22684e-09,
+                      "identity": 51,
+                      "positive": 85,
+                      "query_from": 2,
+                      "query_to": 187,
+                      "hit_from": 4,
+                      "hit_to": 185,
+                      "align_len": 189,
+                      "gaps": 10,
+                      "qseq": "FKAVLFDLDGVITDTAEYHFRAWKALAEEIGINGVDRQFNEQLKGVSREDSLQKILDLADKKVSAEEFKELAKRKNDNYVKMIQDVSPADVYPGILQLLKDLRSNKIKIALASASKNGPFLLEKMNLTGYF-DAIADPAEVAAS--KPAPDIFIAAAHAVGVAPSESIGLEDSQAGIQAIKDSGALPIG",
+                      "hseq": "FDLIIFDCDGVLVDSEIIAAQVESRLLTEAGYPISVEEMGERFAGMTWKNILLQVESEASIPLSASLLDKSEKLLD---MRLERDVKIID---GVKFALSRLTTPRC-ICSNSSSHRLDMMLTKVGLKPYFAPHIYSAKDLGADRVKPKPDIFLHGAAQFGVSPDRVVVVEDSVHGIHGARAAGMRVIG",
+                      "midline": "F  ++FD DGV+ D+     +    L  E G      +  E+  G++ ++ L ++   A   +SA    +  K  +   +++ +DV   D   G+   L  L + +  I   S+S     +L K+ L  YF   I    ++ A   KP PDIF+  A   GV+P   + +EDS  GI   + +G   IG"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P38398|BRCA1_HUMAN",
-                  "accession": "P38398",
-                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q12888|TP53B_HUMAN",
+                      "accession": "Q12888",
+                      "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1972,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 26.1794,
+                      "score": 56,
+                      "evalue": 0.15498,
+                      "identity": 16,
+                      "positive": 27,
+                      "query_from": 123,
+                      "query_to": 185,
+                      "hit_from": 339,
+                      "hit_to": 404,
+                      "align_len": 66,
+                      "gaps": 3,
+                      "qseq": "LEKMNLTGYFDAIADPAEVAASK---PAPDIFIAAAHAVGVAPSESIGLEDSQAGIQAIKDSGALP",
+                      "hseq": "LHLLQLSGQRSLVQDSLSTNSSDLVAPSPDAFRSTPFIVPSSPTEQEGRQDKPMDTSVLSEEGGEP",
+                      "midline": "L  + L+G    + D     +S    P+PD F +    V  +P+E  G +D       + + G  P"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P40818|UBP8_HUMAN",
+                      "accession": "P40818",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 1118,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 2.59285,
+                      "identity": 14,
+                      "positive": 23,
+                      "query_from": 16,
+                      "query_to": 61,
+                      "hit_from": 839,
+                      "hit_to": 878,
+                      "align_len": 46,
+                      "gaps": 6,
+                      "qseq": "TAEYHFRAWKALAEEIGINGVDRQFNEQLKGVSREDSLQKILDLAD",
+                      "hseq": "TGQYRYISPKDFKITIG------KINDQFAGYSQQDSQELLLFLMD",
+                      "midline": "T +Y + + K     IG      + N+Q  G S++DS + +L L D"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 4.38437,
+                      "identity": 22,
+                      "positive": 31,
+                      "query_from": 3,
+                      "query_to": 68,
+                      "hit_from": 447,
+                      "hit_to": 511,
+                      "align_len": 69,
+                      "gaps": 7,
+                      "qseq": "KAVLFDLDGVITDTAEYHFRAWKALAEEIGINGV---DRQFNEQLKGVSREDSLQKILDLADKKVSAEE",
+                      "hseq": "KPVVFSPTLMLTDEEKARIHAETALLMEKNKQEKELRERQQEEQKEKLRKEEQEQK----AKKKQEAEE",
+                      "midline": "K V+F    ++TD  +    A  AL  E         +RQ  EQ + + +E+  QK    A KK  AEE"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P38398|BRCA1_HUMAN",
+                      "accession": "P38398",
+                      "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1863,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 9.059,
+                      "identity": 12,
+                      "positive": 16,
+                      "query_from": 176,
+                      "query_to": 206,
+                      "hit_from": 1135,
+                      "hit_to": 1165,
+                      "align_len": 31,
+                      "gaps": 0,
+                      "qseq": "QAIKDSGALPIGVGRPEDLGDDIVIVPDTSY",
+                      "hseq": "QPMGSSHASQVCSETPDDLLDDGEIKEDTSF",
+                      "midline": "Q +  S A  +    P+DL DD  I  DTS+"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P63018|HSP7C_RAT",
+                      "accession": "P63018",
+                      "title": "Heat shock cognate 71 kDa protein OS=Rattus norvegicus OX=10116 GN=Hspa8 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 646,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 9.16622,
+                      "identity": 19,
+                      "positive": 28,
+                      "query_from": 41,
+                      "query_to": 85,
+                      "hit_from": 555,
+                      "hit_to": 612,
+                      "align_len": 58,
+                      "gaps": 13,
+                      "qseq": "NEQLKGVSREDSLQKILDLADKKVS---------AEEF----KELAKRKNDNYVKMIQ",
+                      "hseq": "DEKLQGKINDEDKQKILDKCNEIISWLDKNQTAEKEEFEHQQKELEKVCNPIITKLYQ",
+                      "midline": "+E+L+G   ++  QKILD  ++ +S          EEF    KEL K  N    K+ Q"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P26222|GUN2_THEFU",
+                      "accession": "P26222",
+                      "title": "Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2"
+                    }
+                  ],
+                  "len": 441,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 9.48266,
+                      "identity": 20,
+                      "positive": 30,
+                      "query_from": 101,
+                      "query_to": 165,
+                      "hit_from": 53,
+                      "hit_to": 123,
+                      "align_len": 71,
+                      "gaps": 6,
+                      "qseq": "KDLRSNKIKIALASASKNGPFLLEKMN-LTGYFDAIADPAEVAASKPAPDIFIAAA-----HAVGVAPSES",
+                      "hseq": "NDPRTPVIRDRIASVPQGTWFAHHNPGQITGQVDALMSAAQAAGKIPILVVYNAPGRDCGNHSSGGAPSHS",
+                      "midline": " D R+  I+  +AS  +   F       +TG  DA+   A+ A   P   ++ A       H+ G APS S"
+                    }
+                  ]
                 }
               ],
-              "len": 1863,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 9.059,
-                  "identity": 12,
-                  "positive": 16,
-                  "query_from": 176,
-                  "query_to": 206,
-                  "hit_from": 1135,
-                  "hit_to": 1165,
-                  "align_len": 31,
-                  "gaps": 0,
-                  "qseq": "QAIKDSGALPIGVGRPEDLGDDIVIVPDTSY",
-                  "hseq": "QPMGSSHASQVCSETPDDLLDDGEIKEDTSF",
-                  "midline": "Q +  S A  +    P+DL DD  I  DTS+"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P63018|HSP7C_RAT",
-                  "accession": "P63018",
-                  "title": "Heat shock cognate 71 kDa protein OS=Rattus norvegicus OX=10116 GN=Hspa8 PE=1 SV=1"
-                }
-              ],
-              "len": 646,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 9.16622,
-                  "identity": 19,
-                  "positive": 28,
-                  "query_from": 41,
-                  "query_to": 85,
-                  "hit_from": 555,
-                  "hit_to": 612,
-                  "align_len": 58,
-                  "gaps": 13,
-                  "qseq": "NEQLKGVSREDSLQKILDLADKKVS---------AEEF----KELAKRKNDNYVKMIQ",
-                  "hseq": "DEKLQGKINDEDKQKILDKCNEIISWLDKNQTAEKEEFEHQQKELEKVCNPIITKLYQ",
-                  "midline": "+E+L+G   ++  QKILD  ++ +S          EEF    KEL K  N    K+ Q"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P26222|GUN2_THEFU",
-                  "accession": "P26222",
-                  "title": "Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2"
-                }
-              ],
-              "len": 441,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 9.48266,
-                  "identity": 20,
-                  "positive": 30,
-                  "query_from": 101,
-                  "query_to": 165,
-                  "hit_from": 53,
-                  "hit_to": 123,
-                  "align_len": 71,
-                  "gaps": 6,
-                  "qseq": "KDLRSNKIKIALASASKNGPFLLEKMN-LTGYFDAIADPAEVAASKPAPDIFIAAA-----HAVGVAPSES",
-                  "hseq": "NDPRTPVIRDRIASVPQGTWFAHHNPGQITGQVDALMSAAQAAGKIPILVVYNAPGRDCGNHSSGGAPSHS",
-                  "midline": " D R+  I+  +AS  +   F       +TG  DA+   A+ A   P   ++ A       H+ G APS S"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 62,
+                "eff_space": 11092476,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 62,
-            "eff_space": 11092476,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

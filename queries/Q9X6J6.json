@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,352 +17,357 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q9X6J6|MTRB_GEOSE Transcription attenuation protein MtrB OS=Geobacillus stearothermophilus OX=1422 GN=mtrB PE=1 SV=1",
-          "query_len": 74,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q9X6J6|MTRB_GEOSE",
-                  "accession": "Q9X6J6",
-                  "title": "Transcription attenuation protein MtrB OS=Geobacillus stearothermophilus OX=1422 GN=mtrB PE=1 SV=1"
-                }
-              ],
-              "len": 74,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q9X6J6|MTRB_GEOSE Transcription attenuation protein MtrB OS=Geobacillus stearothermophilus OX=1422 GN=mtrB PE=1 SV=1",
+              "query_len": 74,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 150.984,
-                  "score": 380,
-                  "evalue": 3.97144e-52,
-                  "identity": 74,
-                  "positive": 74,
-                  "query_from": 1,
-                  "query_to": 74,
-                  "hit_from": 1,
-                  "hit_to": 74,
-                  "align_len": 74,
-                  "gaps": 0,
-                  "qseq": "MYTNSDFVVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFTEHTSAIKVRGKAYIQTRHGVIESEGKK",
-                  "hseq": "MYTNSDFVVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFTEHTSAIKVRGKAYIQTRHGVIESEGKK",
-                  "midline": "MYTNSDFVVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFTEHTSAIKVRGKAYIQTRHGVIESEGKK"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|Q9X6J6|MTRB_GEOSE",
+                      "accession": "Q9X6J6",
+                      "title": "Transcription attenuation protein MtrB OS=Geobacillus stearothermophilus OX=1422 GN=mtrB PE=1 SV=1"
+                    }
+                  ],
+                  "len": 74,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 150.984,
+                      "score": 380,
+                      "evalue": 3.97144e-52,
+                      "identity": 74,
+                      "positive": 74,
+                      "query_from": 1,
+                      "query_to": 74,
+                      "hit_from": 1,
+                      "hit_to": 74,
+                      "align_len": 74,
+                      "gaps": 0,
+                      "qseq": "MYTNSDFVVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFTEHTSAIKVRGKAYIQTRHGVIESEGKK",
+                      "hseq": "MYTNSDFVVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFTEHTSAIKVRGKAYIQTRHGVIESEGKK",
+                      "midline": "MYTNSDFVVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFTEHTSAIKVRGKAYIQTRHGVIESEGKK"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P19466|MTRB_BACSU",
-                  "accession": "P19466",
-                  "title": "Transcription attenuation protein MtrB OS=Bacillus subtilis (strain 168) OX=224308 GN=mtrB PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P19466|MTRB_BACSU",
+                      "accession": "P19466",
+                      "title": "Transcription attenuation protein MtrB OS=Bacillus subtilis (strain 168) OX=224308 GN=mtrB PE=1 SV=1"
+                    }
+                  ],
+                  "len": 75,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 117.087,
+                      "score": 292,
+                      "evalue": 9.85144e-39,
+                      "identity": 57,
+                      "positive": 65,
+                      "query_from": 4,
+                      "query_to": 73,
+                      "hit_from": 6,
+                      "hit_to": 75,
+                      "align_len": 70,
+                      "gaps": 0,
+                      "qseq": "NSDFVVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFTEHTSAIKVRGKAYIQTRHGVIESEGK",
+                      "hseq": "SSDFVVIKAVEDGVNVIGLTRGTDTKFHHSEKLDKGEVIIAQFTEHTSAIKVRGEALIQTAYGEMKSEKK",
+                      "midline": "+SDFVVIKA+EDGVNVIGLTRG DT+FHHSEKLDKGEV+IAQFTEHTSAIKVRG+A IQT +G ++SE K"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q8VDG3|PARN_MOUSE",
+                      "accession": "Q8VDG3",
+                      "title": "Poly(A)-specific ribonuclease PARN OS=Mus musculus OX=10090 GN=Parn PE=1 SV=1"
+                    }
+                  ],
+                  "len": 624,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 0.111115,
+                      "identity": 17,
+                      "positive": 23,
+                      "query_from": 5,
+                      "query_to": 46,
+                      "hit_from": 22,
+                      "hit_to": 69,
+                      "align_len": 48,
+                      "gaps": 6,
+                      "qseq": "SDFVVI----KALEDGVNVIGLTRGADTRFHHSEKLDKG--EVLIAQF",
+                      "hseq": "ADFFAIDGEFSGISDGPSVTALTSGFDTPEERYQKLKKHSMDFLLFQF",
+                      "midline": "+DF  I      + DG +V  LT G DT     +KL K   + L+ QF"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P0C6U8|R1A_SARS",
+                      "accession": "P0C6U8",
+                      "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                    }
+                  ],
+                  "len": 4382,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 0.864473,
+                      "identity": 20,
+                      "positive": 29,
+                      "query_from": 8,
+                      "query_to": 62,
+                      "hit_from": 681,
+                      "hit_to": 728,
+                      "align_len": 55,
+                      "gaps": 7,
+                      "qseq": "VVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFTEHTSAIKVRGKAYIQ",
+                      "hseq": "VVNKALEMCIDQVTIA-GAKLR-----SLNLGEVFIAQ-SKGLYRQCIRGKEQLQ",
+                      "midline": "VV KALE  ++ + +  GA  R      L+ GEV IAQ ++      +RGK  +Q"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "tr|A9CJW3|A9CJW3_AGRFC",
+                      "accession": "A9CJW3",
+                      "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 229,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 1.45132,
+                      "identity": 13,
+                      "positive": 23,
+                      "query_from": 16,
+                      "query_to": 53,
+                      "hit_from": 180,
+                      "hit_to": 219,
+                      "align_len": 40,
+                      "gaps": 2,
+                      "qseq": "GVNVIGLTRGADTRFHHSEKL-DKG-EVLIAQFTEHTSAI",
+                      "hseq": "GMRVIGFTGASHTYPSHADRLTDAGAETVISRMQDLPAVI",
+                      "midline": "G+ VIG T  + T   H+++L D G E +I++  +  + I"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P10688|PLCD1_RAT",
+                      "accession": "P10688",
+                      "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 756,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 4.31277,
+                      "identity": 7,
+                      "positive": 15,
+                      "query_from": 1,
+                      "query_to": 26,
+                      "hit_from": 1,
+                      "hit_to": 26,
+                      "align_len": 26,
+                      "gaps": 0,
+                      "qseq": "MYTNSDFVVIKALEDGVNVIGLTRGA",
+                      "hseq": "MDSGRDFLTLHGLQDDPDLQALLKGS",
+                      "midline": "M +  DF+ +  L+D  ++  L +G+"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P00717|LYG_CYGAT",
+                      "accession": "P00717",
+                      "title": "Lysozyme g OS=Cygnus atratus OX=8868 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 185,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 4.89042,
+                      "identity": 14,
+                      "positive": 17,
+                      "query_from": 8,
+                      "query_to": 47,
+                      "hit_from": 79,
+                      "hit_to": 117,
+                      "align_len": 40,
+                      "gaps": 1,
+                      "qseq": "VVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFT",
+                      "hseq": "VLKNGWGDRGNGFGLMQ-VDKRSHKPQGTWNGEVHITQGT",
+                      "midline": "V+     D  N  GL +  D R H  +    GEV I Q T"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P00718|LYG_ANSAN",
+                      "accession": "P00718",
+                      "title": "Lysozyme g OS=Anser anser anser OX=8844 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 185,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 4.98795,
+                      "identity": 14,
+                      "positive": 17,
+                      "query_from": 8,
+                      "query_to": 47,
+                      "hit_from": 79,
+                      "hit_to": 117,
+                      "align_len": 40,
+                      "gaps": 1,
+                      "qseq": "VVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFT",
+                      "hseq": "VLKNGWGDRGNGFGLMQ-VDKRSHKPQGTWNGEVHITQGT",
+                      "midline": "V+     D  N  GL +  D R H  +    GEV I Q T"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|Q8U192|THIE_PYRFU",
+                      "accession": "Q8U192",
+                      "title": "Thiamine-phosphate synthase OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=thiE PE=1 SV=1"
+                    }
+                  ],
+                  "len": 207,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 5.70687,
+                      "identity": 11,
+                      "positive": 16,
+                      "query_from": 9,
+                      "query_to": 38,
+                      "hit_from": 171,
+                      "hit_to": 200,
+                      "align_len": 30,
+                      "gaps": 0,
+                      "qseq": "VIKALEDGVNVIGLTRGADTRFHHSEKLDK",
+                      "hseq": "VLKTGVDGIAVISAVMGAEDVRKATEELRK",
+                      "midline": "V+K   DG+ VI    GA+     +E+L K"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P0A6F9|CH10_ECOLI",
+                      "accession": "P0A6F9",
+                      "title": "Co-chaperonin GroES OS=Escherichia coli (strain K12) OX=83333 GN=groES PE=1 SV=1"
+                    }
+                  ],
+                  "len": 97,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.4754,
+                      "score": 36,
+                      "evalue": 6.50403,
+                      "identity": 8,
+                      "positive": 9,
+                      "query_from": 33,
+                      "query_to": 43,
+                      "hit_from": 75,
+                      "hit_to": 85,
+                      "align_len": 11,
+                      "gaps": 0,
+                      "qseq": "SEKLDKGEVLI",
+                      "hseq": "SEKIDNEEVLI",
+                      "midline": "SEK+D  EVLI"
+                    }
+                  ]
+                },
+                {
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|P36924|AMYB_BACCE",
+                      "accession": "P36924",
+                      "title": "Beta-amylase OS=Bacillus cereus OX=1396 GN=spoII PE=1 SV=2"
+                    }
+                  ],
+                  "len": 546,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.4754,
+                      "score": 36,
+                      "evalue": 7.60279,
+                      "identity": 6,
+                      "positive": 13,
+                      "query_from": 53,
+                      "query_to": 73,
+                      "hit_from": 276,
+                      "hit_to": 296,
+                      "align_len": 21,
+                      "gaps": 0,
+                      "qseq": "IKVRGKAYIQTRHGVIESEGK",
+                      "hseq": "LSMYGKDYLEWYQGILENHTK",
+                      "midline": "+ + GK Y++   G++E+  K"
+                    }
+                  ]
                 }
               ],
-              "len": 75,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 117.087,
-                  "score": 292,
-                  "evalue": 9.85144e-39,
-                  "identity": 57,
-                  "positive": 65,
-                  "query_from": 4,
-                  "query_to": 73,
-                  "hit_from": 6,
-                  "hit_to": 75,
-                  "align_len": 70,
-                  "gaps": 0,
-                  "qseq": "NSDFVVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFTEHTSAIKVRGKAYIQTRHGVIESEGK",
-                  "hseq": "SSDFVVIKAVEDGVNVIGLTRGTDTKFHHSEKLDKGEVIIAQFTEHTSAIKVRGEALIQTAYGEMKSEKK",
-                  "midline": "+SDFVVIKA+EDGVNVIGLTRG DT+FHHSEKLDKGEV+IAQFTEHTSAIKVRG+A IQT +G ++SE K"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q8VDG3|PARN_MOUSE",
-                  "accession": "Q8VDG3",
-                  "title": "Poly(A)-specific ribonuclease PARN OS=Mus musculus OX=10090 GN=Parn PE=1 SV=1"
-                }
-              ],
-              "len": 624,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 0.111115,
-                  "identity": 17,
-                  "positive": 23,
-                  "query_from": 5,
-                  "query_to": 46,
-                  "hit_from": 22,
-                  "hit_to": 69,
-                  "align_len": 48,
-                  "gaps": 6,
-                  "qseq": "SDFVVI----KALEDGVNVIGLTRGADTRFHHSEKLDKG--EVLIAQF",
-                  "hseq": "ADFFAIDGEFSGISDGPSVTALTSGFDTPEERYQKLKKHSMDFLLFQF",
-                  "midline": "+DF  I      + DG +V  LT G DT     +KL K   + L+ QF"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P0C6U8|R1A_SARS",
-                  "accession": "P0C6U8",
-                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
-                }
-              ],
-              "len": 4382,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 0.864473,
-                  "identity": 20,
-                  "positive": 29,
-                  "query_from": 8,
-                  "query_to": 62,
-                  "hit_from": 681,
-                  "hit_to": 728,
-                  "align_len": 55,
-                  "gaps": 7,
-                  "qseq": "VVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFTEHTSAIKVRGKAYIQ",
-                  "hseq": "VVNKALEMCIDQVTIA-GAKLR-----SLNLGEVFIAQ-SKGLYRQCIRGKEQLQ",
-                  "midline": "VV KALE  ++ + +  GA  R      L+ GEV IAQ ++      +RGK  +Q"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "tr|A9CJW3|A9CJW3_AGRFC",
-                  "accession": "A9CJW3",
-                  "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
-                }
-              ],
-              "len": 229,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 1.45132,
-                  "identity": 13,
-                  "positive": 23,
-                  "query_from": 16,
-                  "query_to": 53,
-                  "hit_from": 180,
-                  "hit_to": 219,
-                  "align_len": 40,
-                  "gaps": 2,
-                  "qseq": "GVNVIGLTRGADTRFHHSEKL-DKG-EVLIAQFTEHTSAI",
-                  "hseq": "GMRVIGFTGASHTYPSHADRLTDAGAETVISRMQDLPAVI",
-                  "midline": "G+ VIG T  + T   H+++L D G E +I++  +  + I"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P10688|PLCD1_RAT",
-                  "accession": "P10688",
-                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
-                }
-              ],
-              "len": 756,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 4.31277,
-                  "identity": 7,
-                  "positive": 15,
-                  "query_from": 1,
-                  "query_to": 26,
-                  "hit_from": 1,
-                  "hit_to": 26,
-                  "align_len": 26,
-                  "gaps": 0,
-                  "qseq": "MYTNSDFVVIKALEDGVNVIGLTRGA",
-                  "hseq": "MDSGRDFLTLHGLQDDPDLQALLKGS",
-                  "midline": "M +  DF+ +  L+D  ++  L +G+"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P00717|LYG_CYGAT",
-                  "accession": "P00717",
-                  "title": "Lysozyme g OS=Cygnus atratus OX=8868 PE=1 SV=1"
-                }
-              ],
-              "len": 185,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 4.89042,
-                  "identity": 14,
-                  "positive": 17,
-                  "query_from": 8,
-                  "query_to": 47,
-                  "hit_from": 79,
-                  "hit_to": 117,
-                  "align_len": 40,
-                  "gaps": 1,
-                  "qseq": "VVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFT",
-                  "hseq": "VLKNGWGDRGNGFGLMQ-VDKRSHKPQGTWNGEVHITQGT",
-                  "midline": "V+     D  N  GL +  D R H  +    GEV I Q T"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P00718|LYG_ANSAN",
-                  "accession": "P00718",
-                  "title": "Lysozyme g OS=Anser anser anser OX=8844 PE=1 SV=1"
-                }
-              ],
-              "len": 185,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 4.98795,
-                  "identity": 14,
-                  "positive": 17,
-                  "query_from": 8,
-                  "query_to": 47,
-                  "hit_from": 79,
-                  "hit_to": 117,
-                  "align_len": 40,
-                  "gaps": 1,
-                  "qseq": "VVIKALEDGVNVIGLTRGADTRFHHSEKLDKGEVLIAQFT",
-                  "hseq": "VLKNGWGDRGNGFGLMQ-VDKRSHKPQGTWNGEVHITQGT",
-                  "midline": "V+     D  N  GL +  D R H  +    GEV I Q T"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|Q8U192|THIE_PYRFU",
-                  "accession": "Q8U192",
-                  "title": "Thiamine-phosphate synthase OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=thiE PE=1 SV=1"
-                }
-              ],
-              "len": 207,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 5.70687,
-                  "identity": 11,
-                  "positive": 16,
-                  "query_from": 9,
-                  "query_to": 38,
-                  "hit_from": 171,
-                  "hit_to": 200,
-                  "align_len": 30,
-                  "gaps": 0,
-                  "qseq": "VIKALEDGVNVIGLTRGADTRFHHSEKLDK",
-                  "hseq": "VLKTGVDGIAVISAVMGAEDVRKATEELRK",
-                  "midline": "V+K   DG+ VI    GA+     +E+L K"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|P0A6F9|CH10_ECOLI",
-                  "accession": "P0A6F9",
-                  "title": "Co-chaperonin GroES OS=Escherichia coli (strain K12) OX=83333 GN=groES PE=1 SV=1"
-                }
-              ],
-              "len": 97,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.4754,
-                  "score": 36,
-                  "evalue": 6.50403,
-                  "identity": 8,
-                  "positive": 9,
-                  "query_from": 33,
-                  "query_to": 43,
-                  "hit_from": 75,
-                  "hit_to": 85,
-                  "align_len": 11,
-                  "gaps": 0,
-                  "qseq": "SEKLDKGEVLI",
-                  "hseq": "SEKIDNEEVLI",
-                  "midline": "SEK+D  EVLI"
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|P36924|AMYB_BACCE",
-                  "accession": "P36924",
-                  "title": "Beta-amylase OS=Bacillus cereus OX=1396 GN=spoII PE=1 SV=2"
-                }
-              ],
-              "len": 546,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.4754,
-                  "score": 36,
-                  "evalue": 7.60279,
-                  "identity": 6,
-                  "positive": 13,
-                  "query_from": 53,
-                  "query_to": 73,
-                  "hit_from": 276,
-                  "hit_to": 296,
-                  "align_len": 21,
-                  "gaps": 0,
-                  "qseq": "IKVRGKAYIQTRHGVIESEGK",
-                  "hseq": "LSMYGKDYLEWYQGILENHTK",
-                  "midline": "+ + GK Y++   G++E+  K"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 46,
+                "eff_space": 2047024,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 46,
-            "eff_space": 2047024,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

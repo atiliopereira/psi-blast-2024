@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,279 +17,284 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P56968|PYRK_LACLM Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit OS=Lactococcus lactis subsp. cremoris (strain MG1363) OX=416870 GN=pyrK PE=1 SV=1",
-          "query_len": 262,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P56968|PYRK_LACLM",
-                  "accession": "P56968",
-                  "title": "Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit OS=Lactococcus lactis subsp. cremoris (strain MG1363) OX=416870 GN=pyrK PE=1 SV=1"
-                }
-              ],
-              "len": 262,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P56968|PYRK_LACLM Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit OS=Lactococcus lactis subsp. cremoris (strain MG1363) OX=416870 GN=pyrK PE=1 SV=1",
+              "query_len": 262,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 540.421,
-                  "score": 1391,
-                  "evalue": 0,
-                  "identity": 262,
-                  "positive": 262,
-                  "query_from": 1,
-                  "query_to": 262,
-                  "hit_from": 1,
-                  "hit_to": 262,
-                  "align_len": 262,
-                  "gaps": 0,
-                  "qseq": "MSQLQEMMTVVSQREVAYNIFEMVLKGTLVDEMDLPGQFLHLAVPNGAMLLRRPISISSWDKRAKTCTILYRIGDETTGTYKLSKLESGAKVDVMGPLGNGFPVAEVTSTDKILIIGGGIGVPPLYELAKQLEKTGCQMTILLGFASENVKILENEFSNLKNVTLKIATDDGSYGTKGHVGMLMNEIDFEVDALYTCGAPAMLKAVAKKYDQLERLYISMESRMACGIGACYACVEHDKEDESHALKVCEDGPVFLGKQLSL",
-                  "hseq": "MSQLQEMMTVVSQREVAYNIFEMVLKGTLVDEMDLPGQFLHLAVPNGAMLLRRPISISSWDKRAKTCTILYRIGDETTGTYKLSKLESGAKVDVMGPLGNGFPVAEVTSTDKILIIGGGIGVPPLYELAKQLEKTGCQMTILLGFASENVKILENEFSNLKNVTLKIATDDGSYGTKGHVGMLMNEIDFEVDALYTCGAPAMLKAVAKKYDQLERLYISMESRMACGIGACYACVEHDKEDESHALKVCEDGPVFLGKQLSL",
-                  "midline": "MSQLQEMMTVVSQREVAYNIFEMVLKGTLVDEMDLPGQFLHLAVPNGAMLLRRPISISSWDKRAKTCTILYRIGDETTGTYKLSKLESGAKVDVMGPLGNGFPVAEVTSTDKILIIGGGIGVPPLYELAKQLEKTGCQMTILLGFASENVKILENEFSNLKNVTLKIATDDGSYGTKGHVGMLMNEIDFEVDALYTCGAPAMLKAVAKKYDQLERLYISMESRMACGIGACYACVEHDKEDESHALKVCEDGPVFLGKQLSL"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P22868|MMOC_METCA",
-                  "accession": "P22868",
-                  "title": "Methane monooxygenase component C OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoC PE=1 SV=2"
-                }
-              ],
-              "len": 348,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 38.5058,
-                  "score": 88,
-                  "evalue": 1.87238e-05,
-                  "identity": 42,
-                  "positive": 78,
-                  "query_from": 36,
-                  "query_to": 208,
-                  "hit_from": 144,
-                  "hit_to": 325,
-                  "align_len": 186,
-                  "gaps": 17,
-                  "qseq": "PGQFLHLAVPNGAMLLRRPISISSWDKRAKTCTILYRIGDETT-GTYKLSKLESGAKVDVMGPLGNGFPVAEVTSTDKILIIGGGIGVPPLYELAKQLEKTGC--QMTILLGFASENVKILENEFSNL----KNVTLKIATDDGSYGTKGHVGMLMNEIDFEVDA------LYTCGAPAMLKAVAK",
-                  "hseq": "PGQFMDLTIP--GTDVSRSYSPANLPNPEGRLEFLIRVLPEGRFSDYLRNDARVGQVLSVKGPLGV-FGLKERGMAPRYFV-AGGTGLAPVVSMVRQMQEWTAPNETRIYFGVNTEPELFYIDELKSLERSMRNLTVKACVWHPSGDWEGEQGSPIDALREDLESSDANPDIYLCGPPGMIDAACE",
-                  "midline": "PGQF+ L +P     + R  S ++          L R+  E     Y  +    G  + V GPLG  F + E     +  +  GG G+ P+  + +Q+++     +  I  G  +E      +E  +L    +N+T+K      S   +G  G  ++ +  ++++      +Y CG P M+ A  +"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q8K1S3|UNC5B_MOUSE",
-                  "accession": "Q8K1S3",
-                  "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
-                }
-              ],
-              "len": 945,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 25.0238,
-                  "score": 53,
-                  "evalue": 0.458035,
-                  "identity": 11,
-                  "positive": 14,
-                  "query_from": 27,
-                  "query_to": 49,
-                  "hit_from": 550,
-                  "hit_to": 572,
-                  "align_len": 23,
-                  "gaps": 0,
-                  "qseq": "GTLVDEMDLPGQFLHLAVPNGAM",
-                  "hseq": "GCLGGRLSLPGTGVSLLVPNGAI",
-                  "midline": "G L   + LPG  + L VPNGA+"
+                  "description": [
+                    {
+                      "id": "sp|P56968|PYRK_LACLM",
+                      "accession": "P56968",
+                      "title": "Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit OS=Lactococcus lactis subsp. cremoris (strain MG1363) OX=416870 GN=pyrK PE=1 SV=1"
+                    }
+                  ],
+                  "len": 262,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 540.421,
+                      "score": 1391,
+                      "evalue": 0,
+                      "identity": 262,
+                      "positive": 262,
+                      "query_from": 1,
+                      "query_to": 262,
+                      "hit_from": 1,
+                      "hit_to": 262,
+                      "align_len": 262,
+                      "gaps": 0,
+                      "qseq": "MSQLQEMMTVVSQREVAYNIFEMVLKGTLVDEMDLPGQFLHLAVPNGAMLLRRPISISSWDKRAKTCTILYRIGDETTGTYKLSKLESGAKVDVMGPLGNGFPVAEVTSTDKILIIGGGIGVPPLYELAKQLEKTGCQMTILLGFASENVKILENEFSNLKNVTLKIATDDGSYGTKGHVGMLMNEIDFEVDALYTCGAPAMLKAVAKKYDQLERLYISMESRMACGIGACYACVEHDKEDESHALKVCEDGPVFLGKQLSL",
+                      "hseq": "MSQLQEMMTVVSQREVAYNIFEMVLKGTLVDEMDLPGQFLHLAVPNGAMLLRRPISISSWDKRAKTCTILYRIGDETTGTYKLSKLESGAKVDVMGPLGNGFPVAEVTSTDKILIIGGGIGVPPLYELAKQLEKTGCQMTILLGFASENVKILENEFSNLKNVTLKIATDDGSYGTKGHVGMLMNEIDFEVDALYTCGAPAMLKAVAKKYDQLERLYISMESRMACGIGACYACVEHDKEDESHALKVCEDGPVFLGKQLSL",
+                      "midline": "MSQLQEMMTVVSQREVAYNIFEMVLKGTLVDEMDLPGQFLHLAVPNGAMLLRRPISISSWDKRAKTCTILYRIGDETTGTYKLSKLESGAKVDVMGPLGNGFPVAEVTSTDKILIIGGGIGVPPLYELAKQLEKTGCQMTILLGFASENVKILENEFSNLKNVTLKIATDDGSYGTKGHVGMLMNEIDFEVDALYTCGAPAMLKAVAKKYDQLERLYISMESRMACGIGACYACVEHDKEDESHALKVCEDGPVFLGKQLSL"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 5.86476,
-                  "identity": 6,
-                  "positive": 7,
-                  "query_from": 60,
-                  "query_to": 68,
-                  "hit_from": 266,
-                  "hit_to": 274,
-                  "align_len": 9,
-                  "gaps": 0,
-                  "qseq": "WDKRAKTCT",
-                  "hseq": "WQKRTRTCT",
-                  "midline": "W KR +TCT"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P22868|MMOC_METCA",
+                      "accession": "P22868",
+                      "title": "Methane monooxygenase component C OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoC PE=1 SV=2"
+                    }
+                  ],
+                  "len": 348,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 38.5058,
+                      "score": 88,
+                      "evalue": 1.87238e-05,
+                      "identity": 42,
+                      "positive": 78,
+                      "query_from": 36,
+                      "query_to": 208,
+                      "hit_from": 144,
+                      "hit_to": 325,
+                      "align_len": 186,
+                      "gaps": 17,
+                      "qseq": "PGQFLHLAVPNGAMLLRRPISISSWDKRAKTCTILYRIGDETT-GTYKLSKLESGAKVDVMGPLGNGFPVAEVTSTDKILIIGGGIGVPPLYELAKQLEKTGC--QMTILLGFASENVKILENEFSNL----KNVTLKIATDDGSYGTKGHVGMLMNEIDFEVDA------LYTCGAPAMLKAVAK",
+                      "hseq": "PGQFMDLTIP--GTDVSRSYSPANLPNPEGRLEFLIRVLPEGRFSDYLRNDARVGQVLSVKGPLGV-FGLKERGMAPRYFV-AGGTGLAPVVSMVRQMQEWTAPNETRIYFGVNTEPELFYIDELKSLERSMRNLTVKACVWHPSGDWEGEQGSPIDALREDLESSDANPDIYLCGPPGMIDAACE",
+                      "midline": "PGQF+ L +P     + R  S ++          L R+  E     Y  +    G  + V GPLG  F + E     +  +  GG G+ P+  + +Q+++     +  I  G  +E      +E  +L    +N+T+K      S   +G  G  ++ +  ++++      +Y CG P M+ A  +"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P55211|CASP9_HUMAN",
-                  "accession": "P55211",
-                  "title": "Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3"
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q8K1S3|UNC5B_MOUSE",
+                      "accession": "Q8K1S3",
+                      "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
+                    }
+                  ],
+                  "len": 945,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 25.0238,
+                      "score": 53,
+                      "evalue": 0.458035,
+                      "identity": 11,
+                      "positive": 14,
+                      "query_from": 27,
+                      "query_to": 49,
+                      "hit_from": 550,
+                      "hit_to": 572,
+                      "align_len": 23,
+                      "gaps": 0,
+                      "qseq": "GTLVDEMDLPGQFLHLAVPNGAM",
+                      "hseq": "GCLGGRLSLPGTGVSLLVPNGAI",
+                      "midline": "G L   + LPG  + L VPNGA+"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 5.86476,
+                      "identity": 6,
+                      "positive": 7,
+                      "query_from": 60,
+                      "query_to": 68,
+                      "hit_from": 266,
+                      "hit_to": 274,
+                      "align_len": 9,
+                      "gaps": 0,
+                      "qseq": "WDKRAKTCT",
+                      "hseq": "WQKRTRTCT",
+                      "midline": "W KR +TCT"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P55211|CASP9_HUMAN",
+                      "accession": "P55211",
+                      "title": "Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 416,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 2.99263,
+                      "identity": 11,
+                      "positive": 24,
+                      "query_from": 200,
+                      "query_to": 241,
+                      "hit_from": 37,
+                      "hit_to": 83,
+                      "align_len": 47,
+                      "gaps": 5,
+                      "qseq": "PAMLKAVAK-----KYDQLERLYISMESRMACGIGACYACVEHDKED",
+                      "hseq": "PHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISCLEDTGQD",
+                      "midline": "P M++ + +     + DQ  +L I +E+R +  +    +C+E   +D"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 3.73824,
+                      "identity": 14,
+                      "positive": 20,
+                      "query_from": 71,
+                      "query_to": 111,
+                      "hit_from": 925,
+                      "hit_to": 964,
+                      "align_len": 41,
+                      "gaps": 1,
+                      "qseq": "YRIGDETTGTYKLSKLESGAKVDVMGPLGNGFPVAEVTSTD",
+                      "hseq": "YYRGDEVNFTMGVSDRHSGIKNTTITTLPNGW-TSNLTKSD",
+                      "midline": "Y  GDE   T  +S   SG K   +  L NG+  + +T +D"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P00327|ADH1E_HORSE",
+                      "accession": "P00327",
+                      "title": "Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 375,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 5.39882,
+                      "identity": 26,
+                      "positive": 38,
+                      "query_from": 42,
+                      "query_to": 122,
+                      "hit_from": 117,
+                      "hit_to": 206,
+                      "align_len": 96,
+                      "gaps": 21,
+                      "qseq": "LAVPNGAMLLRRPISISSWDKRAKTCTILYRIGDETTGTYKLSKLESGAKVDVMGPL--------------GNGFPVAEVTSTDKILIIG-GGIGV",
+                      "hseq": "LSMPRGTMQ----DGTSRFTCRGKP--IHHFLGTSTFSQYTVVDEISVAKIDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGGVGL",
+                      "midline": "L++P G M        S +  R K   I + +G  T   Y +    S AK+D   PL              G+   VA+VT      + G GG+G+"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P07824|ARGI1_RAT",
+                      "accession": "P07824",
+                      "title": "Arginase-1 OS=Rattus norvegicus OX=10116 GN=Arg1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 323,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 6.79413,
+                      "identity": 12,
+                      "positive": 15,
+                      "query_from": 186,
+                      "query_to": 221,
+                      "hit_from": 228,
+                      "hit_to": 263,
+                      "align_len": 36,
+                      "gaps": 0,
+                      "qseq": "EIDFEVDALYTCGAPAMLKAVAKKYDQLERLYISME",
+                      "hseq": "HLSFDVDGLDPVFTPATGTPVVGGLSYREGLYITEE",
+                      "midline": " + F+VD L     PA    V       E LYI+ E"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P54578|UBP14_HUMAN",
+                      "accession": "P54578",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 14 OS=Homo sapiens OX=9606 GN=USP14 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 494,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 8.4553,
+                      "identity": 7,
+                      "positive": 8,
+                      "query_from": 38,
+                      "query_to": 48,
+                      "hit_from": 177,
+                      "hit_to": 187,
+                      "align_len": 11,
+                      "gaps": 0,
+                      "qseq": "QFLHLAVPNGA",
+                      "hseq": "QFLHMAFPQFA",
+                      "midline": "QFLH+A P  A"
+                    }
+                  ]
                 }
               ],
-              "len": 416,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 2.99263,
-                  "identity": 11,
-                  "positive": 24,
-                  "query_from": 200,
-                  "query_to": 241,
-                  "hit_from": 37,
-                  "hit_to": 83,
-                  "align_len": 47,
-                  "gaps": 5,
-                  "qseq": "PAMLKAVAK-----KYDQLERLYISMESRMACGIGACYACVEHDKED",
-                  "hseq": "PHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISCLEDTGQD",
-                  "midline": "P M++ + +     + DQ  +L I +E+R +  +    +C+E   +D"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 3.73824,
-                  "identity": 14,
-                  "positive": 20,
-                  "query_from": 71,
-                  "query_to": 111,
-                  "hit_from": 925,
-                  "hit_to": 964,
-                  "align_len": 41,
-                  "gaps": 1,
-                  "qseq": "YRIGDETTGTYKLSKLESGAKVDVMGPLGNGFPVAEVTSTD",
-                  "hseq": "YYRGDEVNFTMGVSDRHSGIKNTTITTLPNGW-TSNLTKSD",
-                  "midline": "Y  GDE   T  +S   SG K   +  L NG+  + +T +D"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P00327|ADH1E_HORSE",
-                  "accession": "P00327",
-                  "title": "Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2"
-                }
-              ],
-              "len": 375,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 5.39882,
-                  "identity": 26,
-                  "positive": 38,
-                  "query_from": 42,
-                  "query_to": 122,
-                  "hit_from": 117,
-                  "hit_to": 206,
-                  "align_len": 96,
-                  "gaps": 21,
-                  "qseq": "LAVPNGAMLLRRPISISSWDKRAKTCTILYRIGDETTGTYKLSKLESGAKVDVMGPL--------------GNGFPVAEVTSTDKILIIG-GGIGV",
-                  "hseq": "LSMPRGTMQ----DGTSRFTCRGKP--IHHFLGTSTFSQYTVVDEISVAKIDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGGVGL",
-                  "midline": "L++P G M        S +  R K   I + +G  T   Y +    S AK+D   PL              G+   VA+VT      + G GG+G+"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P07824|ARGI1_RAT",
-                  "accession": "P07824",
-                  "title": "Arginase-1 OS=Rattus norvegicus OX=10116 GN=Arg1 PE=1 SV=2"
-                }
-              ],
-              "len": 323,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 6.79413,
-                  "identity": 12,
-                  "positive": 15,
-                  "query_from": 186,
-                  "query_to": 221,
-                  "hit_from": 228,
-                  "hit_to": 263,
-                  "align_len": 36,
-                  "gaps": 0,
-                  "qseq": "EIDFEVDALYTCGAPAMLKAVAKKYDQLERLYISME",
-                  "hseq": "HLSFDVDGLDPVFTPATGTPVVGGLSYREGLYITEE",
-                  "midline": " + F+VD L     PA    V       E LYI+ E"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P54578|UBP14_HUMAN",
-                  "accession": "P54578",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 14 OS=Homo sapiens OX=9606 GN=USP14 PE=1 SV=3"
-                }
-              ],
-              "len": 494,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 8.4553,
-                  "identity": 7,
-                  "positive": 8,
-                  "query_from": 38,
-                  "query_to": 48,
-                  "hit_from": 177,
-                  "hit_to": 187,
-                  "align_len": 11,
-                  "gaps": 0,
-                  "qseq": "QFLHLAVPNGA",
-                  "hseq": "QFLHMAFPQFA",
-                  "midline": "QFLH+A P  A"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 64,
+                "eff_space": 13730508,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 64,
-            "eff_space": 13730508,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

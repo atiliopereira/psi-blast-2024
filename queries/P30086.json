@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,339 +17,344 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P30086|PEBP1_HUMAN Phosphatidylethanolamine-binding protein 1 OS=Homo sapiens OX=9606 GN=PEBP1 PE=1 SV=3",
-          "query_len": 187,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P30086|PEBP1_HUMAN",
-                  "accession": "P30086",
-                  "title": "Phosphatidylethanolamine-binding protein 1 OS=Homo sapiens OX=9606 GN=PEBP1 PE=1 SV=3"
-                }
-              ],
-              "len": 187,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P30086|PEBP1_HUMAN Phosphatidylethanolamine-binding protein 1 OS=Homo sapiens OX=9606 GN=PEBP1 PE=1 SV=3",
+              "query_len": 187,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 385.571,
-                  "score": 989,
-                  "evalue": 2.08502e-141,
-                  "identity": 187,
-                  "positive": 187,
-                  "query_from": 1,
-                  "query_to": 187,
-                  "hit_from": 1,
-                  "hit_to": 187,
-                  "align_len": 187,
-                  "gaps": 0,
-                  "qseq": "MPVDLSKWSGPLSLQEVDEQPQHPLHVTYAGAAVDELGKVLTPTQVKNRPTSISWDGLDSGKLYTLVLTDPDAPSRKDPKYREWHHFLVVNMKGNDISSGTVLSDYVGSGPPKGTGLHRYVWLVYEQDRPLKCDEPILSNRSGDHRGKFKVASFRKKYELRAPVAGTCYQAEWDDYVPKLYEQLSGK",
-                  "hseq": "MPVDLSKWSGPLSLQEVDEQPQHPLHVTYAGAAVDELGKVLTPTQVKNRPTSISWDGLDSGKLYTLVLTDPDAPSRKDPKYREWHHFLVVNMKGNDISSGTVLSDYVGSGPPKGTGLHRYVWLVYEQDRPLKCDEPILSNRSGDHRGKFKVASFRKKYELRAPVAGTCYQAEWDDYVPKLYEQLSGK",
-                  "midline": "MPVDLSKWSGPLSLQEVDEQPQHPLHVTYAGAAVDELGKVLTPTQVKNRPTSISWDGLDSGKLYTLVLTDPDAPSRKDPKYREWHHFLVVNMKGNDISSGTVLSDYVGSGPPKGTGLHRYVWLVYEQDRPLKCDEPILSNRSGDHRGKFKVASFRKKYELRAPVAGTCYQAEWDDYVPKLYEQLSGK"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P14306|CPYI_YEAST",
-                  "accession": "P14306",
-                  "title": "Carboxypeptidase Y inhibitor OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TFS1 PE=1 SV=2"
-                }
-              ],
-              "len": 219,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 62.7734,
-                  "score": 151,
-                  "evalue": 1.66672e-14,
-                  "identity": 42,
-                  "positive": 71,
-                  "query_from": 14,
-                  "query_to": 129,
-                  "hit_from": 25,
-                  "hit_to": 172,
-                  "align_len": 148,
-                  "gaps": 32,
-                  "qseq": "LQEVDEQPQHPLHVTYAGAAVDELGKVLTPTQVKNRPT-SISWDGL-------------DSGKLYTLVLTDPDAPSRKDPKYREWHHFL-----VVNMKGNDISSGT-------------VLSDYVGSGPPKGTGLHRYVWLVYEQDR",
-                  "hseq": "IHDTSFQPSGILAVEYSSSAPVAMGNTLPTEKARSKPQFQFTFNKQMQKSVPQANAYVPQDDDLFTLVMTDPDAPSKTDHKWSEFCHLVECDLKLLNEATHETSGATEFFASEFNTKGSNTLIEYMGPAPPKGSGPHRYVFLLYKQPK",
-                  "midline": "+ +   QP   L V Y+ +A   +G  L   + +++P    +++                   L+TLV+TDPDAPS+ D K+ E+ H +     ++N   ++ S  T              L +Y+G  PPKG+G HRYV+L+Y+Q +"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P12994|YBHB_ECOLI",
-                  "accession": "P12994",
-                  "title": "UPF0098 protein YbhB OS=Escherichia coli (strain K12) OX=83333 GN=ybhB PE=1 SV=2"
-                }
-              ],
-              "len": 158,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 33.8834,
-                  "score": 76,
-                  "evalue": 0.000169865,
-                  "identity": 28,
-                  "positive": 44,
-                  "query_from": 53,
-                  "query_to": 128,
-                  "hit_from": 34,
-                  "hit_to": 124,
-                  "align_len": 97,
-                  "gaps": 27,
-                  "qseq": "ISWDGLDSG-KLYTLVLTDPDAPSRKDPKYREWHHFLVVNMKGN------DISSGTVL--------------SDYVGSGPPKGTGLHRYVWLVYEQD",
-                  "hseq": "LAWDDVPAGTKSFVVTCYDPDAPTGS-----GWWHWVVVNLPADTRVLPQGFGSGLVAMPDGVLQTRTDFGKTGYDGAAPPKGE-THRYIFTVHALD",
-                  "midline": "++WD + +G K + +   DPDAP+        W H++VVN+  +         SG V               + Y G+ PPKG   HRY++ V+  D"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P63228|GMHBB_ECOLI",
-                  "accession": "P63228",
-                  "title": "D-glycero-beta-D-manno-heptose-1,7-bisphosphate 7-phosphatase OS=Escherichia coli (strain K12) OX=83333 GN=gmhB PE=1 SV=1"
-                }
-              ],
-              "len": 191,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.2534,
-                  "score": 51,
-                  "evalue": 0.358503,
-                  "identity": 10,
-                  "positive": 14,
-                  "query_from": 137,
-                  "query_to": 159,
-                  "hit_from": 51,
-                  "hit_to": 73,
-                  "align_len": 23,
-                  "gaps": 0,
-                  "qseq": "ILSNRSGDHRGKFKVASFRKKYE",
-                  "hseq": "VVTNQSGIARGKFTEAQFETLTE",
-                  "midline": "+++N+SG  RGKF  A F    E"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q96T60|PNKP_HUMAN",
-                  "accession": "Q96T60",
-                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
-                }
-              ],
-              "len": 521,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 1.72224,
-                  "identity": 26,
-                  "positive": 35,
-                  "query_from": 9,
-                  "query_to": 76,
-                  "hit_from": 349,
-                  "hit_to": 431,
-                  "align_len": 83,
-                  "gaps": 15,
-                  "qseq": "SGPLSLQE----VDEQPQHPLHVTYAGAAVDELGK--VLTPTQVK-NRPTSISWD--------GLDSGKLYTLVLTDPDAPSR",
-                  "hseq": "SGPLCLPESRALLSASPEVVVAVGFPGAGKSTFLKKHLVSAGYVHVNRDTLGSWQRCVTTCETALKQGKRVAIDNTNPDAASR",
-                  "midline": "SGPL L E    +   P+  + V + GA      K  +++   V  NR T  SW          L  GK   +  T+PDA SR"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P0AA25|THIO_ECOLI",
-                  "accession": "P0AA25",
-                  "title": "Thioredoxin 1 OS=Escherichia coli (strain K12) OX=83333 GN=trxA PE=1 SV=2"
-                }
-              ],
-              "len": 109,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 2.54788,
-                  "identity": 9,
-                  "positive": 13,
-                  "query_from": 130,
-                  "query_to": 155,
-                  "hit_from": 35,
-                  "hit_to": 60,
-                  "align_len": 26,
-                  "gaps": 0,
-                  "qseq": "PLKCDEPILSNRSGDHRGKFKVASFR",
-                  "hseq": "PCKMIAPILDEIADEYQGKLTVAKLN",
-                  "midline": "P K   PIL   + +++GK  VA   "
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q9JLV6|PNKP_MOUSE",
-                  "accession": "Q9JLV6",
-                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
-                }
-              ],
-              "len": 522,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 4.23226,
-                  "identity": 14,
-                  "positive": 16,
-                  "query_from": 48,
-                  "query_to": 76,
-                  "hit_from": 394,
-                  "hit_to": 430,
-                  "align_len": 37,
-                  "gaps": 8,
-                  "qseq": "NRPTSISWD--------GLDSGKLYTLVLTDPDAPSR",
-                  "hseq": "NRDTLGSWQRCVSSCQAALRQGKRVVIDNTNPDVPSR",
-                  "midline": "NR T  SW          L  GK   +  T+PD PSR"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 4.7193,
-                  "identity": 10,
-                  "positive": 15,
-                  "query_from": 28,
-                  "query_to": 54,
-                  "hit_from": 5508,
-                  "hit_to": 5534,
-                  "align_len": 27,
-                  "gaps": 0,
-                  "qseq": "TYAGAAVDELGKVLTPTQVKNRPTSIS",
-                  "hseq": "TAANAEVDQAPNLAAVTAAKNKATSLN",
-                  "midline": "T A A VD+   +   T  KN+ TS++"
+                  "description": [
+                    {
+                      "id": "sp|P30086|PEBP1_HUMAN",
+                      "accession": "P30086",
+                      "title": "Phosphatidylethanolamine-binding protein 1 OS=Homo sapiens OX=9606 GN=PEBP1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 187,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 385.571,
+                      "score": 989,
+                      "evalue": 2.08502e-141,
+                      "identity": 187,
+                      "positive": 187,
+                      "query_from": 1,
+                      "query_to": 187,
+                      "hit_from": 1,
+                      "hit_to": 187,
+                      "align_len": 187,
+                      "gaps": 0,
+                      "qseq": "MPVDLSKWSGPLSLQEVDEQPQHPLHVTYAGAAVDELGKVLTPTQVKNRPTSISWDGLDSGKLYTLVLTDPDAPSRKDPKYREWHHFLVVNMKGNDISSGTVLSDYVGSGPPKGTGLHRYVWLVYEQDRPLKCDEPILSNRSGDHRGKFKVASFRKKYELRAPVAGTCYQAEWDDYVPKLYEQLSGK",
+                      "hseq": "MPVDLSKWSGPLSLQEVDEQPQHPLHVTYAGAAVDELGKVLTPTQVKNRPTSISWDGLDSGKLYTLVLTDPDAPSRKDPKYREWHHFLVVNMKGNDISSGTVLSDYVGSGPPKGTGLHRYVWLVYEQDRPLKCDEPILSNRSGDHRGKFKVASFRKKYELRAPVAGTCYQAEWDDYVPKLYEQLSGK",
+                      "midline": "MPVDLSKWSGPLSLQEVDEQPQHPLHVTYAGAAVDELGKVLTPTQVKNRPTSISWDGLDSGKLYTLVLTDPDAPSRKDPKYREWHHFLVVNMKGNDISSGTVLSDYVGSGPPKGTGLHRYVWLVYEQDRPLKCDEPILSNRSGDHRGKFKVASFRKKYELRAPVAGTCYQAEWDDYVPKLYEQLSGK"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 6.25319,
-                  "identity": 10,
-                  "positive": 18,
-                  "query_from": 4,
-                  "query_to": 41,
-                  "hit_from": 9266,
-                  "hit_to": 9303,
-                  "align_len": 38,
-                  "gaps": 0,
-                  "qseq": "DLSKWSGPLSLQEVDEQPQHPLHVTYAGAAVDELGKVL",
-                  "hseq": "DLTPEQKAKALKEIDEAEKRALQNVENAQTIDQLNRGL",
-                  "midline": "DL+      +L+E+DE  +  L        +D+L + L"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P14306|CPYI_YEAST",
+                      "accession": "P14306",
+                      "title": "Carboxypeptidase Y inhibitor OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TFS1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 219,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 62.7734,
+                      "score": 151,
+                      "evalue": 1.66672e-14,
+                      "identity": 42,
+                      "positive": 71,
+                      "query_from": 14,
+                      "query_to": 129,
+                      "hit_from": 25,
+                      "hit_to": 172,
+                      "align_len": 148,
+                      "gaps": 32,
+                      "qseq": "LQEVDEQPQHPLHVTYAGAAVDELGKVLTPTQVKNRPT-SISWDGL-------------DSGKLYTLVLTDPDAPSRKDPKYREWHHFL-----VVNMKGNDISSGT-------------VLSDYVGSGPPKGTGLHRYVWLVYEQDR",
+                      "hseq": "IHDTSFQPSGILAVEYSSSAPVAMGNTLPTEKARSKPQFQFTFNKQMQKSVPQANAYVPQDDDLFTLVMTDPDAPSKTDHKWSEFCHLVECDLKLLNEATHETSGATEFFASEFNTKGSNTLIEYMGPAPPKGSGPHRYVFLLYKQPK",
+                      "midline": "+ +   QP   L V Y+ +A   +G  L   + +++P    +++                   L+TLV+TDPDAPS+ D K+ E+ H +     ++N   ++ S  T              L +Y+G  PPKG+G HRYV+L+Y+Q +"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P10688|PLCD1_RAT",
-                  "accession": "P10688",
-                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P12994|YBHB_ECOLI",
+                      "accession": "P12994",
+                      "title": "UPF0098 protein YbhB OS=Escherichia coli (strain K12) OX=83333 GN=ybhB PE=1 SV=2"
+                    }
+                  ],
+                  "len": 158,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 33.8834,
+                      "score": 76,
+                      "evalue": 0.000169865,
+                      "identity": 28,
+                      "positive": 44,
+                      "query_from": 53,
+                      "query_to": 128,
+                      "hit_from": 34,
+                      "hit_to": 124,
+                      "align_len": 97,
+                      "gaps": 27,
+                      "qseq": "ISWDGLDSG-KLYTLVLTDPDAPSRKDPKYREWHHFLVVNMKGN------DISSGTVL--------------SDYVGSGPPKGTGLHRYVWLVYEQD",
+                      "hseq": "LAWDDVPAGTKSFVVTCYDPDAPTGS-----GWWHWVVVNLPADTRVLPQGFGSGLVAMPDGVLQTRTDFGKTGYDGAAPPKGE-THRYIFTVHALD",
+                      "midline": "++WD + +G K + +   DPDAP+        W H++VVN+  +         SG V               + Y G+ PPKG   HRY++ V+  D"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P63228|GMHBB_ECOLI",
+                      "accession": "P63228",
+                      "title": "D-glycero-beta-D-manno-heptose-1,7-bisphosphate 7-phosphatase OS=Escherichia coli (strain K12) OX=83333 GN=gmhB PE=1 SV=1"
+                    }
+                  ],
+                  "len": 191,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.2534,
+                      "score": 51,
+                      "evalue": 0.358503,
+                      "identity": 10,
+                      "positive": 14,
+                      "query_from": 137,
+                      "query_to": 159,
+                      "hit_from": 51,
+                      "hit_to": 73,
+                      "align_len": 23,
+                      "gaps": 0,
+                      "qseq": "ILSNRSGDHRGKFKVASFRKKYE",
+                      "hseq": "VVTNQSGIARGKFTEAQFETLTE",
+                      "midline": "+++N+SG  RGKF  A F    E"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q96T60|PNKP_HUMAN",
+                      "accession": "Q96T60",
+                      "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
+                    }
+                  ],
+                  "len": 521,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 1.72224,
+                      "identity": 26,
+                      "positive": 35,
+                      "query_from": 9,
+                      "query_to": 76,
+                      "hit_from": 349,
+                      "hit_to": 431,
+                      "align_len": 83,
+                      "gaps": 15,
+                      "qseq": "SGPLSLQE----VDEQPQHPLHVTYAGAAVDELGK--VLTPTQVK-NRPTSISWD--------GLDSGKLYTLVLTDPDAPSR",
+                      "hseq": "SGPLCLPESRALLSASPEVVVAVGFPGAGKSTFLKKHLVSAGYVHVNRDTLGSWQRCVTTCETALKQGKRVAIDNTNPDAASR",
+                      "midline": "SGPL L E    +   P+  + V + GA      K  +++   V  NR T  SW          L  GK   +  T+PDA SR"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P0AA25|THIO_ECOLI",
+                      "accession": "P0AA25",
+                      "title": "Thioredoxin 1 OS=Escherichia coli (strain K12) OX=83333 GN=trxA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 109,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 2.54788,
+                      "identity": 9,
+                      "positive": 13,
+                      "query_from": 130,
+                      "query_to": 155,
+                      "hit_from": 35,
+                      "hit_to": 60,
+                      "align_len": 26,
+                      "gaps": 0,
+                      "qseq": "PLKCDEPILSNRSGDHRGKFKVASFR",
+                      "hseq": "PCKMIAPILDEIADEYQGKLTVAKLN",
+                      "midline": "P K   PIL   + +++GK  VA   "
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q9JLV6|PNKP_MOUSE",
+                      "accession": "Q9JLV6",
+                      "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
+                    }
+                  ],
+                  "len": 522,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 4.23226,
+                      "identity": 14,
+                      "positive": 16,
+                      "query_from": 48,
+                      "query_to": 76,
+                      "hit_from": 394,
+                      "hit_to": 430,
+                      "align_len": 37,
+                      "gaps": 8,
+                      "qseq": "NRPTSISWD--------GLDSGKLYTLVLTDPDAPSR",
+                      "hseq": "NRDTLGSWQRCVSSCQAALRQGKRVVIDNTNPDVPSR",
+                      "midline": "NR T  SW          L  GK   +  T+PD PSR"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 4.7193,
+                      "identity": 10,
+                      "positive": 15,
+                      "query_from": 28,
+                      "query_to": 54,
+                      "hit_from": 5508,
+                      "hit_to": 5534,
+                      "align_len": 27,
+                      "gaps": 0,
+                      "qseq": "TYAGAAVDELGKVLTPTQVKNRPTSIS",
+                      "hseq": "TAANAEVDQAPNLAAVTAAKNKATSLN",
+                      "midline": "T A A VD+   +   T  KN+ TS++"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 6.25319,
+                      "identity": 10,
+                      "positive": 18,
+                      "query_from": 4,
+                      "query_to": 41,
+                      "hit_from": 9266,
+                      "hit_to": 9303,
+                      "align_len": 38,
+                      "gaps": 0,
+                      "qseq": "DLSKWSGPLSLQEVDEQPQHPLHVTYAGAAVDELGKVL",
+                      "hseq": "DLTPEQKAKALKEIDEAEKRALQNVENAQTIDQLNRGL",
+                      "midline": "DL+      +L+E+DE  +  L        +D+L + L"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P10688|PLCD1_RAT",
+                      "accession": "P10688",
+                      "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 756,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 5.95024,
+                      "identity": 26,
+                      "positive": 42,
+                      "query_from": 2,
+                      "query_to": 115,
+                      "hit_from": 564,
+                      "hit_to": 669,
+                      "align_len": 116,
+                      "gaps": 12,
+                      "qseq": "PVDLSKWSGPLSLQEVDEQPQHPLHVTYAGAAVDE--LGKVLTPTQVKNRPTSISWDGLDSGKLYTLVLTDPDAPSRKDPKYREWHHFLVVNMKGNDISSGTVLSDYVGSGPPKGT",
+                      "hseq": "PVEM--WNGGCQIVALNFQTPGPEMDVYLGCFQDNGGCGYVLKPAFLRDPNTTFNSRALTQGPWWR--------PERLRVRIISGQQLPKVNKNKNSIVDPKVIVEIHGVGRDTGS",
+                      "midline": "PV++  W+G   +  ++ Q   P    Y G   D    G VL P  +++  T+ +   L  G  +         P R   +         VN   N I    V+ +  G G   G+"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|Q01532|BLH1_YEAST",
+                      "accession": "Q01532",
+                      "title": "Cysteine proteinase 1, mitochondrial OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=LAP3 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 483,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 8.03406,
+                      "identity": 23,
+                      "positive": 31,
+                      "query_from": 23,
+                      "query_to": 90,
+                      "hit_from": 398,
+                      "hit_to": 448,
+                      "align_len": 68,
+                      "gaps": 17,
+                      "qseq": "HPLHVTYAGAAVDELGKVLTPTQVKNRPTSISWDGLDSGKLYTLVLTDPDAPSRKDPKYREWHHFLVV",
+                      "hseq": "HAMLIT--GCHVDETSKLPLRYRVEN-----SW-GKDSGKDGLYVMTQ---------KYFEEYCFQIV",
+                      "midline": "H + +T  G  VDE  K+    +V+N     SW G DSGK    V+T          KY E + F +V"
+                    }
+                  ]
                 }
               ],
-              "len": 756,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 5.95024,
-                  "identity": 26,
-                  "positive": 42,
-                  "query_from": 2,
-                  "query_to": 115,
-                  "hit_from": 564,
-                  "hit_to": 669,
-                  "align_len": 116,
-                  "gaps": 12,
-                  "qseq": "PVDLSKWSGPLSLQEVDEQPQHPLHVTYAGAAVDE--LGKVLTPTQVKNRPTSISWDGLDSGKLYTLVLTDPDAPSRKDPKYREWHHFLVVNMKGNDISSGTVLSDYVGSGPPKGT",
-                  "hseq": "PVEM--WNGGCQIVALNFQTPGPEMDVYLGCFQDNGGCGYVLKPAFLRDPNTTFNSRALTQGPWWR--------PERLRVRIISGQQLPKVNKNKNSIVDPKVIVEIHGVGRDTGS",
-                  "midline": "PV++  W+G   +  ++ Q   P    Y G   D    G VL P  +++  T+ +   L  G  +         P R   +         VN   N I    V+ +  G G   G+"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|Q01532|BLH1_YEAST",
-                  "accession": "Q01532",
-                  "title": "Cysteine proteinase 1, mitochondrial OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=LAP3 PE=1 SV=3"
-                }
-              ],
-              "len": 483,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 8.03406,
-                  "identity": 23,
-                  "positive": 31,
-                  "query_from": 23,
-                  "query_to": 90,
-                  "hit_from": 398,
-                  "hit_to": 448,
-                  "align_len": 68,
-                  "gaps": 17,
-                  "qseq": "HPLHVTYAGAAVDELGKVLTPTQVKNRPTSISWDGLDSGKLYTLVLTDPDAPSRKDPKYREWHHFLVV",
-                  "hseq": "HAMLIT--GCHVDETSKLPLRYRVEN-----SW-GKDSGKDGLYVMTQ---------KYFEEYCFQIV",
-                  "midline": "H + +T  G  VDE  K+    +V+N     SW G DSGK    V+T          KY E + F +V"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 61,
+                "eff_space": 8816598,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 61,
-            "eff_space": 8816598,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

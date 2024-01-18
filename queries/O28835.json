@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,292 +17,297 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "tr|O28835|O28835_ARCFU HAD family hydrolase OS=Archaeoglobus fulgidus (strain ATCC 49558 / DSM 4304 / JCM 9628 / NBRC 100126 / VC-16) OX=224325 GN=AF_1437 PE=1 SV=1",
-          "query_len": 308,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "tr|O28835|O28835_ARCFU",
-                  "accession": "O28835",
-                  "title": "HAD family hydrolase OS=Archaeoglobus fulgidus (strain ATCC 49558 / DSM 4304 / JCM 9628 / NBRC 100126 / VC-16) OX=224325 GN=AF_1437 PE=1 SV=1"
-                }
-              ],
-              "len": 308,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "tr|O28835|O28835_ARCFU HAD family hydrolase OS=Archaeoglobus fulgidus (strain ATCC 49558 / DSM 4304 / JCM 9628 / NBRC 100126 / VC-16) OX=224325 GN=AF_1437 PE=1 SV=1",
+              "query_len": 308,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 621.698,
-                  "score": 1602,
-                  "evalue": 0,
-                  "identity": 308,
-                  "positive": 308,
-                  "query_from": 1,
-                  "query_to": 308,
-                  "hit_from": 1,
-                  "hit_to": 308,
-                  "align_len": 308,
-                  "gaps": 0,
-                  "qseq": "MFFTDWEGPWILTDFALELCMAVFNNARFFSNLSEYDDYLAYEVRREGYEAGYTLKLLTPFLAAAGVKNRDVERIAELSAKFVPDAEKAMATLQERWTPVVISTSYTQYLRRTASMIGVRGELHGTEVDFDSIAVPEGLREELLSIIDVIASLSGEELFRKLDELFSRSEVRKIVESVKAVGAGEKAKIMRGYCESKGIDFPVVVGDSISDYKMFEAARGLGGVAIAFNGNEYALKHADVAIISPTAMSEAKVIELFMERKERAFEVLSAVSIPETEIYIMENSDFGEVLEKSKRMRVRLRGLAGELG",
-                  "hseq": "MFFTDWEGPWILTDFALELCMAVFNNARFFSNLSEYDDYLAYEVRREGYEAGYTLKLLTPFLAAAGVKNRDVERIAELSAKFVPDAEKAMATLQERWTPVVISTSYTQYLRRTASMIGVRGELHGTEVDFDSIAVPEGLREELLSIIDVIASLSGEELFRKLDELFSRSEVRKIVESVKAVGAGEKAKIMRGYCESKGIDFPVVVGDSISDYKMFEAARGLGGVAIAFNGNEYALKHADVAIISPTAMSEAKVIELFMERKERAFEVLSAVSIPETEIYIMENSDFGEVLEKSKRMRVRLRGLAGELG",
-                  "midline": "MFFTDWEGPWILTDFALELCMAVFNNARFFSNLSEYDDYLAYEVRREGYEAGYTLKLLTPFLAAAGVKNRDVERIAELSAKFVPDAEKAMATLQERWTPVVISTSYTQYLRRTASMIGVRGELHGTEVDFDSIAVPEGLREELLSIIDVIASLSGEELFRKLDELFSRSEVRKIVESVKAVGAGEKAKIMRGYCESKGIDFPVVVGDSISDYKMFEAARGLGGVAIAFNGNEYALKHADVAIISPTAMSEAKVIELFMERKERAFEVLSAVSIPETEIYIMENSDFGEVLEKSKRMRVRLRGLAGELG"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "tr|O28835|O28835_ARCFU",
+                      "accession": "O28835",
+                      "title": "HAD family hydrolase OS=Archaeoglobus fulgidus (strain ATCC 49558 / DSM 4304 / JCM 9628 / NBRC 100126 / VC-16) OX=224325 GN=AF_1437 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 308,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 621.698,
+                      "score": 1602,
+                      "evalue": 0,
+                      "identity": 308,
+                      "positive": 308,
+                      "query_from": 1,
+                      "query_to": 308,
+                      "hit_from": 1,
+                      "hit_to": 308,
+                      "align_len": 308,
+                      "gaps": 0,
+                      "qseq": "MFFTDWEGPWILTDFALELCMAVFNNARFFSNLSEYDDYLAYEVRREGYEAGYTLKLLTPFLAAAGVKNRDVERIAELSAKFVPDAEKAMATLQERWTPVVISTSYTQYLRRTASMIGVRGELHGTEVDFDSIAVPEGLREELLSIIDVIASLSGEELFRKLDELFSRSEVRKIVESVKAVGAGEKAKIMRGYCESKGIDFPVVVGDSISDYKMFEAARGLGGVAIAFNGNEYALKHADVAIISPTAMSEAKVIELFMERKERAFEVLSAVSIPETEIYIMENSDFGEVLEKSKRMRVRLRGLAGELG",
+                      "hseq": "MFFTDWEGPWILTDFALELCMAVFNNARFFSNLSEYDDYLAYEVRREGYEAGYTLKLLTPFLAAAGVKNRDVERIAELSAKFVPDAEKAMATLQERWTPVVISTSYTQYLRRTASMIGVRGELHGTEVDFDSIAVPEGLREELLSIIDVIASLSGEELFRKLDELFSRSEVRKIVESVKAVGAGEKAKIMRGYCESKGIDFPVVVGDSISDYKMFEAARGLGGVAIAFNGNEYALKHADVAIISPTAMSEAKVIELFMERKERAFEVLSAVSIPETEIYIMENSDFGEVLEKSKRMRVRLRGLAGELG",
+                      "midline": "MFFTDWEGPWILTDFALELCMAVFNNARFFSNLSEYDDYLAYEVRREGYEAGYTLKLLTPFLAAAGVKNRDVERIAELSAKFVPDAEKAMATLQERWTPVVISTSYTQYLRRTASMIGVRGELHGTEVDFDSIAVPEGLREELLSIIDVIASLSGEELFRKLDELFSRSEVRKIVESVKAVGAGEKAKIMRGYCESKGIDFPVVVGDSISDYKMFEAARGLGGVAIAFNGNEYALKHADVAIISPTAMSEAKVIELFMERKERAFEVLSAVSIPETEIYIMENSDFGEVLEKSKRMRVRLRGLAGELG"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P08037|B4GT1_BOVIN",
-                  "accession": "P08037",
-                  "title": "Beta-1,4-galactosyltransferase 1 OS=Bos taurus OX=9913 GN=B4GALT1 PE=1 SV=3"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P08037|B4GT1_BOVIN",
+                      "accession": "P08037",
+                      "title": "Beta-1,4-galactosyltransferase 1 OS=Bos taurus OX=9913 GN=B4GALT1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 402,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 1.24393,
+                      "identity": 10,
+                      "positive": 14,
+                      "query_from": 110,
+                      "query_to": 138,
+                      "hit_from": 47,
+                      "hit_to": 75,
+                      "align_len": 29,
+                      "gaps": 0,
+                      "qseq": "LRRTASMIGVRGELHGTEVDFDSIAVPEG",
+                      "hseq": "LRRLPQLVGVHPPLQGSSHGAAAIGQPSG",
+                      "midline": "LRR   ++GV   L G+     +I  P G"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P36924|AMYB_BACCE",
+                      "accession": "P36924",
+                      "title": "Beta-amylase OS=Bacillus cereus OX=1396 GN=spoII PE=1 SV=2"
+                    }
+                  ],
+                  "len": 546,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 1.64944,
+                      "identity": 7,
+                      "positive": 12,
+                      "query_from": 88,
+                      "query_to": 105,
+                      "hit_from": 523,
+                      "hit_to": 540,
+                      "align_len": 18,
+                      "gaps": 0,
+                      "qseq": "KAMATLQERWTPVVISTS",
+                      "hseq": "KSWQTIQQSWNPVPLKTT",
+                      "midline": "K+  T+Q+ W PV + T+"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P38516|RL4_THEMA",
+                      "accession": "P38516",
+                      "title": "Large ribosomal subunit protein uL4 OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=rplD PE=1 SV=2"
+                    }
+                  ],
+                  "len": 235,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 2.87485,
+                      "identity": 16,
+                      "positive": 33,
+                      "query_from": 242,
+                      "query_to": 303,
+                      "hit_from": 142,
+                      "hit_to": 200,
+                      "align_len": 63,
+                      "gaps": 5,
+                      "qseq": "IISPTAMSEAKVIELFMERKERAFEV-LSAVSIPETEIYIMENSDFGEVLEKSKRMRVRLRGL",
+                      "hseq": "ILQNLQLSDKKTLIVLPWKEEGYMNVKLSGRNLPDVKVIIADNPNNSKNGEKA----VRIDGL",
+                      "midline": "I+    +S+ K + +   ++E    V LS  ++P+ ++ I +N +  +  EK+    VR+ GL"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P00282|AZUR_PSEAE",
+                      "accession": "P00282",
+                      "title": "Azurin OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=azu PE=1 SV=2"
+                    }
+                  ],
+                  "len": 148,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 4.47868,
+                      "identity": 7,
+                      "positive": 17,
+                      "query_from": 162,
+                      "query_to": 189,
+                      "hit_from": 88,
+                      "hit_to": 115,
+                      "align_len": 28,
+                      "gaps": 0,
+                      "qseq": "LDELFSRSEVRKIVESVKAVGAGEKAKI",
+                      "hseq": "LDKDYLKPDDSRVIAHTKLIGSGEKDSV",
+                      "midline": "LD+ + + +  +++   K +G+GEK  +"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 5.21813,
+                      "identity": 9,
+                      "positive": 10,
+                      "query_from": 197,
+                      "query_to": 212,
+                      "hit_from": 1689,
+                      "hit_to": 1704,
+                      "align_len": 16,
+                      "gaps": 0,
+                      "qseq": "KGIDFPVVVGDSISDY",
+                      "hseq": "QGQDFPAGNGSSASDY",
+                      "midline": "+G DFP   G S SDY"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q8U192|THIE_PYRFU",
+                      "accession": "Q8U192",
+                      "title": "Thiamine-phosphate synthase OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=thiE PE=1 SV=1"
+                    }
+                  ],
+                  "len": 207,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 5.57076,
+                      "identity": 15,
+                      "positive": 19,
+                      "query_from": 147,
+                      "query_to": 178,
+                      "hit_from": 179,
+                      "hit_to": 205,
+                      "align_len": 32,
+                      "gaps": 5,
+                      "qseq": "IDVIASLSGEELFRKLDELFSRSEVRKIVESV",
+                      "hseq": "IAVISAVMGAEDVRKATE-----ELRKIVEEV",
+                      "midline": "I VI+++ G E  RK  E     E+RKIVE V"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P05618|CDGT_BACS0",
+                      "accession": "P05618",
+                      "title": "Cyclomaltodextrin glucanotransferase OS=Bacillus sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1"
+                    }
+                  ],
+                  "len": 713,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 6.06917,
+                      "identity": 8,
+                      "positive": 14,
+                      "query_from": 112,
+                      "query_to": 133,
+                      "hit_from": 323,
+                      "hit_to": 344,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "RTASMIGVRGELHGTEVDFDSI",
+                      "hseq": "NTDNMYGLKAMLEGSEVDYAQV",
+                      "midline": " T +M G++  L G+EVD+  +"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P0C6U8|R1A_SARS",
+                      "accession": "P0C6U8",
+                      "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                    }
+                  ],
+                  "len": 4382,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 8.98039,
+                      "identity": 13,
+                      "positive": 21,
+                      "query_from": 48,
+                      "query_to": 93,
+                      "hit_from": 520,
+                      "hit_to": 569,
+                      "align_len": 50,
+                      "gaps": 4,
+                      "qseq": "GYEAGYTLKLLTPFLA----AAGVKNRDVERIAELSAKFVPDAEKAMATL",
+                      "hseq": "AWNIGQQRSVLTPLCGFPSQAAGVIRSIFARTLDAANHSIPDLQRAAVTI",
+                      "midline": " +  G    +LTP       AAGV      R  + +   +PD ++A  T+"
+                    }
+                  ]
                 }
               ],
-              "len": 402,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 1.24393,
-                  "identity": 10,
-                  "positive": 14,
-                  "query_from": 110,
-                  "query_to": 138,
-                  "hit_from": 47,
-                  "hit_to": 75,
-                  "align_len": 29,
-                  "gaps": 0,
-                  "qseq": "LRRTASMIGVRGELHGTEVDFDSIAVPEG",
-                  "hseq": "LRRLPQLVGVHPPLQGSSHGAAAIGQPSG",
-                  "midline": "LRR   ++GV   L G+     +I  P G"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P36924|AMYB_BACCE",
-                  "accession": "P36924",
-                  "title": "Beta-amylase OS=Bacillus cereus OX=1396 GN=spoII PE=1 SV=2"
-                }
-              ],
-              "len": 546,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 1.64944,
-                  "identity": 7,
-                  "positive": 12,
-                  "query_from": 88,
-                  "query_to": 105,
-                  "hit_from": 523,
-                  "hit_to": 540,
-                  "align_len": 18,
-                  "gaps": 0,
-                  "qseq": "KAMATLQERWTPVVISTS",
-                  "hseq": "KSWQTIQQSWNPVPLKTT",
-                  "midline": "K+  T+Q+ W PV + T+"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P38516|RL4_THEMA",
-                  "accession": "P38516",
-                  "title": "Large ribosomal subunit protein uL4 OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=rplD PE=1 SV=2"
-                }
-              ],
-              "len": 235,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 2.87485,
-                  "identity": 16,
-                  "positive": 33,
-                  "query_from": 242,
-                  "query_to": 303,
-                  "hit_from": 142,
-                  "hit_to": 200,
-                  "align_len": 63,
-                  "gaps": 5,
-                  "qseq": "IISPTAMSEAKVIELFMERKERAFEV-LSAVSIPETEIYIMENSDFGEVLEKSKRMRVRLRGL",
-                  "hseq": "ILQNLQLSDKKTLIVLPWKEEGYMNVKLSGRNLPDVKVIIADNPNNSKNGEKA----VRIDGL",
-                  "midline": "I+    +S+ K + +   ++E    V LS  ++P+ ++ I +N +  +  EK+    VR+ GL"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P00282|AZUR_PSEAE",
-                  "accession": "P00282",
-                  "title": "Azurin OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=azu PE=1 SV=2"
-                }
-              ],
-              "len": 148,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 4.47868,
-                  "identity": 7,
-                  "positive": 17,
-                  "query_from": 162,
-                  "query_to": 189,
-                  "hit_from": 88,
-                  "hit_to": 115,
-                  "align_len": 28,
-                  "gaps": 0,
-                  "qseq": "LDELFSRSEVRKIVESVKAVGAGEKAKI",
-                  "hseq": "LDKDYLKPDDSRVIAHTKLIGSGEKDSV",
-                  "midline": "LD+ + + +  +++   K +G+GEK  +"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 5.21813,
-                  "identity": 9,
-                  "positive": 10,
-                  "query_from": 197,
-                  "query_to": 212,
-                  "hit_from": 1689,
-                  "hit_to": 1704,
-                  "align_len": 16,
-                  "gaps": 0,
-                  "qseq": "KGIDFPVVVGDSISDY",
-                  "hseq": "QGQDFPAGNGSSASDY",
-                  "midline": "+G DFP   G S SDY"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q8U192|THIE_PYRFU",
-                  "accession": "Q8U192",
-                  "title": "Thiamine-phosphate synthase OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1) OX=186497 GN=thiE PE=1 SV=1"
-                }
-              ],
-              "len": 207,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 5.57076,
-                  "identity": 15,
-                  "positive": 19,
-                  "query_from": 147,
-                  "query_to": 178,
-                  "hit_from": 179,
-                  "hit_to": 205,
-                  "align_len": 32,
-                  "gaps": 5,
-                  "qseq": "IDVIASLSGEELFRKLDELFSRSEVRKIVESV",
-                  "hseq": "IAVISAVMGAEDVRKATE-----ELRKIVEEV",
-                  "midline": "I VI+++ G E  RK  E     E+RKIVE V"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P05618|CDGT_BACS0",
-                  "accession": "P05618",
-                  "title": "Cyclomaltodextrin glucanotransferase OS=Bacillus sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1"
-                }
-              ],
-              "len": 713,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 6.06917,
-                  "identity": 8,
-                  "positive": 14,
-                  "query_from": 112,
-                  "query_to": 133,
-                  "hit_from": 323,
-                  "hit_to": 344,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "RTASMIGVRGELHGTEVDFDSI",
-                  "hseq": "NTDNMYGLKAMLEGSEVDYAQV",
-                  "midline": " T +M G++  L G+EVD+  +"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|P0C6U8|R1A_SARS",
-                  "accession": "P0C6U8",
-                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
-                }
-              ],
-              "len": 4382,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 8.98039,
-                  "identity": 13,
-                  "positive": 21,
-                  "query_from": 48,
-                  "query_to": 93,
-                  "hit_from": 520,
-                  "hit_to": 569,
-                  "align_len": 50,
-                  "gaps": 4,
-                  "qseq": "GYEAGYTLKLLTPFLA----AAGVKNRDVERIAELSAKFVPDAEKAMATL",
-                  "hseq": "AWNIGQQRSVLTPLCGFPSQAAGVIRSIFARTLDAANHSIPDLQRAAVTI",
-                  "midline": " +  G    +LTP       AAGV      R  + +   +PD ++A  T+"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 65,
+                "eff_space": 16800291,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 65,
-            "eff_space": 16800291,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

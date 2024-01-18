@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,202 +17,207 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P07987|GUX2_HYPJE Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1",
-          "query_len": 471,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P07987|GUX2_HYPJE",
-                  "accession": "P07987",
-                  "title": "Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1"
-                }
-              ],
-              "len": 471,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P07987|GUX2_HYPJE Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1",
+              "query_len": 471,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 959.518,
-                  "score": 2479,
-                  "evalue": 0,
-                  "identity": 471,
-                  "positive": 471,
-                  "query_from": 1,
-                  "query_to": 471,
-                  "hit_from": 1,
-                  "hit_to": 471,
-                  "align_len": 471,
-                  "gaps": 0,
-                  "qseq": "MIVGILTTLATLATLAASVPLEERQACSSVWGQCGGQNWSGPTCCASGSTCVYSNDYYSQCLPGAASSSSSTRAASTTSRVSPTTSRSSSATPPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEVSSLAIPSLTGAMATAAAAVAKVPSFMWLDTLDKTPLMEQTLADIRTANKNGGNYAGQFVVYDLPDRDCAALASNGEYSIADGGVAKYKNYIDTIRQIVVEYSDIRTLLVIEPDSLANLVTNLGTPKCANAQSAYLECINYAVTQLNLPNVAMYLDAGHAGWLGWPANQDPAAQLFANVYKNASSPRALRGLATNVANYNGWNITSPPSYTQGNAVYNEKLYIHAIGPLLANHGWSNAFFITDQGRSGKQPTGQQQWGDWCNVIGTGFGIRPSANTGDSLLDSFVWVKPGGECDGTSDSSAPRFDSHCALPDALQPAPQAGAWFQAYFVQLLTNANPSFL",
-                  "hseq": "MIVGILTTLATLATLAASVPLEERQACSSVWGQCGGQNWSGPTCCASGSTCVYSNDYYSQCLPGAASSSSSTRAASTTSRVSPTTSRSSSATPPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEVSSLAIPSLTGAMATAAAAVAKVPSFMWLDTLDKTPLMEQTLADIRTANKNGGNYAGQFVVYDLPDRDCAALASNGEYSIADGGVAKYKNYIDTIRQIVVEYSDIRTLLVIEPDSLANLVTNLGTPKCANAQSAYLECINYAVTQLNLPNVAMYLDAGHAGWLGWPANQDPAAQLFANVYKNASSPRALRGLATNVANYNGWNITSPPSYTQGNAVYNEKLYIHAIGPLLANHGWSNAFFITDQGRSGKQPTGQQQWGDWCNVIGTGFGIRPSANTGDSLLDSFVWVKPGGECDGTSDSSAPRFDSHCALPDALQPAPQAGAWFQAYFVQLLTNANPSFL",
-                  "midline": "MIVGILTTLATLATLAASVPLEERQACSSVWGQCGGQNWSGPTCCASGSTCVYSNDYYSQCLPGAASSSSSTRAASTTSRVSPTTSRSSSATPPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEVSSLAIPSLTGAMATAAAAVAKVPSFMWLDTLDKTPLMEQTLADIRTANKNGGNYAGQFVVYDLPDRDCAALASNGEYSIADGGVAKYKNYIDTIRQIVVEYSDIRTLLVIEPDSLANLVTNLGTPKCANAQSAYLECINYAVTQLNLPNVAMYLDAGHAGWLGWPANQDPAAQLFANVYKNASSPRALRGLATNVANYNGWNITSPPSYTQGNAVYNEKLYIHAIGPLLANHGWSNAFFITDQGRSGKQPTGQQQWGDWCNVIGTGFGIRPSANTGDSLLDSFVWVKPGGECDGTSDSSAPRFDSHCALPDALQPAPQAGAWFQAYFVQLLTNANPSFL"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P07987|GUX2_HYPJE",
+                      "accession": "P07987",
+                      "title": "Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 471,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 959.518,
+                      "score": 2479,
+                      "evalue": 0,
+                      "identity": 471,
+                      "positive": 471,
+                      "query_from": 1,
+                      "query_to": 471,
+                      "hit_from": 1,
+                      "hit_to": 471,
+                      "align_len": 471,
+                      "gaps": 0,
+                      "qseq": "MIVGILTTLATLATLAASVPLEERQACSSVWGQCGGQNWSGPTCCASGSTCVYSNDYYSQCLPGAASSSSSTRAASTTSRVSPTTSRSSSATPPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEVSSLAIPSLTGAMATAAAAVAKVPSFMWLDTLDKTPLMEQTLADIRTANKNGGNYAGQFVVYDLPDRDCAALASNGEYSIADGGVAKYKNYIDTIRQIVVEYSDIRTLLVIEPDSLANLVTNLGTPKCANAQSAYLECINYAVTQLNLPNVAMYLDAGHAGWLGWPANQDPAAQLFANVYKNASSPRALRGLATNVANYNGWNITSPPSYTQGNAVYNEKLYIHAIGPLLANHGWSNAFFITDQGRSGKQPTGQQQWGDWCNVIGTGFGIRPSANTGDSLLDSFVWVKPGGECDGTSDSSAPRFDSHCALPDALQPAPQAGAWFQAYFVQLLTNANPSFL",
+                      "hseq": "MIVGILTTLATLATLAASVPLEERQACSSVWGQCGGQNWSGPTCCASGSTCVYSNDYYSQCLPGAASSSSSTRAASTTSRVSPTTSRSSSATPPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEVSSLAIPSLTGAMATAAAAVAKVPSFMWLDTLDKTPLMEQTLADIRTANKNGGNYAGQFVVYDLPDRDCAALASNGEYSIADGGVAKYKNYIDTIRQIVVEYSDIRTLLVIEPDSLANLVTNLGTPKCANAQSAYLECINYAVTQLNLPNVAMYLDAGHAGWLGWPANQDPAAQLFANVYKNASSPRALRGLATNVANYNGWNITSPPSYTQGNAVYNEKLYIHAIGPLLANHGWSNAFFITDQGRSGKQPTGQQQWGDWCNVIGTGFGIRPSANTGDSLLDSFVWVKPGGECDGTSDSSAPRFDSHCALPDALQPAPQAGAWFQAYFVQLLTNANPSFL",
+                      "midline": "MIVGILTTLATLATLAASVPLEERQACSSVWGQCGGQNWSGPTCCASGSTCVYSNDYYSQCLPGAASSSSSTRAASTTSRVSPTTSRSSSATPPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEVSSLAIPSLTGAMATAAAAVAKVPSFMWLDTLDKTPLMEQTLADIRTANKNGGNYAGQFVVYDLPDRDCAALASNGEYSIADGGVAKYKNYIDTIRQIVVEYSDIRTLLVIEPDSLANLVTNLGTPKCANAQSAYLECINYAVTQLNLPNVAMYLDAGHAGWLGWPANQDPAAQLFANVYKNASSPRALRGLATNVANYNGWNITSPPSYTQGNAVYNEKLYIHAIGPLLANHGWSNAFFITDQGRSGKQPTGQQQWGDWCNVIGTGFGIRPSANTGDSLLDSFVWVKPGGECDGTSDSSAPRFDSHCALPDALQPAPQAGAWFQAYFVQLLTNANPSFL"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P26222|GUN2_THEFU",
-                  "accession": "P26222",
-                  "title": "Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P26222|GUN2_THEFU",
+                      "accession": "P26222",
+                      "title": "Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2"
+                    }
+                  ],
+                  "len": 441,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 80.8777,
+                      "score": 198,
+                      "evalue": 1.78055e-18,
+                      "identity": 75,
+                      "positive": 113,
+                      "query_from": 151,
+                      "query_to": 426,
+                      "hit_from": 64,
+                      "hit_to": 297,
+                      "align_len": 279,
+                      "gaps": 48,
+                      "qseq": "VAKVPSFMWLDTLDKTPLMEQTLADIRTANKNGGNYAGQFVVYDLPDRDCAALASNGEYSIADGGVAKYKNYIDTIRQIVVEYSDIRTLLVIEPDSLANLVTNLGTPKCANAQSAYLECINYAVTQLNL--PNVAMYLDAGHAGWLGWPANQDPAAQLFANVYKNASSPRALRGLATNVANYNGWNITSPPSYTQGNAVYNEKLYIHAIG-PLLANHGWSNAFFITDQGRSGKQPTGQQQWGDWCNVIGTGFGIRPSANTGDSLLDSFVWVKPGGECDG",
+                      "hseq": "IASVPQGTWFAHHNPGQITGQVDALMSAAQAAG--KIPILVVYNAPGRDC------GNHS--SGGAPSHSAYRSWIDEFAAGLKNRPAYIIVEPDLISLMSSCM-----QHVQQEVLETMAYAGKALKAGSSQARIYFDAGHSAW------HSPAQ--MASWLQQADISNSAHGIATNTSNYR---------WTADEVAY-AKAVLSAIGNPSLR--------AVIDTSRNGNGPAGNE----WCDPSGRAIGTPSTTNTGDPMIDAFLWIKLPGEADG",
+                      "midline": "+A VP   W    +   +  Q  A +  A   G       VVY+ P RDC      G +S   GG   +  Y   I +      +    +++EPD ++ + + +      + Q   LE + YA   L        +Y DAGH+ W        PA    A+  + A    +  G+ATN +NY          +T     Y  K  + AIG P L          + D  R+G  P G +    WC+  G   G   + NTGD ++D+F+W+K  GE DG"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P10282|RNF1_GIBFU",
+                      "accession": "P10282",
+                      "title": "Guanyl-specific ribonuclease F1 OS=Gibberella fujikuroi OX=5127 PE=1 SV=4"
+                    }
+                  ],
+                  "len": 131,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 28.4906,
+                      "score": 62,
+                      "evalue": 0.0328565,
+                      "identity": 13,
+                      "positive": 22,
+                      "query_from": 6,
+                      "query_to": 40,
+                      "hit_from": 7,
+                      "hit_to": 37,
+                      "align_len": 35,
+                      "gaps": 4,
+                      "qseq": "LTTLATLATLAASVPLEERQACSSVWGQCGGQNWS",
+                      "hseq": "IASLAALVSLAVASPIESRQSATT----CGSTNYS",
+                      "midline": "+ +LA L +LA + P+E RQ+ ++    CG  N+S"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P03422|PHOSP_MEASE",
+                      "accession": "P03422",
+                      "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
+                    }
+                  ],
+                  "len": 507,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 26.1794,
+                      "score": 56,
+                      "evalue": 0.323661,
+                      "identity": 21,
+                      "positive": 26,
+                      "query_from": 93,
+                      "query_to": 156,
+                      "hit_from": 204,
+                      "hit_to": 263,
+                      "align_len": 64,
+                      "gaps": 4,
+                      "qseq": "PPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEVSSLAIPSLTGAMATAAAAVAKVPS",
+                      "hseq": "PKLGKTLNVPPPPDPGRASTSGTPIKKGTERRLASFGTEIASL----LTGGATQCARKSPSEPS",
+                      "midline": "P  G T    PP   G A+ SG P    T    A + +E++SL    LTG     A      PS"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P30922|CH3L1_BOVIN",
+                      "accession": "P30922",
+                      "title": "Chitinase-3-like protein 1 OS=Bos taurus OX=9913 GN=CHI3L1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 383,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 2.75854,
+                      "identity": 9,
+                      "positive": 16,
+                      "query_from": 332,
+                      "query_to": 366,
+                      "hit_from": 98,
+                      "hit_to": 132,
+                      "align_len": 35,
+                      "gaps": 0,
+                      "qseq": "GWNITSPPSYTQGNAVYNEKLYIHAIGPLLANHGW",
+                      "hseq": "GWNFGSQRFSKIASKTQSRRTFIKSVPPFLRTHGF",
+                      "midline": "GWN  S       +   + + +I ++ P L  HG+"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 5.64292,
+                      "identity": 13,
+                      "positive": 19,
+                      "query_from": 92,
+                      "query_to": 132,
+                      "hit_from": 2410,
+                      "hit_to": 2449,
+                      "align_len": 41,
+                      "gaps": 1,
+                      "qseq": "TPPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEV",
+                      "hseq": "TIKPNSSITITPKAGTG-HSVSSNPSTLTAPAAHTVNTTEI",
+                      "midline": "T  P S+ T  P  G+G  + S NP     P A+    +E+"
+                    }
+                  ]
                 }
               ],
-              "len": 441,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 80.8777,
-                  "score": 198,
-                  "evalue": 1.78055e-18,
-                  "identity": 75,
-                  "positive": 113,
-                  "query_from": 151,
-                  "query_to": 426,
-                  "hit_from": 64,
-                  "hit_to": 297,
-                  "align_len": 279,
-                  "gaps": 48,
-                  "qseq": "VAKVPSFMWLDTLDKTPLMEQTLADIRTANKNGGNYAGQFVVYDLPDRDCAALASNGEYSIADGGVAKYKNYIDTIRQIVVEYSDIRTLLVIEPDSLANLVTNLGTPKCANAQSAYLECINYAVTQLNL--PNVAMYLDAGHAGWLGWPANQDPAAQLFANVYKNASSPRALRGLATNVANYNGWNITSPPSYTQGNAVYNEKLYIHAIG-PLLANHGWSNAFFITDQGRSGKQPTGQQQWGDWCNVIGTGFGIRPSANTGDSLLDSFVWVKPGGECDG",
-                  "hseq": "IASVPQGTWFAHHNPGQITGQVDALMSAAQAAG--KIPILVVYNAPGRDC------GNHS--SGGAPSHSAYRSWIDEFAAGLKNRPAYIIVEPDLISLMSSCM-----QHVQQEVLETMAYAGKALKAGSSQARIYFDAGHSAW------HSPAQ--MASWLQQADISNSAHGIATNTSNYR---------WTADEVAY-AKAVLSAIGNPSLR--------AVIDTSRNGNGPAGNE----WCDPSGRAIGTPSTTNTGDPMIDAFLWIKLPGEADG",
-                  "midline": "+A VP   W    +   +  Q  A +  A   G       VVY+ P RDC      G +S   GG   +  Y   I +      +    +++EPD ++ + + +      + Q   LE + YA   L        +Y DAGH+ W        PA    A+  + A    +  G+ATN +NY          +T     Y  K  + AIG P L          + D  R+G  P G +    WC+  G   G   + NTGD ++D+F+W+K  GE DG"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P10282|RNF1_GIBFU",
-                  "accession": "P10282",
-                  "title": "Guanyl-specific ribonuclease F1 OS=Gibberella fujikuroi OX=5127 PE=1 SV=4"
-                }
-              ],
-              "len": 131,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 28.4906,
-                  "score": 62,
-                  "evalue": 0.0328565,
-                  "identity": 13,
-                  "positive": 22,
-                  "query_from": 6,
-                  "query_to": 40,
-                  "hit_from": 7,
-                  "hit_to": 37,
-                  "align_len": 35,
-                  "gaps": 4,
-                  "qseq": "LTTLATLATLAASVPLEERQACSSVWGQCGGQNWS",
-                  "hseq": "IASLAALVSLAVASPIESRQSATT----CGSTNYS",
-                  "midline": "+ +LA L +LA + P+E RQ+ ++    CG  N+S"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P03422|PHOSP_MEASE",
-                  "accession": "P03422",
-                  "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
-                }
-              ],
-              "len": 507,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 26.1794,
-                  "score": 56,
-                  "evalue": 0.323661,
-                  "identity": 21,
-                  "positive": 26,
-                  "query_from": 93,
-                  "query_to": 156,
-                  "hit_from": 204,
-                  "hit_to": 263,
-                  "align_len": 64,
-                  "gaps": 4,
-                  "qseq": "PPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEVSSLAIPSLTGAMATAAAAVAKVPS",
-                  "hseq": "PKLGKTLNVPPPPDPGRASTSGTPIKKGTERRLASFGTEIASL----LTGGATQCARKSPSEPS",
-                  "midline": "P  G T    PP   G A+ SG P    T    A + +E++SL    LTG     A      PS"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P30922|CH3L1_BOVIN",
-                  "accession": "P30922",
-                  "title": "Chitinase-3-like protein 1 OS=Bos taurus OX=9913 GN=CHI3L1 PE=1 SV=3"
-                }
-              ],
-              "len": 383,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 2.75854,
-                  "identity": 9,
-                  "positive": 16,
-                  "query_from": 332,
-                  "query_to": 366,
-                  "hit_from": 98,
-                  "hit_to": 132,
-                  "align_len": 35,
-                  "gaps": 0,
-                  "qseq": "GWNITSPPSYTQGNAVYNEKLYIHAIGPLLANHGW",
-                  "hseq": "GWNFGSQRFSKIASKTQSRRTFIKSVPPFLRTHGF",
-                  "midline": "GWN  S       +   + + +I ++ P L  HG+"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 5.64292,
-                  "identity": 13,
-                  "positive": 19,
-                  "query_from": 92,
-                  "query_to": 132,
-                  "hit_from": 2410,
-                  "hit_to": 2449,
-                  "align_len": 41,
-                  "gaps": 1,
-                  "qseq": "TPPPGSTTTRVPPVGSGTATYSGNPFVGVTPWANAYYASEV",
-                  "hseq": "TIKPNSSITITPKAGTG-HSVSSNPSTLTAPAAHTVNTTEI",
-                  "midline": "T  P S+ T  P  G+G  + S NP     P A+    +E+"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 69,
+                "eff_space": 27457002,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 69,
-            "eff_space": 27457002,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

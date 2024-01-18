@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,236 +17,241 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P0AEC8|DCUS_ECOLI Sensor histidine kinase DcuS OS=Escherichia coli (strain K12) OX=83333 GN=dcuS PE=1 SV=1",
-          "query_len": 543,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P0AEC8|DCUS_ECOLI",
-                  "accession": "P0AEC8",
-                  "title": "Sensor histidine kinase DcuS OS=Escherichia coli (strain K12) OX=83333 GN=dcuS PE=1 SV=1"
-                }
-              ],
-              "len": 543,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P0AEC8|DCUS_ECOLI Sensor histidine kinase DcuS OS=Escherichia coli (strain K12) OX=83333 GN=dcuS PE=1 SV=1",
+              "query_len": 543,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 1104.74,
-                  "score": 2856,
-                  "evalue": 0,
-                  "identity": 543,
-                  "positive": 543,
-                  "query_from": 1,
-                  "query_to": 543,
-                  "hit_from": 1,
-                  "hit_to": 543,
-                  "align_len": 543,
-                  "gaps": 0,
-                  "qseq": "MRHSLPYRMLRKRPMKLSTTVILMVSAVLFSVLLVVHLIYFSQISDMTRDGLANKALAVARTLADSPEIRQGLQKKPQESGIQAIAEAVRKRNDLLFIVVTDMQSLRYSHPEAQRIGQPFKGDDILKALNGEENVAINRGFLAQALRVFTPIYDENHKQIGVVAIGLELSRVTQQINDSRWSIIWSVLFGMLVGLIGTCILVKVLKKILFGLEPYEISTLFEQRQAMLQSIKEGVVAVDDRGEVTLINDAAQELLNYRKSQDDEKLSTLSHSWSQVVDVSEVLRDGTPRRDEEITIKDRLLLINTVPVRSNGVIIGAISTFRDKTEVRKLMQRLDGLVNYADALRERSHEFMNKLHVILGLLHLKSYKQLEDYILKTANNYQEEIGSLLGKIKSPVIAGFLISKINRATDLGHTLILNSESQLPDSGSEDQVATLITTLGNLIENALEALGPEPGGEISVTLHYRHGWLHCEVNDDGPGIAPDKIDHIFDKGVSTKGSERGVGLALVKQQVENLGGSIAVESEPGIFTQFFVQIPWDGERSNR",
-                  "hseq": "MRHSLPYRMLRKRPMKLSTTVILMVSAVLFSVLLVVHLIYFSQISDMTRDGLANKALAVARTLADSPEIRQGLQKKPQESGIQAIAEAVRKRNDLLFIVVTDMQSLRYSHPEAQRIGQPFKGDDILKALNGEENVAINRGFLAQALRVFTPIYDENHKQIGVVAIGLELSRVTQQINDSRWSIIWSVLFGMLVGLIGTCILVKVLKKILFGLEPYEISTLFEQRQAMLQSIKEGVVAVDDRGEVTLINDAAQELLNYRKSQDDEKLSTLSHSWSQVVDVSEVLRDGTPRRDEEITIKDRLLLINTVPVRSNGVIIGAISTFRDKTEVRKLMQRLDGLVNYADALRERSHEFMNKLHVILGLLHLKSYKQLEDYILKTANNYQEEIGSLLGKIKSPVIAGFLISKINRATDLGHTLILNSESQLPDSGSEDQVATLITTLGNLIENALEALGPEPGGEISVTLHYRHGWLHCEVNDDGPGIAPDKIDHIFDKGVSTKGSERGVGLALVKQQVENLGGSIAVESEPGIFTQFFVQIPWDGERSNR",
-                  "midline": "MRHSLPYRMLRKRPMKLSTTVILMVSAVLFSVLLVVHLIYFSQISDMTRDGLANKALAVARTLADSPEIRQGLQKKPQESGIQAIAEAVRKRNDLLFIVVTDMQSLRYSHPEAQRIGQPFKGDDILKALNGEENVAINRGFLAQALRVFTPIYDENHKQIGVVAIGLELSRVTQQINDSRWSIIWSVLFGMLVGLIGTCILVKVLKKILFGLEPYEISTLFEQRQAMLQSIKEGVVAVDDRGEVTLINDAAQELLNYRKSQDDEKLSTLSHSWSQVVDVSEVLRDGTPRRDEEITIKDRLLLINTVPVRSNGVIIGAISTFRDKTEVRKLMQRLDGLVNYADALRERSHEFMNKLHVILGLLHLKSYKQLEDYILKTANNYQEEIGSLLGKIKSPVIAGFLISKINRATDLGHTLILNSESQLPDSGSEDQVATLITTLGNLIENALEALGPEPGGEISVTLHYRHGWLHCEVNDDGPGIAPDKIDHIFDKGVSTKGSERGVGLALVKQQVENLGGSIAVESEPGIFTQFFVQIPWDGERSNR"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P52687|CITA_KLEPN",
-                  "accession": "P52687",
-                  "title": "Sensor histidine kinase CitA OS=Klebsiella pneumoniae OX=573 GN=citA PE=1 SV=1"
-                }
-              ],
-              "len": 547,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 179.489,
-                  "score": 454,
-                  "evalue": 6.75119e-52,
-                  "identity": 154,
-                  "positive": 264,
-                  "query_from": 28,
-                  "query_to": 535,
-                  "hit_from": 28,
-                  "hit_to": 539,
-                  "align_len": 521,
-                  "gaps": 22,
-                  "qseq": "VLFSVLLVVHLIYFSQISDMTRDGL----ANKALAVARTLADSPEIRQGLQKKPQESGIQAIAEAVRKRNDLLFIVVTDMQSLRYSHPEAQRIGQPFKGDDILKAL-NGEENVAINRGFLAQALRVFTPIYDENHKQIGVVAIGLELSRVTQQINDSRWSIIWSVLFGMLVGLIGTCILVKVLKKILFGLEPYEISTLFEQRQAMLQSIKEGVVAVDDRGEVTLINDAAQELLNYRKSQDDEKLSTLSHSWSQVVDVSEVLRDG--TPRRDEEITIKDRLLLINTVPVRSNGVIIGAISTFRDKTEVRKLMQRLDGLVNYADALRERSHEFMNKLHVILGLLHLKSYKQLEDYILKTANNYQEEIGSLLGKIKSPVIAGFLISKINRATDLGHTLILNSES---QLPDSGSEDQVATLITTLGNLIENALEALGPEPGG--EISVTLHYRHGWLHCEVNDDGPGIAPDKIDHIFDKGVSTKGS-ERGVGLALVKQQVENLGGSIAVESEPGIFTQFFVQIP",
-                  "hseq": "ILFTSTIVM-LAMSWYLTDITEERLHYQVGQRALIQAMQISAMPELVEAVQKR-DLARIKALIDPMRSFSDATYITVGDASGQRLYHVNPDEIGKSMEGGDSDEALINAKSYVSVRKGSLGSSLRGKSPIQDATGKVIGIVSVGYTIEQLENWLSLQISSLLIPMAIMLLLLLFCARRFSLHIKKQMLNMEPQQLSQLLIQQSVLFESVFEGLIAIDSDYKITAINQTARRLLNL--SQPEPTL--IGKRISSVISQEVFFYDAPQTNKKDEIVTFNQIKVIASRMAVILNNEPQGWVISFRSKDDINTLSLQLSQVQQYADNLRAVQHEHRNLISTIAGLLFLKRYNQALELIQQQSESHQKVIDFIARNFQDNHLAGLLIGKYYRAKELGLELIFDPACFVDRLPTALSHNE---WISIVGNLLDNAYNASLRQPQGSKQIECLINSDGQEVIIEIADQGCGIDEALRDRIFERGVTSSASKDHGIGLWLVRSYVEQAGGSIVVENNIPFGTIFTLYIP",
-                  "midline": "+LF+  +V+ L     ++D+T + L      +AL  A  ++  PE+ + +QK+   + I+A+ + +R  +D  +I V D    R  H     IG+  +G D  +AL N +  V++ +G L  +LR  +PI D   K IG+V++G  + ++   ++    S++  +   +L+ L         +KK +  +EP ++S L  Q+  + +S+ EG++A+D   ++T IN  A+ LLN   SQ +  L  +    S V+       D   T ++DE +T     ++ + + V  N    G + +FR K ++  L  +L  +  YAD LR   HE  N +  I GLL LK Y Q  + I + + ++Q+ I  +    +   +AG LI K  RA +LG  LI +      +LP + S ++    I+ +GNL++NA  A   +P G  +I   ++     +  E+ D G GI     D IF++GV++  S + G+GL LV+  VE  GGSI VE+     T F + IP"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P07254|CHIA_SERMA",
-                  "accession": "P07254",
-                  "title": "Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3"
-                }
-              ],
-              "len": 563,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 30.8018,
-                  "score": 68,
-                  "evalue": 0.016076,
-                  "identity": 21,
-                  "positive": 28,
-                  "query_from": 410,
-                  "query_to": 468,
-                  "hit_from": 400,
-                  "hit_to": 448,
-                  "align_len": 59,
-                  "gaps": 10,
-                  "qseq": "DLGHTLILNSESQLPDSGSEDQVATLITTLGNLIENALEALGPEPGGEISVTLHYRHGW",
-                  "hseq": "NLGHQTALNAPAWKPD--------TAYTTVNGV--NALLAQGVKPGKVVVGTAMYGRGW",
-                  "midline": "+LGH   LN+ +  PD        T  TT+  +  NAL A G +PG  +  T  Y  GW"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|Q8K1S3|UNC5B_MOUSE",
-                  "accession": "Q8K1S3",
-                  "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
-                }
-              ],
-              "len": 945,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 2.09891,
-                  "identity": 13,
-                  "positive": 17,
-                  "query_from": 429,
-                  "query_to": 462,
-                  "hit_from": 818,
-                  "hit_to": 851,
-                  "align_len": 34,
-                  "gaps": 0,
-                  "qseq": "EDQVATLITTLGNLIENALEALGPEPGGEISVTL",
-                  "hseq": "EGQIFQLHTTLAETPAGSLDALCSAPGNAITTQL",
-                  "midline": "E Q+  L TTL      +L+AL   PG  I+  L"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q02767|VPS28_YEAST",
-                  "accession": "Q02767",
-                  "title": "Vacuolar protein sorting-associated protein 28 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=VPS28 PE=1 SV=1"
-                }
-              ],
-              "len": 242,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 2.70051,
-                  "identity": 10,
-                  "positive": 15,
-                  "query_from": 274,
-                  "query_to": 299,
-                  "hit_from": 9,
-                  "hit_to": 34,
-                  "align_len": 26,
-                  "gaps": 0,
-                  "qseq": "SQVVDVSEVLRDGTPRRDEEITIKDR",
-                  "hseq": "NQNQDISQLFHDEVPLFDNSITSKDK",
-                  "midline": "+Q  D+S++  D  P  D  IT KD+"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 3.72927,
-                  "identity": 10,
-                  "positive": 17,
-                  "query_from": 126,
-                  "query_to": 154,
-                  "hit_from": 7743,
-                  "hit_to": 7771,
-                  "align_len": 29,
-                  "gaps": 0,
-                  "qseq": "LKALNGEENVAINRGFLAQALRVFTPIYD",
-                  "hseq": "LQALNGDHNLQVAKTNATQAIDALTSLND",
-                  "midline": "L+ALNG+ N+ + +    QA+   T + D"
+                  "description": [
+                    {
+                      "id": "sp|P0AEC8|DCUS_ECOLI",
+                      "accession": "P0AEC8",
+                      "title": "Sensor histidine kinase DcuS OS=Escherichia coli (strain K12) OX=83333 GN=dcuS PE=1 SV=1"
+                    }
+                  ],
+                  "len": 543,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 1104.74,
+                      "score": 2856,
+                      "evalue": 0,
+                      "identity": 543,
+                      "positive": 543,
+                      "query_from": 1,
+                      "query_to": 543,
+                      "hit_from": 1,
+                      "hit_to": 543,
+                      "align_len": 543,
+                      "gaps": 0,
+                      "qseq": "MRHSLPYRMLRKRPMKLSTTVILMVSAVLFSVLLVVHLIYFSQISDMTRDGLANKALAVARTLADSPEIRQGLQKKPQESGIQAIAEAVRKRNDLLFIVVTDMQSLRYSHPEAQRIGQPFKGDDILKALNGEENVAINRGFLAQALRVFTPIYDENHKQIGVVAIGLELSRVTQQINDSRWSIIWSVLFGMLVGLIGTCILVKVLKKILFGLEPYEISTLFEQRQAMLQSIKEGVVAVDDRGEVTLINDAAQELLNYRKSQDDEKLSTLSHSWSQVVDVSEVLRDGTPRRDEEITIKDRLLLINTVPVRSNGVIIGAISTFRDKTEVRKLMQRLDGLVNYADALRERSHEFMNKLHVILGLLHLKSYKQLEDYILKTANNYQEEIGSLLGKIKSPVIAGFLISKINRATDLGHTLILNSESQLPDSGSEDQVATLITTLGNLIENALEALGPEPGGEISVTLHYRHGWLHCEVNDDGPGIAPDKIDHIFDKGVSTKGSERGVGLALVKQQVENLGGSIAVESEPGIFTQFFVQIPWDGERSNR",
+                      "hseq": "MRHSLPYRMLRKRPMKLSTTVILMVSAVLFSVLLVVHLIYFSQISDMTRDGLANKALAVARTLADSPEIRQGLQKKPQESGIQAIAEAVRKRNDLLFIVVTDMQSLRYSHPEAQRIGQPFKGDDILKALNGEENVAINRGFLAQALRVFTPIYDENHKQIGVVAIGLELSRVTQQINDSRWSIIWSVLFGMLVGLIGTCILVKVLKKILFGLEPYEISTLFEQRQAMLQSIKEGVVAVDDRGEVTLINDAAQELLNYRKSQDDEKLSTLSHSWSQVVDVSEVLRDGTPRRDEEITIKDRLLLINTVPVRSNGVIIGAISTFRDKTEVRKLMQRLDGLVNYADALRERSHEFMNKLHVILGLLHLKSYKQLEDYILKTANNYQEEIGSLLGKIKSPVIAGFLISKINRATDLGHTLILNSESQLPDSGSEDQVATLITTLGNLIENALEALGPEPGGEISVTLHYRHGWLHCEVNDDGPGIAPDKIDHIFDKGVSTKGSERGVGLALVKQQVENLGGSIAVESEPGIFTQFFVQIPWDGERSNR",
+                      "midline": "MRHSLPYRMLRKRPMKLSTTVILMVSAVLFSVLLVVHLIYFSQISDMTRDGLANKALAVARTLADSPEIRQGLQKKPQESGIQAIAEAVRKRNDLLFIVVTDMQSLRYSHPEAQRIGQPFKGDDILKALNGEENVAINRGFLAQALRVFTPIYDENHKQIGVVAIGLELSRVTQQINDSRWSIIWSVLFGMLVGLIGTCILVKVLKKILFGLEPYEISTLFEQRQAMLQSIKEGVVAVDDRGEVTLINDAAQELLNYRKSQDDEKLSTLSHSWSQVVDVSEVLRDGTPRRDEEITIKDRLLLINTVPVRSNGVIIGAISTFRDKTEVRKLMQRLDGLVNYADALRERSHEFMNKLHVILGLLHLKSYKQLEDYILKTANNYQEEIGSLLGKIKSPVIAGFLISKINRATDLGHTLILNSESQLPDSGSEDQVATLITTLGNLIENALEALGPEPGGEISVTLHYRHGWLHCEVNDDGPGIAPDKIDHIFDKGVSTKGSERGVGLALVKQQVENLGGSIAVESEPGIFTQFFVQIPWDGERSNR"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 5.69669,
-                  "identity": 17,
-                  "positive": 33,
-                  "query_from": 405,
-                  "query_to": 467,
-                  "hit_from": 1012,
-                  "hit_to": 1082,
-                  "align_len": 71,
-                  "gaps": 8,
-                  "qseq": "INRATDLGHTLILNSESQL----PDSGSEDQVATLITTLGNLIENALEALGPEPGGEI----SVTLHYRHG",
-                  "hseq": "VGKISEDAHPIVLGNTEKVVVVNPTAVSNDEKQSIITAFMNKNQNIRGYLASTDPVTVDNNGNVTLHYRDG",
-                  "midline": "+ + ++  H ++L +  ++    P + S D+  ++IT   N  +N    L       +    +VTLHYR G"
+                  "description": [
+                    {
+                      "id": "sp|P52687|CITA_KLEPN",
+                      "accession": "P52687",
+                      "title": "Sensor histidine kinase CitA OS=Klebsiella pneumoniae OX=573 GN=citA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 547,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 179.489,
+                      "score": 454,
+                      "evalue": 6.75119e-52,
+                      "identity": 154,
+                      "positive": 264,
+                      "query_from": 28,
+                      "query_to": 535,
+                      "hit_from": 28,
+                      "hit_to": 539,
+                      "align_len": 521,
+                      "gaps": 22,
+                      "qseq": "VLFSVLLVVHLIYFSQISDMTRDGL----ANKALAVARTLADSPEIRQGLQKKPQESGIQAIAEAVRKRNDLLFIVVTDMQSLRYSHPEAQRIGQPFKGDDILKAL-NGEENVAINRGFLAQALRVFTPIYDENHKQIGVVAIGLELSRVTQQINDSRWSIIWSVLFGMLVGLIGTCILVKVLKKILFGLEPYEISTLFEQRQAMLQSIKEGVVAVDDRGEVTLINDAAQELLNYRKSQDDEKLSTLSHSWSQVVDVSEVLRDG--TPRRDEEITIKDRLLLINTVPVRSNGVIIGAISTFRDKTEVRKLMQRLDGLVNYADALRERSHEFMNKLHVILGLLHLKSYKQLEDYILKTANNYQEEIGSLLGKIKSPVIAGFLISKINRATDLGHTLILNSES---QLPDSGSEDQVATLITTLGNLIENALEALGPEPGG--EISVTLHYRHGWLHCEVNDDGPGIAPDKIDHIFDKGVSTKGS-ERGVGLALVKQQVENLGGSIAVESEPGIFTQFFVQIP",
+                      "hseq": "ILFTSTIVM-LAMSWYLTDITEERLHYQVGQRALIQAMQISAMPELVEAVQKR-DLARIKALIDPMRSFSDATYITVGDASGQRLYHVNPDEIGKSMEGGDSDEALINAKSYVSVRKGSLGSSLRGKSPIQDATGKVIGIVSVGYTIEQLENWLSLQISSLLIPMAIMLLLLLFCARRFSLHIKKQMLNMEPQQLSQLLIQQSVLFESVFEGLIAIDSDYKITAINQTARRLLNL--SQPEPTL--IGKRISSVISQEVFFYDAPQTNKKDEIVTFNQIKVIASRMAVILNNEPQGWVISFRSKDDINTLSLQLSQVQQYADNLRAVQHEHRNLISTIAGLLFLKRYNQALELIQQQSESHQKVIDFIARNFQDNHLAGLLIGKYYRAKELGLELIFDPACFVDRLPTALSHNE---WISIVGNLLDNAYNASLRQPQGSKQIECLINSDGQEVIIEIADQGCGIDEALRDRIFERGVTSSASKDHGIGLWLVRSYVEQAGGSIVVENNIPFGTIFTLYIP",
+                      "midline": "+LF+  +V+ L     ++D+T + L      +AL  A  ++  PE+ + +QK+   + I+A+ + +R  +D  +I V D    R  H     IG+  +G D  +AL N +  V++ +G L  +LR  +PI D   K IG+V++G  + ++   ++    S++  +   +L+ L         +KK +  +EP ++S L  Q+  + +S+ EG++A+D   ++T IN  A+ LLN   SQ +  L  +    S V+       D   T ++DE +T     ++ + + V  N    G + +FR K ++  L  +L  +  YAD LR   HE  N +  I GLL LK Y Q  + I + + ++Q+ I  +    +   +AG LI K  RA +LG  LI +      +LP + S ++    I+ +GNL++NA  A   +P G  +I   ++     +  E+ D G GI     D IF++GV++  S + G+GL LV+  VE  GGSI VE+     T F + IP"
+                    }
+                  ]
                 },
                 {
                   "num": 3,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 6.46873,
-                  "identity": 17,
-                  "positive": 29,
-                  "query_from": 224,
-                  "query_to": 271,
-                  "hit_from": 8720,
-                  "hit_to": 8772,
-                  "align_len": 57,
-                  "gaps": 13,
-                  "qseq": "RQAMLQSIKEGVVAVDDRGEVTLINDA---------AQELLNYRKSQDDEKLSTLSH",
-                  "hseq": "KQALDKSTGQNLTA----EQVIKLNDAVTAAKQALNGEERLNNRKSEALQRLDQLTH",
-                  "midline": "+QA+ +S  + + A     +V  +NDA          +E LN RKS+  ++L  L+H"
+                  "description": [
+                    {
+                      "id": "sp|P07254|CHIA_SERMA",
+                      "accession": "P07254",
+                      "title": "Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3"
+                    }
+                  ],
+                  "len": 563,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 30.8018,
+                      "score": 68,
+                      "evalue": 0.016076,
+                      "identity": 21,
+                      "positive": 28,
+                      "query_from": 410,
+                      "query_to": 468,
+                      "hit_from": 400,
+                      "hit_to": 448,
+                      "align_len": 59,
+                      "gaps": 10,
+                      "qseq": "DLGHTLILNSESQLPDSGSEDQVATLITTLGNLIENALEALGPEPGGEISVTLHYRHGW",
+                      "hseq": "NLGHQTALNAPAWKPD--------TAYTTVNGV--NALLAQGVKPGKVVVGTAMYGRGW",
+                      "midline": "+LGH   LN+ +  PD        T  TT+  +  NAL A G +PG  +  T  Y  GW"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q8K1S3|UNC5B_MOUSE",
+                      "accession": "Q8K1S3",
+                      "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
+                    }
+                  ],
+                  "len": 945,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 2.09891,
+                      "identity": 13,
+                      "positive": 17,
+                      "query_from": 429,
+                      "query_to": 462,
+                      "hit_from": 818,
+                      "hit_to": 851,
+                      "align_len": 34,
+                      "gaps": 0,
+                      "qseq": "EDQVATLITTLGNLIENALEALGPEPGGEISVTL",
+                      "hseq": "EGQIFQLHTTLAETPAGSLDALCSAPGNAITTQL",
+                      "midline": "E Q+  L TTL      +L+AL   PG  I+  L"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q02767|VPS28_YEAST",
+                      "accession": "Q02767",
+                      "title": "Vacuolar protein sorting-associated protein 28 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=VPS28 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 242,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 2.70051,
+                      "identity": 10,
+                      "positive": 15,
+                      "query_from": 274,
+                      "query_to": 299,
+                      "hit_from": 9,
+                      "hit_to": 34,
+                      "align_len": 26,
+                      "gaps": 0,
+                      "qseq": "SQVVDVSEVLRDGTPRRDEEITIKDR",
+                      "hseq": "NQNQDISQLFHDEVPLFDNSITSKDK",
+                      "midline": "+Q  D+S++  D  P  D  IT KD+"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 3.72927,
+                      "identity": 10,
+                      "positive": 17,
+                      "query_from": 126,
+                      "query_to": 154,
+                      "hit_from": 7743,
+                      "hit_to": 7771,
+                      "align_len": 29,
+                      "gaps": 0,
+                      "qseq": "LKALNGEENVAINRGFLAQALRVFTPIYD",
+                      "hseq": "LQALNGDHNLQVAKTNATQAIDALTSLND",
+                      "midline": "L+ALNG+ N+ + +    QA+   T + D"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 5.69669,
+                      "identity": 17,
+                      "positive": 33,
+                      "query_from": 405,
+                      "query_to": 467,
+                      "hit_from": 1012,
+                      "hit_to": 1082,
+                      "align_len": 71,
+                      "gaps": 8,
+                      "qseq": "INRATDLGHTLILNSESQL----PDSGSEDQVATLITTLGNLIENALEALGPEPGGEI----SVTLHYRHG",
+                      "hseq": "VGKISEDAHPIVLGNTEKVVVVNPTAVSNDEKQSIITAFMNKNQNIRGYLASTDPVTVDNNGNVTLHYRDG",
+                      "midline": "+ + ++  H ++L +  ++    P + S D+  ++IT   N  +N    L       +    +VTLHYR G"
+                    },
+                    {
+                      "num": 3,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 6.46873,
+                      "identity": 17,
+                      "positive": 29,
+                      "query_from": 224,
+                      "query_to": 271,
+                      "hit_from": 8720,
+                      "hit_to": 8772,
+                      "align_len": 57,
+                      "gaps": 13,
+                      "qseq": "RQAMLQSIKEGVVAVDDRGEVTLINDA---------AQELLNYRKSQDDEKLSTLSH",
+                      "hseq": "KQALDKSTGQNLTA----EQVIKLNDAVTAAKQALNGEERLNNRKSEALQRLDQLTH",
+                      "midline": "+QA+ +S  + + A     +V  +NDA          +E LN RKS+  ++L  L+H"
+                    }
+                  ]
                 }
-              ]
+              ],
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 70,
+                "eff_space": 32207516,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 70,
-            "eff_space": 32207516,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

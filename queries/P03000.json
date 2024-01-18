@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,172 +17,177 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P03000|IF3_GEOSE Translation initiation factor IF-3 OS=Geobacillus stearothermophilus OX=1422 GN=infC PE=1 SV=2",
-          "query_len": 172,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P03000|IF3_GEOSE",
-                  "accession": "P03000",
-                  "title": "Translation initiation factor IF-3 OS=Geobacillus stearothermophilus OX=1422 GN=infC PE=1 SV=2"
-                }
-              ],
-              "len": 172,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P03000|IF3_GEOSE Translation initiation factor IF-3 OS=Geobacillus stearothermophilus OX=1422 GN=infC PE=1 SV=2",
+              "query_len": 172,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 347.051,
-                  "score": 889,
-                  "evalue": 1.2915e-126,
-                  "identity": 172,
-                  "positive": 172,
-                  "query_from": 1,
-                  "query_to": 172,
-                  "hit_from": 1,
-                  "hit_to": 172,
-                  "align_len": 172,
-                  "gaps": 0,
-                  "qseq": "MSKDFIINEQIRAREVRLIDQNGDQLGIKSKQEALEIAARRNLDLVLVAPNAKPPVCRIMDYGKFRFEQQKKEKEARKKQKVINVKEVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFKGRAITHKEIGQRVLDRLSEACADIAVVETAPKMDGRNMFLVLAPKNDNK",
-                  "hseq": "MSKDFIINEQIRAREVRLIDQNGDQLGIKSKQEALEIAARRNLDLVLVAPNAKPPVCRIMDYGKFRFEQQKKEKEARKKQKVINVKEVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFKGRAITHKEIGQRVLDRLSEACADIAVVETAPKMDGRNMFLVLAPKNDNK",
-                  "midline": "MSKDFIINEQIRAREVRLIDQNGDQLGIKSKQEALEIAARRNLDLVLVAPNAKPPVCRIMDYGKFRFEQQKKEKEARKKQKVINVKEVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFKGRAITHKEIGQRVLDRLSEACADIAVVETAPKMDGRNMFLVLAPKNDNK"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P03000|IF3_GEOSE",
+                      "accession": "P03000",
+                      "title": "Translation initiation factor IF-3 OS=Geobacillus stearothermophilus OX=1422 GN=infC PE=1 SV=2"
+                    }
+                  ],
+                  "len": 172,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 347.051,
+                      "score": 889,
+                      "evalue": 1.2915e-126,
+                      "identity": 172,
+                      "positive": 172,
+                      "query_from": 1,
+                      "query_to": 172,
+                      "hit_from": 1,
+                      "hit_to": 172,
+                      "align_len": 172,
+                      "gaps": 0,
+                      "qseq": "MSKDFIINEQIRAREVRLIDQNGDQLGIKSKQEALEIAARRNLDLVLVAPNAKPPVCRIMDYGKFRFEQQKKEKEARKKQKVINVKEVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFKGRAITHKEIGQRVLDRLSEACADIAVVETAPKMDGRNMFLVLAPKNDNK",
+                      "hseq": "MSKDFIINEQIRAREVRLIDQNGDQLGIKSKQEALEIAARRNLDLVLVAPNAKPPVCRIMDYGKFRFEQQKKEKEARKKQKVINVKEVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFKGRAITHKEIGQRVLDRLSEACADIAVVETAPKMDGRNMFLVLAPKNDNK",
+                      "midline": "MSKDFIINEQIRAREVRLIDQNGDQLGIKSKQEALEIAARRNLDLVLVAPNAKPPVCRIMDYGKFRFEQQKKEKEARKKQKVINVKEVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFKGRAITHKEIGQRVLDRLSEACADIAVVETAPKMDGRNMFLVLAPKNDNK"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P0A707|IF3_ECOLI",
-                  "accession": "P0A707",
-                  "title": "Translation initiation factor IF-3 OS=Escherichia coli (strain K12) OX=83333 GN=infC PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P0A707|IF3_ECOLI",
+                      "accession": "P0A707",
+                      "title": "Translation initiation factor IF-3 OS=Escherichia coli (strain K12) OX=83333 GN=infC PE=1 SV=1"
+                    }
+                  ],
+                  "len": 180,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 164.081,
+                      "score": 414,
+                      "evalue": 3.44485e-54,
+                      "identity": 89,
+                      "positive": 121,
+                      "query_from": 7,
+                      "query_to": 168,
+                      "hit_from": 15,
+                      "hit_to": 177,
+                      "align_len": 163,
+                      "gaps": 1,
+                      "qseq": "INEQIRAREVRLIDQNGDQLGIKSKQEALEIAARRNLDLVLVAPNAKPPVCRIMDYGKFRFEQQKKEKEARKKQKVINVKEVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFKGRAITHKEIGQRVLDRLSEACADIAVVETAP-KMDGRNMFLVLAPK",
+                      "hseq": "INGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYEKSKSSKEQKKKQKVIQVKEIKFRPGTDEGDYQVKLRSLIRFLEEGDKAKITLRFRGREMAHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPK",
+                      "midline": "IN +IRA+EVRL    G+QLGI S +EALE A    +DLV ++PNA+PPVCRIMDYGKF +E+ K  KE +KKQKVI VKE++  P  +E D+  KLR+  +FLE+GDK K T+RF+GR + H++IG  VL+R+ +   ++AVVE+ P K++GR M +VLAPK"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P0AB52|YCHN_ECOLI",
+                      "accession": "P0AB52",
+                      "title": "Protein YchN OS=Escherichia coli (strain K12) OX=83333 GN=ychN PE=1 SV=1"
+                    }
+                  ],
+                  "len": 117,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 0.785562,
+                      "identity": 22,
+                      "positive": 35,
+                      "query_from": 87,
+                      "query_to": 158,
+                      "hit_from": 21,
+                      "hit_to": 95,
+                      "align_len": 79,
+                      "gaps": 11,
+                      "qseq": "EVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFK--GRAITHKEI-----GQRVLDRLSEACADIAVVETAPKMDG",
+                      "hseq": "SLRLAIALREQESNLDLR---LFLMS-DAVTAGLRGQKPGEGYNIQQMLEILTAQNVPVKLCKTCTDGRGISTLPLIDG",
+                      "midline": " +RL+  + E + N  LR    FL   D V A +R +  G     +++      Q V  +L + C D   + T P +DG"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P0A6Y8|DNAK_ECOLI",
+                      "accession": "P0A6Y8",
+                      "title": "Chaperone protein DnaK OS=Escherichia coli (strain K12) OX=83333 GN=dnaK PE=1 SV=2"
+                    }
+                  ],
+                  "len": 638,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 4.4926,
+                      "identity": 11,
+                      "positive": 16,
+                      "query_from": 140,
+                      "query_to": 171,
+                      "hit_from": 195,
+                      "hit_to": 225,
+                      "align_len": 32,
+                      "gaps": 1,
+                      "qseq": "LSEACADIAVVETAPKMDGRNMFLVLAPKNDN",
+                      "hseq": "LGGGTFDISIIEI-DEVDGEKTFEVLATNGDT",
+                      "midline": "L     DI+++E   ++DG   F VLA   D "
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 9.86509,
+                      "identity": 8,
+                      "positive": 14,
+                      "query_from": 97,
+                      "query_to": 122,
+                      "hit_from": 6538,
+                      "hit_to": 6563,
+                      "align_len": 26,
+                      "gaps": 0,
+                      "qseq": "HDFNTKLRNARKFLEKGDKVKATIRF",
+                      "hseq": "QNLNTAMGNLKQAIADKDATKATVNF",
+                      "midline": " + NT + N ++ +   D  KAT+ F"
+                    }
+                  ]
                 }
               ],
-              "len": 180,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 164.081,
-                  "score": 414,
-                  "evalue": 3.44485e-54,
-                  "identity": 89,
-                  "positive": 121,
-                  "query_from": 7,
-                  "query_to": 168,
-                  "hit_from": 15,
-                  "hit_to": 177,
-                  "align_len": 163,
-                  "gaps": 1,
-                  "qseq": "INEQIRAREVRLIDQNGDQLGIKSKQEALEIAARRNLDLVLVAPNAKPPVCRIMDYGKFRFEQQKKEKEARKKQKVINVKEVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFKGRAITHKEIGQRVLDRLSEACADIAVVETAP-KMDGRNMFLVLAPK",
-                  "hseq": "INGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYEKSKSSKEQKKKQKVIQVKEIKFRPGTDEGDYQVKLRSLIRFLEEGDKAKITLRFRGREMAHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPK",
-                  "midline": "IN +IRA+EVRL    G+QLGI S +EALE A    +DLV ++PNA+PPVCRIMDYGKF +E+ K  KE +KKQKVI VKE++  P  +E D+  KLR+  +FLE+GDK K T+RF+GR + H++IG  VL+R+ +   ++AVVE+ P K++GR M +VLAPK"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P0AB52|YCHN_ECOLI",
-                  "accession": "P0AB52",
-                  "title": "Protein YchN OS=Escherichia coli (strain K12) OX=83333 GN=ychN PE=1 SV=1"
-                }
-              ],
-              "len": 117,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 0.785562,
-                  "identity": 22,
-                  "positive": 35,
-                  "query_from": 87,
-                  "query_to": 158,
-                  "hit_from": 21,
-                  "hit_to": 95,
-                  "align_len": 79,
-                  "gaps": 11,
-                  "qseq": "EVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFK--GRAITHKEI-----GQRVLDRLSEACADIAVVETAPKMDG",
-                  "hseq": "SLRLAIALREQESNLDLR---LFLMS-DAVTAGLRGQKPGEGYNIQQMLEILTAQNVPVKLCKTCTDGRGISTLPLIDG",
-                  "midline": " +RL+  + E + N  LR    FL   D V A +R +  G     +++      Q V  +L + C D   + T P +DG"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P0A6Y8|DNAK_ECOLI",
-                  "accession": "P0A6Y8",
-                  "title": "Chaperone protein DnaK OS=Escherichia coli (strain K12) OX=83333 GN=dnaK PE=1 SV=2"
-                }
-              ],
-              "len": 638,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 4.4926,
-                  "identity": 11,
-                  "positive": 16,
-                  "query_from": 140,
-                  "query_to": 171,
-                  "hit_from": 195,
-                  "hit_to": 225,
-                  "align_len": 32,
-                  "gaps": 1,
-                  "qseq": "LSEACADIAVVETAPKMDGRNMFLVLAPKNDN",
-                  "hseq": "LGGGTFDISIIEI-DEVDGEKTFEVLATNGDT",
-                  "midline": "L     DI+++E   ++DG   F VLA   D "
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 9.86509,
-                  "identity": 8,
-                  "positive": 14,
-                  "query_from": 97,
-                  "query_to": 122,
-                  "hit_from": 6538,
-                  "hit_to": 6563,
-                  "align_len": 26,
-                  "gaps": 0,
-                  "qseq": "HDFNTKLRNARKFLEKGDKVKATIRF",
-                  "hseq": "QNLNTAMGNLKQAIADKDATKATVNF",
-                  "midline": " + NT + N ++ +   D  KAT+ F"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 60,
+                "eff_space": 7860384,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 60,
-            "eff_space": 7860384,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

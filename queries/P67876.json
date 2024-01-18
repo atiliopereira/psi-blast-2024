@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,433 +17,438 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P67876|RNMG_ASPRE Ribonuclease mitogillin OS=Aspergillus restrictus OX=5064 GN=ret PE=1 SV=1",
-          "query_len": 176,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P67876|RNMG_ASPRE",
-                  "accession": "P67876",
-                  "title": "Ribonuclease mitogillin OS=Aspergillus restrictus OX=5064 GN=ret PE=1 SV=1"
-                }
-              ],
-              "len": 176,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P67876|RNMG_ASPRE Ribonuclease mitogillin OS=Aspergillus restrictus OX=5064 GN=ret PE=1 SV=1",
+              "query_len": 176,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 370.163,
-                  "score": 949,
-                  "evalue": 1.08426e-135,
-                  "identity": 176,
-                  "positive": 176,
-                  "query_from": 1,
-                  "query_to": 176,
-                  "hit_from": 1,
-                  "hit_to": 176,
-                  "align_len": 176,
-                  "gaps": 0,
-                  "qseq": "MVAIKNLFLLAATAVSVLAAPSPLDARATWTCINQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKTGSSYPHWFTNGYDGNGKLIKGRTPIKFGKADCDRPPKHSQNGMGKDDHYLLEFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAHQRGNQGDLRLCSH",
-                  "hseq": "MVAIKNLFLLAATAVSVLAAPSPLDARATWTCINQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKTGSSYPHWFTNGYDGNGKLIKGRTPIKFGKADCDRPPKHSQNGMGKDDHYLLEFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAHQRGNQGDLRLCSH",
-                  "midline": "MVAIKNLFLLAATAVSVLAAPSPLDARATWTCINQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKTGSSYPHWFTNGYDGNGKLIKGRTPIKFGKADCDRPPKHSQNGMGKDDHYLLEFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAHQRGNQGDLRLCSH"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P00655|RNAS_ASPGI",
-                  "accession": "P00655",
-                  "title": "Ribonuclease alpha-sarcin OS=Aspergillus giganteus OX=5060 GN=sar PE=1 SV=2"
-                }
-              ],
-              "len": 177,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 314.309,
-                  "score": 804,
-                  "evalue": 1.80562e-113,
-                  "identity": 148,
-                  "positive": 163,
-                  "query_from": 1,
-                  "query_to": 176,
-                  "hit_from": 1,
-                  "hit_to": 177,
-                  "align_len": 177,
-                  "gaps": 1,
-                  "qseq": "MVAIKNLFLLAATAVSVLAAPSPLDARA-TWTCINQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKTGSSYPHWFTNGYDGNGKLIKGRTPIKFGKADCDRPPKHSQNGMGKDDHYLLEFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAHQRGNQGDLRLCSH",
-                  "hseq": "MVAIKNLVLVALTAVTALAVPSPLEARAVTWTCLNDQKNPKTNKYETKRLLYNQNKAESNSHHAPLSDGKTGSSYPHWFTNGYDGDGKLPKGRTPIKFGKSDCDRPPKHSKDGNGKTDHYLLEFPTFPDGHDYKFDSKKPKENPGPARVIYTYPNKVFCGIIAHTKENQGELKLCSH",
-                  "midline": "MVAIKNL L+A TAV+ LA PSPL+ARA TWTC+N Q NPKTNK+E KRLLY+Q KAESNSHHAPLSDGKTGSSYPHWFTNGYDG+GKL KGRTPIKFGK+DCDRPPKHS++G GK DHYLLEFPTFPDGHDYKFDSKKPKE+PGPARVIYTYPNKVFCGI+AH + NQG+L+LCSH"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P00654|RNU2_USTSP",
-                  "accession": "P00654",
-                  "title": "Ribonuclease U2 OS=Ustilago sphaerogena OX=5271 GN=RNU2 PE=1 SV=4"
-                }
-              ],
-              "len": 114,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 28.8758,
-                  "score": 63,
-                  "evalue": 0.0058352,
-                  "identity": 17,
-                  "positive": 19,
-                  "query_from": 122,
-                  "query_to": 163,
-                  "hit_from": 62,
-                  "hit_to": 101,
-                  "align_len": 42,
-                  "gaps": 2,
-                  "qseq": "EFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAH",
-                  "hseq": "EFPLVYNGPYYS--SRDNYVSPGPDRVIYQTNTGEFCATVTH",
-                  "midline": "EFP   +G  Y   S+     PGP RVIY      FC  V H"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P10282|RNF1_GIBFU",
-                  "accession": "P10282",
-                  "title": "Guanyl-specific ribonuclease F1 OS=Gibberella fujikuroi OX=5127 PE=1 SV=4"
-                }
-              ],
-              "len": 131,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 0.580534,
-                  "identity": 25,
-                  "positive": 40,
-                  "query_from": 1,
-                  "query_to": 84,
-                  "hit_from": 1,
-                  "hit_to": 72,
-                  "align_len": 86,
-                  "gaps": 16,
-                  "qseq": "MVAIKNLFLLAATAVSVLAAPSPLDARATWTCINQQLNPKTNKWEDKRLLYSQAKAESNS--HHAPLSDGKTGSSYPHWFTNGYDG",
-                  "hseq": "MLFFKSIASLAA--LVSLAVASPIESRQSATTCG-----STNYSA------SQVRAAANAACQYYQNDDTAGSSTYPHTYNN-YEG",
-                  "midline": "M+  K++  LAA  +  LA  SP+++R + T         TN         SQ +A +N+   +    D    S+YPH + N Y+G"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P00651|RNT1_ASPOR",
-                  "accession": "P00651",
-                  "title": "Guanyl-specific ribonuclease T1 OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=rntA PE=1 SV=2"
-                }
-              ],
-              "len": 130,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 3.10158,
-                  "identity": 13,
-                  "positive": 23,
-                  "query_from": 122,
-                  "query_to": 175,
-                  "hit_from": 84,
-                  "hit_to": 130,
-                  "align_len": 54,
-                  "gaps": 7,
-                  "qseq": "EFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAHQRGNQGDLRLCS",
-                  "hseq": "EWPILSSGDVYSGGS------PGADRVVFNENNQL-AGVITHTGASGNNFVECT",
-                  "midline": "E+P    G  Y   S      PG  RV++   N++  G++ H   +  +   C+"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 3.89109,
-                  "identity": 16,
-                  "positive": 20,
-                  "query_from": 26,
-                  "query_to": 66,
-                  "hit_from": 3062,
-                  "hit_to": 3104,
-                  "align_len": 43,
-                  "gaps": 2,
-                  "qseq": "ARATWTCINQQLN--PKTNKWEDKRLLYSQAKAESNSHHAPLS",
-                  "hseq": "ARQKLTEINQVLNGNPTVQNINDKVTEANQAKDQLNTARQGLT",
-                  "midline": "AR   T INQ LN  P      DK    +QAK + N+    L+"
+                  "description": [
+                    {
+                      "id": "sp|P67876|RNMG_ASPRE",
+                      "accession": "P67876",
+                      "title": "Ribonuclease mitogillin OS=Aspergillus restrictus OX=5064 GN=ret PE=1 SV=1"
+                    }
+                  ],
+                  "len": 176,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 370.163,
+                      "score": 949,
+                      "evalue": 1.08426e-135,
+                      "identity": 176,
+                      "positive": 176,
+                      "query_from": 1,
+                      "query_to": 176,
+                      "hit_from": 1,
+                      "hit_to": 176,
+                      "align_len": 176,
+                      "gaps": 0,
+                      "qseq": "MVAIKNLFLLAATAVSVLAAPSPLDARATWTCINQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKTGSSYPHWFTNGYDGNGKLIKGRTPIKFGKADCDRPPKHSQNGMGKDDHYLLEFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAHQRGNQGDLRLCSH",
+                      "hseq": "MVAIKNLFLLAATAVSVLAAPSPLDARATWTCINQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKTGSSYPHWFTNGYDGNGKLIKGRTPIKFGKADCDRPPKHSQNGMGKDDHYLLEFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAHQRGNQGDLRLCSH",
+                      "midline": "MVAIKNLFLLAATAVSVLAAPSPLDARATWTCINQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKTGSSYPHWFTNGYDGNGKLIKGRTPIKFGKADCDRPPKHSQNGMGKDDHYLLEFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAHQRGNQGDLRLCSH"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 4.68473,
-                  "identity": 16,
-                  "positive": 24,
-                  "query_from": 33,
-                  "query_to": 86,
-                  "hit_from": 8222,
-                  "hit_to": 8271,
-                  "align_len": 54,
-                  "gaps": 4,
-                  "qseq": "INQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKTGSSYPHWFTNGYDGNG",
-                  "hseq": "INQTNNPTLDKAQVEQLTQAVNQAKDNLH----GDQKLADDKQHAVTDLNQLNG",
-                  "midline": "INQ  NP  +K + ++L  +  +A+ N H     D K      H  T+    NG"
+                  "description": [
+                    {
+                      "id": "sp|P00655|RNAS_ASPGI",
+                      "accession": "P00655",
+                      "title": "Ribonuclease alpha-sarcin OS=Aspergillus giganteus OX=5060 GN=sar PE=1 SV=2"
+                    }
+                  ],
+                  "len": 177,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 314.309,
+                      "score": 804,
+                      "evalue": 1.80562e-113,
+                      "identity": 148,
+                      "positive": 163,
+                      "query_from": 1,
+                      "query_to": 176,
+                      "hit_from": 1,
+                      "hit_to": 177,
+                      "align_len": 177,
+                      "gaps": 1,
+                      "qseq": "MVAIKNLFLLAATAVSVLAAPSPLDARA-TWTCINQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKTGSSYPHWFTNGYDGNGKLIKGRTPIKFGKADCDRPPKHSQNGMGKDDHYLLEFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAHQRGNQGDLRLCSH",
+                      "hseq": "MVAIKNLVLVALTAVTALAVPSPLEARAVTWTCLNDQKNPKTNKYETKRLLYNQNKAESNSHHAPLSDGKTGSSYPHWFTNGYDGDGKLPKGRTPIKFGKSDCDRPPKHSKDGNGKTDHYLLEFPTFPDGHDYKFDSKKPKENPGPARVIYTYPNKVFCGIIAHTKENQGELKLCSH",
+                      "midline": "MVAIKNL L+A TAV+ LA PSPL+ARA TWTC+N Q NPKTNK+E KRLLY+Q KAESNSHHAPLSDGKTGSSYPHWFTNGYDG+GKL KGRTPIKFGK+DCDRPPKHS++G GK DHYLLEFPTFPDGHDYKFDSKKPKE+PGPARVIYTYPNKVFCGI+AH + NQG+L+LCSH"
+                    }
+                  ]
                 },
                 {
                   "num": 3,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 6.61111,
-                  "identity": 10,
-                  "positive": 16,
-                  "query_from": 33,
-                  "query_to": 61,
-                  "hit_from": 8348,
-                  "hit_to": 8376,
-                  "align_len": 29,
-                  "gaps": 0,
-                  "qseq": "INQQLNPKTNKWEDKRLLYSQAKAESNSH",
-                  "hseq": "INQTGNPTLDKAQVEQLTQAVTTAKDNLH",
-                  "midline": "INQ  NP  +K + ++L  +   A+ N H"
+                  "description": [
+                    {
+                      "id": "sp|P00654|RNU2_USTSP",
+                      "accession": "P00654",
+                      "title": "Ribonuclease U2 OS=Ustilago sphaerogena OX=5271 GN=RNU2 PE=1 SV=4"
+                    }
+                  ],
+                  "len": 114,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 28.8758,
+                      "score": 63,
+                      "evalue": 0.0058352,
+                      "identity": 17,
+                      "positive": 19,
+                      "query_from": 122,
+                      "query_to": 163,
+                      "hit_from": 62,
+                      "hit_to": 101,
+                      "align_len": 42,
+                      "gaps": 2,
+                      "qseq": "EFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAH",
+                      "hseq": "EFPLVYNGPYYS--SRDNYVSPGPDRVIYQTNTGEFCATVTH",
+                      "midline": "EFP   +G  Y   S+     PGP RVIY      FC  V H"
+                    }
+                  ]
                 },
                 {
                   "num": 4,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 9.3264,
-                  "identity": 13,
-                  "positive": 17,
-                  "query_from": 34,
-                  "query_to": 70,
-                  "hit_from": 2830,
-                  "hit_to": 2866,
-                  "align_len": 37,
-                  "gaps": 0,
-                  "qseq": "NQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKT",
-                  "hseq": "DQQIAEEKTKVEEKYNSLKQAIAGLTPDLAPLQTAKT",
-                  "midline": "+QQ+  +  K E+K     QA A      APL   KT"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P10282|RNF1_GIBFU",
+                      "accession": "P10282",
+                      "title": "Guanyl-specific ribonuclease F1 OS=Gibberella fujikuroi OX=5127 PE=1 SV=4"
+                    }
+                  ],
+                  "len": 131,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 0.580534,
+                      "identity": 25,
+                      "positive": 40,
+                      "query_from": 1,
+                      "query_to": 84,
+                      "hit_from": 1,
+                      "hit_to": 72,
+                      "align_len": 86,
+                      "gaps": 16,
+                      "qseq": "MVAIKNLFLLAATAVSVLAAPSPLDARATWTCINQQLNPKTNKWEDKRLLYSQAKAESNS--HHAPLSDGKTGSSYPHWFTNGYDG",
+                      "hseq": "MLFFKSIASLAA--LVSLAVASPIESRQSATTCG-----STNYSA------SQVRAAANAACQYYQNDDTAGSSTYPHTYNN-YEG",
+                      "midline": "M+  K++  LAA  +  LA  SP+++R + T         TN         SQ +A +N+   +    D    S+YPH + N Y+G"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q9ZFV5|EUTQ_SALTY",
-                  "accession": "Q9ZFV5",
-                  "title": "Acetate kinase EutQ OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=eutQ PE=1 SV=1"
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P00651|RNT1_ASPOR",
+                      "accession": "P00651",
+                      "title": "Guanyl-specific ribonuclease T1 OS=Aspergillus oryzae (strain ATCC 42149 / RIB 40) OX=510516 GN=rntA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 130,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 3.10158,
+                      "identity": 13,
+                      "positive": 23,
+                      "query_from": 122,
+                      "query_to": 175,
+                      "hit_from": 84,
+                      "hit_to": 130,
+                      "align_len": 54,
+                      "gaps": 7,
+                      "qseq": "EFPTFPDGHDYKFDSKKPKEDPGPARVIYTYPNKVFCGIVAHQRGNQGDLRLCS",
+                      "hseq": "EWPILSSGDVYSGGS------PGADRVVFNENNQL-AGVITHTGASGNNFVECT",
+                      "midline": "E+P    G  Y   S      PG  RV++   N++  G++ H   +  +   C+"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 3.89109,
+                      "identity": 16,
+                      "positive": 20,
+                      "query_from": 26,
+                      "query_to": 66,
+                      "hit_from": 3062,
+                      "hit_to": 3104,
+                      "align_len": 43,
+                      "gaps": 2,
+                      "qseq": "ARATWTCINQQLN--PKTNKWEDKRLLYSQAKAESNSHHAPLS",
+                      "hseq": "ARQKLTEINQVLNGNPTVQNINDKVTEANQAKDQLNTARQGLT",
+                      "midline": "AR   T INQ LN  P      DK    +QAK + N+    L+"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 4.68473,
+                      "identity": 16,
+                      "positive": 24,
+                      "query_from": 33,
+                      "query_to": 86,
+                      "hit_from": 8222,
+                      "hit_to": 8271,
+                      "align_len": 54,
+                      "gaps": 4,
+                      "qseq": "INQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKTGSSYPHWFTNGYDGNG",
+                      "hseq": "INQTNNPTLDKAQVEQLTQAVNQAKDNLH----GDQKLADDKQHAVTDLNQLNG",
+                      "midline": "INQ  NP  +K + ++L  +  +A+ N H     D K      H  T+    NG"
+                    },
+                    {
+                      "num": 3,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 6.61111,
+                      "identity": 10,
+                      "positive": 16,
+                      "query_from": 33,
+                      "query_to": 61,
+                      "hit_from": 8348,
+                      "hit_to": 8376,
+                      "align_len": 29,
+                      "gaps": 0,
+                      "qseq": "INQQLNPKTNKWEDKRLLYSQAKAESNSH",
+                      "hseq": "INQTGNPTLDKAQVEQLTQAVTTAKDNLH",
+                      "midline": "INQ  NP  +K + ++L  +   A+ N H"
+                    },
+                    {
+                      "num": 4,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 9.3264,
+                      "identity": 13,
+                      "positive": 17,
+                      "query_from": 34,
+                      "query_to": 70,
+                      "hit_from": 2830,
+                      "hit_to": 2866,
+                      "align_len": 37,
+                      "gaps": 0,
+                      "qseq": "NQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKT",
+                      "hseq": "DQQIAEEKTKVEEKYNSLKQAIAGLTPDLAPLQTAKT",
+                      "midline": "+QQ+  +  K E+K     QA A      APL   KT"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q9ZFV5|EUTQ_SALTY",
+                      "accession": "Q9ZFV5",
+                      "title": "Acetate kinase EutQ OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=eutQ PE=1 SV=1"
+                    }
+                  ],
+                  "len": 229,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 6.39763,
+                      "identity": 11,
+                      "positive": 19,
+                      "query_from": 69,
+                      "query_to": 105,
+                      "hit_from": 101,
+                      "hit_to": 136,
+                      "align_len": 37,
+                      "gaps": 1,
+                      "qseq": "KTGSSYPHWFTNGYDGNGKLIKGRTPIKFGKADCDRP",
+                      "hseq": "ELGTMQPSFTSVTGKGGVKVIDG-SSVKFGRFDGAEP",
+                      "midline": "+ G+  P + +    G  K+I G + +KFG+ D   P"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P38935|SMBP2_HUMAN",
+                      "accession": "P38935",
+                      "title": "DNA-binding protein SMUBP-2 OS=Homo sapiens OX=9606 GN=IGHMBP2 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 993,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 6.74658,
+                      "identity": 17,
+                      "positive": 29,
+                      "query_from": 11,
+                      "query_to": 70,
+                      "hit_from": 163,
+                      "hit_to": 221,
+                      "align_len": 63,
+                      "gaps": 7,
+                      "qseq": "AATAVSVL---AAPSPLDARATWTCINQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKT",
+                      "hseq": "ASSLIEVLFGRSAPSPASEIHPLTFFNTCLDTS----QKEAVLFALSQKELAIIHGPPGTGKT",
+                      "midline": "A++ + VL   +APSP       T  N  L+      + + +L++ ++ E    H P   GKT"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P0C6U8|R1A_SARS",
+                      "accession": "P0C6U8",
+                      "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                    }
+                  ],
+                  "len": 4382,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 7.63787,
+                      "identity": 9,
+                      "positive": 11,
+                      "query_from": 76,
+                      "query_to": 100,
+                      "hit_from": 3131,
+                      "hit_to": 3155,
+                      "align_len": 25,
+                      "gaps": 0,
+                      "qseq": "HWFTNGYDGNGKLIKGRTPIKFGKA",
+                      "hseq": "HWFFNNYLRKRVMFNGVTFSTFEEA",
+                      "midline": "HWF N Y     +  G T   F +A"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|Q96T60|PNKP_HUMAN",
+                      "accession": "Q96T60",
+                      "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
+                    }
+                  ],
+                  "len": 521,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 9.06195,
+                      "identity": 21,
+                      "positive": 30,
+                      "query_from": 37,
+                      "query_to": 93,
+                      "hit_from": 99,
+                      "hit_to": 181,
+                      "align_len": 83,
+                      "gaps": 26,
+                      "qseq": "LNPKTNKWEDKRLLYSQ--------AKAESNSHHAPLSDGKTGSSYPHW--------FT----------NGYDGNGKLIKGRT",
+                      "hseq": "LHPLTLRWEETRTPESQPDTPPGTPLVSQDEKRDAELPKKRMRKSNPGWENLEKLLVFTAAGVKPQGKVAGFDLDGTLITTRS",
+                      "midline": "L+P T +WE+ R   SQ          ++     A L   +   S P W        FT           G+D +G LI  R+"
+                    }
+                  ]
+                },
+                {
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|Q15797|SMAD1_HUMAN",
+                      "accession": "Q15797",
+                      "title": "Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 465,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 9.12528,
+                      "identity": 11,
+                      "positive": 16,
+                      "query_from": 64,
+                      "query_to": 94,
+                      "hit_from": 193,
+                      "hit_to": 223,
+                      "align_len": 31,
+                      "gaps": 0,
+                      "qseq": "PLSDGKTGSSYPHWFTNGYDGNGKLIKGRTP",
+                      "hseq": "PNSPGSSSSTYPHSPTSSDPGSPFQMPADTP",
+                      "midline": "P S G + S+YPH  T+   G+   +   TP"
+                    }
+                  ]
+                },
+                {
+                  "num": 12,
+                  "description": [
+                    {
+                      "id": "sp|P0AGC3|SLT_ECOLI",
+                      "accession": "P0AGC3",
+                      "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
+                    }
+                  ],
+                  "len": 645,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 9.89774,
+                      "identity": 6,
+                      "positive": 13,
+                      "query_from": 30,
+                      "query_to": 56,
+                      "hit_from": 287,
+                      "hit_to": 313,
+                      "align_len": 27,
+                      "gaps": 0,
+                      "qseq": "WTCINQQLNPKTNKWEDKRLLYSQAKA",
+                      "hseq": "WRLMGNDVTDEQAKWRDDAIMRSQSTS",
+                      "midline": "W  +   +  +  KW D  ++ SQ+ +"
+                    }
+                  ]
                 }
               ],
-              "len": 229,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 6.39763,
-                  "identity": 11,
-                  "positive": 19,
-                  "query_from": 69,
-                  "query_to": 105,
-                  "hit_from": 101,
-                  "hit_to": 136,
-                  "align_len": 37,
-                  "gaps": 1,
-                  "qseq": "KTGSSYPHWFTNGYDGNGKLIKGRTPIKFGKADCDRP",
-                  "hseq": "ELGTMQPSFTSVTGKGGVKVIDG-SSVKFGRFDGAEP",
-                  "midline": "+ G+  P + +    G  K+I G + +KFG+ D   P"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P38935|SMBP2_HUMAN",
-                  "accession": "P38935",
-                  "title": "DNA-binding protein SMUBP-2 OS=Homo sapiens OX=9606 GN=IGHMBP2 PE=1 SV=3"
-                }
-              ],
-              "len": 993,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 6.74658,
-                  "identity": 17,
-                  "positive": 29,
-                  "query_from": 11,
-                  "query_to": 70,
-                  "hit_from": 163,
-                  "hit_to": 221,
-                  "align_len": 63,
-                  "gaps": 7,
-                  "qseq": "AATAVSVL---AAPSPLDARATWTCINQQLNPKTNKWEDKRLLYSQAKAESNSHHAPLSDGKT",
-                  "hseq": "ASSLIEVLFGRSAPSPASEIHPLTFFNTCLDTS----QKEAVLFALSQKELAIIHGPPGTGKT",
-                  "midline": "A++ + VL   +APSP       T  N  L+      + + +L++ ++ E    H P   GKT"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|P0C6U8|R1A_SARS",
-                  "accession": "P0C6U8",
-                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
-                }
-              ],
-              "len": 4382,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 7.63787,
-                  "identity": 9,
-                  "positive": 11,
-                  "query_from": 76,
-                  "query_to": 100,
-                  "hit_from": 3131,
-                  "hit_to": 3155,
-                  "align_len": 25,
-                  "gaps": 0,
-                  "qseq": "HWFTNGYDGNGKLIKGRTPIKFGKA",
-                  "hseq": "HWFFNNYLRKRVMFNGVTFSTFEEA",
-                  "midline": "HWF N Y     +  G T   F +A"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|Q96T60|PNKP_HUMAN",
-                  "accession": "Q96T60",
-                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
-                }
-              ],
-              "len": 521,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 9.06195,
-                  "identity": 21,
-                  "positive": 30,
-                  "query_from": 37,
-                  "query_to": 93,
-                  "hit_from": 99,
-                  "hit_to": 181,
-                  "align_len": 83,
-                  "gaps": 26,
-                  "qseq": "LNPKTNKWEDKRLLYSQ--------AKAESNSHHAPLSDGKTGSSYPHW--------FT----------NGYDGNGKLIKGRT",
-                  "hseq": "LHPLTLRWEETRTPESQPDTPPGTPLVSQDEKRDAELPKKRMRKSNPGWENLEKLLVFTAAGVKPQGKVAGFDLDGTLITTRS",
-                  "midline": "L+P T +WE+ R   SQ          ++     A L   +   S P W        FT           G+D +G LI  R+"
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|Q15797|SMAD1_HUMAN",
-                  "accession": "Q15797",
-                  "title": "Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1"
-                }
-              ],
-              "len": 465,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 9.12528,
-                  "identity": 11,
-                  "positive": 16,
-                  "query_from": 64,
-                  "query_to": 94,
-                  "hit_from": 193,
-                  "hit_to": 223,
-                  "align_len": 31,
-                  "gaps": 0,
-                  "qseq": "PLSDGKTGSSYPHWFTNGYDGNGKLIKGRTP",
-                  "hseq": "PNSPGSSSSTYPHSPTSSDPGSPFQMPADTP",
-                  "midline": "P S G + S+YPH  T+   G+   +   TP"
-                }
-              ]
-            },
-            {
-              "num": 12,
-              "description": [
-                {
-                  "id": "sp|P0AGC3|SLT_ECOLI",
-                  "accession": "P0AGC3",
-                  "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
-                }
-              ],
-              "len": 645,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 9.89774,
-                  "identity": 6,
-                  "positive": 13,
-                  "query_from": 30,
-                  "query_to": 56,
-                  "hit_from": 287,
-                  "hit_to": 313,
-                  "align_len": 27,
-                  "gaps": 0,
-                  "qseq": "WTCINQQLNPKTNKWEDKRLLYSQAKA",
-                  "hseq": "WRLMGNDVTDEQAKWRDDAIMRSQSTS",
-                  "midline": "W  +   +  +  KW D  ++ SQ+ +"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 60,
+                "eff_space": 8141112,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 60,
-            "eff_space": 8141112,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

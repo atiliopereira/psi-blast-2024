@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,262 +17,267 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P64618|YHCO_ECO57 Uncharacterized protein YhcO OS=Escherichia coli O157:H7 OX=83334 GN=yhcO PE=1 SV=1",
-          "query_len": 90,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P64618|YHCO_ECO57",
-                  "accession": "P64618",
-                  "title": "Uncharacterized protein YhcO OS=Escherichia coli O157:H7 OX=83334 GN=yhcO PE=1 SV=1"
-                }
-              ],
-              "len": 90,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P64618|YHCO_ECO57 Uncharacterized protein YhcO OS=Escherichia coli O157:H7 OX=83334 GN=yhcO PE=1 SV=1",
+              "query_len": 90,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 181.8,
-                  "score": 460,
-                  "evalue": 7.9694e-64,
-                  "identity": 90,
-                  "positive": 90,
-                  "query_from": 1,
-                  "query_to": 90,
-                  "hit_from": 1,
-                  "hit_to": 90,
-                  "align_len": 90,
-                  "gaps": 0,
-                  "qseq": "MNIYTFDFDEIESQEDFYRDFSQTFGLAKDKVRDLDSLWDVLMNDVLPLPLEIEFVHLGEKTRRRFGALILLFDEAEEELEGHLRFNVRH",
-                  "hseq": "MNIYTFDFDEIESQEDFYRDFSQTFGLAKDKVRDLDSLWDVLMNDVLPLPLEIEFVHLGEKTRRRFGALILLFDEAEEELEGHLRFNVRH",
-                  "midline": "MNIYTFDFDEIESQEDFYRDFSQTFGLAKDKVRDLDSLWDVLMNDVLPLPLEIEFVHLGEKTRRRFGALILLFDEAEEELEGHLRFNVRH"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P64618|YHCO_ECO57",
+                      "accession": "P64618",
+                      "title": "Uncharacterized protein YhcO OS=Escherichia coli O157:H7 OX=83334 GN=yhcO PE=1 SV=1"
+                    }
+                  ],
+                  "len": 90,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 181.8,
+                      "score": 460,
+                      "evalue": 7.9694e-64,
+                      "identity": 90,
+                      "positive": 90,
+                      "query_from": 1,
+                      "query_to": 90,
+                      "hit_from": 1,
+                      "hit_to": 90,
+                      "align_len": 90,
+                      "gaps": 0,
+                      "qseq": "MNIYTFDFDEIESQEDFYRDFSQTFGLAKDKVRDLDSLWDVLMNDVLPLPLEIEFVHLGEKTRRRFGALILLFDEAEEELEGHLRFNVRH",
+                      "hseq": "MNIYTFDFDEIESQEDFYRDFSQTFGLAKDKVRDLDSLWDVLMNDVLPLPLEIEFVHLGEKTRRRFGALILLFDEAEEELEGHLRFNVRH",
+                      "midline": "MNIYTFDFDEIESQEDFYRDFSQTFGLAKDKVRDLDSLWDVLMNDVLPLPLEIEFVHLGEKTRRRFGALILLFDEAEEELEGHLRFNVRH"
+                    }
+                  ]
+                },
                 {
-                  "id": "tr|Q97DM1|Q97DM1_CLOAB",
-                  "accession": "Q97DM1",
-                  "title": "Beta-xylosidase, family 43 glycosyl hydrolase OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=xynD PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "tr|Q97DM1|Q97DM1_CLOAB",
+                      "accession": "Q97DM1",
+                      "title": "Beta-xylosidase, family 43 glycosyl hydrolase OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=xynD PE=1 SV=1"
+                    }
+                  ],
+                  "len": 533,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 25.7942,
+                      "score": 55,
+                      "evalue": 0.0271824,
+                      "identity": 8,
+                      "positive": 17,
+                      "query_from": 42,
+                      "query_to": 63,
+                      "hit_from": 445,
+                      "hit_to": 466,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "LMNDVLPLPLEIEFVHLGEKTR",
+                      "hseq": "LKSNVIPIPKDVEYIHLKVEVR",
+                      "midline": "L ++V+P+P ++E++HL  + R"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|O75604|UBP2_HUMAN",
+                      "accession": "O75604",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 605,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 1.74264,
+                      "identity": 7,
+                      "positive": 10,
+                      "query_from": 10,
+                      "query_to": 22,
+                      "hit_from": 139,
+                      "hit_to": 151,
+                      "align_len": 13,
+                      "gaps": 0,
+                      "qseq": "EIESQEDFYRDFS",
+                      "hseq": "KLDSQSDLARDFS",
+                      "midline": "+++SQ D  RDFS"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q12888|TP53B_HUMAN",
+                      "accession": "Q12888",
+                      "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1972,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 2.78976,
+                      "identity": 9,
+                      "positive": 13,
+                      "query_from": 40,
+                      "query_to": 60,
+                      "hit_from": 1531,
+                      "hit_to": 1549,
+                      "align_len": 21,
+                      "gaps": 2,
+                      "qseq": "DVLMNDVLPLPLEIEFVHLGE",
+                      "hseq": "DILLCD--PIPLDTEVTALSE",
+                      "midline": "D+L+ D  P+PL+ E   L E"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "tr|A9CJW3|A9CJW3_AGRFC",
+                      "accession": "A9CJW3",
+                      "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 229,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 3.92608,
+                      "identity": 6,
+                      "positive": 14,
+                      "query_from": 9,
+                      "query_to": 32,
+                      "hit_from": 140,
+                      "hit_to": 163,
+                      "align_len": 24,
+                      "gaps": 0,
+                      "qseq": "DEIESQEDFYRDFSQTFGLAKDKV",
+                      "hseq": "DRVKPKPDIFLHGAAQFGVSPDRV",
+                      "midline": "D ++ + D +   +  FG++ D+V"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q99176|SRN2_YEAST",
+                      "accession": "Q99176",
+                      "title": "Protein SRN2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SRN2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 213,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 4.61686,
+                      "identity": 6,
+                      "positive": 14,
+                      "query_from": 2,
+                      "query_to": 26,
+                      "hit_from": 122,
+                      "hit_to": 146,
+                      "align_len": 25,
+                      "gaps": 0,
+                      "qseq": "NIYTFDFDEIESQEDFYRDFSQTFG",
+                      "hseq": "NCRILESKYVASWQDYHSEFSKKYG",
+                      "midline": "N    +   + S +D++ +FS+ +G"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P04859|PHOSP_SENDH",
+                      "accession": "P04859",
+                      "title": "Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1"
+                    }
+                  ],
+                  "len": 568,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 8.87664,
+                      "identity": 6,
+                      "positive": 10,
+                      "query_from": 9,
+                      "query_to": 23,
+                      "hit_from": 398,
+                      "hit_to": 412,
+                      "align_len": 15,
+                      "gaps": 0,
+                      "qseq": "DEIESQEDFYRDFSQ",
+                      "hseq": "ESVESFRDIYKRFSE",
+                      "midline": "+ +ES  D Y+ FS+"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|Q8WTS6|SETD7_HUMAN",
+                      "accession": "Q8WTS6",
+                      "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 366,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.4754,
+                      "score": 36,
+                      "evalue": 8.94675,
+                      "identity": 8,
+                      "positive": 11,
+                      "query_from": 44,
+                      "query_to": 60,
+                      "hit_from": 204,
+                      "hit_to": 220,
+                      "align_len": 17,
+                      "gaps": 0,
+                      "qseq": "NDVLPLPLEIEFVHLGE",
+                      "hseq": "NALLPDPYESERVYVAE",
+                      "midline": "N +LP P E E V++ E"
+                    }
+                  ]
                 }
               ],
-              "len": 533,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 25.7942,
-                  "score": 55,
-                  "evalue": 0.0271824,
-                  "identity": 8,
-                  "positive": 17,
-                  "query_from": 42,
-                  "query_to": 63,
-                  "hit_from": 445,
-                  "hit_to": 466,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "LMNDVLPLPLEIEFVHLGEKTR",
-                  "hseq": "LKSNVIPIPKDVEYIHLKVEVR",
-                  "midline": "L ++V+P+P ++E++HL  + R"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|O75604|UBP2_HUMAN",
-                  "accession": "O75604",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
-                }
-              ],
-              "len": 605,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 1.74264,
-                  "identity": 7,
-                  "positive": 10,
-                  "query_from": 10,
-                  "query_to": 22,
-                  "hit_from": 139,
-                  "hit_to": 151,
-                  "align_len": 13,
-                  "gaps": 0,
-                  "qseq": "EIESQEDFYRDFS",
-                  "hseq": "KLDSQSDLARDFS",
-                  "midline": "+++SQ D  RDFS"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|Q12888|TP53B_HUMAN",
-                  "accession": "Q12888",
-                  "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
-                }
-              ],
-              "len": 1972,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 2.78976,
-                  "identity": 9,
-                  "positive": 13,
-                  "query_from": 40,
-                  "query_to": 60,
-                  "hit_from": 1531,
-                  "hit_to": 1549,
-                  "align_len": 21,
-                  "gaps": 2,
-                  "qseq": "DVLMNDVLPLPLEIEFVHLGE",
-                  "hseq": "DILLCD--PIPLDTEVTALSE",
-                  "midline": "D+L+ D  P+PL+ E   L E"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "tr|A9CJW3|A9CJW3_AGRFC",
-                  "accession": "A9CJW3",
-                  "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
-                }
-              ],
-              "len": 229,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 3.92608,
-                  "identity": 6,
-                  "positive": 14,
-                  "query_from": 9,
-                  "query_to": 32,
-                  "hit_from": 140,
-                  "hit_to": 163,
-                  "align_len": 24,
-                  "gaps": 0,
-                  "qseq": "DEIESQEDFYRDFSQTFGLAKDKV",
-                  "hseq": "DRVKPKPDIFLHGAAQFGVSPDRV",
-                  "midline": "D ++ + D +   +  FG++ D+V"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q99176|SRN2_YEAST",
-                  "accession": "Q99176",
-                  "title": "Protein SRN2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SRN2 PE=1 SV=1"
-                }
-              ],
-              "len": 213,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 4.61686,
-                  "identity": 6,
-                  "positive": 14,
-                  "query_from": 2,
-                  "query_to": 26,
-                  "hit_from": 122,
-                  "hit_to": 146,
-                  "align_len": 25,
-                  "gaps": 0,
-                  "qseq": "NIYTFDFDEIESQEDFYRDFSQTFG",
-                  "hseq": "NCRILESKYVASWQDYHSEFSKKYG",
-                  "midline": "N    +   + S +D++ +FS+ +G"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P04859|PHOSP_SENDH",
-                  "accession": "P04859",
-                  "title": "Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1"
-                }
-              ],
-              "len": 568,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 8.87664,
-                  "identity": 6,
-                  "positive": 10,
-                  "query_from": 9,
-                  "query_to": 23,
-                  "hit_from": 398,
-                  "hit_to": 412,
-                  "align_len": 15,
-                  "gaps": 0,
-                  "qseq": "DEIESQEDFYRDFSQ",
-                  "hseq": "ESVESFRDIYKRFSE",
-                  "midline": "+ +ES  D Y+ FS+"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|Q8WTS6|SETD7_HUMAN",
-                  "accession": "Q8WTS6",
-                  "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
-                }
-              ],
-              "len": 366,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.4754,
-                  "score": 36,
-                  "evalue": 8.94675,
-                  "identity": 8,
-                  "positive": 11,
-                  "query_from": 44,
-                  "query_to": 60,
-                  "hit_from": 204,
-                  "hit_to": 220,
-                  "align_len": 17,
-                  "gaps": 0,
-                  "qseq": "NDVLPLPLEIEFVHLGE",
-                  "hseq": "NALLPDPYESERVYVAE",
-                  "midline": "N +LP P E E V++ E"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 52,
+                "eff_space": 2730452,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 52,
-            "eff_space": 2730452,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,202 +17,207 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|O14737|PDCD5_HUMAN Programmed cell death protein 5 OS=Homo sapiens OX=9606 GN=PDCD5 PE=1 SV=3",
-          "query_len": 125,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|O14737|PDCD5_HUMAN",
-                  "accession": "O14737",
-                  "title": "Programmed cell death protein 5 OS=Homo sapiens OX=9606 GN=PDCD5 PE=1 SV=3"
-                }
-              ],
-              "len": 125,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|O14737|PDCD5_HUMAN Programmed cell death protein 5 OS=Homo sapiens OX=9606 GN=PDCD5 PE=1 SV=3",
+              "query_len": 125,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 252.292,
-                  "score": 643,
-                  "evalue": 1.14991e-90,
-                  "identity": 125,
-                  "positive": 125,
-                  "query_from": 1,
-                  "query_to": 125,
-                  "hit_from": 1,
-                  "hit_to": 125,
-                  "align_len": 125,
-                  "gaps": 0,
-                  "qseq": "MADEELEALRRQRLAELQAKHGDPGDAAQQEAKHREAEMRNSILAQVLDQSARARLSNLALVKPEKTKAVENYLIQMARYGQLSEKVSEQGLIEILKKVSQQTEKTTTVKFNRRKVMDSDEDDDY",
-                  "hseq": "MADEELEALRRQRLAELQAKHGDPGDAAQQEAKHREAEMRNSILAQVLDQSARARLSNLALVKPEKTKAVENYLIQMARYGQLSEKVSEQGLIEILKKVSQQTEKTTTVKFNRRKVMDSDEDDDY",
-                  "midline": "MADEELEALRRQRLAELQAKHGDPGDAAQQEAKHREAEMRNSILAQVLDQSARARLSNLALVKPEKTKAVENYLIQMARYGQLSEKVSEQGLIEILKKVSQQTEKTTTVKFNRRKVMDSDEDDDY"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|O14737|PDCD5_HUMAN",
+                      "accession": "O14737",
+                      "title": "Programmed cell death protein 5 OS=Homo sapiens OX=9606 GN=PDCD5 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 125,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 252.292,
+                      "score": 643,
+                      "evalue": 1.14991e-90,
+                      "identity": 125,
+                      "positive": 125,
+                      "query_from": 1,
+                      "query_to": 125,
+                      "hit_from": 1,
+                      "hit_to": 125,
+                      "align_len": 125,
+                      "gaps": 0,
+                      "qseq": "MADEELEALRRQRLAELQAKHGDPGDAAQQEAKHREAEMRNSILAQVLDQSARARLSNLALVKPEKTKAVENYLIQMARYGQLSEKVSEQGLIEILKKVSQQTEKTTTVKFNRRKVMDSDEDDDY",
+                      "hseq": "MADEELEALRRQRLAELQAKHGDPGDAAQQEAKHREAEMRNSILAQVLDQSARARLSNLALVKPEKTKAVENYLIQMARYGQLSEKVSEQGLIEILKKVSQQTEKTTTVKFNRRKVMDSDEDDDY",
+                      "midline": "MADEELEALRRQRLAELQAKHGDPGDAAQQEAKHREAEMRNSILAQVLDQSARARLSNLALVKPEKTKAVENYLIQMARYGQLSEKVSEQGLIEILKKVSQQTEKTTTVKFNRRKVMDSDEDDDY"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P17313|VG31_BPT4",
-                  "accession": "P17313",
-                  "title": "Capsid assembly protein Gp31 OS=Enterobacteria phage T4 OX=10665 GN=31 PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P17313|VG31_BPT4",
+                      "accession": "P17313",
+                      "title": "Capsid assembly protein Gp31 OS=Enterobacteria phage T4 OX=10665 GN=31 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 111,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 2.62012,
+                      "identity": 15,
+                      "positive": 24,
+                      "query_from": 66,
+                      "query_to": 109,
+                      "hit_from": 8,
+                      "hit_to": 51,
+                      "align_len": 45,
+                      "gaps": 2,
+                      "qseq": "KTKAVENYLIQMARYGQLS-EKVSEQGLIEILKKVSQQTEKTTTV",
+                      "hseq": "PIRAVGEYVILVSEPAQAGDEEVTESGLI-IGKRVQGEVPELCVV",
+                      "midline": "  +AV  Y+I ++   Q   E+V+E GLI I K+V  +  +   V"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "tr|Q8RR56|Q8RR56_9BACI",
+                      "accession": "Q8RR56",
+                      "title": "Kumamolisin OS=Bacillus sp. MN-32 OX=198803 GN=kscp PE=1 SV=2"
+                    }
+                  ],
+                  "len": 552,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 4.69339,
+                      "identity": 16,
+                      "positive": 18,
+                      "query_from": 9,
+                      "query_to": 55,
+                      "hit_from": 46,
+                      "hit_to": 92,
+                      "align_len": 47,
+                      "gaps": 0,
+                      "qseq": "LRRQRLAELQAKHGDPGDAAQQEAKHREAEMRNSILAQVLDQSARAR",
+                      "hseq": "LRRQRGDELEAHVERQAALAPHARVHLEREAFAASHGASLDDFAEIR",
+                      "midline": "LRRQR  EL+A        A     H E E   +     LD  A  R"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 6.86285,
+                      "identity": 7,
+                      "positive": 11,
+                      "query_from": 60,
+                      "query_to": 74,
+                      "hit_from": 5794,
+                      "hit_to": 5808,
+                      "align_len": 15,
+                      "gaps": 0,
+                      "qseq": "ALVKPEKTKAVENYL",
+                      "hseq": "AIANKDQTKASENYI",
+                      "midline": "A+   ++TKA ENY+"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|O43896|KIF1C_HUMAN",
+                      "accession": "O43896",
+                      "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1103,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 7.55981,
+                      "identity": 12,
+                      "positive": 18,
+                      "query_from": 5,
+                      "query_to": 33,
+                      "hit_from": 770,
+                      "hit_to": 801,
+                      "align_len": 32,
+                      "gaps": 3,
+                      "qseq": "ELEALRRQRLAELQAKHG---DPGDAAQQEAK",
+                      "hseq": "EIEALAALKMRELCRTYGKPDGPGDAWRAVAR",
+                      "midline": "E+EAL   ++ EL   +G    PGDA +  A+"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P00711|LALBA_BOVIN",
+                      "accession": "P00711",
+                      "title": "Alpha-lactalbumin OS=Bos taurus OX=9913 GN=LALBA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 142,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 8.39254,
+                      "identity": 11,
+                      "positive": 17,
+                      "query_from": 88,
+                      "query_to": 124,
+                      "hit_from": 67,
+                      "hit_to": 107,
+                      "align_len": 41,
+                      "gaps": 4,
+                      "qseq": "SEQGLIEILKKVS----QQTEKTTTVKFNRRKVMDSDEDDD",
+                      "hseq": "TEYGLFQINNKIWCKDDQNPHSSNICNISCDKFLDDDLTDD",
+                      "midline": "+E GL +I  K+     Q    +     +  K +D D  DD"
+                    }
+                  ]
                 }
               ],
-              "len": 111,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 2.62012,
-                  "identity": 15,
-                  "positive": 24,
-                  "query_from": 66,
-                  "query_to": 109,
-                  "hit_from": 8,
-                  "hit_to": 51,
-                  "align_len": 45,
-                  "gaps": 2,
-                  "qseq": "KTKAVENYLIQMARYGQLS-EKVSEQGLIEILKKVSQQTEKTTTV",
-                  "hseq": "PIRAVGEYVILVSEPAQAGDEEVTESGLI-IGKRVQGEVPELCVV",
-                  "midline": "  +AV  Y+I ++   Q   E+V+E GLI I K+V  +  +   V"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "tr|Q8RR56|Q8RR56_9BACI",
-                  "accession": "Q8RR56",
-                  "title": "Kumamolisin OS=Bacillus sp. MN-32 OX=198803 GN=kscp PE=1 SV=2"
-                }
-              ],
-              "len": 552,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 4.69339,
-                  "identity": 16,
-                  "positive": 18,
-                  "query_from": 9,
-                  "query_to": 55,
-                  "hit_from": 46,
-                  "hit_to": 92,
-                  "align_len": 47,
-                  "gaps": 0,
-                  "qseq": "LRRQRLAELQAKHGDPGDAAQQEAKHREAEMRNSILAQVLDQSARAR",
-                  "hseq": "LRRQRGDELEAHVERQAALAPHARVHLEREAFAASHGASLDDFAEIR",
-                  "midline": "LRRQR  EL+A        A     H E E   +     LD  A  R"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 6.86285,
-                  "identity": 7,
-                  "positive": 11,
-                  "query_from": 60,
-                  "query_to": 74,
-                  "hit_from": 5794,
-                  "hit_to": 5808,
-                  "align_len": 15,
-                  "gaps": 0,
-                  "qseq": "ALVKPEKTKAVENYL",
-                  "hseq": "AIANKDQTKASENYI",
-                  "midline": "A+   ++TKA ENY+"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|O43896|KIF1C_HUMAN",
-                  "accession": "O43896",
-                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
-                }
-              ],
-              "len": 1103,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 7.55981,
-                  "identity": 12,
-                  "positive": 18,
-                  "query_from": 5,
-                  "query_to": 33,
-                  "hit_from": 770,
-                  "hit_to": 801,
-                  "align_len": 32,
-                  "gaps": 3,
-                  "qseq": "ELEALRRQRLAELQAKHG---DPGDAAQQEAK",
-                  "hseq": "EIEALAALKMRELCRTYGKPDGPGDAWRAVAR",
-                  "midline": "E+EAL   ++ EL   +G    PGDA +  A+"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P00711|LALBA_BOVIN",
-                  "accession": "P00711",
-                  "title": "Alpha-lactalbumin OS=Bos taurus OX=9913 GN=LALBA PE=1 SV=2"
-                }
-              ],
-              "len": 142,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 8.39254,
-                  "identity": 11,
-                  "positive": 17,
-                  "query_from": 88,
-                  "query_to": 124,
-                  "hit_from": 67,
-                  "hit_to": 107,
-                  "align_len": 41,
-                  "gaps": 4,
-                  "qseq": "SEQGLIEILKKVS----QQTEKTTTVKFNRRKVMDSDEDDD",
-                  "hseq": "TEYGLFQINNKIWCKDDQNPHSSNICNISCDKFLDDDLTDD",
-                  "midline": "+E GL +I  K+     Q    +     +  K +D D  DD"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 56,
+                "eff_space": 4900242,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 56,
-            "eff_space": 4900242,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

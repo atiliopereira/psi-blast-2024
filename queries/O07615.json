@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,352 +17,357 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|O07615|YHFP_BACSU Putative quinone oxidoreductase YhfP OS=Bacillus subtilis (strain 168) OX=224308 GN=yhfP PE=1 SV=1",
-          "query_len": 330,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|O07615|YHFP_BACSU",
-                  "accession": "O07615",
-                  "title": "Putative quinone oxidoreductase YhfP OS=Bacillus subtilis (strain 168) OX=224308 GN=yhfP PE=1 SV=1"
-                }
-              ],
-              "len": 330,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|O07615|YHFP_BACSU Putative quinone oxidoreductase YhfP OS=Bacillus subtilis (strain 168) OX=224308 GN=yhfP PE=1 SV=1",
+              "query_len": 330,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 657.907,
-                  "score": 1696,
-                  "evalue": 0,
-                  "identity": 330,
-                  "positive": 330,
-                  "query_from": 1,
-                  "query_to": 330,
-                  "hit_from": 1,
-                  "hit_to": 330,
-                  "align_len": 330,
-                  "gaps": 0,
-                  "qseq": "MSTLFQALQAEKNADDVSVHVKTISTEDLPKDGVLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSNDPRFAEGDEVIATSYELGVSRDGGLSEYASVPGDWLVPLPQNLSLKEAMVYGTAGFTAALSVHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGYDVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGAVDPVGGKQLASLLSKIQYGGSVAVSGLTGGGEVPATVYPFILRGVSLLGIDSVYCPMDVRAAVWERMSSDLKPDQLLTIVDREVSLEETPGALKDILQNRIQGRVIVKL",
-                  "hseq": "MSTLFQALQAEKNADDVSVHVKTISTEDLPKDGVLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSNDPRFAEGDEVIATSYELGVSRDGGLSEYASVPGDWLVPLPQNLSLKEAMVYGTAGFTAALSVHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGYDVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGAVDPVGGKQLASLLSKIQYGGSVAVSGLTGGGEVPATVYPFILRGVSLLGIDSVYCPMDVRAAVWERMSSDLKPDQLLTIVDREVSLEETPGALKDILQNRIQGRVIVKL",
-                  "midline": "MSTLFQALQAEKNADDVSVHVKTISTEDLPKDGVLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSNDPRFAEGDEVIATSYELGVSRDGGLSEYASVPGDWLVPLPQNLSLKEAMVYGTAGFTAALSVHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGYDVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGAVDPVGGKQLASLLSKIQYGGSVAVSGLTGGGEVPATVYPFILRGVSLLGIDSVYCPMDVRAAVWERMSSDLKPDQLLTIVDREVSLEETPGALKDILQNRIQGRVIVKL"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|O07615|YHFP_BACSU",
+                      "accession": "O07615",
+                      "title": "Putative quinone oxidoreductase YhfP OS=Bacillus subtilis (strain 168) OX=224308 GN=yhfP PE=1 SV=1"
+                    }
+                  ],
+                  "len": 330,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 657.907,
+                      "score": 1696,
+                      "evalue": 0,
+                      "identity": 330,
+                      "positive": 330,
+                      "query_from": 1,
+                      "query_to": 330,
+                      "hit_from": 1,
+                      "hit_to": 330,
+                      "align_len": 330,
+                      "gaps": 0,
+                      "qseq": "MSTLFQALQAEKNADDVSVHVKTISTEDLPKDGVLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSNDPRFAEGDEVIATSYELGVSRDGGLSEYASVPGDWLVPLPQNLSLKEAMVYGTAGFTAALSVHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGYDVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGAVDPVGGKQLASLLSKIQYGGSVAVSGLTGGGEVPATVYPFILRGVSLLGIDSVYCPMDVRAAVWERMSSDLKPDQLLTIVDREVSLEETPGALKDILQNRIQGRVIVKL",
+                      "hseq": "MSTLFQALQAEKNADDVSVHVKTISTEDLPKDGVLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSNDPRFAEGDEVIATSYELGVSRDGGLSEYASVPGDWLVPLPQNLSLKEAMVYGTAGFTAALSVHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGYDVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGAVDPVGGKQLASLLSKIQYGGSVAVSGLTGGGEVPATVYPFILRGVSLLGIDSVYCPMDVRAAVWERMSSDLKPDQLLTIVDREVSLEETPGALKDILQNRIQGRVIVKL",
+                      "midline": "MSTLFQALQAEKNADDVSVHVKTISTEDLPKDGVLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSNDPRFAEGDEVIATSYELGVSRDGGLSEYASVPGDWLVPLPQNLSLKEAMVYGTAGFTAALSVHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGYDVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGAVDPVGGKQLASLLSKIQYGGSVAVSGLTGGGEVPATVYPFILRGVSLLGIDSVYCPMDVRAAVWERMSSDLKPDQLLTIVDREVSLEETPGALKDILQNRIQGRVIVKL"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P26646|ACUI_ECOLI",
-                  "accession": "P26646",
-                  "title": "Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P26646|ACUI_ECOLI",
+                      "accession": "P26646",
+                      "title": "Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1"
+                    }
+                  ],
+                  "len": 324,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 295.434,
+                      "score": 755,
+                      "evalue": 2.44494e-101,
+                      "identity": 154,
+                      "positive": 208,
+                      "query_from": 5,
+                      "query_to": 330,
+                      "hit_from": 1,
+                      "hit_to": 323,
+                      "align_len": 326,
+                      "gaps": 3,
+                      "qseq": "FQALQAEKNADDVSVHVKTISTEDLPKDGVLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSNDPRFAEGDEVIATSYELGVSRDGGLSEYASVPGDWLVPLPQNLSLKEAMVYGTAGFTAALSVHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGYDVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGAVDPVGGKQLASLLSKIQYGGSVAVSGLTGGGEVPATVYPFILRGVSLLGIDSVYCPMDVRAAVWERMSSDLKPDQLLTIVDREVSLEETPGALKDILQNRIQGRVIVKL",
+                      "hseq": "MQALLLEQQDGKTLASVQTLDESRLPEGDVTVDVHWSSLNYKDALAITGKGKIIRNFPMIPGIDFAGTVRTSEDPRFHAGQEVLLTGWGVGENHWGGLAEQARVKGDWLVAMPQGLDARKAMIIGTAGFTAMLCVMALEDAGVRPQDGEIVVTGASGGVGSTAVALLHKLGYQVVAVSGRESTHEYLKSLGASRVLPRDEFAES--RPLEKQVWAGAIDTVGDKVLAKVLAQMNYGGCVAACGLAGGFTLPTTVMPFILRNVRLQGVDSVMTPPERRAQAWQRLVADL-PESFYTQAAKEISLSEAPNFAEAIINNQIQGRTLVKV",
+                      "midline": " QAL  E+        V+T+    LP+  V + V +S +NYKD LA    G I+R +P+I GID AGTV +S DPRF  G EV+ T + +G +  GGL+E A V GDWLV +PQ L  ++AM+ GTAGFTA L V  LE  G+ P+ G ++VTGA+GGVG  AV++L+K GY VVA +G     +YLK LGAS V+ R++  +   + L KQ W GA+D VG K LA +L+++ YGG VA  GL GG  +P TV PFILR V L G+DSV  P + RA  W+R+ +DL P+   T   +E+SL E P   + I+ N+IQGR +VK+"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P07327|ADH1A_HUMAN",
+                      "accession": "P07327",
+                      "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
+                    }
+                  ],
+                  "len": 375,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 30.8018,
+                      "score": 68,
+                      "evalue": 0.00781008,
+                      "identity": 55,
+                      "positive": 98,
+                      "query_from": 92,
+                      "query_to": 301,
+                      "hit_from": 140,
+                      "hit_to": 350,
+                      "align_len": 226,
+                      "gaps": 31,
+                      "qseq": "YELGVSRDGGLSEYASVPGDWLVPLPQNLSLKEAMVYG---TAGFTAALSVHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGY-DVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGAVD---PVGGK---QLASLLSKIQYGGSVAVSGLTGGGEVPATVYPFIL------RGVSLLGIDSVYCPMDVRAAVWERMSSDLKPDQLLTIV",
+                      "hseq": "HFLGIST---FSQYTVVDENAVAKIDAASPLEKVCLIGCGFSTGYGSAVNVAKVTP-------GSTCAVFGLGGVGLSAIMGCKAAGAARIIAVDINKDKFAKAKELGATECINPQD-YKKPIQEVLKEMTDGGVDFSFEVIGRLDTMMASLLCCHEACGTSVIVGVPPDSQ-NLSMNPMLLLTGRTWKGAILGGFKSKEC---VPKLVADFMAKKFSLDALITHV",
+                      "midline": "+ LG+S     S+Y  V  + +  +     L++  + G   + G+ +A++V ++         GS       GGVG  A+      G   ++A   N++     K+LGA+E I+ +D Y   ++ + K+   G VD    V G+    +ASLL   +  G+  + G+    +   ++ P +L      +G  L G  S  C   V   V + M+     D L+T V"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "tr|A9CJW3|A9CJW3_AGRFC",
+                      "accession": "A9CJW3",
+                      "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 229,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 29.261,
+                      "score": 64,
+                      "evalue": 0.0172781,
+                      "identity": 25,
+                      "positive": 40,
+                      "query_from": 139,
+                      "query_to": 221,
+                      "hit_from": 150,
+                      "hit_to": 228,
+                      "align_len": 83,
+                      "gaps": 4,
+                      "qseq": "VHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGYDVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGA",
+                      "hseq": "LHGAAQFGVSPDR-VVVVEDSVHGIHGARAAGMRVIGF-TGASHTYPSHADRLTDAGAETVISRMQDLPAVIAAMA--EWEGA",
+                      "midline": "+H   Q G+SP++  V+V  +  G+ G   + +   G+   AS      AD L   GA  VISR       + A++  +W+GA"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P00709|LALBA_HUMAN",
+                      "accession": "P00709",
+                      "title": "Alpha-lactalbumin OS=Homo sapiens OX=9606 GN=LALBA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 142,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 26.5646,
+                      "score": 57,
+                      "evalue": 0.100753,
+                      "identity": 13,
+                      "positive": 18,
+                      "query_from": 162,
+                      "query_to": 190,
+                      "hit_from": 36,
+                      "hit_to": 69,
+                      "align_len": 34,
+                      "gaps": 5,
+                      "qseq": "GVGGIAV-----SMLNKRGYDVVASTGNREAADY",
+                      "hseq": "GYGGIALPELICTMFHTSGYDTQAIVENNESTEY",
+                      "midline": "G GGIA+     +M +  GYD  A   N E+ +Y"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P12065|LALBA_PAPCY",
+                      "accession": "P12065",
+                      "title": "Alpha-lactalbumin OS=Papio cynocephalus OX=9556 GN=LALBA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 123,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 0.824029,
+                      "identity": 12,
+                      "positive": 17,
+                      "query_from": 162,
+                      "query_to": 190,
+                      "hit_from": 17,
+                      "hit_to": 50,
+                      "align_len": 34,
+                      "gaps": 5,
+                      "qseq": "GVGGIAV-----SMLNKRGYDVVASTGNREAADY",
+                      "hseq": "GYGRIALPELICTMFHTSGYDTQAIVENNESTEY",
+                      "midline": "G G IA+     +M +  GYD  A   N E+ +Y"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P0C6U8|R1A_SARS",
+                      "accession": "P0C6U8",
+                      "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                    }
+                  ],
+                  "len": 4382,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 1.57053,
+                      "identity": 9,
+                      "positive": 17,
+                      "query_from": 305,
+                      "query_to": 328,
+                      "hit_from": 3499,
+                      "hit_to": 3522,
+                      "align_len": 24,
+                      "gaps": 0,
+                      "qseq": "VSLEETPGALKDILQNRIQGRVIV",
+                      "hseq": "IAVLDMCAALKELLQNGMNGRTIL",
+                      "midline": "+++ +   ALK++LQN + GR I+"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P00327|ADH1E_HORSE",
+                      "accession": "P00327",
+                      "title": "Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 375,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 2.73895,
+                      "identity": 31,
+                      "positive": 45,
+                      "query_from": 34,
+                      "query_to": 135,
+                      "hit_from": 37,
+                      "hit_to": 133,
+                      "align_len": 105,
+                      "gaps": 11,
+                      "qseq": "VLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSND--PRFAEGDEVIATSYELGVSRDGGLSEYASVPGDWLVPLPQNLSL-KEAMVYGTAGFTA",
+                      "hseq": "VRIKMVATGICRSDDHV--VSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVIP----LFTPQCGKCRVCKHPEGNFC--LKNDLSMPRGTMQDGTSRFTC",
+                      "midline": "V IK+  +GI   D       G +V   P+I G +AAG V S  +       GD+VI     L   + G         G++   L  +LS+ +  M  GT+ FT "
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|Q8K1S3|UNC5B_MOUSE",
+                      "accession": "Q8K1S3",
+                      "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
+                    }
+                  ],
+                  "len": 945,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 3.84219,
+                      "identity": 9,
+                      "positive": 13,
+                      "query_from": 303,
+                      "query_to": 319,
+                      "hit_from": 713,
+                      "hit_to": 729,
+                      "align_len": 17,
+                      "gaps": 0,
+                      "qseq": "REVSLEETPGALKDILQ",
+                      "hseq": "RVYCLEDTPVALKEVLE",
+                      "midline": "R   LE+TP ALK++L+"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|O66529|RISB_AQUAE",
+                      "accession": "O66529",
+                      "title": "6,7-dimethyl-8-ribityllumazine synthase OS=Aquifex aeolicus (strain VF5) OX=224324 GN=ribH PE=1 SV=1"
+                    }
+                  ],
+                  "len": 154,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 8.02815,
+                      "identity": 9,
+                      "positive": 12,
+                      "query_from": 96,
+                      "query_to": 116,
+                      "hit_from": 38,
+                      "hit_to": 61,
+                      "align_len": 24,
+                      "gaps": 3,
+                      "qseq": "VSRDGGLSE---YASVPGDWLVPL",
+                      "hseq": "IVRHGGREEDITLVRVPGSWEIPV",
+                      "midline": "+ R GG  E      VPG W +P+"
+                    }
+                  ]
+                },
+                {
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|Q96T60|PNKP_HUMAN",
+                      "accession": "Q96T60",
+                      "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
+                    }
+                  ],
+                  "len": 521,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 8.67176,
+                      "identity": 12,
+                      "positive": 19,
+                      "query_from": 105,
+                      "query_to": 141,
+                      "hit_from": 185,
+                      "hit_to": 224,
+                      "align_len": 40,
+                      "gaps": 3,
+                      "qseq": "YASVPGDWLV---PLPQNLSLKEAMVYGTAGFTAALSVHR",
+                      "hseq": "FPTGPSDWRILYPEIPRKLRELEAEGYKLVIFTNQMSIGR",
+                      "midline": "+ + P DW +    +P+ L   EA  Y    FT  +S+ R"
+                    }
+                  ]
                 }
               ],
-              "len": 324,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 295.434,
-                  "score": 755,
-                  "evalue": 2.44494e-101,
-                  "identity": 154,
-                  "positive": 208,
-                  "query_from": 5,
-                  "query_to": 330,
-                  "hit_from": 1,
-                  "hit_to": 323,
-                  "align_len": 326,
-                  "gaps": 3,
-                  "qseq": "FQALQAEKNADDVSVHVKTISTEDLPKDGVLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSNDPRFAEGDEVIATSYELGVSRDGGLSEYASVPGDWLVPLPQNLSLKEAMVYGTAGFTAALSVHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGYDVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGAVDPVGGKQLASLLSKIQYGGSVAVSGLTGGGEVPATVYPFILRGVSLLGIDSVYCPMDVRAAVWERMSSDLKPDQLLTIVDREVSLEETPGALKDILQNRIQGRVIVKL",
-                  "hseq": "MQALLLEQQDGKTLASVQTLDESRLPEGDVTVDVHWSSLNYKDALAITGKGKIIRNFPMIPGIDFAGTVRTSEDPRFHAGQEVLLTGWGVGENHWGGLAEQARVKGDWLVAMPQGLDARKAMIIGTAGFTAMLCVMALEDAGVRPQDGEIVVTGASGGVGSTAVALLHKLGYQVVAVSGRESTHEYLKSLGASRVLPRDEFAES--RPLEKQVWAGAIDTVGDKVLAKVLAQMNYGGCVAACGLAGGFTLPTTVMPFILRNVRLQGVDSVMTPPERRAQAWQRLVADL-PESFYTQAAKEISLSEAPNFAEAIINNQIQGRTLVKV",
-                  "midline": " QAL  E+        V+T+    LP+  V + V +S +NYKD LA    G I+R +P+I GID AGTV +S DPRF  G EV+ T + +G +  GGL+E A V GDWLV +PQ L  ++AM+ GTAGFTA L V  LE  G+ P+ G ++VTGA+GGVG  AV++L+K GY VVA +G     +YLK LGAS V+ R++  +   + L KQ W GA+D VG K LA +L+++ YGG VA  GL GG  +P TV PFILR V L G+DSV  P + RA  W+R+ +DL P+   T   +E+SL E P   + I+ N+IQGR +VK+"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P07327|ADH1A_HUMAN",
-                  "accession": "P07327",
-                  "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
-                }
-              ],
-              "len": 375,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 30.8018,
-                  "score": 68,
-                  "evalue": 0.00781008,
-                  "identity": 55,
-                  "positive": 98,
-                  "query_from": 92,
-                  "query_to": 301,
-                  "hit_from": 140,
-                  "hit_to": 350,
-                  "align_len": 226,
-                  "gaps": 31,
-                  "qseq": "YELGVSRDGGLSEYASVPGDWLVPLPQNLSLKEAMVYG---TAGFTAALSVHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGY-DVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGAVD---PVGGK---QLASLLSKIQYGGSVAVSGLTGGGEVPATVYPFIL------RGVSLLGIDSVYCPMDVRAAVWERMSSDLKPDQLLTIV",
-                  "hseq": "HFLGIST---FSQYTVVDENAVAKIDAASPLEKVCLIGCGFSTGYGSAVNVAKVTP-------GSTCAVFGLGGVGLSAIMGCKAAGAARIIAVDINKDKFAKAKELGATECINPQD-YKKPIQEVLKEMTDGGVDFSFEVIGRLDTMMASLLCCHEACGTSVIVGVPPDSQ-NLSMNPMLLLTGRTWKGAILGGFKSKEC---VPKLVADFMAKKFSLDALITHV",
-                  "midline": "+ LG+S     S+Y  V  + +  +     L++  + G   + G+ +A++V ++         GS       GGVG  A+      G   ++A   N++     K+LGA+E I+ +D Y   ++ + K+   G VD    V G+    +ASLL   +  G+  + G+    +   ++ P +L      +G  L G  S  C   V   V + M+     D L+T V"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "tr|A9CJW3|A9CJW3_AGRFC",
-                  "accession": "A9CJW3",
-                  "title": "HAD family hydrolase OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0790 PE=1 SV=1"
-                }
-              ],
-              "len": 229,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 29.261,
-                  "score": 64,
-                  "evalue": 0.0172781,
-                  "identity": 25,
-                  "positive": 40,
-                  "query_from": 139,
-                  "query_to": 221,
-                  "hit_from": 150,
-                  "hit_to": 228,
-                  "align_len": 83,
-                  "gaps": 4,
-                  "qseq": "VHRLEQNGLSPEKGSVLVTGATGGVGGIAVSMLNKRGYDVVASTGNREAADYLKQLGASEVISREDVYDGTLKALSKQQWQGA",
-                  "hseq": "LHGAAQFGVSPDR-VVVVEDSVHGIHGARAAGMRVIGF-TGASHTYPSHADRLTDAGAETVISRMQDLPAVIAAMA--EWEGA",
-                  "midline": "+H   Q G+SP++  V+V  +  G+ G   + +   G+   AS      AD L   GA  VISR       + A++  +W+GA"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P00709|LALBA_HUMAN",
-                  "accession": "P00709",
-                  "title": "Alpha-lactalbumin OS=Homo sapiens OX=9606 GN=LALBA PE=1 SV=1"
-                }
-              ],
-              "len": 142,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 26.5646,
-                  "score": 57,
-                  "evalue": 0.100753,
-                  "identity": 13,
-                  "positive": 18,
-                  "query_from": 162,
-                  "query_to": 190,
-                  "hit_from": 36,
-                  "hit_to": 69,
-                  "align_len": 34,
-                  "gaps": 5,
-                  "qseq": "GVGGIAV-----SMLNKRGYDVVASTGNREAADY",
-                  "hseq": "GYGGIALPELICTMFHTSGYDTQAIVENNESTEY",
-                  "midline": "G GGIA+     +M +  GYD  A   N E+ +Y"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P12065|LALBA_PAPCY",
-                  "accession": "P12065",
-                  "title": "Alpha-lactalbumin OS=Papio cynocephalus OX=9556 GN=LALBA PE=1 SV=1"
-                }
-              ],
-              "len": 123,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 0.824029,
-                  "identity": 12,
-                  "positive": 17,
-                  "query_from": 162,
-                  "query_to": 190,
-                  "hit_from": 17,
-                  "hit_to": 50,
-                  "align_len": 34,
-                  "gaps": 5,
-                  "qseq": "GVGGIAV-----SMLNKRGYDVVASTGNREAADY",
-                  "hseq": "GYGRIALPELICTMFHTSGYDTQAIVENNESTEY",
-                  "midline": "G G IA+     +M +  GYD  A   N E+ +Y"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P0C6U8|R1A_SARS",
-                  "accession": "P0C6U8",
-                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
-                }
-              ],
-              "len": 4382,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 1.57053,
-                  "identity": 9,
-                  "positive": 17,
-                  "query_from": 305,
-                  "query_to": 328,
-                  "hit_from": 3499,
-                  "hit_to": 3522,
-                  "align_len": 24,
-                  "gaps": 0,
-                  "qseq": "VSLEETPGALKDILQNRIQGRVIV",
-                  "hseq": "IAVLDMCAALKELLQNGMNGRTIL",
-                  "midline": "+++ +   ALK++LQN + GR I+"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P00327|ADH1E_HORSE",
-                  "accession": "P00327",
-                  "title": "Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2"
-                }
-              ],
-              "len": 375,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 2.73895,
-                  "identity": 31,
-                  "positive": 45,
-                  "query_from": 34,
-                  "query_to": 135,
-                  "hit_from": 37,
-                  "hit_to": 133,
-                  "align_len": 105,
-                  "gaps": 11,
-                  "qseq": "VLIKVAYSGINYKDGLAGKAGGNIVREYPLILGIDAAGTVVSSND--PRFAEGDEVIATSYELGVSRDGGLSEYASVPGDWLVPLPQNLSL-KEAMVYGTAGFTA",
-                  "hseq": "VRIKMVATGICRSDDHV--VSGTLVTPLPVIAGHEAAGIVESIGEGVTTVRPGDKVIP----LFTPQCGKCRVCKHPEGNFC--LKNDLSMPRGTMQDGTSRFTC",
-                  "midline": "V IK+  +GI   D       G +V   P+I G +AAG V S  +       GD+VI     L   + G         G++   L  +LS+ +  M  GT+ FT "
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|Q8K1S3|UNC5B_MOUSE",
-                  "accession": "Q8K1S3",
-                  "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
-                }
-              ],
-              "len": 945,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 3.84219,
-                  "identity": 9,
-                  "positive": 13,
-                  "query_from": 303,
-                  "query_to": 319,
-                  "hit_from": 713,
-                  "hit_to": 729,
-                  "align_len": 17,
-                  "gaps": 0,
-                  "qseq": "REVSLEETPGALKDILQ",
-                  "hseq": "RVYCLEDTPVALKEVLE",
-                  "midline": "R   LE+TP ALK++L+"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|O66529|RISB_AQUAE",
-                  "accession": "O66529",
-                  "title": "6,7-dimethyl-8-ribityllumazine synthase OS=Aquifex aeolicus (strain VF5) OX=224324 GN=ribH PE=1 SV=1"
-                }
-              ],
-              "len": 154,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 8.02815,
-                  "identity": 9,
-                  "positive": 12,
-                  "query_from": 96,
-                  "query_to": 116,
-                  "hit_from": 38,
-                  "hit_to": 61,
-                  "align_len": 24,
-                  "gaps": 3,
-                  "qseq": "VSRDGGLSE---YASVPGDWLVPL",
-                  "hseq": "IVRHGGREEDITLVRVPGSWEIPV",
-                  "midline": "+ R GG  E      VPG W +P+"
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|Q96T60|PNKP_HUMAN",
-                  "accession": "Q96T60",
-                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
-                }
-              ],
-              "len": 521,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 8.67176,
-                  "identity": 12,
-                  "positive": 19,
-                  "query_from": 105,
-                  "query_to": 141,
-                  "hit_from": 185,
-                  "hit_to": 224,
-                  "align_len": 40,
-                  "gaps": 3,
-                  "qseq": "YASVPGDWLV---PLPQNLSLKEAMVYGTAGFTAALSVHR",
-                  "hseq": "FPTGPSDWRILYPEIPRKLRELEAEGYKLVIFTNQMSIGR",
-                  "midline": "+ + P DW +    +P+ L   EA  Y    FT  +S+ R"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 66,
+                "eff_space": 18196992,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 66,
-            "eff_space": 18196992,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

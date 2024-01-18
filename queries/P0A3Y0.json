@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,382 +17,387 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P0A3Y0|CYC6_SYNEL Cytochrome c6 OS=Synechococcus elongatus OX=32046 GN=petJ PE=1 SV=1",
-          "query_len": 87,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P0A3Y0|CYC6_SYNEL",
-                  "accession": "P0A3Y0",
-                  "title": "Cytochrome c6 OS=Synechococcus elongatus OX=32046 GN=petJ PE=1 SV=1"
-                }
-              ],
-              "len": 87,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P0A3Y0|CYC6_SYNEL Cytochrome c6 OS=Synechococcus elongatus OX=32046 GN=petJ PE=1 SV=1",
+              "query_len": 87,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 179.489,
-                  "score": 454,
-                  "evalue": 4.83761e-63,
-                  "identity": 87,
-                  "positive": 87,
-                  "query_from": 1,
-                  "query_to": 87,
-                  "hit_from": 1,
-                  "hit_to": 87,
-                  "align_len": 87,
-                  "gaps": 0,
-                  "qseq": "ADLANGAKVFSGNCAACHMGGGNVVMANKTLKKEALEQFGMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQAAKGWAG",
-                  "hseq": "ADLANGAKVFSGNCAACHMGGGNVVMANKTLKKEALEQFGMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQAAKGWAG",
-                  "midline": "ADLANGAKVFSGNCAACHMGGGNVVMANKTLKKEALEQFGMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQAAKGWAG"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P0A3Y0|CYC6_SYNEL",
+                      "accession": "P0A3Y0",
+                      "title": "Cytochrome c6 OS=Synechococcus elongatus OX=32046 GN=petJ PE=1 SV=1"
+                    }
+                  ],
+                  "len": 87,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 179.489,
+                      "score": 454,
+                      "evalue": 4.83761e-63,
+                      "identity": 87,
+                      "positive": 87,
+                      "query_from": 1,
+                      "query_to": 87,
+                      "hit_from": 1,
+                      "hit_to": 87,
+                      "align_len": 87,
+                      "gaps": 0,
+                      "qseq": "ADLANGAKVFSGNCAACHMGGGNVVMANKTLKKEALEQFGMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQAAKGWAG",
+                      "hseq": "ADLANGAKVFSGNCAACHMGGGNVVMANKTLKKEALEQFGMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQAAKGWAG",
+                      "midline": "ADLANGAKVFSGNCAACHMGGGNVVMANKTLKKEALEQFGMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQAAKGWAG"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P83391|CYC6_CLAGO",
-                  "accession": "P83391",
-                  "title": "Cytochrome c6 OS=Cladophora glomerata OX=162068 GN=petJ PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P83391|CYC6_CLAGO",
+                      "accession": "P83391",
+                      "title": "Cytochrome c6 OS=Cladophora glomerata OX=162068 GN=petJ PE=1 SV=1"
+                    }
+                  ],
+                  "len": 91,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 95.9005,
+                      "score": 237,
+                      "evalue": 6.52977e-30,
+                      "identity": 47,
+                      "positive": 64,
+                      "query_from": 3,
+                      "query_to": 81,
+                      "hit_from": 6,
+                      "hit_to": 86,
+                      "align_len": 81,
+                      "gaps": 2,
+                      "qseq": "LANGAKVFSGNCAACHMGGGNVVMANKTLKKEALEQF--GMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQA",
+                      "hseq": "LADGKKVFAGNCAACHLGGNNSVLADKTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMPAWADRLDEDDIEAVSNYVYDQA",
+                      "midline": "LA+G KVF+GNCAACH+GG N V+A+KTLKK+A+E++  G  + +AI YQV +GK AMPA+A RL ++ I+ V+ YV DQA"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P00101|CY551_STUST",
+                      "accession": "P00101",
+                      "title": "Cytochrome c-551 OS=Stutzerimonas stutzeri OX=316 GN=nirM PE=1 SV=2"
+                    }
+                  ],
+                  "len": 104,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 26.1794,
+                      "score": 56,
+                      "evalue": 0.0113437,
+                      "identity": 21,
+                      "positive": 39,
+                      "query_from": 5,
+                      "query_to": 79,
+                      "hit_from": 24,
+                      "hit_to": 102,
+                      "align_len": 81,
+                      "gaps": 8,
+                      "qseq": "NGAKVF-SGNCAACHMGGGNVVMANKTLKKEALEQFGMY-SEDAIIYQVQHGKN----AMPAFAGRLTDEQIQDVAAYVLD",
+                      "hseq": "DGEALFKSKPCAACH--SVDTKMVGPALKEVAAKNAGVEGAADTLALHIKNGSQGVWGPIPMPPNPVTEEEAKILAEWVLS",
+                      "midline": "+G  +F S  CAACH    +  M    LK+ A +  G+  + D +   +++G       +P     +T+E+ + +A +VL "
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P82599|CY553_SPOPA",
+                      "accession": "P82599",
+                      "title": "Cytochrome c-553 OS=Sporosarcina pasteurii OX=1474 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 92,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.2534,
+                      "score": 51,
+                      "evalue": 0.0526257,
+                      "identity": 15,
+                      "positive": 27,
+                      "query_from": 14,
+                      "query_to": 59,
+                      "hit_from": 32,
+                      "hit_to": 72,
+                      "align_len": 47,
+                      "gaps": 7,
+                      "qseq": "CAACHMGGGNVVMANKTLKKEALEQFGM-YSEDAIIYQVQHGKNAMP",
+                      "hseq": "CISCH--GGDLTGASAP----AIDKAGANYSEEEILDIILNGQGGMP",
+                      "midline": "C +CH  GG++  A+      A+++ G  YSE+ I+  + +G+  MP"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P14774|CYCL_METEA",
+                      "accession": "P14774",
+                      "title": "Cytochrome c-L OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxG PE=1 SV=1"
+                    }
+                  ],
+                  "len": 197,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 0.122208,
+                      "identity": 7,
+                      "positive": 11,
+                      "query_from": 3,
+                      "query_to": 18,
+                      "hit_from": 79,
+                      "hit_to": 94,
+                      "align_len": 16,
+                      "gaps": 0,
+                      "qseq": "LANGAKVFSGNCAACH",
+                      "hseq": "LRNGESLFATSCSGCH",
+                      "midline": "L NG  +F+ +C+ CH"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P0A6Z1|HSCA_ECOLI",
+                      "accession": "P0A6Z1",
+                      "title": "Chaperone protein HscA OS=Escherichia coli (strain K12) OX=83333 GN=hscA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 616,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 1.5504,
+                      "identity": 8,
+                      "positive": 12,
+                      "query_from": 67,
+                      "query_to": 83,
+                      "hit_from": 589,
+                      "hit_to": 605,
+                      "align_len": 17,
+                      "gaps": 0,
+                      "qseq": "DEQIQDVAAYVLDQAAK",
+                      "hseq": "DKQTQDFAARRMDQSVR",
+                      "midline": "D+Q QD AA  +DQ+ +"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q12888|TP53B_HUMAN",
+                      "accession": "Q12888",
+                      "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1972,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 1.8941,
+                      "identity": 7,
+                      "positive": 14,
+                      "query_from": 58,
+                      "query_to": 79,
+                      "hit_from": 1768,
+                      "hit_to": 1789,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "MPAFAGRLTDEQIQDVAAYVLD",
+                      "hseq": "IPPFNKQYTESQLRAGAGYILE",
+                      "midline": "+P F  + T+ Q++  A Y+L+"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P03706|ENLYS_LAMBD",
+                      "accession": "P03706",
+                      "title": "Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1"
+                    }
+                  ],
+                  "len": 158,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 3.83021,
+                      "identity": 9,
+                      "positive": 15,
+                      "query_from": 32,
+                      "query_to": 59,
+                      "hit_from": 79,
+                      "hit_to": 106,
+                      "align_len": 28,
+                      "gaps": 0,
+                      "qseq": "KKEALEQFGMYSEDAIIYQVQHGKNAMP",
+                      "hseq": "KQLGLKDFSPKSQDAVALQQIKERGALP",
+                      "midline": "K+  L+ F   S+DA+  Q    + A+P"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P00094|CYC2_RHOCB",
+                      "accession": "P00094",
+                      "title": "Cytochrome c2 OS=Rhodobacter capsulatus (strain ATCC BAA-309 / NBRC 16581 / SB1003) OX=272942 GN=cycA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 137,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 6.19292,
+                      "identity": 21,
+                      "positive": 30,
+                      "query_from": 5,
+                      "query_to": 82,
+                      "hit_from": 26,
+                      "hit_to": 102,
+                      "align_len": 82,
+                      "gaps": 9,
+                      "qseq": "NGAKVFSGNCAACHM----GGGNVVMANKTLKKEALEQFGMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQAA",
+                      "hseq": "KGEKEFN-KCKTCHSIIAPDGTEIVKGAKT----GPNLYGVVGRTAGTYPEFKYKDSIVALGASGFAWTEEDIATYVKDPGA",
+                      "midline": " G K F+  C  CH      G  +V   KT        +G+    A  Y     K+++ A          +D+A YV D  A"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|O33840|PULA_THEMA",
+                      "accession": "O33840",
+                      "title": "Pullulanase OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=pulA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 843,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 6.94245,
+                      "identity": 6,
+                      "positive": 8,
+                      "query_from": 44,
+                      "query_to": 52,
+                      "hit_from": 339,
+                      "hit_to": 347,
+                      "align_len": 9,
+                      "gaps": 0,
+                      "qseq": "EDAIIYQVQ",
+                      "hseq": "EDAIIYEIH",
+                      "midline": "EDAIIY++ "
+                    }
+                  ]
+                },
+                {
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|Q9ULZ3|ASC_HUMAN",
+                      "accession": "Q9ULZ3",
+                      "title": "Apoptosis-associated speck-like protein containing a CARD OS=Homo sapiens OX=9606 GN=PYCARD PE=1 SV=2"
+                    }
+                  ],
+                  "len": 195,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 7.36061,
+                      "identity": 21,
+                      "positive": 32,
+                      "query_from": 15,
+                      "query_to": 75,
+                      "hit_from": 87,
+                      "hit_to": 151,
+                      "align_len": 66,
+                      "gaps": 6,
+                      "qseq": "AACHMGGGNVVMANKTLKKEALEQFGMYSED----AIIYQVQHGKNAMPAFAGR-LTDEQIQDVAA",
+                      "hseq": "AATHQGSGAAPAGIQAPPQSAAKP-GLHFIDQHRAALIARVTNVEWLLDALYGKVLTDEQYQAVRA",
+                      "midline": "AA H G G      +   + A +  G++  D    A+I +V + +  + A  G+ LTDEQ Q V A"
+                    }
+                  ]
+                },
+                {
+                  "num": 12,
+                  "description": [
+                    {
+                      "id": "sp|P07174|TNR16_RAT",
+                      "accession": "P07174",
+                      "title": "Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1"
+                    }
+                  ],
+                  "len": 425,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 8.19987,
+                      "identity": 15,
+                      "positive": 31,
+                      "query_from": 11,
+                      "query_to": 76,
+                      "hit_from": 120,
+                      "hit_to": 184,
+                      "align_len": 70,
+                      "gaps": 9,
+                      "qseq": "SGNCAACHMG--GGNVVMANKTLKKEALEQF--GMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAY",
+                      "hseq": "TGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEA-----NHVDPCLPCTVCEDTERQLRECTPW",
+                      "midline": "+G+C AC +   G  +V + +  +    E+   G YS++A      H    +P      T+ Q+++   +"
+                    }
+                  ]
                 }
               ],
-              "len": 91,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 95.9005,
-                  "score": 237,
-                  "evalue": 6.52977e-30,
-                  "identity": 47,
-                  "positive": 64,
-                  "query_from": 3,
-                  "query_to": 81,
-                  "hit_from": 6,
-                  "hit_to": 86,
-                  "align_len": 81,
-                  "gaps": 2,
-                  "qseq": "LANGAKVFSGNCAACHMGGGNVVMANKTLKKEALEQF--GMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQA",
-                  "hseq": "LADGKKVFAGNCAACHLGGNNSVLADKTLKKDAIEKYLEGGLTLEAIKYQVNNGKGAMPAWADRLDEDDIEAVSNYVYDQA",
-                  "midline": "LA+G KVF+GNCAACH+GG N V+A+KTLKK+A+E++  G  + +AI YQV +GK AMPA+A RL ++ I+ V+ YV DQA"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P00101|CY551_STUST",
-                  "accession": "P00101",
-                  "title": "Cytochrome c-551 OS=Stutzerimonas stutzeri OX=316 GN=nirM PE=1 SV=2"
-                }
-              ],
-              "len": 104,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 26.1794,
-                  "score": 56,
-                  "evalue": 0.0113437,
-                  "identity": 21,
-                  "positive": 39,
-                  "query_from": 5,
-                  "query_to": 79,
-                  "hit_from": 24,
-                  "hit_to": 102,
-                  "align_len": 81,
-                  "gaps": 8,
-                  "qseq": "NGAKVF-SGNCAACHMGGGNVVMANKTLKKEALEQFGMY-SEDAIIYQVQHGKN----AMPAFAGRLTDEQIQDVAAYVLD",
-                  "hseq": "DGEALFKSKPCAACH--SVDTKMVGPALKEVAAKNAGVEGAADTLALHIKNGSQGVWGPIPMPPNPVTEEEAKILAEWVLS",
-                  "midline": "+G  +F S  CAACH    +  M    LK+ A +  G+  + D +   +++G       +P     +T+E+ + +A +VL "
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P82599|CY553_SPOPA",
-                  "accession": "P82599",
-                  "title": "Cytochrome c-553 OS=Sporosarcina pasteurii OX=1474 PE=1 SV=1"
-                }
-              ],
-              "len": 92,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.2534,
-                  "score": 51,
-                  "evalue": 0.0526257,
-                  "identity": 15,
-                  "positive": 27,
-                  "query_from": 14,
-                  "query_to": 59,
-                  "hit_from": 32,
-                  "hit_to": 72,
-                  "align_len": 47,
-                  "gaps": 7,
-                  "qseq": "CAACHMGGGNVVMANKTLKKEALEQFGM-YSEDAIIYQVQHGKNAMP",
-                  "hseq": "CISCH--GGDLTGASAP----AIDKAGANYSEEEILDIILNGQGGMP",
-                  "midline": "C +CH  GG++  A+      A+++ G  YSE+ I+  + +G+  MP"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P14774|CYCL_METEA",
-                  "accession": "P14774",
-                  "title": "Cytochrome c-L OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxG PE=1 SV=1"
-                }
-              ],
-              "len": 197,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 0.122208,
-                  "identity": 7,
-                  "positive": 11,
-                  "query_from": 3,
-                  "query_to": 18,
-                  "hit_from": 79,
-                  "hit_to": 94,
-                  "align_len": 16,
-                  "gaps": 0,
-                  "qseq": "LANGAKVFSGNCAACH",
-                  "hseq": "LRNGESLFATSCSGCH",
-                  "midline": "L NG  +F+ +C+ CH"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P0A6Z1|HSCA_ECOLI",
-                  "accession": "P0A6Z1",
-                  "title": "Chaperone protein HscA OS=Escherichia coli (strain K12) OX=83333 GN=hscA PE=1 SV=1"
-                }
-              ],
-              "len": 616,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 1.5504,
-                  "identity": 8,
-                  "positive": 12,
-                  "query_from": 67,
-                  "query_to": 83,
-                  "hit_from": 589,
-                  "hit_to": 605,
-                  "align_len": 17,
-                  "gaps": 0,
-                  "qseq": "DEQIQDVAAYVLDQAAK",
-                  "hseq": "DKQTQDFAARRMDQSVR",
-                  "midline": "D+Q QD AA  +DQ+ +"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q12888|TP53B_HUMAN",
-                  "accession": "Q12888",
-                  "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
-                }
-              ],
-              "len": 1972,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 1.8941,
-                  "identity": 7,
-                  "positive": 14,
-                  "query_from": 58,
-                  "query_to": 79,
-                  "hit_from": 1768,
-                  "hit_to": 1789,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "MPAFAGRLTDEQIQDVAAYVLD",
-                  "hseq": "IPPFNKQYTESQLRAGAGYILE",
-                  "midline": "+P F  + T+ Q++  A Y+L+"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P03706|ENLYS_LAMBD",
-                  "accession": "P03706",
-                  "title": "Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1"
-                }
-              ],
-              "len": 158,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 3.83021,
-                  "identity": 9,
-                  "positive": 15,
-                  "query_from": 32,
-                  "query_to": 59,
-                  "hit_from": 79,
-                  "hit_to": 106,
-                  "align_len": 28,
-                  "gaps": 0,
-                  "qseq": "KKEALEQFGMYSEDAIIYQVQHGKNAMP",
-                  "hseq": "KQLGLKDFSPKSQDAVALQQIKERGALP",
-                  "midline": "K+  L+ F   S+DA+  Q    + A+P"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|P00094|CYC2_RHOCB",
-                  "accession": "P00094",
-                  "title": "Cytochrome c2 OS=Rhodobacter capsulatus (strain ATCC BAA-309 / NBRC 16581 / SB1003) OX=272942 GN=cycA PE=1 SV=1"
-                }
-              ],
-              "len": 137,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 6.19292,
-                  "identity": 21,
-                  "positive": 30,
-                  "query_from": 5,
-                  "query_to": 82,
-                  "hit_from": 26,
-                  "hit_to": 102,
-                  "align_len": 82,
-                  "gaps": 9,
-                  "qseq": "NGAKVFSGNCAACHM----GGGNVVMANKTLKKEALEQFGMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAYVLDQAA",
-                  "hseq": "KGEKEFN-KCKTCHSIIAPDGTEIVKGAKT----GPNLYGVVGRTAGTYPEFKYKDSIVALGASGFAWTEEDIATYVKDPGA",
-                  "midline": " G K F+  C  CH      G  +V   KT        +G+    A  Y     K+++ A          +D+A YV D  A"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|O33840|PULA_THEMA",
-                  "accession": "O33840",
-                  "title": "Pullulanase OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=pulA PE=1 SV=2"
-                }
-              ],
-              "len": 843,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 6.94245,
-                  "identity": 6,
-                  "positive": 8,
-                  "query_from": 44,
-                  "query_to": 52,
-                  "hit_from": 339,
-                  "hit_to": 347,
-                  "align_len": 9,
-                  "gaps": 0,
-                  "qseq": "EDAIIYQVQ",
-                  "hseq": "EDAIIYEIH",
-                  "midline": "EDAIIY++ "
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|Q9ULZ3|ASC_HUMAN",
-                  "accession": "Q9ULZ3",
-                  "title": "Apoptosis-associated speck-like protein containing a CARD OS=Homo sapiens OX=9606 GN=PYCARD PE=1 SV=2"
-                }
-              ],
-              "len": 195,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 7.36061,
-                  "identity": 21,
-                  "positive": 32,
-                  "query_from": 15,
-                  "query_to": 75,
-                  "hit_from": 87,
-                  "hit_to": 151,
-                  "align_len": 66,
-                  "gaps": 6,
-                  "qseq": "AACHMGGGNVVMANKTLKKEALEQFGMYSED----AIIYQVQHGKNAMPAFAGR-LTDEQIQDVAA",
-                  "hseq": "AATHQGSGAAPAGIQAPPQSAAKP-GLHFIDQHRAALIARVTNVEWLLDALYGKVLTDEQYQAVRA",
-                  "midline": "AA H G G      +   + A +  G++  D    A+I +V + +  + A  G+ LTDEQ Q V A"
-                }
-              ]
-            },
-            {
-              "num": 12,
-              "description": [
-                {
-                  "id": "sp|P07174|TNR16_RAT",
-                  "accession": "P07174",
-                  "title": "Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1"
-                }
-              ],
-              "len": 425,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 8.19987,
-                  "identity": 15,
-                  "positive": 31,
-                  "query_from": 11,
-                  "query_to": 76,
-                  "hit_from": 120,
-                  "hit_to": 184,
-                  "align_len": 70,
-                  "gaps": 9,
-                  "qseq": "SGNCAACHMG--GGNVVMANKTLKKEALEQF--GMYSEDAIIYQVQHGKNAMPAFAGRLTDEQIQDVAAY",
-                  "hseq": "TGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEA-----NHVDPCLPCTVCEDTERQLRECTPW",
-                  "midline": "+G+C AC +   G  +V + +  +    E+   G YS++A      H    +P      T+ Q+++   +"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 52,
+                "eff_space": 2514890,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 52,
-            "eff_space": 2514890,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

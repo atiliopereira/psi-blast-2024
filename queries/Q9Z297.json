@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,159 +17,164 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q9Z297|PEA15_CRIGR Astrocytic phosphoprotein PEA-15 OS=Cricetulus griseus OX=10029 GN=PEA15 PE=1 SV=1",
-          "query_len": 130,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q9Z297|PEA15_CRIGR",
-                  "accession": "Q9Z297",
-                  "title": "Astrocytic phosphoprotein PEA-15 OS=Cricetulus griseus OX=10029 GN=PEA15 PE=1 SV=1"
-                }
-              ],
-              "len": 130,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q9Z297|PEA15_CRIGR Astrocytic phosphoprotein PEA-15 OS=Cricetulus griseus OX=10029 GN=PEA15 PE=1 SV=1",
+              "query_len": 130,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 262.692,
-                  "score": 670,
-                  "evalue": 1.29875e-94,
-                  "identity": 130,
-                  "positive": 130,
-                  "query_from": 1,
-                  "query_to": 130,
-                  "hit_from": 1,
-                  "hit_to": 130,
-                  "align_len": 130,
-                  "gaps": 0,
-                  "qseq": "MAEYGTLLQDLTNNITLEDLEQLKSACKEDIPSEKSEEITTGSAWFSFLESHNKLDKDNLSYIEHIFEISRRPDLLTMVVDYRTRVLKISEEDELDTKLTRIPSAKKYKDIIRQPSEEEIIKLAPPPKKA",
-                  "hseq": "MAEYGTLLQDLTNNITLEDLEQLKSACKEDIPSEKSEEITTGSAWFSFLESHNKLDKDNLSYIEHIFEISRRPDLLTMVVDYRTRVLKISEEDELDTKLTRIPSAKKYKDIIRQPSEEEIIKLAPPPKKA",
-                  "midline": "MAEYGTLLQDLTNNITLEDLEQLKSACKEDIPSEKSEEITTGSAWFSFLESHNKLDKDNLSYIEHIFEISRRPDLLTMVVDYRTRVLKISEEDELDTKLTRIPSAKKYKDIIRQPSEEEIIKLAPPPKKA"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P43593|UBP6_YEAST",
-                  "accession": "P43593",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
-                }
-              ],
-              "len": 499,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 1.19235,
-                  "identity": 11,
-                  "positive": 17,
-                  "query_from": 99,
-                  "query_to": 125,
-                  "hit_from": 37,
-                  "hit_to": 63,
-                  "align_len": 27,
-                  "gaps": 0,
-                  "qseq": "LTRIPSAKKYKDIIRQPSEEEIIKLAP",
-                  "hseq": "LTQVPSARQKYMVKGGLSGEESIKIYP",
-                  "midline": "LT++PSA++   +    S EE IK+ P"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P0C6U8|R1A_SARS",
-                  "accession": "P0C6U8",
-                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
-                }
-              ],
-              "len": 4382,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 3.67687,
-                  "identity": 10,
-                  "positive": 21,
-                  "query_from": 53,
-                  "query_to": 91,
-                  "hit_from": 4059,
-                  "hit_to": 4090,
-                  "align_len": 39,
-                  "gaps": 7,
-                  "qseq": "NKLDKDNLSYIEHIFEISRRPDLLTMVVDYRTRVLKISE",
-                  "hseq": "NTCDGNTFTYASALWEIQQ-------VVDADSKIVQLSE",
-                  "midline": "N  D +  +Y   ++EI +       VVD  ++++++SE"
+                  "description": [
+                    {
+                      "id": "sp|Q9Z297|PEA15_CRIGR",
+                      "accession": "Q9Z297",
+                      "title": "Astrocytic phosphoprotein PEA-15 OS=Cricetulus griseus OX=10029 GN=PEA15 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 130,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 262.692,
+                      "score": 670,
+                      "evalue": 1.29875e-94,
+                      "identity": 130,
+                      "positive": 130,
+                      "query_from": 1,
+                      "query_to": 130,
+                      "hit_from": 1,
+                      "hit_to": 130,
+                      "align_len": 130,
+                      "gaps": 0,
+                      "qseq": "MAEYGTLLQDLTNNITLEDLEQLKSACKEDIPSEKSEEITTGSAWFSFLESHNKLDKDNLSYIEHIFEISRRPDLLTMVVDYRTRVLKISEEDELDTKLTRIPSAKKYKDIIRQPSEEEIIKLAPPPKKA",
+                      "hseq": "MAEYGTLLQDLTNNITLEDLEQLKSACKEDIPSEKSEEITTGSAWFSFLESHNKLDKDNLSYIEHIFEISRRPDLLTMVVDYRTRVLKISEEDELDTKLTRIPSAKKYKDIIRQPSEEEIIKLAPPPKKA",
+                      "midline": "MAEYGTLLQDLTNNITLEDLEQLKSACKEDIPSEKSEEITTGSAWFSFLESHNKLDKDNLSYIEHIFEISRRPDLLTMVVDYRTRVLKISEEDELDTKLTRIPSAKKYKDIIRQPSEEEIIKLAPPPKKA"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 5.24408,
-                  "identity": 13,
-                  "positive": 18,
-                  "query_from": 73,
-                  "query_to": 110,
-                  "hit_from": 1456,
-                  "hit_to": 1489,
-                  "align_len": 38,
-                  "gaps": 4,
-                  "qseq": "PDLLTMVVDYRTRVLKISEEDELDTKLTRIPSAKKYKD",
-                  "hseq": "PDAVTTYNGYLTSSSKTSEEHFVET----VSLAGSYRD",
-                  "midline": "PD +T    Y T   K SEE  ++T    +  A  Y+D"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P43593|UBP6_YEAST",
+                      "accession": "P43593",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 499,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 1.19235,
+                      "identity": 11,
+                      "positive": 17,
+                      "query_from": 99,
+                      "query_to": 125,
+                      "hit_from": 37,
+                      "hit_to": 63,
+                      "align_len": 27,
+                      "gaps": 0,
+                      "qseq": "LTRIPSAKKYKDIIRQPSEEEIIKLAP",
+                      "hseq": "LTQVPSARQKYMVKGGLSGEESIKIYP",
+                      "midline": "LT++PSA++   +    S EE IK+ P"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q56185|HPPE_STRWE",
-                  "accession": "Q56185",
-                  "title": "(S)-2-hydroxypropylphosphonic acid epoxidase OS=Streptomyces wedmorensis OX=43759 GN=hppE PE=1 SV=1"
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P0C6U8|R1A_SARS",
+                      "accession": "P0C6U8",
+                      "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                    }
+                  ],
+                  "len": 4382,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 3.67687,
+                      "identity": 10,
+                      "positive": 21,
+                      "query_from": 53,
+                      "query_to": 91,
+                      "hit_from": 4059,
+                      "hit_to": 4090,
+                      "align_len": 39,
+                      "gaps": 7,
+                      "qseq": "NKLDKDNLSYIEHIFEISRRPDLLTMVVDYRTRVLKISE",
+                      "hseq": "NTCDGNTFTYASALWEIQQ-------VVDADSKIVQLSE",
+                      "midline": "N  D +  +Y   ++EI +       VVD  ++++++SE"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 5.24408,
+                      "identity": 13,
+                      "positive": 18,
+                      "query_from": 73,
+                      "query_to": 110,
+                      "hit_from": 1456,
+                      "hit_to": 1489,
+                      "align_len": 38,
+                      "gaps": 4,
+                      "qseq": "PDLLTMVVDYRTRVLKISEEDELDTKLTRIPSAKKYKD",
+                      "hseq": "PDAVTTYNGYLTSSSKTSEEHFVET----VSLAGSYRD",
+                      "midline": "PD +T    Y T   K SEE  ++T    +  A  Y+D"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q56185|HPPE_STRWE",
+                      "accession": "Q56185",
+                      "title": "(S)-2-hydroxypropylphosphonic acid epoxidase OS=Streptomyces wedmorensis OX=43759 GN=hppE PE=1 SV=1"
+                    }
+                  ],
+                  "len": 198,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 4.03243,
+                      "identity": 10,
+                      "positive": 16,
+                      "query_from": 57,
+                      "query_to": 84,
+                      "hit_from": 97,
+                      "hit_to": 126,
+                      "align_len": 30,
+                      "gaps": 2,
+                      "qseq": "KDNLSYIEH--IFEISRRPDLLTMVVDYRT",
+                      "hseq": "RDNVDYYVYNCLVRTKRAPSLVPLVVDVLT",
+                      "midline": "+DN+ Y  +  +    R P L+ +VVD  T"
+                    }
+                  ]
                 }
               ],
-              "len": 198,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 4.03243,
-                  "identity": 10,
-                  "positive": 16,
-                  "query_from": 57,
-                  "query_to": 84,
-                  "hit_from": 97,
-                  "hit_to": 126,
-                  "align_len": 30,
-                  "gaps": 2,
-                  "qseq": "KDNLSYIEH--IFEISRRPDLLTMVVDYRT",
-                  "hseq": "RDNVDYYVYNCLVRTKRAPSLVPLVVDVLT",
-                  "midline": "+DN+ Y  +  +    R P L+ +VVD  T"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 57,
+                "eff_space": 5169057,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 57,
-            "eff_space": 5169057,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

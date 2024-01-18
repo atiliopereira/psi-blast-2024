@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,343 +17,348 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P43593|UBP6_YEAST Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1",
-          "query_len": 499,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P43593|UBP6_YEAST",
-                  "accession": "P43593",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
-                }
-              ],
-              "len": 499,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P43593|UBP6_YEAST Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1",
+              "query_len": 499,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 1034.63,
-                  "score": 2674,
-                  "evalue": 0,
-                  "identity": 499,
-                  "positive": 499,
-                  "query_from": 1,
-                  "query_to": 499,
-                  "hit_from": 1,
-                  "hit_to": 499,
-                  "align_len": 499,
-                  "gaps": 0,
-                  "qseq": "MSGETFEFNIRHSGKVYPITLSTDATSADLKSKAEELTQVPSARQKYMVKGGLSGEESIKIYPLIKPGSTVMLLGTPDANLISKPAKKNNFIEDLAPEQQVQQFAQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVLPIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLFHSMSIVFGDKFSEDFRIQFKTTIKDTANDNDITVKENESDSKLQCHISGTTNFMRNGLLEGLNEKIEKRSDLTGANSIYSVEKKISRLPKFLTVQYVRFFWKRSTNKKSKILRKVVFPFQLDVADMLTPEYAAEKVKVRDELRKVEKEKNEKEREIKRRKFDPSSSENVMTPREQYETQVALNESEKDQWLEEYKKHFPPNLEKGENPSCVYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIESLAGGGESDSALILMYKGFGL",
-                  "hseq": "MSGETFEFNIRHSGKVYPITLSTDATSADLKSKAEELTQVPSARQKYMVKGGLSGEESIKIYPLIKPGSTVMLLGTPDANLISKPAKKNNFIEDLAPEQQVQQFAQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVLPIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLFHSMSIVFGDKFSEDFRIQFKTTIKDTANDNDITVKENESDSKLQCHISGTTNFMRNGLLEGLNEKIEKRSDLTGANSIYSVEKKISRLPKFLTVQYVRFFWKRSTNKKSKILRKVVFPFQLDVADMLTPEYAAEKVKVRDELRKVEKEKNEKEREIKRRKFDPSSSENVMTPREQYETQVALNESEKDQWLEEYKKHFPPNLEKGENPSCVYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIESLAGGGESDSALILMYKGFGL",
-                  "midline": "MSGETFEFNIRHSGKVYPITLSTDATSADLKSKAEELTQVPSARQKYMVKGGLSGEESIKIYPLIKPGSTVMLLGTPDANLISKPAKKNNFIEDLAPEQQVQQFAQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVLPIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLFHSMSIVFGDKFSEDFRIQFKTTIKDTANDNDITVKENESDSKLQCHISGTTNFMRNGLLEGLNEKIEKRSDLTGANSIYSVEKKISRLPKFLTVQYVRFFWKRSTNKKSKILRKVVFPFQLDVADMLTPEYAAEKVKVRDELRKVEKEKNEKEREIKRRKFDPSSSENVMTPREQYETQVALNESEKDQWLEEYKKHFPPNLEKGENPSCVYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIESLAGGGESDSALILMYKGFGL"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P54578|UBP14_HUMAN",
-                  "accession": "P54578",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 14 OS=Homo sapiens OX=9606 GN=USP14 PE=1 SV=3"
-                }
-              ],
-              "len": 494,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 243.047,
-                  "score": 619,
-                  "evalue": 1.56203e-76,
-                  "identity": 163,
-                  "positive": 263,
-                  "query_from": 19,
-                  "query_to": 494,
-                  "hit_from": 18,
-                  "hit_to": 480,
-                  "align_len": 503,
-                  "gaps": 67,
-                  "qseq": "ITLSTDATSADLKSKAEELTQVPSARQKYMVKGGLSGEE---SIKIYPLIKPGSTVMLLGTPDANLISKPAKKNNFIEDLAPEQQVQQFAQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVLPIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLF----HSMSIVFGDKFSED--------------------FRIQFKTTIKDTANDNDITVKENESDSKLQCHISGTTNFMRNGLLEGLNEKIEKRSDLTGANSIYSVEKKISRLPKFLTVQYVRFFWKRSTNKKSKILRKVVFPFQLDVADMLTPEYAAEKVKVRDELRKVEKEKNEKEREIKRRKFDPSSSENVMTPREQYETQVALNESEKDQWLEEYKKHFPPNLEKGENPSCVYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIESLAGGGESDSALILMY",
-                  "hseq": "VELNTDEPPMVFKAQLFALTGVQPARQKVMVKGGTLKDDDWGNIKI----KNGMTLLMMGSADA-LPEEPSAKTVFVEDMT-EEQLASAMELPCGLTNLGNTCYMNATVQCIRSVPELKDALKRYAGALRASGEMAS----AQYITAALRDLFDSM-DKTSSSIPPIILLQFLHMAFPQFAEKGEQGQ-YLQQDANECWIQMMRVLQQKLEAIEDDSVKETDSSSASAATPSKKKSLIDQFFGVEFETTMKCTESEEEEVTKGKENQLQLSCFINQEVKYLFTGLKLRLQEEITKQSPTLQRNALYIKSSKISRLPAYLTIQMVRFFYKEKESVNAKVLKDVKFPLMLDMYELCTPELQEKMVSFRSKFKDLEDKKVNQQ---------PNTSDKKSSPQKEVKYE-----------------PFSFADDIGSNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRKQDE--WIKFDDDKVSIVTPEDILRLSGGGDWHIAYVLLY",
-                  "midline": "+ L+TD      K++   LT V  ARQK MVKGG   ++   +IKI    K G T++++G+ DA L  +P+ K  F+ED+  E+Q+    +LP G  N+GNTCY+NAT+Q +  V +L+D +  Y  +   S   A      + I   ++  F+++ +K+  S+ PI+LL  L   +PQFAE+  QG  Y QQDA E + Q+       +  +  D   E                     F ++F+TT+K T ++ +   K  E+  +L C I+    ++  GL   L E+I K+S     N++Y    KISRLP +LT+Q VRFF+K   +  +K+L+ V FP  LD+ ++ TPE   + V  R + + +E +K  ++         P++S+   +P+++ + +                  F    + G N    Y+L  V+THQG +S SGHY ++++ + DE  W KF+DDKVS+V  E I  L+GGG+   A +L+Y"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|O75604|UBP2_HUMAN",
-                  "accession": "O75604",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
-                }
-              ],
-              "len": 605,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 43.8986,
-                  "score": 102,
-                  "evalue": 1.25138e-06,
-                  "identity": 31,
-                  "positive": 51,
-                  "query_from": 105,
-                  "query_to": 221,
-                  "hit_from": 263,
-                  "hit_to": 369,
-                  "align_len": 118,
-                  "gaps": 12,
-                  "qseq": "AQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVL-PIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLFHSM",
-                  "hseq": "AQGLAGLRNLGNTCFMNSILQCLSNTRELRDYCLQRLYMRDLHHG----SNAHTALVEEFAKLIQTIWTSSPNDVVSPSEFKTQIQRYAPRFVG-------YNQQDAQEFLRFLLDGL",
-                  "midline": "AQ   G +N+GNTC++N+ LQ L    +LRD  L     + + +        H  +V E  +  + +   S   V+ P      +++  P+F         Y QQDA+E    L   +"
+                  "description": [
+                    {
+                      "id": "sp|P43593|UBP6_YEAST",
+                      "accession": "P43593",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 499,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 1034.63,
+                      "score": 2674,
+                      "evalue": 0,
+                      "identity": 499,
+                      "positive": 499,
+                      "query_from": 1,
+                      "query_to": 499,
+                      "hit_from": 1,
+                      "hit_to": 499,
+                      "align_len": 499,
+                      "gaps": 0,
+                      "qseq": "MSGETFEFNIRHSGKVYPITLSTDATSADLKSKAEELTQVPSARQKYMVKGGLSGEESIKIYPLIKPGSTVMLLGTPDANLISKPAKKNNFIEDLAPEQQVQQFAQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVLPIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLFHSMSIVFGDKFSEDFRIQFKTTIKDTANDNDITVKENESDSKLQCHISGTTNFMRNGLLEGLNEKIEKRSDLTGANSIYSVEKKISRLPKFLTVQYVRFFWKRSTNKKSKILRKVVFPFQLDVADMLTPEYAAEKVKVRDELRKVEKEKNEKEREIKRRKFDPSSSENVMTPREQYETQVALNESEKDQWLEEYKKHFPPNLEKGENPSCVYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIESLAGGGESDSALILMYKGFGL",
+                      "hseq": "MSGETFEFNIRHSGKVYPITLSTDATSADLKSKAEELTQVPSARQKYMVKGGLSGEESIKIYPLIKPGSTVMLLGTPDANLISKPAKKNNFIEDLAPEQQVQQFAQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVLPIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLFHSMSIVFGDKFSEDFRIQFKTTIKDTANDNDITVKENESDSKLQCHISGTTNFMRNGLLEGLNEKIEKRSDLTGANSIYSVEKKISRLPKFLTVQYVRFFWKRSTNKKSKILRKVVFPFQLDVADMLTPEYAAEKVKVRDELRKVEKEKNEKEREIKRRKFDPSSSENVMTPREQYETQVALNESEKDQWLEEYKKHFPPNLEKGENPSCVYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIESLAGGGESDSALILMYKGFGL",
+                      "midline": "MSGETFEFNIRHSGKVYPITLSTDATSADLKSKAEELTQVPSARQKYMVKGGLSGEESIKIYPLIKPGSTVMLLGTPDANLISKPAKKNNFIEDLAPEQQVQQFAQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVLPIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLFHSMSIVFGDKFSEDFRIQFKTTIKDTANDNDITVKENESDSKLQCHISGTTNFMRNGLLEGLNEKIEKRSDLTGANSIYSVEKKISRLPKFLTVQYVRFFWKRSTNKKSKILRKVVFPFQLDVADMLTPEYAAEKVKVRDELRKVEKEKNEKEREIKRRKFDPSSSENVMTPREQYETQVALNESEKDQWLEEYKKHFPPNLEKGENPSCVYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIESLAGGGESDSALILMYKGFGL"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 38.5058,
-                  "score": 88,
-                  "evalue": 5.88189e-05,
-                  "identity": 17,
-                  "positive": 26,
-                  "query_from": 429,
-                  "query_to": 479,
-                  "hit_from": 540,
-                  "hit_to": 588,
-                  "align_len": 51,
-                  "gaps": 2,
-                  "qseq": "VYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIES",
-                  "hseq": "VYNLYAVSNHSGT-TMGGHYTAYCRSP-GTGEWHTFNDSSVTPMSSSQVRT",
-                  "midline": "VYNL  V  H G  +  GHY A+ R      +W+ FND  V+ +   ++ +"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P40818|UBP8_HUMAN",
-                  "accession": "P40818",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
-                }
-              ],
-              "len": 1118,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 43.1282,
-                  "score": 100,
-                  "evalue": 2.57915e-06,
-                  "identity": 43,
-                  "positive": 60,
-                  "query_from": 109,
-                  "query_to": 247,
-                  "hit_from": 777,
-                  "hit_to": 903,
-                  "align_len": 142,
-                  "gaps": 18,
-                  "qseq": "VGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQ---GVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVLPIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLFHSMSIVFGDKFSEDFRIQFKTTIKDTAND",
-                  "hseq": "TGLRNLGNTCYMNSILQCLCNAPHLADY-FNRNCYQDDINRSNLLGHKGEVAEEFGIIMK----ALWTGQYRYISPKDFKITIGKINDQFA-------GYSQQDSQEL---LLFLMDGLHEDLNKADNRKRYKEENNDHLDD",
-                  "midline": " G +N+GNTCY+N+ LQ L     L D   N N  Q     SN      E+ ++  I MK     L    ++ + P     T+ K   QFA        Y QQD++EL   L   M  +  D    D R ++K    D  +D"
+                  "description": [
+                    {
+                      "id": "sp|P54578|UBP14_HUMAN",
+                      "accession": "P54578",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 14 OS=Homo sapiens OX=9606 GN=USP14 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 494,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 243.047,
+                      "score": 619,
+                      "evalue": 1.56203e-76,
+                      "identity": 163,
+                      "positive": 263,
+                      "query_from": 19,
+                      "query_to": 494,
+                      "hit_from": 18,
+                      "hit_to": 480,
+                      "align_len": 503,
+                      "gaps": 67,
+                      "qseq": "ITLSTDATSADLKSKAEELTQVPSARQKYMVKGGLSGEE---SIKIYPLIKPGSTVMLLGTPDANLISKPAKKNNFIEDLAPEQQVQQFAQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVLPIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLF----HSMSIVFGDKFSED--------------------FRIQFKTTIKDTANDNDITVKENESDSKLQCHISGTTNFMRNGLLEGLNEKIEKRSDLTGANSIYSVEKKISRLPKFLTVQYVRFFWKRSTNKKSKILRKVVFPFQLDVADMLTPEYAAEKVKVRDELRKVEKEKNEKEREIKRRKFDPSSSENVMTPREQYETQVALNESEKDQWLEEYKKHFPPNLEKGENPSCVYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIESLAGGGESDSALILMY",
+                      "hseq": "VELNTDEPPMVFKAQLFALTGVQPARQKVMVKGGTLKDDDWGNIKI----KNGMTLLMMGSADA-LPEEPSAKTVFVEDMT-EEQLASAMELPCGLTNLGNTCYMNATVQCIRSVPELKDALKRYAGALRASGEMAS----AQYITAALRDLFDSM-DKTSSSIPPIILLQFLHMAFPQFAEKGEQGQ-YLQQDANECWIQMMRVLQQKLEAIEDDSVKETDSSSASAATPSKKKSLIDQFFGVEFETTMKCTESEEEEVTKGKENQLQLSCFINQEVKYLFTGLKLRLQEEITKQSPTLQRNALYIKSSKISRLPAYLTIQMVRFFYKEKESVNAKVLKDVKFPLMLDMYELCTPELQEKMVSFRSKFKDLEDKKVNQQ---------PNTSDKKSSPQKEVKYE-----------------PFSFADDIGSNNCGYYDLQAVLTHQGRSSSSGHYVSWVKRKQDE--WIKFDDDKVSIVTPEDILRLSGGGDWHIAYVLLY",
+                      "midline": "+ L+TD      K++   LT V  ARQK MVKGG   ++   +IKI    K G T++++G+ DA L  +P+ K  F+ED+  E+Q+    +LP G  N+GNTCY+NAT+Q +  V +L+D +  Y  +   S   A      + I   ++  F+++ +K+  S+ PI+LL  L   +PQFAE+  QG  Y QQDA E + Q+       +  +  D   E                     F ++F+TT+K T ++ +   K  E+  +L C I+    ++  GL   L E+I K+S     N++Y    KISRLP +LT+Q VRFF+K   +  +K+L+ V FP  LD+ ++ TPE   + V  R + + +E +K  ++         P++S+   +P+++ + +                  F    + G N    Y+L  V+THQG +S SGHY ++++ + DE  W KF+DDKVS+V  E I  L+GGG+   A +L+Y"
+                    }
+                  ]
                 },
                 {
-                  "num": 2,
-                  "bit_score": 33.113,
-                  "score": 74,
-                  "evalue": 0.00294213,
-                  "identity": 23,
-                  "positive": 35,
-                  "query_from": 430,
-                  "query_to": 498,
-                  "hit_from": 1051,
-                  "hit_to": 1110,
-                  "align_len": 69,
-                  "gaps": 9,
-                  "qseq": "YNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIESLAGGGESDSALILMYKGFG",
-                  "hseq": "YNLFSVSNHYGG-LDGGHYTAYCKNAARQ-RWFKFDDHEVSDISVSSVKSSA-------AYILFYTSLG",
-                  "midline": "YNL  V  H G   + GHY A+ ++   + +W+KF+D +VS +    ++S A       A IL Y   G"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q9UWN7|TBP_SULAC",
-                  "accession": "Q9UWN7",
-                  "title": "TATA-box-binding protein OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=tbp PE=1 SV=1"
-                }
-              ],
-              "len": 197,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 25.7942,
-                  "score": 55,
-                  "evalue": 0.337681,
-                  "identity": 11,
-                  "positive": 27,
-                  "query_from": 127,
-                  "query_to": 171,
-                  "hit_from": 141,
-                  "hit_to": 181,
-                  "align_len": 45,
-                  "gaps": 4,
-                  "qseq": "LYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENL",
-                  "hseq": "IYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAV----KKIFDKL",
-                  "midline": "+YR+++ R ++L ++  + V     +++E+HK +    K+ F+ L"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "tr|A9CKI6|A9CKI6_AGRFC",
-                  "accession": "A9CKI6",
-                  "title": "DUF2000 family protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0240 PE=1 SV=1"
-                }
-              ],
-              "len": 135,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 4.2542,
-                  "identity": 15,
-                  "positive": 21,
-                  "query_from": 178,
-                  "query_to": 214,
-                  "hit_from": 54,
-                  "hit_to": 90,
-                  "align_len": 41,
-                  "gaps": 8,
-                  "qseq": "SVLPIVLLNT----LRKCYPQFAERDSQGGFYKQQDAEELF",
-                  "hseq": "SIQPIVVMATDQEALRKIHQRSLERDITTSLY----IEEMF",
-                  "midline": "S+ PIV++ T    LRK + +  ERD     Y     EE+F"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 4.25734,
-                  "identity": 17,
-                  "positive": 33,
-                  "query_from": 255,
-                  "query_to": 313,
-                  "hit_from": 6701,
-                  "hit_to": 6765,
-                  "align_len": 65,
-                  "gaps": 6,
-                  "qseq": "NESDSKLQCHISGTTNFMR--NGLLEGLNEKIEKRSDLTG----ANSIYSVEKKISRLPKFLTVQ",
-                  "hseq": "NQAVAKAEALISGTPDVVVTPSEITAALNKVTQAKNDLNGNTNLATAKQNVQHAIDQLPNLNQAQ",
-                  "midline": "N++ +K +  ISGT + +   + +   LN+  + ++DL G    A +  +V+  I +LP     Q"
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|O75604|UBP2_HUMAN",
+                      "accession": "O75604",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 605,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 43.8986,
+                      "score": 102,
+                      "evalue": 1.25138e-06,
+                      "identity": 31,
+                      "positive": 51,
+                      "query_from": 105,
+                      "query_to": 221,
+                      "hit_from": 263,
+                      "hit_to": 369,
+                      "align_len": 118,
+                      "gaps": 12,
+                      "qseq": "AQLPVGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVL-PIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLFHSM",
+                      "hseq": "AQGLAGLRNLGNTCFMNSILQCLSNTRELRDYCLQRLYMRDLHHG----SNAHTALVEEFAKLIQTIWTSSPNDVVSPSEFKTQIQRYAPRFVG-------YNQQDAQEFLRFLLDGL",
+                      "midline": "AQ   G +N+GNTC++N+ LQ L    +LRD  L     + + +        H  +V E  +  + +   S   V+ P      +++  P+F         Y QQDA+E    L   +"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 38.5058,
+                      "score": 88,
+                      "evalue": 5.88189e-05,
+                      "identity": 17,
+                      "positive": 26,
+                      "query_from": 429,
+                      "query_to": 479,
+                      "hit_from": 540,
+                      "hit_to": 588,
+                      "align_len": 51,
+                      "gaps": 2,
+                      "qseq": "VYNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIES",
+                      "hseq": "VYNLYAVSNHSGT-TMGGHYTAYCRSP-GTGEWHTFNDSSVTPMSSSQVRT",
+                      "midline": "VYNL  V  H G  +  GHY A+ R      +W+ FND  V+ +   ++ +"
+                    }
+                  ]
                 },
                 {
-                  "num": 2,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 8.90714,
-                  "identity": 10,
-                  "positive": 14,
-                  "query_from": 215,
-                  "query_to": 238,
-                  "hit_from": 1166,
-                  "hit_to": 1189,
-                  "align_len": 24,
-                  "gaps": 0,
-                  "qseq": "TQLFHSMSIVFGDKFSEDFRIQFK",
-                  "hseq": "TQLYHIVASNAYHKDTEDFYISLK",
-                  "midline": "TQL+H ++     K +EDF I  K"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P40818|UBP8_HUMAN",
+                      "accession": "P40818",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 1118,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 43.1282,
+                      "score": 100,
+                      "evalue": 2.57915e-06,
+                      "identity": 43,
+                      "positive": 60,
+                      "query_from": 109,
+                      "query_to": 247,
+                      "hit_from": 777,
+                      "hit_to": 903,
+                      "align_len": 142,
+                      "gaps": 18,
+                      "qseq": "VGFKNMGNTCYLNATLQALYRVNDLRDMILNYNPSQ---GVSNSGAQDEEIHKQIVIEMKRCFENLQNKSFKSVLPIVLLNTLRKCYPQFAERDSQGGFYKQQDAEELFTQLFHSMSIVFGDKFSEDFRIQFKTTIKDTAND",
+                      "hseq": "TGLRNLGNTCYMNSILQCLCNAPHLADY-FNRNCYQDDINRSNLLGHKGEVAEEFGIIMK----ALWTGQYRYISPKDFKITIGKINDQFA-------GYSQQDSQEL---LLFLMDGLHEDLNKADNRKRYKEENNDHLDD",
+                      "midline": " G +N+GNTCY+N+ LQ L     L D   N N  Q     SN      E+ ++  I MK     L    ++ + P     T+ K   QFA        Y QQD++EL   L   M  +  D    D R ++K    D  +D"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 33.113,
+                      "score": 74,
+                      "evalue": 0.00294213,
+                      "identity": 23,
+                      "positive": 35,
+                      "query_from": 430,
+                      "query_to": 498,
+                      "hit_from": 1051,
+                      "hit_to": 1110,
+                      "align_len": 69,
+                      "gaps": 9,
+                      "qseq": "YNLIGVITHQGANSESGHYQAFIRDELDENKWYKFNDDKVSVVEKEKIESLAGGGESDSALILMYKGFG",
+                      "hseq": "YNLFSVSNHYGG-LDGGHYTAYCKNAARQ-RWFKFDDHEVSDISVSSVKSSA-------AYILFYTSLG",
+                      "midline": "YNL  V  H G   + GHY A+ ++   + +W+KF+D +VS +    ++S A       A IL Y   G"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q9Z297|PEA15_CRIGR",
-                  "accession": "Q9Z297",
-                  "title": "Astrocytic phosphoprotein PEA-15 OS=Cricetulus griseus OX=10029 GN=PEA15 PE=1 SV=1"
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q9UWN7|TBP_SULAC",
+                      "accession": "Q9UWN7",
+                      "title": "TATA-box-binding protein OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=tbp PE=1 SV=1"
+                    }
+                  ],
+                  "len": 197,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 25.7942,
+                      "score": 55,
+                      "evalue": 0.337681,
+                      "identity": 11,
+                      "positive": 27,
+                      "query_from": 127,
+                      "query_to": 171,
+                      "hit_from": 141,
+                      "hit_to": 181,
+                      "align_len": 45,
+                      "gaps": 4,
+                      "qseq": "LYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENL",
+                      "hseq": "IYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAV----KKIFDKL",
+                      "midline": "+YR+++ R ++L ++  + V     +++E+HK +    K+ F+ L"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "tr|A9CKI6|A9CKI6_AGRFC",
+                      "accession": "A9CKI6",
+                      "title": "DUF2000 family protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0240 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 135,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 4.2542,
+                      "identity": 15,
+                      "positive": 21,
+                      "query_from": 178,
+                      "query_to": 214,
+                      "hit_from": 54,
+                      "hit_to": 90,
+                      "align_len": 41,
+                      "gaps": 8,
+                      "qseq": "SVLPIVLLNT----LRKCYPQFAERDSQGGFYKQQDAEELF",
+                      "hseq": "SIQPIVVMATDQEALRKIHQRSLERDITTSLY----IEEMF",
+                      "midline": "S+ PIV++ T    LRK + +  ERD     Y     EE+F"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 4.25734,
+                      "identity": 17,
+                      "positive": 33,
+                      "query_from": 255,
+                      "query_to": 313,
+                      "hit_from": 6701,
+                      "hit_to": 6765,
+                      "align_len": 65,
+                      "gaps": 6,
+                      "qseq": "NESDSKLQCHISGTTNFMR--NGLLEGLNEKIEKRSDLTG----ANSIYSVEKKISRLPKFLTVQ",
+                      "hseq": "NQAVAKAEALISGTPDVVVTPSEITAALNKVTQAKNDLNGNTNLATAKQNVQHAIDQLPNLNQAQ",
+                      "midline": "N++ +K +  ISGT + +   + +   LN+  + ++DL G    A +  +V+  I +LP     Q"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 8.90714,
+                      "identity": 10,
+                      "positive": 14,
+                      "query_from": 215,
+                      "query_to": 238,
+                      "hit_from": 1166,
+                      "hit_to": 1189,
+                      "align_len": 24,
+                      "gaps": 0,
+                      "qseq": "TQLFHSMSIVFGDKFSEDFRIQFK",
+                      "hseq": "TQLYHIVASNAYHKDTEDFYISLK",
+                      "midline": "TQL+H ++     K +EDF I  K"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|Q9Z297|PEA15_CRIGR",
+                      "accession": "Q9Z297",
+                      "title": "Astrocytic phosphoprotein PEA-15 OS=Cricetulus griseus OX=10029 GN=PEA15 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 130,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 5.11262,
+                      "identity": 11,
+                      "positive": 17,
+                      "query_from": 37,
+                      "query_to": 63,
+                      "hit_from": 99,
+                      "hit_to": 125,
+                      "align_len": 27,
+                      "gaps": 0,
+                      "qseq": "LTQVPSARQKYMVKGGLSGEESIKIYP",
+                      "hseq": "LTRIPSAKKYKDIIRQPSEEEIIKLAP",
+                      "midline": "LT++PSA++   +    S EE IK+ P"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|Q9HIW7|OTSBH_THEAC",
+                      "accession": "Q9HIW7",
+                      "title": "Trehalose-6-phosphate phosphatase-related protein OS=Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=Ta1209 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 229,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 5.31716,
+                      "identity": 7,
+                      "positive": 15,
+                      "query_from": 245,
+                      "query_to": 266,
+                      "hit_from": 187,
+                      "hit_to": 208,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "ANDNDITVKENESDSKLQCHIS",
+                      "hseq": "ANDDALTIKVGEGETHAKFHVA",
+                      "midline": "AND+ +T+K  E ++  + H++"
+                    }
+                  ]
                 }
               ],
-              "len": 130,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 5.11262,
-                  "identity": 11,
-                  "positive": 17,
-                  "query_from": 37,
-                  "query_to": 63,
-                  "hit_from": 99,
-                  "hit_to": 125,
-                  "align_len": 27,
-                  "gaps": 0,
-                  "qseq": "LTQVPSARQKYMVKGGLSGEESIKIYP",
-                  "hseq": "LTRIPSAKKYKDIIRQPSEEEIIKLAP",
-                  "midline": "LT++PSA++   +    S EE IK+ P"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|Q9HIW7|OTSBH_THEAC",
-                  "accession": "Q9HIW7",
-                  "title": "Trehalose-6-phosphate phosphatase-related protein OS=Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=Ta1209 PE=1 SV=1"
-                }
-              ],
-              "len": 229,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 5.31716,
-                  "identity": 7,
-                  "positive": 15,
-                  "query_from": 245,
-                  "query_to": 266,
-                  "hit_from": 187,
-                  "hit_to": 208,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "ANDNDITVKENESDSKLQCHIS",
-                  "hseq": "ANDDALTIKVGEGETHAKFHVA",
-                  "midline": "AND+ +T+K  E ++  + H++"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 69,
+                "eff_space": 29369430,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 69,
-            "eff_space": 29369430,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

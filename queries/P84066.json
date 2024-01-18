@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,206 +17,211 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P84066|DTD2_LEIMA Putative D-tyrosyl-tRNA(Tyr) deacylase 2 OS=Leishmania major OX=5664 PE=1 SV=2",
-          "query_len": 181,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P84066|DTD2_LEIMA",
-                  "accession": "P84066",
-                  "title": "Putative D-tyrosyl-tRNA(Tyr) deacylase 2 OS=Leishmania major OX=5664 PE=1 SV=2"
-                }
-              ],
-              "len": 181,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P84066|DTD2_LEIMA Putative D-tyrosyl-tRNA(Tyr) deacylase 2 OS=Leishmania major OX=5664 PE=1 SV=2",
+              "query_len": 181,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 377.481,
-                  "score": 968,
-                  "evalue": 2.70422e-138,
-                  "identity": 181,
-                  "positive": 181,
-                  "query_from": 1,
-                  "query_to": 181,
-                  "hit_from": 1,
-                  "hit_to": 181,
-                  "align_len": 181,
-                  "gaps": 0,
-                  "qseq": "MLQAMDQGHLLVNNVDKYVRAGRGVMVYIAFLSDRDSAPITDEALRHAVGVLLHTKIFTHFSPEKMINQPQSLEECPEMDILIVPQASLGGKVKGRSVQFHQLVAKDVGAALYDRFCHFVRVARGVDESRVDANGAPRSEGDAPKAEGWIKYNSRVISGTFGNRQGLRFESEGPFTHMFDI",
-                  "hseq": "MLQAMDQGHLLVNNVDKYVRAGRGVMVYIAFLSDRDSAPITDEALRHAVGVLLHTKIFTHFSPEKMINQPQSLEECPEMDILIVPQASLGGKVKGRSVQFHQLVAKDVGAALYDRFCHFVRVARGVDESRVDANGAPRSEGDAPKAEGWIKYNSRVISGTFGNRQGLRFESEGPFTHMFDI",
-                  "midline": "MLQAMDQGHLLVNNVDKYVRAGRGVMVYIAFLSDRDSAPITDEALRHAVGVLLHTKIFTHFSPEKMINQPQSLEECPEMDILIVPQASLGGKVKGRSVQFHQLVAKDVGAALYDRFCHFVRVARGVDESRVDANGAPRSEGDAPKAEGWIKYNSRVISGTFGNRQGLRFESEGPFTHMFDI"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P38398|BRCA1_HUMAN",
-                  "accession": "P38398",
-                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
-                }
-              ],
-              "len": 1863,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 1.13786,
-                  "identity": 10,
-                  "positive": 20,
-                  "query_from": 47,
-                  "query_to": 86,
-                  "hit_from": 1822,
-                  "hit_to": 1857,
-                  "align_len": 40,
-                  "gaps": 4,
-                  "qseq": "HAVGVLLHTKIFTHFSPEKMINQPQSLEECPEMDILIVPQ",
-                  "hseq": "HAIGQMCEAPVVT----REWVLDSVALYQCQELDTYLIPQ",
-                  "midline": "HA+G +    + T     + +    +L +C E+D  ++PQ"
+                  "description": [
+                    {
+                      "id": "sp|P84066|DTD2_LEIMA",
+                      "accession": "P84066",
+                      "title": "Putative D-tyrosyl-tRNA(Tyr) deacylase 2 OS=Leishmania major OX=5664 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 181,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 377.481,
+                      "score": 968,
+                      "evalue": 2.70422e-138,
+                      "identity": 181,
+                      "positive": 181,
+                      "query_from": 1,
+                      "query_to": 181,
+                      "hit_from": 1,
+                      "hit_to": 181,
+                      "align_len": 181,
+                      "gaps": 0,
+                      "qseq": "MLQAMDQGHLLVNNVDKYVRAGRGVMVYIAFLSDRDSAPITDEALRHAVGVLLHTKIFTHFSPEKMINQPQSLEECPEMDILIVPQASLGGKVKGRSVQFHQLVAKDVGAALYDRFCHFVRVARGVDESRVDANGAPRSEGDAPKAEGWIKYNSRVISGTFGNRQGLRFESEGPFTHMFDI",
+                      "hseq": "MLQAMDQGHLLVNNVDKYVRAGRGVMVYIAFLSDRDSAPITDEALRHAVGVLLHTKIFTHFSPEKMINQPQSLEECPEMDILIVPQASLGGKVKGRSVQFHQLVAKDVGAALYDRFCHFVRVARGVDESRVDANGAPRSEGDAPKAEGWIKYNSRVISGTFGNRQGLRFESEGPFTHMFDI",
+                      "midline": "MLQAMDQGHLLVNNVDKYVRAGRGVMVYIAFLSDRDSAPITDEALRHAVGVLLHTKIFTHFSPEKMINQPQSLEECPEMDILIVPQASLGGKVKGRSVQFHQLVAKDVGAALYDRFCHFVRVARGVDESRVDANGAPRSEGDAPKAEGWIKYNSRVISGTFGNRQGLRFESEGPFTHMFDI"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 1.43305,
-                  "identity": 18,
-                  "positive": 28,
-                  "query_from": 5,
-                  "query_to": 77,
-                  "hit_from": 1,
-                  "hit_to": 62,
-                  "align_len": 73,
-                  "gaps": 11,
-                  "qseq": "MDQGHLLVNNVDKYVRAGRGVMVYIAFLSDRDSAPITDEALRHAVGVLLHTKIFTHFSPEKMINQPQSLEECP",
-                  "hseq": "MDLSALRVEEVQNVINAMQKIL----------ECPICLELIKEPVSTKC-DHIFCKFCMLKLLNQKKGPSQCP",
-                  "midline": "MD   L V  V   + A + ++            PI  E ++  V       IF  F   K++NQ +   +CP"
+                  "description": [
+                    {
+                      "id": "sp|P38398|BRCA1_HUMAN",
+                      "accession": "P38398",
+                      "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1863,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 1.13786,
+                      "identity": 10,
+                      "positive": 20,
+                      "query_from": 47,
+                      "query_to": 86,
+                      "hit_from": 1822,
+                      "hit_to": 1857,
+                      "align_len": 40,
+                      "gaps": 4,
+                      "qseq": "HAVGVLLHTKIFTHFSPEKMINQPQSLEECPEMDILIVPQ",
+                      "hseq": "HAIGQMCEAPVVT----REWVLDSVALYQCQELDTYLIPQ",
+                      "midline": "HA+G +    + T     + +    +L +C E+D  ++PQ"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 1.43305,
+                      "identity": 18,
+                      "positive": 28,
+                      "query_from": 5,
+                      "query_to": 77,
+                      "hit_from": 1,
+                      "hit_to": 62,
+                      "align_len": 73,
+                      "gaps": 11,
+                      "qseq": "MDQGHLLVNNVDKYVRAGRGVMVYIAFLSDRDSAPITDEALRHAVGVLLHTKIFTHFSPEKMINQPQSLEECP",
+                      "hseq": "MDLSALRVEEVQNVINAMQKIL----------ECPICLELIKEPVSTKC-DHIFCKFCMLKLLNQKKGPSQCP",
+                      "midline": "MD   L V  V   + A + ++            PI  E ++  V       IF  F   K++NQ +   +CP"
+                    },
+                    {
+                      "num": 3,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 6.86148,
+                      "identity": 14,
+                      "positive": 18,
+                      "query_from": 142,
+                      "query_to": 177,
+                      "hit_from": 1162,
+                      "hit_to": 1195,
+                      "align_len": 36,
+                      "gaps": 2,
+                      "qseq": "DAPKAEGWIKYNSRVISGTFGNRQGLRFESEGPFTH",
+                      "hseq": "DTSFAENDIKESSAVFSKSV--QKGELSRSPSPFTH",
+                      "midline": "D   AE  IK +S V S +   ++G    S  PFTH"
+                    }
+                  ]
                 },
                 {
                   "num": 3,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 6.86148,
-                  "identity": 14,
-                  "positive": 18,
-                  "query_from": 142,
-                  "query_to": 177,
-                  "hit_from": 1162,
-                  "hit_to": 1195,
-                  "align_len": 36,
-                  "gaps": 2,
-                  "qseq": "DAPKAEGWIKYNSRVISGTFGNRQGLRFESEGPFTH",
-                  "hseq": "DTSFAENDIKESSAVFSKSV--QKGELSRSPSPFTH",
-                  "midline": "D   AE  IK +S V S +   ++G    S  PFTH"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
+                  "description": [
+                    {
+                      "id": "tr|A9CKI6|A9CKI6_AGRFC",
+                      "accession": "A9CKI6",
+                      "title": "DUF2000 family protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0240 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 135,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 7.31419,
+                      "identity": 5,
+                      "positive": 9,
+                      "query_from": 56,
+                      "query_to": 64,
+                      "hit_from": 100,
+                      "hit_to": 108,
+                      "align_len": 9,
+                      "gaps": 0,
+                      "qseq": "KIFTHFSPE",
+                      "hseq": "QVFSHFSPD",
+                      "midline": "++F+HFSP+"
+                    }
+                  ]
+                },
                 {
-                  "id": "tr|A9CKI6|A9CKI6_AGRFC",
-                  "accession": "A9CKI6",
-                  "title": "DUF2000 family protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0240 PE=1 SV=1"
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P12994|YBHB_ECOLI",
+                      "accession": "P12994",
+                      "title": "UPF0098 protein YbhB OS=Escherichia coli (strain K12) OX=83333 GN=ybhB PE=1 SV=2"
+                    }
+                  ],
+                  "len": 158,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 8.72209,
+                      "identity": 9,
+                      "positive": 14,
+                      "query_from": 142,
+                      "query_to": 163,
+                      "hit_from": 54,
+                      "hit_to": 82,
+                      "align_len": 29,
+                      "gaps": 7,
+                      "qseq": "DAPKAEGWIKY-------NSRVISGTFGN",
+                      "hseq": "DAPTGSGWWHWVVVNLPADTRVLPQGFGS",
+                      "midline": "DAP   GW  +       ++RV+   FG+"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "tr|Q08242|Q08242_PSESX",
+                      "accession": "Q08242",
+                      "title": "Avirulence protein OS=Pseudomonas syringae OX=317 GN=avrP PE=1 SV=1"
+                    }
+                  ],
+                  "len": 164,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 9.68818,
+                      "identity": 11,
+                      "positive": 16,
+                      "query_from": 43,
+                      "query_to": 67,
+                      "hit_from": 121,
+                      "hit_to": 141,
+                      "align_len": 25,
+                      "gaps": 4,
+                      "qseq": "EALRHAVGVLLHTKIFTHFSPEKMI",
+                      "hseq": "EALQHAMGI--HADIPP--SPERFV",
+                      "midline": "EAL+HA+G+  H  I    SPE+ +"
+                    }
+                  ]
                 }
               ],
-              "len": 135,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 7.31419,
-                  "identity": 5,
-                  "positive": 9,
-                  "query_from": 56,
-                  "query_to": 64,
-                  "hit_from": 100,
-                  "hit_to": 108,
-                  "align_len": 9,
-                  "gaps": 0,
-                  "qseq": "KIFTHFSPE",
-                  "hseq": "QVFSHFSPD",
-                  "midline": "++F+HFSP+"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P12994|YBHB_ECOLI",
-                  "accession": "P12994",
-                  "title": "UPF0098 protein YbhB OS=Escherichia coli (strain K12) OX=83333 GN=ybhB PE=1 SV=2"
-                }
-              ],
-              "len": 158,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 8.72209,
-                  "identity": 9,
-                  "positive": 14,
-                  "query_from": 142,
-                  "query_to": 163,
-                  "hit_from": 54,
-                  "hit_to": 82,
-                  "align_len": 29,
-                  "gaps": 7,
-                  "qseq": "DAPKAEGWIKY-------NSRVISGTFGN",
-                  "hseq": "DAPTGSGWWHWVVVNLPADTRVLPQGFGS",
-                  "midline": "DAP   GW  +       ++RV+   FG+"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "tr|Q08242|Q08242_PSESX",
-                  "accession": "Q08242",
-                  "title": "Avirulence protein OS=Pseudomonas syringae OX=317 GN=avrP PE=1 SV=1"
-                }
-              ],
-              "len": 164,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 9.68818,
-                  "identity": 11,
-                  "positive": 16,
-                  "query_from": 43,
-                  "query_to": 67,
-                  "hit_from": 121,
-                  "hit_to": 141,
-                  "align_len": 25,
-                  "gaps": 4,
-                  "qseq": "EALRHAVGVLLHTKIFTHFSPEKMI",
-                  "hseq": "EALQHAMGI--HADIPP--SPERFV",
-                  "midline": "EAL+HA+G+  H  I    SPE+ +"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 60,
+                "eff_space": 8492022,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 60,
-            "eff_space": 8492022,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

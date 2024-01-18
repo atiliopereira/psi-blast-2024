@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,112 +17,117 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q01381|ELYS_HALFU Egg-lysin OS=Haliotis fulgens OX=6456 PE=1 SV=1",
-          "query_len": 154,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q01381|ELYS_HALFU",
-                  "accession": "Q01381",
-                  "title": "Egg-lysin OS=Haliotis fulgens OX=6456 PE=1 SV=1"
-                }
-              ],
-              "len": 154,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q01381|ELYS_HALFU Egg-lysin OS=Haliotis fulgens OX=6456 PE=1 SV=1",
+              "query_len": 154,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 318.546,
-                  "score": 815,
-                  "evalue": 6.65303e-116,
-                  "identity": 154,
-                  "positive": 154,
-                  "query_from": 1,
-                  "query_to": 154,
-                  "hit_from": 1,
-                  "hit_to": 154,
-                  "align_len": 154,
-                  "gaps": 0,
-                  "qseq": "MKLLVLWVFAMMATVAMSRRWTFVRYHYINKAYEVTMKIQIISGFDRQLTAWLRVHGRRLTNNQKKTLFFVNRRYMQTHWQNYMLWVKRKIKALGRPAAVGDYTRLGAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRPADVPVKNHGK",
-                  "hseq": "MKLLVLWVFAMMATVAMSRRWTFVRYHYINKAYEVTMKIQIISGFDRQLTAWLRVHGRRLTNNQKKTLFFVNRRYMQTHWQNYMLWVKRKIKALGRPAAVGDYTRLGAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRPADVPVKNHGK",
-                  "midline": "MKLLVLWVFAMMATVAMSRRWTFVRYHYINKAYEVTMKIQIISGFDRQLTAWLRVHGRRLTNNQKKTLFFVNRRYMQTHWQNYMLWVKRKIKALGRPAAVGDYTRLGAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRPADVPVKNHGK"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|Q01381|ELYS_HALFU",
+                      "accession": "Q01381",
+                      "title": "Egg-lysin OS=Haliotis fulgens OX=6456 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 154,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 318.546,
+                      "score": 815,
+                      "evalue": 6.65303e-116,
+                      "identity": 154,
+                      "positive": 154,
+                      "query_from": 1,
+                      "query_to": 154,
+                      "hit_from": 1,
+                      "hit_to": 154,
+                      "align_len": 154,
+                      "gaps": 0,
+                      "qseq": "MKLLVLWVFAMMATVAMSRRWTFVRYHYINKAYEVTMKIQIISGFDRQLTAWLRVHGRRLTNNQKKTLFFVNRRYMQTHWQNYMLWVKRKIKALGRPAAVGDYTRLGAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRPADVPVKNHGK",
+                      "hseq": "MKLLVLWVFAMMATVAMSRRWTFVRYHYINKAYEVTMKIQIISGFDRQLTAWLRVHGRRLTNNQKKTLFFVNRRYMQTHWQNYMLWVKRKIKALGRPAAVGDYTRLGAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRPADVPVKNHGK",
+                      "midline": "MKLLVLWVFAMMATVAMSRRWTFVRYHYINKAYEVTMKIQIISGFDRQLTAWLRVHGRRLTNNQKKTLFFVNRRYMQTHWQNYMLWVKRKIKALGRPAAVGDYTRLGAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRPADVPVKNHGK"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P03706|ENLYS_LAMBD",
-                  "accession": "P03706",
-                  "title": "Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P03706|ENLYS_LAMBD",
+                      "accession": "P03706",
+                      "title": "Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1"
+                    }
+                  ],
+                  "len": 158,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 1.78037,
+                      "identity": 11,
+                      "positive": 18,
+                      "query_from": 107,
+                      "query_to": 144,
+                      "hit_from": 20,
+                      "hit_to": 57,
+                      "align_len": 38,
+                      "gaps": 0,
+                      "qseq": "GAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRP",
+                      "hseq": "GTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLNP",
+                      "midline": "G + GR+      Y+ + G ++   YS +  KL  L P"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 7.56613,
+                      "identity": 11,
+                      "positive": 23,
+                      "query_from": 102,
+                      "query_to": 148,
+                      "hit_from": 874,
+                      "hit_to": 912,
+                      "align_len": 47,
+                      "gaps": 8,
+                      "qseq": "DYTRLGAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRPADVP",
+                      "hseq": "DYVVFIPPVGKQIRAVVYYN-----KVV---ASNMSNAVTILPDDIP",
+                      "midline": "DY      +G+++  V +YN     K++   ++ M+    + P D+P"
+                    }
+                  ]
                 }
               ],
-              "len": 158,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 1.78037,
-                  "identity": 11,
-                  "positive": 18,
-                  "query_from": 107,
-                  "query_to": 144,
-                  "hit_from": 20,
-                  "hit_to": 57,
-                  "align_len": 38,
-                  "gaps": 0,
-                  "qseq": "GAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRP",
-                  "hseq": "GTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLNP",
-                  "midline": "G + GR+      Y+ + G ++   YS +  KL  L P"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 7.56613,
-                  "identity": 11,
-                  "positive": 23,
-                  "query_from": 102,
-                  "query_to": 148,
-                  "hit_from": 874,
-                  "hit_to": 912,
-                  "align_len": 47,
-                  "gaps": 8,
-                  "qseq": "DYTRLGAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRPADVP",
-                  "hseq": "DYVVFIPPVGKQIRAVVYYN-----KVV---ASNMSNAVTILPDDIP",
-                  "midline": "DY      +G+++  V +YN     K++   ++ M+    + P D+P"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 59,
+                "eff_space": 6687145,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 59,
-            "eff_space": 6687145,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

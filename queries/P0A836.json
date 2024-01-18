@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,142 +17,147 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P0A836|SUCC_ECOLI Succinate--CoA ligase [ADP-forming] subunit beta OS=Escherichia coli (strain K12) OX=83333 GN=sucC PE=1 SV=1",
-          "query_len": 388,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P0A836|SUCC_ECOLI",
-                  "accession": "P0A836",
-                  "title": "Succinate--CoA ligase [ADP-forming] subunit beta OS=Escherichia coli (strain K12) OX=83333 GN=sucC PE=1 SV=1"
-                }
-              ],
-              "len": 388,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P0A836|SUCC_ECOLI Succinate--CoA ligase [ADP-forming] subunit beta OS=Escherichia coli (strain K12) OX=83333 GN=sucC PE=1 SV=1",
+              "query_len": 388,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 784.637,
-                  "score": 2025,
-                  "evalue": 0,
-                  "identity": 388,
-                  "positive": 388,
-                  "query_from": 1,
-                  "query_to": 388,
-                  "hit_from": 1,
-                  "hit_to": 388,
-                  "align_len": 388,
-                  "gaps": 0,
-                  "qseq": "MNLHEYQAKQLFARYGLPAPVGYACTTPREAEEAASKIGAGPWVVKCQVHAGGRGKAGGVKVVNSKEDIRAFAENWLGKRLVTYQTDANGQPVNQILVEAATDIAKELYLGAVVDRSSRRVVFMASTEGGVEIEKVAEETPHLIHKVALDPLTGPMPYQGRELAFKLGLEGKLVQQFTKIFMGLATIFLERDLALIEINPLVITKQGDLICLDGKLGADGNALFRQPDLREMRDQSQEDPREAQAAQWELNYVALDGNIGCMVNGAGLAMGTMDIVKLHGGEPANFLDVGGGATKERVTEAFKIILSDDKVKAVLVNIFGGIVRCDLIADGIIGAVAEVGVNVPVVVRLEGNNAELGAKKLADSGLNIIAAKGLTDAAQQVVAAVEGK",
-                  "hseq": "MNLHEYQAKQLFARYGLPAPVGYACTTPREAEEAASKIGAGPWVVKCQVHAGGRGKAGGVKVVNSKEDIRAFAENWLGKRLVTYQTDANGQPVNQILVEAATDIAKELYLGAVVDRSSRRVVFMASTEGGVEIEKVAEETPHLIHKVALDPLTGPMPYQGRELAFKLGLEGKLVQQFTKIFMGLATIFLERDLALIEINPLVITKQGDLICLDGKLGADGNALFRQPDLREMRDQSQEDPREAQAAQWELNYVALDGNIGCMVNGAGLAMGTMDIVKLHGGEPANFLDVGGGATKERVTEAFKIILSDDKVKAVLVNIFGGIVRCDLIADGIIGAVAEVGVNVPVVVRLEGNNAELGAKKLADSGLNIIAAKGLTDAAQQVVAAVEGK",
-                  "midline": "MNLHEYQAKQLFARYGLPAPVGYACTTPREAEEAASKIGAGPWVVKCQVHAGGRGKAGGVKVVNSKEDIRAFAENWLGKRLVTYQTDANGQPVNQILVEAATDIAKELYLGAVVDRSSRRVVFMASTEGGVEIEKVAEETPHLIHKVALDPLTGPMPYQGRELAFKLGLEGKLVQQFTKIFMGLATIFLERDLALIEINPLVITKQGDLICLDGKLGADGNALFRQPDLREMRDQSQEDPREAQAAQWELNYVALDGNIGCMVNGAGLAMGTMDIVKLHGGEPANFLDVGGGATKERVTEAFKIILSDDKVKAVLVNIFGGIVRCDLIADGIIGAVAEVGVNVPVVVRLEGNNAELGAKKLADSGLNIIAAKGLTDAAQQVVAAVEGK"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P0A836|SUCC_ECOLI",
+                      "accession": "P0A836",
+                      "title": "Succinate--CoA ligase [ADP-forming] subunit beta OS=Escherichia coli (strain K12) OX=83333 GN=sucC PE=1 SV=1"
+                    }
+                  ],
+                  "len": 388,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 784.637,
+                      "score": 2025,
+                      "evalue": 0,
+                      "identity": 388,
+                      "positive": 388,
+                      "query_from": 1,
+                      "query_to": 388,
+                      "hit_from": 1,
+                      "hit_to": 388,
+                      "align_len": 388,
+                      "gaps": 0,
+                      "qseq": "MNLHEYQAKQLFARYGLPAPVGYACTTPREAEEAASKIGAGPWVVKCQVHAGGRGKAGGVKVVNSKEDIRAFAENWLGKRLVTYQTDANGQPVNQILVEAATDIAKELYLGAVVDRSSRRVVFMASTEGGVEIEKVAEETPHLIHKVALDPLTGPMPYQGRELAFKLGLEGKLVQQFTKIFMGLATIFLERDLALIEINPLVITKQGDLICLDGKLGADGNALFRQPDLREMRDQSQEDPREAQAAQWELNYVALDGNIGCMVNGAGLAMGTMDIVKLHGGEPANFLDVGGGATKERVTEAFKIILSDDKVKAVLVNIFGGIVRCDLIADGIIGAVAEVGVNVPVVVRLEGNNAELGAKKLADSGLNIIAAKGLTDAAQQVVAAVEGK",
+                      "hseq": "MNLHEYQAKQLFARYGLPAPVGYACTTPREAEEAASKIGAGPWVVKCQVHAGGRGKAGGVKVVNSKEDIRAFAENWLGKRLVTYQTDANGQPVNQILVEAATDIAKELYLGAVVDRSSRRVVFMASTEGGVEIEKVAEETPHLIHKVALDPLTGPMPYQGRELAFKLGLEGKLVQQFTKIFMGLATIFLERDLALIEINPLVITKQGDLICLDGKLGADGNALFRQPDLREMRDQSQEDPREAQAAQWELNYVALDGNIGCMVNGAGLAMGTMDIVKLHGGEPANFLDVGGGATKERVTEAFKIILSDDKVKAVLVNIFGGIVRCDLIADGIIGAVAEVGVNVPVVVRLEGNNAELGAKKLADSGLNIIAAKGLTDAAQQVVAAVEGK",
+                      "midline": "MNLHEYQAKQLFARYGLPAPVGYACTTPREAEEAASKIGAGPWVVKCQVHAGGRGKAGGVKVVNSKEDIRAFAENWLGKRLVTYQTDANGQPVNQILVEAATDIAKELYLGAVVDRSSRRVVFMASTEGGVEIEKVAEETPHLIHKVALDPLTGPMPYQGRELAFKLGLEGKLVQQFTKIFMGLATIFLERDLALIEINPLVITKQGDLICLDGKLGADGNALFRQPDLREMRDQSQEDPREAQAAQWELNYVALDGNIGCMVNGAGLAMGTMDIVKLHGGEPANFLDVGGGATKERVTEAFKIILSDDKVKAVLVNIFGGIVRCDLIADGIIGAVAEVGVNVPVVVRLEGNNAELGAKKLADSGLNIIAAKGLTDAAQQVVAAVEGK"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q92547|TOPB1_HUMAN",
-                  "accession": "Q92547",
-                  "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|Q92547|TOPB1_HUMAN",
+                      "accession": "Q92547",
+                      "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1522,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 1.72578,
+                      "identity": 15,
+                      "positive": 23,
+                      "query_from": 104,
+                      "query_to": 149,
+                      "hit_from": 867,
+                      "hit_to": 910,
+                      "align_len": 46,
+                      "gaps": 2,
+                      "qseq": "IAKELYLGAVVDRSSRRVVFMASTEGGVEIEKVAEETPHLIHKVAL",
+                      "hseq": "IVKNLQLA--LANSSRNAVALSASPQLKEAQSEKEEAPKPLHKVVV",
+                      "midline": "I K L L   +  SSR  V ++++    E +   EE P  +HKV +"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P00717|LYG_CYGAT",
+                      "accession": "P00717",
+                      "title": "Lysozyme g OS=Cygnus atratus OX=8868 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 185,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 5.30208,
+                      "identity": 8,
+                      "positive": 15,
+                      "query_from": 190,
+                      "query_to": 213,
+                      "hit_from": 39,
+                      "hit_to": 62,
+                      "align_len": 24,
+                      "gaps": 0,
+                      "qseq": "ERDLALIEINPLVITKQGDLICLD",
+                      "hseq": "ERDLKAMDRYKTIIKKVGEKLCVE",
+                      "midline": "ERDL  ++    +I K G+ +C++"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P00718|LYG_ANSAN",
+                      "accession": "P00718",
+                      "title": "Lysozyme g OS=Anser anser anser OX=8844 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 185,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 5.44627,
+                      "identity": 8,
+                      "positive": 15,
+                      "query_from": 190,
+                      "query_to": 213,
+                      "hit_from": 39,
+                      "hit_to": 62,
+                      "align_len": 24,
+                      "gaps": 0,
+                      "qseq": "ERDLALIEINPLVITKQGDLICLD",
+                      "hseq": "ERDLQAMDRYKTIIKKVGEKLCVE",
+                      "midline": "ERDL  ++    +I K G+ +C++"
+                    }
+                  ]
                 }
               ],
-              "len": 1522,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 1.72578,
-                  "identity": 15,
-                  "positive": 23,
-                  "query_from": 104,
-                  "query_to": 149,
-                  "hit_from": 867,
-                  "hit_to": 910,
-                  "align_len": 46,
-                  "gaps": 2,
-                  "qseq": "IAKELYLGAVVDRSSRRVVFMASTEGGVEIEKVAEETPHLIHKVAL",
-                  "hseq": "IVKNLQLA--LANSSRNAVALSASPQLKEAQSEKEEAPKPLHKVVV",
-                  "midline": "I K L L   +  SSR  V ++++    E +   EE P  +HKV +"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P00717|LYG_CYGAT",
-                  "accession": "P00717",
-                  "title": "Lysozyme g OS=Cygnus atratus OX=8868 PE=1 SV=1"
-                }
-              ],
-              "len": 185,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 5.30208,
-                  "identity": 8,
-                  "positive": 15,
-                  "query_from": 190,
-                  "query_to": 213,
-                  "hit_from": 39,
-                  "hit_to": 62,
-                  "align_len": 24,
-                  "gaps": 0,
-                  "qseq": "ERDLALIEINPLVITKQGDLICLD",
-                  "hseq": "ERDLKAMDRYKTIIKKVGEKLCVE",
-                  "midline": "ERDL  ++    +I K G+ +C++"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P00718|LYG_ANSAN",
-                  "accession": "P00718",
-                  "title": "Lysozyme g OS=Anser anser anser OX=8844 PE=1 SV=1"
-                }
-              ],
-              "len": 185,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 5.44627,
-                  "identity": 8,
-                  "positive": 15,
-                  "query_from": 190,
-                  "query_to": 213,
-                  "hit_from": 39,
-                  "hit_to": 62,
-                  "align_len": 24,
-                  "gaps": 0,
-                  "qseq": "ERDLALIEINPLVITKQGDLICLD",
-                  "hseq": "ERDLQAMDRYKTIIKKVGEKLCVE",
-                  "midline": "ERDL  ++    +I K G+ +C++"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 67,
+                "eff_space": 22058799,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 67,
-            "eff_space": 22058799,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

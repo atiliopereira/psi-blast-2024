@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,232 +17,237 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|O82827|UPPS_MICLU Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Micrococcus luteus OX=1270 GN=uppS PE=1 SV=1",
-          "query_len": 249,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|O82827|UPPS_MICLU",
-                  "accession": "O82827",
-                  "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Micrococcus luteus OX=1270 GN=uppS PE=1 SV=1"
-                }
-              ],
-              "len": 249,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|O82827|UPPS_MICLU Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Micrococcus luteus OX=1270 GN=uppS PE=1 SV=1",
+              "query_len": 249,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 519.235,
-                  "score": 1336,
-                  "evalue": 0,
-                  "identity": 249,
-                  "positive": 249,
-                  "query_from": 1,
-                  "query_to": 249,
-                  "hit_from": 1,
-                  "hit_to": 249,
-                  "align_len": 249,
-                  "gaps": 0,
-                  "qseq": "MFPIKKRKAIKNNNINAAQIPKHIAIIMDGNGRWAKQKKMPRIKGHYEGMQTVKKITRYASDLGVKYLTLYAFSTENWSRPKDEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSGEISLDEISETHFNEYLFTANMPDPELLIRTSGEERLSNFLIWQCSYSEFVFIDEFWPDFNEESLAQCISIYQNRHRRFGGL",
-                  "hseq": "MFPIKKRKAIKNNNINAAQIPKHIAIIMDGNGRWAKQKKMPRIKGHYEGMQTVKKITRYASDLGVKYLTLYAFSTENWSRPKDEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSGEISLDEISETHFNEYLFTANMPDPELLIRTSGEERLSNFLIWQCSYSEFVFIDEFWPDFNEESLAQCISIYQNRHRRFGGL",
-                  "midline": "MFPIKKRKAIKNNNINAAQIPKHIAIIMDGNGRWAKQKKMPRIKGHYEGMQTVKKITRYASDLGVKYLTLYAFSTENWSRPKDEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSGEISLDEISETHFNEYLFTANMPDPELLIRTSGEERLSNFLIWQCSYSEFVFIDEFWPDFNEESLAQCISIYQNRHRRFGGL"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|O82827|UPPS_MICLU",
+                      "accession": "O82827",
+                      "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Micrococcus luteus OX=1270 GN=uppS PE=1 SV=1"
+                    }
+                  ],
+                  "len": 249,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 519.235,
+                      "score": 1336,
+                      "evalue": 0,
+                      "identity": 249,
+                      "positive": 249,
+                      "query_from": 1,
+                      "query_to": 249,
+                      "hit_from": 1,
+                      "hit_to": 249,
+                      "align_len": 249,
+                      "gaps": 0,
+                      "qseq": "MFPIKKRKAIKNNNINAAQIPKHIAIIMDGNGRWAKQKKMPRIKGHYEGMQTVKKITRYASDLGVKYLTLYAFSTENWSRPKDEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSGEISLDEISETHFNEYLFTANMPDPELLIRTSGEERLSNFLIWQCSYSEFVFIDEFWPDFNEESLAQCISIYQNRHRRFGGL",
+                      "hseq": "MFPIKKRKAIKNNNINAAQIPKHIAIIMDGNGRWAKQKKMPRIKGHYEGMQTVKKITRYASDLGVKYLTLYAFSTENWSRPKDEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSGEISLDEISETHFNEYLFTANMPDPELLIRTSGEERLSNFLIWQCSYSEFVFIDEFWPDFNEESLAQCISIYQNRHRRFGGL",
+                      "midline": "MFPIKKRKAIKNNNINAAQIPKHIAIIMDGNGRWAKQKKMPRIKGHYEGMQTVKKITRYASDLGVKYLTLYAFSTENWSRPKDEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSGEISLDEISETHFNEYLFTANMPDPELLIRTSGEERLSNFLIWQCSYSEFVFIDEFWPDFNEESLAQCISIYQNRHRRFGGL"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P60472|UPPS_ECOLI",
-                  "accession": "P60472",
-                  "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Escherichia coli (strain K12) OX=83333 GN=ispU PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P60472|UPPS_ECOLI",
+                      "accession": "P60472",
+                      "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Escherichia coli (strain K12) OX=83333 GN=ispU PE=1 SV=1"
+                    }
+                  ],
+                  "len": 253,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 201.445,
+                      "score": 511,
+                      "evalue": 9.91662e-67,
+                      "identity": 94,
+                      "positive": 145,
+                      "query_from": 22,
+                      "query_to": 248,
+                      "hit_from": 19,
+                      "hit_to": 245,
+                      "align_len": 227,
+                      "gaps": 0,
+                      "qseq": "KHIAIIMDGNGRWAKQKKMPRIKGHYEGMQTVKKITRYASDLGVKYLTLYAFSTENWSRPKDEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSGEISLDEISETHFNEYLFTANMPDPELLIRTSGEERLSNFLIWQCSYSEFVFIDEFWPDFNEESLAQCISIYQNRHRRFGG",
+                      "hseq": "RHVAIIMDGNGRWAKKQGKIRAFGHKAGAKSVRRAVSFAANNGIEALTLYAFSSENWNRPAQEVSALMELFVWALDSEVKSLHRHNVRLRIIGDTSRFNSRLQERIRKSEALTAGNTGLTLNIAANYGGRWDIVQGVRQLAEKVQQGNLQPDQIDEEMLNQHVCMHELAPVDLVIRTGGEHRISNFLLWQIAYAELYFTDVLWPDFDEQDFEGALNAFANRERRFGG",
+                      "midline": "+H+AIIMDGNGRWAK++   R  GH  G ++V++   +A++ G++ LTLYAFS+ENW+RP  EV+ LM+L    L++ +  L   NV++  IG         ++ + +++  T  NTGLTL  A NYGGR +I+  V+ +AE+ + G +  D+I E   N+++    +   +L+IRT GE R+SNFL+WQ +Y+E  F D  WPDF+E+     ++ + NR RRFGG"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P22868|MMOC_METCA",
+                      "accession": "P22868",
+                      "title": "Methane monooxygenase component C OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoC PE=1 SV=2"
+                    }
+                  ],
+                  "len": 348,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.2534,
+                      "score": 51,
+                      "evalue": 0.554011,
+                      "identity": 15,
+                      "positive": 24,
+                      "query_from": 164,
+                      "query_to": 208,
+                      "hit_from": 141,
+                      "hit_to": 189,
+                      "align_len": 49,
+                      "gaps": 4,
+                      "qseq": "RYKSGEISLDEISETHFNEYLFTANMPDP----ELLIRTSGEERLSNFL",
+                      "hseq": "KFEPGQFMDLTIPGTDVSRSYSPANLPNPEGRLEFLIRVLPEGRFSDYL",
+                      "midline": "+++ G+     I  T  +     AN+P+P    E LIR   E R S++L"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P38398|BRCA1_HUMAN",
+                      "accession": "P38398",
+                      "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1863,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 2.97224,
+                      "identity": 12,
+                      "positive": 22,
+                      "query_from": 53,
+                      "query_to": 91,
+                      "hit_from": 87,
+                      "hit_to": 128,
+                      "align_len": 42,
+                      "gaps": 3,
+                      "qseq": "VKKITRYASDLGVKYLTLYAFSTENWSRP---KDEVNYLMKL",
+                      "hseq": "LKIICAFQLDTGLEYANSYNFAKKENNSPEHLKDEVSIIQSM",
+                      "midline": "+K I  +  D G++Y   Y F+ +  + P   KDEV+ +  +"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q92547|TOPB1_HUMAN",
+                      "accession": "Q92547",
+                      "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1522,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 3.6368,
+                      "identity": 15,
+                      "positive": 25,
+                      "query_from": 151,
+                      "query_to": 195,
+                      "hit_from": 121,
+                      "hit_to": 168,
+                      "align_len": 48,
+                      "gaps": 3,
+                      "qseq": "RKEIISAVQLIAER-YKSGEISLDEI--SETHFNEYLFTANMPDPELL",
+                      "hseq": "REEVHKYVQMMGGRVYRDLNVSVTHLIAGEVGSKKYLVAANLKKPILL",
+                      "midline": "R+E+   VQ++  R Y+   +S+  +   E    +YL  AN+  P LL"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P39594|THIE_BACSU",
+                      "accession": "P39594",
+                      "title": "Thiamine-phosphate synthase OS=Bacillus subtilis (strain 168) OX=224308 GN=thiE PE=1 SV=1"
+                    }
+                  ],
+                  "len": 222,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 7.24978,
+                      "identity": 18,
+                      "positive": 31,
+                      "query_from": 83,
+                      "query_to": 168,
+                      "hit_from": 80,
+                      "hit_to": 165,
+                      "align_len": 86,
+                      "gaps": 0,
+                      "qseq": "DEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSG",
+                      "hseq": "DDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRRQG",
+                      "midline": "D+V   + L  D ++    +   K V+      I  +  HT   V +A+E      GL  ++          +  V LI    + G"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P16099|DHTM_METME",
+                      "accession": "P16099",
+                      "title": "Trimethylamine dehydrogenase OS=Methylophilus methylotrophus OX=17 GN=tmd PE=1 SV=3"
+                    }
+                  ],
+                  "len": 730,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 7.79528,
+                      "identity": 9,
+                      "positive": 10,
+                      "query_from": 128,
+                      "query_to": 149,
+                      "hit_from": 204,
+                      "hit_to": 225,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "LEAKEKTKHNTGLTLVFALNYG",
+                      "hseq": "LETLEKVKHAVGSDCAIATRFG",
+                      "midline": "LE  EK KH  G     A  +G"
+                    }
+                  ]
                 }
               ],
-              "len": 253,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 201.445,
-                  "score": 511,
-                  "evalue": 9.91662e-67,
-                  "identity": 94,
-                  "positive": 145,
-                  "query_from": 22,
-                  "query_to": 248,
-                  "hit_from": 19,
-                  "hit_to": 245,
-                  "align_len": 227,
-                  "gaps": 0,
-                  "qseq": "KHIAIIMDGNGRWAKQKKMPRIKGHYEGMQTVKKITRYASDLGVKYLTLYAFSTENWSRPKDEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSGEISLDEISETHFNEYLFTANMPDPELLIRTSGEERLSNFLIWQCSYSEFVFIDEFWPDFNEESLAQCISIYQNRHRRFGG",
-                  "hseq": "RHVAIIMDGNGRWAKKQGKIRAFGHKAGAKSVRRAVSFAANNGIEALTLYAFSSENWNRPAQEVSALMELFVWALDSEVKSLHRHNVRLRIIGDTSRFNSRLQERIRKSEALTAGNTGLTLNIAANYGGRWDIVQGVRQLAEKVQQGNLQPDQIDEEMLNQHVCMHELAPVDLVIRTGGEHRISNFLLWQIAYAELYFTDVLWPDFDEQDFEGALNAFANRERRFGG",
-                  "midline": "+H+AIIMDGNGRWAK++   R  GH  G ++V++   +A++ G++ LTLYAFS+ENW+RP  EV+ LM+L    L++ +  L   NV++  IG         ++ + +++  T  NTGLTL  A NYGGR +I+  V+ +AE+ + G +  D+I E   N+++    +   +L+IRT GE R+SNFL+WQ +Y+E  F D  WPDF+E+     ++ + NR RRFGG"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P22868|MMOC_METCA",
-                  "accession": "P22868",
-                  "title": "Methane monooxygenase component C OS=Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath) OX=243233 GN=mmoC PE=1 SV=2"
-                }
-              ],
-              "len": 348,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.2534,
-                  "score": 51,
-                  "evalue": 0.554011,
-                  "identity": 15,
-                  "positive": 24,
-                  "query_from": 164,
-                  "query_to": 208,
-                  "hit_from": 141,
-                  "hit_to": 189,
-                  "align_len": 49,
-                  "gaps": 4,
-                  "qseq": "RYKSGEISLDEISETHFNEYLFTANMPDP----ELLIRTSGEERLSNFL",
-                  "hseq": "KFEPGQFMDLTIPGTDVSRSYSPANLPNPEGRLEFLIRVLPEGRFSDYL",
-                  "midline": "+++ G+     I  T  +     AN+P+P    E LIR   E R S++L"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P38398|BRCA1_HUMAN",
-                  "accession": "P38398",
-                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
-                }
-              ],
-              "len": 1863,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 2.97224,
-                  "identity": 12,
-                  "positive": 22,
-                  "query_from": 53,
-                  "query_to": 91,
-                  "hit_from": 87,
-                  "hit_to": 128,
-                  "align_len": 42,
-                  "gaps": 3,
-                  "qseq": "VKKITRYASDLGVKYLTLYAFSTENWSRP---KDEVNYLMKL",
-                  "hseq": "LKIICAFQLDTGLEYANSYNFAKKENNSPEHLKDEVSIIQSM",
-                  "midline": "+K I  +  D G++Y   Y F+ +  + P   KDEV+ +  +"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q92547|TOPB1_HUMAN",
-                  "accession": "Q92547",
-                  "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
-                }
-              ],
-              "len": 1522,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 3.6368,
-                  "identity": 15,
-                  "positive": 25,
-                  "query_from": 151,
-                  "query_to": 195,
-                  "hit_from": 121,
-                  "hit_to": 168,
-                  "align_len": 48,
-                  "gaps": 3,
-                  "qseq": "RKEIISAVQLIAER-YKSGEISLDEI--SETHFNEYLFTANMPDPELL",
-                  "hseq": "REEVHKYVQMMGGRVYRDLNVSVTHLIAGEVGSKKYLVAANLKKPILL",
-                  "midline": "R+E+   VQ++  R Y+   +S+  +   E    +YL  AN+  P LL"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P39594|THIE_BACSU",
-                  "accession": "P39594",
-                  "title": "Thiamine-phosphate synthase OS=Bacillus subtilis (strain 168) OX=224308 GN=thiE PE=1 SV=1"
-                }
-              ],
-              "len": 222,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 7.24978,
-                  "identity": 18,
-                  "positive": 31,
-                  "query_from": 83,
-                  "query_to": 168,
-                  "hit_from": 80,
-                  "hit_to": 165,
-                  "align_len": 86,
-                  "gaps": 0,
-                  "qseq": "DEVNYLMKLPGDFLNTFLPELIEKNVKVETIGFIDDLPDHTKKAVLEAKEKTKHNTGLTLVFALNYGGRKEIISAVQLIAERYKSG",
-                  "hseq": "DDVELALNLKADGIHIGQEDANAKEVRAAIGDMILGVSAHTMSEVKQAEEDGADYVGLGPIYPTETKKDTRAVQGVSLIEAVRRQG",
-                  "midline": "D+V   + L  D ++    +   K V+      I  +  HT   V +A+E      GL  ++          +  V LI    + G"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P16099|DHTM_METME",
-                  "accession": "P16099",
-                  "title": "Trimethylamine dehydrogenase OS=Methylophilus methylotrophus OX=17 GN=tmd PE=1 SV=3"
-                }
-              ],
-              "len": 730,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 7.79528,
-                  "identity": 9,
-                  "positive": 10,
-                  "query_from": 128,
-                  "query_to": 149,
-                  "hit_from": 204,
-                  "hit_to": 225,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "LEAKEKTKHNTGLTLVFALNYG",
-                  "hseq": "LETLEKVKHAVGSDCAIATRFG",
-                  "midline": "LE  EK KH  G     A  +G"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 63,
+                "eff_space": 12937230,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 63,
-            "eff_space": 12937230,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

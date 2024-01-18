@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,202 +17,207 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q8K1S3|UNC5B_MOUSE Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1",
-          "query_len": 945,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q8K1S3|UNC5B_MOUSE",
-                  "accession": "Q8K1S3",
-                  "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
-                }
-              ],
-              "len": 945,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q8K1S3|UNC5B_MOUSE Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1",
+              "query_len": 945,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 1953.72,
-                  "score": 5060,
-                  "evalue": 0,
-                  "identity": 945,
-                  "positive": 945,
-                  "query_from": 1,
-                  "query_to": 945,
-                  "hit_from": 1,
-                  "hit_to": 945,
-                  "align_len": 945,
-                  "gaps": 0,
-                  "qseq": "MRARSGVRSALLLALLLCWDPTPSLAGVDSAGQVLPDSYPSAPAEQLPYFLLEPQDAYIVKNKPVELHCRAFPATQIYFKCNGEWVSQNDHVTQESLDEATGLRVREVQIEVSRQQVEELFGLEDYWCQCVAWSSSGTTKSRRAYIRIAYLRKNFDQEPLAKEVPLDHEVLLQCRPPEGVPVAEVEWLKNEDVIDPAQDTNFLLTIDHNLIIRQARLSDTANYTCVAKNIVAKRRSTTATVIVYVNGGWSSWAEWSPCSNRCGRGWQKRTRTCTNPAPLNGGAFCEGQAFQKTACTTVCPVDGAWTEWSKWSACSTECAHWRSRECMAPPPQNGGRDCSGTLLDSKNCTDGLCVLNQRTLNDPKSHPLETSGDVALYAGLVVAVFVVVAVLMAVGVIVYRRNCRDFDTDITDSSAALTGGFHPVNFKTARPNNPQLLHPSAPPDLTASAGIYRGPVYALQDSADKIPMTNSPLLDPLPSLKIKVYNSSTIGSGSGLADGADLLGVLPPGTYPGDFSRDTHFLHLRSASLGSQHLLGLPRDPSSSVSGTFGCLGGRLSLPGTGVSLLVPNGAIPQGKFYDLYLHINKAESTLPLSEGSQTVLSPSVTCGPTGLLLCRPVVLTVPHCAEVIAGDWIFQLKTQAHQGHWEEVVTLDEETLNTPCYCQLEAKSCHILLDQLGTYVFMGESYSRSAVKRLQLAIFAPALCTSLEYSLRVYCLEDTPVALKEVLELERTLGGYLVEEPKPLLFKDSYHNLRLSLHDIPHAHWRSKLLAKYQEIPFYHVWNGSQRALHCTFTLERHSLASTEFTCKVCVRQVEGEGQIFQLHTTLAETPAGSLDALCSAPGNAITTQLGPYAFKIPLSIRQKICSSLDAPNSRGNDWRLLAQKLSMDRYLNYFATKASPTGVILDLWEARQQDDGDLNSLASALEEMGKSEMLVAMATDGDC",
-                  "hseq": "MRARSGVRSALLLALLLCWDPTPSLAGVDSAGQVLPDSYPSAPAEQLPYFLLEPQDAYIVKNKPVELHCRAFPATQIYFKCNGEWVSQNDHVTQESLDEATGLRVREVQIEVSRQQVEELFGLEDYWCQCVAWSSSGTTKSRRAYIRIAYLRKNFDQEPLAKEVPLDHEVLLQCRPPEGVPVAEVEWLKNEDVIDPAQDTNFLLTIDHNLIIRQARLSDTANYTCVAKNIVAKRRSTTATVIVYVNGGWSSWAEWSPCSNRCGRGWQKRTRTCTNPAPLNGGAFCEGQAFQKTACTTVCPVDGAWTEWSKWSACSTECAHWRSRECMAPPPQNGGRDCSGTLLDSKNCTDGLCVLNQRTLNDPKSHPLETSGDVALYAGLVVAVFVVVAVLMAVGVIVYRRNCRDFDTDITDSSAALTGGFHPVNFKTARPNNPQLLHPSAPPDLTASAGIYRGPVYALQDSADKIPMTNSPLLDPLPSLKIKVYNSSTIGSGSGLADGADLLGVLPPGTYPGDFSRDTHFLHLRSASLGSQHLLGLPRDPSSSVSGTFGCLGGRLSLPGTGVSLLVPNGAIPQGKFYDLYLHINKAESTLPLSEGSQTVLSPSVTCGPTGLLLCRPVVLTVPHCAEVIAGDWIFQLKTQAHQGHWEEVVTLDEETLNTPCYCQLEAKSCHILLDQLGTYVFMGESYSRSAVKRLQLAIFAPALCTSLEYSLRVYCLEDTPVALKEVLELERTLGGYLVEEPKPLLFKDSYHNLRLSLHDIPHAHWRSKLLAKYQEIPFYHVWNGSQRALHCTFTLERHSLASTEFTCKVCVRQVEGEGQIFQLHTTLAETPAGSLDALCSAPGNAITTQLGPYAFKIPLSIRQKICSSLDAPNSRGNDWRLLAQKLSMDRYLNYFATKASPTGVILDLWEARQQDDGDLNSLASALEEMGKSEMLVAMATDGDC",
-                  "midline": "MRARSGVRSALLLALLLCWDPTPSLAGVDSAGQVLPDSYPSAPAEQLPYFLLEPQDAYIVKNKPVELHCRAFPATQIYFKCNGEWVSQNDHVTQESLDEATGLRVREVQIEVSRQQVEELFGLEDYWCQCVAWSSSGTTKSRRAYIRIAYLRKNFDQEPLAKEVPLDHEVLLQCRPPEGVPVAEVEWLKNEDVIDPAQDTNFLLTIDHNLIIRQARLSDTANYTCVAKNIVAKRRSTTATVIVYVNGGWSSWAEWSPCSNRCGRGWQKRTRTCTNPAPLNGGAFCEGQAFQKTACTTVCPVDGAWTEWSKWSACSTECAHWRSRECMAPPPQNGGRDCSGTLLDSKNCTDGLCVLNQRTLNDPKSHPLETSGDVALYAGLVVAVFVVVAVLMAVGVIVYRRNCRDFDTDITDSSAALTGGFHPVNFKTARPNNPQLLHPSAPPDLTASAGIYRGPVYALQDSADKIPMTNSPLLDPLPSLKIKVYNSSTIGSGSGLADGADLLGVLPPGTYPGDFSRDTHFLHLRSASLGSQHLLGLPRDPSSSVSGTFGCLGGRLSLPGTGVSLLVPNGAIPQGKFYDLYLHINKAESTLPLSEGSQTVLSPSVTCGPTGLLLCRPVVLTVPHCAEVIAGDWIFQLKTQAHQGHWEEVVTLDEETLNTPCYCQLEAKSCHILLDQLGTYVFMGESYSRSAVKRLQLAIFAPALCTSLEYSLRVYCLEDTPVALKEVLELERTLGGYLVEEPKPLLFKDSYHNLRLSLHDIPHAHWRSKLLAKYQEIPFYHVWNGSQRALHCTFTLERHSLASTEFTCKVCVRQVEGEGQIFQLHTTLAETPAGSLDALCSAPGNAITTQLGPYAFKIPLSIRQKICSSLDAPNSRGNDWRLLAQKLSMDRYLNYFATKASPTGVILDLWEARQQDDGDLNSLASALEEMGKSEMLVAMATDGDC"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|Q8K1S3|UNC5B_MOUSE",
+                      "accession": "Q8K1S3",
+                      "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
+                    }
+                  ],
+                  "len": 945,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 1953.72,
+                      "score": 5060,
+                      "evalue": 0,
+                      "identity": 945,
+                      "positive": 945,
+                      "query_from": 1,
+                      "query_to": 945,
+                      "hit_from": 1,
+                      "hit_to": 945,
+                      "align_len": 945,
+                      "gaps": 0,
+                      "qseq": "MRARSGVRSALLLALLLCWDPTPSLAGVDSAGQVLPDSYPSAPAEQLPYFLLEPQDAYIVKNKPVELHCRAFPATQIYFKCNGEWVSQNDHVTQESLDEATGLRVREVQIEVSRQQVEELFGLEDYWCQCVAWSSSGTTKSRRAYIRIAYLRKNFDQEPLAKEVPLDHEVLLQCRPPEGVPVAEVEWLKNEDVIDPAQDTNFLLTIDHNLIIRQARLSDTANYTCVAKNIVAKRRSTTATVIVYVNGGWSSWAEWSPCSNRCGRGWQKRTRTCTNPAPLNGGAFCEGQAFQKTACTTVCPVDGAWTEWSKWSACSTECAHWRSRECMAPPPQNGGRDCSGTLLDSKNCTDGLCVLNQRTLNDPKSHPLETSGDVALYAGLVVAVFVVVAVLMAVGVIVYRRNCRDFDTDITDSSAALTGGFHPVNFKTARPNNPQLLHPSAPPDLTASAGIYRGPVYALQDSADKIPMTNSPLLDPLPSLKIKVYNSSTIGSGSGLADGADLLGVLPPGTYPGDFSRDTHFLHLRSASLGSQHLLGLPRDPSSSVSGTFGCLGGRLSLPGTGVSLLVPNGAIPQGKFYDLYLHINKAESTLPLSEGSQTVLSPSVTCGPTGLLLCRPVVLTVPHCAEVIAGDWIFQLKTQAHQGHWEEVVTLDEETLNTPCYCQLEAKSCHILLDQLGTYVFMGESYSRSAVKRLQLAIFAPALCTSLEYSLRVYCLEDTPVALKEVLELERTLGGYLVEEPKPLLFKDSYHNLRLSLHDIPHAHWRSKLLAKYQEIPFYHVWNGSQRALHCTFTLERHSLASTEFTCKVCVRQVEGEGQIFQLHTTLAETPAGSLDALCSAPGNAITTQLGPYAFKIPLSIRQKICSSLDAPNSRGNDWRLLAQKLSMDRYLNYFATKASPTGVILDLWEARQQDDGDLNSLASALEEMGKSEMLVAMATDGDC",
+                      "hseq": "MRARSGVRSALLLALLLCWDPTPSLAGVDSAGQVLPDSYPSAPAEQLPYFLLEPQDAYIVKNKPVELHCRAFPATQIYFKCNGEWVSQNDHVTQESLDEATGLRVREVQIEVSRQQVEELFGLEDYWCQCVAWSSSGTTKSRRAYIRIAYLRKNFDQEPLAKEVPLDHEVLLQCRPPEGVPVAEVEWLKNEDVIDPAQDTNFLLTIDHNLIIRQARLSDTANYTCVAKNIVAKRRSTTATVIVYVNGGWSSWAEWSPCSNRCGRGWQKRTRTCTNPAPLNGGAFCEGQAFQKTACTTVCPVDGAWTEWSKWSACSTECAHWRSRECMAPPPQNGGRDCSGTLLDSKNCTDGLCVLNQRTLNDPKSHPLETSGDVALYAGLVVAVFVVVAVLMAVGVIVYRRNCRDFDTDITDSSAALTGGFHPVNFKTARPNNPQLLHPSAPPDLTASAGIYRGPVYALQDSADKIPMTNSPLLDPLPSLKIKVYNSSTIGSGSGLADGADLLGVLPPGTYPGDFSRDTHFLHLRSASLGSQHLLGLPRDPSSSVSGTFGCLGGRLSLPGTGVSLLVPNGAIPQGKFYDLYLHINKAESTLPLSEGSQTVLSPSVTCGPTGLLLCRPVVLTVPHCAEVIAGDWIFQLKTQAHQGHWEEVVTLDEETLNTPCYCQLEAKSCHILLDQLGTYVFMGESYSRSAVKRLQLAIFAPALCTSLEYSLRVYCLEDTPVALKEVLELERTLGGYLVEEPKPLLFKDSYHNLRLSLHDIPHAHWRSKLLAKYQEIPFYHVWNGSQRALHCTFTLERHSLASTEFTCKVCVRQVEGEGQIFQLHTTLAETPAGSLDALCSAPGNAITTQLGPYAFKIPLSIRQKICSSLDAPNSRGNDWRLLAQKLSMDRYLNYFATKASPTGVILDLWEARQQDDGDLNSLASALEEMGKSEMLVAMATDGDC",
+                      "midline": "MRARSGVRSALLLALLLCWDPTPSLAGVDSAGQVLPDSYPSAPAEQLPYFLLEPQDAYIVKNKPVELHCRAFPATQIYFKCNGEWVSQNDHVTQESLDEATGLRVREVQIEVSRQQVEELFGLEDYWCQCVAWSSSGTTKSRRAYIRIAYLRKNFDQEPLAKEVPLDHEVLLQCRPPEGVPVAEVEWLKNEDVIDPAQDTNFLLTIDHNLIIRQARLSDTANYTCVAKNIVAKRRSTTATVIVYVNGGWSSWAEWSPCSNRCGRGWQKRTRTCTNPAPLNGGAFCEGQAFQKTACTTVCPVDGAWTEWSKWSACSTECAHWRSRECMAPPPQNGGRDCSGTLLDSKNCTDGLCVLNQRTLNDPKSHPLETSGDVALYAGLVVAVFVVVAVLMAVGVIVYRRNCRDFDTDITDSSAALTGGFHPVNFKTARPNNPQLLHPSAPPDLTASAGIYRGPVYALQDSADKIPMTNSPLLDPLPSLKIKVYNSSTIGSGSGLADGADLLGVLPPGTYPGDFSRDTHFLHLRSASLGSQHLLGLPRDPSSSVSGTFGCLGGRLSLPGTGVSLLVPNGAIPQGKFYDLYLHINKAESTLPLSEGSQTVLSPSVTCGPTGLLLCRPVVLTVPHCAEVIAGDWIFQLKTQAHQGHWEEVVTLDEETLNTPCYCQLEAKSCHILLDQLGTYVFMGESYSRSAVKRLQLAIFAPALCTSLEYSLRVYCLEDTPVALKEVLELERTLGGYLVEEPKPLLFKDSYHNLRLSLHDIPHAHWRSKLLAKYQEIPFYHVWNGSQRALHCTFTLERHSLASTEFTCKVCVRQVEGEGQIFQLHTTLAETPAGSLDALCSAPGNAITTQLGPYAFKIPLSIRQKICSSLDAPNSRGNDWRLLAQKLSMDRYLNYFATKASPTGVILDLWEARQQDDGDLNSLASALEEMGKSEMLVAMATDGDC"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P56968|PYRK_LACLM",
-                  "accession": "P56968",
-                  "title": "Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit OS=Lactococcus lactis subsp. cremoris (strain MG1363) OX=416870 GN=pyrK PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P56968|PYRK_LACLM",
+                      "accession": "P56968",
+                      "title": "Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit OS=Lactococcus lactis subsp. cremoris (strain MG1363) OX=416870 GN=pyrK PE=1 SV=1"
+                    }
+                  ],
+                  "len": 262,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.2534,
+                      "score": 51,
+                      "evalue": 2.341,
+                      "identity": 11,
+                      "positive": 14,
+                      "query_from": 550,
+                      "query_to": 572,
+                      "hit_from": 27,
+                      "hit_to": 49,
+                      "align_len": 23,
+                      "gaps": 0,
+                      "qseq": "GCLGGRLSLPGTGVSLLVPNGAI",
+                      "hseq": "GTLVDEMDLPGQFLHLAVPNGAM",
+                      "midline": "G L   + LPG  + L VPNGA+"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P0AEC8|DCUS_ECOLI",
+                      "accession": "P0AEC8",
+                      "title": "Sensor histidine kinase DcuS OS=Escherichia coli (strain K12) OX=83333 GN=dcuS PE=1 SV=1"
+                    }
+                  ],
+                  "len": 543,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 3.94437,
+                      "identity": 13,
+                      "positive": 17,
+                      "query_from": 818,
+                      "query_to": 851,
+                      "hit_from": 429,
+                      "hit_to": 462,
+                      "align_len": 34,
+                      "gaps": 0,
+                      "qseq": "EGQIFQLHTTLAETPAGSLDALCSAPGNAITTQL",
+                      "hseq": "EDQVATLITTLGNLIENALEALGPEPGGEISVTL",
+                      "midline": "E Q+  L TTL      +L+AL   PG  I+  L"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q12888|TP53B_HUMAN",
+                      "accession": "Q12888",
+                      "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1972,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 4.20445,
+                      "identity": 17,
+                      "positive": 29,
+                      "query_from": 788,
+                      "query_to": 859,
+                      "hit_from": 1155,
+                      "hit_to": 1228,
+                      "align_len": 74,
+                      "gaps": 2,
+                      "qseq": "RALHCTFTLERHSLASTEFTCKVCVRQVEGEGQIFQLHTTLAETPAGSLDALCSAPGNAITT--QLGPYAFKIP",
+                      "hseq": "QTMECSLRVPETVSAATQTIKNVCEQGTSTVDQNFGKQDATVQTERGSGEKPVSAPGDDTESLHSQGEEEFDMP",
+                      "midline": "+ + C+  +     A+T+    VC +      Q F       +T  GS +   SAPG+   +    G   F +P"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|O15527|OGG1_HUMAN",
+                      "accession": "O15527",
+                      "title": "N-glycosylase/DNA lyase OS=Homo sapiens OX=9606 GN=OGG1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 345,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 6.40042,
+                      "identity": 20,
+                      "positive": 29,
+                      "query_from": 766,
+                      "query_to": 830,
+                      "hit_from": 47,
+                      "hit_to": 108,
+                      "align_len": 67,
+                      "gaps": 7,
+                      "qseq": "WRSKLLAKYQEIPFYHVWNGSQ--RALHCTFTLERHSLASTEFTCKVCVRQVEGEGQIFQLHTTLAE",
+                      "hseq": "WREQSPAHWSGVLADQVWTLTQTEEQLHCTVYRGDKSQAS-----RPTPDELEAVRKYFQLDVTLAQ",
+                      "midline": "WR +  A +  +    VW  +Q    LHCT      S AS     +    ++E   + FQL  TLA+"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q8WTS6|SETD7_HUMAN",
+                      "accession": "Q8WTS6",
+                      "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 366,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 8.4644,
+                      "identity": 14,
+                      "positive": 18,
+                      "query_from": 456,
+                      "query_to": 496,
+                      "hit_from": 190,
+                      "hit_to": 230,
+                      "align_len": 41,
+                      "gaps": 0,
+                      "qseq": "VYALQDSADKIPMTNSPLLDPLPSLKIKVYNSSTIGSGSGL",
+                      "hseq": "VYHFDKSTSSCISTNALLPDPYESERVYVAESLISSAGEGL",
+                      "midline": "VY    S      TN+ L DP  S ++ V  S    +G GL"
+                    }
+                  ]
                 }
               ],
-              "len": 262,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.2534,
-                  "score": 51,
-                  "evalue": 2.341,
-                  "identity": 11,
-                  "positive": 14,
-                  "query_from": 550,
-                  "query_to": 572,
-                  "hit_from": 27,
-                  "hit_to": 49,
-                  "align_len": 23,
-                  "gaps": 0,
-                  "qseq": "GCLGGRLSLPGTGVSLLVPNGAI",
-                  "hseq": "GTLVDEMDLPGQFLHLAVPNGAM",
-                  "midline": "G L   + LPG  + L VPNGA+"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P0AEC8|DCUS_ECOLI",
-                  "accession": "P0AEC8",
-                  "title": "Sensor histidine kinase DcuS OS=Escherichia coli (strain K12) OX=83333 GN=dcuS PE=1 SV=1"
-                }
-              ],
-              "len": 543,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 3.94437,
-                  "identity": 13,
-                  "positive": 17,
-                  "query_from": 818,
-                  "query_to": 851,
-                  "hit_from": 429,
-                  "hit_to": 462,
-                  "align_len": 34,
-                  "gaps": 0,
-                  "qseq": "EGQIFQLHTTLAETPAGSLDALCSAPGNAITTQL",
-                  "hseq": "EDQVATLITTLGNLIENALEALGPEPGGEISVTL",
-                  "midline": "E Q+  L TTL      +L+AL   PG  I+  L"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|Q12888|TP53B_HUMAN",
-                  "accession": "Q12888",
-                  "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
-                }
-              ],
-              "len": 1972,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 4.20445,
-                  "identity": 17,
-                  "positive": 29,
-                  "query_from": 788,
-                  "query_to": 859,
-                  "hit_from": 1155,
-                  "hit_to": 1228,
-                  "align_len": 74,
-                  "gaps": 2,
-                  "qseq": "RALHCTFTLERHSLASTEFTCKVCVRQVEGEGQIFQLHTTLAETPAGSLDALCSAPGNAITT--QLGPYAFKIP",
-                  "hseq": "QTMECSLRVPETVSAATQTIKNVCEQGTSTVDQNFGKQDATVQTERGSGEKPVSAPGDDTESLHSQGEEEFDMP",
-                  "midline": "+ + C+  +     A+T+    VC +      Q F       +T  GS +   SAPG+   +    G   F +P"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|O15527|OGG1_HUMAN",
-                  "accession": "O15527",
-                  "title": "N-glycosylase/DNA lyase OS=Homo sapiens OX=9606 GN=OGG1 PE=1 SV=2"
-                }
-              ],
-              "len": 345,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 6.40042,
-                  "identity": 20,
-                  "positive": 29,
-                  "query_from": 766,
-                  "query_to": 830,
-                  "hit_from": 47,
-                  "hit_to": 108,
-                  "align_len": 67,
-                  "gaps": 7,
-                  "qseq": "WRSKLLAKYQEIPFYHVWNGSQ--RALHCTFTLERHSLASTEFTCKVCVRQVEGEGQIFQLHTTLAE",
-                  "hseq": "WREQSPAHWSGVLADQVWTLTQTEEQLHCTVYRGDKSQAS-----RPTPDELEAVRKYFQLDVTLAQ",
-                  "midline": "WR +  A +  +    VW  +Q    LHCT      S AS     +    ++E   + FQL  TLA+"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q8WTS6|SETD7_HUMAN",
-                  "accession": "Q8WTS6",
-                  "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
-                }
-              ],
-              "len": 366,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 8.4644,
-                  "identity": 14,
-                  "positive": 18,
-                  "query_from": 456,
-                  "query_to": 496,
-                  "hit_from": 190,
-                  "hit_to": 230,
-                  "align_len": 41,
-                  "gaps": 0,
-                  "qseq": "VYALQDSADKIPMTNSPLLDPLPSLKIKVYNSSTIGSGSGL",
-                  "hseq": "VYHFDKSTSSCISTNALLPDPYESERVYVAESLISSAGEGL",
-                  "midline": "VY    S      TN+ L DP  S ++ V  S    +G GL"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 74,
+                "eff_space": 58579976,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 74,
-            "eff_space": 58579976,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

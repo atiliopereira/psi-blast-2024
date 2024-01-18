@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,292 +17,297 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P84022|SMAD3_HUMAN Mothers against decapentaplegic homolog 3 OS=Homo sapiens OX=9606 GN=SMAD3 PE=1 SV=1",
-          "query_len": 425,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P84022|SMAD3_HUMAN",
-                  "accession": "P84022",
-                  "title": "Mothers against decapentaplegic homolog 3 OS=Homo sapiens OX=9606 GN=SMAD3 PE=1 SV=1"
-                }
-              ],
-              "len": 425,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P84022|SMAD3_HUMAN Mothers against decapentaplegic homolog 3 OS=Homo sapiens OX=9606 GN=SMAD3 PE=1 SV=1",
+              "query_len": 425,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 890.567,
-                  "score": 2300,
-                  "evalue": 0,
-                  "identity": 425,
-                  "positive": 425,
-                  "query_from": 1,
-                  "query_to": 425,
-                  "hit_from": 1,
-                  "hit_to": 425,
-                  "align_len": 425,
-                  "gaps": 0,
-                  "qseq": "MSSILPFTPPIVKRLLGWKKGEQNGQEEKWCEKAVKSLVKKLKKTGQLDELEKAITTQNVNTKCITIPRSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELRAMELCEFAFNMKKDEVCVNPYHYQRVETPVLPPVLVPRHTEIPAEFPPLDDYSHSIPENTNFPAGIEPQSNIPETPPPGYLSEDGETSDHQMNHSMDAGSPNLSPNPMSPAHNNLDLQPVTYCEPAFWCSISYYELNQRVGETFHASQPSMTVDGFTDPSNSERFCLGLLSNVNRNAAVELTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSIRCSSVS",
-                  "hseq": "MSSILPFTPPIVKRLLGWKKGEQNGQEEKWCEKAVKSLVKKLKKTGQLDELEKAITTQNVNTKCITIPRSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELRAMELCEFAFNMKKDEVCVNPYHYQRVETPVLPPVLVPRHTEIPAEFPPLDDYSHSIPENTNFPAGIEPQSNIPETPPPGYLSEDGETSDHQMNHSMDAGSPNLSPNPMSPAHNNLDLQPVTYCEPAFWCSISYYELNQRVGETFHASQPSMTVDGFTDPSNSERFCLGLLSNVNRNAAVELTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSIRCSSVS",
-                  "midline": "MSSILPFTPPIVKRLLGWKKGEQNGQEEKWCEKAVKSLVKKLKKTGQLDELEKAITTQNVNTKCITIPRSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELRAMELCEFAFNMKKDEVCVNPYHYQRVETPVLPPVLVPRHTEIPAEFPPLDDYSHSIPENTNFPAGIEPQSNIPETPPPGYLSEDGETSDHQMNHSMDAGSPNLSPNPMSPAHNNLDLQPVTYCEPAFWCSISYYELNQRVGETFHASQPSMTVDGFTDPSNSERFCLGLLSNVNRNAAVELTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSIRCSSVS"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P84022|SMAD3_HUMAN",
+                      "accession": "P84022",
+                      "title": "Mothers against decapentaplegic homolog 3 OS=Homo sapiens OX=9606 GN=SMAD3 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 425,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 890.567,
+                      "score": 2300,
+                      "evalue": 0,
+                      "identity": 425,
+                      "positive": 425,
+                      "query_from": 1,
+                      "query_to": 425,
+                      "hit_from": 1,
+                      "hit_to": 425,
+                      "align_len": 425,
+                      "gaps": 0,
+                      "qseq": "MSSILPFTPPIVKRLLGWKKGEQNGQEEKWCEKAVKSLVKKLKKTGQLDELEKAITTQNVNTKCITIPRSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELRAMELCEFAFNMKKDEVCVNPYHYQRVETPVLPPVLVPRHTEIPAEFPPLDDYSHSIPENTNFPAGIEPQSNIPETPPPGYLSEDGETSDHQMNHSMDAGSPNLSPNPMSPAHNNLDLQPVTYCEPAFWCSISYYELNQRVGETFHASQPSMTVDGFTDPSNSERFCLGLLSNVNRNAAVELTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSIRCSSVS",
+                      "hseq": "MSSILPFTPPIVKRLLGWKKGEQNGQEEKWCEKAVKSLVKKLKKTGQLDELEKAITTQNVNTKCITIPRSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELRAMELCEFAFNMKKDEVCVNPYHYQRVETPVLPPVLVPRHTEIPAEFPPLDDYSHSIPENTNFPAGIEPQSNIPETPPPGYLSEDGETSDHQMNHSMDAGSPNLSPNPMSPAHNNLDLQPVTYCEPAFWCSISYYELNQRVGETFHASQPSMTVDGFTDPSNSERFCLGLLSNVNRNAAVELTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSIRCSSVS",
+                      "midline": "MSSILPFTPPIVKRLLGWKKGEQNGQEEKWCEKAVKSLVKKLKKTGQLDELEKAITTQNVNTKCITIPRSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELRAMELCEFAFNMKKDEVCVNPYHYQRVETPVLPPVLVPRHTEIPAEFPPLDDYSHSIPENTNFPAGIEPQSNIPETPPPGYLSEDGETSDHQMNHSMDAGSPNLSPNPMSPAHNNLDLQPVTYCEPAFWCSISYYELNQRVGETFHASQPSMTVDGFTDPSNSERFCLGLLSNVNRNAAVELTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSIRCSSVS"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q15796|SMAD2_HUMAN",
-                  "accession": "Q15796",
-                  "title": "Mothers against decapentaplegic homolog 2 OS=Homo sapiens OX=9606 GN=SMAD2 PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|Q15796|SMAD2_HUMAN",
+                      "accession": "Q15796",
+                      "title": "Mothers against decapentaplegic homolog 2 OS=Homo sapiens OX=9606 GN=SMAD2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 467,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 778.859,
+                      "score": 2010,
+                      "evalue": 0,
+                      "identity": 391,
+                      "positive": 410,
+                      "query_from": 1,
+                      "query_to": 425,
+                      "hit_from": 1,
+                      "hit_to": 467,
+                      "align_len": 467,
+                      "gaps": 42,
+                      "qseq": "MSSILPFTPPIVKRLLGWKKG----------EQNGQEEKWCEKAVKSLVKKLKKTGQLDELEKAITTQNVNTKCITIP------------------------------RSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELRAMELCEFAFNMKKDEVCVNPYHYQRVETPVLPPVLVPRHTEIPAEFPPLDDYSHSIPENTNFPAGIEPQSN-IPETPPPGYLSEDGETSDHQMNHSMDAGSP-NLSPNPMSPAHNNLDLQPVTYCEPAFWCSISYYELNQRVGETFHASQPSMTVDGFTDPSNSERFCLGLLSNVNRNAAVELTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSIRCSSVS",
+                      "hseq": "MSSILPFTPPVVKRLLGWKKSAGGSGGAGGGEQNGQEEKWCEKAVKSLVKKLKKTGRLDELEKAITTQNCNTKCVTIPSTCSEIWGLSTPNTIDQWDTTGLYSFSEQTRSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELKAIENCEYAFNLKKDEVCVNPYHYQRVETPVLPPVLVPRHTEILTELPPLDDYTHSIPENTNFPAGIEPQSNYIPETPPPGYISEDGETSDQQLNQSMDTGSPAELSPTTLSPVNHSLDLQPVTYSEPAFWCSIAYYELNQRVGETFHASQPSLTVDGFTDPSNSERFCLGLLSNVNRNATVEMTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSVRCSSMS",
+                      "midline": "MSSILPFTPP+VKRLLGWKK           EQNGQEEKWCEKAVKSLVKKLKKTG+LDELEKAITTQN NTKC+TIP                              RSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHEL+A+E CE+AFN+KKDEVCVNPYHYQRVETPVLPPVLVPRHTEI  E PPLDDY+HSIPENTNFPAGIEPQSN IPETPPPGY+SEDGETSD Q+N SMD GSP  LSP  +SP +++LDLQPVTY EPAFWCSI+YYELNQRVGETFHASQPS+TVDGFTDPSNSERFCLGLLSNVNRNA VE+TRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPS+RCSS+S"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q15797|SMAD1_HUMAN",
+                      "accession": "Q15797",
+                      "title": "Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 465,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 536.954,
+                      "score": 1382,
+                      "evalue": 0,
+                      "identity": 286,
+                      "positive": 333,
+                      "query_from": 1,
+                      "query_to": 425,
+                      "hit_from": 3,
+                      "hit_to": 465,
+                      "align_len": 471,
+                      "gaps": 54,
+                      "qseq": "MSSILPFTPPIVKRLLGWKKGEQNGQEEKWCEKAVKSLVKKLKKT-GQLDELEKAITTQNVNTKCITIPRSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELRAMELCEFAFNMKKDEVCVNPYHYQRVETPVLPPVLVPRHTE------IPAEFPPLDDYSHSIPENTNFPAGIE----------PQSNIP---------------------------ETPPPGYLS-EDGETSDHQMNHSMDAGSPNLSPNPMSPAHNNLDLQPVTYCEPAFWCSISYYELNQRVGETFHASQPSMTVDGFTDPSNSE-RFCLGLLSNVNRNAAVELTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSIRCSSVS",
+                      "hseq": "VTSLFSFTSPAVKRLLGWKQGDE---EEKWAEKAVDALVKKLKKKKGAMEELEKALSCPGQPSNCVTIPRSLDGRLQVSHRKGLPHVIYCRVWRWPDLQSHHELKPLECCEFPFGSKQKEVCINPYHYKRVESPVLPPVLVPRHSEYNPQHSLLAQFRNLGQNEPHMPLNATFPDSFQQPNSHPFPHSPNSSYPNSPGSSSSTYPHSPTSSDPGSPFQMPADTPPPAYLPPEDPMTQD--GSQPMDT---NMMAPPLPSEINRGDVQAVAYEEPKHWCSIVYYELNNRVGEAFHASSTSVLVDGFTDPSNNKNRFCLGLLSNVNRNSTIENTRRHIGKGVHLYYVGGEVYAECLSDSSIFVQSRNCNYHHGFHPTTVCKIPSGCSLKIFNNQEFAQLLAQSVNHGFETVYELTKMCTIRMSFVKGWGAEYHRQDVTSTPCWIEIHLHGPLQWLDKVLTQMGSPHNPISSVS",
+                      "midline": "++S+  FT P VKRLLGWK+G++   EEKW EKAV +LVKKLKK  G ++ELEKA++     + C+TIPRSLDGRLQVSHRKGLPHVIYCR+WRWPDL SHHEL+ +E CEF F  K+ EVC+NPYHY+RVE+PVLPPVLVPRH+E      + A+F  L      +P N  FP   +          P S+ P                           +TPPP YL  ED  T D   +  MD    N+   P+    N  D+Q V Y EP  WCSI YYELN RVGE FHAS  S+ VDGFTDPSN++ RFCLGLLSNVNRN+ +E TRRHIG+GV LYY+GGEV+AECLSDS+IFVQS NCN  +G+HP TVCKIP GC+LKIFNNQEFA LLAQSVN GFE VY+LT+MCTIRMSFVKGWGAEY RQ VTSTPCWIE+HL+GPLQWLDKVLTQMGSP    SSVS"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q9BS40|LXN_HUMAN",
+                      "accession": "Q9BS40",
+                      "title": "Latexin OS=Homo sapiens OX=9606 GN=LXN PE=1 SV=2"
+                    }
+                  ],
+                  "len": 222,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 1.55718,
+                      "identity": 11,
+                      "positive": 21,
+                      "query_from": 23,
+                      "query_to": 65,
+                      "hit_from": 150,
+                      "hit_to": 192,
+                      "align_len": 43,
+                      "gaps": 0,
+                      "qseq": "QNGQEEKWCEKAVKSLVKKLKKTGQLDELEKAITTQNVNTKCI",
+                      "hseq": "QNSTEDTWYKMVKIQTVKQVQRNDDFIELDYTILLHNIASQEI",
+                      "midline": "QN  E+ W +      VK++++     EL+  I   N+ ++ I"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P37330|MASZ_ECOLI",
+                      "accession": "P37330",
+                      "title": "Malate synthase G OS=Escherichia coli (strain K12) OX=83333 GN=glcB PE=1 SV=3"
+                    }
+                  ],
+                  "len": 723,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 1.58174,
+                      "identity": 14,
+                      "positive": 16,
+                      "query_from": 143,
+                      "query_to": 168,
+                      "hit_from": 562,
+                      "hit_to": 589,
+                      "align_len": 28,
+                      "gaps": 2,
+                      "qseq": "HTEIPAEFPPLDDYSHSIP--ENTNFPA",
+                      "hseq": "QTEFNAEFEPLLDDLLTIPVAENANWSA",
+                      "midline": " TE  AEF PL D   +IP  EN N+ A"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P39594|THIE_BACSU",
+                      "accession": "P39594",
+                      "title": "Thiamine-phosphate synthase OS=Bacillus subtilis (strain 168) OX=224308 GN=thiE PE=1 SV=1"
+                    }
+                  ],
+                  "len": 222,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 1.9431,
+                      "identity": 8,
+                      "positive": 14,
+                      "query_from": 217,
+                      "query_to": 248,
+                      "hit_from": 22,
+                      "hit_to": 53,
+                      "align_len": 32,
+                      "gaps": 0,
+                      "qseq": "NNLDLQPVTYCEPAFWCSISYYELNQRVGETF",
+                      "hseq": "NNTKADPVTVVQKALKGGATLYQFREKGGDAL",
+                      "midline": "NN    PVT  + A     + Y+  ++ G+  "
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P00327|ADH1E_HORSE",
+                      "accession": "P00327",
+                      "title": "Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 375,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 3.51149,
+                      "identity": 11,
+                      "positive": 17,
+                      "query_from": 360,
+                      "query_to": 402,
+                      "hit_from": 161,
+                      "hit_to": 203,
+                      "align_len": 43,
+                      "gaps": 0,
+                      "qseq": "FEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNG",
+                      "hseq": "IDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGG",
+                      "midline": " +A   L ++C I   F  G+G+  +   VT         L G"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|Q9UWN7|TBP_SULAC",
+                      "accession": "Q9UWN7",
+                      "title": "TATA-box-binding protein OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=tbp PE=1 SV=1"
+                    }
+                  ],
+                  "len": 197,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 6.42339,
+                      "identity": 12,
+                      "positive": 16,
+                      "query_from": 33,
+                      "query_to": 60,
+                      "hit_from": 81,
+                      "hit_to": 108,
+                      "align_len": 28,
+                      "gaps": 0,
+                      "qseq": "KAVKSLVKKLKKTGQLDELEKAITTQNV",
+                      "hseq": "KAVKRIIKTLKKYGMQLTGKPKIQIQNI",
+                      "midline": "KAVK ++K LKK G     +  I  QN+"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P16009|NEEDL_BPT4",
+                      "accession": "P16009",
+                      "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 575,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 8.41204,
+                      "identity": 17,
+                      "positive": 34,
+                      "query_from": 1,
+                      "query_to": 72,
+                      "hit_from": 286,
+                      "hit_to": 362,
+                      "align_len": 77,
+                      "gaps": 5,
+                      "qseq": "MSSILPFTPPIVKRLLG-WKKGEQNGQEEKWCE--KAVKSLVKKLKKTGQLDELEKAITT--QNVNTKCITIPRSLD",
+                      "hseq": "VGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSD",
+                      "midline": "+  +  F   +   L G W+K  + G++  W +  K   S V  +  TG L+     + T  ++++    T+ +S D"
+                    }
+                  ]
                 }
               ],
-              "len": 467,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 778.859,
-                  "score": 2010,
-                  "evalue": 0,
-                  "identity": 391,
-                  "positive": 410,
-                  "query_from": 1,
-                  "query_to": 425,
-                  "hit_from": 1,
-                  "hit_to": 467,
-                  "align_len": 467,
-                  "gaps": 42,
-                  "qseq": "MSSILPFTPPIVKRLLGWKKG----------EQNGQEEKWCEKAVKSLVKKLKKTGQLDELEKAITTQNVNTKCITIP------------------------------RSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELRAMELCEFAFNMKKDEVCVNPYHYQRVETPVLPPVLVPRHTEIPAEFPPLDDYSHSIPENTNFPAGIEPQSN-IPETPPPGYLSEDGETSDHQMNHSMDAGSP-NLSPNPMSPAHNNLDLQPVTYCEPAFWCSISYYELNQRVGETFHASQPSMTVDGFTDPSNSERFCLGLLSNVNRNAAVELTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSIRCSSVS",
-                  "hseq": "MSSILPFTPPVVKRLLGWKKSAGGSGGAGGGEQNGQEEKWCEKAVKSLVKKLKKTGRLDELEKAITTQNCNTKCVTIPSTCSEIWGLSTPNTIDQWDTTGLYSFSEQTRSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELKAIENCEYAFNLKKDEVCVNPYHYQRVETPVLPPVLVPRHTEILTELPPLDDYTHSIPENTNFPAGIEPQSNYIPETPPPGYISEDGETSDQQLNQSMDTGSPAELSPTTLSPVNHSLDLQPVTYSEPAFWCSIAYYELNQRVGETFHASQPSLTVDGFTDPSNSERFCLGLLSNVNRNATVEMTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSVRCSSMS",
-                  "midline": "MSSILPFTPP+VKRLLGWKK           EQNGQEEKWCEKAVKSLVKKLKKTG+LDELEKAITTQN NTKC+TIP                              RSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHEL+A+E CE+AFN+KKDEVCVNPYHYQRVETPVLPPVLVPRHTEI  E PPLDDY+HSIPENTNFPAGIEPQSN IPETPPPGY+SEDGETSD Q+N SMD GSP  LSP  +SP +++LDLQPVTY EPAFWCSI+YYELNQRVGETFHASQPS+TVDGFTDPSNSERFCLGLLSNVNRNA VE+TRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPS+RCSS+S"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q15797|SMAD1_HUMAN",
-                  "accession": "Q15797",
-                  "title": "Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1"
-                }
-              ],
-              "len": 465,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 536.954,
-                  "score": 1382,
-                  "evalue": 0,
-                  "identity": 286,
-                  "positive": 333,
-                  "query_from": 1,
-                  "query_to": 425,
-                  "hit_from": 3,
-                  "hit_to": 465,
-                  "align_len": 471,
-                  "gaps": 54,
-                  "qseq": "MSSILPFTPPIVKRLLGWKKGEQNGQEEKWCEKAVKSLVKKLKKT-GQLDELEKAITTQNVNTKCITIPRSLDGRLQVSHRKGLPHVIYCRLWRWPDLHSHHELRAMELCEFAFNMKKDEVCVNPYHYQRVETPVLPPVLVPRHTE------IPAEFPPLDDYSHSIPENTNFPAGIE----------PQSNIP---------------------------ETPPPGYLS-EDGETSDHQMNHSMDAGSPNLSPNPMSPAHNNLDLQPVTYCEPAFWCSISYYELNQRVGETFHASQPSMTVDGFTDPSNSE-RFCLGLLSNVNRNAAVELTRRHIGRGVRLYYIGGEVFAECLSDSAIFVQSPNCNQRYGWHPATVCKIPPGCNLKIFNNQEFAALLAQSVNQGFEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNGPLQWLDKVLTQMGSPSIRCSSVS",
-                  "hseq": "VTSLFSFTSPAVKRLLGWKQGDE---EEKWAEKAVDALVKKLKKKKGAMEELEKALSCPGQPSNCVTIPRSLDGRLQVSHRKGLPHVIYCRVWRWPDLQSHHELKPLECCEFPFGSKQKEVCINPYHYKRVESPVLPPVLVPRHSEYNPQHSLLAQFRNLGQNEPHMPLNATFPDSFQQPNSHPFPHSPNSSYPNSPGSSSSTYPHSPTSSDPGSPFQMPADTPPPAYLPPEDPMTQD--GSQPMDT---NMMAPPLPSEINRGDVQAVAYEEPKHWCSIVYYELNNRVGEAFHASSTSVLVDGFTDPSNNKNRFCLGLLSNVNRNSTIENTRRHIGKGVHLYYVGGEVYAECLSDSSIFVQSRNCNYHHGFHPTTVCKIPSGCSLKIFNNQEFAQLLAQSVNHGFETVYELTKMCTIRMSFVKGWGAEYHRQDVTSTPCWIEIHLHGPLQWLDKVLTQMGSPHNPISSVS",
-                  "midline": "++S+  FT P VKRLLGWK+G++   EEKW EKAV +LVKKLKK  G ++ELEKA++     + C+TIPRSLDGRLQVSHRKGLPHVIYCR+WRWPDL SHHEL+ +E CEF F  K+ EVC+NPYHY+RVE+PVLPPVLVPRH+E      + A+F  L      +P N  FP   +          P S+ P                           +TPPP YL  ED  T D   +  MD    N+   P+    N  D+Q V Y EP  WCSI YYELN RVGE FHAS  S+ VDGFTDPSN++ RFCLGLLSNVNRN+ +E TRRHIG+GV LYY+GGEV+AECLSDS+IFVQS NCN  +G+HP TVCKIP GC+LKIFNNQEFA LLAQSVN GFE VY+LT+MCTIRMSFVKGWGAEY RQ VTSTPCWIE+HL+GPLQWLDKVLTQMGSP    SSVS"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|Q9BS40|LXN_HUMAN",
-                  "accession": "Q9BS40",
-                  "title": "Latexin OS=Homo sapiens OX=9606 GN=LXN PE=1 SV=2"
-                }
-              ],
-              "len": 222,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 1.55718,
-                  "identity": 11,
-                  "positive": 21,
-                  "query_from": 23,
-                  "query_to": 65,
-                  "hit_from": 150,
-                  "hit_to": 192,
-                  "align_len": 43,
-                  "gaps": 0,
-                  "qseq": "QNGQEEKWCEKAVKSLVKKLKKTGQLDELEKAITTQNVNTKCI",
-                  "hseq": "QNSTEDTWYKMVKIQTVKQVQRNDDFIELDYTILLHNIASQEI",
-                  "midline": "QN  E+ W +      VK++++     EL+  I   N+ ++ I"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P37330|MASZ_ECOLI",
-                  "accession": "P37330",
-                  "title": "Malate synthase G OS=Escherichia coli (strain K12) OX=83333 GN=glcB PE=1 SV=3"
-                }
-              ],
-              "len": 723,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 1.58174,
-                  "identity": 14,
-                  "positive": 16,
-                  "query_from": 143,
-                  "query_to": 168,
-                  "hit_from": 562,
-                  "hit_to": 589,
-                  "align_len": 28,
-                  "gaps": 2,
-                  "qseq": "HTEIPAEFPPLDDYSHSIP--ENTNFPA",
-                  "hseq": "QTEFNAEFEPLLDDLLTIPVAENANWSA",
-                  "midline": " TE  AEF PL D   +IP  EN N+ A"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P39594|THIE_BACSU",
-                  "accession": "P39594",
-                  "title": "Thiamine-phosphate synthase OS=Bacillus subtilis (strain 168) OX=224308 GN=thiE PE=1 SV=1"
-                }
-              ],
-              "len": 222,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 1.9431,
-                  "identity": 8,
-                  "positive": 14,
-                  "query_from": 217,
-                  "query_to": 248,
-                  "hit_from": 22,
-                  "hit_to": 53,
-                  "align_len": 32,
-                  "gaps": 0,
-                  "qseq": "NNLDLQPVTYCEPAFWCSISYYELNQRVGETF",
-                  "hseq": "NNTKADPVTVVQKALKGGATLYQFREKGGDAL",
-                  "midline": "NN    PVT  + A     + Y+  ++ G+  "
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P00327|ADH1E_HORSE",
-                  "accession": "P00327",
-                  "title": "Alcohol dehydrogenase E chain OS=Equus caballus OX=9796 PE=1 SV=2"
-                }
-              ],
-              "len": 375,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 3.51149,
-                  "identity": 11,
-                  "positive": 17,
-                  "query_from": 360,
-                  "query_to": 402,
-                  "hit_from": 161,
-                  "hit_to": 203,
-                  "align_len": 43,
-                  "gaps": 0,
-                  "qseq": "FEAVYQLTRMCTIRMSFVKGWGAEYRRQTVTSTPCWIELHLNG",
-                  "hseq": "IDAASPLEKVCLIGCGFSTGYGSAVKVAKVTQGSTCAVFGLGG",
-                  "midline": " +A   L ++C I   F  G+G+  +   VT         L G"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|Q9UWN7|TBP_SULAC",
-                  "accession": "Q9UWN7",
-                  "title": "TATA-box-binding protein OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=tbp PE=1 SV=1"
-                }
-              ],
-              "len": 197,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 6.42339,
-                  "identity": 12,
-                  "positive": 16,
-                  "query_from": 33,
-                  "query_to": 60,
-                  "hit_from": 81,
-                  "hit_to": 108,
-                  "align_len": 28,
-                  "gaps": 0,
-                  "qseq": "KAVKSLVKKLKKTGQLDELEKAITTQNV",
-                  "hseq": "KAVKRIIKTLKKYGMQLTGKPKIQIQNI",
-                  "midline": "KAVK ++K LKK G     +  I  QN+"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|P16009|NEEDL_BPT4",
-                  "accession": "P16009",
-                  "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
-                }
-              ],
-              "len": 575,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 8.41204,
-                  "identity": 17,
-                  "positive": 34,
-                  "query_from": 1,
-                  "query_to": 72,
-                  "hit_from": 286,
-                  "hit_to": 362,
-                  "align_len": 77,
-                  "gaps": 5,
-                  "qseq": "MSSILPFTPPIVKRLLG-WKKGEQNGQEEKWCE--KAVKSLVKKLKKTGQLDELEKAITT--QNVNTKCITIPRSLD",
-                  "hseq": "VGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSD",
-                  "midline": "+  +  F   +   L G W+K  + G++  W +  K   S V  +  TG L+     + T  ++++    T+ +S D"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 68,
+                "eff_space": 24458070,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 68,
-            "eff_space": 24458070,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

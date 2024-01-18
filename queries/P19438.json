@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,219 +17,224 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P19438|TNR1A_HUMAN Tumor necrosis factor receptor superfamily member 1A OS=Homo sapiens OX=9606 GN=TNFRSF1A PE=1 SV=1",
-          "query_len": 455,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P19438|TNR1A_HUMAN",
-                  "accession": "P19438",
-                  "title": "Tumor necrosis factor receptor superfamily member 1A OS=Homo sapiens OX=9606 GN=TNFRSF1A PE=1 SV=1"
-                }
-              ],
-              "len": 455,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P19438|TNR1A_HUMAN Tumor necrosis factor receptor superfamily member 1A OS=Homo sapiens OX=9606 GN=TNFRSF1A PE=1 SV=1",
+              "query_len": 455,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 932.939,
-                  "score": 2410,
-                  "evalue": 0,
-                  "identity": 455,
-                  "positive": 455,
-                  "query_from": 1,
-                  "query_to": 455,
-                  "hit_from": 1,
-                  "hit_to": 455,
-                  "align_len": 455,
-                  "gaps": 0,
-                  "qseq": "MGLSTVPDLLLPLVLLELLVGIYPSGVIGLVPHLGDREKRDSVCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVCGCRKNQYRHYWSENLFQCFNCSLCLNGTVHLSCQEKQNTVCTCHAGFFLRENECVSCSNCKKSLECTKLCLPQIENVKGTEDSGTTVLLPLVIFFGLCLLSLLFIGLMYRYQRWKSKLYSIVCGKSTPEKEGELEGTTTKPLAPNPSFSPTPGFTPTLGFSPVPSSTFTSSSTYTPGDCPNFAAPRREVAPPYQGADPILATALASDPIPNPLQKWEDSAHKPQSLDTDDPATLYAVVENVPPLRWKEFVRRLGLSDHEIDRLELQNGRCLREAQYSMLATWRRRTPRREATLELLGRVLRDMDLLGCLEDIEEALCGPAALPPAPSLLR",
-                  "hseq": "MGLSTVPDLLLPLVLLELLVGIYPSGVIGLVPHLGDREKRDSVCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVCGCRKNQYRHYWSENLFQCFNCSLCLNGTVHLSCQEKQNTVCTCHAGFFLRENECVSCSNCKKSLECTKLCLPQIENVKGTEDSGTTVLLPLVIFFGLCLLSLLFIGLMYRYQRWKSKLYSIVCGKSTPEKEGELEGTTTKPLAPNPSFSPTPGFTPTLGFSPVPSSTFTSSSTYTPGDCPNFAAPRREVAPPYQGADPILATALASDPIPNPLQKWEDSAHKPQSLDTDDPATLYAVVENVPPLRWKEFVRRLGLSDHEIDRLELQNGRCLREAQYSMLATWRRRTPRREATLELLGRVLRDMDLLGCLEDIEEALCGPAALPPAPSLLR",
-                  "midline": "MGLSTVPDLLLPLVLLELLVGIYPSGVIGLVPHLGDREKRDSVCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVCGCRKNQYRHYWSENLFQCFNCSLCLNGTVHLSCQEKQNTVCTCHAGFFLRENECVSCSNCKKSLECTKLCLPQIENVKGTEDSGTTVLLPLVIFFGLCLLSLLFIGLMYRYQRWKSKLYSIVCGKSTPEKEGELEGTTTKPLAPNPSFSPTPGFTPTLGFSPVPSSTFTSSSTYTPGDCPNFAAPRREVAPPYQGADPILATALASDPIPNPLQKWEDSAHKPQSLDTDDPATLYAVVENVPPLRWKEFVRRLGLSDHEIDRLELQNGRCLREAQYSMLATWRRRTPRREATLELLGRVLRDMDLLGCLEDIEEALCGPAALPPAPSLLR"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P07174|TNR16_RAT",
-                  "accession": "P07174",
-                  "title": "Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1"
-                }
-              ],
-              "len": 425,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 50.0618,
-                  "score": 118,
-                  "evalue": 1.1857e-08,
-                  "identity": 53,
-                  "positive": 79,
-                  "query_from": 43,
-                  "query_to": 204,
-                  "hit_from": 32,
-                  "hit_to": 194,
-                  "align_len": 174,
-                  "gaps": 23,
-                  "qseq": "VCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCREC-ESGSFTASENHLRHCLSCSKCRKEMGQVEISS-CTVDRDTVCGCRKNQYRHYWSENLFQCFNCSLCLNGT-VHLSCQEKQNTVC-TCHAGFFLRE----NECVSCSNCKKS----LECTKLCLPQIENVKG",
-                  "hseq": "TCSTGLYTH---SGECCKACNLGEGVAQPC-GANQ-TVCEPCLDNVTFSDVVSATEPCKPCTEC---LGLQSMSAPCVEADDAVCRCA---YGYYQDEETGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEANHVDPCLPCTVCEDTERQLRECTPWADAECEEIPG",
-                  "midline": " C  G Y H   +  CC  C+ G  +   C G  Q T C  C ++ +F+   +    C  C++C   +G   +S+ C    D VC C    Y +Y  E    C  CS+C  G+ +  SCQ+KQNTVC  C  G +  E    + C+ C+ C+ +     ECT     + E + G"
+                  "description": [
+                    {
+                      "id": "sp|P19438|TNR1A_HUMAN",
+                      "accession": "P19438",
+                      "title": "Tumor necrosis factor receptor superfamily member 1A OS=Homo sapiens OX=9606 GN=TNFRSF1A PE=1 SV=1"
+                    }
+                  ],
+                  "len": 455,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 932.939,
+                      "score": 2410,
+                      "evalue": 0,
+                      "identity": 455,
+                      "positive": 455,
+                      "query_from": 1,
+                      "query_to": 455,
+                      "hit_from": 1,
+                      "hit_to": 455,
+                      "align_len": 455,
+                      "gaps": 0,
+                      "qseq": "MGLSTVPDLLLPLVLLELLVGIYPSGVIGLVPHLGDREKRDSVCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVCGCRKNQYRHYWSENLFQCFNCSLCLNGTVHLSCQEKQNTVCTCHAGFFLRENECVSCSNCKKSLECTKLCLPQIENVKGTEDSGTTVLLPLVIFFGLCLLSLLFIGLMYRYQRWKSKLYSIVCGKSTPEKEGELEGTTTKPLAPNPSFSPTPGFTPTLGFSPVPSSTFTSSSTYTPGDCPNFAAPRREVAPPYQGADPILATALASDPIPNPLQKWEDSAHKPQSLDTDDPATLYAVVENVPPLRWKEFVRRLGLSDHEIDRLELQNGRCLREAQYSMLATWRRRTPRREATLELLGRVLRDMDLLGCLEDIEEALCGPAALPPAPSLLR",
+                      "hseq": "MGLSTVPDLLLPLVLLELLVGIYPSGVIGLVPHLGDREKRDSVCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVCGCRKNQYRHYWSENLFQCFNCSLCLNGTVHLSCQEKQNTVCTCHAGFFLRENECVSCSNCKKSLECTKLCLPQIENVKGTEDSGTTVLLPLVIFFGLCLLSLLFIGLMYRYQRWKSKLYSIVCGKSTPEKEGELEGTTTKPLAPNPSFSPTPGFTPTLGFSPVPSSTFTSSSTYTPGDCPNFAAPRREVAPPYQGADPILATALASDPIPNPLQKWEDSAHKPQSLDTDDPATLYAVVENVPPLRWKEFVRRLGLSDHEIDRLELQNGRCLREAQYSMLATWRRRTPRREATLELLGRVLRDMDLLGCLEDIEEALCGPAALPPAPSLLR",
+                      "midline": "MGLSTVPDLLLPLVLLELLVGIYPSGVIGLVPHLGDREKRDSVCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVCGCRKNQYRHYWSENLFQCFNCSLCLNGTVHLSCQEKQNTVCTCHAGFFLRENECVSCSNCKKSLECTKLCLPQIENVKGTEDSGTTVLLPLVIFFGLCLLSLLFIGLMYRYQRWKSKLYSIVCGKSTPEKEGELEGTTTKPLAPNPSFSPTPGFTPTLGFSPVPSSTFTSSSTYTPGDCPNFAAPRREVAPPYQGADPILATALASDPIPNPLQKWEDSAHKPQSLDTDDPATLYAVVENVPPLRWKEFVRRLGLSDHEIDRLELQNGRCLREAQYSMLATWRRRTPRREATLELLGRVLRDMDLLGCLEDIEEALCGPAALPPAPSLLR"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 34.6538,
-                  "score": 78,
-                  "evalue": 0.000806996,
-                  "identity": 28,
-                  "positive": 41,
-                  "query_from": 38,
-                  "query_to": 125,
-                  "hit_from": 102,
-                  "hit_to": 189,
-                  "align_len": 91,
-                  "gaps": 6,
-                  "qseq": "EKRDSVCPQG-KYIHPQNNSIC--CTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVC",
-                  "hseq": "EADDAVCRCAYGYYQDEETGHCEACSVCEVGSGLVFSCQDK-QNTVCEECPEGTYSDEANHVDPCLPCTVC--EDTERQLRECTPWADAEC",
-                  "midline": "E  D+VC     Y   +    C  C+ C  G+ L   C    Q+T C EC  G+++   NH+  CL C+ C  E  + ++  CT   D  C"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P07174|TNR16_RAT",
+                      "accession": "P07174",
+                      "title": "Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1"
+                    }
+                  ],
+                  "len": 425,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 50.0618,
+                      "score": 118,
+                      "evalue": 1.1857e-08,
+                      "identity": 53,
+                      "positive": 79,
+                      "query_from": 43,
+                      "query_to": 204,
+                      "hit_from": 32,
+                      "hit_to": 194,
+                      "align_len": 174,
+                      "gaps": 23,
+                      "qseq": "VCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQDTDCREC-ESGSFTASENHLRHCLSCSKCRKEMGQVEISS-CTVDRDTVCGCRKNQYRHYWSENLFQCFNCSLCLNGT-VHLSCQEKQNTVC-TCHAGFFLRE----NECVSCSNCKKS----LECTKLCLPQIENVKG",
+                      "hseq": "TCSTGLYTH---SGECCKACNLGEGVAQPC-GANQ-TVCEPCLDNVTFSDVVSATEPCKPCTEC---LGLQSMSAPCVEADDAVCRCA---YGYYQDEETGHCEACSVCEVGSGLVFSCQDKQNTVCEECPEGTYSDEANHVDPCLPCTVCEDTERQLRECTPWADAECEEIPG",
+                      "midline": " C  G Y H   +  CC  C+ G  +   C G  Q T C  C ++ +F+   +    C  C++C   +G   +S+ C    D VC C    Y +Y  E    C  CS+C  G+ +  SCQ+KQNTVC  C  G +  E    + C+ C+ C+ +     ECT     + E + G"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 34.6538,
+                      "score": 78,
+                      "evalue": 0.000806996,
+                      "identity": 28,
+                      "positive": 41,
+                      "query_from": 38,
+                      "query_to": 125,
+                      "hit_from": 102,
+                      "hit_to": 189,
+                      "align_len": 91,
+                      "gaps": 6,
+                      "qseq": "EKRDSVCPQG-KYIHPQNNSIC--CTKCHKGTYLYNDCPGPGQDTDCRECESGSFTASENHLRHCLSCSKCRKEMGQVEISSCTVDRDTVC",
+                      "hseq": "EADDAVCRCAYGYYQDEETGHCEACSVCEVGSGLVFSCQDK-QNTVCEECPEGTYSDEANHVDPCLPCTVC--EDTERQLRECTPWADAEC",
+                      "midline": "E  D+VC     Y   +    C  C+ C  G+ L   C    Q+T C EC  G+++   NH+  CL C+ C  E  + ++  CT   D  C"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P54578|UBP14_HUMAN",
-                  "accession": "P54578",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 14 OS=Homo sapiens OX=9606 GN=USP14 PE=1 SV=3"
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P54578|UBP14_HUMAN",
+                      "accession": "P54578",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 14 OS=Homo sapiens OX=9606 GN=USP14 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 494,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 28.4906,
+                      "score": 62,
+                      "evalue": 0.0717938,
+                      "identity": 20,
+                      "positive": 33,
+                      "query_from": 333,
+                      "query_to": 396,
+                      "hit_from": 2,
+                      "hit_to": 69,
+                      "align_len": 69,
+                      "gaps": 6,
+                      "qseq": "PIPNPLQKWEDSAHKPQSLDTDDP-----ATLYAVVENVPPLRWKEFVRRLGLSDHEIDRLELQNGRCL",
+                      "hseq": "PLYSVTVKWGKEKFEGVELNTDEPPMVFKAQLFALT-GVQPARQKVMVKGGTLKDDDWGNIKIKNGMTL",
+                      "midline": "P+ +   KW     +   L+TD+P     A L+A+   V P R K  V+   L D +   ++++NG  L"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P55211|CASP9_HUMAN",
+                      "accession": "P55211",
+                      "title": "Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 416,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 26.1794,
+                      "score": 56,
+                      "evalue": 0.331153,
+                      "identity": 25,
+                      "positive": 34,
+                      "query_from": 240,
+                      "query_to": 311,
+                      "hit_from": 278,
+                      "hit_to": 355,
+                      "align_len": 85,
+                      "gaps": 20,
+                      "qseq": "KSKLYSI-VCGKSTPEKEGELEGTTTKPLAPNPSFSPTPGFTP------------TLGFSPVPSSTFTSSSTYTPGDCPNFAAPR",
+                      "hseq": "KPKLFFIQACGGE--QKDHGFEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPSDIFVSYSTF-----PGFVSWR",
+                      "midline": "K KL+ I  CG    +K+   E  +T P   +P  +P P  TP             +   P PS  F S ST+     P F + R"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|O75604|UBP2_HUMAN",
+                      "accession": "O75604",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 605,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 25.409,
+                      "score": 54,
+                      "evalue": 0.630443,
+                      "identity": 15,
+                      "positive": 20,
+                      "query_from": 283,
+                      "query_to": 321,
+                      "hit_from": 49,
+                      "hit_to": 88,
+                      "align_len": 40,
+                      "gaps": 1,
+                      "qseq": "LGFSPVPSSTF-TSSSTYTPGDCPNFAAPRREVAPPYQGA",
+                      "hseq": "LGFKPVPTSSFLTRPRTYGPSSLLDYDRGRPLLRPDITGG",
+                      "midline": "LGF PVP+S+F T   TY P    ++   R  + P   G "
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q8WTS6|SETD7_HUMAN",
+                      "accession": "Q8WTS6",
+                      "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 366,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.2534,
+                      "score": 51,
+                      "evalue": 1.21302,
+                      "identity": 17,
+                      "positive": 30,
+                      "query_from": 41,
+                      "query_to": 100,
+                      "hit_from": 66,
+                      "hit_to": 118,
+                      "align_len": 62,
+                      "gaps": 11,
+                      "qseq": "DSVCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQ--DTDCRECESGSFTASENHLRHCL",
+                      "hseq": "DALQGQGVYTYEDGGVL------QGTYVDGELNGPAQEYDTDGRLIFKGQY---KDNIRHGV",
+                      "midline": "D++  QG Y +     +      +GTY+  +  GP Q  DTD R    G +   ++++RH +"
+                    }
+                  ]
                 }
               ],
-              "len": 494,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 28.4906,
-                  "score": 62,
-                  "evalue": 0.0717938,
-                  "identity": 20,
-                  "positive": 33,
-                  "query_from": 333,
-                  "query_to": 396,
-                  "hit_from": 2,
-                  "hit_to": 69,
-                  "align_len": 69,
-                  "gaps": 6,
-                  "qseq": "PIPNPLQKWEDSAHKPQSLDTDDP-----ATLYAVVENVPPLRWKEFVRRLGLSDHEIDRLELQNGRCL",
-                  "hseq": "PLYSVTVKWGKEKFEGVELNTDEPPMVFKAQLFALT-GVQPARQKVMVKGGTLKDDDWGNIKIKNGMTL",
-                  "midline": "P+ +   KW     +   L+TD+P     A L+A+   V P R K  V+   L D +   ++++NG  L"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P55211|CASP9_HUMAN",
-                  "accession": "P55211",
-                  "title": "Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3"
-                }
-              ],
-              "len": 416,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 26.1794,
-                  "score": 56,
-                  "evalue": 0.331153,
-                  "identity": 25,
-                  "positive": 34,
-                  "query_from": 240,
-                  "query_to": 311,
-                  "hit_from": 278,
-                  "hit_to": 355,
-                  "align_len": 85,
-                  "gaps": 20,
-                  "qseq": "KSKLYSI-VCGKSTPEKEGELEGTTTKPLAPNPSFSPTPGFTP------------TLGFSPVPSSTFTSSSTYTPGDCPNFAAPR",
-                  "hseq": "KPKLFFIQACGGE--QKDHGFEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPSDIFVSYSTF-----PGFVSWR",
-                  "midline": "K KL+ I  CG    +K+   E  +T P   +P  +P P  TP             +   P PS  F S ST+     P F + R"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|O75604|UBP2_HUMAN",
-                  "accession": "O75604",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
-                }
-              ],
-              "len": 605,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 25.409,
-                  "score": 54,
-                  "evalue": 0.630443,
-                  "identity": 15,
-                  "positive": 20,
-                  "query_from": 283,
-                  "query_to": 321,
-                  "hit_from": 49,
-                  "hit_to": 88,
-                  "align_len": 40,
-                  "gaps": 1,
-                  "qseq": "LGFSPVPSSTF-TSSSTYTPGDCPNFAAPRREVAPPYQGA",
-                  "hseq": "LGFKPVPTSSFLTRPRTYGPSSLLDYDRGRPLLRPDITGG",
-                  "midline": "LGF PVP+S+F T   TY P    ++   R  + P   G "
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q8WTS6|SETD7_HUMAN",
-                  "accession": "Q8WTS6",
-                  "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
-                }
-              ],
-              "len": 366,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.2534,
-                  "score": 51,
-                  "evalue": 1.21302,
-                  "identity": 17,
-                  "positive": 30,
-                  "query_from": 41,
-                  "query_to": 100,
-                  "hit_from": 66,
-                  "hit_to": 118,
-                  "align_len": 62,
-                  "gaps": 11,
-                  "qseq": "DSVCPQGKYIHPQNNSICCTKCHKGTYLYNDCPGPGQ--DTDCRECESGSFTASENHLRHCL",
-                  "hseq": "DALQGQGVYTYEDGGVL------QGTYVDGELNGPAQEYDTDGRLIFKGQY---KDNIRHGV",
-                  "midline": "D++  QG Y +     +      +GTY+  +  GP Q  DTD R    G +   ++++RH +"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 68,
+                "eff_space": 26513370,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 68,
-            "eff_space": 26513370,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

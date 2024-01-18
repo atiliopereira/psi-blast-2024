@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,262 +17,267 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P55211|CASP9_HUMAN Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3",
-          "query_len": 416,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P55211|CASP9_HUMAN",
-                  "accession": "P55211",
-                  "title": "Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3"
-                }
-              ],
-              "len": 416,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P55211|CASP9_HUMAN Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3",
+              "query_len": 416,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 855.514,
-                  "score": 2209,
-                  "evalue": 0,
-                  "identity": 416,
-                  "positive": 416,
-                  "query_from": 1,
-                  "query_to": 416,
-                  "hit_from": 1,
-                  "hit_to": 416,
-                  "align_len": 416,
-                  "gaps": 0,
-                  "qseq": "MDEADRRLLRRCRLRLVEELQVDQLWDALLSRELFRPHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISCLEDTGQDMLASFLRTNRQAAKLSKPTLENLTPVVLRPEIRKPEVLRPETPRPVDIGSGGFGDVGALESLRGNADLAYILSMEPCGHCLIINNVNFCRESGLRTRTGSNIDCEKLRRRFSSLHFMVEVKGDLTAKKMVLALLELAQQDHGALDCCVVVILSHGCQASHLQFPGAVYGTDGCPVSVEKIVNIFNGTSCPSLGGKPKLFFIQACGGEQKDHGFEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPSDIFVSYSTFPGFVSWRDPKSGSWYVETLDDIFEQWAHSEDLQSLLLRVANAVSVKGIYKQMPGCFNFLRKKLFFKTS",
-                  "hseq": "MDEADRRLLRRCRLRLVEELQVDQLWDALLSRELFRPHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISCLEDTGQDMLASFLRTNRQAAKLSKPTLENLTPVVLRPEIRKPEVLRPETPRPVDIGSGGFGDVGALESLRGNADLAYILSMEPCGHCLIINNVNFCRESGLRTRTGSNIDCEKLRRRFSSLHFMVEVKGDLTAKKMVLALLELAQQDHGALDCCVVVILSHGCQASHLQFPGAVYGTDGCPVSVEKIVNIFNGTSCPSLGGKPKLFFIQACGGEQKDHGFEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPSDIFVSYSTFPGFVSWRDPKSGSWYVETLDDIFEQWAHSEDLQSLLLRVANAVSVKGIYKQMPGCFNFLRKKLFFKTS",
-                  "midline": "MDEADRRLLRRCRLRLVEELQVDQLWDALLSRELFRPHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISCLEDTGQDMLASFLRTNRQAAKLSKPTLENLTPVVLRPEIRKPEVLRPETPRPVDIGSGGFGDVGALESLRGNADLAYILSMEPCGHCLIINNVNFCRESGLRTRTGSNIDCEKLRRRFSSLHFMVEVKGDLTAKKMVLALLELAQQDHGALDCCVVVILSHGCQASHLQFPGAVYGTDGCPVSVEKIVNIFNGTSCPSLGGKPKLFFIQACGGEQKDHGFEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPSDIFVSYSTFPGFVSWRDPKSGSWYVETLDDIFEQWAHSEDLQSLLLRVANAVSVKGIYKQMPGCFNFLRKKLFFKTS"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P55211|CASP9_HUMAN",
+                      "accession": "P55211",
+                      "title": "Caspase-9 OS=Homo sapiens OX=9606 GN=CASP9 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 416,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 855.514,
+                      "score": 2209,
+                      "evalue": 0,
+                      "identity": 416,
+                      "positive": 416,
+                      "query_from": 1,
+                      "query_to": 416,
+                      "hit_from": 1,
+                      "hit_to": 416,
+                      "align_len": 416,
+                      "gaps": 0,
+                      "qseq": "MDEADRRLLRRCRLRLVEELQVDQLWDALLSRELFRPHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISCLEDTGQDMLASFLRTNRQAAKLSKPTLENLTPVVLRPEIRKPEVLRPETPRPVDIGSGGFGDVGALESLRGNADLAYILSMEPCGHCLIINNVNFCRESGLRTRTGSNIDCEKLRRRFSSLHFMVEVKGDLTAKKMVLALLELAQQDHGALDCCVVVILSHGCQASHLQFPGAVYGTDGCPVSVEKIVNIFNGTSCPSLGGKPKLFFIQACGGEQKDHGFEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPSDIFVSYSTFPGFVSWRDPKSGSWYVETLDDIFEQWAHSEDLQSLLLRVANAVSVKGIYKQMPGCFNFLRKKLFFKTS",
+                      "hseq": "MDEADRRLLRRCRLRLVEELQVDQLWDALLSRELFRPHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISCLEDTGQDMLASFLRTNRQAAKLSKPTLENLTPVVLRPEIRKPEVLRPETPRPVDIGSGGFGDVGALESLRGNADLAYILSMEPCGHCLIINNVNFCRESGLRTRTGSNIDCEKLRRRFSSLHFMVEVKGDLTAKKMVLALLELAQQDHGALDCCVVVILSHGCQASHLQFPGAVYGTDGCPVSVEKIVNIFNGTSCPSLGGKPKLFFIQACGGEQKDHGFEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPSDIFVSYSTFPGFVSWRDPKSGSWYVETLDDIFEQWAHSEDLQSLLLRVANAVSVKGIYKQMPGCFNFLRKKLFFKTS",
+                      "midline": "MDEADRRLLRRCRLRLVEELQVDQLWDALLSRELFRPHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISCLEDTGQDMLASFLRTNRQAAKLSKPTLENLTPVVLRPEIRKPEVLRPETPRPVDIGSGGFGDVGALESLRGNADLAYILSMEPCGHCLIINNVNFCRESGLRTRTGSNIDCEKLRRRFSSLHFMVEVKGDLTAKKMVLALLELAQQDHGALDCCVVVILSHGCQASHLQFPGAVYGTDGCPVSVEKIVNIFNGTSCPSLGGKPKLFFIQACGGEQKDHGFEVASTSPEDESPGSNPEPDATPFQEGLRTFDQLDAISSLPTPSDIFVSYSTFPGFVSWRDPKSGSWYVETLDDIFEQWAHSEDLQSLLLRVANAVSVKGIYKQMPGCFNFLRKKLFFKTS"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P18887|XRCC1_HUMAN",
-                  "accession": "P18887",
-                  "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P18887|XRCC1_HUMAN",
+                      "accession": "P18887",
+                      "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 633,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.6386,
+                      "score": 52,
+                      "evalue": 0.979771,
+                      "identity": 12,
+                      "positive": 20,
+                      "query_from": 163,
+                      "query_to": 205,
+                      "hit_from": 362,
+                      "hit_to": 407,
+                      "align_len": 46,
+                      "gaps": 3,
+                      "qseq": "CLIINNVNFCRESGLRTRTGSN---IDCEKLRRRFSSLHFMVEVKG",
+                      "hseq": "CAFANTPKYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRYLMAGPG",
+                      "midline": "C   N   + +  GL  R       +DC ++RRR  S  +++   G"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q9BS40|LXN_HUMAN",
+                      "accession": "Q9BS40",
+                      "title": "Latexin OS=Homo sapiens OX=9606 GN=LXN PE=1 SV=2"
+                    }
+                  ],
+                  "len": 222,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 3.16754,
+                      "identity": 12,
+                      "positive": 28,
+                      "query_from": 309,
+                      "query_to": 363,
+                      "hit_from": 96,
+                      "hit_to": 158,
+                      "align_len": 63,
+                      "gaps": 8,
+                      "qseq": "GSNPEPDATPFQEGLRTFDQLDAISSLP------TPSDIFVSYSTFP--GFVSWRDPKSGSWY",
+                      "hseq": "GKNPDEEDNTFYQRLKSMKEPLEAQNIPDNFGNVSPEMTLVLHLAWVACGYIIWQNSTEDTWY",
+                      "midline": "G NP+ +   F + L++  +     ++P      +P    V +  +   G++ W++    +WY"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P07327|ADH1A_HUMAN",
+                      "accession": "P07327",
+                      "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
+                    }
+                  ],
+                  "len": 375,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 3.76845,
+                      "identity": 18,
+                      "positive": 27,
+                      "query_from": 125,
+                      "query_to": 183,
+                      "hit_from": 60,
+                      "hit_to": 123,
+                      "align_len": 64,
+                      "gaps": 5,
+                      "qseq": "TPRPVDIGSGGFG---DVGALESLRGNADLAYILSMEPCGHCLIINN--VNFCRESGLRTRTGS",
+                      "hseq": "TPLPVILGHEAAGIVESVGEGVTTVKPGDKVIPLAIPQCGKCRICKNPESNYCLKNDVSNPQGT",
+                      "midline": "TP PV +G    G    VG   +     D    L++  CG C I  N   N+C ++ +    G+"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P56968|PYRK_LACLM",
+                      "accession": "P56968",
+                      "title": "Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit OS=Lactococcus lactis subsp. cremoris (strain MG1363) OX=416870 GN=pyrK PE=1 SV=1"
+                    }
+                  ],
+                  "len": 262,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 5.23339,
+                      "identity": 11,
+                      "positive": 24,
+                      "query_from": 37,
+                      "query_to": 83,
+                      "hit_from": 200,
+                      "hit_to": 241,
+                      "align_len": 47,
+                      "gaps": 5,
+                      "qseq": "PHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISCLEDTGQD",
+                      "hseq": "PAMLKAVAK-----KYDQLERLYISMESRMACGIGACYACVEHDKED",
+                      "midline": "P M++ + +     + DQ  +L I +E+R +  +    +C+E   +D"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q15796|SMAD2_HUMAN",
+                      "accession": "Q15796",
+                      "title": "Mothers against decapentaplegic homolog 2 OS=Homo sapiens OX=9606 GN=SMAD2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 467,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 7.47293,
+                      "identity": 13,
+                      "positive": 18,
+                      "query_from": 34,
+                      "query_to": 76,
+                      "hit_from": 87,
+                      "hit_to": 129,
+                      "align_len": 43,
+                      "gaps": 0,
+                      "qseq": "LFRPHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISC",
+                      "hseq": "LSTPNTIDQWDTTGLYSFSEQTRSLDGRLQVSHRKGLPHVIYC",
+                      "midline": "L  P+ I+     G  S  +Q R L   L+    + LP  I C"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P11376|LYSC1_HORSE",
+                      "accession": "P11376",
+                      "title": "Lysozyme C, milk isozyme OS=Equus caballus OX=9796 GN=LYZ PE=1 SV=1"
+                    }
+                  ],
+                  "len": 129,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 7.64231,
+                      "identity": 8,
+                      "positive": 14,
+                      "query_from": 166,
+                      "query_to": 190,
+                      "hit_from": 59,
+                      "hit_to": 83,
+                      "align_len": 25,
+                      "gaps": 0,
+                      "qseq": "INNVNFCRESGLRTRTGSNIDCEKL",
+                      "hseq": "LNNKWWCKDNKRSSSNACNIMCSKL",
+                      "midline": "+NN  +C+++   +    NI C KL"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P19438|TNR1A_HUMAN",
+                      "accession": "P19438",
+                      "title": "Tumor necrosis factor receptor superfamily member 1A OS=Homo sapiens OX=9606 GN=TNFRSF1A PE=1 SV=1"
+                    }
+                  ],
+                  "len": 455,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 7.91125,
+                      "identity": 15,
+                      "positive": 21,
+                      "query_from": 278,
+                      "query_to": 318,
+                      "hit_from": 240,
+                      "hit_to": 281,
+                      "align_len": 43,
+                      "gaps": 3,
+                      "qseq": "KPKLFFIQACGGE--QKDHGFEVASTSPEDESPGSNPEPDATP",
+                      "hseq": "KSKLYSI-VCGKSTPEKEGELEGTTTKPLAPNPSFSPTPGFTP",
+                      "midline": "K KL+ I  CG    +K+   E  +T P   +P  +P P  TP"
+                    }
+                  ]
                 }
               ],
-              "len": 633,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.6386,
-                  "score": 52,
-                  "evalue": 0.979771,
-                  "identity": 12,
-                  "positive": 20,
-                  "query_from": 163,
-                  "query_to": 205,
-                  "hit_from": 362,
-                  "hit_to": 407,
-                  "align_len": 46,
-                  "gaps": 3,
-                  "qseq": "CLIINNVNFCRESGLRTRTGSN---IDCEKLRRRFSSLHFMVEVKG",
-                  "hseq": "CAFANTPKYSQVLGLGGRIVRKEWVLDCHRMRRRLPSQRYLMAGPG",
-                  "midline": "C   N   + +  GL  R       +DC ++RRR  S  +++   G"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q9BS40|LXN_HUMAN",
-                  "accession": "Q9BS40",
-                  "title": "Latexin OS=Homo sapiens OX=9606 GN=LXN PE=1 SV=2"
-                }
-              ],
-              "len": 222,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 3.16754,
-                  "identity": 12,
-                  "positive": 28,
-                  "query_from": 309,
-                  "query_to": 363,
-                  "hit_from": 96,
-                  "hit_to": 158,
-                  "align_len": 63,
-                  "gaps": 8,
-                  "qseq": "GSNPEPDATPFQEGLRTFDQLDAISSLP------TPSDIFVSYSTFP--GFVSWRDPKSGSWY",
-                  "hseq": "GKNPDEEDNTFYQRLKSMKEPLEAQNIPDNFGNVSPEMTLVLHLAWVACGYIIWQNSTEDTWY",
-                  "midline": "G NP+ +   F + L++  +     ++P      +P    V +  +   G++ W++    +WY"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P07327|ADH1A_HUMAN",
-                  "accession": "P07327",
-                  "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
-                }
-              ],
-              "len": 375,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 3.76845,
-                  "identity": 18,
-                  "positive": 27,
-                  "query_from": 125,
-                  "query_to": 183,
-                  "hit_from": 60,
-                  "hit_to": 123,
-                  "align_len": 64,
-                  "gaps": 5,
-                  "qseq": "TPRPVDIGSGGFG---DVGALESLRGNADLAYILSMEPCGHCLIINN--VNFCRESGLRTRTGS",
-                  "hseq": "TPLPVILGHEAAGIVESVGEGVTTVKPGDKVIPLAIPQCGKCRICKNPESNYCLKNDVSNPQGT",
-                  "midline": "TP PV +G    G    VG   +     D    L++  CG C I  N   N+C ++ +    G+"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P56968|PYRK_LACLM",
-                  "accession": "P56968",
-                  "title": "Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit OS=Lactococcus lactis subsp. cremoris (strain MG1363) OX=416870 GN=pyrK PE=1 SV=1"
-                }
-              ],
-              "len": 262,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 5.23339,
-                  "identity": 11,
-                  "positive": 24,
-                  "query_from": 37,
-                  "query_to": 83,
-                  "hit_from": 200,
-                  "hit_to": 241,
-                  "align_len": 47,
-                  "gaps": 5,
-                  "qseq": "PHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISCLEDTGQD",
-                  "hseq": "PAMLKAVAK-----KYDQLERLYISMESRMACGIGACYACVEHDKED",
-                  "midline": "P M++ + +     + DQ  +L I +E+R +  +    +C+E   +D"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q15796|SMAD2_HUMAN",
-                  "accession": "Q15796",
-                  "title": "Mothers against decapentaplegic homolog 2 OS=Homo sapiens OX=9606 GN=SMAD2 PE=1 SV=1"
-                }
-              ],
-              "len": 467,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 7.47293,
-                  "identity": 13,
-                  "positive": 18,
-                  "query_from": 34,
-                  "query_to": 76,
-                  "hit_from": 87,
-                  "hit_to": 129,
-                  "align_len": 43,
-                  "gaps": 0,
-                  "qseq": "LFRPHMIEDIQRAGSGSRRDQARQLIIDLETRGSQALPLFISC",
-                  "hseq": "LSTPNTIDQWDTTGLYSFSEQTRSLDGRLQVSHRKGLPHVIYC",
-                  "midline": "L  P+ I+     G  S  +Q R L   L+    + LP  I C"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P11376|LYSC1_HORSE",
-                  "accession": "P11376",
-                  "title": "Lysozyme C, milk isozyme OS=Equus caballus OX=9796 GN=LYZ PE=1 SV=1"
-                }
-              ],
-              "len": 129,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 7.64231,
-                  "identity": 8,
-                  "positive": 14,
-                  "query_from": 166,
-                  "query_to": 190,
-                  "hit_from": 59,
-                  "hit_to": 83,
-                  "align_len": 25,
-                  "gaps": 0,
-                  "qseq": "INNVNFCRESGLRTRTGSNIDCEKL",
-                  "hseq": "LNNKWWCKDNKRSSSNACNIMCSKL",
-                  "midline": "+NN  +C+++   +    NI C KL"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P19438|TNR1A_HUMAN",
-                  "accession": "P19438",
-                  "title": "Tumor necrosis factor receptor superfamily member 1A OS=Homo sapiens OX=9606 GN=TNFRSF1A PE=1 SV=1"
-                }
-              ],
-              "len": 455,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 7.91125,
-                  "identity": 15,
-                  "positive": 21,
-                  "query_from": 278,
-                  "query_to": 318,
-                  "hit_from": 240,
-                  "hit_to": 281,
-                  "align_len": 43,
-                  "gaps": 3,
-                  "qseq": "KPKLFFIQACGGE--QKDHGFEVASTSPEDESPGSNPEPDATP",
-                  "hseq": "KSKLYSI-VCGKSTPEKEGELEGTTTKPLAPNPSFSPTPGFTP",
-                  "midline": "K KL+ I  CG    +K+   E  +T P   +P  +P P  TP"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 68,
+                "eff_space": 23841480,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 68,
-            "eff_space": 23841480,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

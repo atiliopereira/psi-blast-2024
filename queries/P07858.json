@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,399 +17,404 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P07858|CATB_HUMAN Cathepsin B OS=Homo sapiens OX=9606 GN=CTSB PE=1 SV=3",
-          "query_len": 339,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P07858|CATB_HUMAN",
-                  "accession": "P07858",
-                  "title": "Cathepsin B OS=Homo sapiens OX=9606 GN=CTSB PE=1 SV=3"
-                }
-              ],
-              "len": 339,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P07858|CATB_HUMAN Cathepsin B OS=Homo sapiens OX=9606 GN=CTSB PE=1 SV=3",
+              "query_len": 339,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 710.294,
-                  "score": 1832,
-                  "evalue": 0,
-                  "identity": 339,
-                  "positive": 339,
-                  "query_from": 1,
-                  "query_to": 339,
-                  "hit_from": 1,
-                  "hit_to": 339,
-                  "align_len": 339,
-                  "gaps": 0,
-                  "qseq": "MWQLWASLCCLLVLANARSRPSFHPLSDELVNYVNKRNTTWQAGHNFYNVDMSYLKRLCGTFLGGPKPPQRVMFTEDLKLPASFDAREQWPQCPTIKEIRDQGSCGSCWAFGAVEAISDRICIHTNAHVSVEVSAEDLLTCCGSMCGDGCNGGYPAEAWNFWTRKGLVSGGLYESHVGCRPYSIPPCEHHVNGSRPPCTGEGDTPKCSKICEPGYSPTYKQDKHYGYNSYSVSNSEKDIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESEVVAGIPRTDQYWEKI",
-                  "hseq": "MWQLWASLCCLLVLANARSRPSFHPLSDELVNYVNKRNTTWQAGHNFYNVDMSYLKRLCGTFLGGPKPPQRVMFTEDLKLPASFDAREQWPQCPTIKEIRDQGSCGSCWAFGAVEAISDRICIHTNAHVSVEVSAEDLLTCCGSMCGDGCNGGYPAEAWNFWTRKGLVSGGLYESHVGCRPYSIPPCEHHVNGSRPPCTGEGDTPKCSKICEPGYSPTYKQDKHYGYNSYSVSNSEKDIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESEVVAGIPRTDQYWEKI",
-                  "midline": "MWQLWASLCCLLVLANARSRPSFHPLSDELVNYVNKRNTTWQAGHNFYNVDMSYLKRLCGTFLGGPKPPQRVMFTEDLKLPASFDAREQWPQCPTIKEIRDQGSCGSCWAFGAVEAISDRICIHTNAHVSVEVSAEDLLTCCGSMCGDGCNGGYPAEAWNFWTRKGLVSGGLYESHVGCRPYSIPPCEHHVNGSRPPCTGEGDTPKCSKICEPGYSPTYKQDKHYGYNSYSVSNSEKDIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESEVVAGIPRTDQYWEKI"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P00787|CATB_RAT",
-                  "accession": "P00787",
-                  "title": "Cathepsin B OS=Rattus norvegicus OX=10116 GN=Ctsb PE=1 SV=2"
-                }
-              ],
-              "len": 339,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 579.711,
-                  "score": 1493,
-                  "evalue": 0,
-                  "identity": 265,
-                  "positive": 300,
-                  "query_from": 1,
-                  "query_to": 339,
-                  "hit_from": 1,
-                  "hit_to": 339,
-                  "align_len": 339,
-                  "gaps": 0,
-                  "qseq": "MWQLWASLCCLLVLANARSRPSFHPLSDELVNYVNKRNTTWQAGHNFYNVDMSYLKRLCGTFLGGPKPPQRVMFTEDLKLPASFDAREQWPQCPTIKEIRDQGSCGSCWAFGAVEAISDRICIHTNAHVSVEVSAEDLLTCCGSMCGDGCNGGYPAEAWNFWTRKGLVSGGLYESHVGCRPYSIPPCEHHVNGSRPPCTGEGDTPKCSKICEPGYSPTYKQDKHYGYNSYSVSNSEKDIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESEVVAGIPRTDQYWEKI",
-                  "hseq": "MWWSLIPLSCLLALTSAHDKPSSHPLSDDMINYINKQNTTWQAGRNFYNVDISYLKKLCGTVLGGPNLPERVGFSEDINLPESFDAREQWSNCPTIAQIRDQGSCGSCWAFGAVEAMSDRICIHTNGRVNVEVSAEDLLTCCGIQCGDGCNGGYPSGAWNFWTRKGLVSGGVYNSHIGCLPYTIPPCEHHVNGSRPPCTGEGDTPKCNKMCEAGYSTSYKEDKHYGYTSYSVSDSEKEIMAEIYKNGPVEGAFTVFSDFLTYKSGVYKHEAGDVMGGHAIRILGWGIENGVPYWLVANSWNVDWGDNGFFKILRGENHCGIESEIVAGIPRTQQYWGRF",
-                  "midline": "MW     L CLL L +A  +PS HPLSD+++NY+NK+NTTWQAG NFYNVD+SYLK+LCGT LGGP  P+RV F+ED+ LP SFDAREQW  CPTI +IRDQGSCGSCWAFGAVEA+SDRICIHTN  V+VEVSAEDLLTCCG  CGDGCNGGYP+ AWNFWTRKGLVSGG+Y SH+GC PY+IPPCEHHVNGSRPPCTGEGDTPKC+K+CE GYS +YK+DKHYGY SYSVS+SEK+IMAEIYKNGPVEGAF+V+SDFL YKSGVY+H  G++MGGHAIRILGWG+ENG PYWLVANSWN DWGDNGFFKILRG++HCGIESE+VAGIPRT QYW + "
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q01532|BLH1_YEAST",
-                  "accession": "Q01532",
-                  "title": "Cysteine proteinase 1, mitochondrial OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=LAP3 PE=1 SV=3"
-                }
-              ],
-              "len": 483,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 1.57674,
-                  "identity": 8,
-                  "positive": 12,
-                  "query_from": 99,
-                  "query_to": 126,
-                  "hit_from": 93,
-                  "hit_to": 120,
-                  "align_len": 28,
-                  "gaps": 0,
-                  "qseq": "IRDQGSCGSCWAFGAVEAISDRICIHTN",
-                  "hseq": "VTNQKSSGRCWLFAATNQLRLNVLSELN",
-                  "midline": "+ +Q S G CW F A   +   +    N"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P36924|AMYB_BACCE",
-                  "accession": "P36924",
-                  "title": "Beta-amylase OS=Bacillus cereus OX=1396 GN=spoII PE=1 SV=2"
-                }
-              ],
-              "len": 546,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 1.81077,
-                  "identity": 9,
-                  "positive": 10,
-                  "query_from": 142,
-                  "query_to": 160,
-                  "hit_from": 121,
-                  "hit_to": 139,
-                  "align_len": 19,
-                  "gaps": 0,
-                  "qseq": "CGSMCGDGCNGGYPAEAWN",
-                  "hseq": "CGGNVGDDCNVPIPSWVWN",
-                  "midline": "CG   GD CN   P+  WN"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P28632|HOLD_ECOLI",
-                  "accession": "P28632",
-                  "title": "DNA polymerase III subunit psi OS=Escherichia coli (strain K12) OX=83333 GN=holD PE=1 SV=1"
-                }
-              ],
-              "len": 137,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 2.91045,
-                  "identity": 11,
-                  "positive": 16,
-                  "query_from": 109,
-                  "query_to": 148,
-                  "hit_from": 17,
-                  "hit_to": 56,
-                  "align_len": 40,
-                  "gaps": 0,
-                  "qseq": "WAFGAVEAISDRICIHTNAHVSVEVSAEDLLTCCGSMCGD",
-                  "hseq": "WSLRRPGALQGEIAIAIPAHVRLVMVANDLPALTDPLVSD",
-                  "midline": "W+     A+   I I   AHV + + A DL      +  D"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P38935|SMBP2_HUMAN",
-                  "accession": "P38935",
-                  "title": "DNA-binding protein SMUBP-2 OS=Homo sapiens OX=9606 GN=IGHMBP2 PE=1 SV=3"
-                }
-              ],
-              "len": 993,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 3.7173,
-                  "identity": 8,
-                  "positive": 17,
-                  "query_from": 77,
-                  "query_to": 105,
-                  "hit_from": 18,
-                  "hit_to": 46,
-                  "align_len": 29,
-                  "gaps": 0,
-                  "qseq": "DLKLPASFDAREQWPQCPTIKEIRDQGSC",
-                  "hseq": "ELERDAEVEERRSWQENISLKELQSRGVC",
-                  "midline": "+L+  A  + R  W +  ++KE++ +G C"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q13867|BLMH_HUMAN",
-                  "accession": "Q13867",
-                  "title": "Bleomycin hydrolase OS=Homo sapiens OX=9606 GN=BLMH PE=1 SV=1"
-                }
-              ],
-              "len": 455,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 4.28342,
-                  "identity": 8,
-                  "positive": 11,
-                  "query_from": 97,
-                  "query_to": 117,
-                  "hit_from": 62,
-                  "hit_to": 82,
-                  "align_len": 21,
-                  "gaps": 0,
-                  "qseq": "KEIRDQGSCGSCWAFGAVEAI",
-                  "hseq": "KPITNQKSSGRCWIFSCLNVM",
-                  "midline": "K I +Q S G CW F  +  +"
+                  "description": [
+                    {
+                      "id": "sp|P07858|CATB_HUMAN",
+                      "accession": "P07858",
+                      "title": "Cathepsin B OS=Homo sapiens OX=9606 GN=CTSB PE=1 SV=3"
+                    }
+                  ],
+                  "len": 339,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 710.294,
+                      "score": 1832,
+                      "evalue": 0,
+                      "identity": 339,
+                      "positive": 339,
+                      "query_from": 1,
+                      "query_to": 339,
+                      "hit_from": 1,
+                      "hit_to": 339,
+                      "align_len": 339,
+                      "gaps": 0,
+                      "qseq": "MWQLWASLCCLLVLANARSRPSFHPLSDELVNYVNKRNTTWQAGHNFYNVDMSYLKRLCGTFLGGPKPPQRVMFTEDLKLPASFDAREQWPQCPTIKEIRDQGSCGSCWAFGAVEAISDRICIHTNAHVSVEVSAEDLLTCCGSMCGDGCNGGYPAEAWNFWTRKGLVSGGLYESHVGCRPYSIPPCEHHVNGSRPPCTGEGDTPKCSKICEPGYSPTYKQDKHYGYNSYSVSNSEKDIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESEVVAGIPRTDQYWEKI",
+                      "hseq": "MWQLWASLCCLLVLANARSRPSFHPLSDELVNYVNKRNTTWQAGHNFYNVDMSYLKRLCGTFLGGPKPPQRVMFTEDLKLPASFDAREQWPQCPTIKEIRDQGSCGSCWAFGAVEAISDRICIHTNAHVSVEVSAEDLLTCCGSMCGDGCNGGYPAEAWNFWTRKGLVSGGLYESHVGCRPYSIPPCEHHVNGSRPPCTGEGDTPKCSKICEPGYSPTYKQDKHYGYNSYSVSNSEKDIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESEVVAGIPRTDQYWEKI",
+                      "midline": "MWQLWASLCCLLVLANARSRPSFHPLSDELVNYVNKRNTTWQAGHNFYNVDMSYLKRLCGTFLGGPKPPQRVMFTEDLKLPASFDAREQWPQCPTIKEIRDQGSCGSCWAFGAVEAISDRICIHTNAHVSVEVSAEDLLTCCGSMCGDGCNGGYPAEAWNFWTRKGLVSGGLYESHVGCRPYSIPPCEHHVNGSRPPCTGEGDTPKCSKICEPGYSPTYKQDKHYGYNSYSVSNSEKDIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESEVVAGIPRTDQYWEKI"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 5.1859,
-                  "identity": 8,
-                  "positive": 9,
-                  "query_from": 294,
-                  "query_to": 310,
-                  "hit_from": 392,
-                  "hit_to": 408,
-                  "align_len": 17,
-                  "gaps": 0,
-                  "qseq": "WLVANSWNTDWGDNGFF",
-                  "hseq": "WRVENSWGEDHGHKGYL",
-                  "midline": "W V NSW  D G  G+ "
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P00787|CATB_RAT",
+                      "accession": "P00787",
+                      "title": "Cathepsin B OS=Rattus norvegicus OX=10116 GN=Ctsb PE=1 SV=2"
+                    }
+                  ],
+                  "len": 339,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 579.711,
+                      "score": 1493,
+                      "evalue": 0,
+                      "identity": 265,
+                      "positive": 300,
+                      "query_from": 1,
+                      "query_to": 339,
+                      "hit_from": 1,
+                      "hit_to": 339,
+                      "align_len": 339,
+                      "gaps": 0,
+                      "qseq": "MWQLWASLCCLLVLANARSRPSFHPLSDELVNYVNKRNTTWQAGHNFYNVDMSYLKRLCGTFLGGPKPPQRVMFTEDLKLPASFDAREQWPQCPTIKEIRDQGSCGSCWAFGAVEAISDRICIHTNAHVSVEVSAEDLLTCCGSMCGDGCNGGYPAEAWNFWTRKGLVSGGLYESHVGCRPYSIPPCEHHVNGSRPPCTGEGDTPKCSKICEPGYSPTYKQDKHYGYNSYSVSNSEKDIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESEVVAGIPRTDQYWEKI",
+                      "hseq": "MWWSLIPLSCLLALTSAHDKPSSHPLSDDMINYINKQNTTWQAGRNFYNVDISYLKKLCGTVLGGPNLPERVGFSEDINLPESFDAREQWSNCPTIAQIRDQGSCGSCWAFGAVEAMSDRICIHTNGRVNVEVSAEDLLTCCGIQCGDGCNGGYPSGAWNFWTRKGLVSGGVYNSHIGCLPYTIPPCEHHVNGSRPPCTGEGDTPKCNKMCEAGYSTSYKEDKHYGYTSYSVSDSEKEIMAEIYKNGPVEGAFTVFSDFLTYKSGVYKHEAGDVMGGHAIRILGWGIENGVPYWLVANSWNVDWGDNGFFKILRGENHCGIESEIVAGIPRTQQYWGRF",
+                      "midline": "MW     L CLL L +A  +PS HPLSD+++NY+NK+NTTWQAG NFYNVD+SYLK+LCGT LGGP  P+RV F+ED+ LP SFDAREQW  CPTI +IRDQGSCGSCWAFGAVEA+SDRICIHTN  V+VEVSAEDLLTCCG  CGDGCNGGYP+ AWNFWTRKGLVSGG+Y SH+GC PY+IPPCEHHVNGSRPPCTGEGDTPKC+K+CE GYS +YK+DKHYGY SYSVS+SEK+IMAEIYKNGPVEGAF+V+SDFL YKSGVY+H  G++MGGHAIRILGWG+ENG PYWLVANSWN DWGDNGFFKILRG++HCGIESE+VAGIPRT QYW + "
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q16878|CDO1_HUMAN",
-                  "accession": "Q16878",
-                  "title": "Cysteine dioxygenase type 1 OS=Homo sapiens OX=9606 GN=CDO1 PE=1 SV=2"
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q01532|BLH1_YEAST",
+                      "accession": "Q01532",
+                      "title": "Cysteine proteinase 1, mitochondrial OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=LAP3 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 483,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 1.57674,
+                      "identity": 8,
+                      "positive": 12,
+                      "query_from": 99,
+                      "query_to": 126,
+                      "hit_from": 93,
+                      "hit_to": 120,
+                      "align_len": 28,
+                      "gaps": 0,
+                      "qseq": "IRDQGSCGSCWAFGAVEAISDRICIHTN",
+                      "hseq": "VTNQKSSGRCWLFAATNQLRLNVLSELN",
+                      "midline": "+ +Q S G CW F A   +   +    N"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P36924|AMYB_BACCE",
+                      "accession": "P36924",
+                      "title": "Beta-amylase OS=Bacillus cereus OX=1396 GN=spoII PE=1 SV=2"
+                    }
+                  ],
+                  "len": 546,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 1.81077,
+                      "identity": 9,
+                      "positive": 10,
+                      "query_from": 142,
+                      "query_to": 160,
+                      "hit_from": 121,
+                      "hit_to": 139,
+                      "align_len": 19,
+                      "gaps": 0,
+                      "qseq": "CGSMCGDGCNGGYPAEAWN",
+                      "hseq": "CGGNVGDDCNVPIPSWVWN",
+                      "midline": "CG   GD CN   P+  WN"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P28632|HOLD_ECOLI",
+                      "accession": "P28632",
+                      "title": "DNA polymerase III subunit psi OS=Escherichia coli (strain K12) OX=83333 GN=holD PE=1 SV=1"
+                    }
+                  ],
+                  "len": 137,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 2.91045,
+                      "identity": 11,
+                      "positive": 16,
+                      "query_from": 109,
+                      "query_to": 148,
+                      "hit_from": 17,
+                      "hit_to": 56,
+                      "align_len": 40,
+                      "gaps": 0,
+                      "qseq": "WAFGAVEAISDRICIHTNAHVSVEVSAEDLLTCCGSMCGD",
+                      "hseq": "WSLRRPGALQGEIAIAIPAHVRLVMVANDLPALTDPLVSD",
+                      "midline": "W+     A+   I I   AHV + + A DL      +  D"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P38935|SMBP2_HUMAN",
+                      "accession": "P38935",
+                      "title": "DNA-binding protein SMUBP-2 OS=Homo sapiens OX=9606 GN=IGHMBP2 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 993,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 3.7173,
+                      "identity": 8,
+                      "positive": 17,
+                      "query_from": 77,
+                      "query_to": 105,
+                      "hit_from": 18,
+                      "hit_to": 46,
+                      "align_len": 29,
+                      "gaps": 0,
+                      "qseq": "DLKLPASFDAREQWPQCPTIKEIRDQGSC",
+                      "hseq": "ELERDAEVEERRSWQENISLKELQSRGVC",
+                      "midline": "+L+  A  + R  W +  ++KE++ +G C"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q13867|BLMH_HUMAN",
+                      "accession": "Q13867",
+                      "title": "Bleomycin hydrolase OS=Homo sapiens OX=9606 GN=BLMH PE=1 SV=1"
+                    }
+                  ],
+                  "len": 455,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 4.28342,
+                      "identity": 8,
+                      "positive": 11,
+                      "query_from": 97,
+                      "query_to": 117,
+                      "hit_from": 62,
+                      "hit_to": 82,
+                      "align_len": 21,
+                      "gaps": 0,
+                      "qseq": "KEIRDQGSCGSCWAFGAVEAI",
+                      "hseq": "KPITNQKSSGRCWIFSCLNVM",
+                      "midline": "K I +Q S G CW F  +  +"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 5.1859,
+                      "identity": 8,
+                      "positive": 9,
+                      "query_from": 294,
+                      "query_to": 310,
+                      "hit_from": 392,
+                      "hit_to": 408,
+                      "align_len": 17,
+                      "gaps": 0,
+                      "qseq": "WLVANSWNTDWGDNGFF",
+                      "hseq": "WRVENSWGEDHGHKGYL",
+                      "midline": "W V NSW  D G  G+ "
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|Q16878|CDO1_HUMAN",
+                      "accession": "Q16878",
+                      "title": "Cysteine dioxygenase type 1 OS=Homo sapiens OX=9606 GN=CDO1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 200,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 6.22002,
+                      "identity": 23,
+                      "positive": 41,
+                      "query_from": 224,
+                      "query_to": 315,
+                      "hit_from": 20,
+                      "hit_to": 100,
+                      "align_len": 92,
+                      "gaps": 11,
+                      "qseq": "HYGYNSYSVSNSEKDIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWGDNGFFKILRG",
+                      "hseq": "HQLFAGDEVNVEEVQAIMEAYESDPTEWA--MYAKFDQYR--YTRNLVDQGNGKFNLMILCWGEGHGSSIHDHTNS-------HCFLKMLQG",
+                      "midline": "H  +    V+  E   + E Y++ P E A  +Y+ F  Y+    +++  +  G   + IL WG  +G+      NS       + F K+L+G"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P00654|RNU2_USTSP",
+                      "accession": "P00654",
+                      "title": "Ribonuclease U2 OS=Ustilago sphaerogena OX=5271 GN=RNU2 PE=1 SV=4"
+                    }
+                  ],
+                  "len": 114,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 6.82145,
+                      "identity": 9,
+                      "positive": 18,
+                      "query_from": 112,
+                      "query_to": 144,
+                      "hit_from": 25,
+                      "hit_to": 57,
+                      "align_len": 33,
+                      "gaps": 0,
+                      "qseq": "GAVEAISDRICIHTNAHVSVEVSAEDLLTCCGS",
+                      "hseq": "GALDDVANGDRPDNYPHQYYDEASEDITLCCGS",
+                      "midline": "GA++ +++        H   + ++ED+  CCGS"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P26222|GUN2_THEFU",
+                      "accession": "P26222",
+                      "title": "Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2"
+                    }
+                  ],
+                  "len": 441,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 7.63523,
+                      "identity": 14,
+                      "positive": 18,
+                      "query_from": 282,
+                      "query_to": 324,
+                      "hit_from": 372,
+                      "hit_to": 415,
+                      "align_len": 44,
+                      "gaps": 1,
+                      "qseq": "ILGWGVE-NGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESE",
+                      "hseq": "ITGWTVTWTFTDGQTITNAWNADVSTSGSSVTARNVGHNGTLSQ",
+                      "midline": "I GW V    T    + N+WN D   +G     R   H G  S+"
+                    }
+                  ]
+                },
+                {
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|P07598|PHFL_DESVH",
+                      "accession": "P07598",
+                      "title": "Periplasmic [Fe] hydrogenase large subunit OS=Desulfovibrio vulgaris (strain ATCC 29579 / DSM 644 / NCIMB 8303 / VKM B-1760 / Hildenborough) OX=882 GN=hydA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 421,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 8.94952,
+                      "identity": 21,
+                      "positive": 29,
+                      "query_from": 258,
+                      "query_to": 326,
+                      "hit_from": 273,
+                      "hit_to": 338,
+                      "align_len": 72,
+                      "gaps": 9,
+                      "qseq": "DFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWG---DNGFFKILRGQDHCGIESEVV",
+                      "hseq": "DFAKLPDGKRDSLMGESTGGATI----FGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLD--GIKEATV",
+                      "midline": "DF     G    + GE  GG  I    +GV  G     +  ++    G   D+  FK +RG D  GI+   V"
+                    }
+                  ]
+                },
+                {
+                  "num": 12,
+                  "description": [
+                    {
+                      "id": "sp|P07327|ADH1A_HUMAN",
+                      "accession": "P07327",
+                      "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
+                    }
+                  ],
+                  "len": 375,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 9.2686,
+                      "identity": 10,
+                      "positive": 13,
+                      "query_from": 139,
+                      "query_to": 171,
+                      "hit_from": 280,
+                      "hit_to": 312,
+                      "align_len": 33,
+                      "gaps": 0,
+                      "qseq": "LTCCGSMCGDGCNGGYPAEAWNFWTRKGLVSGG",
+                      "hseq": "LLCCHEACGTSVIVGVPPDSQNLSMNPMLLLTG",
+                      "midline": "L CC   CG     G P ++ N      L+  G"
+                    }
+                  ]
                 }
               ],
-              "len": 200,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 6.22002,
-                  "identity": 23,
-                  "positive": 41,
-                  "query_from": 224,
-                  "query_to": 315,
-                  "hit_from": 20,
-                  "hit_to": 100,
-                  "align_len": 92,
-                  "gaps": 11,
-                  "qseq": "HYGYNSYSVSNSEKDIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWGDNGFFKILRG",
-                  "hseq": "HQLFAGDEVNVEEVQAIMEAYESDPTEWA--MYAKFDQYR--YTRNLVDQGNGKFNLMILCWGEGHGSSIHDHTNS-------HCFLKMLQG",
-                  "midline": "H  +    V+  E   + E Y++ P E A  +Y+ F  Y+    +++  +  G   + IL WG  +G+      NS       + F K+L+G"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|P00654|RNU2_USTSP",
-                  "accession": "P00654",
-                  "title": "Ribonuclease U2 OS=Ustilago sphaerogena OX=5271 GN=RNU2 PE=1 SV=4"
-                }
-              ],
-              "len": 114,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 6.82145,
-                  "identity": 9,
-                  "positive": 18,
-                  "query_from": 112,
-                  "query_to": 144,
-                  "hit_from": 25,
-                  "hit_to": 57,
-                  "align_len": 33,
-                  "gaps": 0,
-                  "qseq": "GAVEAISDRICIHTNAHVSVEVSAEDLLTCCGS",
-                  "hseq": "GALDDVANGDRPDNYPHQYYDEASEDITLCCGS",
-                  "midline": "GA++ +++        H   + ++ED+  CCGS"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|P26222|GUN2_THEFU",
-                  "accession": "P26222",
-                  "title": "Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2"
-                }
-              ],
-              "len": 441,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 7.63523,
-                  "identity": 14,
-                  "positive": 18,
-                  "query_from": 282,
-                  "query_to": 324,
-                  "hit_from": 372,
-                  "hit_to": 415,
-                  "align_len": 44,
-                  "gaps": 1,
-                  "qseq": "ILGWGVE-NGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESE",
-                  "hseq": "ITGWTVTWTFTDGQTITNAWNADVSTSGSSVTARNVGHNGTLSQ",
-                  "midline": "I GW V    T    + N+WN D   +G     R   H G  S+"
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|P07598|PHFL_DESVH",
-                  "accession": "P07598",
-                  "title": "Periplasmic [Fe] hydrogenase large subunit OS=Desulfovibrio vulgaris (strain ATCC 29579 / DSM 644 / NCIMB 8303 / VKM B-1760 / Hildenborough) OX=882 GN=hydA PE=1 SV=1"
-                }
-              ],
-              "len": 421,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 8.94952,
-                  "identity": 21,
-                  "positive": 29,
-                  "query_from": 258,
-                  "query_to": 326,
-                  "hit_from": 273,
-                  "hit_to": 338,
-                  "align_len": 72,
-                  "gaps": 9,
-                  "qseq": "DFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWG---DNGFFKILRGQDHCGIESEVV",
-                  "hseq": "DFAKLPDGKRDSLMGESTGGATI----FGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLD--GIKEATV",
-                  "midline": "DF     G    + GE  GG  I    +GV  G     +  ++    G   D+  FK +RG D  GI+   V"
-                }
-              ]
-            },
-            {
-              "num": 12,
-              "description": [
-                {
-                  "id": "sp|P07327|ADH1A_HUMAN",
-                  "accession": "P07327",
-                  "title": "Alcohol dehydrogenase 1A OS=Homo sapiens OX=9606 GN=ADH1A PE=1 SV=2"
-                }
-              ],
-              "len": 375,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 9.2686,
-                  "identity": 10,
-                  "positive": 13,
-                  "query_from": 139,
-                  "query_to": 171,
-                  "hit_from": 280,
-                  "hit_to": 312,
-                  "align_len": 33,
-                  "gaps": 0,
-                  "qseq": "LTCCGSMCGDGCNGGYPAEAWNFWTRKGLVSGG",
-                  "hseq": "LLCCHEACGTSVIVGVPPDSQNLSMNPMLLLTG",
-                  "midline": "L CC   CG     G P ++ N      L+  G"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 66,
+                "eff_space": 18817344,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 66,
-            "eff_space": 18817344,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

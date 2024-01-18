@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,262 +17,267 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P07598|PHFL_DESVH Periplasmic [Fe] hydrogenase large subunit OS=Desulfovibrio vulgaris (strain ATCC 29579 / DSM 644 / NCIMB 8303 / VKM B-1760 / Hildenborough) OX=882 GN=hydA PE=1 SV=1",
-          "query_len": 421,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P07598|PHFL_DESVH",
-                  "accession": "P07598",
-                  "title": "Periplasmic [Fe] hydrogenase large subunit OS=Desulfovibrio vulgaris (strain ATCC 29579 / DSM 644 / NCIMB 8303 / VKM B-1760 / Hildenborough) OX=882 GN=hydA PE=1 SV=1"
-                }
-              ],
-              "len": 421,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P07598|PHFL_DESVH Periplasmic [Fe] hydrogenase large subunit OS=Desulfovibrio vulgaris (strain ATCC 29579 / DSM 644 / NCIMB 8303 / VKM B-1760 / Hildenborough) OX=882 GN=hydA PE=1 SV=1",
+              "query_len": 421,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 873.618,
-                  "score": 2256,
-                  "evalue": 0,
-                  "identity": 421,
-                  "positive": 421,
-                  "query_from": 1,
-                  "query_to": 421,
-                  "hit_from": 1,
-                  "hit_to": 421,
-                  "align_len": 421,
-                  "gaps": 0,
-                  "qseq": "MSRTVMERIEYEMHTPDPKADPDKLHFVQIDEAKCIGCDTCSQYCPTAAIFGEMGEPHSIPHIEACINCGQCLTHCPENAIYEAQSWVPEVEKKLKDGKVKCIAMPAPAVRYALGDAFGMPVGSVTTGKMLAALQKLGFAHCWDTEFTADVTIWEEGSEFVERLTKKSDMPLPQFTSCCPGWQKYAETYYPELLPHFSTCKSPIGMNGALAKTYGAERMKYDPKQVYTVSIMPCIAKKYEGLRPELKSSGMRDIDATLTTRELAYMIKKAGIDFAKLPDGKRDSLMGESTGGATIFGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKEATVNVGGTDVKVAVVHGAKRFKQVCDDVKAGKSPYHFIEYMACPGGCVCGGGQPVMPGVLEAMDRTTTRLYAGLKKRLAMASANKA",
-                  "hseq": "MSRTVMERIEYEMHTPDPKADPDKLHFVQIDEAKCIGCDTCSQYCPTAAIFGEMGEPHSIPHIEACINCGQCLTHCPENAIYEAQSWVPEVEKKLKDGKVKCIAMPAPAVRYALGDAFGMPVGSVTTGKMLAALQKLGFAHCWDTEFTADVTIWEEGSEFVERLTKKSDMPLPQFTSCCPGWQKYAETYYPELLPHFSTCKSPIGMNGALAKTYGAERMKYDPKQVYTVSIMPCIAKKYEGLRPELKSSGMRDIDATLTTRELAYMIKKAGIDFAKLPDGKRDSLMGESTGGATIFGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKEATVNVGGTDVKVAVVHGAKRFKQVCDDVKAGKSPYHFIEYMACPGGCVCGGGQPVMPGVLEAMDRTTTRLYAGLKKRLAMASANKA",
-                  "midline": "MSRTVMERIEYEMHTPDPKADPDKLHFVQIDEAKCIGCDTCSQYCPTAAIFGEMGEPHSIPHIEACINCGQCLTHCPENAIYEAQSWVPEVEKKLKDGKVKCIAMPAPAVRYALGDAFGMPVGSVTTGKMLAALQKLGFAHCWDTEFTADVTIWEEGSEFVERLTKKSDMPLPQFTSCCPGWQKYAETYYPELLPHFSTCKSPIGMNGALAKTYGAERMKYDPKQVYTVSIMPCIAKKYEGLRPELKSSGMRDIDATLTTRELAYMIKKAGIDFAKLPDGKRDSLMGESTGGATIFGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKEATVNVGGTDVKVAVVHGAKRFKQVCDDVKAGKSPYHFIEYMACPGGCVCGGGQPVMPGVLEAMDRTTTRLYAGLKKRLAMASANKA"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P07598|PHFL_DESVH",
+                      "accession": "P07598",
+                      "title": "Periplasmic [Fe] hydrogenase large subunit OS=Desulfovibrio vulgaris (strain ATCC 29579 / DSM 644 / NCIMB 8303 / VKM B-1760 / Hildenborough) OX=882 GN=hydA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 421,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 873.618,
+                      "score": 2256,
+                      "evalue": 0,
+                      "identity": 421,
+                      "positive": 421,
+                      "query_from": 1,
+                      "query_to": 421,
+                      "hit_from": 1,
+                      "hit_to": 421,
+                      "align_len": 421,
+                      "gaps": 0,
+                      "qseq": "MSRTVMERIEYEMHTPDPKADPDKLHFVQIDEAKCIGCDTCSQYCPTAAIFGEMGEPHSIPHIEACINCGQCLTHCPENAIYEAQSWVPEVEKKLKDGKVKCIAMPAPAVRYALGDAFGMPVGSVTTGKMLAALQKLGFAHCWDTEFTADVTIWEEGSEFVERLTKKSDMPLPQFTSCCPGWQKYAETYYPELLPHFSTCKSPIGMNGALAKTYGAERMKYDPKQVYTVSIMPCIAKKYEGLRPELKSSGMRDIDATLTTRELAYMIKKAGIDFAKLPDGKRDSLMGESTGGATIFGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKEATVNVGGTDVKVAVVHGAKRFKQVCDDVKAGKSPYHFIEYMACPGGCVCGGGQPVMPGVLEAMDRTTTRLYAGLKKRLAMASANKA",
+                      "hseq": "MSRTVMERIEYEMHTPDPKADPDKLHFVQIDEAKCIGCDTCSQYCPTAAIFGEMGEPHSIPHIEACINCGQCLTHCPENAIYEAQSWVPEVEKKLKDGKVKCIAMPAPAVRYALGDAFGMPVGSVTTGKMLAALQKLGFAHCWDTEFTADVTIWEEGSEFVERLTKKSDMPLPQFTSCCPGWQKYAETYYPELLPHFSTCKSPIGMNGALAKTYGAERMKYDPKQVYTVSIMPCIAKKYEGLRPELKSSGMRDIDATLTTRELAYMIKKAGIDFAKLPDGKRDSLMGESTGGATIFGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKEATVNVGGTDVKVAVVHGAKRFKQVCDDVKAGKSPYHFIEYMACPGGCVCGGGQPVMPGVLEAMDRTTTRLYAGLKKRLAMASANKA",
+                      "midline": "MSRTVMERIEYEMHTPDPKADPDKLHFVQIDEAKCIGCDTCSQYCPTAAIFGEMGEPHSIPHIEACINCGQCLTHCPENAIYEAQSWVPEVEKKLKDGKVKCIAMPAPAVRYALGDAFGMPVGSVTTGKMLAALQKLGFAHCWDTEFTADVTIWEEGSEFVERLTKKSDMPLPQFTSCCPGWQKYAETYYPELLPHFSTCKSPIGMNGALAKTYGAERMKYDPKQVYTVSIMPCIAKKYEGLRPELKSSGMRDIDATLTTRELAYMIKKAGIDFAKLPDGKRDSLMGESTGGATIFGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKEATVNVGGTDVKVAVVHGAKRFKQVCDDVKAGKSPYHFIEYMACPGGCVCGGGQPVMPGVLEAMDRTTTRLYAGLKKRLAMASANKA"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q9BS40|LXN_HUMAN",
-                  "accession": "Q9BS40",
-                  "title": "Latexin OS=Homo sapiens OX=9606 GN=LXN PE=1 SV=2"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|Q9BS40|LXN_HUMAN",
+                      "accession": "Q9BS40",
+                      "title": "Latexin OS=Homo sapiens OX=9606 GN=LXN PE=1 SV=2"
+                    }
+                  ],
+                  "len": 222,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 26.5646,
+                      "score": 57,
+                      "evalue": 0.184574,
+                      "identity": 13,
+                      "positive": 19,
+                      "query_from": 292,
+                      "query_to": 335,
+                      "hit_from": 72,
+                      "hit_to": 115,
+                      "align_len": 44,
+                      "gaps": 0,
+                      "qseq": "GATIFGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKE",
+                      "hseq": "AEVLYPSTGQETAPEVNFTFEGETGKNPDEEDNTFYQRLKSMKE",
+                      "midline": "   ++  TG      + F +E  TGK PD  D    + L  +KE"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P10688|PLCD1_RAT",
+                      "accession": "P10688",
+                      "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 756,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 26.9498,
+                      "score": 58,
+                      "evalue": 0.215668,
+                      "identity": 12,
+                      "positive": 16,
+                      "query_from": 122,
+                      "query_to": 153,
+                      "hit_from": 663,
+                      "hit_to": 694,
+                      "align_len": 32,
+                      "gaps": 0,
+                      "qseq": "VGSVTTGKMLAALQKLGFAHCWDTEFTADVTI",
+                      "hseq": "VGRDTGSRQTAVITNNGFNPRWDMEFEFEVTV",
+                      "midline": "VG  T  +  A +   GF   WD EF  +VT+"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 1.694,
+                      "identity": 24,
+                      "positive": 40,
+                      "query_from": 208,
+                      "query_to": 301,
+                      "hit_from": 4741,
+                      "hit_to": 4827,
+                      "align_len": 99,
+                      "gaps": 17,
+                      "qseq": "GALAKTYGAERMKYDPK-----QVYTVSIMPCIAKKYEGLRPELKSSGMRDIDATLTTRELAYMIKKAGIDFAKLPDGKRDSLMGESTGGATIFGVTGG",
+                      "hseq": "GTLTHINNAQRNALDNEITQATNVEGVNTVKAKAQQLDGAMGQLETS-IRDKDTTLQSQ-----------NYQDADDAKRTAYSQAVNAAATILNKTAG",
+                      "midline": "G L     A+R   D +      V  V+ +   A++ +G   +L++S +RD D TL ++           ++    D KR +        ATI   T G"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P16099|DHTM_METME",
+                      "accession": "P16099",
+                      "title": "Trimethylamine dehydrogenase OS=Methylophilus methylotrophus OX=17 GN=tmd PE=1 SV=3"
+                    }
+                  ],
+                  "len": 730,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 4.90912,
+                      "identity": 26,
+                      "positive": 36,
+                      "query_from": 21,
+                      "query_to": 109,
+                      "hit_from": 303,
+                      "hit_to": 401,
+                      "align_len": 102,
+                      "gaps": 16,
+                      "qseq": "DPDKL-HFVQIDEAKCIGCDTCSQYCPTAAIFGEMGEPHSIPHIEACINCGQCLTH---------CPENAIYEAQ---SWVPEVEKKLKDGKVKCIAMPAPA",
+                      "hseq": "DPEKMIEIVTKGYADIIGCARPSIADPFLPQKVEQGR---YDDIRVCIGCNVCISRWEIGGPPMICTQNATAGEEYRRGWHPEKFRQTKNKDSVLIVGAGPS",
+                      "midline": "DP+K+   V    A  IGC   S   P      E G       I  CI C  C++          C +NA    +    W PE  ++ K+     I    P+"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P07206|PULA_KLEPN",
+                      "accession": "P07206",
+                      "title": "Pullulanase OS=Klebsiella pneumoniae OX=573 GN=pulA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1090,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 5.31574,
+                      "identity": 31,
+                      "positive": 47,
+                      "query_from": 296,
+                      "query_to": 416,
+                      "hit_from": 683,
+                      "hit_to": 796,
+                      "align_len": 127,
+                      "gaps": 19,
+                      "qseq": "FGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKE------ATVNVGGTDVKVAVVHGAKRFKQVCDDVKAGKSPYHFIEYMACPGGCVCGGGQPVMPGVLEAMDRTTTRLYAGLKKRLAMA",
+                      "hseq": "FDLMGYHPKAQILSAWERIKALNPDIYFFG--EGWDSNQSDRFEIASQINLKGT--------GIGTFSDRLRDSVRGGGPFDSGDALRQNQGIGSGAG--VLPNELASLSDDQVRHLADL-TRLGMA",
+                      "midline": "F + G   +A +  A+E +    PD + F    G D  +       + +N+ GT        G   F     D   G  P+   + +    G   G G  V+P  L ++     R  A L  RL MA"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q8K1S3|UNC5B_MOUSE",
+                      "accession": "Q8K1S3",
+                      "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
+                    }
+                  ],
+                  "len": 945,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 8.15884,
+                      "identity": 7,
+                      "positive": 11,
+                      "query_from": 128,
+                      "query_to": 144,
+                      "hit_from": 768,
+                      "hit_to": 784,
+                      "align_len": 17,
+                      "gaps": 0,
+                      "qseq": "GKMLAALQKLGFAHCWD",
+                      "hseq": "SKLLAKYQEIPFYHVWN",
+                      "midline": " K+LA  Q++ F H W+"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P07858|CATB_HUMAN",
+                      "accession": "P07858",
+                      "title": "Cathepsin B OS=Homo sapiens OX=9606 GN=CTSB PE=1 SV=3"
+                    }
+                  ],
+                  "len": 339,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 9.58642,
+                      "identity": 21,
+                      "positive": 29,
+                      "query_from": 273,
+                      "query_to": 338,
+                      "hit_from": 258,
+                      "hit_to": 326,
+                      "align_len": 72,
+                      "gaps": 9,
+                      "qseq": "DFAKLPDGKRDSLMGESTGGATI----FGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLD--GIKEATV",
+                      "hseq": "DFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWG---DNGFFKILRGQDHCGIESEVV",
+                      "midline": "DF     G    + GE  GG  I    +GV  G     +  ++    G   D+  FK +RG D  GI+   V"
+                    }
+                  ]
                 }
               ],
-              "len": 222,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 26.5646,
-                  "score": 57,
-                  "evalue": 0.184574,
-                  "identity": 13,
-                  "positive": 19,
-                  "query_from": 292,
-                  "query_to": 335,
-                  "hit_from": 72,
-                  "hit_to": 115,
-                  "align_len": 44,
-                  "gaps": 0,
-                  "qseq": "GATIFGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKE",
-                  "hseq": "AEVLYPSTGQETAPEVNFTFEGETGKNPDEEDNTFYQRLKSMKE",
-                  "midline": "   ++  TG      + F +E  TGK PD  D    + L  +KE"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P10688|PLCD1_RAT",
-                  "accession": "P10688",
-                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1 OS=Rattus norvegicus OX=10116 GN=Plcd1 PE=1 SV=1"
-                }
-              ],
-              "len": 756,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 26.9498,
-                  "score": 58,
-                  "evalue": 0.215668,
-                  "identity": 12,
-                  "positive": 16,
-                  "query_from": 122,
-                  "query_to": 153,
-                  "hit_from": 663,
-                  "hit_to": 694,
-                  "align_len": 32,
-                  "gaps": 0,
-                  "qseq": "VGSVTTGKMLAALQKLGFAHCWDTEFTADVTI",
-                  "hseq": "VGRDTGSRQTAVITNNGFNPRWDMEFEFEVTV",
-                  "midline": "VG  T  +  A +   GF   WD EF  +VT+"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 1.694,
-                  "identity": 24,
-                  "positive": 40,
-                  "query_from": 208,
-                  "query_to": 301,
-                  "hit_from": 4741,
-                  "hit_to": 4827,
-                  "align_len": 99,
-                  "gaps": 17,
-                  "qseq": "GALAKTYGAERMKYDPK-----QVYTVSIMPCIAKKYEGLRPELKSSGMRDIDATLTTRELAYMIKKAGIDFAKLPDGKRDSLMGESTGGATIFGVTGG",
-                  "hseq": "GTLTHINNAQRNALDNEITQATNVEGVNTVKAKAQQLDGAMGQLETS-IRDKDTTLQSQ-----------NYQDADDAKRTAYSQAVNAAATILNKTAG",
-                  "midline": "G L     A+R   D +      V  V+ +   A++ +G   +L++S +RD D TL ++           ++    D KR +        ATI   T G"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P16099|DHTM_METME",
-                  "accession": "P16099",
-                  "title": "Trimethylamine dehydrogenase OS=Methylophilus methylotrophus OX=17 GN=tmd PE=1 SV=3"
-                }
-              ],
-              "len": 730,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 4.90912,
-                  "identity": 26,
-                  "positive": 36,
-                  "query_from": 21,
-                  "query_to": 109,
-                  "hit_from": 303,
-                  "hit_to": 401,
-                  "align_len": 102,
-                  "gaps": 16,
-                  "qseq": "DPDKL-HFVQIDEAKCIGCDTCSQYCPTAAIFGEMGEPHSIPHIEACINCGQCLTH---------CPENAIYEAQ---SWVPEVEKKLKDGKVKCIAMPAPA",
-                  "hseq": "DPEKMIEIVTKGYADIIGCARPSIADPFLPQKVEQGR---YDDIRVCIGCNVCISRWEIGGPPMICTQNATAGEEYRRGWHPEKFRQTKNKDSVLIVGAGPS",
-                  "midline": "DP+K+   V    A  IGC   S   P      E G       I  CI C  C++          C +NA    +    W PE  ++ K+     I    P+"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P07206|PULA_KLEPN",
-                  "accession": "P07206",
-                  "title": "Pullulanase OS=Klebsiella pneumoniae OX=573 GN=pulA PE=1 SV=2"
-                }
-              ],
-              "len": 1090,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 5.31574,
-                  "identity": 31,
-                  "positive": 47,
-                  "query_from": 296,
-                  "query_to": 416,
-                  "hit_from": 683,
-                  "hit_to": 796,
-                  "align_len": 127,
-                  "gaps": 19,
-                  "qseq": "FGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLDGIKE------ATVNVGGTDVKVAVVHGAKRFKQVCDDVKAGKSPYHFIEYMACPGGCVCGGGQPVMPGVLEAMDRTTTRLYAGLKKRLAMA",
-                  "hseq": "FDLMGYHPKAQILSAWERIKALNPDIYFFG--EGWDSNQSDRFEIASQINLKGT--------GIGTFSDRLRDSVRGGGPFDSGDALRQNQGIGSGAG--VLPNELASLSDDQVRHLADL-TRLGMA",
-                  "midline": "F + G   +A +  A+E +    PD + F    G D  +       + +N+ GT        G   F     D   G  P+   + +    G   G G  V+P  L ++     R  A L  RL MA"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q8K1S3|UNC5B_MOUSE",
-                  "accession": "Q8K1S3",
-                  "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
-                }
-              ],
-              "len": 945,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 8.15884,
-                  "identity": 7,
-                  "positive": 11,
-                  "query_from": 128,
-                  "query_to": 144,
-                  "hit_from": 768,
-                  "hit_to": 784,
-                  "align_len": 17,
-                  "gaps": 0,
-                  "qseq": "GKMLAALQKLGFAHCWD",
-                  "hseq": "SKLLAKYQEIPFYHVWN",
-                  "midline": " K+LA  Q++ F H W+"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P07858|CATB_HUMAN",
-                  "accession": "P07858",
-                  "title": "Cathepsin B OS=Homo sapiens OX=9606 GN=CTSB PE=1 SV=3"
-                }
-              ],
-              "len": 339,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 9.58642,
-                  "identity": 21,
-                  "positive": 29,
-                  "query_from": 273,
-                  "query_to": 338,
-                  "hit_from": 258,
-                  "hit_to": 326,
-                  "align_len": 72,
-                  "gaps": 9,
-                  "qseq": "DFAKLPDGKRDSLMGESTGGATI----FGVTGGVMEAALRFAYEAVTGKKPDSWDFKAVRGLD--GIKEATV",
-                  "hseq": "DFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWG---DNGFFKILRGQDHCGIESEVV",
-                  "midline": "DF     G    + GE  GG  I    +GV  G     +  ++    G   D+  FK +RG D  GI+   V"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 68,
+                "eff_space": 24184030,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 68,
-            "eff_space": 24184030,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

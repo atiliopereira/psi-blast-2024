@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,382 +17,387 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P04395|3MG2_ECOLI DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1",
-          "query_len": 282,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P04395|3MG2_ECOLI",
-                  "accession": "P04395",
-                  "title": "DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1"
-                }
-              ],
-              "len": 282,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P04395|3MG2_ECOLI DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1",
+              "query_len": 282,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 577.785,
-                  "score": 1488,
-                  "evalue": 0,
-                  "identity": 282,
-                  "positive": 282,
-                  "query_from": 1,
-                  "query_to": 282,
-                  "hit_from": 1,
-                  "hit_to": 282,
-                  "align_len": 282,
-                  "gaps": 0,
-                  "qseq": "MYTLNWQPPYDWSWMLGFLAARAVSSVETVADSYYARSLAVGEYRGVVTAIPDIARHTLHINLSAGLEPVAAECLAKMSRLFDLQCNPQIVNGALGRLGAARPGLRLPGCVDAFEQGVRAILGQLVSVAMAAKLTARVAQLYGERLDDFPEYICFPTPQRLAAADPQALKALGMPLKRAEALIHLANAALEGTLPMTIPGDVEQAMKTLQTFPGIGRWTANYFALRGWQAKDVFLPDDYLIKQRFPGMTPAQIRRYAERWKPWRSYALLHIWYTEGWQPDEA",
-                  "hseq": "MYTLNWQPPYDWSWMLGFLAARAVSSVETVADSYYARSLAVGEYRGVVTAIPDIARHTLHINLSAGLEPVAAECLAKMSRLFDLQCNPQIVNGALGRLGAARPGLRLPGCVDAFEQGVRAILGQLVSVAMAAKLTARVAQLYGERLDDFPEYICFPTPQRLAAADPQALKALGMPLKRAEALIHLANAALEGTLPMTIPGDVEQAMKTLQTFPGIGRWTANYFALRGWQAKDVFLPDDYLIKQRFPGMTPAQIRRYAERWKPWRSYALLHIWYTEGWQPDEA",
-                  "midline": "MYTLNWQPPYDWSWMLGFLAARAVSSVETVADSYYARSLAVGEYRGVVTAIPDIARHTLHINLSAGLEPVAAECLAKMSRLFDLQCNPQIVNGALGRLGAARPGLRLPGCVDAFEQGVRAILGQLVSVAMAAKLTARVAQLYGERLDDFPEYICFPTPQRLAAADPQALKALGMPLKRAEALIHLANAALEGTLPMTIPGDVEQAMKTLQTFPGIGRWTANYFALRGWQAKDVFLPDDYLIKQRFPGMTPAQIRRYAERWKPWRSYALLHIWYTEGWQPDEA"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P04395|3MG2_ECOLI",
+                      "accession": "P04395",
+                      "title": "DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 282,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 577.785,
+                      "score": 1488,
+                      "evalue": 0,
+                      "identity": 282,
+                      "positive": 282,
+                      "query_from": 1,
+                      "query_to": 282,
+                      "hit_from": 1,
+                      "hit_to": 282,
+                      "align_len": 282,
+                      "gaps": 0,
+                      "qseq": "MYTLNWQPPYDWSWMLGFLAARAVSSVETVADSYYARSLAVGEYRGVVTAIPDIARHTLHINLSAGLEPVAAECLAKMSRLFDLQCNPQIVNGALGRLGAARPGLRLPGCVDAFEQGVRAILGQLVSVAMAAKLTARVAQLYGERLDDFPEYICFPTPQRLAAADPQALKALGMPLKRAEALIHLANAALEGTLPMTIPGDVEQAMKTLQTFPGIGRWTANYFALRGWQAKDVFLPDDYLIKQRFPGMTPAQIRRYAERWKPWRSYALLHIWYTEGWQPDEA",
+                      "hseq": "MYTLNWQPPYDWSWMLGFLAARAVSSVETVADSYYARSLAVGEYRGVVTAIPDIARHTLHINLSAGLEPVAAECLAKMSRLFDLQCNPQIVNGALGRLGAARPGLRLPGCVDAFEQGVRAILGQLVSVAMAAKLTARVAQLYGERLDDFPEYICFPTPQRLAAADPQALKALGMPLKRAEALIHLANAALEGTLPMTIPGDVEQAMKTLQTFPGIGRWTANYFALRGWQAKDVFLPDDYLIKQRFPGMTPAQIRRYAERWKPWRSYALLHIWYTEGWQPDEA",
+                      "midline": "MYTLNWQPPYDWSWMLGFLAARAVSSVETVADSYYARSLAVGEYRGVVTAIPDIARHTLHINLSAGLEPVAAECLAKMSRLFDLQCNPQIVNGALGRLGAARPGLRLPGCVDAFEQGVRAILGQLVSVAMAAKLTARVAQLYGERLDDFPEYICFPTPQRLAAADPQALKALGMPLKRAEALIHLANAALEGTLPMTIPGDVEQAMKTLQTFPGIGRWTANYFALRGWQAKDVFLPDDYLIKQRFPGMTPAQIRRYAERWKPWRSYALLHIWYTEGWQPDEA"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|O15527|OGG1_HUMAN",
-                  "accession": "O15527",
-                  "title": "N-glycosylase/DNA lyase OS=Homo sapiens OX=9606 GN=OGG1 PE=1 SV=2"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|O15527|OGG1_HUMAN",
+                      "accession": "O15527",
+                      "title": "N-glycosylase/DNA lyase OS=Homo sapiens OX=9606 GN=OGG1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 345,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 31.9574,
+                      "score": 71,
+                      "evalue": 0.00253348,
+                      "identity": 34,
+                      "positive": 48,
+                      "query_from": 127,
+                      "query_to": 225,
+                      "hit_from": 151,
+                      "hit_to": 256,
+                      "align_len": 108,
+                      "gaps": 11,
+                      "qseq": "SVAMAAKLTARVAQLYGERL---DDFPEYICFPTPQRLAAADPQA-LKALGMPLKRAEALIHLANAALEGT-----LPMTIPGDVEQAMKTLQTFPGIGRWTANYFAL",
+                      "hseq": "NIARITGMVERLCQAFGPRLIQLDDV-TYHGFPSLQALAGPEVEAHLRKLGLGY-RARYVSASARAILEEQGGLAWLQQLRESSYEEAHKALCILPGVGTKVADCICL",
+                      "midline": "++A    +  R+ Q +G RL   DD   Y  FP+ Q LA  + +A L+ LG+   RA  +   A A LE       L        E+A K L   PG+G   A+   L"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P38398|BRCA1_HUMAN",
+                      "accession": "P38398",
+                      "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1863,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 24.6386,
+                      "score": 52,
+                      "evalue": 0.587842,
+                      "identity": 16,
+                      "positive": 22,
+                      "query_from": 183,
+                      "query_to": 223,
+                      "hit_from": 1674,
+                      "hit_to": 1717,
+                      "align_len": 44,
+                      "gaps": 3,
+                      "qseq": "IHLANAALEGTLPMTIPGDVE-QAMKTLQTFPGI--GRWTANYF",
+                      "hseq": "ITLTNLITEETTHVVMKTDAEFVCERTLKYFLGIAGGKWVVSYF",
+                      "midline": "I L N   E T  + +  D E    +TL+ F GI  G+W  +YF"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P07254|CHIA_SERMA",
+                      "accession": "P07254",
+                      "title": "Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3"
+                    }
+                  ],
+                  "len": 563,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.8682,
+                      "score": 50,
+                      "evalue": 0.915776,
+                      "identity": 15,
+                      "positive": 25,
+                      "query_from": 202,
+                      "query_to": 261,
+                      "hit_from": 259,
+                      "hit_to": 305,
+                      "align_len": 60,
+                      "gaps": 13,
+                      "qseq": "VEQAMKTLQTFPGIGRWTANYFALRGWQAKDVFLPDDYLIKQRFPGMTPAQIRRYAERWK",
+                      "hseq": "LKQAHPDLKILPSIGGWTL---------SDPFFFMGDKVKRDRFVG----SVKEFLQTWK",
+                      "midline": "++QA   L+  P IG WT          +   F   D + + RF G     ++ + + WK"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q5SGX1|SYFB_THET8",
+                      "accession": "Q5SGX1",
+                      "title": "Phenylalanine--tRNA ligase beta subunit OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=pheT PE=1 SV=1"
+                    }
+                  ],
+                  "len": 785,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 1.34291,
+                      "identity": 11,
+                      "positive": 17,
+                      "query_from": 19,
+                      "query_to": 55,
+                      "hit_from": 103,
+                      "hit_to": 139,
+                      "align_len": 37,
+                      "gaps": 0,
+                      "qseq": "LAARAVSSVETVADSYYARSLAVGEYRGVVTAIPDIA",
+                      "hseq": "VGERVIQGVRSFGMALSPRELGVGEYGGGLLEFPEDA",
+                      "midline": "+  R +  V +   +   R L VGEY G +   P+ A"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P03706|ENLYS_LAMBD",
+                      "accession": "P03706",
+                      "title": "Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1"
+                    }
+                  ],
+                  "len": 158,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 1.78831,
+                      "identity": 12,
+                      "positive": 19,
+                      "query_from": 178,
+                      "query_to": 216,
+                      "hit_from": 89,
+                      "hit_to": 131,
+                      "align_len": 43,
+                      "gaps": 4,
+                      "qseq": "RAEALIHLANAALEGTLPMTIPGDVEQAMKTLQ----TFPGIG",
+                      "hseq": "KSQDAVALQQIKERGALPMIDRGDIRQAIDRCSNIWASLPGAG",
+                      "midline": "+++  + L      G LPM   GD+ QA+        + PG G"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q96T60|PNKP_HUMAN",
+                      "accession": "Q96T60",
+                      "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
+                    }
+                  ],
+                  "len": 521,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 2.67588,
+                      "identity": 8,
+                      "positive": 14,
+                      "query_from": 153,
+                      "query_to": 175,
+                      "hit_from": 352,
+                      "hit_to": 374,
+                      "align_len": 23,
+                      "gaps": 0,
+                      "qseq": "ICFPTPQRLAAADPQALKALGMP",
+                      "hseq": "LCLPESRALLSASPEVVVAVGFP",
+                      "midline": "+C P  + L +A P+ + A+G P"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|Q88KV1|MIAE_PSEPK",
+                      "accession": "Q88KV1",
+                      "title": "tRNA 2-(methylsulfanyl)-N(6)-isopentenyladenosine(37) hydroxylase OS=Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440) OX=160488 GN=miaE PE=1 SV=1"
+                    }
+                  ],
+                  "len": 205,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 3.36777,
+                      "identity": 11,
+                      "positive": 22,
+                      "query_from": 43,
+                      "query_to": 84,
+                      "hit_from": 38,
+                      "hit_to": 79,
+                      "align_len": 42,
+                      "gaps": 0,
+                      "qseq": "EYRGVVTAIPDIARHTLHINLSAGLEPVAAECLAKMSRLFDL",
+                      "hseq": "EFKAASTALSLIAKYNTHLDLINMMSRLAREELVHHEQVLRL",
+                      "midline": "E++   TA+  IA++  H++L   +  +A E L    ++  L"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P26646|ACUI_ECOLI",
+                      "accession": "P26646",
+                      "title": "Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1"
+                    }
+                  ],
+                  "len": 324,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 5.51816,
+                      "identity": 10,
+                      "positive": 14,
+                      "query_from": 26,
+                      "query_to": 50,
+                      "hit_from": 215,
+                      "hit_to": 239,
+                      "align_len": 25,
+                      "gaps": 0,
+                      "qseq": "SVETVADSYYARSLAVGEYRGVVTA",
+                      "hseq": "AIDTVGDKVLAKVLAQMNYGGCVAA",
+                      "midline": "+++TV D   A+ LA   Y G V A"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|O60016|CLR4_SCHPO",
+                      "accession": "O60016",
+                      "title": "Histone-lysine N-methyltransferase, H3 lysine-9 specific OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=clr4 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 490,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 5.82506,
+                      "identity": 8,
+                      "positive": 12,
+                      "query_from": 70,
+                      "query_to": 90,
+                      "hit_from": 396,
+                      "hit_to": 416,
+                      "align_len": 21,
+                      "gaps": 0,
+                      "qseq": "VAAECLAKMSRLFDLQCNPQI",
+                      "hseq": "VDAQNYGDVSRFFNHSCSPNI",
+                      "midline": "V A+    +SR F+  C+P I"
+                    }
+                  ]
+                },
+                {
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|P74881|PUR4_SALTY",
+                      "accession": "P74881",
+                      "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1295,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 7.12264,
+                      "identity": 14,
+                      "positive": 26,
+                      "query_from": 32,
+                      "query_to": 81,
+                      "hit_from": 688,
+                      "hit_to": 734,
+                      "align_len": 50,
+                      "gaps": 3,
+                      "qseq": "DSYYARSLAVGEYRGVVTAIPDIARHTLHINLSAGLEPVAAECLAKMSRL",
+                      "hseq": "DSYYGEAMSIGERAPV--ALLDFAA-SARLAVGEALTNIAATQIGDIKRI",
+                      "midline": "DSYY  ++++GE   V  A+ D A  +  + +   L  +AA  +  + R+"
+                    }
+                  ]
+                },
+                {
+                  "num": 12,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 8.61516,
+                      "identity": 11,
+                      "positive": 25,
+                      "query_from": 85,
+                      "query_to": 136,
+                      "hit_from": 5459,
+                      "hit_to": 5510,
+                      "align_len": 52,
+                      "gaps": 0,
+                      "qseq": "QCNPQIVNGALGRLGAARPGLRLPGCVDAFEQGVRAILGQLVSVAMAAKLTA",
+                      "hseq": "EMNPDTINQKASQVNSAKSALNGDEKLAAAKQTAKSDIGRLTDLNNAQRTAA",
+                      "midline": "+ NP  +N    ++ +A+  L     + A +Q  ++ +G+L  +  A +  A"
+                    }
+                  ]
                 }
               ],
-              "len": 345,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 31.9574,
-                  "score": 71,
-                  "evalue": 0.00253348,
-                  "identity": 34,
-                  "positive": 48,
-                  "query_from": 127,
-                  "query_to": 225,
-                  "hit_from": 151,
-                  "hit_to": 256,
-                  "align_len": 108,
-                  "gaps": 11,
-                  "qseq": "SVAMAAKLTARVAQLYGERL---DDFPEYICFPTPQRLAAADPQA-LKALGMPLKRAEALIHLANAALEGT-----LPMTIPGDVEQAMKTLQTFPGIGRWTANYFAL",
-                  "hseq": "NIARITGMVERLCQAFGPRLIQLDDV-TYHGFPSLQALAGPEVEAHLRKLGLGY-RARYVSASARAILEEQGGLAWLQQLRESSYEEAHKALCILPGVGTKVADCICL",
-                  "midline": "++A    +  R+ Q +G RL   DD   Y  FP+ Q LA  + +A L+ LG+   RA  +   A A LE       L        E+A K L   PG+G   A+   L"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P38398|BRCA1_HUMAN",
-                  "accession": "P38398",
-                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
-                }
-              ],
-              "len": 1863,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 24.6386,
-                  "score": 52,
-                  "evalue": 0.587842,
-                  "identity": 16,
-                  "positive": 22,
-                  "query_from": 183,
-                  "query_to": 223,
-                  "hit_from": 1674,
-                  "hit_to": 1717,
-                  "align_len": 44,
-                  "gaps": 3,
-                  "qseq": "IHLANAALEGTLPMTIPGDVE-QAMKTLQTFPGI--GRWTANYF",
-                  "hseq": "ITLTNLITEETTHVVMKTDAEFVCERTLKYFLGIAGGKWVVSYF",
-                  "midline": "I L N   E T  + +  D E    +TL+ F GI  G+W  +YF"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P07254|CHIA_SERMA",
-                  "accession": "P07254",
-                  "title": "Chitinase A OS=Serratia marcescens OX=615 GN=chiA PE=1 SV=3"
-                }
-              ],
-              "len": 563,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.8682,
-                  "score": 50,
-                  "evalue": 0.915776,
-                  "identity": 15,
-                  "positive": 25,
-                  "query_from": 202,
-                  "query_to": 261,
-                  "hit_from": 259,
-                  "hit_to": 305,
-                  "align_len": 60,
-                  "gaps": 13,
-                  "qseq": "VEQAMKTLQTFPGIGRWTANYFALRGWQAKDVFLPDDYLIKQRFPGMTPAQIRRYAERWK",
-                  "hseq": "LKQAHPDLKILPSIGGWTL---------SDPFFFMGDKVKRDRFVG----SVKEFLQTWK",
-                  "midline": "++QA   L+  P IG WT          +   F   D + + RF G     ++ + + WK"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q5SGX1|SYFB_THET8",
-                  "accession": "Q5SGX1",
-                  "title": "Phenylalanine--tRNA ligase beta subunit OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=pheT PE=1 SV=1"
-                }
-              ],
-              "len": 785,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 1.34291,
-                  "identity": 11,
-                  "positive": 17,
-                  "query_from": 19,
-                  "query_to": 55,
-                  "hit_from": 103,
-                  "hit_to": 139,
-                  "align_len": 37,
-                  "gaps": 0,
-                  "qseq": "LAARAVSSVETVADSYYARSLAVGEYRGVVTAIPDIA",
-                  "hseq": "VGERVIQGVRSFGMALSPRELGVGEYGGGLLEFPEDA",
-                  "midline": "+  R +  V +   +   R L VGEY G +   P+ A"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P03706|ENLYS_LAMBD",
-                  "accession": "P03706",
-                  "title": "Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1"
-                }
-              ],
-              "len": 158,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 1.78831,
-                  "identity": 12,
-                  "positive": 19,
-                  "query_from": 178,
-                  "query_to": 216,
-                  "hit_from": 89,
-                  "hit_to": 131,
-                  "align_len": 43,
-                  "gaps": 4,
-                  "qseq": "RAEALIHLANAALEGTLPMTIPGDVEQAMKTLQ----TFPGIG",
-                  "hseq": "KSQDAVALQQIKERGALPMIDRGDIRQAIDRCSNIWASLPGAG",
-                  "midline": "+++  + L      G LPM   GD+ QA+        + PG G"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q96T60|PNKP_HUMAN",
-                  "accession": "Q96T60",
-                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
-                }
-              ],
-              "len": 521,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 2.67588,
-                  "identity": 8,
-                  "positive": 14,
-                  "query_from": 153,
-                  "query_to": 175,
-                  "hit_from": 352,
-                  "hit_to": 374,
-                  "align_len": 23,
-                  "gaps": 0,
-                  "qseq": "ICFPTPQRLAAADPQALKALGMP",
-                  "hseq": "LCLPESRALLSASPEVVVAVGFP",
-                  "midline": "+C P  + L +A P+ + A+G P"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|Q88KV1|MIAE_PSEPK",
-                  "accession": "Q88KV1",
-                  "title": "tRNA 2-(methylsulfanyl)-N(6)-isopentenyladenosine(37) hydroxylase OS=Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440) OX=160488 GN=miaE PE=1 SV=1"
-                }
-              ],
-              "len": 205,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 3.36777,
-                  "identity": 11,
-                  "positive": 22,
-                  "query_from": 43,
-                  "query_to": 84,
-                  "hit_from": 38,
-                  "hit_to": 79,
-                  "align_len": 42,
-                  "gaps": 0,
-                  "qseq": "EYRGVVTAIPDIARHTLHINLSAGLEPVAAECLAKMSRLFDL",
-                  "hseq": "EFKAASTALSLIAKYNTHLDLINMMSRLAREELVHHEQVLRL",
-                  "midline": "E++   TA+  IA++  H++L   +  +A E L    ++  L"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|P26646|ACUI_ECOLI",
-                  "accession": "P26646",
-                  "title": "Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1"
-                }
-              ],
-              "len": 324,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 5.51816,
-                  "identity": 10,
-                  "positive": 14,
-                  "query_from": 26,
-                  "query_to": 50,
-                  "hit_from": 215,
-                  "hit_to": 239,
-                  "align_len": 25,
-                  "gaps": 0,
-                  "qseq": "SVETVADSYYARSLAVGEYRGVVTA",
-                  "hseq": "AIDTVGDKVLAKVLAQMNYGGCVAA",
-                  "midline": "+++TV D   A+ LA   Y G V A"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|O60016|CLR4_SCHPO",
-                  "accession": "O60016",
-                  "title": "Histone-lysine N-methyltransferase, H3 lysine-9 specific OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=clr4 PE=1 SV=2"
-                }
-              ],
-              "len": 490,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 5.82506,
-                  "identity": 8,
-                  "positive": 12,
-                  "query_from": 70,
-                  "query_to": 90,
-                  "hit_from": 396,
-                  "hit_to": 416,
-                  "align_len": 21,
-                  "gaps": 0,
-                  "qseq": "VAAECLAKMSRLFDLQCNPQI",
-                  "hseq": "VDAQNYGDVSRFFNHSCSPNI",
-                  "midline": "V A+    +SR F+  C+P I"
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|P74881|PUR4_SALTY",
-                  "accession": "P74881",
-                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
-                }
-              ],
-              "len": 1295,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 7.12264,
-                  "identity": 14,
-                  "positive": 26,
-                  "query_from": 32,
-                  "query_to": 81,
-                  "hit_from": 688,
-                  "hit_to": 734,
-                  "align_len": 50,
-                  "gaps": 3,
-                  "qseq": "DSYYARSLAVGEYRGVVTAIPDIARHTLHINLSAGLEPVAAECLAKMSRL",
-                  "hseq": "DSYYGEAMSIGERAPV--ALLDFAA-SARLAVGEALTNIAATQIGDIKRI",
-                  "midline": "DSYY  ++++GE   V  A+ D A  +  + +   L  +AA  +  + R+"
-                }
-              ]
-            },
-            {
-              "num": 12,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 8.61516,
-                  "identity": 11,
-                  "positive": 25,
-                  "query_from": 85,
-                  "query_to": 136,
-                  "hit_from": 5459,
-                  "hit_to": 5510,
-                  "align_len": 52,
-                  "gaps": 0,
-                  "qseq": "QCNPQIVNGALGRLGAARPGLRLPGCVDAFEQGVRAILGQLVSVAMAAKLTA",
-                  "hseq": "EMNPDTINQKASQVNSAKSALNGDEKLAAAKQTAKSDIGRLTDLNNAQRTAA",
-                  "midline": "+ NP  +N    ++ +A+  L     + A +Q  ++ +G+L  +  A +  A"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 64,
+                "eff_space": 15117428,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 64,
-            "eff_space": 15117428,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

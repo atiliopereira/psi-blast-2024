@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,262 +17,267 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P54396|YPMB_BACSU Uncharacterized protein YpmB OS=Bacillus subtilis (strain 168) OX=224308 GN=ypmB PE=1 SV=1",
-          "query_len": 161,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P54396|YPMB_BACSU",
-                  "accession": "P54396",
-                  "title": "Uncharacterized protein YpmB OS=Bacillus subtilis (strain 168) OX=224308 GN=ypmB PE=1 SV=1"
-                }
-              ],
-              "len": 161,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P54396|YPMB_BACSU Uncharacterized protein YpmB OS=Bacillus subtilis (strain 168) OX=224308 GN=ypmB PE=1 SV=1",
+              "query_len": 161,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 318.931,
-                  "score": 816,
-                  "evalue": 7.05426e-116,
-                  "identity": 161,
-                  "positive": 161,
-                  "query_from": 1,
-                  "query_to": 161,
-                  "hit_from": 1,
-                  "hit_to": 161,
-                  "align_len": 161,
-                  "gaps": 0,
-                  "qseq": "MRKKALIFTVIFGIIFLAVLLVSASIYKSAMAQKEEGHEAAAAEAKKETDLAHVDQVETFVGKEKYYVVKGTDKKGTALYVWVPADKKAKILSKEAKEGISEDKAAKIIKDEGLVSKQKEVHLAREGNVLLWEVTYLDKEGQYSLSYVDFTTGKILKNITP",
-                  "hseq": "MRKKALIFTVIFGIIFLAVLLVSASIYKSAMAQKEEGHEAAAAEAKKETDLAHVDQVETFVGKEKYYVVKGTDKKGTALYVWVPADKKAKILSKEAKEGISEDKAAKIIKDEGLVSKQKEVHLAREGNVLLWEVTYLDKEGQYSLSYVDFTTGKILKNITP",
-                  "midline": "MRKKALIFTVIFGIIFLAVLLVSASIYKSAMAQKEEGHEAAAAEAKKETDLAHVDQVETFVGKEKYYVVKGTDKKGTALYVWVPADKKAKILSKEAKEGISEDKAAKIIKDEGLVSKQKEVHLAREGNVLLWEVTYLDKEGQYSLSYVDFTTGKILKNITP"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P54396|YPMB_BACSU",
+                      "accession": "P54396",
+                      "title": "Uncharacterized protein YpmB OS=Bacillus subtilis (strain 168) OX=224308 GN=ypmB PE=1 SV=1"
+                    }
+                  ],
+                  "len": 161,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 318.931,
+                      "score": 816,
+                      "evalue": 7.05426e-116,
+                      "identity": 161,
+                      "positive": 161,
+                      "query_from": 1,
+                      "query_to": 161,
+                      "hit_from": 1,
+                      "hit_to": 161,
+                      "align_len": 161,
+                      "gaps": 0,
+                      "qseq": "MRKKALIFTVIFGIIFLAVLLVSASIYKSAMAQKEEGHEAAAAEAKKETDLAHVDQVETFVGKEKYYVVKGTDKKGTALYVWVPADKKAKILSKEAKEGISEDKAAKIIKDEGLVSKQKEVHLAREGNVLLWEVTYLDKEGQYSLSYVDFTTGKILKNITP",
+                      "hseq": "MRKKALIFTVIFGIIFLAVLLVSASIYKSAMAQKEEGHEAAAAEAKKETDLAHVDQVETFVGKEKYYVVKGTDKKGTALYVWVPADKKAKILSKEAKEGISEDKAAKIIKDEGLVSKQKEVHLAREGNVLLWEVTYLDKEGQYSLSYVDFTTGKILKNITP",
+                      "midline": "MRKKALIFTVIFGIIFLAVLLVSASIYKSAMAQKEEGHEAAAAEAKKETDLAHVDQVETFVGKEKYYVVKGTDKKGTALYVWVPADKKAKILSKEAKEGISEDKAAKIIKDEGLVSKQKEVHLAREGNVLLWEVTYLDKEGQYSLSYVDFTTGKILKNITP"
+                    }
+                  ]
+                },
                 {
-                  "id": "tr|Q53752|Q53752_KITAU",
-                  "accession": "Q53752",
-                  "title": "Ribonuclease OS=Kitasatospora aureofaciens OX=1894 GN=ribonuclease PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "tr|Q53752|Q53752_KITAU",
+                      "accession": "Q53752",
+                      "title": "Ribonuclease OS=Kitasatospora aureofaciens OX=1894 GN=ribonuclease PE=1 SV=1"
+                    }
+                  ],
+                  "len": 163,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 25.409,
+                      "score": 54,
+                      "evalue": 0.111313,
+                      "identity": 16,
+                      "positive": 27,
+                      "query_from": 82,
+                      "query_to": 135,
+                      "hit_from": 64,
+                      "hit_to": 124,
+                      "align_len": 61,
+                      "gaps": 7,
+                      "qseq": "WVPADKKAKILSKEAKEGISEDKAAKIIKD-------EGLVSKQKEVHLAREGNVLLWEVT",
+                      "hseq": "WTPADPALADVCRTKLPSQAQDTLALIAKNGPYPYNRDGVVFENRESRLPKKGNGYYHEFT",
+                      "midline": "W PAD     + +      ++D  A I K+       +G+V + +E  L ++GN    E T"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P0C6U8|R1A_SARS",
+                      "accession": "P0C6U8",
+                      "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                    }
+                  ],
+                  "len": 4382,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 2.30729,
+                      "identity": 21,
+                      "positive": 35,
+                      "query_from": 29,
+                      "query_to": 108,
+                      "hit_from": 3932,
+                      "hit_to": 4002,
+                      "align_len": 80,
+                      "gaps": 9,
+                      "qseq": "SAMAQKEEGHEAAAAEAKKETDLAHVDQVETFVGKEKYYVVKGTDKKGTALYVWVPADKKAKILSKEAKEGISEDKAAKI",
+                      "hseq": "AAYATAQEAYEQAVANGDSEVVLKKLKK-SLNVAKSEFDRDAAMQRKLEKM-----ADQAMTQMYKQAR---SEDKRAKV",
+                      "midline": "+A A  +E +E A A    E  L  + +    V K ++       +K   +     AD+    + K+A+   SEDK AK+"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P16009|NEEDL_BPT4",
+                      "accession": "P16009",
+                      "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 575,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 2.82422,
+                      "identity": 8,
+                      "positive": 15,
+                      "query_from": 48,
+                      "query_to": 72,
+                      "hit_from": 394,
+                      "hit_to": 418,
+                      "align_len": 25,
+                      "gaps": 0,
+                      "qseq": "ETDLAHVDQVETFVGKEKYYVVKGT",
+                      "hseq": "ETESGHIQEFDDTPGQERYRLVHPT",
+                      "midline": "ET+  H+ + +   G+E+Y +V  T"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q93HT9|IABN_GEOTD",
+                      "accession": "Q93HT9",
+                      "title": "Intracellular endo-alpha-(1->5)-L-arabinanase OS=Geobacillus thermodenitrificans OX=33940 GN=abn-ts PE=1 SV=1"
+                    }
+                  ],
+                  "len": 313,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 4.46006,
+                      "identity": 16,
+                      "positive": 23,
+                      "query_from": 110,
+                      "query_to": 153,
+                      "hit_from": 129,
+                      "hit_to": 168,
+                      "align_len": 46,
+                      "gaps": 8,
+                      "qseq": "KDEGLV--SKQKEVHLAREGNVLLWEVTYLDKEGQYSLSYVDFTTG",
+                      "hseq": "KDMGPVIHSTASDNYNAIDPNVVF------DQEGQPWLSFGSFWSG",
+                      "midline": "KD G V  S   + + A + NV+       D+EGQ  LS+  F +G"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P38935|SMBP2_HUMAN",
+                      "accession": "P38935",
+                      "title": "DNA-binding protein SMUBP-2 OS=Homo sapiens OX=9606 GN=IGHMBP2 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 993,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 7.83221,
+                      "identity": 7,
+                      "positive": 13,
+                      "query_from": 32,
+                      "query_to": 47,
+                      "hit_from": 677,
+                      "hit_to": 692,
+                      "align_len": 16,
+                      "gaps": 0,
+                      "qseq": "AQKEEGHEAAAAEAKK",
+                      "hseq": "SQRQEGGQEAAAPARQ",
+                      "midline": "+Q++EG + AAA A++"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P74881|PUR4_SALTY",
+                      "accession": "P74881",
+                      "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1295,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 8.65117,
+                      "identity": 11,
+                      "positive": 19,
+                      "query_from": 112,
+                      "query_to": 147,
+                      "hit_from": 1198,
+                      "hit_to": 1233,
+                      "align_len": 36,
+                      "gaps": 0,
+                      "qseq": "EGLVSKQKEVHLAREGNVLLWEVTYLDKEGQYSLSY",
+                      "hseq": "EGRVEVRDDAHLAALESKGLVALRYVDNFGKVTETY",
+                      "midline": "EG V  + + HLA   +  L  + Y+D  G+ + +Y"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P26222|GUN2_THEFU",
+                      "accession": "P26222",
+                      "title": "Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2"
+                    }
+                  ],
+                  "len": 441,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 8.69314,
+                      "identity": 8,
+                      "positive": 12,
+                      "query_from": 118,
+                      "query_to": 142,
+                      "hit_from": 361,
+                      "hit_to": 385,
+                      "align_len": 25,
+                      "gaps": 0,
+                      "qseq": "QKEVHLAREGNVLLWEVTYLDKEGQ",
+                      "hseq": "QATVTVTANQNITGWTVTWTFTDGQ",
+                      "midline": "Q  V +    N+  W VT+   +GQ"
+                    }
+                  ]
                 }
               ],
-              "len": 163,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 25.409,
-                  "score": 54,
-                  "evalue": 0.111313,
-                  "identity": 16,
-                  "positive": 27,
-                  "query_from": 82,
-                  "query_to": 135,
-                  "hit_from": 64,
-                  "hit_to": 124,
-                  "align_len": 61,
-                  "gaps": 7,
-                  "qseq": "WVPADKKAKILSKEAKEGISEDKAAKIIKD-------EGLVSKQKEVHLAREGNVLLWEVT",
-                  "hseq": "WTPADPALADVCRTKLPSQAQDTLALIAKNGPYPYNRDGVVFENRESRLPKKGNGYYHEFT",
-                  "midline": "W PAD     + +      ++D  A I K+       +G+V + +E  L ++GN    E T"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P0C6U8|R1A_SARS",
-                  "accession": "P0C6U8",
-                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
-                }
-              ],
-              "len": 4382,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 2.30729,
-                  "identity": 21,
-                  "positive": 35,
-                  "query_from": 29,
-                  "query_to": 108,
-                  "hit_from": 3932,
-                  "hit_to": 4002,
-                  "align_len": 80,
-                  "gaps": 9,
-                  "qseq": "SAMAQKEEGHEAAAAEAKKETDLAHVDQVETFVGKEKYYVVKGTDKKGTALYVWVPADKKAKILSKEAKEGISEDKAAKI",
-                  "hseq": "AAYATAQEAYEQAVANGDSEVVLKKLKK-SLNVAKSEFDRDAAMQRKLEKM-----ADQAMTQMYKQAR---SEDKRAKV",
-                  "midline": "+A A  +E +E A A    E  L  + +    V K ++       +K   +     AD+    + K+A+   SEDK AK+"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P16009|NEEDL_BPT4",
-                  "accession": "P16009",
-                  "title": "Pre-baseplate central spike protein Gp5 OS=Enterobacteria phage T4 OX=10665 GN=5 PE=1 SV=2"
-                }
-              ],
-              "len": 575,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 2.82422,
-                  "identity": 8,
-                  "positive": 15,
-                  "query_from": 48,
-                  "query_to": 72,
-                  "hit_from": 394,
-                  "hit_to": 418,
-                  "align_len": 25,
-                  "gaps": 0,
-                  "qseq": "ETDLAHVDQVETFVGKEKYYVVKGT",
-                  "hseq": "ETESGHIQEFDDTPGQERYRLVHPT",
-                  "midline": "ET+  H+ + +   G+E+Y +V  T"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q93HT9|IABN_GEOTD",
-                  "accession": "Q93HT9",
-                  "title": "Intracellular endo-alpha-(1->5)-L-arabinanase OS=Geobacillus thermodenitrificans OX=33940 GN=abn-ts PE=1 SV=1"
-                }
-              ],
-              "len": 313,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 4.46006,
-                  "identity": 16,
-                  "positive": 23,
-                  "query_from": 110,
-                  "query_to": 153,
-                  "hit_from": 129,
-                  "hit_to": 168,
-                  "align_len": 46,
-                  "gaps": 8,
-                  "qseq": "KDEGLV--SKQKEVHLAREGNVLLWEVTYLDKEGQYSLSYVDFTTG",
-                  "hseq": "KDMGPVIHSTASDNYNAIDPNVVF------DQEGQPWLSFGSFWSG",
-                  "midline": "KD G V  S   + + A + NV+       D+EGQ  LS+  F +G"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P38935|SMBP2_HUMAN",
-                  "accession": "P38935",
-                  "title": "DNA-binding protein SMUBP-2 OS=Homo sapiens OX=9606 GN=IGHMBP2 PE=1 SV=3"
-                }
-              ],
-              "len": 993,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 7.83221,
-                  "identity": 7,
-                  "positive": 13,
-                  "query_from": 32,
-                  "query_to": 47,
-                  "hit_from": 677,
-                  "hit_to": 692,
-                  "align_len": 16,
-                  "gaps": 0,
-                  "qseq": "AQKEEGHEAAAAEAKK",
-                  "hseq": "SQRQEGGQEAAAPARQ",
-                  "midline": "+Q++EG + AAA A++"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P74881|PUR4_SALTY",
-                  "accession": "P74881",
-                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
-                }
-              ],
-              "len": 1295,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 8.65117,
-                  "identity": 11,
-                  "positive": 19,
-                  "query_from": 112,
-                  "query_to": 147,
-                  "hit_from": 1198,
-                  "hit_to": 1233,
-                  "align_len": 36,
-                  "gaps": 0,
-                  "qseq": "EGLVSKQKEVHLAREGNVLLWEVTYLDKEGQYSLSY",
-                  "hseq": "EGRVEVRDDAHLAALESKGLVALRYVDNFGKVTETY",
-                  "midline": "EG V  + + HLA   +  L  + Y+D  G+ + +Y"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P26222|GUN2_THEFU",
-                  "accession": "P26222",
-                  "title": "Endoglucanase E-2 OS=Thermobifida fusca OX=2021 GN=celB PE=1 SV=2"
-                }
-              ],
-              "len": 441,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 8.69314,
-                  "identity": 8,
-                  "positive": 12,
-                  "query_from": 118,
-                  "query_to": 142,
-                  "hit_from": 361,
-                  "hit_to": 385,
-                  "align_len": 25,
-                  "gaps": 0,
-                  "qseq": "QKEVHLAREGNVLLWEVTYLDKEGQ",
-                  "hseq": "QATVTVTANQNITGWTVTWTFTDGQ",
-                  "midline": "Q  V +    N+  W VT+   +GQ"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 59,
+                "eff_space": 7179882,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 59,
-            "eff_space": 7179882,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,172 +17,177 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q37875|ENLYS_BPP1 SAR-endolysin OS=Escherichia phage P1 OX=2886926 GN=17 PE=1 SV=1",
-          "query_len": 185,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q37875|ENLYS_BPP1",
-                  "accession": "Q37875",
-                  "title": "SAR-endolysin OS=Escherichia phage P1 OX=2886926 GN=17 PE=1 SV=1"
-                }
-              ],
-              "len": 185,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q37875|ENLYS_BPP1 SAR-endolysin OS=Escherichia phage P1 OX=2886926 GN=17 PE=1 SV=1",
+              "query_len": 185,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 386.726,
-                  "score": 992,
-                  "evalue": 6.66145e-142,
-                  "identity": 185,
-                  "positive": 185,
-                  "query_from": 1,
-                  "query_to": 185,
-                  "hit_from": 1,
-                  "hit_to": 185,
-                  "align_len": 185,
-                  "gaps": 0,
-                  "qseq": "MKGKTAAGGGAICAIAVMITIVMGNGNVRTNQAGLELIGNAEGCRRDPYMCPAGVWTDGIGNTHGVTPGVRKTDQQIAADWEKNILIAERCINQHFRGKDMPDNAFSAMTSAAFNMGCNSLRTYYSKARGMRVETSIHKWAQKGEWVNMCNHLPDFVNSNGVPLRGLKIRREKERQLCLTGLVNE",
-                  "hseq": "MKGKTAAGGGAICAIAVMITIVMGNGNVRTNQAGLELIGNAEGCRRDPYMCPAGVWTDGIGNTHGVTPGVRKTDQQIAADWEKNILIAERCINQHFRGKDMPDNAFSAMTSAAFNMGCNSLRTYYSKARGMRVETSIHKWAQKGEWVNMCNHLPDFVNSNGVPLRGLKIRREKERQLCLTGLVNE",
-                  "midline": "MKGKTAAGGGAICAIAVMITIVMGNGNVRTNQAGLELIGNAEGCRRDPYMCPAGVWTDGIGNTHGVTPGVRKTDQQIAADWEKNILIAERCINQHFRGKDMPDNAFSAMTSAAFNMGCNSLRTYYSKARGMRVETSIHKWAQKGEWVNMCNHLPDFVNSNGVPLRGLKIRREKERQLCLTGLVNE"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|Q37875|ENLYS_BPP1",
+                      "accession": "Q37875",
+                      "title": "SAR-endolysin OS=Escherichia phage P1 OX=2886926 GN=17 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 185,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 386.726,
+                      "score": 992,
+                      "evalue": 6.66145e-142,
+                      "identity": 185,
+                      "positive": 185,
+                      "query_from": 1,
+                      "query_to": 185,
+                      "hit_from": 1,
+                      "hit_to": 185,
+                      "align_len": 185,
+                      "gaps": 0,
+                      "qseq": "MKGKTAAGGGAICAIAVMITIVMGNGNVRTNQAGLELIGNAEGCRRDPYMCPAGVWTDGIGNTHGVTPGVRKTDQQIAADWEKNILIAERCINQHFRGKDMPDNAFSAMTSAAFNMGCNSLRTYYSKARGMRVETSIHKWAQKGEWVNMCNHLPDFVNSNGVPLRGLKIRREKERQLCLTGLVNE",
+                      "hseq": "MKGKTAAGGGAICAIAVMITIVMGNGNVRTNQAGLELIGNAEGCRRDPYMCPAGVWTDGIGNTHGVTPGVRKTDQQIAADWEKNILIAERCINQHFRGKDMPDNAFSAMTSAAFNMGCNSLRTYYSKARGMRVETSIHKWAQKGEWVNMCNHLPDFVNSNGVPLRGLKIRREKERQLCLTGLVNE",
+                      "midline": "MKGKTAAGGGAICAIAVMITIVMGNGNVRTNQAGLELIGNAEGCRRDPYMCPAGVWTDGIGNTHGVTPGVRKTDQQIAADWEKNILIAERCINQHFRGKDMPDNAFSAMTSAAFNMGCNSLRTYYSKARGMRVETSIHKWAQKGEWVNMCNHLPDFVNSNGVPLRGLKIRREKERQLCLTGLVNE"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P05618|CDGT_BACS0",
-                  "accession": "P05618",
-                  "title": "Cyclomaltodextrin glucanotransferase OS=Bacillus sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P05618|CDGT_BACS0",
+                      "accession": "P05618",
+                      "title": "Cyclomaltodextrin glucanotransferase OS=Bacillus sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1"
+                    }
+                  ],
+                  "len": 713,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 3.39957,
+                      "identity": 12,
+                      "positive": 16,
+                      "query_from": 92,
+                      "query_to": 124,
+                      "hit_from": 44,
+                      "hit_to": 76,
+                      "align_len": 33,
+                      "gaps": 0,
+                      "qseq": "INQHFRGKDMPDNAFSAMTSAAFNMGCNSLRTY",
+                      "hseq": "IYQIFTDRFSDGNPANNPTGAAFDGSCTNLRLY",
+                      "midline": "I Q F  +    N  +  T AAF+  C +LR Y"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P0AGC3|SLT_ECOLI",
+                      "accession": "P0AGC3",
+                      "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
+                    }
+                  ],
+                  "len": 645,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 6.05957,
+                      "identity": 8,
+                      "positive": 13,
+                      "query_from": 110,
+                      "query_to": 130,
+                      "hit_from": 575,
+                      "hit_to": 595,
+                      "align_len": 21,
+                      "gaps": 0,
+                      "qseq": "TSAAFNMGCNSLRTYYSKARG",
+                      "hseq": "SSAAYNAGPGRVRTWLGNSAG",
+                      "midline": "+SAA+N G   +RT+   + G"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q8K1S3|UNC5B_MOUSE",
+                      "accession": "Q8K1S3",
+                      "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
+                    }
+                  ],
+                  "len": 945,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 6.84111,
+                      "identity": 10,
+                      "positive": 16,
+                      "query_from": 144,
+                      "query_to": 176,
+                      "hit_from": 83,
+                      "hit_to": 115,
+                      "align_len": 33,
+                      "gaps": 0,
+                      "qseq": "GEWVNMCNHLPDFVNSNGVPLRGLKIRREKERQ",
+                      "hseq": "GEWVSQNDHVTQESLDEATGLRVREVQIEVSRQ",
+                      "midline": "GEWV+  +H+          LR  +++ E  RQ"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q8WTS6|SETD7_HUMAN",
+                      "accession": "Q8WTS6",
+                      "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 366,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 8.75969,
+                      "identity": 8,
+                      "positive": 17,
+                      "query_from": 116,
+                      "query_to": 149,
+                      "hit_from": 236,
+                      "hit_to": 269,
+                      "align_len": 34,
+                      "gaps": 0,
+                      "qseq": "MGCNSLRTYYSKARGMRVETSIHKWAQKGEWVNM",
+                      "hseq": "VGPNTVMSFYNGVRITHQEVDSRDWALNGNTLSL",
+                      "midline": "+G N++ ++Y+  R    E     WA  G  +++"
+                    }
+                  ]
                 }
               ],
-              "len": 713,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 3.39957,
-                  "identity": 12,
-                  "positive": 16,
-                  "query_from": 92,
-                  "query_to": 124,
-                  "hit_from": 44,
-                  "hit_to": 76,
-                  "align_len": 33,
-                  "gaps": 0,
-                  "qseq": "INQHFRGKDMPDNAFSAMTSAAFNMGCNSLRTY",
-                  "hseq": "IYQIFTDRFSDGNPANNPTGAAFDGSCTNLRLY",
-                  "midline": "I Q F  +    N  +  T AAF+  C +LR Y"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P0AGC3|SLT_ECOLI",
-                  "accession": "P0AGC3",
-                  "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
-                }
-              ],
-              "len": 645,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 6.05957,
-                  "identity": 8,
-                  "positive": 13,
-                  "query_from": 110,
-                  "query_to": 130,
-                  "hit_from": 575,
-                  "hit_to": 595,
-                  "align_len": 21,
-                  "gaps": 0,
-                  "qseq": "TSAAFNMGCNSLRTYYSKARG",
-                  "hseq": "SSAAYNAGPGRVRTWLGNSAG",
-                  "midline": "+SAA+N G   +RT+   + G"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|Q8K1S3|UNC5B_MOUSE",
-                  "accession": "Q8K1S3",
-                  "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
-                }
-              ],
-              "len": 945,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 6.84111,
-                  "identity": 10,
-                  "positive": 16,
-                  "query_from": 144,
-                  "query_to": 176,
-                  "hit_from": 83,
-                  "hit_to": 115,
-                  "align_len": 33,
-                  "gaps": 0,
-                  "qseq": "GEWVNMCNHLPDFVNSNGVPLRGLKIRREKERQ",
-                  "hseq": "GEWVSQNDHVTQESLDEATGLRVREVQIEVSRQ",
-                  "midline": "GEWV+  +H+          LR  +++ E  RQ"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q8WTS6|SETD7_HUMAN",
-                  "accession": "Q8WTS6",
-                  "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
-                }
-              ],
-              "len": 366,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 8.75969,
-                  "identity": 8,
-                  "positive": 17,
-                  "query_from": 116,
-                  "query_to": 149,
-                  "hit_from": 236,
-                  "hit_to": 269,
-                  "align_len": 34,
-                  "gaps": 0,
-                  "qseq": "MGCNSLRTYYSKARGMRVETSIHKWAQKGEWVNM",
-                  "hseq": "VGPNTVMSFYNGVRITHQEVDSRDWALNGNTLSL",
-                  "midline": "+G N++ ++Y+  R    E     WA  G  +++"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 60,
+                "eff_space": 8772750,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 60,
-            "eff_space": 8772750,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

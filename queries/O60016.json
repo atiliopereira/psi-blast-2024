@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,202 +17,207 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|O60016|CLR4_SCHPO Histone-lysine N-methyltransferase, H3 lysine-9 specific OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=clr4 PE=1 SV=2",
-          "query_len": 490,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|O60016|CLR4_SCHPO",
-                  "accession": "O60016",
-                  "title": "Histone-lysine N-methyltransferase, H3 lysine-9 specific OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=clr4 PE=1 SV=2"
-                }
-              ],
-              "len": 490,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|O60016|CLR4_SCHPO Histone-lysine N-methyltransferase, H3 lysine-9 specific OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=clr4 PE=1 SV=2",
+              "query_len": 490,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 1021.15,
-                  "score": 2639,
-                  "evalue": 0,
-                  "identity": 490,
-                  "positive": 490,
-                  "query_from": 1,
-                  "query_to": 490,
-                  "hit_from": 1,
-                  "hit_to": 490,
-                  "align_len": 490,
-                  "gaps": 0,
-                  "qseq": "MSPKQEEYEVERIVDEKLDRNGAVKLYRIRWLNYSSRSDTWEPPENLSGCSAVLAEWKRRKRRLKGSNSDSDSPHHASNPHPNSRQKHQHQTSKSVPRSQRFSRELNVKKENKKVFSSQTTKRQSRKQSTALTTNDTSIILDDSLHTNSKKLGKTRNEVKEESQKRELVSNSIKEATSPKTSSILTKPRNPSKLDSYTHLSFYEKRELFRKKLREIEGPEVTLVNEVDDEPCPSLDFQFISQYRLTQGVIPPDPNFQSGCNCSSLGGCDLNNPSRCECLDDLDEPTHFAYDAQGRVRADTGAVIYECNSFCSCSMECPNRVVQRGRTLPLEIFKTKEKGWGVRSLRFAPAGTFITCYLGEVITSAEAAKRDKNYDDDGITYLFDLDMFDDASEYTVDAQNYGDVSRFFNHSCSPNIAIYSAVRNHGFRTIYDLAFFAIKDIQPLEELTFDYAGAKDFSPVQSQKSQQNRISKLRRQCKCGSANCRGWLFG",
-                  "hseq": "MSPKQEEYEVERIVDEKLDRNGAVKLYRIRWLNYSSRSDTWEPPENLSGCSAVLAEWKRRKRRLKGSNSDSDSPHHASNPHPNSRQKHQHQTSKSVPRSQRFSRELNVKKENKKVFSSQTTKRQSRKQSTALTTNDTSIILDDSLHTNSKKLGKTRNEVKEESQKRELVSNSIKEATSPKTSSILTKPRNPSKLDSYTHLSFYEKRELFRKKLREIEGPEVTLVNEVDDEPCPSLDFQFISQYRLTQGVIPPDPNFQSGCNCSSLGGCDLNNPSRCECLDDLDEPTHFAYDAQGRVRADTGAVIYECNSFCSCSMECPNRVVQRGRTLPLEIFKTKEKGWGVRSLRFAPAGTFITCYLGEVITSAEAAKRDKNYDDDGITYLFDLDMFDDASEYTVDAQNYGDVSRFFNHSCSPNIAIYSAVRNHGFRTIYDLAFFAIKDIQPLEELTFDYAGAKDFSPVQSQKSQQNRISKLRRQCKCGSANCRGWLFG",
-                  "midline": "MSPKQEEYEVERIVDEKLDRNGAVKLYRIRWLNYSSRSDTWEPPENLSGCSAVLAEWKRRKRRLKGSNSDSDSPHHASNPHPNSRQKHQHQTSKSVPRSQRFSRELNVKKENKKVFSSQTTKRQSRKQSTALTTNDTSIILDDSLHTNSKKLGKTRNEVKEESQKRELVSNSIKEATSPKTSSILTKPRNPSKLDSYTHLSFYEKRELFRKKLREIEGPEVTLVNEVDDEPCPSLDFQFISQYRLTQGVIPPDPNFQSGCNCSSLGGCDLNNPSRCECLDDLDEPTHFAYDAQGRVRADTGAVIYECNSFCSCSMECPNRVVQRGRTLPLEIFKTKEKGWGVRSLRFAPAGTFITCYLGEVITSAEAAKRDKNYDDDGITYLFDLDMFDDASEYTVDAQNYGDVSRFFNHSCSPNIAIYSAVRNHGFRTIYDLAFFAIKDIQPLEELTFDYAGAKDFSPVQSQKSQQNRISKLRRQCKCGSANCRGWLFG"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|O60016|CLR4_SCHPO",
+                      "accession": "O60016",
+                      "title": "Histone-lysine N-methyltransferase, H3 lysine-9 specific OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=clr4 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 490,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 1021.15,
+                      "score": 2639,
+                      "evalue": 0,
+                      "identity": 490,
+                      "positive": 490,
+                      "query_from": 1,
+                      "query_to": 490,
+                      "hit_from": 1,
+                      "hit_to": 490,
+                      "align_len": 490,
+                      "gaps": 0,
+                      "qseq": "MSPKQEEYEVERIVDEKLDRNGAVKLYRIRWLNYSSRSDTWEPPENLSGCSAVLAEWKRRKRRLKGSNSDSDSPHHASNPHPNSRQKHQHQTSKSVPRSQRFSRELNVKKENKKVFSSQTTKRQSRKQSTALTTNDTSIILDDSLHTNSKKLGKTRNEVKEESQKRELVSNSIKEATSPKTSSILTKPRNPSKLDSYTHLSFYEKRELFRKKLREIEGPEVTLVNEVDDEPCPSLDFQFISQYRLTQGVIPPDPNFQSGCNCSSLGGCDLNNPSRCECLDDLDEPTHFAYDAQGRVRADTGAVIYECNSFCSCSMECPNRVVQRGRTLPLEIFKTKEKGWGVRSLRFAPAGTFITCYLGEVITSAEAAKRDKNYDDDGITYLFDLDMFDDASEYTVDAQNYGDVSRFFNHSCSPNIAIYSAVRNHGFRTIYDLAFFAIKDIQPLEELTFDYAGAKDFSPVQSQKSQQNRISKLRRQCKCGSANCRGWLFG",
+                      "hseq": "MSPKQEEYEVERIVDEKLDRNGAVKLYRIRWLNYSSRSDTWEPPENLSGCSAVLAEWKRRKRRLKGSNSDSDSPHHASNPHPNSRQKHQHQTSKSVPRSQRFSRELNVKKENKKVFSSQTTKRQSRKQSTALTTNDTSIILDDSLHTNSKKLGKTRNEVKEESQKRELVSNSIKEATSPKTSSILTKPRNPSKLDSYTHLSFYEKRELFRKKLREIEGPEVTLVNEVDDEPCPSLDFQFISQYRLTQGVIPPDPNFQSGCNCSSLGGCDLNNPSRCECLDDLDEPTHFAYDAQGRVRADTGAVIYECNSFCSCSMECPNRVVQRGRTLPLEIFKTKEKGWGVRSLRFAPAGTFITCYLGEVITSAEAAKRDKNYDDDGITYLFDLDMFDDASEYTVDAQNYGDVSRFFNHSCSPNIAIYSAVRNHGFRTIYDLAFFAIKDIQPLEELTFDYAGAKDFSPVQSQKSQQNRISKLRRQCKCGSANCRGWLFG",
+                      "midline": "MSPKQEEYEVERIVDEKLDRNGAVKLYRIRWLNYSSRSDTWEPPENLSGCSAVLAEWKRRKRRLKGSNSDSDSPHHASNPHPNSRQKHQHQTSKSVPRSQRFSRELNVKKENKKVFSSQTTKRQSRKQSTALTTNDTSIILDDSLHTNSKKLGKTRNEVKEESQKRELVSNSIKEATSPKTSSILTKPRNPSKLDSYTHLSFYEKRELFRKKLREIEGPEVTLVNEVDDEPCPSLDFQFISQYRLTQGVIPPDPNFQSGCNCSSLGGCDLNNPSRCECLDDLDEPTHFAYDAQGRVRADTGAVIYECNSFCSCSMECPNRVVQRGRTLPLEIFKTKEKGWGVRSLRFAPAGTFITCYLGEVITSAEAAKRDKNYDDDGITYLFDLDMFDDASEYTVDAQNYGDVSRFFNHSCSPNIAIYSAVRNHGFRTIYDLAFFAIKDIQPLEELTFDYAGAKDFSPVQSQKSQQNRISKLRRQCKCGSANCRGWLFG"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q15797|SMAD1_HUMAN",
-                  "accession": "Q15797",
-                  "title": "Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|Q15797|SMAD1_HUMAN",
+                      "accession": "Q15797",
+                      "title": "Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 465,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 3.60996,
+                      "identity": 7,
+                      "positive": 9,
+                      "query_from": 424,
+                      "query_to": 433,
+                      "hit_from": 397,
+                      "hit_to": 406,
+                      "align_len": 10,
+                      "gaps": 0,
+                      "qseq": "NHGFRTIYDL",
+                      "hseq": "NHGFETVYEL",
+                      "midline": "NHGF T+Y+L"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.0978,
+                      "score": 48,
+                      "evalue": 3.79756,
+                      "identity": 27,
+                      "positive": 41,
+                      "query_from": 377,
+                      "query_to": 463,
+                      "hit_from": 2151,
+                      "hit_to": 2230,
+                      "align_len": 89,
+                      "gaps": 11,
+                      "qseq": "DGITYLFDLDMFDDASEYTVDAQNYGDVSRFFNHSCSPNIAIYSAVRN-HGFRTIYDLAFFAIKDIQPLE-ELTFDYAGAKDFSPVQSQ",
+                      "hseq": "DGFTYKWNRDT-TGTNDANWSAMNKPNVAKVVN-------AKYDVIYNGHTFATSLP-AKFVVKDVQPAKPTVTETAAGAITIAPGANQ",
+                      "midline": "DG TY ++ D     ++    A N  +V++  N       A Y  + N H F T    A F +KD+QP +  +T   AGA   +P  +Q"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P11941|LYSC2_ONCMY",
+                      "accession": "P11941",
+                      "title": "Lysozyme C II OS=Oncorhynchus mykiss OX=8022 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 144,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 4.32191,
+                      "identity": 15,
+                      "positive": 16,
+                      "query_from": 237,
+                      "query_to": 276,
+                      "hit_from": 71,
+                      "hit_to": 109,
+                      "align_len": 40,
+                      "gaps": 1,
+                      "qseq": "FQFISQYRLTQGVIPPDPNFQSGCNCSSLGGCDLNNPSRC",
+                      "hseq": "FQINSRYWCDDGRTPGAKNV-CGIRCSQLLTADLTVAIRC",
+                      "midline": "FQ  S+Y    G  P   N   G  CS L   DL    RC"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P09394|GLPQ_ECOLI",
+                      "accession": "P09394",
+                      "title": "Glycerophosphodiester phosphodiesterase, periplasmic OS=Escherichia coli (strain K12) OX=83333 GN=glpQ PE=1 SV=2"
+                    }
+                  ],
+                  "len": 358,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 7.78333,
+                      "identity": 8,
+                      "positive": 10,
+                      "query_from": 408,
+                      "query_to": 428,
+                      "hit_from": 158,
+                      "hit_to": 178,
+                      "align_len": 21,
+                      "gaps": 0,
+                      "qseq": "FNHSCSPNIAIYSAVRNHGFR",
+                      "hseq": "LNHSTGKNIGIYPEIKAPWFH",
+                      "midline": " NHS   NI IY  ++   F "
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P08905|LYZ2_MOUSE",
+                      "accession": "P08905",
+                      "title": "Lysozyme C-2 OS=Mus musculus OX=10090 GN=Lyz2 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 148,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 9.43578,
+                      "identity": 14,
+                      "positive": 18,
+                      "query_from": 237,
+                      "query_to": 276,
+                      "hit_from": 75,
+                      "hit_to": 113,
+                      "align_len": 40,
+                      "gaps": 1,
+                      "qseq": "FQFISQYRLTQGVIPPDPNFQSGCNCSSLGGCDLNNPSRC",
+                      "hseq": "FQINSRYWCNDGKTPRAVN-ACGINCSALLQDDITAAIQC",
+                      "midline": "FQ  S+Y    G  P   N   G NCS+L   D+    +C"
+                    }
+                  ]
                 }
               ],
-              "len": 465,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 3.60996,
-                  "identity": 7,
-                  "positive": 9,
-                  "query_from": 424,
-                  "query_to": 433,
-                  "hit_from": 397,
-                  "hit_to": 406,
-                  "align_len": 10,
-                  "gaps": 0,
-                  "qseq": "NHGFRTIYDL",
-                  "hseq": "NHGFETVYEL",
-                  "midline": "NHGF T+Y+L"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.0978,
-                  "score": 48,
-                  "evalue": 3.79756,
-                  "identity": 27,
-                  "positive": 41,
-                  "query_from": 377,
-                  "query_to": 463,
-                  "hit_from": 2151,
-                  "hit_to": 2230,
-                  "align_len": 89,
-                  "gaps": 11,
-                  "qseq": "DGITYLFDLDMFDDASEYTVDAQNYGDVSRFFNHSCSPNIAIYSAVRN-HGFRTIYDLAFFAIKDIQPLE-ELTFDYAGAKDFSPVQSQ",
-                  "hseq": "DGFTYKWNRDT-TGTNDANWSAMNKPNVAKVVN-------AKYDVIYNGHTFATSLP-AKFVVKDVQPAKPTVTETAAGAITIAPGANQ",
-                  "midline": "DG TY ++ D     ++    A N  +V++  N       A Y  + N H F T    A F +KD+QP +  +T   AGA   +P  +Q"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P11941|LYSC2_ONCMY",
-                  "accession": "P11941",
-                  "title": "Lysozyme C II OS=Oncorhynchus mykiss OX=8022 PE=1 SV=2"
-                }
-              ],
-              "len": 144,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 4.32191,
-                  "identity": 15,
-                  "positive": 16,
-                  "query_from": 237,
-                  "query_to": 276,
-                  "hit_from": 71,
-                  "hit_to": 109,
-                  "align_len": 40,
-                  "gaps": 1,
-                  "qseq": "FQFISQYRLTQGVIPPDPNFQSGCNCSSLGGCDLNNPSRC",
-                  "hseq": "FQINSRYWCDDGRTPGAKNV-CGIRCSQLLTADLTVAIRC",
-                  "midline": "FQ  S+Y    G  P   N   G  CS L   DL    RC"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P09394|GLPQ_ECOLI",
-                  "accession": "P09394",
-                  "title": "Glycerophosphodiester phosphodiesterase, periplasmic OS=Escherichia coli (strain K12) OX=83333 GN=glpQ PE=1 SV=2"
-                }
-              ],
-              "len": 358,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 7.78333,
-                  "identity": 8,
-                  "positive": 10,
-                  "query_from": 408,
-                  "query_to": 428,
-                  "hit_from": 158,
-                  "hit_to": 178,
-                  "align_len": 21,
-                  "gaps": 0,
-                  "qseq": "FNHSCSPNIAIYSAVRNHGFR",
-                  "hseq": "LNHSTGKNIGIYPEIKAPWFH",
-                  "midline": " NHS   NI IY  ++   F "
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P08905|LYZ2_MOUSE",
-                  "accession": "P08905",
-                  "title": "Lysozyme C-2 OS=Mus musculus OX=10090 GN=Lyz2 PE=1 SV=2"
-                }
-              ],
-              "len": 148,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 9.43578,
-                  "identity": 14,
-                  "positive": 18,
-                  "query_from": 237,
-                  "query_to": 276,
-                  "hit_from": 75,
-                  "hit_to": 113,
-                  "align_len": 40,
-                  "gaps": 1,
-                  "qseq": "FQFISQYRLTQGVIPPDPNFQSGCNCSSLGGCDLNNPSRC",
-                  "hseq": "FQINSRYWCNDGKTPRAVN-ACGINCSALLQDDITAAIQC",
-                  "midline": "FQ  S+Y    G  P   N   G NCS+L   D+    +C"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 69,
+                "eff_space": 28754721,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 69,
-            "eff_space": 28754721,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

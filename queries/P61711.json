@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,352 +17,357 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P61711|RISB2_BRUAB 6,7-dimethyl-8-ribityllumazine synthase 2 OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 GN=ribH2 PE=3 SV=1",
-          "query_len": 158,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P61711|RISB2_BRUAB",
-                  "accession": "P61711",
-                  "title": "6,7-dimethyl-8-ribityllumazine synthase 2 OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 GN=ribH2 PE=3 SV=1"
-                }
-              ],
-              "len": 158,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P61711|RISB2_BRUAB 6,7-dimethyl-8-ribityllumazine synthase 2 OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 GN=ribH2 PE=3 SV=1",
+              "query_len": 158,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 322.398,
-                  "score": 825,
-                  "evalue": 2.8397e-117,
-                  "identity": 158,
-                  "positive": 158,
-                  "query_from": 1,
-                  "query_to": 158,
-                  "hit_from": 1,
-                  "hit_to": 158,
-                  "align_len": 158,
-                  "gaps": 0,
-                  "qseq": "MNQSCPNKTSFKIAFIQARWHADIVDEARKSFVAELAAKTGGSVEVEIFDVPGAYEIPLHAKTLARTGRYAAIVGAAFVIDGGIYRHDFVATAVINGMMQVQLETEVPVLSVVLTPHHFHESKEHHDFFHAHFKVKGVEAAHAALQIVSERSRIAALV",
-                  "hseq": "MNQSCPNKTSFKIAFIQARWHADIVDEARKSFVAELAAKTGGSVEVEIFDVPGAYEIPLHAKTLARTGRYAAIVGAAFVIDGGIYRHDFVATAVINGMMQVQLETEVPVLSVVLTPHHFHESKEHHDFFHAHFKVKGVEAAHAALQIVSERSRIAALV",
-                  "midline": "MNQSCPNKTSFKIAFIQARWHADIVDEARKSFVAELAAKTGGSVEVEIFDVPGAYEIPLHAKTLARTGRYAAIVGAAFVIDGGIYRHDFVATAVINGMMQVQLETEVPVLSVVLTPHHFHESKEHHDFFHAHFKVKGVEAAHAALQIVSERSRIAALV"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P61711|RISB2_BRUAB",
+                      "accession": "P61711",
+                      "title": "6,7-dimethyl-8-ribityllumazine synthase 2 OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 GN=ribH2 PE=3 SV=1"
+                    }
+                  ],
+                  "len": 158,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 322.398,
+                      "score": 825,
+                      "evalue": 2.8397e-117,
+                      "identity": 158,
+                      "positive": 158,
+                      "query_from": 1,
+                      "query_to": 158,
+                      "hit_from": 1,
+                      "hit_to": 158,
+                      "align_len": 158,
+                      "gaps": 0,
+                      "qseq": "MNQSCPNKTSFKIAFIQARWHADIVDEARKSFVAELAAKTGGSVEVEIFDVPGAYEIPLHAKTLARTGRYAAIVGAAFVIDGGIYRHDFVATAVINGMMQVQLETEVPVLSVVLTPHHFHESKEHHDFFHAHFKVKGVEAAHAALQIVSERSRIAALV",
+                      "hseq": "MNQSCPNKTSFKIAFIQARWHADIVDEARKSFVAELAAKTGGSVEVEIFDVPGAYEIPLHAKTLARTGRYAAIVGAAFVIDGGIYRHDFVATAVINGMMQVQLETEVPVLSVVLTPHHFHESKEHHDFFHAHFKVKGVEAAHAALQIVSERSRIAALV",
+                      "midline": "MNQSCPNKTSFKIAFIQARWHADIVDEARKSFVAELAAKTGGSVEVEIFDVPGAYEIPLHAKTLARTGRYAAIVGAAFVIDGGIYRHDFVATAVINGMMQVQLETEVPVLSVVLTPHHFHESKEHHDFFHAHFKVKGVEAAHAALQIVSERSRIAALV"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|O66529|RISB_AQUAE",
-                  "accession": "O66529",
-                  "title": "6,7-dimethyl-8-ribityllumazine synthase OS=Aquifex aeolicus (strain VF5) OX=224324 GN=ribH PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|O66529|RISB_AQUAE",
+                      "accession": "O66529",
+                      "title": "6,7-dimethyl-8-ribityllumazine synthase OS=Aquifex aeolicus (strain VF5) OX=224324 GN=ribH PE=1 SV=1"
+                    }
+                  ],
+                  "len": 154,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 54.6842,
+                      "score": 130,
+                      "evalue": 3.77956e-12,
+                      "identity": 34,
+                      "positive": 67,
+                      "query_from": 10,
+                      "query_to": 149,
+                      "hit_from": 12,
+                      "hit_to": 148,
+                      "align_len": 140,
+                      "gaps": 3,
+                      "qseq": "SFKIAFIQARWHADIVDEARKSFVAELAAKTGGSVEVEIFDVPGAYEIPLHAKTLARTGRYAAIVGAAFVIDGGIYRHDFVATAVINGMMQVQLETEVPVLSVVLTPHHFHESKEHHDFFHAHFKVKGVEAAHAALQIVS",
+                      "hseq": "GLRFGIVASRFNHALVDRLVEGAIDCIVRHGGREEDITLVRVPGSWEIPVAAGELARKEDIDAVIAIGVLIRGATPHFDYIASEVSKGLANLSLELRKPITFGVITADTLEQAIERAGTKHGN---KGWEAALSAIEMAN",
+                      "midline": "  +   + +R++  +VD   +  +  +    G   ++ +  VPG++EIP+ A  LAR     A++    +I G     D++A+ V  G+  + LE   P+   V+T     ++ E     H +   KG EAA +A+++ +"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q15797|SMAD1_HUMAN",
+                      "accession": "Q15797",
+                      "title": "Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 465,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 0.631832,
+                      "identity": 14,
+                      "positive": 17,
+                      "query_from": 106,
+                      "query_to": 146,
+                      "hit_from": 131,
+                      "hit_to": 169,
+                      "align_len": 41,
+                      "gaps": 2,
+                      "qseq": "EVPVLSVVLTPHHFHESKEHHDFFHAHFKVKGVEAAHAALQ",
+                      "hseq": "ESPVLPPVLVPRHSEYNPQHS--LLAQFRNLGQNEPHMPLN",
+                      "midline": "E PVL  VL P H   + +H     A F+  G    H  L "
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q00722|PLCB2_HUMAN",
+                      "accession": "Q00722",
+                      "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1185,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 1.616,
+                      "identity": 10,
+                      "positive": 16,
+                      "query_from": 32,
+                      "query_to": 53,
+                      "hit_from": 693,
+                      "hit_to": 712,
+                      "align_len": 22,
+                      "gaps": 2,
+                      "qseq": "FVAELAAKTGGSVEVEIFDVPG",
+                      "hseq": "FLSERSVRT--YVEVELFGLPG",
+                      "midline": "F++E + +T   VEVE+F +PG"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "tr|Q09LX0|Q09LX0_GEOSE",
+                      "accession": "Q09LX0",
+                      "title": "Beta-xylosidase OS=Geobacillus stearothermophilus OX=1422 GN=xynB3 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 535,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 2.31825,
+                      "identity": 12,
+                      "positive": 17,
+                      "query_from": 9,
+                      "query_to": 44,
+                      "hit_from": 374,
+                      "hit_to": 410,
+                      "align_len": 37,
+                      "gaps": 1,
+                      "qseq": "TSFKIAFIQARW-HADIVDEARKSFVAELAAKTGGSV",
+                      "hseq": "SRFTQAFVARRWQHFHFVAETKVSFRPTTFQQSAGLV",
+                      "midline": "+ F  AF+  RW H   V E + SF      ++ G V"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|Q15796|SMAD2_HUMAN",
+                      "accession": "Q15796",
+                      "title": "Mothers against decapentaplegic homolog 2 OS=Homo sapiens OX=9606 GN=SMAD2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 467,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 5.19112,
+                      "identity": 11,
+                      "positive": 13,
+                      "query_from": 106,
+                      "query_to": 131,
+                      "hit_from": 171,
+                      "hit_to": 199,
+                      "align_len": 29,
+                      "gaps": 3,
+                      "qseq": "EVPVLSVVLTPHH---FHESKEHHDFFHA",
+                      "hseq": "ETPVLPPVLVPRHTEILTELPPLDDYTHS",
+                      "midline": "E PVL  VL P H     E     D+ H+"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P84022|SMAD3_HUMAN",
+                      "accession": "P84022",
+                      "title": "Mothers against decapentaplegic homolog 3 OS=Homo sapiens OX=9606 GN=SMAD3 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 425,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 5.82902,
+                      "identity": 8,
+                      "positive": 8,
+                      "query_from": 106,
+                      "query_to": 118,
+                      "hit_from": 131,
+                      "hit_to": 143,
+                      "align_len": 13,
+                      "gaps": 0,
+                      "qseq": "EVPVLSVVLTPHH",
+                      "hseq": "ETPVLPPVLVPRH",
+                      "midline": "E PVL  VL P H"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P28325|CYTD_HUMAN",
+                      "accession": "P28325",
+                      "title": "Cystatin-D OS=Homo sapiens OX=9606 GN=CST5 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 142,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 7.06405,
+                      "identity": 12,
+                      "positive": 18,
+                      "query_from": 58,
+                      "query_to": 94,
+                      "hit_from": 4,
+                      "hit_to": 44,
+                      "align_len": 41,
+                      "gaps": 4,
+                      "qseq": "PLHAKTLARTGRYAAIVGAAF----VIDGGIYRHDFVATAV",
+                      "hseq": "PMHTPLLLLTALMVAVAGSASAQSRTLAGGIHATDLNDKSV",
+                      "midline": "P+H   L  T    A+ G+A      + GGI+  D    +V"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P17313|VG31_BPT4",
+                      "accession": "P17313",
+                      "title": "Capsid assembly protein Gp31 OS=Enterobacteria phage T4 OX=10665 GN=31 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 111,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 7.57237,
+                      "identity": 15,
+                      "positive": 20,
+                      "query_from": 90,
+                      "query_to": 134,
+                      "hit_from": 54,
+                      "hit_to": 104,
+                      "align_len": 51,
+                      "gaps": 6,
+                      "qseq": "VATAVINGMMQVQLETEVPVLSVVLTPHHF-----HESKE-HHDFFHAHFK",
+                      "hseq": "VGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYK",
+                      "midline": "V   V  G  +V   T +PV  +   PH F      + KE    F   H+K"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P0A6M4|DTD_ECOLI",
+                      "accession": "P0A6M4",
+                      "title": "D-aminoacyl-tRNA deacylase OS=Escherichia coli (strain K12) OX=83333 GN=dtd PE=1 SV=1"
+                    }
+                  ],
+                  "len": 145,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 7.81768,
+                      "identity": 8,
+                      "positive": 12,
+                      "query_from": 66,
+                      "query_to": 82,
+                      "hit_from": 121,
+                      "hit_to": 137,
+                      "align_len": 17,
+                      "gaps": 0,
+                      "qseq": "RTGRYAAIVGAAFVIDG",
+                      "hseq": "QTGRFAADMQVSLVNDG",
+                      "midline": "+TGR+AA +  + V DG"
+                    }
+                  ]
+                },
+                {
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|P84066|DTD2_LEIMA",
+                      "accession": "P84066",
+                      "title": "Putative D-tyrosyl-tRNA(Tyr) deacylase 2 OS=Leishmania major OX=5664 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 181,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 8.90131,
+                      "identity": 11,
+                      "positive": 13,
+                      "query_from": 13,
+                      "query_to": 36,
+                      "hit_from": 29,
+                      "hit_to": 52,
+                      "align_len": 24,
+                      "gaps": 0,
+                      "qseq": "IAFIQARWHADIVDEARKSFVAEL",
+                      "hseq": "IAFLSDRDSAPITDEALRHAVGVL",
+                      "midline": "IAF+  R  A I DEA +  V  L"
+                    }
+                  ]
                 }
               ],
-              "len": 154,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 54.6842,
-                  "score": 130,
-                  "evalue": 3.77956e-12,
-                  "identity": 34,
-                  "positive": 67,
-                  "query_from": 10,
-                  "query_to": 149,
-                  "hit_from": 12,
-                  "hit_to": 148,
-                  "align_len": 140,
-                  "gaps": 3,
-                  "qseq": "SFKIAFIQARWHADIVDEARKSFVAELAAKTGGSVEVEIFDVPGAYEIPLHAKTLARTGRYAAIVGAAFVIDGGIYRHDFVATAVINGMMQVQLETEVPVLSVVLTPHHFHESKEHHDFFHAHFKVKGVEAAHAALQIVS",
-                  "hseq": "GLRFGIVASRFNHALVDRLVEGAIDCIVRHGGREEDITLVRVPGSWEIPVAAGELARKEDIDAVIAIGVLIRGATPHFDYIASEVSKGLANLSLELRKPITFGVITADTLEQAIERAGTKHGN---KGWEAALSAIEMAN",
-                  "midline": "  +   + +R++  +VD   +  +  +    G   ++ +  VPG++EIP+ A  LAR     A++    +I G     D++A+ V  G+  + LE   P+   V+T     ++ E     H +   KG EAA +A+++ +"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q15797|SMAD1_HUMAN",
-                  "accession": "Q15797",
-                  "title": "Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1"
-                }
-              ],
-              "len": 465,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 0.631832,
-                  "identity": 14,
-                  "positive": 17,
-                  "query_from": 106,
-                  "query_to": 146,
-                  "hit_from": 131,
-                  "hit_to": 169,
-                  "align_len": 41,
-                  "gaps": 2,
-                  "qseq": "EVPVLSVVLTPHHFHESKEHHDFFHAHFKVKGVEAAHAALQ",
-                  "hseq": "ESPVLPPVLVPRHSEYNPQHS--LLAQFRNLGQNEPHMPLN",
-                  "midline": "E PVL  VL P H   + +H     A F+  G    H  L "
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|Q00722|PLCB2_HUMAN",
-                  "accession": "Q00722",
-                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
-                }
-              ],
-              "len": 1185,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 1.616,
-                  "identity": 10,
-                  "positive": 16,
-                  "query_from": 32,
-                  "query_to": 53,
-                  "hit_from": 693,
-                  "hit_to": 712,
-                  "align_len": 22,
-                  "gaps": 2,
-                  "qseq": "FVAELAAKTGGSVEVEIFDVPG",
-                  "hseq": "FLSERSVRT--YVEVELFGLPG",
-                  "midline": "F++E + +T   VEVE+F +PG"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "tr|Q09LX0|Q09LX0_GEOSE",
-                  "accession": "Q09LX0",
-                  "title": "Beta-xylosidase OS=Geobacillus stearothermophilus OX=1422 GN=xynB3 PE=1 SV=1"
-                }
-              ],
-              "len": 535,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 2.31825,
-                  "identity": 12,
-                  "positive": 17,
-                  "query_from": 9,
-                  "query_to": 44,
-                  "hit_from": 374,
-                  "hit_to": 410,
-                  "align_len": 37,
-                  "gaps": 1,
-                  "qseq": "TSFKIAFIQARW-HADIVDEARKSFVAELAAKTGGSV",
-                  "hseq": "SRFTQAFVARRWQHFHFVAETKVSFRPTTFQQSAGLV",
-                  "midline": "+ F  AF+  RW H   V E + SF      ++ G V"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|Q15796|SMAD2_HUMAN",
-                  "accession": "Q15796",
-                  "title": "Mothers against decapentaplegic homolog 2 OS=Homo sapiens OX=9606 GN=SMAD2 PE=1 SV=1"
-                }
-              ],
-              "len": 467,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 5.19112,
-                  "identity": 11,
-                  "positive": 13,
-                  "query_from": 106,
-                  "query_to": 131,
-                  "hit_from": 171,
-                  "hit_to": 199,
-                  "align_len": 29,
-                  "gaps": 3,
-                  "qseq": "EVPVLSVVLTPHH---FHESKEHHDFFHA",
-                  "hseq": "ETPVLPPVLVPRHTEILTELPPLDDYTHS",
-                  "midline": "E PVL  VL P H     E     D+ H+"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P84022|SMAD3_HUMAN",
-                  "accession": "P84022",
-                  "title": "Mothers against decapentaplegic homolog 3 OS=Homo sapiens OX=9606 GN=SMAD3 PE=1 SV=1"
-                }
-              ],
-              "len": 425,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 5.82902,
-                  "identity": 8,
-                  "positive": 8,
-                  "query_from": 106,
-                  "query_to": 118,
-                  "hit_from": 131,
-                  "hit_to": 143,
-                  "align_len": 13,
-                  "gaps": 0,
-                  "qseq": "EVPVLSVVLTPHH",
-                  "hseq": "ETPVLPPVLVPRH",
-                  "midline": "E PVL  VL P H"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P28325|CYTD_HUMAN",
-                  "accession": "P28325",
-                  "title": "Cystatin-D OS=Homo sapiens OX=9606 GN=CST5 PE=1 SV=1"
-                }
-              ],
-              "len": 142,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 7.06405,
-                  "identity": 12,
-                  "positive": 18,
-                  "query_from": 58,
-                  "query_to": 94,
-                  "hit_from": 4,
-                  "hit_to": 44,
-                  "align_len": 41,
-                  "gaps": 4,
-                  "qseq": "PLHAKTLARTGRYAAIVGAAF----VIDGGIYRHDFVATAV",
-                  "hseq": "PMHTPLLLLTALMVAVAGSASAQSRTLAGGIHATDLNDKSV",
-                  "midline": "P+H   L  T    A+ G+A      + GGI+  D    +V"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|P17313|VG31_BPT4",
-                  "accession": "P17313",
-                  "title": "Capsid assembly protein Gp31 OS=Enterobacteria phage T4 OX=10665 GN=31 PE=1 SV=1"
-                }
-              ],
-              "len": 111,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 7.57237,
-                  "identity": 15,
-                  "positive": 20,
-                  "query_from": 90,
-                  "query_to": 134,
-                  "hit_from": 54,
-                  "hit_to": 104,
-                  "align_len": 51,
-                  "gaps": 6,
-                  "qseq": "VATAVINGMMQVQLETEVPVLSVVLTPHHF-----HESKE-HHDFFHAHFK",
-                  "hseq": "VGPDVPEGFCEVGDLTSLPVGQIRNVPHPFVALGLKQPKEIKQKFVTCHYK",
-                  "midline": "V   V  G  +V   T +PV  +   PH F      + KE    F   H+K"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|P0A6M4|DTD_ECOLI",
-                  "accession": "P0A6M4",
-                  "title": "D-aminoacyl-tRNA deacylase OS=Escherichia coli (strain K12) OX=83333 GN=dtd PE=1 SV=1"
-                }
-              ],
-              "len": 145,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 7.81768,
-                  "identity": 8,
-                  "positive": 12,
-                  "query_from": 66,
-                  "query_to": 82,
-                  "hit_from": 121,
-                  "hit_to": 137,
-                  "align_len": 17,
-                  "gaps": 0,
-                  "qseq": "RTGRYAAIVGAAFVIDG",
-                  "hseq": "QTGRFAADMQVSLVNDG",
-                  "midline": "+TGR+AA +  + V DG"
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|P84066|DTD2_LEIMA",
-                  "accession": "P84066",
-                  "title": "Putative D-tyrosyl-tRNA(Tyr) deacylase 2 OS=Leishmania major OX=5664 PE=1 SV=2"
-                }
-              ],
-              "len": 181,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 8.90131,
-                  "identity": 11,
-                  "positive": 13,
-                  "query_from": 13,
-                  "query_to": 36,
-                  "hit_from": 29,
-                  "hit_to": 52,
-                  "align_len": 24,
-                  "gaps": 0,
-                  "qseq": "IAFIQARWHADIVDEARKSFVAEL",
-                  "hseq": "IAFLSDRDSAPITDEALRHAVGVL",
-                  "midline": "IAF+  R  A I DEA +  V  L"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 59,
+                "eff_space": 6968709,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 59,
-            "eff_space": 6968709,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

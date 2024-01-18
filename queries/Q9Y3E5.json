@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,142 +17,147 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q9Y3E5|PTH2_HUMAN Peptidyl-tRNA hydrolase 2, mitochondrial OS=Homo sapiens OX=9606 GN=PTRH2 PE=1 SV=1",
-          "query_len": 179,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q9Y3E5|PTH2_HUMAN",
-                  "accession": "Q9Y3E5",
-                  "title": "Peptidyl-tRNA hydrolase 2, mitochondrial OS=Homo sapiens OX=9606 GN=PTRH2 PE=1 SV=1"
-                }
-              ],
-              "len": 179,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q9Y3E5|PTH2_HUMAN Peptidyl-tRNA hydrolase 2, mitochondrial OS=Homo sapiens OX=9606 GN=PTRH2 PE=1 SV=1",
+              "query_len": 179,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 367.466,
-                  "score": 942,
-                  "evalue": 1.96341e-134,
-                  "identity": 179,
-                  "positive": 179,
-                  "query_from": 1,
-                  "query_to": 179,
-                  "hit_from": 1,
-                  "hit_to": 179,
-                  "align_len": 179,
-                  "gaps": 0,
-                  "qseq": "MPSKSLVMEYLAHPSTLGLAVGVACGMCLGWSLRVCFGMLPKSKTSKTHTDTESEASILGDSGEYKMILVVRNDLKMGKGKVAAQCSHAAVSAYKQIQRRNPEMLKQWEYCGQPKVVVKAPDEETLIALLAHAKMLGLTVSLIQDAGRTQIAPGSQTVLGIGPGPADLIDKVTGHLKLY",
-                  "hseq": "MPSKSLVMEYLAHPSTLGLAVGVACGMCLGWSLRVCFGMLPKSKTSKTHTDTESEASILGDSGEYKMILVVRNDLKMGKGKVAAQCSHAAVSAYKQIQRRNPEMLKQWEYCGQPKVVVKAPDEETLIALLAHAKMLGLTVSLIQDAGRTQIAPGSQTVLGIGPGPADLIDKVTGHLKLY",
-                  "midline": "MPSKSLVMEYLAHPSTLGLAVGVACGMCLGWSLRVCFGMLPKSKTSKTHTDTESEASILGDSGEYKMILVVRNDLKMGKGKVAAQCSHAAVSAYKQIQRRNPEMLKQWEYCGQPKVVVKAPDEETLIALLAHAKMLGLTVSLIQDAGRTQIAPGSQTVLGIGPGPADLIDKVTGHLKLY"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|Q9Y3E5|PTH2_HUMAN",
+                      "accession": "Q9Y3E5",
+                      "title": "Peptidyl-tRNA hydrolase 2, mitochondrial OS=Homo sapiens OX=9606 GN=PTRH2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 179,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 367.466,
+                      "score": 942,
+                      "evalue": 1.96341e-134,
+                      "identity": 179,
+                      "positive": 179,
+                      "query_from": 1,
+                      "query_to": 179,
+                      "hit_from": 1,
+                      "hit_to": 179,
+                      "align_len": 179,
+                      "gaps": 0,
+                      "qseq": "MPSKSLVMEYLAHPSTLGLAVGVACGMCLGWSLRVCFGMLPKSKTSKTHTDTESEASILGDSGEYKMILVVRNDLKMGKGKVAAQCSHAAVSAYKQIQRRNPEMLKQWEYCGQPKVVVKAPDEETLIALLAHAKMLGLTVSLIQDAGRTQIAPGSQTVLGIGPGPADLIDKVTGHLKLY",
+                      "hseq": "MPSKSLVMEYLAHPSTLGLAVGVACGMCLGWSLRVCFGMLPKSKTSKTHTDTESEASILGDSGEYKMILVVRNDLKMGKGKVAAQCSHAAVSAYKQIQRRNPEMLKQWEYCGQPKVVVKAPDEETLIALLAHAKMLGLTVSLIQDAGRTQIAPGSQTVLGIGPGPADLIDKVTGHLKLY",
+                      "midline": "MPSKSLVMEYLAHPSTLGLAVGVACGMCLGWSLRVCFGMLPKSKTSKTHTDTESEASILGDSGEYKMILVVRNDLKMGKGKVAAQCSHAAVSAYKQIQRRNPEMLKQWEYCGQPKVVVKAPDEETLIALLAHAKMLGLTVSLIQDAGRTQIAPGSQTVLGIGPGPADLIDKVTGHLKLY"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q9HLW6|PTH_THEAC",
-                  "accession": "Q9HLW6",
-                  "title": "Peptidyl-tRNA hydrolase OS=Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=pth PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|Q9HLW6|PTH_THEAC",
+                      "accession": "Q9HLW6",
+                      "title": "Peptidyl-tRNA hydrolase OS=Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=pth PE=1 SV=1"
+                    }
+                  ],
+                  "len": 117,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 98.2117,
+                      "score": 243,
+                      "evalue": 4.47482e-29,
+                      "identity": 46,
+                      "positive": 72,
+                      "query_from": 66,
+                      "query_to": 178,
+                      "hit_from": 4,
+                      "hit_to": 116,
+                      "align_len": 113,
+                      "gaps": 0,
+                      "qseq": "KMILVVRNDLKMGKGKVAAQCSHAAVSAYKQIQRRNPEMLKQWEYCGQPKVVVKAPDEETLIALLAHAKMLGLTVSLIQDAGRTQIAPGSQTVLGIGPGPADLIDKVTGHLKL",
+                      "hseq": "KMVIAVRKDLDMGKGKIAAQVAHAAVTCAIRSMKINRDVFNEWYDEGQRKIVVKVNDLDEIMEIKRMADSMGIVNEIVQDRGYTQVEPGTITCIGLGPDEEEKLDKITGKYKL",
+                      "midline": "KM++ VR DL MGKGK+AAQ +HAAV+   +  + N ++  +W   GQ K+VVK  D + ++ +   A  +G+   ++QD G TQ+ PG+ T +G+GP   + +DK+TG  KL"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "tr|A9CKI6|A9CKI6_AGRFC",
+                      "accession": "A9CKI6",
+                      "title": "DUF2000 family protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0240 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 135,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 1.68349,
+                      "identity": 22,
+                      "positive": 36,
+                      "query_from": 113,
+                      "query_to": 179,
+                      "hit_from": 56,
+                      "hit_to": 134,
+                      "align_len": 80,
+                      "gaps": 14,
+                      "qseq": "QPKVVVKAPDEETLIALLAHAKMLGLTVSLI--------QDAGRTQI----APGSQTVLGIG-PGPADLIDKVTGHLKLY",
+                      "hseq": "QP-IVVMATDQEALRKIHQRSLERDITTSLYIEEMFATGHDAANRQVFSHFSPDTAKVVGMALRADRKIVDKITKGAKLH",
+                      "midline": "QP +VV A D+E L  +   +    +T SL          DA   Q+    +P +  V+G+       ++DK+T   KL+"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P74881|PUR4_SALTY",
+                      "accession": "P74881",
+                      "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1295,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 7.49647,
+                      "identity": 13,
+                      "positive": 23,
+                      "query_from": 66,
+                      "query_to": 107,
+                      "hit_from": 435,
+                      "hit_to": 480,
+                      "align_len": 46,
+                      "gaps": 4,
+                      "qseq": "KMILVVRNDLKMGKGKVAAQCSHAAVSA----YKQIQRRNPEMLKQ",
+                      "hseq": "KLIVLGGPAMNIGLGGGAASSMASGQSDADLDFASVQRDNPEMERR",
+                      "midline": "K+I++    + +G G  AA    +  S     +  +QR NPEM ++"
+                    }
+                  ]
                 }
               ],
-              "len": 117,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 98.2117,
-                  "score": 243,
-                  "evalue": 4.47482e-29,
-                  "identity": 46,
-                  "positive": 72,
-                  "query_from": 66,
-                  "query_to": 178,
-                  "hit_from": 4,
-                  "hit_to": 116,
-                  "align_len": 113,
-                  "gaps": 0,
-                  "qseq": "KMILVVRNDLKMGKGKVAAQCSHAAVSAYKQIQRRNPEMLKQWEYCGQPKVVVKAPDEETLIALLAHAKMLGLTVSLIQDAGRTQIAPGSQTVLGIGPGPADLIDKVTGHLKL",
-                  "hseq": "KMVIAVRKDLDMGKGKIAAQVAHAAVTCAIRSMKINRDVFNEWYDEGQRKIVVKVNDLDEIMEIKRMADSMGIVNEIVQDRGYTQVEPGTITCIGLGPDEEEKLDKITGKYKL",
-                  "midline": "KM++ VR DL MGKGK+AAQ +HAAV+   +  + N ++  +W   GQ K+VVK  D + ++ +   A  +G+   ++QD G TQ+ PG+ T +G+GP   + +DK+TG  KL"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "tr|A9CKI6|A9CKI6_AGRFC",
-                  "accession": "A9CKI6",
-                  "title": "DUF2000 family protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu0240 PE=1 SV=1"
-                }
-              ],
-              "len": 135,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 1.68349,
-                  "identity": 22,
-                  "positive": 36,
-                  "query_from": 113,
-                  "query_to": 179,
-                  "hit_from": 56,
-                  "hit_to": 134,
-                  "align_len": 80,
-                  "gaps": 14,
-                  "qseq": "QPKVVVKAPDEETLIALLAHAKMLGLTVSLI--------QDAGRTQI----APGSQTVLGIG-PGPADLIDKVTGHLKLY",
-                  "hseq": "QP-IVVMATDQEALRKIHQRSLERDITTSLYIEEMFATGHDAANRQVFSHFSPDTAKVVGMALRADRKIVDKITKGAKLH",
-                  "midline": "QP +VV A D+E L  +   +    +T SL          DA   Q+    +P +  V+G+       ++DK+T   KL+"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P74881|PUR4_SALTY",
-                  "accession": "P74881",
-                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
-                }
-              ],
-              "len": 1295,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 7.49647,
-                  "identity": 13,
-                  "positive": 23,
-                  "query_from": 66,
-                  "query_to": 107,
-                  "hit_from": 435,
-                  "hit_to": 480,
-                  "align_len": 46,
-                  "gaps": 4,
-                  "qseq": "KMILVVRNDLKMGKGKVAAQCSHAAVSA----YKQIQRRNPEMLKQ",
-                  "hseq": "KLIVLGGPAMNIGLGGGAASSMASGQSDADLDFASVQRDNPEMERR",
-                  "midline": "K+I++    + +G G  AA    +  S     +  +QR NPEM ++"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 60,
+                "eff_space": 8351658,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 60,
-            "eff_space": 8351658,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

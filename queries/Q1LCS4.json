@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,322 +17,327 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q1LCS4|3HAO_CUPMC 3-hydroxyanthranilate 3,4-dioxygenase OS=Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34) OX=266264 GN=nbaC PE=1 SV=1",
-          "query_len": 174,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q1LCS4|3HAO_CUPMC",
-                  "accession": "Q1LCS4",
-                  "title": "3-hydroxyanthranilate 3,4-dioxygenase OS=Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34) OX=266264 GN=nbaC PE=1 SV=1"
-                }
-              ],
-              "len": 174,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q1LCS4|3HAO_CUPMC 3-hydroxyanthranilate 3,4-dioxygenase OS=Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34) OX=266264 GN=nbaC PE=1 SV=1",
+              "query_len": 174,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 362.844,
-                  "score": 930,
-                  "evalue": 7.04222e-133,
-                  "identity": 174,
-                  "positive": 174,
-                  "query_from": 1,
-                  "query_to": 174,
-                  "hit_from": 1,
-                  "hit_to": 174,
-                  "align_len": 174,
-                  "gaps": 0,
-                  "qseq": "MLTYGAPFNFPRWIDEHAHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLWVDGRRERADLKEGDIFLLPPHVRHSPQRPEAGSACLVIERQRPAGMLDGFEWYCDACGHLVHRVEVQLKSIVTDLPPLFESFYASEDKRRCPHCGQVHPGRAA",
-                  "hseq": "MLTYGAPFNFPRWIDEHAHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLWVDGRRERADLKEGDIFLLPPHVRHSPQRPEAGSACLVIERQRPAGMLDGFEWYCDACGHLVHRVEVQLKSIVTDLPPLFESFYASEDKRRCPHCGQVHPGRAA",
-                  "midline": "MLTYGAPFNFPRWIDEHAHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLWVDGRRERADLKEGDIFLLPPHVRHSPQRPEAGSACLVIERQRPAGMLDGFEWYCDACGHLVHRVEVQLKSIVTDLPPLFESFYASEDKRRCPHCGQVHPGRAA"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|Q1LCS4|3HAO_CUPMC",
+                      "accession": "Q1LCS4",
+                      "title": "3-hydroxyanthranilate 3,4-dioxygenase OS=Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34) OX=266264 GN=nbaC PE=1 SV=1"
+                    }
+                  ],
+                  "len": 174,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 362.844,
+                      "score": 930,
+                      "evalue": 7.04222e-133,
+                      "identity": 174,
+                      "positive": 174,
+                      "query_from": 1,
+                      "query_to": 174,
+                      "hit_from": 1,
+                      "hit_to": 174,
+                      "align_len": 174,
+                      "gaps": 0,
+                      "qseq": "MLTYGAPFNFPRWIDEHAHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLWVDGRRERADLKEGDIFLLPPHVRHSPQRPEAGSACLVIERQRPAGMLDGFEWYCDACGHLVHRVEVQLKSIVTDLPPLFESFYASEDKRRCPHCGQVHPGRAA",
+                      "hseq": "MLTYGAPFNFPRWIDEHAHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLWVDGRRERADLKEGDIFLLPPHVRHSPQRPEAGSACLVIERQRPAGMLDGFEWYCDACGHLVHRVEVQLKSIVTDLPPLFESFYASEDKRRCPHCGQVHPGRAA",
+                      "midline": "MLTYGAPFNFPRWIDEHAHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLWVDGRRERADLKEGDIFLLPPHVRHSPQRPEAGSACLVIERQRPAGMLDGFEWYCDACGHLVHRVEVQLKSIVTDLPPLFESFYASEDKRRCPHCGQVHPGRAA"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P47096|3HAO_YEAST",
-                  "accession": "P47096",
-                  "title": "3-hydroxyanthranilate 3,4-dioxygenase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BNA1 PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P47096|3HAO_YEAST",
+                      "accession": "P47096",
+                      "title": "3-hydroxyanthranilate 3,4-dioxygenase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BNA1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 177,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 115.546,
+                      "score": 288,
+                      "evalue": 3.31737e-35,
+                      "identity": 65,
+                      "positive": 90,
+                      "query_from": 6,
+                      "query_to": 172,
+                      "hit_from": 5,
+                      "hit_to": 173,
+                      "align_len": 171,
+                      "gaps": 6,
+                      "qseq": "APFNFPRWIDEHAHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLW--VDGRRERADL--KEGDIFLLPPHVRHSPQRPEAGSACLVIERQRPAGMLDGFEWYCDACGHLVHRVEVQLKSIVTDLPPLFESFYASEDKRRCPHCGQVHPGR",
+                      "hseq": "TPINIDKWLKENEGLLKPPV-NNYCLHKGGFTVMIVGGPNERTGYHINPTPEWFYQKKGSMLLKVVDETDAEPKFIDIIINEGDSYLLPGNVPHSPVR-FADTVGIVVEQDRPGGENDKIRWYCSHCRQVVHESELQMLDLGTQVKEAILDFENDVEKRTCFHCKTLNYAR",
+                      "midline": " P N  +W+ E+  LLKPPV N        F V +VGGPN RT YH +P  E+FYQ +G+  L +    D   +  D+   EGD +LLP +V HSP R  A +  +V+E+ RP G  D   WYC  C  +VH  E+Q+  + T +      F    +KR C HC  ++  R"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P03422|PHOSP_MEASE",
+                      "accession": "P03422",
+                      "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
+                    }
+                  ],
+                  "len": 507,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 2.59395,
+                      "identity": 14,
+                      "positive": 18,
+                      "query_from": 18,
+                      "query_to": 58,
+                      "hit_from": 407,
+                      "hit_to": 437,
+                      "align_len": 41,
+                      "gaps": 10,
+                      "qseq": "AHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEF",
+                      "hseq": "AEVLKKPVASRQLQ----------GMTNGRTSSRGQLLKEF",
+                      "midline": "A +LK PV +RQ+           G  N RT      L+EF"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q12888|TP53B_HUMAN",
+                      "accession": "Q12888",
+                      "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1972,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 3.62152,
+                      "identity": 9,
+                      "positive": 14,
+                      "query_from": 32,
+                      "query_to": 56,
+                      "hit_from": 752,
+                      "hit_to": 776,
+                      "align_len": 25,
+                      "gaps": 0,
+                      "qseq": "QDSDFIVTVVGGPNHRTDYHDDPLE",
+                      "hseq": "EDSSVVIVDVKEPSPRVDVSCEPLE",
+                      "midline": "+DS  ++  V  P+ R D   +PLE"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P32589|HSP7F_YEAST",
+                      "accession": "P32589",
+                      "title": "Heat shock protein homolog SSE1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSE1 PE=1 SV=4"
+                    }
+                  ],
+                  "len": 693,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 3.91512,
+                      "identity": 8,
+                      "positive": 11,
+                      "query_from": 48,
+                      "query_to": 64,
+                      "hit_from": 567,
+                      "hit_to": 583,
+                      "align_len": 17,
+                      "gaps": 0,
+                      "qseq": "TDYHDDPLEEFFYQLRG",
+                      "hseq": "TEDRKNTLEEYIYTLRG",
+                      "midline": "T+   + LEE+ Y LRG"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P60472|UPPS_ECOLI",
+                      "accession": "P60472",
+                      "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Escherichia coli (strain K12) OX=83333 GN=ispU PE=1 SV=1"
+                    }
+                  ],
+                  "len": 253,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 4.69328,
+                      "identity": 9,
+                      "positive": 17,
+                      "query_from": 112,
+                      "query_to": 142,
+                      "hit_from": 80,
+                      "hit_to": 110,
+                      "align_len": 31,
+                      "gaps": 0,
+                      "qseq": "QRPAGMLDGFEWYCDACGHLVHRVEVQLKSI",
+                      "hseq": "QEVSALMELFVWALDSEVKSLHRHNVRLRII",
+                      "midline": "Q  + +++ F W  D+    +HR  V+L+ I"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "tr|Q09LX0|Q09LX0_GEOSE",
+                      "accession": "Q09LX0",
+                      "title": "Beta-xylosidase OS=Geobacillus stearothermophilus OX=1422 GN=xynB3 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 535,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 5.3783,
+                      "identity": 11,
+                      "positive": 13,
+                      "query_from": 145,
+                      "query_to": 166,
+                      "hit_from": 485,
+                      "hit_to": 508,
+                      "align_len": 24,
+                      "gaps": 2,
+                      "qseq": "DLPPLFESFYASED--KRRCPHCG",
+                      "hseq": "DLPVTFESYKLSDDYIKSRAAFTG",
+                      "midline": "DLP  FES+  S+D  K R    G"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|Q9BRA2|TXD17_HUMAN",
+                      "accession": "Q9BRA2",
+                      "title": "Thioredoxin domain-containing protein 17 OS=Homo sapiens OX=9606 GN=TXNDC17 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 123,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 6.45551,
+                      "identity": 10,
+                      "positive": 12,
+                      "query_from": 149,
+                      "query_to": 170,
+                      "hit_from": 27,
+                      "hit_to": 51,
+                      "align_len": 25,
+                      "gaps": 3,
+                      "qseq": "LFESFYASED---KRRCPHCGQVHP",
+                      "hseq": "IFAYFTGSKDAGGKSWCPDCVQAEP",
+                      "midline": "+F  F  S+D   K  CP C Q  P"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|Q5SGX1|SYFB_THET8",
+                      "accession": "Q5SGX1",
+                      "title": "Phenylalanine--tRNA ligase beta subunit OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=pheT PE=1 SV=1"
+                    }
+                  ],
+                  "len": 785,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 6.55624,
+                      "identity": 17,
+                      "positive": 23,
+                      "query_from": 45,
+                      "query_to": 102,
+                      "hit_from": 357,
+                      "hit_to": 403,
+                      "align_len": 58,
+                      "gaps": 11,
+                      "qseq": "NHRTDYHDDPLEEFFYQLRGNAYLNLWVDGRRERADLKEGDIFLLPPHVRHSPQRPEA",
+                      "hseq": "SHRFERGVDPLGQVPAQRRALSLLQALAGARVAEALLEAG-----------SPKPPEA",
+                      "midline": "+HR +   DPL +   Q R  + L      R   A L+ G           SP+ PEA"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P07174|TNR16_RAT",
+                      "accession": "P07174",
+                      "title": "Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1"
+                    }
+                  ],
+                  "len": 425,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 6.98942,
+                      "identity": 14,
+                      "positive": 20,
+                      "query_from": 34,
+                      "query_to": 87,
+                      "hit_from": 304,
+                      "hit_to": 357,
+                      "align_len": 54,
+                      "gaps": 0,
+                      "qseq": "SDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLWVDGRRERADLKEGDIF",
+                      "hseq": "SDSGISVDSQSLHDQQTHTQTASGQALKGDGNLYSSLPLTKREEVEKLLNGDTW",
+                      "midline": "SD  ++V     H    H         +  GN Y +L +  R E   L  GD +"
+                    }
+                  ]
                 }
               ],
-              "len": 177,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 115.546,
-                  "score": 288,
-                  "evalue": 3.31737e-35,
-                  "identity": 65,
-                  "positive": 90,
-                  "query_from": 6,
-                  "query_to": 172,
-                  "hit_from": 5,
-                  "hit_to": 173,
-                  "align_len": 171,
-                  "gaps": 6,
-                  "qseq": "APFNFPRWIDEHAHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLW--VDGRRERADL--KEGDIFLLPPHVRHSPQRPEAGSACLVIERQRPAGMLDGFEWYCDACGHLVHRVEVQLKSIVTDLPPLFESFYASEDKRRCPHCGQVHPGR",
-                  "hseq": "TPINIDKWLKENEGLLKPPV-NNYCLHKGGFTVMIVGGPNERTGYHINPTPEWFYQKKGSMLLKVVDETDAEPKFIDIIINEGDSYLLPGNVPHSPVR-FADTVGIVVEQDRPGGENDKIRWYCSHCRQVVHESELQMLDLGTQVKEAILDFENDVEKRTCFHCKTLNYAR",
-                  "midline": " P N  +W+ E+  LLKPPV N        F V +VGGPN RT YH +P  E+FYQ +G+  L +    D   +  D+   EGD +LLP +V HSP R  A +  +V+E+ RP G  D   WYC  C  +VH  E+Q+  + T +      F    +KR C HC  ++  R"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P03422|PHOSP_MEASE",
-                  "accession": "P03422",
-                  "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
-                }
-              ],
-              "len": 507,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 2.59395,
-                  "identity": 14,
-                  "positive": 18,
-                  "query_from": 18,
-                  "query_to": 58,
-                  "hit_from": 407,
-                  "hit_to": 437,
-                  "align_len": 41,
-                  "gaps": 10,
-                  "qseq": "AHLLKPPVGNRQVWQDSDFIVTVVGGPNHRTDYHDDPLEEF",
-                  "hseq": "AEVLKKPVASRQLQ----------GMTNGRTSSRGQLLKEF",
-                  "midline": "A +LK PV +RQ+           G  N RT      L+EF"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|Q12888|TP53B_HUMAN",
-                  "accession": "Q12888",
-                  "title": "TP53-binding protein 1 OS=Homo sapiens OX=9606 GN=TP53BP1 PE=1 SV=2"
-                }
-              ],
-              "len": 1972,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 3.62152,
-                  "identity": 9,
-                  "positive": 14,
-                  "query_from": 32,
-                  "query_to": 56,
-                  "hit_from": 752,
-                  "hit_to": 776,
-                  "align_len": 25,
-                  "gaps": 0,
-                  "qseq": "QDSDFIVTVVGGPNHRTDYHDDPLE",
-                  "hseq": "EDSSVVIVDVKEPSPRVDVSCEPLE",
-                  "midline": "+DS  ++  V  P+ R D   +PLE"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P32589|HSP7F_YEAST",
-                  "accession": "P32589",
-                  "title": "Heat shock protein homolog SSE1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSE1 PE=1 SV=4"
-                }
-              ],
-              "len": 693,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 3.91512,
-                  "identity": 8,
-                  "positive": 11,
-                  "query_from": 48,
-                  "query_to": 64,
-                  "hit_from": 567,
-                  "hit_to": 583,
-                  "align_len": 17,
-                  "gaps": 0,
-                  "qseq": "TDYHDDPLEEFFYQLRG",
-                  "hseq": "TEDRKNTLEEYIYTLRG",
-                  "midline": "T+   + LEE+ Y LRG"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P60472|UPPS_ECOLI",
-                  "accession": "P60472",
-                  "title": "Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific) OS=Escherichia coli (strain K12) OX=83333 GN=ispU PE=1 SV=1"
-                }
-              ],
-              "len": 253,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 4.69328,
-                  "identity": 9,
-                  "positive": 17,
-                  "query_from": 112,
-                  "query_to": 142,
-                  "hit_from": 80,
-                  "hit_to": 110,
-                  "align_len": 31,
-                  "gaps": 0,
-                  "qseq": "QRPAGMLDGFEWYCDACGHLVHRVEVQLKSI",
-                  "hseq": "QEVSALMELFVWALDSEVKSLHRHNVRLRII",
-                  "midline": "Q  + +++ F W  D+    +HR  V+L+ I"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "tr|Q09LX0|Q09LX0_GEOSE",
-                  "accession": "Q09LX0",
-                  "title": "Beta-xylosidase OS=Geobacillus stearothermophilus OX=1422 GN=xynB3 PE=1 SV=1"
-                }
-              ],
-              "len": 535,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 5.3783,
-                  "identity": 11,
-                  "positive": 13,
-                  "query_from": 145,
-                  "query_to": 166,
-                  "hit_from": 485,
-                  "hit_to": 508,
-                  "align_len": 24,
-                  "gaps": 2,
-                  "qseq": "DLPPLFESFYASED--KRRCPHCG",
-                  "hseq": "DLPVTFESYKLSDDYIKSRAAFTG",
-                  "midline": "DLP  FES+  S+D  K R    G"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|Q9BRA2|TXD17_HUMAN",
-                  "accession": "Q9BRA2",
-                  "title": "Thioredoxin domain-containing protein 17 OS=Homo sapiens OX=9606 GN=TXNDC17 PE=1 SV=1"
-                }
-              ],
-              "len": 123,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 6.45551,
-                  "identity": 10,
-                  "positive": 12,
-                  "query_from": 149,
-                  "query_to": 170,
-                  "hit_from": 27,
-                  "hit_to": 51,
-                  "align_len": 25,
-                  "gaps": 3,
-                  "qseq": "LFESFYASED---KRRCPHCGQVHP",
-                  "hseq": "IFAYFTGSKDAGGKSWCPDCVQAEP",
-                  "midline": "+F  F  S+D   K  CP C Q  P"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|Q5SGX1|SYFB_THET8",
-                  "accession": "Q5SGX1",
-                  "title": "Phenylalanine--tRNA ligase beta subunit OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=pheT PE=1 SV=1"
-                }
-              ],
-              "len": 785,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 6.55624,
-                  "identity": 17,
-                  "positive": 23,
-                  "query_from": 45,
-                  "query_to": 102,
-                  "hit_from": 357,
-                  "hit_to": 403,
-                  "align_len": 58,
-                  "gaps": 11,
-                  "qseq": "NHRTDYHDDPLEEFFYQLRGNAYLNLWVDGRRERADLKEGDIFLLPPHVRHSPQRPEA",
-                  "hseq": "SHRFERGVDPLGQVPAQRRALSLLQALAGARVAEALLEAG-----------SPKPPEA",
-                  "midline": "+HR +   DPL +   Q R  + L      R   A L+ G           SP+ PEA"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|P07174|TNR16_RAT",
-                  "accession": "P07174",
-                  "title": "Tumor necrosis factor receptor superfamily member 16 OS=Rattus norvegicus OX=10116 GN=Ngfr PE=1 SV=1"
-                }
-              ],
-              "len": 425,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 6.98942,
-                  "identity": 14,
-                  "positive": 20,
-                  "query_from": 34,
-                  "query_to": 87,
-                  "hit_from": 304,
-                  "hit_to": 357,
-                  "align_len": 54,
-                  "gaps": 0,
-                  "qseq": "SDFIVTVVGGPNHRTDYHDDPLEEFFYQLRGNAYLNLWVDGRRERADLKEGDIF",
-                  "hseq": "SDSGISVDSQSLHDQQTHTQTASGQALKGDGNLYSSLPLTKREEVEKLLNGDTW",
-                  "midline": "SD  ++V     H    H         +  GN Y +L +  R E   L  GD +"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 60,
+                "eff_space": 8000748,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 60,
-            "eff_space": 8000748,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

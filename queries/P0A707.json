@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,202 +17,207 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P0A707|IF3_ECOLI Translation initiation factor IF-3 OS=Escherichia coli (strain K12) OX=83333 GN=infC PE=1 SV=1",
-          "query_len": 180,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P0A707|IF3_ECOLI",
-                  "accession": "P0A707",
-                  "title": "Translation initiation factor IF-3 OS=Escherichia coli (strain K12) OX=83333 GN=infC PE=1 SV=1"
-                }
-              ],
-              "len": 180,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P0A707|IF3_ECOLI Translation initiation factor IF-3 OS=Escherichia coli (strain K12) OX=83333 GN=infC PE=1 SV=1",
+              "query_len": 180,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 360.147,
-                  "score": 923,
-                  "evalue": 1.69294e-131,
-                  "identity": 180,
-                  "positive": 180,
-                  "query_from": 1,
-                  "query_to": 180,
-                  "hit_from": 1,
-                  "hit_to": 180,
-                  "align_len": 180,
-                  "gaps": 0,
-                  "qseq": "MKGGKRVQTARPNRINGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYEKSKSSKEQKKKQKVIQVKEIKFRPGTDEGDYQVKLRSLIRFLEEGDKAKITLRFRGREMAHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPKKKQ",
-                  "hseq": "MKGGKRVQTARPNRINGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYEKSKSSKEQKKKQKVIQVKEIKFRPGTDEGDYQVKLRSLIRFLEEGDKAKITLRFRGREMAHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPKKKQ",
-                  "midline": "MKGGKRVQTARPNRINGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYEKSKSSKEQKKKQKVIQVKEIKFRPGTDEGDYQVKLRSLIRFLEEGDKAKITLRFRGREMAHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPKKKQ"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P0A707|IF3_ECOLI",
+                      "accession": "P0A707",
+                      "title": "Translation initiation factor IF-3 OS=Escherichia coli (strain K12) OX=83333 GN=infC PE=1 SV=1"
+                    }
+                  ],
+                  "len": 180,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 360.147,
+                      "score": 923,
+                      "evalue": 1.69294e-131,
+                      "identity": 180,
+                      "positive": 180,
+                      "query_from": 1,
+                      "query_to": 180,
+                      "hit_from": 1,
+                      "hit_to": 180,
+                      "align_len": 180,
+                      "gaps": 0,
+                      "qseq": "MKGGKRVQTARPNRINGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYEKSKSSKEQKKKQKVIQVKEIKFRPGTDEGDYQVKLRSLIRFLEEGDKAKITLRFRGREMAHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPKKKQ",
+                      "hseq": "MKGGKRVQTARPNRINGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYEKSKSSKEQKKKQKVIQVKEIKFRPGTDEGDYQVKLRSLIRFLEEGDKAKITLRFRGREMAHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPKKKQ",
+                      "midline": "MKGGKRVQTARPNRINGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYEKSKSSKEQKKKQKVIQVKEIKFRPGTDEGDYQVKLRSLIRFLEEGDKAKITLRFRGREMAHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPKKKQ"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P03000|IF3_GEOSE",
-                  "accession": "P03000",
-                  "title": "Translation initiation factor IF-3 OS=Geobacillus stearothermophilus OX=1422 GN=infC PE=1 SV=2"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P03000|IF3_GEOSE",
+                      "accession": "P03000",
+                      "title": "Translation initiation factor IF-3 OS=Geobacillus stearothermophilus OX=1422 GN=infC PE=1 SV=2"
+                    }
+                  ],
+                  "len": 172,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 181.8,
+                      "score": 460,
+                      "evalue": 3.67981e-61,
+                      "identity": 89,
+                      "positive": 121,
+                      "query_from": 15,
+                      "query_to": 177,
+                      "hit_from": 7,
+                      "hit_to": 168,
+                      "align_len": 163,
+                      "gaps": 1,
+                      "qseq": "INGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYEKSKSSKEQKKKQKVIQVKEIKFRPGTDEGDYQVKLRSLIRFLEEGDKAKITLRFRGREMAHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPK",
+                      "hseq": "INEQIRAREVRLIDQNGDQLGIKSKQEALEIAARRNLDLVLVAPNAKPPVCRIMDYGKFRFEQQKKEKEARKKQKVINVKEVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFKGRAITHKEIGQRVLDRLSEACADIAVVETAP-KMDGRNMFLVLAPK",
+                      "midline": "IN +IRA+EVRL    G+QLGI S +EALE A    +DLV ++PNA+PPVCRIMDYGKF +E+ K  KE +KKQKVI VKE++  P  +E D+  KLR+  +FLE+GDK K T+RF+GR + H++IG  VL+R+ +   ++AVVE+ P K++GR M +VLAPK"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P03422|PHOSP_MEASE",
+                      "accession": "P03422",
+                      "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
+                    }
+                  ],
+                  "len": 507,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 0.693738,
+                      "identity": 18,
+                      "positive": 28,
+                      "query_from": 18,
+                      "query_to": 76,
+                      "hit_from": 352,
+                      "hit_to": 408,
+                      "align_len": 59,
+                      "gaps": 2,
+                      "qseq": "EIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYE",
+                      "hseq": "QINRQNISISTLEGHLSSIMIAIPGLGKDPNDPTADVEINPDLKPIIGR--DSGRALAE",
+                      "midline": "+I  Q + ++ LEG    I+     L K        VEI+P+ +P + R  D G+ L E"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P07824|ARGI1_RAT",
+                      "accession": "P07824",
+                      "title": "Arginase-1 OS=Rattus norvegicus OX=10116 GN=Arg1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 323,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 1.33805,
+                      "identity": 15,
+                      "positive": 28,
+                      "query_from": 11,
+                      "query_to": 59,
+                      "hit_from": 225,
+                      "hit_to": 281,
+                      "align_len": 57,
+                      "gaps": 8,
+                      "qseq": "RPNRINGEIRAQEVRLTGLEGEQL-GIVSLREALEKAEE-------AGVDLVEISPN",
+                      "hseq": "RPIHLSFDVDGLDPVFTPATGTPVVGGLSYREGLYITEEIYKTGLLSGLDIMEVNPT",
+                      "midline": "RP  ++ ++   +   T   G  + G +S RE L   EE       +G+D++E++P "
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P07206|PULA_KLEPN",
+                      "accession": "P07206",
+                      "title": "Pullulanase OS=Klebsiella pneumoniae OX=573 GN=pulA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1090,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 4.25777,
+                      "identity": 26,
+                      "positive": 48,
+                      "query_from": 81,
+                      "query_to": 179,
+                      "hit_from": 925,
+                      "hit_to": 1027,
+                      "align_len": 107,
+                      "gaps": 12,
+                      "qseq": "SKEQKKKQKVIQVKEIKFRPGTDE-----GDYQ--VKLRSLIRFLEEGDKAKITLRFRGREM-AHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPKKK",
+                      "hseq": "SDDGSNYEVITRVKEMVATPGEAELKQMTAFYQELTELRKSSPLFTLGDGSAVMKRVDFRNTGSDQQAGLLVMT-VDDGMKAGASLDS---RLDGLVVAINAAPESR",
+                      "midline": "S +    + + +VKE+   PG  E       YQ   +LR        GD + +  R   R   + QQ G+ V+  V D ++  A ++S   +++G  + +  AP+ +"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "tr|O67135|O67135_AQUAE",
+                      "accession": "O67135",
+                      "title": "Acetoin utilization protein AcuC OS=Aquifex aeolicus (strain VF5) OX=224324 GN=acuC1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 375,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 9.68412,
+                      "identity": 16,
+                      "positive": 21,
+                      "query_from": 68,
+                      "query_to": 104,
+                      "hit_from": 10,
+                      "hit_to": 55,
+                      "align_len": 46,
+                      "gaps": 9,
+                      "qseq": "MDYGKFLYEKSKSSKEQK--------KKQKVIQVKE-IKFRPGTDE",
+                      "hseq": "LDYGKYRYPKNHPLKIPRVSLLLRFLDAMNLIDEKELIKSRPATKE",
+                      "midline": "+DYGK+ Y K+   K  +            +I  KE IK RP T E"
+                    }
+                  ]
                 }
               ],
-              "len": 172,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 181.8,
-                  "score": 460,
-                  "evalue": 3.67981e-61,
-                  "identity": 89,
-                  "positive": 121,
-                  "query_from": 15,
-                  "query_to": 177,
-                  "hit_from": 7,
-                  "hit_to": 168,
-                  "align_len": 163,
-                  "gaps": 1,
-                  "qseq": "INGEIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYEKSKSSKEQKKKQKVIQVKEIKFRPGTDEGDYQVKLRSLIRFLEEGDKAKITLRFRGREMAHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPK",
-                  "hseq": "INEQIRAREVRLIDQNGDQLGIKSKQEALEIAARRNLDLVLVAPNAKPPVCRIMDYGKFRFEQQKKEKEARKKQKVINVKEVRLSPTIEEHDFNTKLRNARKFLEKGDKVKATIRFKGRAITHKEIGQRVLDRLSEACADIAVVETAP-KMDGRNMFLVLAPK",
-                  "midline": "IN +IRA+EVRL    G+QLGI S +EALE A    +DLV ++PNA+PPVCRIMDYGKF +E+ K  KE +KKQKVI VKE++  P  +E D+  KLR+  +FLE+GDK K T+RF+GR + H++IG  VL+R+ +   ++AVVE+ P K++GR M +VLAPK"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P03422|PHOSP_MEASE",
-                  "accession": "P03422",
-                  "title": "Phosphoprotein OS=Measles virus (strain Edmonston) OX=11235 GN=P/V PE=1 SV=1"
-                }
-              ],
-              "len": 507,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 0.693738,
-                  "identity": 18,
-                  "positive": 28,
-                  "query_from": 18,
-                  "query_to": 76,
-                  "hit_from": 352,
-                  "hit_to": 408,
-                  "align_len": 59,
-                  "gaps": 2,
-                  "qseq": "EIRAQEVRLTGLEGEQLGIVSLREALEKAEEAGVDLVEISPNAEPPVCRIMDYGKFLYE",
-                  "hseq": "QINRQNISISTLEGHLSSIMIAIPGLGKDPNDPTADVEINPDLKPIIGR--DSGRALAE",
-                  "midline": "+I  Q + ++ LEG    I+     L K        VEI+P+ +P + R  D G+ L E"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P07824|ARGI1_RAT",
-                  "accession": "P07824",
-                  "title": "Arginase-1 OS=Rattus norvegicus OX=10116 GN=Arg1 PE=1 SV=2"
-                }
-              ],
-              "len": 323,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 1.33805,
-                  "identity": 15,
-                  "positive": 28,
-                  "query_from": 11,
-                  "query_to": 59,
-                  "hit_from": 225,
-                  "hit_to": 281,
-                  "align_len": 57,
-                  "gaps": 8,
-                  "qseq": "RPNRINGEIRAQEVRLTGLEGEQL-GIVSLREALEKAEE-------AGVDLVEISPN",
-                  "hseq": "RPIHLSFDVDGLDPVFTPATGTPVVGGLSYREGLYITEEIYKTGLLSGLDIMEVNPT",
-                  "midline": "RP  ++ ++   +   T   G  + G +S RE L   EE       +G+D++E++P "
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P07206|PULA_KLEPN",
-                  "accession": "P07206",
-                  "title": "Pullulanase OS=Klebsiella pneumoniae OX=573 GN=pulA PE=1 SV=2"
-                }
-              ],
-              "len": 1090,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 4.25777,
-                  "identity": 26,
-                  "positive": 48,
-                  "query_from": 81,
-                  "query_to": 179,
-                  "hit_from": 925,
-                  "hit_to": 1027,
-                  "align_len": 107,
-                  "gaps": 12,
-                  "qseq": "SKEQKKKQKVIQVKEIKFRPGTDE-----GDYQ--VKLRSLIRFLEEGDKAKITLRFRGREM-AHQQIGMEVLNRVKDDLQELAVVESFPTKIEGRQMIMVLAPKKK",
-                  "hseq": "SDDGSNYEVITRVKEMVATPGEAELKQMTAFYQELTELRKSSPLFTLGDGSAVMKRVDFRNTGSDQQAGLLVMT-VDDGMKAGASLDS---RLDGLVVAINAAPESR",
-                  "midline": "S +    + + +VKE+   PG  E       YQ   +LR        GD + +  R   R   + QQ G+ V+  V D ++  A ++S   +++G  + +  AP+ +"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "tr|O67135|O67135_AQUAE",
-                  "accession": "O67135",
-                  "title": "Acetoin utilization protein AcuC OS=Aquifex aeolicus (strain VF5) OX=224324 GN=acuC1 PE=1 SV=1"
-                }
-              ],
-              "len": 375,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 9.68412,
-                  "identity": 16,
-                  "positive": 21,
-                  "query_from": 68,
-                  "query_to": 104,
-                  "hit_from": 10,
-                  "hit_to": 55,
-                  "align_len": 46,
-                  "gaps": 9,
-                  "qseq": "MDYGKFLYEKSKSSKEQK--------KKQKVIQVKE-IKFRPGTDE",
-                  "hseq": "LDYGKYRYPKNHPLKIPRVSLLLRFLDAMNLIDEKELIKSRPATKE",
-                  "midline": "+DYGK+ Y K+   K  +            +I  KE IK RP T E"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 60,
+                "eff_space": 8421840,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 60,
-            "eff_space": 8421840,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,193 +17,198 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q27084|TAL2_TACTR Tachylectin-2 OS=Tachypleus tridentatus OX=6853 PE=1 SV=1",
-          "query_len": 255,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q27084|TAL2_TACTR",
-                  "accession": "Q27084",
-                  "title": "Tachylectin-2 OS=Tachypleus tridentatus OX=6853 PE=1 SV=1"
-                }
-              ],
-              "len": 255,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q27084|TAL2_TACTR Tachylectin-2 OS=Tachypleus tridentatus OX=6853 PE=1 SV=1",
+              "query_len": 255,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 513.842,
-                  "score": 1322,
-                  "evalue": 0,
-                  "identity": 255,
-                  "positive": 255,
-                  "query_from": 1,
-                  "query_to": 255,
-                  "hit_from": 1,
-                  "hit_to": 255,
-                  "align_len": 255,
-                  "gaps": 0,
-                  "qseq": "MKFLLVVLGFIGFLKDGITVGGESMLRGVYQDKFYQGTYPQNKNDNWLARATLIGKGGWSNFKFLFLSPGGELYGVLNDKIYKGTPPTHDNDNWMGRAKKIGNGGWNQFQFLFFDPNGYLYAVSKDKLYKASPPQSDTDNWIARATEIGSGGWSGFKFLFFHPNGYLYAVHGQQFYKALPPVSNQDNWLARATKIGQGGWDTFKFLFFSSVGTLFGVQGGKFYEDYPPSYAHDNWLARAKLIGNGGWDDFRFLFF",
-                  "hseq": "MKFLLVVLGFIGFLKDGITVGGESMLRGVYQDKFYQGTYPQNKNDNWLARATLIGKGGWSNFKFLFLSPGGELYGVLNDKIYKGTPPTHDNDNWMGRAKKIGNGGWNQFQFLFFDPNGYLYAVSKDKLYKASPPQSDTDNWIARATEIGSGGWSGFKFLFFHPNGYLYAVHGQQFYKALPPVSNQDNWLARATKIGQGGWDTFKFLFFSSVGTLFGVQGGKFYEDYPPSYAHDNWLARAKLIGNGGWDDFRFLFF",
-                  "midline": "MKFLLVVLGFIGFLKDGITVGGESMLRGVYQDKFYQGTYPQNKNDNWLARATLIGKGGWSNFKFLFLSPGGELYGVLNDKIYKGTPPTHDNDNWMGRAKKIGNGGWNQFQFLFFDPNGYLYAVSKDKLYKASPPQSDTDNWIARATEIGSGGWSGFKFLFFHPNGYLYAVHGQQFYKALPPVSNQDNWLARATKIGQGGWDTFKFLFFSSVGTLFGVQGGKFYEDYPPSYAHDNWLARAKLIGNGGWDDFRFLFF"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P00654|RNU2_USTSP",
-                  "accession": "P00654",
-                  "title": "Ribonuclease U2 OS=Ustilago sphaerogena OX=5271 GN=RNU2 PE=1 SV=4"
-                }
-              ],
-              "len": 114,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 26.1794,
-                  "score": 56,
-                  "evalue": 0.0713742,
-                  "identity": 16,
-                  "positive": 27,
-                  "query_from": 101,
-                  "query_to": 157,
-                  "hit_from": 55,
-                  "hit_to": 111,
-                  "align_len": 61,
-                  "gaps": 8,
-                  "qseq": "IGNGGWNQFQFLFFDPNGYLYAVSKDKLYKASPP----QSDTDNWIARATEIGSGGWSGFK",
-                  "hseq": "CGSGPWSEFPLVYNGP----YYSSRDNYVSPGPDRVIYQTNTGEFCATVTHTGAASYDGFT",
-                  "midline": " G+G W++F  ++  P    Y  S+D      P     Q++T  + A  T  G+  + GF "
+                  "description": [
+                    {
+                      "id": "sp|Q27084|TAL2_TACTR",
+                      "accession": "Q27084",
+                      "title": "Tachylectin-2 OS=Tachypleus tridentatus OX=6853 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 255,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 513.842,
+                      "score": 1322,
+                      "evalue": 0,
+                      "identity": 255,
+                      "positive": 255,
+                      "query_from": 1,
+                      "query_to": 255,
+                      "hit_from": 1,
+                      "hit_to": 255,
+                      "align_len": 255,
+                      "gaps": 0,
+                      "qseq": "MKFLLVVLGFIGFLKDGITVGGESMLRGVYQDKFYQGTYPQNKNDNWLARATLIGKGGWSNFKFLFLSPGGELYGVLNDKIYKGTPPTHDNDNWMGRAKKIGNGGWNQFQFLFFDPNGYLYAVSKDKLYKASPPQSDTDNWIARATEIGSGGWSGFKFLFFHPNGYLYAVHGQQFYKALPPVSNQDNWLARATKIGQGGWDTFKFLFFSSVGTLFGVQGGKFYEDYPPSYAHDNWLARAKLIGNGGWDDFRFLFF",
+                      "hseq": "MKFLLVVLGFIGFLKDGITVGGESMLRGVYQDKFYQGTYPQNKNDNWLARATLIGKGGWSNFKFLFLSPGGELYGVLNDKIYKGTPPTHDNDNWMGRAKKIGNGGWNQFQFLFFDPNGYLYAVSKDKLYKASPPQSDTDNWIARATEIGSGGWSGFKFLFFHPNGYLYAVHGQQFYKALPPVSNQDNWLARATKIGQGGWDTFKFLFFSSVGTLFGVQGGKFYEDYPPSYAHDNWLARAKLIGNGGWDDFRFLFF",
+                      "midline": "MKFLLVVLGFIGFLKDGITVGGESMLRGVYQDKFYQGTYPQNKNDNWLARATLIGKGGWSNFKFLFLSPGGELYGVLNDKIYKGTPPTHDNDNWMGRAKKIGNGGWNQFQFLFFDPNGYLYAVSKDKLYKASPPQSDTDNWIARATEIGSGGWSGFKFLFFHPNGYLYAVHGQQFYKALPPVSNQDNWLARATKIGQGGWDTFKFLFFSSVGTLFGVQGGKFYEDYPPSYAHDNWLARAKLIGNGGWDDFRFLFF"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 3.56693,
-                  "identity": 11,
-                  "positive": 18,
-                  "query_from": 212,
-                  "query_to": 254,
-                  "hit_from": 25,
-                  "hit_to": 67,
-                  "align_len": 43,
-                  "gaps": 0,
-                  "qseq": "GTLFGVQGGKFYEDYPPSYAHDNWLARAKLIGNGGWDDFRFLF",
-                  "hseq": "GALDDVANGDRPDNYPHQYYDEASEDITLCCGSGPWSEFPLVY",
-                  "midline": "G L  V  G   ++YP  Y  +         G+G W +F  ++"
+                  "description": [
+                    {
+                      "id": "sp|P00654|RNU2_USTSP",
+                      "accession": "P00654",
+                      "title": "Ribonuclease U2 OS=Ustilago sphaerogena OX=5271 GN=RNU2 PE=1 SV=4"
+                    }
+                  ],
+                  "len": 114,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 26.1794,
+                      "score": 56,
+                      "evalue": 0.0713742,
+                      "identity": 16,
+                      "positive": 27,
+                      "query_from": 101,
+                      "query_to": 157,
+                      "hit_from": 55,
+                      "hit_to": 111,
+                      "align_len": 61,
+                      "gaps": 8,
+                      "qseq": "IGNGGWNQFQFLFFDPNGYLYAVSKDKLYKASPP----QSDTDNWIARATEIGSGGWSGFK",
+                      "hseq": "CGSGPWSEFPLVYNGP----YYSSRDNYVSPGPDRVIYQTNTGEFCATVTHTGAASYDGFT",
+                      "midline": " G+G W++F  ++  P    Y  S+D      P     Q++T  + A  T  G+  + GF "
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 3.56693,
+                      "identity": 11,
+                      "positive": 18,
+                      "query_from": 212,
+                      "query_to": 254,
+                      "hit_from": 25,
+                      "hit_to": 67,
+                      "align_len": 43,
+                      "gaps": 0,
+                      "qseq": "GTLFGVQGGKFYEDYPPSYAHDNWLARAKLIGNGGWDDFRFLF",
+                      "hseq": "GALDDVANGDRPDNYPHQYYDEASEDITLCCGSGPWSEFPLVY",
+                      "midline": "G L  V  G   ++YP  Y  +         G+G W +F  ++"
+                    },
+                    {
+                      "num": 3,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 6.3311,
+                      "identity": 15,
+                      "positive": 24,
+                      "query_from": 148,
+                      "query_to": 204,
+                      "hit_from": 55,
+                      "hit_to": 111,
+                      "align_len": 62,
+                      "gaps": 10,
+                      "qseq": "IGSGGWSGFKFLFFHP-----NGYLYAVHGQQFYKALPPVSNQDNWLARATKIGQGGWDTFK",
+                      "hseq": "CGSGPWSEFPLVYNGPYYSSRDNYVSPGPDRVIYQ-----TNTGEFCATVTHTGAASYDGFT",
+                      "midline": " GSG WS F  ++  P     + Y+     +  Y+     +N   + A  T  G   +D F "
+                    },
+                    {
+                      "num": 4,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 7.08624,
+                      "identity": 11,
+                      "positive": 13,
+                      "query_from": 39,
+                      "query_to": 69,
+                      "hit_from": 39,
+                      "hit_to": 70,
+                      "align_len": 32,
+                      "gaps": 1,
+                      "qseq": "YPQNKNDNWLARATLI-GKGGWSNFKFLFLSP",
+                      "hseq": "YPHQYYDEASEDITLCCGSGPWSEFPLVYNGP",
+                      "midline": "YP    D      TL  G G WS F  ++  P"
+                    }
+                  ]
                 },
                 {
                   "num": 3,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 6.3311,
-                  "identity": 15,
-                  "positive": 24,
-                  "query_from": 148,
-                  "query_to": 204,
-                  "hit_from": 55,
-                  "hit_to": 111,
-                  "align_len": 62,
-                  "gaps": 10,
-                  "qseq": "IGSGGWSGFKFLFFHP-----NGYLYAVHGQQFYKALPPVSNQDNWLARATKIGQGGWDTFK",
-                  "hseq": "CGSGPWSEFPLVYNGPYYSSRDNYVSPGPDRVIYQ-----TNTGEFCATVTHTGAASYDGFT",
-                  "midline": " GSG WS F  ++  P     + Y+     +  Y+     +N   + A  T  G   +D F "
+                  "description": [
+                    {
+                      "id": "sp|Q8WVQ1|CANT1_HUMAN",
+                      "accession": "Q8WVQ1",
+                      "title": "Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 401,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 2.16885,
+                      "identity": 10,
+                      "positive": 17,
+                      "query_from": 73,
+                      "query_to": 98,
+                      "hit_from": 56,
+                      "hit_to": 82,
+                      "align_len": 27,
+                      "gaps": 1,
+                      "qseq": "LYGVLNDKIYKGTPPTHDNDNW-MGRA",
+                      "hseq": "LWLLCSHRPAPGRPPTHNAHNWRLGQA",
+                      "midline": "L+ + + +   G PPTH+  NW +G+A"
+                    }
+                  ]
                 },
                 {
                   "num": 4,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 7.08624,
-                  "identity": 11,
-                  "positive": 13,
-                  "query_from": 39,
-                  "query_to": 69,
-                  "hit_from": 39,
-                  "hit_to": 70,
-                  "align_len": 32,
-                  "gaps": 1,
-                  "qseq": "YPQNKNDNWLARATLI-GKGGWSNFKFLFLSP",
-                  "hseq": "YPHQYYDEASEDITLCCGSGPWSEFPLVYNGP",
-                  "midline": "YP    D      TL  G G WS F  ++  P"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q8WVQ1|CANT1_HUMAN",
-                  "accession": "Q8WVQ1",
-                  "title": "Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1"
-                }
-              ],
-              "len": 401,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 2.16885,
-                  "identity": 10,
-                  "positive": 17,
-                  "query_from": 73,
-                  "query_to": 98,
-                  "hit_from": 56,
-                  "hit_to": 82,
-                  "align_len": 27,
-                  "gaps": 1,
-                  "qseq": "LYGVLNDKIYKGTPPTHDNDNW-MGRA",
-                  "hseq": "LWLLCSHRPAPGRPPTHNAHNWRLGQA",
-                  "midline": "L+ + + +   G PPTH+  NW +G+A"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P26827|CDGT_THETU",
-                  "accession": "P26827",
-                  "title": "Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium thermosulfurigenes OX=33950 GN=amyA PE=1 SV=2"
+                  "description": [
+                    {
+                      "id": "sp|P26827|CDGT_THETU",
+                      "accession": "P26827",
+                      "title": "Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium thermosulfurigenes OX=33950 GN=amyA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 710,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 7.47678,
+                      "identity": 20,
+                      "positive": 29,
+                      "query_from": 69,
+                      "query_to": 139,
+                      "hit_from": 106,
+                      "hit_to": 176,
+                      "align_len": 74,
+                      "gaps": 6,
+                      "qseq": "PGGELYGVLNDKIYKGTPPTHDNDNWMGRAKKIGN---GGWNQFQFLFFDPNGYLYAVSKDKLYKASPPQSDTD",
+                      "hseq": "PVENIYAVLPDSTFGGSTSYH---GYWARDFKRTNPYFGSFTDFQNLINTAHAHNIKVIIDFAPNHTSPASETD",
+                      "midline": "P   +Y VL D  + G+   H    +  R  K  N   G +  FQ L    + +   V  D     + P S+TD"
+                    }
+                  ]
                 }
               ],
-              "len": 710,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 7.47678,
-                  "identity": 20,
-                  "positive": 29,
-                  "query_from": 69,
-                  "query_to": 139,
-                  "hit_from": 106,
-                  "hit_to": 176,
-                  "align_len": 74,
-                  "gaps": 6,
-                  "qseq": "PGGELYGVLNDKIYKGTPPTHDNDNWMGRAKKIGN---GGWNQFQFLFFDPNGYLYAVSKDKLYKASPPQSDTD",
-                  "hseq": "PVENIYAVLPDSTFGGSTSYH---GYWARDFKRTNPYFGSFTDFQNLINTAHAHNIKVIIDFAPNHTSPASETD",
-                  "midline": "P   +Y VL D  + G+   H    +  R  K  N   G +  FQ L    + +   V  D     + P S+TD"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 63,
+                "eff_space": 13354560,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 63,
-            "eff_space": 13354560,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

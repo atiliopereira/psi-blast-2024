@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,429 +17,434 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P14775|DHM2_METEA Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxI PE=1 SV=1",
-          "query_len": 96,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P14775|DHM2_METEA",
-                  "accession": "P14775",
-                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxI PE=1 SV=1"
-                }
-              ],
-              "len": 96,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P14775|DHM2_METEA Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxI PE=1 SV=1",
+              "query_len": 96,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 197.593,
-                  "score": 501,
-                  "evalue": 7.05451e-70,
-                  "identity": 96,
-                  "positive": 96,
-                  "query_from": 1,
-                  "query_to": 96,
-                  "hit_from": 1,
-                  "hit_to": 96,
-                  "align_len": 96,
-                  "gaps": 0,
-                  "qseq": "MKTTLIAAAIVALSGLAAPALAYDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKKTGKFEYDVAKISAN",
-                  "hseq": "MKTTLIAAAIVALSGLAAPALAYDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKKTGKFEYDVAKISAN",
-                  "midline": "MKTTLIAAAIVALSGLAAPALAYDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKKTGKFEYDVAKISAN"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P29898|DHM2_PARDE",
-                  "accession": "P29898",
-                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Paracoccus denitrificans OX=266 GN=moxI PE=1 SV=1"
-                }
-              ],
-              "len": 103,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 123.25,
-                  "score": 308,
-                  "evalue": 2.62871e-40,
-                  "identity": 57,
-                  "positive": 65,
-                  "query_from": 6,
-                  "query_to": 95,
-                  "hit_from": 4,
-                  "hit_to": 93,
-                  "align_len": 90,
-                  "gaps": 0,
-                  "qseq": "IAAAIVALSGLAAPALAYDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKKTGKFEYDVAKISA",
-                  "hseq": "ILTLTVAALALGTPALAYDGTNCKAPGNCWEPKPDYPAKVEGSKYDPQHDPAELSKQGESLAVMDARNEWRVWNMKKTGKFEYDVKKIDG",
-                  "midline": "I    VA   L  PALAYDGT CKA GNCWEPKP +P K+ GSKYDP+HDP EL+KQ +S+  M+ RN+ RV N KKTGKFEYDV KI  "
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P38540|DHM2_METME",
-                  "accession": "P38540",
-                  "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylophilus methylotrophus OX=17 GN=moxI PE=1 SV=2"
-                }
-              ],
-              "len": 91,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 117.857,
-                  "score": 294,
-                  "evalue": 1.84385e-38,
-                  "identity": 54,
-                  "positive": 65,
-                  "query_from": 1,
-                  "query_to": 90,
-                  "hit_from": 1,
-                  "hit_to": 90,
-                  "align_len": 90,
-                  "gaps": 0,
-                  "qseq": "MKTTLIAAAIVALSGLAAPALAYDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKKTGKFEYDV",
-                  "hseq": "MKHVLTLLALASVFAVSNQALAYDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKSSGNFVFDV",
-                  "midline": "MK  L   A+ ++  ++  ALAYDG  CK  GNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K +G F +DV"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 1.41632,
-                  "identity": 8,
-                  "positive": 13,
-                  "query_from": 43,
-                  "query_to": 60,
-                  "hit_from": 8627,
-                  "hit_to": 8644,
-                  "align_len": 18,
-                  "gaps": 0,
-                  "qseq": "EKIAGSKYDPKHDPKELN",
-                  "hseq": "ERVALAKTNGKHDIDQLN",
-                  "midline": "E++A +K + KHD  +LN"
+                  "description": [
+                    {
+                      "id": "sp|P14775|DHM2_METEA",
+                      "accession": "P14775",
+                      "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxI PE=1 SV=1"
+                    }
+                  ],
+                  "len": 96,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 197.593,
+                      "score": 501,
+                      "evalue": 7.05451e-70,
+                      "identity": 96,
+                      "positive": 96,
+                      "query_from": 1,
+                      "query_to": 96,
+                      "hit_from": 1,
+                      "hit_to": 96,
+                      "align_len": 96,
+                      "gaps": 0,
+                      "qseq": "MKTTLIAAAIVALSGLAAPALAYDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKKTGKFEYDVAKISAN",
+                      "hseq": "MKTTLIAAAIVALSGLAAPALAYDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKKTGKFEYDVAKISAN",
+                      "midline": "MKTTLIAAAIVALSGLAAPALAYDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKKTGKFEYDVAKISAN"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 4.96927,
-                  "identity": 8,
-                  "positive": 14,
-                  "query_from": 58,
-                  "query_to": 79,
-                  "hit_from": 41,
-                  "hit_to": 62,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "ELNKQADSIKQMEERNKKRVEN",
-                  "hseq": "ETNQPASVVKQKQQSNNEQTEN",
-                  "midline": "E N+ A  +KQ ++ N ++ EN"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P29898|DHM2_PARDE",
+                      "accession": "P29898",
+                      "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Paracoccus denitrificans OX=266 GN=moxI PE=1 SV=1"
+                    }
+                  ],
+                  "len": 103,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 123.25,
+                      "score": 308,
+                      "evalue": 2.62871e-40,
+                      "identity": 57,
+                      "positive": 65,
+                      "query_from": 6,
+                      "query_to": 95,
+                      "hit_from": 4,
+                      "hit_to": 93,
+                      "align_len": 90,
+                      "gaps": 0,
+                      "qseq": "IAAAIVALSGLAAPALAYDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKKTGKFEYDVAKISA",
+                      "hseq": "ILTLTVAALALGTPALAYDGTNCKAPGNCWEPKPDYPAKVEGSKYDPQHDPAELSKQGESLAVMDARNEWRVWNMKKTGKFEYDVKKIDG",
+                      "midline": "I    VA   L  PALAYDGT CKA GNCWEPKP +P K+ GSKYDP+HDP EL+KQ +S+  M+ RN+ RV N KKTGKFEYDV KI  "
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q99176|SRN2_YEAST",
-                  "accession": "Q99176",
-                  "title": "Protein SRN2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SRN2 PE=1 SV=1"
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P38540|DHM2_METME",
+                      "accession": "P38540",
+                      "title": "Methanol dehydrogenase [cytochrome c] subunit 2 OS=Methylophilus methylotrophus OX=17 GN=moxI PE=1 SV=2"
+                    }
+                  ],
+                  "len": 91,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 117.857,
+                      "score": 294,
+                      "evalue": 1.84385e-38,
+                      "identity": 54,
+                      "positive": 65,
+                      "query_from": 1,
+                      "query_to": 90,
+                      "hit_from": 1,
+                      "hit_to": 90,
+                      "align_len": 90,
+                      "gaps": 0,
+                      "qseq": "MKTTLIAAAIVALSGLAAPALAYDGTKCKAAGNCWEPKPGFPEKIAGSKYDPKHDPKELNKQADSIKQMEERNKKRVENFKKTGKFEYDV",
+                      "hseq": "MKHVLTLLALASVFAVSNQALAYDGQNCKEPGNCWENKPGYPEKIAGSKYDPKHDPVELNKQEESIKAMDARNAKRIANAKSSGNFVFDV",
+                      "midline": "MK  L   A+ ++  ++  ALAYDG  CK  GNCWE KPG+PEKIAGSKYDPKHDP ELNKQ +SIK M+ RN KR+ N K +G F +DV"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 1.41632,
+                      "identity": 8,
+                      "positive": 13,
+                      "query_from": 43,
+                      "query_to": 60,
+                      "hit_from": 8627,
+                      "hit_to": 8644,
+                      "align_len": 18,
+                      "gaps": 0,
+                      "qseq": "EKIAGSKYDPKHDPKELN",
+                      "hseq": "ERVALAKTNGKHDIDQLN",
+                      "midline": "E++A +K + KHD  +LN"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 4.96927,
+                      "identity": 8,
+                      "positive": 14,
+                      "query_from": 58,
+                      "query_to": 79,
+                      "hit_from": 41,
+                      "hit_to": 62,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "ELNKQADSIKQMEERNKKRVEN",
+                      "hseq": "ETNQPASVVKQKQQSNNEQTEN",
+                      "midline": "E N+ A  +KQ ++ N ++ EN"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q99176|SRN2_YEAST",
+                      "accession": "Q99176",
+                      "title": "Protein SRN2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SRN2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 213,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 1.96248,
+                      "identity": 6,
+                      "positive": 7,
+                      "query_from": 37,
+                      "query_to": 45,
+                      "hit_from": 35,
+                      "hit_to": 43,
+                      "align_len": 9,
+                      "gaps": 0,
+                      "qseq": "PKPGFPEKI",
+                      "hseq": "PSPGLPEKV",
+                      "midline": "P PG PEK+"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P14774|CYCL_METEA",
+                      "accession": "P14774",
+                      "title": "Cytochrome c-L OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxG PE=1 SV=1"
+                    }
+                  ],
+                  "len": 197,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 5.88534,
+                      "identity": 10,
+                      "positive": 14,
+                      "query_from": 1,
+                      "query_to": 22,
+                      "hit_from": 2,
+                      "hit_to": 25,
+                      "align_len": 24,
+                      "gaps": 2,
+                      "qseq": "MKTTLIAAAIVALS--GLAAPALA",
+                      "hseq": "MNRVKIGTALLGLTLAGIALPALA",
+                      "midline": "M    I  A++ L+  G+A PALA"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P11941|LYSC2_ONCMY",
+                      "accession": "P11941",
+                      "title": "Lysozyme C II OS=Oncorhynchus mykiss OX=8022 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 144,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 5.91095,
+                      "identity": 5,
+                      "positive": 12,
+                      "query_from": 41,
+                      "query_to": 64,
+                      "hit_from": 40,
+                      "hit_to": 63,
+                      "align_len": 24,
+                      "gaps": 0,
+                      "qseq": "FPEKIAGSKYDPKHDPKELNKQAD",
+                      "hseq": "LPNWVCLSKWESSYNTQATNRNTD",
+                      "midline": " P  +  SK++  ++ +  N+  D"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "tr|Q8RR56|Q8RR56_9BACI",
+                      "accession": "Q8RR56",
+                      "title": "Kumamolisin OS=Bacillus sp. MN-32 OX=198803 GN=kscp PE=1 SV=2"
+                    }
+                  ],
+                  "len": 552,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 6.06611,
+                      "identity": 7,
+                      "positive": 9,
+                      "query_from": 40,
+                      "query_to": 56,
+                      "hit_from": 294,
+                      "hit_to": 310,
+                      "align_len": 17,
+                      "gaps": 0,
+                      "qseq": "GFPEKIAGSKYDPKHDP",
+                      "hseq": "GFLNAITTAVHDPTHKP",
+                      "midline": "GF   I  + +DP H P"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P40818|UBP8_HUMAN",
+                      "accession": "P40818",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 1118,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 6.80962,
+                      "identity": 10,
+                      "positive": 18,
+                      "query_from": 57,
+                      "query_to": 81,
+                      "hit_from": 882,
+                      "hit_to": 905,
+                      "align_len": 25,
+                      "gaps": 1,
+                      "qseq": "KELNKQADSIKQMEERNKKRVENFK",
+                      "hseq": "EDLNK-ADNRKRYKEENNDHLDDFK",
+                      "midline": "++LNK AD+ K+ +E N   +++FK"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P37330|MASZ_ECOLI",
+                      "accession": "P37330",
+                      "title": "Malate synthase G OS=Escherichia coli (strain K12) OX=83333 GN=glcB PE=1 SV=3"
+                    }
+                  ],
+                  "len": 723,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 8.02265,
+                      "identity": 10,
+                      "positive": 15,
+                      "query_from": 6,
+                      "query_to": 39,
+                      "hit_from": 504,
+                      "hit_to": 538,
+                      "align_len": 35,
+                      "gaps": 1,
+                      "qseq": "IAAAIVALSGLAAPALAYDGTKCKAAGN-CWEPKP",
+                      "hseq": "IGKGMWAMPDLMADMYSQKGDQLRAGANTAWVPSP",
+                      "midline": "I   + A+  L A   +  G + +A  N  W P P"
+                    }
+                  ]
+                },
+                {
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|P0A0A5|FEMA_STAAU",
+                      "accession": "P0A0A5",
+                      "title": "Aminoacyltransferase FemA OS=Staphylococcus aureus OX=1280 GN=femA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 420,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 8.53471,
+                      "identity": 8,
+                      "positive": 9,
+                      "query_from": 16,
+                      "query_to": 35,
+                      "hit_from": 111,
+                      "hit_to": 130,
+                      "align_len": 20,
+                      "gaps": 0,
+                      "qseq": "LAAPALAYDGTKCKAAGNCW",
+                      "hseq": "LPYQYLNHDGEITGNAGNDW",
+                      "midline": "L    L +DG     AGN W"
+                    }
+                  ]
+                },
+                {
+                  "num": 12,
+                  "description": [
+                    {
+                      "id": "sp|Q8K1S3|UNC5B_MOUSE",
+                      "accession": "Q8K1S3",
+                      "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
+                    }
+                  ],
+                  "len": 945,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 8.74429,
+                      "identity": 4,
+                      "positive": 5,
+                      "query_from": 34,
+                      "query_to": 41,
+                      "hit_from": 18,
+                      "hit_to": 25,
+                      "align_len": 8,
+                      "gaps": 0,
+                      "qseq": "CWEPKPGF",
+                      "hseq": "CWDPTPSL",
+                      "midline": "CW+P P  "
+                    }
+                  ]
+                },
+                {
+                  "num": 13,
+                  "description": [
+                    {
+                      "id": "sp|P00101|CY551_STUST",
+                      "accession": "P00101",
+                      "title": "Cytochrome c-551 OS=Stutzerimonas stutzeri OX=316 GN=nirM PE=1 SV=2"
+                    }
+                  ],
+                  "len": 104,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.4754,
+                      "score": 36,
+                      "evalue": 9.6502,
+                      "identity": 14,
+                      "positive": 16,
+                      "query_from": 1,
+                      "query_to": 25,
+                      "hit_from": 1,
+                      "hit_to": 25,
+                      "align_len": 27,
+                      "gaps": 4,
+                      "qseq": "MKTTLIAAAIVALSGLAA--PALAYDG",
+                      "hseq": "MKKILIP--MLALGGALAMQPALAQDG",
+                      "midline": "MK  LI   ++AL G  A  PALA DG"
+                    }
+                  ]
                 }
               ],
-              "len": 213,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 1.96248,
-                  "identity": 6,
-                  "positive": 7,
-                  "query_from": 37,
-                  "query_to": 45,
-                  "hit_from": 35,
-                  "hit_to": 43,
-                  "align_len": 9,
-                  "gaps": 0,
-                  "qseq": "PKPGFPEKI",
-                  "hseq": "PSPGLPEKV",
-                  "midline": "P PG PEK+"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P14774|CYCL_METEA",
-                  "accession": "P14774",
-                  "title": "Cytochrome c-L OS=Methylorubrum extorquens (strain ATCC 14718 / DSM 1338 / JCM 2805 / NCIMB 9133 / AM1) OX=272630 GN=moxG PE=1 SV=1"
-                }
-              ],
-              "len": 197,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 5.88534,
-                  "identity": 10,
-                  "positive": 14,
-                  "query_from": 1,
-                  "query_to": 22,
-                  "hit_from": 2,
-                  "hit_to": 25,
-                  "align_len": 24,
-                  "gaps": 2,
-                  "qseq": "MKTTLIAAAIVALS--GLAAPALA",
-                  "hseq": "MNRVKIGTALLGLTLAGIALPALA",
-                  "midline": "M    I  A++ L+  G+A PALA"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P11941|LYSC2_ONCMY",
-                  "accession": "P11941",
-                  "title": "Lysozyme C II OS=Oncorhynchus mykiss OX=8022 PE=1 SV=2"
-                }
-              ],
-              "len": 144,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 5.91095,
-                  "identity": 5,
-                  "positive": 12,
-                  "query_from": 41,
-                  "query_to": 64,
-                  "hit_from": 40,
-                  "hit_to": 63,
-                  "align_len": 24,
-                  "gaps": 0,
-                  "qseq": "FPEKIAGSKYDPKHDPKELNKQAD",
-                  "hseq": "LPNWVCLSKWESSYNTQATNRNTD",
-                  "midline": " P  +  SK++  ++ +  N+  D"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "tr|Q8RR56|Q8RR56_9BACI",
-                  "accession": "Q8RR56",
-                  "title": "Kumamolisin OS=Bacillus sp. MN-32 OX=198803 GN=kscp PE=1 SV=2"
-                }
-              ],
-              "len": 552,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 6.06611,
-                  "identity": 7,
-                  "positive": 9,
-                  "query_from": 40,
-                  "query_to": 56,
-                  "hit_from": 294,
-                  "hit_to": 310,
-                  "align_len": 17,
-                  "gaps": 0,
-                  "qseq": "GFPEKIAGSKYDPKHDP",
-                  "hseq": "GFLNAITTAVHDPTHKP",
-                  "midline": "GF   I  + +DP H P"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|P40818|UBP8_HUMAN",
-                  "accession": "P40818",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
-                }
-              ],
-              "len": 1118,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 6.80962,
-                  "identity": 10,
-                  "positive": 18,
-                  "query_from": 57,
-                  "query_to": 81,
-                  "hit_from": 882,
-                  "hit_to": 905,
-                  "align_len": 25,
-                  "gaps": 1,
-                  "qseq": "KELNKQADSIKQMEERNKKRVENFK",
-                  "hseq": "EDLNK-ADNRKRYKEENNDHLDDFK",
-                  "midline": "++LNK AD+ K+ +E N   +++FK"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|P37330|MASZ_ECOLI",
-                  "accession": "P37330",
-                  "title": "Malate synthase G OS=Escherichia coli (strain K12) OX=83333 GN=glcB PE=1 SV=3"
-                }
-              ],
-              "len": 723,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 8.02265,
-                  "identity": 10,
-                  "positive": 15,
-                  "query_from": 6,
-                  "query_to": 39,
-                  "hit_from": 504,
-                  "hit_to": 538,
-                  "align_len": 35,
-                  "gaps": 1,
-                  "qseq": "IAAAIVALSGLAAPALAYDGTKCKAAGN-CWEPKP",
-                  "hseq": "IGKGMWAMPDLMADMYSQKGDQLRAGANTAWVPSP",
-                  "midline": "I   + A+  L A   +  G + +A  N  W P P"
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|P0A0A5|FEMA_STAAU",
-                  "accession": "P0A0A5",
-                  "title": "Aminoacyltransferase FemA OS=Staphylococcus aureus OX=1280 GN=femA PE=1 SV=2"
-                }
-              ],
-              "len": 420,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 8.53471,
-                  "identity": 8,
-                  "positive": 9,
-                  "query_from": 16,
-                  "query_to": 35,
-                  "hit_from": 111,
-                  "hit_to": 130,
-                  "align_len": 20,
-                  "gaps": 0,
-                  "qseq": "LAAPALAYDGTKCKAAGNCW",
-                  "hseq": "LPYQYLNHDGEITGNAGNDW",
-                  "midline": "L    L +DG     AGN W"
-                }
-              ]
-            },
-            {
-              "num": 12,
-              "description": [
-                {
-                  "id": "sp|Q8K1S3|UNC5B_MOUSE",
-                  "accession": "Q8K1S3",
-                  "title": "Netrin receptor UNC5B OS=Mus musculus OX=10090 GN=Unc5b PE=1 SV=1"
-                }
-              ],
-              "len": 945,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 8.74429,
-                  "identity": 4,
-                  "positive": 5,
-                  "query_from": 34,
-                  "query_to": 41,
-                  "hit_from": 18,
-                  "hit_to": 25,
-                  "align_len": 8,
-                  "gaps": 0,
-                  "qseq": "CWEPKPGF",
-                  "hseq": "CWDPTPSL",
-                  "midline": "CW+P P  "
-                }
-              ]
-            },
-            {
-              "num": 13,
-              "description": [
-                {
-                  "id": "sp|P00101|CY551_STUST",
-                  "accession": "P00101",
-                  "title": "Cytochrome c-551 OS=Stutzerimonas stutzeri OX=316 GN=nirM PE=1 SV=2"
-                }
-              ],
-              "len": 104,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.4754,
-                  "score": 36,
-                  "evalue": 9.6502,
-                  "identity": 14,
-                  "positive": 16,
-                  "query_from": 1,
-                  "query_to": 25,
-                  "hit_from": 1,
-                  "hit_to": 25,
-                  "align_len": 27,
-                  "gaps": 4,
-                  "qseq": "MKTTLIAAAIVALSGLAA--PALAYDG",
-                  "hseq": "MKKILIP--MLALGGALAMQPALAQDG",
-                  "midline": "MK  LI   ++AL G  A  PALA DG"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 53,
+                "eff_space": 3080735,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 53,
-            "eff_space": 3080735,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

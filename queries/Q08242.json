@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,236 +17,241 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "tr|Q08242|Q08242_PSESX Avirulence protein OS=Pseudomonas syringae OX=317 GN=avrP PE=1 SV=1",
-          "query_len": 164,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "tr|Q08242|Q08242_PSESX",
-                  "accession": "Q08242",
-                  "title": "Avirulence protein OS=Pseudomonas syringae OX=317 GN=avrP PE=1 SV=1"
-                }
-              ],
-              "len": 164,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "tr|Q08242|Q08242_PSESX Avirulence protein OS=Pseudomonas syringae OX=317 GN=avrP PE=1 SV=1",
+              "query_len": 164,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 340.117,
-                  "score": 871,
-                  "evalue": 3.61922e-124,
-                  "identity": 164,
-                  "positive": 164,
-                  "query_from": 1,
-                  "query_to": 164,
-                  "hit_from": 1,
-                  "hit_to": 164,
-                  "align_len": 164,
-                  "gaps": 0,
-                  "qseq": "MGNICVGGSRMAHQVNSPDRVSNNSGDEDNVTSSQLLSVRHQLAESAGLPRDQHEFVSSQAPQSLRNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLPHENVDDMRSAITDWSDMREALQHAMGIHADIPPSPERFVATMNPSGSIRMSTLSPSPYRNWQ",
-                  "hseq": "MGNICVGGSRMAHQVNSPDRVSNNSGDEDNVTSSQLLSVRHQLAESAGLPRDQHEFVSSQAPQSLRNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLPHENVDDMRSAITDWSDMREALQHAMGIHADIPPSPERFVATMNPSGSIRMSTLSPSPYRNWQ",
-                  "midline": "MGNICVGGSRMAHQVNSPDRVSNNSGDEDNVTSSQLLSVRHQLAESAGLPRDQHEFVSSQAPQSLRNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLPHENVDDMRSAITDWSDMREALQHAMGIHADIPPSPERFVATMNPSGSIRMSTLSPSPYRNWQ"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P08037|B4GT1_BOVIN",
-                  "accession": "P08037",
-                  "title": "Beta-1,4-galactosyltransferase 1 OS=Bos taurus OX=9913 GN=B4GALT1 PE=1 SV=3"
-                }
-              ],
-              "len": 402,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 0.534105,
-                  "identity": 13,
-                  "positive": 21,
-                  "query_from": 118,
-                  "query_to": 159,
-                  "hit_from": 46,
-                  "hit_to": 86,
-                  "align_len": 42,
-                  "gaps": 1,
-                  "qseq": "DMREALQHAMGIHADIPPSPERFVATMNPSGSIRMSTLSPSP",
-                  "hseq": "DLRR-LPQLVGVHPPLQGSSHGAAAIGQPSGELRLRGVAPPP",
-                  "midline": "D+R  L   +G+H  +  S     A   PSG +R+  ++P P"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P40818|UBP8_HUMAN",
-                  "accession": "P40818",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
-                }
-              ],
-              "len": 1118,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 1.17345,
-                  "identity": 14,
-                  "positive": 25,
-                  "query_from": 1,
-                  "query_to": 49,
-                  "hit_from": 782,
-                  "hit_to": 832,
-                  "align_len": 51,
-                  "gaps": 2,
-                  "qseq": "MGNICVGGSRMAHQVNSPDRVS--NNSGDEDNVTSSQLLSVRHQLAESAGL",
-                  "hseq": "LGNTCYMNSILQCLCNAPHLADYFNRNCYQDDINRSNLLGHKGEVAEEFGI",
-                  "midline": "+GN C   S +    N+P      N +  +D++  S LL  + ++AE  G+"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 3.89813,
-                  "identity": 14,
-                  "positive": 25,
-                  "query_from": 63,
-                  "query_to": 115,
-                  "hit_from": 5105,
-                  "hit_to": 5161,
-                  "align_len": 57,
-                  "gaps": 4,
-                  "qseq": "QSLRNRYNNLYSHTQRTLDMADMQH----RYMTGASGINPGMLPHENVDDMRSAITD",
-                  "hseq": "ENLRTAQTNAKQHLNGLSDLTNAQKEAAKRQIEGATHVNEVTQAQNNADALNTAMTN",
-                  "midline": "++LR    N   H     D+ + Q     R + GA+ +N       N D + +A+T+"
+                  "description": [
+                    {
+                      "id": "tr|Q08242|Q08242_PSESX",
+                      "accession": "Q08242",
+                      "title": "Avirulence protein OS=Pseudomonas syringae OX=317 GN=avrP PE=1 SV=1"
+                    }
+                  ],
+                  "len": 164,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 340.117,
+                      "score": 871,
+                      "evalue": 3.61922e-124,
+                      "identity": 164,
+                      "positive": 164,
+                      "query_from": 1,
+                      "query_to": 164,
+                      "hit_from": 1,
+                      "hit_to": 164,
+                      "align_len": 164,
+                      "gaps": 0,
+                      "qseq": "MGNICVGGSRMAHQVNSPDRVSNNSGDEDNVTSSQLLSVRHQLAESAGLPRDQHEFVSSQAPQSLRNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLPHENVDDMRSAITDWSDMREALQHAMGIHADIPPSPERFVATMNPSGSIRMSTLSPSPYRNWQ",
+                      "hseq": "MGNICVGGSRMAHQVNSPDRVSNNSGDEDNVTSSQLLSVRHQLAESAGLPRDQHEFVSSQAPQSLRNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLPHENVDDMRSAITDWSDMREALQHAMGIHADIPPSPERFVATMNPSGSIRMSTLSPSPYRNWQ",
+                      "midline": "MGNICVGGSRMAHQVNSPDRVSNNSGDEDNVTSSQLLSVRHQLAESAGLPRDQHEFVSSQAPQSLRNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLPHENVDDMRSAITDWSDMREALQHAMGIHADIPPSPERFVATMNPSGSIRMSTLSPSPYRNWQ"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 9.14166,
-                  "identity": 23,
-                  "positive": 41,
-                  "query_from": 8,
-                  "query_to": 102,
-                  "hit_from": 1495,
-                  "hit_to": 1579,
-                  "align_len": 95,
-                  "gaps": 10,
-                  "qseq": "GSRMAHQVNSPDRVSNNSGDEDNVTSSQLLSVRHQLAESAGLPRDQHEFVSSQAPQSLRNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLP",
-                  "hseq": "GNYTNHQVFSGETFTNTITANDNF-GVQSVTVPNT-SQITGTVDNNHQHVSATAP--------NVTSATNKTINLLATDTSGNTATTSFNVTVKP",
-                  "midline": "G+   HQV S +  +N     DN    Q ++V +  ++  G   + H+ VS+ AP        N+ S T +T+++        T  +  N  + P"
+                  "description": [
+                    {
+                      "id": "sp|P08037|B4GT1_BOVIN",
+                      "accession": "P08037",
+                      "title": "Beta-1,4-galactosyltransferase 1 OS=Bos taurus OX=9913 GN=B4GALT1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 402,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 0.534105,
+                      "identity": 13,
+                      "positive": 21,
+                      "query_from": 118,
+                      "query_to": 159,
+                      "hit_from": 46,
+                      "hit_to": 86,
+                      "align_len": 42,
+                      "gaps": 1,
+                      "qseq": "DMREALQHAMGIHADIPPSPERFVATMNPSGSIRMSTLSPSP",
+                      "hseq": "DLRR-LPQLVGVHPPLQGSSHGAAAIGQPSGELRLRGVAPPP",
+                      "midline": "D+R  L   +G+H  +  S     A   PSG +R+  ++P P"
+                    }
+                  ]
                 },
                 {
                   "num": 3,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 9.81348,
-                  "identity": 17,
-                  "positive": 28,
-                  "query_from": 66,
-                  "query_to": 126,
-                  "hit_from": 3308,
-                  "hit_to": 3363,
-                  "align_len": 61,
-                  "gaps": 5,
-                  "qseq": "RNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLPHENVDDMRSAITDWSDMREALQHA",
-                  "hseq": "KNDYNNAYNHANDIIN-GNAQHPVIT-PSDVNNAL---SNVTSKEHALNGEAKLNAAKQEA",
-                  "midline": "+N YNN Y+H    ++  + QH  +T  S +N  +    NV     A+   + +  A Q A"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P40818|UBP8_HUMAN",
+                      "accession": "P40818",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 8 OS=Homo sapiens OX=9606 GN=USP8 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 1118,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 1.17345,
+                      "identity": 14,
+                      "positive": 25,
+                      "query_from": 1,
+                      "query_to": 49,
+                      "hit_from": 782,
+                      "hit_to": 832,
+                      "align_len": 51,
+                      "gaps": 2,
+                      "qseq": "MGNICVGGSRMAHQVNSPDRVS--NNSGDEDNVTSSQLLSVRHQLAESAGL",
+                      "hseq": "LGNTCYMNSILQCLCNAPHLADYFNRNCYQDDINRSNLLGHKGEVAEEFGI",
+                      "midline": "+GN C   S +    N+P      N +  +D++  S LL  + ++AE  G+"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q92547|TOPB1_HUMAN",
-                  "accession": "Q92547",
-                  "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 3.89813,
+                      "identity": 14,
+                      "positive": 25,
+                      "query_from": 63,
+                      "query_to": 115,
+                      "hit_from": 5105,
+                      "hit_to": 5161,
+                      "align_len": 57,
+                      "gaps": 4,
+                      "qseq": "QSLRNRYNNLYSHTQRTLDMADMQH----RYMTGASGINPGMLPHENVDDMRSAITD",
+                      "hseq": "ENLRTAQTNAKQHLNGLSDLTNAQKEAAKRQIEGATHVNEVTQAQNNADALNTAMTN",
+                      "midline": "++LR    N   H     D+ + Q     R + GA+ +N       N D + +A+T+"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 9.14166,
+                      "identity": 23,
+                      "positive": 41,
+                      "query_from": 8,
+                      "query_to": 102,
+                      "hit_from": 1495,
+                      "hit_to": 1579,
+                      "align_len": 95,
+                      "gaps": 10,
+                      "qseq": "GSRMAHQVNSPDRVSNNSGDEDNVTSSQLLSVRHQLAESAGLPRDQHEFVSSQAPQSLRNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLP",
+                      "hseq": "GNYTNHQVFSGETFTNTITANDNF-GVQSVTVPNT-SQITGTVDNNHQHVSATAP--------NVTSATNKTINLLATDTSGNTATTSFNVTVKP",
+                      "midline": "G+   HQV S +  +N     DN    Q ++V +  ++  G   + H+ VS+ AP        N+ S T +T+++        T  +  N  + P"
+                    },
+                    {
+                      "num": 3,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 9.81348,
+                      "identity": 17,
+                      "positive": 28,
+                      "query_from": 66,
+                      "query_to": 126,
+                      "hit_from": 3308,
+                      "hit_to": 3363,
+                      "align_len": 61,
+                      "gaps": 5,
+                      "qseq": "RNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLPHENVDDMRSAITDWSDMREALQHA",
+                      "hseq": "KNDYNNAYNHANDIIN-GNAQHPVIT-PSDVNNAL---SNVTSKEHALNGEAKLNAAKQEA",
+                      "midline": "+N YNN Y+H    ++  + QH  +T  S +N  +    NV     A+   + +  A Q A"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q92547|TOPB1_HUMAN",
+                      "accession": "Q92547",
+                      "title": "DNA topoisomerase 2-binding protein 1 OS=Homo sapiens OX=9606 GN=TOPBP1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1522,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 3.93524,
+                      "identity": 33,
+                      "positive": 53,
+                      "query_from": 2,
+                      "query_to": 139,
+                      "hit_from": 1007,
+                      "hit_to": 1139,
+                      "align_len": 143,
+                      "gaps": 15,
+                      "qseq": "GNICVGGSRMAHQVNS-----PDRVSNNSGDEDNVTSSQLLSVRHQLAESAGLPRDQHEFVSSQAPQSLRNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLPHENVDDMRSAITDWSDMREALQHAMGIHADIPPSPER",
+                      "hseq": "GRLC--NSRLLSAVSSTKDDEPDPLILEENDVDNMATNN-----KESAPSNGSGKNDSKGVLTQTLEMRENFQKQLQEIMSATSIVKPQGQRTSLSRSGCNSA---SSTPDSTRSARSGRSRVLEALRQSRQTVPDVNTEPSQ",
+                      "midline": "G +C   SR+   V+S     PD +     D DN+ ++       + A S G  ++  + V +Q  +   N    L      T  +     R     SG N         D  RSA +  S + EAL+ +     D+   P +"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P84066|DTD2_LEIMA",
+                      "accession": "P84066",
+                      "title": "Putative D-tyrosyl-tRNA(Tyr) deacylase 2 OS=Leishmania major OX=5664 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 181,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 8.77824,
+                      "identity": 11,
+                      "positive": 16,
+                      "query_from": 121,
+                      "query_to": 141,
+                      "hit_from": 43,
+                      "hit_to": 67,
+                      "align_len": 25,
+                      "gaps": 4,
+                      "qseq": "EALQHAMGI--HADIPP--SPERFV",
+                      "hseq": "EALRHAVGVLLHTKIFTHFSPEKMI",
+                      "midline": "EAL+HA+G+  H  I    SPE+ +"
+                    }
+                  ]
                 }
               ],
-              "len": 1522,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 3.93524,
-                  "identity": 33,
-                  "positive": 53,
-                  "query_from": 2,
-                  "query_to": 139,
-                  "hit_from": 1007,
-                  "hit_to": 1139,
-                  "align_len": 143,
-                  "gaps": 15,
-                  "qseq": "GNICVGGSRMAHQVNS-----PDRVSNNSGDEDNVTSSQLLSVRHQLAESAGLPRDQHEFVSSQAPQSLRNRYNNLYSHTQRTLDMADMQHRYMTGASGINPGMLPHENVDDMRSAITDWSDMREALQHAMGIHADIPPSPER",
-                  "hseq": "GRLC--NSRLLSAVSSTKDDEPDPLILEENDVDNMATNN-----KESAPSNGSGKNDSKGVLTQTLEMRENFQKQLQEIMSATSIVKPQGQRTSLSRSGCNSA---SSTPDSTRSARSGRSRVLEALRQSRQTVPDVNTEPSQ",
-                  "midline": "G +C   SR+   V+S     PD +     D DN+ ++       + A S G  ++  + V +Q  +   N    L      T  +     R     SG N         D  RSA +  S + EAL+ +     D+   P +"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P84066|DTD2_LEIMA",
-                  "accession": "P84066",
-                  "title": "Putative D-tyrosyl-tRNA(Tyr) deacylase 2 OS=Leishmania major OX=5664 PE=1 SV=2"
-                }
-              ],
-              "len": 181,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 8.77824,
-                  "identity": 11,
-                  "positive": 16,
-                  "query_from": 121,
-                  "query_to": 141,
-                  "hit_from": 43,
-                  "hit_to": 67,
-                  "align_len": 25,
-                  "gaps": 4,
-                  "qseq": "EALQHAMGI--HADIPP--SPERFV",
-                  "hseq": "EALRHAVGVLLHTKIFTHFSPEKMI",
-                  "midline": "EAL+HA+G+  H  I    SPE+ +"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 59,
+                "eff_space": 7391055,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 59,
-            "eff_space": 7391055,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

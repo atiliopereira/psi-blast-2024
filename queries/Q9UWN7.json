@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,356 +17,361 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|Q9UWN7|TBP_SULAC TATA-box-binding protein OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=tbp PE=1 SV=1",
-          "query_len": 197,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|Q9UWN7|TBP_SULAC",
-                  "accession": "Q9UWN7",
-                  "title": "TATA-box-binding protein OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=tbp PE=1 SV=1"
-                }
-              ],
-              "len": 197,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|Q9UWN7|TBP_SULAC TATA-box-binding protein OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=tbp PE=1 SV=1",
+              "query_len": 197,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 397.897,
-                  "score": 1021,
-                  "evalue": 5.65814e-146,
-                  "identity": 197,
-                  "positive": 197,
-                  "query_from": 1,
-                  "query_to": 197,
-                  "hit_from": 1,
-                  "hit_to": 197,
-                  "align_len": 197,
-                  "gaps": 0,
-                  "qseq": "MIPDEIPYKAVVNIENIVATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYGMQLTGKPKIQIQNIVASANLHVIVNLDKAAFLLENNMYEPEQFPGLIYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAVKKIFDKLVELDCVKPVEEEELEF",
-                  "hseq": "MIPDEIPYKAVVNIENIVATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYGMQLTGKPKIQIQNIVASANLHVIVNLDKAAFLLENNMYEPEQFPGLIYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAVKKIFDKLVELDCVKPVEEEELEF",
-                  "midline": "MIPDEIPYKAVVNIENIVATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYGMQLTGKPKIQIQNIVASANLHVIVNLDKAAFLLENNMYEPEQFPGLIYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAVKKIFDKLVELDCVKPVEEEELEF"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P13393|TBP_YEAST",
-                  "accession": "P13393",
-                  "title": "TATA-box-binding protein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SPT15 PE=1 SV=3"
-                }
-              ],
-              "len": 240,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 145.206,
-                  "score": 365,
-                  "evalue": 1.32388e-45,
-                  "identity": 80,
-                  "positive": 112,
-                  "query_from": 11,
-                  "query_to": 184,
-                  "hit_from": 64,
-                  "hit_to": 237,
-                  "align_len": 175,
-                  "gaps": 2,
-                  "qseq": "VVNIENIVATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYGMQLTGKPKIQIQNIVASANLHVIVNLDKAAFLLEN-NMYEPEQFPGLIYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAVKKIFDKLVEL",
-                  "hseq": "VPTLQNIVATVTLGCRLDLKTVALHARNAEYNPKRFAAVIMRIREPKTTALIFASGKMVVTGAKSEDDSKLASRKYARIIQKIGFAAKFT-DFKIQNIVGSCDVKFPIRLEGLAFSHGTFSSYEPELFPGLIYRMVKPKIVLLIFVSGKIVLTGAKQREEIYQAFEAIYPVLSEF",
-                  "midline": "V  ++NIVATVTL   LDL  +     N EY+P +F  +I R+  PK T+LIF SGKMVVTGAKS D+   A ++  + ++K G         +IQNIV S ++   + L+  AF     + YEPE FPGLIYRM +P++VLLIF SGK+V+TGAK+ +E+++A + I+  L E "
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P20226|TBP_HUMAN",
-                  "accession": "P20226",
-                  "title": "TATA-box-binding protein OS=Homo sapiens OX=9606 GN=TBP PE=1 SV=2"
-                }
-              ],
-              "len": 339,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 131.339,
-                  "score": 329,
-                  "evalue": 2.6082e-39,
-                  "identity": 72,
-                  "positive": 106,
-                  "query_from": 11,
-                  "query_to": 181,
-                  "hit_from": 162,
-                  "hit_to": 332,
-                  "align_len": 172,
-                  "gaps": 2,
-                  "qseq": "VVNIENIVATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYGMQLTGKPKIQIQNIVASANLHVIVNLDKAAFLLEN-NMYEPEQFPGLIYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAVKKIFDKL",
-                  "hseq": "VPQLQNIVSTVNLGCKLDLKTIALRARNAEYNPKRFAAVIMRIREPRTTALIFSSGKMVCTGAKSEEQSRLAARKYARVVQKLGFPAKFL-DFKIQNMVGSCDVKFPIRLEGLVLTHQQFSSYEPELFPGLIYRMIKPRIVLLIFVSGKVVLTGAKVRAEIYEAFENIYPIL",
-                  "midline": "V  ++NIV+TV L   LDL  +     N EY+P +F  +I R+  P+ T+LIF SGKMV TGAKS ++   A ++  + ++K G         +IQN+V S ++   + L+      +  + YEPE FPGLIYRM +PR+VLLIF SGK+V+TGAK   E+++A + I+  L"
+                  "description": [
+                    {
+                      "id": "sp|Q9UWN7|TBP_SULAC",
+                      "accession": "Q9UWN7",
+                      "title": "TATA-box-binding protein OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 639 / JCM 8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=tbp PE=1 SV=1"
+                    }
+                  ],
+                  "len": 197,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 397.897,
+                      "score": 1021,
+                      "evalue": 5.65814e-146,
+                      "identity": 197,
+                      "positive": 197,
+                      "query_from": 1,
+                      "query_to": 197,
+                      "hit_from": 1,
+                      "hit_to": 197,
+                      "align_len": 197,
+                      "gaps": 0,
+                      "qseq": "MIPDEIPYKAVVNIENIVATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYGMQLTGKPKIQIQNIVASANLHVIVNLDKAAFLLENNMYEPEQFPGLIYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAVKKIFDKLVELDCVKPVEEEELEF",
+                      "hseq": "MIPDEIPYKAVVNIENIVATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYGMQLTGKPKIQIQNIVASANLHVIVNLDKAAFLLENNMYEPEQFPGLIYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAVKKIFDKLVELDCVKPVEEEELEF",
+                      "midline": "MIPDEIPYKAVVNIENIVATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYGMQLTGKPKIQIQNIVASANLHVIVNLDKAAFLLENNMYEPEQFPGLIYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAVKKIFDKLVELDCVKPVEEEELEF"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 54.299,
-                  "score": 129,
-                  "evalue": 4.92241e-11,
-                  "identity": 26,
-                  "positive": 37,
-                  "query_from": 40,
-                  "query_to": 93,
-                  "hit_from": 282,
-                  "hit_to": 335,
-                  "align_len": 54,
-                  "gaps": 0,
-                  "qseq": "EYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKY",
-                  "hseq": "SYEPELFPGLIYRMIKPRIVLLIFVSGKVVLTGAKVRAEIYEAFENIYPILKGF",
-                  "midline": " Y+P+ FPGLI+R+  P+I  LIF SGK+V+TGAK   E+ +A + I   LK +"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P46849|RTCA_ECOLI",
-                  "accession": "P46849",
-                  "title": "RNA 3'-terminal phosphate cyclase OS=Escherichia coli (strain K12) OX=83333 GN=rtcA PE=1 SV=3"
-                }
-              ],
-              "len": 338,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 26.9498,
-                  "score": 58,
-                  "evalue": 0.0664196,
-                  "identity": 29,
-                  "positive": 48,
-                  "query_from": 21,
-                  "query_to": 120,
-                  "hit_from": 210,
-                  "hit_to": 313,
-                  "align_len": 112,
-                  "gaps": 20,
-                  "qseq": "VTLDQTLDLYAMERSVPNVEYDPDQFPG--LIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYG----------MQLTGKPKIQIQNIVASANLHVIVNL",
-                  "hseq": "ATLAGSFSLH--EQNIHNLPRD--QGPGNTVSLEVESENITERFFVVGEKRVSAEVVAAQLVKEVKRYLASTAAVGEYLADQLVLPMALAGAGEF----TVAHPSCHLLTNI",
-                  "midline": " TL  +  L+  E+++ N+  D  Q PG  +   +ES  IT   F  G+  V+      +L+K VKR + +    G          M L G  +      VA  + H++ N+"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P43593|UBP6_YEAST",
-                  "accession": "P43593",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
-                }
-              ],
-              "len": 499,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 25.7942,
-                  "score": 55,
-                  "evalue": 0.133313,
-                  "identity": 11,
-                  "positive": 27,
-                  "query_from": 141,
-                  "query_to": 181,
-                  "hit_from": 127,
-                  "hit_to": 171,
-                  "align_len": 45,
-                  "gaps": 4,
-                  "qseq": "IYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAV----KKIFDKL",
-                  "hseq": "LYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENL",
-                  "midline": "+YR+++ R ++L ++  + V     +++E+HK +    K+ F+ L"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P32196|PG3_PIG",
-                  "accession": "P32196",
-                  "title": "Protegrin-3 OS=Sus scrofa OX=9823 GN=NPG3 PE=1 SV=2"
-                }
-              ],
-              "len": 149,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 2.38355,
-                  "identity": 10,
-                  "positive": 14,
-                  "query_from": 3,
-                  "query_to": 28,
-                  "hit_from": 93,
-                  "hit_to": 118,
-                  "align_len": 26,
-                  "gaps": 0,
-                  "qseq": "PDEIPYKAVVNIENIVATVTLDQTLD",
-                  "hseq": "PELCDFKENGRVKQCVGTVTLDQIKD",
-                  "midline": "P+   +K    ++  V TVTLDQ  D"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|O33840|PULA_THEMA",
-                  "accession": "O33840",
-                  "title": "Pullulanase OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=pulA PE=1 SV=2"
-                }
-              ],
-              "len": 843,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 3.46954,
-                  "identity": 17,
-                  "positive": 28,
-                  "query_from": 19,
-                  "query_to": 67,
-                  "hit_from": 208,
-                  "hit_to": 255,
-                  "align_len": 52,
-                  "gaps": 7,
-                  "qseq": "ATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESP---KITSLIFKSGK",
-                  "hseq": "ARVIMMEILDDYYYDGELGAV-YSPEK---TIFRVWSPVSKWVKVLLFKNGE",
-                  "midline": "A V + + LD Y  +  +  V Y P++    IFR+ SP    +  L+FK+G+"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P0AA25|THIO_ECOLI",
-                  "accession": "P0AA25",
-                  "title": "Thioredoxin 1 OS=Escherichia coli (strain K12) OX=83333 GN=trxA PE=1 SV=2"
-                }
-              ],
-              "len": 109,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 3.93848,
-                  "identity": 20,
-                  "positive": 30,
-                  "query_from": 23,
-                  "query_to": 79,
-                  "hit_from": 43,
-                  "hit_to": 100,
-                  "align_len": 60,
-                  "gaps": 5,
-                  "qseq": "LDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKI-TSLIFKSGKMVVT--GAKSTDEL",
-                  "hseq": "LDEIADEYQGKLTVAKLNID--QNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQL",
-                  "midline": "LD+  D Y  + +V  +  D  Q PG   +     I T L+FK+G++  T  GA S  +L"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|Q00722|PLCB2_HUMAN",
-                  "accession": "Q00722",
-                  "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
-                }
-              ],
-              "len": 1185,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 4.40279,
-                  "identity": 18,
-                  "positive": 27,
-                  "query_from": 140,
-                  "query_to": 193,
-                  "hit_from": 310,
-                  "hit_to": 369,
-                  "align_len": 60,
-                  "gaps": 6,
-                  "qseq": "LIYRMDEPRVVLLIFSSGKMVITGAK----REDEVHKAVKKIFDKLVELDCV--KPVEEE",
-                  "hseq": "LHHDMTQPLNHYFINSSHNTYLTAGQFSGLSSAEMYRQVLLSGCRCVELDCWKGKPPDEE",
-                  "midline": "L + M +P     I SS    +T  +       E+++ V     + VELDC   KP +EE"
+                  "description": [
+                    {
+                      "id": "sp|P13393|TBP_YEAST",
+                      "accession": "P13393",
+                      "title": "TATA-box-binding protein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SPT15 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 240,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 145.206,
+                      "score": 365,
+                      "evalue": 1.32388e-45,
+                      "identity": 80,
+                      "positive": 112,
+                      "query_from": 11,
+                      "query_to": 184,
+                      "hit_from": 64,
+                      "hit_to": 237,
+                      "align_len": 175,
+                      "gaps": 2,
+                      "qseq": "VVNIENIVATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYGMQLTGKPKIQIQNIVASANLHVIVNLDKAAFLLEN-NMYEPEQFPGLIYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAVKKIFDKLVEL",
+                      "hseq": "VPTLQNIVATVTLGCRLDLKTVALHARNAEYNPKRFAAVIMRIREPKTTALIFASGKMVVTGAKSEDDSKLASRKYARIIQKIGFAAKFT-DFKIQNIVGSCDVKFPIRLEGLAFSHGTFSSYEPELFPGLIYRMVKPKIVLLIFVSGKIVLTGAKQREEIYQAFEAIYPVLSEF",
+                      "midline": "V  ++NIVATVTL   LDL  +     N EY+P +F  +I R+  PK T+LIF SGKMVVTGAKS D+   A ++  + ++K G         +IQNIV S ++   + L+  AF     + YEPE FPGLIYRM +P++VLLIF SGK+V+TGAK+ +E+++A + I+  L E "
+                    }
+                  ]
                 },
                 {
-                  "num": 2,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 6.26078,
-                  "identity": 18,
-                  "positive": 27,
-                  "query_from": 88,
-                  "query_to": 143,
-                  "hit_from": 150,
-                  "hit_to": 209,
-                  "align_len": 60,
-                  "gaps": 4,
-                  "qseq": "KTLKKYGMQLTGKPKIQIQNIVA--SANLHVIVNLDKAAFL--LENNMYEPEQFPGLIYR",
-                  "hseq": "KILVKLKMQLNSEGKIPVKNFFQMFPADRKRVEAALSACHLPKGKNDAINPEDFPEPVYK",
-                  "midline": "K L K  MQL  + KI ++N      A+   +     A  L   +N+   PE FP  +Y+"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P20226|TBP_HUMAN",
+                      "accession": "P20226",
+                      "title": "TATA-box-binding protein OS=Homo sapiens OX=9606 GN=TBP PE=1 SV=2"
+                    }
+                  ],
+                  "len": 339,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 131.339,
+                      "score": 329,
+                      "evalue": 2.6082e-39,
+                      "identity": 72,
+                      "positive": 106,
+                      "query_from": 11,
+                      "query_to": 181,
+                      "hit_from": 162,
+                      "hit_to": 332,
+                      "align_len": 172,
+                      "gaps": 2,
+                      "qseq": "VVNIENIVATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYGMQLTGKPKIQIQNIVASANLHVIVNLDKAAFLLEN-NMYEPEQFPGLIYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAVKKIFDKL",
+                      "hseq": "VPQLQNIVSTVNLGCKLDLKTIALRARNAEYNPKRFAAVIMRIREPRTTALIFSSGKMVCTGAKSEEQSRLAARKYARVVQKLGFPAKFL-DFKIQNMVGSCDVKFPIRLEGLVLTHQQFSSYEPELFPGLIYRMIKPRIVLLIFVSGKVVLTGAKVRAEIYEAFENIYPIL",
+                      "midline": "V  ++NIV+TV L   LDL  +     N EY+P +F  +I R+  P+ T+LIF SGKMV TGAKS ++   A ++  + ++K G         +IQN+V S ++   + L+      +  + YEPE FPGLIYRM +PR+VLLIF SGK+V+TGAK   E+++A + I+  L"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 54.299,
+                      "score": 129,
+                      "evalue": 4.92241e-11,
+                      "identity": 26,
+                      "positive": 37,
+                      "query_from": 40,
+                      "query_to": 93,
+                      "hit_from": 282,
+                      "hit_to": 335,
+                      "align_len": 54,
+                      "gaps": 0,
+                      "qseq": "EYDPDQFPGLIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKY",
+                      "hseq": "SYEPELFPGLIYRMIKPRIVLLIFVSGKVVLTGAKVRAEIYEAFENIYPILKGF",
+                      "midline": " Y+P+ FPGLI+R+  P+I  LIF SGK+V+TGAK   E+ +A + I   LK +"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P05618|CDGT_BACS0",
-                  "accession": "P05618",
-                  "title": "Cyclomaltodextrin glucanotransferase OS=Bacillus sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1"
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P46849|RTCA_ECOLI",
+                      "accession": "P46849",
+                      "title": "RNA 3'-terminal phosphate cyclase OS=Escherichia coli (strain K12) OX=83333 GN=rtcA PE=1 SV=3"
+                    }
+                  ],
+                  "len": 338,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 26.9498,
+                      "score": 58,
+                      "evalue": 0.0664196,
+                      "identity": 29,
+                      "positive": 48,
+                      "query_from": 21,
+                      "query_to": 120,
+                      "hit_from": 210,
+                      "hit_to": 313,
+                      "align_len": 112,
+                      "gaps": 20,
+                      "qseq": "VTLDQTLDLYAMERSVPNVEYDPDQFPG--LIFRLESPKITSLIFKSGKMVVTGAKSTDELIKAVKRIIKTLKKYG----------MQLTGKPKIQIQNIVASANLHVIVNL",
+                      "hseq": "ATLAGSFSLH--EQNIHNLPRD--QGPGNTVSLEVESENITERFFVVGEKRVSAEVVAAQLVKEVKRYLASTAAVGEYLADQLVLPMALAGAGEF----TVAHPSCHLLTNI",
+                      "midline": " TL  +  L+  E+++ N+  D  Q PG  +   +ES  IT   F  G+  V+      +L+K VKR + +    G          M L G  +      VA  + H++ N+"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P43593|UBP6_YEAST",
+                      "accession": "P43593",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UBP6 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 499,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 25.7942,
+                      "score": 55,
+                      "evalue": 0.133313,
+                      "identity": 11,
+                      "positive": 27,
+                      "query_from": 141,
+                      "query_to": 181,
+                      "hit_from": 127,
+                      "hit_to": 171,
+                      "align_len": 45,
+                      "gaps": 4,
+                      "qseq": "IYRMDEPRVVLLIFSSGKMVITGAKREDEVHKAV----KKIFDKL",
+                      "hseq": "LYRVNDLRDMILNYNPSQGVSNSGAQDEEIHKQIVIEMKRCFENL",
+                      "midline": "+YR+++ R ++L ++  + V     +++E+HK +    K+ F+ L"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P32196|PG3_PIG",
+                      "accession": "P32196",
+                      "title": "Protegrin-3 OS=Sus scrofa OX=9823 GN=NPG3 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 149,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 2.38355,
+                      "identity": 10,
+                      "positive": 14,
+                      "query_from": 3,
+                      "query_to": 28,
+                      "hit_from": 93,
+                      "hit_to": 118,
+                      "align_len": 26,
+                      "gaps": 0,
+                      "qseq": "PDEIPYKAVVNIENIVATVTLDQTLD",
+                      "hseq": "PELCDFKENGRVKQCVGTVTLDQIKD",
+                      "midline": "P+   +K    ++  V TVTLDQ  D"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|O33840|PULA_THEMA",
+                      "accession": "O33840",
+                      "title": "Pullulanase OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=pulA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 843,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 3.46954,
+                      "identity": 17,
+                      "positive": 28,
+                      "query_from": 19,
+                      "query_to": 67,
+                      "hit_from": 208,
+                      "hit_to": 255,
+                      "align_len": 52,
+                      "gaps": 7,
+                      "qseq": "ATVTLDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESP---KITSLIFKSGK",
+                      "hseq": "ARVIMMEILDDYYYDGELGAV-YSPEK---TIFRVWSPVSKWVKVLLFKNGE",
+                      "midline": "A V + + LD Y  +  +  V Y P++    IFR+ SP    +  L+FK+G+"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P0AA25|THIO_ECOLI",
+                      "accession": "P0AA25",
+                      "title": "Thioredoxin 1 OS=Escherichia coli (strain K12) OX=83333 GN=trxA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 109,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 3.93848,
+                      "identity": 20,
+                      "positive": 30,
+                      "query_from": 23,
+                      "query_to": 79,
+                      "hit_from": 43,
+                      "hit_to": 100,
+                      "align_len": 60,
+                      "gaps": 5,
+                      "qseq": "LDQTLDLYAMERSVPNVEYDPDQFPGLIFRLESPKI-TSLIFKSGKMVVT--GAKSTDEL",
+                      "hseq": "LDEIADEYQGKLTVAKLNID--QNPGTAPKYGIRGIPTLLLFKNGEVAATKVGALSKGQL",
+                      "midline": "LD+  D Y  + +V  +  D  Q PG   +     I T L+FK+G++  T  GA S  +L"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|Q00722|PLCB2_HUMAN",
+                      "accession": "Q00722",
+                      "title": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2 OS=Homo sapiens OX=9606 GN=PLCB2 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1185,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 4.40279,
+                      "identity": 18,
+                      "positive": 27,
+                      "query_from": 140,
+                      "query_to": 193,
+                      "hit_from": 310,
+                      "hit_to": 369,
+                      "align_len": 60,
+                      "gaps": 6,
+                      "qseq": "LIYRMDEPRVVLLIFSSGKMVITGAK----REDEVHKAVKKIFDKLVELDCV--KPVEEE",
+                      "hseq": "LHHDMTQPLNHYFINSSHNTYLTAGQFSGLSSAEMYRQVLLSGCRCVELDCWKGKPPDEE",
+                      "midline": "L + M +P     I SS    +T  +       E+++ V     + VELDC   KP +EE"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 6.26078,
+                      "identity": 18,
+                      "positive": 27,
+                      "query_from": 88,
+                      "query_to": 143,
+                      "hit_from": 150,
+                      "hit_to": 209,
+                      "align_len": 60,
+                      "gaps": 4,
+                      "qseq": "KTLKKYGMQLTGKPKIQIQNIVA--SANLHVIVNLDKAAFL--LENNMYEPEQFPGLIYR",
+                      "hseq": "KILVKLKMQLNSEGKIPVKNFFQMFPADRKRVEAALSACHLPKGKNDAINPEDFPEPVYK",
+                      "midline": "K L K  MQL  + KI ++N      A+   +     A  L   +N+   PE FP  +Y+"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P05618|CDGT_BACS0",
+                      "accession": "P05618",
+                      "title": "Cyclomaltodextrin glucanotransferase OS=Bacillus sp. (strain 1011) OX=1410 GN=cgt PE=1 SV=1"
+                    }
+                  ],
+                  "len": 713,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 5.62463,
+                      "identity": 8,
+                      "positive": 12,
+                      "query_from": 23,
+                      "query_to": 46,
+                      "hit_from": 369,
+                      "hit_to": 392,
+                      "align_len": 24,
+                      "gaps": 0,
+                      "qseq": "LDQTLDLYAMERSVPNVEYDPDQF",
+                      "hseq": "LEQALAFTLTSRGVPAIYYGSEQY",
+                      "midline": "L+Q L      R VP + Y  +Q+"
+                    }
+                  ]
                 }
               ],
-              "len": 713,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 5.62463,
-                  "identity": 8,
-                  "positive": 12,
-                  "query_from": 23,
-                  "query_to": 46,
-                  "hit_from": 369,
-                  "hit_to": 392,
-                  "align_len": 24,
-                  "gaps": 0,
-                  "qseq": "LDQTLDLYAMERSVPNVEYDPDQF",
-                  "hseq": "LEQALAFTLTSRGVPAIYYGSEQY",
-                  "midline": "L+Q L      R VP + Y  +Q+"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 61,
+                "eff_space": 9516328,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 61,
-            "eff_space": 9516328,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

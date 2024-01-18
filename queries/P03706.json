@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,442 +17,447 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P03706|ENLYS_LAMBD Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1",
-          "query_len": 158,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P03706|ENLYS_LAMBD",
-                  "accession": "P03706",
-                  "title": "Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1"
-                }
-              ],
-              "len": 158,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P03706|ENLYS_LAMBD Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1",
+              "query_len": 158,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 328.946,
-                  "score": 842,
-                  "evalue": 5.56918e-120,
-                  "identity": 158,
-                  "positive": 158,
-                  "query_from": 1,
-                  "query_to": 158,
-                  "hit_from": 1,
-                  "hit_to": 158,
-                  "align_len": 158,
-                  "gaps": 0,
-                  "qseq": "MVEINNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLNPKLKSTGAGRYQLLSRWWDAYRKQLGLKDFSPKSQDAVALQQIKERGALPMIDRGDIRQAIDRCSNIWASLPGAGYGQFEHKADSLIAKFKEAGGTVREIDV",
-                  "hseq": "MVEINNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLNPKLKSTGAGRYQLLSRWWDAYRKQLGLKDFSPKSQDAVALQQIKERGALPMIDRGDIRQAIDRCSNIWASLPGAGYGQFEHKADSLIAKFKEAGGTVREIDV",
-                  "midline": "MVEINNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLNPKLKSTGAGRYQLLSRWWDAYRKQLGLKDFSPKSQDAVALQQIKERGALPMIDRGDIRQAIDRCSNIWASLPGAGYGQFEHKADSLIAKFKEAGGTVREIDV"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P03706|ENLYS_LAMBD",
+                      "accession": "P03706",
+                      "title": "Endolysin OS=Escherichia phage lambda OX=2681611 GN=R PE=1 SV=1"
+                    }
+                  ],
+                  "len": 158,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 328.946,
+                      "score": 842,
+                      "evalue": 5.56918e-120,
+                      "identity": 158,
+                      "positive": 158,
+                      "query_from": 1,
+                      "query_to": 158,
+                      "hit_from": 1,
+                      "hit_to": 158,
+                      "align_len": 158,
+                      "gaps": 0,
+                      "qseq": "MVEINNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLNPKLKSTGAGRYQLLSRWWDAYRKQLGLKDFSPKSQDAVALQQIKERGALPMIDRGDIRQAIDRCSNIWASLPGAGYGQFEHKADSLIAKFKEAGGTVREIDV",
+                      "hseq": "MVEINNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLNPKLKSTGAGRYQLLSRWWDAYRKQLGLKDFSPKSQDAVALQQIKERGALPMIDRGDIRQAIDRCSNIWASLPGAGYGQFEHKADSLIAKFKEAGGTVREIDV",
+                      "midline": "MVEINNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLNPKLKSTGAGRYQLLSRWWDAYRKQLGLKDFSPKSQDAVALQQIKERGALPMIDRGDIRQAIDRCSNIWASLPGAGYGQFEHKADSLIAKFKEAGGTVREIDV"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P04395|3MG2_ECOLI",
-                  "accession": "P04395",
-                  "title": "DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P04395|3MG2_ECOLI",
+                      "accession": "P04395",
+                      "title": "DNA-3-methyladenine glycosylase 2 OS=Escherichia coli (strain K12) OX=83333 GN=alkA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 282,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.7126,
+                      "score": 47,
+                      "evalue": 1.00196,
+                      "identity": 12,
+                      "positive": 19,
+                      "query_from": 89,
+                      "query_to": 131,
+                      "hit_from": 178,
+                      "hit_to": 216,
+                      "align_len": 43,
+                      "gaps": 4,
+                      "qseq": "KSQDAVALQQIKERGALPMIDRGDIRQAIDRCSNIWASLPGAG",
+                      "hseq": "RAEALIHLANAALEGTLPMTIPGDVEQAMKTLQ----TFPGIG",
+                      "midline": "+++  + L      G LPM   GD+ QA+        + PG G"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q01381|ELYS_HALFU",
+                      "accession": "Q01381",
+                      "title": "Egg-lysin OS=Haliotis fulgens OX=6456 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 154,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 1.82661,
+                      "identity": 11,
+                      "positive": 18,
+                      "query_from": 20,
+                      "query_to": 57,
+                      "hit_from": 107,
+                      "hit_to": 144,
+                      "align_len": 38,
+                      "gaps": 0,
+                      "qseq": "GTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLNP",
+                      "hseq": "GAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRP",
+                      "midline": "G + GR+      Y+ + G ++   YS +  KL  L P"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "tr|Q97DM1|Q97DM1_CLOAB",
+                      "accession": "Q97DM1",
+                      "title": "Beta-xylosidase, family 43 glycosyl hydrolase OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=xynD PE=1 SV=1"
+                    }
+                  ],
+                  "len": 533,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 2.75025,
+                      "identity": 15,
+                      "positive": 23,
+                      "query_from": 5,
+                      "query_to": 53,
+                      "hit_from": 132,
+                      "hit_to": 169,
+                      "align_len": 49,
+                      "gaps": 11,
+                      "qseq": "NNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLV",
+                      "hseq": "DNDGKKYLVNMYWD-------QRTYNHNFYGIV----LQEYSDKEKKLI",
+                      "midline": "+N  K +L  + W        Q+T NH +  IV      +YSD  +KL+"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.1718,
+                      "score": 43,
+                      "evalue": 3.22231,
+                      "identity": 17,
+                      "positive": 20,
+                      "query_from": 17,
+                      "query_to": 65,
+                      "hit_from": 2169,
+                      "hit_to": 2220,
+                      "align_len": 54,
+                      "gaps": 7,
+                      "qseq": "WSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLN-----PKLKSTGAG",
+                      "hseq": "WSAMNKPNVAKVVNAKYDVIYNGHTFA--TSLPAKFVVKDVQPAKPTVTETAAG",
+                      "midline": "WS        K  N  YDVI  G  F   +  P K V  +     P +  T AG"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P81708|LYSC1_CANLF",
+                      "accession": "P81708",
+                      "title": "Lysozyme C, milk isozyme OS=Canis lupus familiaris OX=9615 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 129,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 4.78766,
+                      "identity": 7,
+                      "positive": 10,
+                      "query_from": 61,
+                      "query_to": 74,
+                      "hit_from": 51,
+                      "hit_to": 64,
+                      "align_len": 14,
+                      "gaps": 0,
+                      "qseq": "STGAGRYQLLSRWW",
+                      "hseq": "SSDYGIFQLNSKWW",
+                      "midline": "S+  G +QL S+WW"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|O75604|UBP2_HUMAN",
+                      "accession": "O75604",
+                      "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 605,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.7866,
+                      "score": 42,
+                      "evalue": 5.08019,
+                      "identity": 12,
+                      "positive": 21,
+                      "query_from": 61,
+                      "query_to": 105,
+                      "hit_from": 5,
+                      "hit_to": 49,
+                      "align_len": 45,
+                      "gaps": 0,
+                      "qseq": "STGAGRYQLLSRWWDAYRKQLGLKDFSPKSQDAVALQQIKERGAL",
+                      "hseq": "SSTLKRYTESARYTDAHYAKSGYGAYTPSSYGANLAASLLEKEKL",
+                      "midline": "S+   RY   +R+ DA+  + G   ++P S  A     + E+  L"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P18887|XRCC1_HUMAN",
+                      "accession": "P18887",
+                      "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
+                    }
+                  ],
+                  "len": 633,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 6.67233,
+                      "identity": 13,
+                      "positive": 21,
+                      "query_from": 2,
+                      "query_to": 47,
+                      "hit_from": 58,
+                      "hit_to": 98,
+                      "align_len": 46,
+                      "gaps": 5,
+                      "qseq": "VEINNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSD",
+                      "hseq": "VDIGNDGSAFVEVLVGSSAGGAGEQD-----YEVLLVTSSFMSPSE",
+                      "midline": "V+I N   AF+++L  S     G Q      Y+V++    F   S+"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|P0A3Y0|CYC6_SYNEL",
+                      "accession": "P0A3Y0",
+                      "title": "Cytochrome c6 OS=Synechococcus elongatus OX=32046 GN=petJ PE=1 SV=1"
+                    }
+                  ],
+                  "len": 87,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 6.95601,
+                      "identity": 9,
+                      "positive": 15,
+                      "query_from": 79,
+                      "query_to": 106,
+                      "hit_from": 32,
+                      "hit_to": 59,
+                      "align_len": 28,
+                      "gaps": 0,
+                      "qseq": "KQLGLKDFSPKSQDAVALQQIKERGALP",
+                      "hseq": "KKEALEQFGMYSEDAIIYQVQHGKNAMP",
+                      "midline": "K+  L+ F   S+DA+  Q    + A+P"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P71447|PGMB_LACLA",
+                      "accession": "P71447",
+                      "title": "Beta-phosphoglucomutase OS=Lactococcus lactis subsp. lactis (strain IL1403) OX=272623 GN=pgmB PE=1 SV=2"
+                    }
+                  ],
+                  "len": 221,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 7.25324,
+                      "identity": 7,
+                      "positive": 10,
+                      "query_from": 96,
+                      "query_to": 107,
+                      "hit_from": 175,
+                      "hit_to": 186,
+                      "align_len": 12,
+                      "gaps": 0,
+                      "qseq": "LQQIKERGALPM",
+                      "hseq": "IQAIKDSGALPI",
+                      "midline": "+Q IK+ GALP+"
+                    }
+                  ]
+                },
+                {
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|P07987|GUX2_HYPJE",
+                      "accession": "P07987",
+                      "title": "Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 471,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 9.49097,
+                      "identity": 9,
+                      "positive": 13,
+                      "query_from": 139,
+                      "query_to": 158,
+                      "hit_from": 212,
+                      "hit_to": 231,
+                      "align_len": 20,
+                      "gaps": 0,
+                      "qseq": "ADSLIAKFKEAGGTVREIDV",
+                      "hseq": "ADGGVAKYKNYIDTIRQIVV",
+                      "midline": "AD  +AK+K    T+R+I V"
+                    }
+                  ]
+                },
+                {
+                  "num": 12,
+                  "description": [
+                    {
+                      "id": "sp|P11376|LYSC1_HORSE",
+                      "accession": "P11376",
+                      "title": "Lysozyme C, milk isozyme OS=Equus caballus OX=9796 GN=LYZ PE=1 SV=1"
+                    }
+                  ],
+                  "len": 129,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 9.67078,
+                      "identity": 6,
+                      "positive": 10,
+                      "query_from": 61,
+                      "query_to": 74,
+                      "hit_from": 51,
+                      "hit_to": 64,
+                      "align_len": 14,
+                      "gaps": 0,
+                      "qseq": "STGAGRYQLLSRWW",
+                      "hseq": "SSDYGLFQLNNKWW",
+                      "midline": "S+  G +QL ++WW"
+                    }
+                  ]
+                },
+                {
+                  "num": 13,
+                  "description": [
+                    {
+                      "id": "sp|P38398|BRCA1_HUMAN",
+                      "accession": "P38398",
+                      "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 1863,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 9.72226,
+                      "identity": 10,
+                      "positive": 12,
+                      "query_from": 129,
+                      "query_to": 150,
+                      "hit_from": 1471,
+                      "hit_to": 1492,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "GAGYGQFEHKADSLIAKFKEAG",
+                      "hseq": "GLSADKFEVSADSSTSKNKEPG",
+                      "midline": "G    +FE  ADS  +K KE G"
+                    }
+                  ]
+                },
+                {
+                  "num": 14,
+                  "description": [
+                    {
+                      "id": "sp|P0AGC3|SLT_ECOLI",
+                      "accession": "P0AGC3",
+                      "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
+                    }
+                  ],
+                  "len": 645,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 9.73436,
+                      "identity": 8,
+                      "positive": 11,
+                      "query_from": 52,
+                      "query_to": 75,
+                      "hit_from": 434,
+                      "hit_to": 457,
+                      "align_len": 24,
+                      "gaps": 0,
+                      "qseq": "LVTLNPKLKSTGAGRYQLLSRWWD",
+                      "hseq": "LVKSKSKTEQAQLARYAFNNQWWD",
+                      "midline": "LV    K +     RY   ++WWD"
+                    }
+                  ]
                 }
               ],
-              "len": 282,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.7126,
-                  "score": 47,
-                  "evalue": 1.00196,
-                  "identity": 12,
-                  "positive": 19,
-                  "query_from": 89,
-                  "query_to": 131,
-                  "hit_from": 178,
-                  "hit_to": 216,
-                  "align_len": 43,
-                  "gaps": 4,
-                  "qseq": "KSQDAVALQQIKERGALPMIDRGDIRQAIDRCSNIWASLPGAG",
-                  "hseq": "RAEALIHLANAALEGTLPMTIPGDVEQAMKTLQ----TFPGIG",
-                  "midline": "+++  + L      G LPM   GD+ QA+        + PG G"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q01381|ELYS_HALFU",
-                  "accession": "Q01381",
-                  "title": "Egg-lysin OS=Haliotis fulgens OX=6456 PE=1 SV=1"
-                }
-              ],
-              "len": 154,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 1.82661,
-                  "identity": 11,
-                  "positive": 18,
-                  "query_from": 20,
-                  "query_to": 57,
-                  "hit_from": 107,
-                  "hit_to": 144,
-                  "align_len": 38,
-                  "gaps": 0,
-                  "qseq": "GTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLNP",
-                  "hseq": "GAEIGRRVDMVFFYNFLSGRKMIPPYSAYMAKLNALRP",
-                  "midline": "G + GR+      Y+ + G ++   YS +  KL  L P"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "tr|Q97DM1|Q97DM1_CLOAB",
-                  "accession": "Q97DM1",
-                  "title": "Beta-xylosidase, family 43 glycosyl hydrolase OS=Clostridium acetobutylicum (strain ATCC 824 / DSM 792 / JCM 1419 / LMG 5710 / VKM B-1787) OX=272562 GN=xynD PE=1 SV=1"
-                }
-              ],
-              "len": 533,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 2.75025,
-                  "identity": 15,
-                  "positive": 23,
-                  "query_from": 5,
-                  "query_to": 53,
-                  "hit_from": 132,
-                  "hit_to": 169,
-                  "align_len": 49,
-                  "gaps": 11,
-                  "qseq": "NNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLV",
-                  "hseq": "DNDGKKYLVNMYWD-------QRTYNHNFYGIV----LQEYSDKEKKLI",
-                  "midline": "+N  K +L  + W        Q+T NH +  IV      +YSD  +KL+"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.1718,
-                  "score": 43,
-                  "evalue": 3.22231,
-                  "identity": 17,
-                  "positive": 20,
-                  "query_from": 17,
-                  "query_to": 65,
-                  "hit_from": 2169,
-                  "hit_to": 2220,
-                  "align_len": 54,
-                  "gaps": 7,
-                  "qseq": "WSEGTDNGRQKTRNHGYDVIVGGELFTDYSDHPRKLVTLN-----PKLKSTGAG",
-                  "hseq": "WSAMNKPNVAKVVNAKYDVIYNGHTFA--TSLPAKFVVKDVQPAKPTVTETAAG",
-                  "midline": "WS        K  N  YDVI  G  F   +  P K V  +     P +  T AG"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P81708|LYSC1_CANLF",
-                  "accession": "P81708",
-                  "title": "Lysozyme C, milk isozyme OS=Canis lupus familiaris OX=9615 PE=1 SV=1"
-                }
-              ],
-              "len": 129,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 4.78766,
-                  "identity": 7,
-                  "positive": 10,
-                  "query_from": 61,
-                  "query_to": 74,
-                  "hit_from": 51,
-                  "hit_to": 64,
-                  "align_len": 14,
-                  "gaps": 0,
-                  "qseq": "STGAGRYQLLSRWW",
-                  "hseq": "SSDYGIFQLNSKWW",
-                  "midline": "S+  G +QL S+WW"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|O75604|UBP2_HUMAN",
-                  "accession": "O75604",
-                  "title": "Ubiquitin carboxyl-terminal hydrolase 2 OS=Homo sapiens OX=9606 GN=USP2 PE=1 SV=2"
-                }
-              ],
-              "len": 605,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.7866,
-                  "score": 42,
-                  "evalue": 5.08019,
-                  "identity": 12,
-                  "positive": 21,
-                  "query_from": 61,
-                  "query_to": 105,
-                  "hit_from": 5,
-                  "hit_to": 49,
-                  "align_len": 45,
-                  "gaps": 0,
-                  "qseq": "STGAGRYQLLSRWWDAYRKQLGLKDFSPKSQDAVALQQIKERGAL",
-                  "hseq": "SSTLKRYTESARYTDAHYAKSGYGAYTPSSYGANLAASLLEKEKL",
-                  "midline": "S+   RY   +R+ DA+  + G   ++P S  A     + E+  L"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P18887|XRCC1_HUMAN",
-                  "accession": "P18887",
-                  "title": "DNA repair protein XRCC1 OS=Homo sapiens OX=9606 GN=XRCC1 PE=1 SV=3"
-                }
-              ],
-              "len": 633,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 6.67233,
-                  "identity": 13,
-                  "positive": 21,
-                  "query_from": 2,
-                  "query_to": 47,
-                  "hit_from": 58,
-                  "hit_to": 98,
-                  "align_len": 46,
-                  "gaps": 5,
-                  "qseq": "VEINNQRKAFLDMLAWSEGTDNGRQKTRNHGYDVIVGGELFTDYSD",
-                  "hseq": "VDIGNDGSAFVEVLVGSSAGGAGEQD-----YEVLLVTSSFMSPSE",
-                  "midline": "V+I N   AF+++L  S     G Q      Y+V++    F   S+"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|P0A3Y0|CYC6_SYNEL",
-                  "accession": "P0A3Y0",
-                  "title": "Cytochrome c6 OS=Synechococcus elongatus OX=32046 GN=petJ PE=1 SV=1"
-                }
-              ],
-              "len": 87,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 6.95601,
-                  "identity": 9,
-                  "positive": 15,
-                  "query_from": 79,
-                  "query_to": 106,
-                  "hit_from": 32,
-                  "hit_to": 59,
-                  "align_len": 28,
-                  "gaps": 0,
-                  "qseq": "KQLGLKDFSPKSQDAVALQQIKERGALP",
-                  "hseq": "KKEALEQFGMYSEDAIIYQVQHGKNAMP",
-                  "midline": "K+  L+ F   S+DA+  Q    + A+P"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|P71447|PGMB_LACLA",
-                  "accession": "P71447",
-                  "title": "Beta-phosphoglucomutase OS=Lactococcus lactis subsp. lactis (strain IL1403) OX=272623 GN=pgmB PE=1 SV=2"
-                }
-              ],
-              "len": 221,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 7.25324,
-                  "identity": 7,
-                  "positive": 10,
-                  "query_from": 96,
-                  "query_to": 107,
-                  "hit_from": 175,
-                  "hit_to": 186,
-                  "align_len": 12,
-                  "gaps": 0,
-                  "qseq": "LQQIKERGALPM",
-                  "hseq": "IQAIKDSGALPI",
-                  "midline": "+Q IK+ GALP+"
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|P07987|GUX2_HYPJE",
-                  "accession": "P07987",
-                  "title": "Exoglucanase 2 OS=Hypocrea jecorina OX=51453 GN=cbh2 PE=1 SV=1"
-                }
-              ],
-              "len": 471,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 9.49097,
-                  "identity": 9,
-                  "positive": 13,
-                  "query_from": 139,
-                  "query_to": 158,
-                  "hit_from": 212,
-                  "hit_to": 231,
-                  "align_len": 20,
-                  "gaps": 0,
-                  "qseq": "ADSLIAKFKEAGGTVREIDV",
-                  "hseq": "ADGGVAKYKNYIDTIRQIVV",
-                  "midline": "AD  +AK+K    T+R+I V"
-                }
-              ]
-            },
-            {
-              "num": 12,
-              "description": [
-                {
-                  "id": "sp|P11376|LYSC1_HORSE",
-                  "accession": "P11376",
-                  "title": "Lysozyme C, milk isozyme OS=Equus caballus OX=9796 GN=LYZ PE=1 SV=1"
-                }
-              ],
-              "len": 129,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 9.67078,
-                  "identity": 6,
-                  "positive": 10,
-                  "query_from": 61,
-                  "query_to": 74,
-                  "hit_from": 51,
-                  "hit_to": 64,
-                  "align_len": 14,
-                  "gaps": 0,
-                  "qseq": "STGAGRYQLLSRWW",
-                  "hseq": "SSDYGLFQLNNKWW",
-                  "midline": "S+  G +QL ++WW"
-                }
-              ]
-            },
-            {
-              "num": 13,
-              "description": [
-                {
-                  "id": "sp|P38398|BRCA1_HUMAN",
-                  "accession": "P38398",
-                  "title": "Breast cancer type 1 susceptibility protein OS=Homo sapiens OX=9606 GN=BRCA1 PE=1 SV=2"
-                }
-              ],
-              "len": 1863,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 9.72226,
-                  "identity": 10,
-                  "positive": 12,
-                  "query_from": 129,
-                  "query_to": 150,
-                  "hit_from": 1471,
-                  "hit_to": 1492,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "GAGYGQFEHKADSLIAKFKEAG",
-                  "hseq": "GLSADKFEVSADSSTSKNKEPG",
-                  "midline": "G    +FE  ADS  +K KE G"
-                }
-              ]
-            },
-            {
-              "num": 14,
-              "description": [
-                {
-                  "id": "sp|P0AGC3|SLT_ECOLI",
-                  "accession": "P0AGC3",
-                  "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
-                }
-              ],
-              "len": 645,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 9.73436,
-                  "identity": 8,
-                  "positive": 11,
-                  "query_from": 52,
-                  "query_to": 75,
-                  "hit_from": 434,
-                  "hit_to": 457,
-                  "align_len": 24,
-                  "gaps": 0,
-                  "qseq": "LVTLNPKLKSTGAGRYQLLSRWWD",
-                  "hseq": "LVKSKSKTEQAQLARYAFNNQWWD",
-                  "midline": "LV    K +     RY   ++WWD"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 59,
+                "eff_space": 6968709,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 59,
-            "eff_space": 6968709,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,232 +17,237 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P28325|CYTD_HUMAN Cystatin-D OS=Homo sapiens OX=9606 GN=CST5 PE=1 SV=1",
-          "query_len": 142,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P28325|CYTD_HUMAN",
-                  "accession": "P28325",
-                  "title": "Cystatin-D OS=Homo sapiens OX=9606 GN=CST5 PE=1 SV=1"
-                }
-              ],
-              "len": 142,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P28325|CYTD_HUMAN Cystatin-D OS=Homo sapiens OX=9606 GN=CST5 PE=1 SV=1",
+              "query_len": 142,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 301.982,
-                  "score": 772,
-                  "evalue": 1.09736e-109,
-                  "identity": 142,
-                  "positive": 142,
-                  "query_from": 1,
-                  "query_to": 142,
-                  "hit_from": 1,
-                  "hit_to": 142,
-                  "align_len": 142,
-                  "gaps": 0,
-                  "qseq": "MMWPMHTPLLLLTALMVAVAGSASAQSRTLAGGIHATDLNDKSVQCALDFAISEYNKVINKDEYYSRPLQVMAAYQQIVGGVNYYFNVKFGRTTCTKSQPNLDNCPFNDQPKLKEEEFCSFQINEVPWEDKISILNYKCRKV",
-                  "hseq": "MMWPMHTPLLLLTALMVAVAGSASAQSRTLAGGIHATDLNDKSVQCALDFAISEYNKVINKDEYYSRPLQVMAAYQQIVGGVNYYFNVKFGRTTCTKSQPNLDNCPFNDQPKLKEEEFCSFQINEVPWEDKISILNYKCRKV",
-                  "midline": "MMWPMHTPLLLLTALMVAVAGSASAQSRTLAGGIHATDLNDKSVQCALDFAISEYNKVINKDEYYSRPLQVMAAYQQIVGGVNYYFNVKFGRTTCTKSQPNLDNCPFNDQPKLKEEEFCSFQINEVPWEDKISILNYKCRKV"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P28325|CYTD_HUMAN",
+                      "accession": "P28325",
+                      "title": "Cystatin-D OS=Homo sapiens OX=9606 GN=CST5 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 142,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 301.982,
+                      "score": 772,
+                      "evalue": 1.09736e-109,
+                      "identity": 142,
+                      "positive": 142,
+                      "query_from": 1,
+                      "query_to": 142,
+                      "hit_from": 1,
+                      "hit_to": 142,
+                      "align_len": 142,
+                      "gaps": 0,
+                      "qseq": "MMWPMHTPLLLLTALMVAVAGSASAQSRTLAGGIHATDLNDKSVQCALDFAISEYNKVINKDEYYSRPLQVMAAYQQIVGGVNYYFNVKFGRTTCTKSQPNLDNCPFNDQPKLKEEEFCSFQINEVPWEDKISILNYKCRKV",
+                      "hseq": "MMWPMHTPLLLLTALMVAVAGSASAQSRTLAGGIHATDLNDKSVQCALDFAISEYNKVINKDEYYSRPLQVMAAYQQIVGGVNYYFNVKFGRTTCTKSQPNLDNCPFNDQPKLKEEEFCSFQINEVPWEDKISILNYKCRKV",
+                      "midline": "MMWPMHTPLLLLTALMVAVAGSASAQSRTLAGGIHATDLNDKSVQCALDFAISEYNKVINKDEYYSRPLQVMAAYQQIVGGVNYYFNVKFGRTTCTKSQPNLDNCPFNDQPKLKEEEFCSFQINEVPWEDKISILNYKCRKV"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P01034|CYTC_HUMAN",
-                  "accession": "P01034",
-                  "title": "Cystatin-C OS=Homo sapiens OX=9606 GN=CST3 PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P01034|CYTC_HUMAN",
+                      "accession": "P01034",
+                      "title": "Cystatin-C OS=Homo sapiens OX=9606 GN=CST3 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 146,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 139.043,
+                      "score": 349,
+                      "evalue": 2.59172e-45,
+                      "identity": 64,
+                      "positive": 85,
+                      "query_from": 19,
+                      "query_to": 140,
+                      "hit_from": 24,
+                      "hit_to": 144,
+                      "align_len": 122,
+                      "gaps": 1,
+                      "qseq": "VAGSASAQSRTLAGGIHATDLNDKSVQCALDFAISEYNKVINKDEYYSRPLQVMAAYQQIVGGVNYYFNVKFGRTTCTKSQPNLDNCPFNDQPKLKEEEFCSFQINEVPWEDKISILNYKCR",
+                      "hseq": "AAGSSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASN-DMYHSRALQVVRARKQIVAGVNYFLDVELGRTTCTKTQPNLDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKSTCQ",
+                      "midline": " AGS+  +   L GG     + ++ V+ ALDFA+ EYNK  N D Y+SR LQV+ A +QIV GVNY+ +V+ GRTTCTK+QPNLDNCPF+DQP LK + FCSFQI  VPW+  +++    C+"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q16878|CDO1_HUMAN",
+                      "accession": "Q16878",
+                      "title": "Cysteine dioxygenase type 1 OS=Homo sapiens OX=9606 GN=CDO1 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 200,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 22.3274,
+                      "score": 46,
+                      "evalue": 0.862605,
+                      "identity": 14,
+                      "positive": 19,
+                      "query_from": 65,
+                      "query_to": 104,
+                      "hit_from": 157,
+                      "hit_to": 199,
+                      "align_len": 43,
+                      "gaps": 3,
+                      "qseq": "YSRPLQVMAAYQQIVGG---VNYYFNVKFGRTTCTKSQPNLDN",
+                      "hseq": "YSPPFDTCHAFDQRTGHKNKVTMTFHSKFGIRTPNATSGSLEN",
+                      "midline": "YS P     A+ Q  G    V   F+ KFG  T   +  +L+N"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P60334|CDO1_MOUSE",
+                      "accession": "P60334",
+                      "title": "Cysteine dioxygenase type 1 OS=Mus musculus OX=10090 GN=Cdo1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 200,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 1.43737,
+                      "identity": 14,
+                      "positive": 19,
+                      "query_from": 65,
+                      "query_to": 104,
+                      "hit_from": 157,
+                      "hit_to": 199,
+                      "align_len": 43,
+                      "gaps": 3,
+                      "qseq": "YSRPLQVMAAYQQIVGG---VNYYFNVKFGRTTCTKSQPNLDN",
+                      "hseq": "YSPPFDTCHAFDQRTGHKNKVTMTFHSKFGIRTPFTTSGSLEN",
+                      "midline": "YS P     A+ Q  G    V   F+ KFG  T   +  +L+N"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|P61711|RISB2_BRUAB",
+                      "accession": "P61711",
+                      "title": "6,7-dimethyl-8-ribityllumazine synthase 2 OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 GN=ribH2 PE=3 SV=1"
+                    }
+                  ],
+                  "len": 158,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 6.3487,
+                      "identity": 12,
+                      "positive": 18,
+                      "query_from": 4,
+                      "query_to": 44,
+                      "hit_from": 58,
+                      "hit_to": 94,
+                      "align_len": 41,
+                      "gaps": 4,
+                      "qseq": "PMHTPLLLLTALMVAVAGSASAQSRTLAGGIHATDLNDKSV",
+                      "hseq": "PLHAKTLARTGRYAAIVGAAF----VIDGGIYRHDFVATAV",
+                      "midline": "P+H   L  T    A+ G+A      + GGI+  D    +V"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P26646|ACUI_ECOLI",
+                      "accession": "P26646",
+                      "title": "Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1"
+                    }
+                  ],
+                  "len": 324,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 8.77392,
+                      "identity": 10,
+                      "positive": 19,
+                      "query_from": 62,
+                      "query_to": 110,
+                      "hit_from": 266,
+                      "hit_to": 314,
+                      "align_len": 49,
+                      "gaps": 0,
+                      "qseq": "DEYYSRPLQVMAAYQQIVGGVNYYFNVKFGRTTCTKSQPNLDNCPFNDQ",
+                      "hseq": "DSVMTPPERRAQAWQRLVADLPESFYTQAAKEISLSEAPNFAEAIINNQ",
+                      "midline": "D   + P +   A+Q++V  +   F  +  +       PN      N+Q"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "tr|Q09LX0|Q09LX0_GEOSE",
+                      "accession": "Q09LX0",
+                      "title": "Beta-xylosidase OS=Geobacillus stearothermophilus OX=1422 GN=xynB3 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 535,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 9.85446,
+                      "identity": 7,
+                      "positive": 8,
+                      "query_from": 75,
+                      "query_to": 85,
+                      "hit_from": 403,
+                      "hit_to": 413,
+                      "align_len": 11,
+                      "gaps": 0,
+                      "qseq": "YQQIVGGVNYY",
+                      "hseq": "FQQSAGLVNYY",
+                      "midline": "+QQ  G VNYY"
+                    }
+                  ]
                 }
               ],
-              "len": 146,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 139.043,
-                  "score": 349,
-                  "evalue": 2.59172e-45,
-                  "identity": 64,
-                  "positive": 85,
-                  "query_from": 19,
-                  "query_to": 140,
-                  "hit_from": 24,
-                  "hit_to": 144,
-                  "align_len": 122,
-                  "gaps": 1,
-                  "qseq": "VAGSASAQSRTLAGGIHATDLNDKSVQCALDFAISEYNKVINKDEYYSRPLQVMAAYQQIVGGVNYYFNVKFGRTTCTKSQPNLDNCPFNDQPKLKEEEFCSFQINEVPWEDKISILNYKCR",
-                  "hseq": "AAGSSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASN-DMYHSRALQVVRARKQIVAGVNYFLDVELGRTTCTKTQPNLDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKSTCQ",
-                  "midline": " AGS+  +   L GG     + ++ V+ ALDFA+ EYNK  N D Y+SR LQV+ A +QIV GVNY+ +V+ GRTTCTK+QPNLDNCPF+DQP LK + FCSFQI  VPW+  +++    C+"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q16878|CDO1_HUMAN",
-                  "accession": "Q16878",
-                  "title": "Cysteine dioxygenase type 1 OS=Homo sapiens OX=9606 GN=CDO1 PE=1 SV=2"
-                }
-              ],
-              "len": 200,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 22.3274,
-                  "score": 46,
-                  "evalue": 0.862605,
-                  "identity": 14,
-                  "positive": 19,
-                  "query_from": 65,
-                  "query_to": 104,
-                  "hit_from": 157,
-                  "hit_to": 199,
-                  "align_len": 43,
-                  "gaps": 3,
-                  "qseq": "YSRPLQVMAAYQQIVGG---VNYYFNVKFGRTTCTKSQPNLDN",
-                  "hseq": "YSPPFDTCHAFDQRTGHKNKVTMTFHSKFGIRTPNATSGSLEN",
-                  "midline": "YS P     A+ Q  G    V   F+ KFG  T   +  +L+N"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P60334|CDO1_MOUSE",
-                  "accession": "P60334",
-                  "title": "Cysteine dioxygenase type 1 OS=Mus musculus OX=10090 GN=Cdo1 PE=1 SV=1"
-                }
-              ],
-              "len": 200,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 1.43737,
-                  "identity": 14,
-                  "positive": 19,
-                  "query_from": 65,
-                  "query_to": 104,
-                  "hit_from": 157,
-                  "hit_to": 199,
-                  "align_len": 43,
-                  "gaps": 3,
-                  "qseq": "YSRPLQVMAAYQQIVGG---VNYYFNVKFGRTTCTKSQPNLDN",
-                  "hseq": "YSPPFDTCHAFDQRTGHKNKVTMTFHSKFGIRTPFTTSGSLEN",
-                  "midline": "YS P     A+ Q  G    V   F+ KFG  T   +  +L+N"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|P61711|RISB2_BRUAB",
-                  "accession": "P61711",
-                  "title": "6,7-dimethyl-8-ribityllumazine synthase 2 OS=Brucella abortus biovar 1 (strain 9-941) OX=262698 GN=ribH2 PE=3 SV=1"
-                }
-              ],
-              "len": 158,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 6.3487,
-                  "identity": 12,
-                  "positive": 18,
-                  "query_from": 4,
-                  "query_to": 44,
-                  "hit_from": 58,
-                  "hit_to": 94,
-                  "align_len": 41,
-                  "gaps": 4,
-                  "qseq": "PMHTPLLLLTALMVAVAGSASAQSRTLAGGIHATDLNDKSV",
-                  "hseq": "PLHAKTLARTGRYAAIVGAAF----VIDGGIYRHDFVATAV",
-                  "midline": "P+H   L  T    A+ G+A      + GGI+  D    +V"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P26646|ACUI_ECOLI",
-                  "accession": "P26646",
-                  "title": "Probable acrylyl-CoA reductase AcuI OS=Escherichia coli (strain K12) OX=83333 GN=acuI PE=1 SV=1"
-                }
-              ],
-              "len": 324,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 8.77392,
-                  "identity": 10,
-                  "positive": 19,
-                  "query_from": 62,
-                  "query_to": 110,
-                  "hit_from": 266,
-                  "hit_to": 314,
-                  "align_len": 49,
-                  "gaps": 0,
-                  "qseq": "DEYYSRPLQVMAAYQQIVGGVNYYFNVKFGRTTCTKSQPNLDNCPFNDQ",
-                  "hseq": "DSVMTPPERRAQAWQRLVADLPESFYTQAAKEISLSEAPNFAEAIINNQ",
-                  "midline": "D   + P +   A+Q++V  +   F  +  +       PN      N+Q"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "tr|Q09LX0|Q09LX0_GEOSE",
-                  "accession": "Q09LX0",
-                  "title": "Beta-xylosidase OS=Geobacillus stearothermophilus OX=1422 GN=xynB3 PE=1 SV=1"
-                }
-              ],
-              "len": 535,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 9.85446,
-                  "identity": 7,
-                  "positive": 8,
-                  "query_from": 75,
-                  "query_to": 85,
-                  "hit_from": 403,
-                  "hit_to": 413,
-                  "align_len": 11,
-                  "gaps": 0,
-                  "qseq": "YQQIVGGVNYY",
-                  "hseq": "FQQSAGLVNYY",
-                  "midline": "+QQ  G VNYY"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 58,
+                "eff_space": 5930400,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 58,
-            "eff_space": 5930400,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

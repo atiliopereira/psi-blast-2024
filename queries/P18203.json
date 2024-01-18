@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,399 +17,404 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P18203|FKB1A_BOVIN Peptidyl-prolyl cis-trans isomerase FKBP1A OS=Bos taurus OX=9913 GN=FKBP1A PE=1 SV=2",
-          "query_len": 108,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P18203|FKB1A_BOVIN",
-                  "accession": "P18203",
-                  "title": "Peptidyl-prolyl cis-trans isomerase FKBP1A OS=Bos taurus OX=9913 GN=FKBP1A PE=1 SV=2"
-                }
-              ],
-              "len": 108,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P18203|FKB1A_BOVIN Peptidyl-prolyl cis-trans isomerase FKBP1A OS=Bos taurus OX=9913 GN=FKBP1A PE=1 SV=2",
+              "query_len": 108,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 225.328,
-                  "score": 573,
-                  "evalue": 1.64445e-80,
-                  "identity": 108,
-                  "positive": 108,
-                  "query_from": 1,
-                  "query_to": 108,
-                  "hit_from": 1,
-                  "hit_to": 108,
-                  "align_len": 108,
-                  "gaps": 0,
-                  "qseq": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFVLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPNATLIFDVELLKLE",
-                  "hseq": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFVLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPNATLIFDVELLKLE",
-                  "midline": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFVLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPNATLIFDVELLKLE"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
-                {
-                  "id": "sp|P62942|FKB1A_HUMAN",
-                  "accession": "P62942",
-                  "title": "Peptidyl-prolyl cis-trans isomerase FKBP1A OS=Homo sapiens OX=9606 GN=FKBP1A PE=1 SV=2"
-                }
-              ],
-              "len": 108,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 221.476,
-                  "score": 563,
-                  "evalue": 6.15999e-79,
-                  "identity": 105,
-                  "positive": 108,
-                  "query_from": 1,
-                  "query_to": 108,
-                  "hit_from": 1,
-                  "hit_to": 108,
-                  "align_len": 108,
-                  "gaps": 0,
-                  "qseq": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFVLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPNATLIFDVELLKLE",
-                  "hseq": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFMLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHATLVFDVELLKLE",
-                  "midline": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKF+LGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPP+ATL+FDVELLKLE"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|O07615|YHFP_BACSU",
-                  "accession": "O07615",
-                  "title": "Putative quinone oxidoreductase YhfP OS=Bacillus subtilis (strain 168) OX=224308 GN=yhfP PE=1 SV=1"
-                }
-              ],
-              "len": 330,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.557,
-                  "score": 44,
-                  "evalue": 1.14407,
-                  "identity": 16,
-                  "positive": 26,
-                  "query_from": 1,
-                  "query_to": 52,
-                  "hit_from": 17,
-                  "hit_to": 66,
-                  "align_len": 53,
-                  "gaps": 4,
-                  "qseq": "MGVQVETISPGDGRTFPKRGQTCVVHYTGM-LEDGKKFDSSRDRNKPFKFVLG",
-                  "hseq": "VSVHVKTISTED---LPKDGVLIKVAYSGINYKDGLAGKAGGNIVREYPLILG",
-                  "midline": "+ V V+TIS  D    PK G    V Y+G+  +DG    +  +  + +  +LG"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P12994|YBHB_ECOLI",
-                  "accession": "P12994",
-                  "title": "UPF0098 protein YbhB OS=Escherichia coli (strain K12) OX=83333 GN=ybhB PE=1 SV=2"
-                }
-              ],
-              "len": 158,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.4014,
-                  "score": 41,
-                  "evalue": 2.28854,
-                  "identity": 11,
-                  "positive": 14,
-                  "query_from": 83,
-                  "query_to": 108,
-                  "hit_from": 98,
-                  "hit_to": 126,
-                  "align_len": 29,
-                  "gaps": 3,
-                  "qseq": "YGATGHPGIIPPNAT---LIFDVELLKLE",
-                  "hseq": "FGKTGYDGAAPPKGETHRYIFTVHALDIE",
-                  "midline": "+G TG+ G  PP       IF V  L +E"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "tr|A9CIQ1|A9CIQ1_AGRFC",
-                  "accession": "A9CIQ1",
-                  "title": "HTH cro/C1-type domain-containing protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu1735 PE=1 SV=1"
-                }
-              ],
-              "len": 95,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 3.24244,
-                  "identity": 8,
-                  "positive": 12,
-                  "query_from": 56,
-                  "query_to": 77,
-                  "hit_from": 57,
-                  "hit_to": 78,
-                  "align_len": 22,
-                  "gaps": 0,
-                  "qseq": "VIRGWEEGVAQMSVGQRAKLTI",
-                  "hseq": "TLRDWEQGRSEPDQPARAYLKI",
-                  "midline": " +R WE+G ++     RA L I"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P74881|PUR4_SALTY",
-                  "accession": "P74881",
-                  "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
-                }
-              ],
-              "len": 1295,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 4.21717,
-                  "identity": 16,
-                  "positive": 24,
-                  "query_from": 67,
-                  "query_to": 107,
-                  "hit_from": 695,
-                  "hit_to": 736,
-                  "align_len": 43,
-                  "gaps": 3,
-                  "qseq": "MSVGQRAKLTISPDYAYGATGHPGIIPPN--ATLIFDVELLKL",
-                  "hseq": "MSIGERAPVALL-DFAASARLAVGEALTNIAATQIGDIKRIKL",
-                  "midline": "MS+G+RA + +  D+A  A    G    N  AT I D++ +KL"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|Q8WVQ1|CANT1_HUMAN",
-                  "accession": "Q8WVQ1",
-                  "title": "Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1"
-                }
-              ],
-              "len": 401,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 4.29707,
-                  "identity": 9,
-                  "positive": 12,
-                  "query_from": 70,
-                  "query_to": 94,
-                  "hit_from": 316,
-                  "hit_to": 340,
-                  "align_len": 25,
-                  "gaps": 0,
-                  "qseq": "GQRAKLTISPDYAYGATGHPGIIPP",
-                  "hseq": "GANLLLSASPDFGDIAVSHVGAVVP",
-                  "midline": "G    L+ SPD+   A  H G + P"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|Q8NWQ6|EBH_STAAW",
-                  "accession": "Q8NWQ6",
-                  "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
-                }
-              ],
-              "len": 9904,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 4.52792,
-                  "identity": 7,
-                  "positive": 12,
-                  "query_from": 62,
-                  "query_to": 75,
-                  "hit_from": 4489,
-                  "hit_to": 4502,
-                  "align_len": 14,
-                  "gaps": 0,
-                  "qseq": "EGVAQMSVGQRAKL",
-                  "hseq": "DGLAQLNNAQKAKL",
-                  "midline": "+G+AQ++  Q+AKL"
+                  "description": [
+                    {
+                      "id": "sp|P18203|FKB1A_BOVIN",
+                      "accession": "P18203",
+                      "title": "Peptidyl-prolyl cis-trans isomerase FKBP1A OS=Bos taurus OX=9913 GN=FKBP1A PE=1 SV=2"
+                    }
+                  ],
+                  "len": 108,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 225.328,
+                      "score": 573,
+                      "evalue": 1.64445e-80,
+                      "identity": 108,
+                      "positive": 108,
+                      "query_from": 1,
+                      "query_to": 108,
+                      "hit_from": 1,
+                      "hit_to": 108,
+                      "align_len": 108,
+                      "gaps": 0,
+                      "qseq": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFVLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPNATLIFDVELLKLE",
+                      "hseq": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFVLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPNATLIFDVELLKLE",
+                      "midline": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFVLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPNATLIFDVELLKLE"
+                    }
+                  ]
                 },
                 {
                   "num": 2,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 9.00786,
-                  "identity": 8,
-                  "positive": 16,
-                  "query_from": 74,
-                  "query_to": 103,
-                  "hit_from": 643,
-                  "hit_to": 672,
-                  "align_len": 30,
-                  "gaps": 0,
-                  "qseq": "KLTISPDYAYGATGHPGIIPPNATLIFDVE",
-                  "hseq": "RLMIGFDYPDGYGNSETLVPVNLTVLPEIQ",
-                  "midline": "+L I  DY  G      ++P N T++ +++"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P62942|FKB1A_HUMAN",
+                      "accession": "P62942",
+                      "title": "Peptidyl-prolyl cis-trans isomerase FKBP1A OS=Homo sapiens OX=9606 GN=FKBP1A PE=1 SV=2"
+                    }
+                  ],
+                  "len": 108,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 221.476,
+                      "score": 563,
+                      "evalue": 6.15999e-79,
+                      "identity": 105,
+                      "positive": 108,
+                      "query_from": 1,
+                      "query_to": 108,
+                      "hit_from": 1,
+                      "hit_to": 108,
+                      "align_len": 108,
+                      "gaps": 0,
+                      "qseq": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFVLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPNATLIFDVELLKLE",
+                      "hseq": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFMLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHATLVFDVELLKLE",
+                      "midline": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKF+LGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPP+ATL+FDVELLKLE"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q8WTS6|SETD7_HUMAN",
-                  "accession": "Q8WTS6",
-                  "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|O07615|YHFP_BACSU",
+                      "accession": "O07615",
+                      "title": "Putative quinone oxidoreductase YhfP OS=Bacillus subtilis (strain 168) OX=224308 GN=yhfP PE=1 SV=1"
+                    }
+                  ],
+                  "len": 330,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.557,
+                      "score": 44,
+                      "evalue": 1.14407,
+                      "identity": 16,
+                      "positive": 26,
+                      "query_from": 1,
+                      "query_to": 52,
+                      "hit_from": 17,
+                      "hit_to": 66,
+                      "align_len": 53,
+                      "gaps": 4,
+                      "qseq": "MGVQVETISPGDGRTFPKRGQTCVVHYTGM-LEDGKKFDSSRDRNKPFKFVLG",
+                      "hseq": "VSVHVKTISTED---LPKDGVLIKVAYSGINYKDGLAGKAGGNIVREYPLILG",
+                      "midline": "+ V V+TIS  D    PK G    V Y+G+  +DG    +  +  + +  +LG"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P12994|YBHB_ECOLI",
+                      "accession": "P12994",
+                      "title": "UPF0098 protein YbhB OS=Escherichia coli (strain K12) OX=83333 GN=ybhB PE=1 SV=2"
+                    }
+                  ],
+                  "len": 158,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.4014,
+                      "score": 41,
+                      "evalue": 2.28854,
+                      "identity": 11,
+                      "positive": 14,
+                      "query_from": 83,
+                      "query_to": 108,
+                      "hit_from": 98,
+                      "hit_to": 126,
+                      "align_len": 29,
+                      "gaps": 3,
+                      "qseq": "YGATGHPGIIPPNAT---LIFDVELLKLE",
+                      "hseq": "FGKTGYDGAAPPKGETHRYIFTVHALDIE",
+                      "midline": "+G TG+ G  PP       IF V  L +E"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "tr|A9CIQ1|A9CIQ1_AGRFC",
+                      "accession": "A9CIQ1",
+                      "title": "HTH cro/C1-type domain-containing protein OS=Agrobacterium fabrum (strain C58 / ATCC 33970) OX=176299 GN=Atu1735 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 95,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 3.24244,
+                      "identity": 8,
+                      "positive": 12,
+                      "query_from": 56,
+                      "query_to": 77,
+                      "hit_from": 57,
+                      "hit_to": 78,
+                      "align_len": 22,
+                      "gaps": 0,
+                      "qseq": "VIRGWEEGVAQMSVGQRAKLTI",
+                      "hseq": "TLRDWEQGRSEPDQPARAYLKI",
+                      "midline": " +R WE+G ++     RA L I"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P74881|PUR4_SALTY",
+                      "accession": "P74881",
+                      "title": "Phosphoribosylformylglycinamidine synthase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=purL PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1295,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 4.21717,
+                      "identity": 16,
+                      "positive": 24,
+                      "query_from": 67,
+                      "query_to": 107,
+                      "hit_from": 695,
+                      "hit_to": 736,
+                      "align_len": 43,
+                      "gaps": 3,
+                      "qseq": "MSVGQRAKLTISPDYAYGATGHPGIIPPN--ATLIFDVELLKL",
+                      "hseq": "MSIGERAPVALL-DFAASARLAVGEALTNIAATQIGDIKRIKL",
+                      "midline": "MS+G+RA + +  D+A  A    G    N  AT I D++ +KL"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|Q8WVQ1|CANT1_HUMAN",
+                      "accession": "Q8WVQ1",
+                      "title": "Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 401,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 4.29707,
+                      "identity": 9,
+                      "positive": 12,
+                      "query_from": 70,
+                      "query_to": 94,
+                      "hit_from": 316,
+                      "hit_to": 340,
+                      "align_len": 25,
+                      "gaps": 0,
+                      "qseq": "GQRAKLTISPDYAYGATGHPGIIPP",
+                      "hseq": "GANLLLSASPDFGDIAVSHVGAVVP",
+                      "midline": "G    L+ SPD+   A  H G + P"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|Q8NWQ6|EBH_STAAW",
+                      "accession": "Q8NWQ6",
+                      "title": "Extracellular matrix-binding protein ebh OS=Staphylococcus aureus (strain MW2) OX=196620 GN=ebh PE=1 SV=1"
+                    }
+                  ],
+                  "len": 9904,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 4.52792,
+                      "identity": 7,
+                      "positive": 12,
+                      "query_from": 62,
+                      "query_to": 75,
+                      "hit_from": 4489,
+                      "hit_to": 4502,
+                      "align_len": 14,
+                      "gaps": 0,
+                      "qseq": "EGVAQMSVGQRAKL",
+                      "hseq": "DGLAQLNNAQKAKL",
+                      "midline": "+G+AQ++  Q+AKL"
+                    },
+                    {
+                      "num": 2,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 9.00786,
+                      "identity": 8,
+                      "positive": 16,
+                      "query_from": 74,
+                      "query_to": 103,
+                      "hit_from": 643,
+                      "hit_to": 672,
+                      "align_len": 30,
+                      "gaps": 0,
+                      "qseq": "KLTISPDYAYGATGHPGIIPPNATLIFDVE",
+                      "hseq": "RLMIGFDYPDGYGNSETLVPVNLTVLPEIQ",
+                      "midline": "+L I  DY  G      ++P N T++ +++"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|Q8WTS6|SETD7_HUMAN",
+                      "accession": "Q8WTS6",
+                      "title": "Histone-lysine N-methyltransferase SETD7 OS=Homo sapiens OX=9606 GN=SETD7 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 366,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 20.0162,
+                      "score": 40,
+                      "evalue": 4.80955,
+                      "identity": 8,
+                      "positive": 13,
+                      "query_from": 68,
+                      "query_to": 93,
+                      "hit_from": 290,
+                      "hit_to": 315,
+                      "align_len": 26,
+                      "gaps": 0,
+                      "qseq": "SVGQRAKLTISPDYAYGATGHPGIIP",
+                      "hseq": "SLGHKANHSFTPNCIYDMFVHPRFGP",
+                      "midline": "S+G +A  + +P+  Y    HP   P"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P04859|PHOSP_SENDH",
+                      "accession": "P04859",
+                      "title": "Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1"
+                    }
+                  ],
+                  "len": 568,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 7.18734,
+                      "identity": 6,
+                      "positive": 12,
+                      "query_from": 29,
+                      "query_to": 42,
+                      "hit_from": 336,
+                      "hit_to": 349,
+                      "align_len": 14,
+                      "gaps": 0,
+                      "qseq": "GMLEDGKKFDSSRD",
+                      "hseq": "GVIQSAQEFESSRD",
+                      "midline": "G+++  ++F+SSRD"
+                    }
+                  ]
+                },
+                {
+                  "num": 11,
+                  "description": [
+                    {
+                      "id": "sp|P0AGC3|SLT_ECOLI",
+                      "accession": "P0AGC3",
+                      "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
+                    }
+                  ],
+                  "len": 645,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 7.5177,
+                      "identity": 19,
+                      "positive": 30,
+                      "query_from": 34,
+                      "query_to": 97,
+                      "hit_from": 466,
+                      "hit_to": 530,
+                      "align_len": 69,
+                      "gaps": 9,
+                      "qseq": "GKKFDSSRDR-----NKPFKFVLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPNAT",
+                      "hseq": "GKLWDHLEERFPLAYNDLFKRYTSGKEIPQSYAMAIARQESAWNPKVK-SP---VGASGLMQIMPGTAT",
+                      "midline": "GK +D   +R     N  FK     +E+ + +   +A+       K+  SP    GA+G   I+P  AT"
+                    }
+                  ]
+                },
+                {
+                  "num": 12,
+                  "description": [
+                    {
+                      "id": "sp|O43896|KIF1C_HUMAN",
+                      "accession": "O43896",
+                      "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
+                    }
+                  ],
+                  "len": 1103,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 7.76423,
+                      "identity": 8,
+                      "positive": 13,
+                      "query_from": 28,
+                      "query_to": 43,
+                      "hit_from": 841,
+                      "hit_to": 856,
+                      "align_len": 16,
+                      "gaps": 0,
+                      "qseq": "TGMLEDGKKFDSSRDR",
+                      "hseq": "TGILQEVKLQNSSKDR",
+                      "midline": "TG+L++ K  +SS+DR"
+                    }
+                  ]
                 }
               ],
-              "len": 366,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 20.0162,
-                  "score": 40,
-                  "evalue": 4.80955,
-                  "identity": 8,
-                  "positive": 13,
-                  "query_from": 68,
-                  "query_to": 93,
-                  "hit_from": 290,
-                  "hit_to": 315,
-                  "align_len": 26,
-                  "gaps": 0,
-                  "qseq": "SVGQRAKLTISPDYAYGATGHPGIIP",
-                  "hseq": "SLGHKANHSFTPNCIYDMFVHPRFGP",
-                  "midline": "S+G +A  + +P+  Y    HP   P"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|P04859|PHOSP_SENDH",
-                  "accession": "P04859",
-                  "title": "Phosphoprotein OS=Sendai virus (strain Harris) OX=11196 GN=P/V/C PE=1 SV=1"
-                }
-              ],
-              "len": 568,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 7.18734,
-                  "identity": 6,
-                  "positive": 12,
-                  "query_from": 29,
-                  "query_to": 42,
-                  "hit_from": 336,
-                  "hit_to": 349,
-                  "align_len": 14,
-                  "gaps": 0,
-                  "qseq": "GMLEDGKKFDSSRD",
-                  "hseq": "GVIQSAQEFESSRD",
-                  "midline": "G+++  ++F+SSRD"
-                }
-              ]
-            },
-            {
-              "num": 11,
-              "description": [
-                {
-                  "id": "sp|P0AGC3|SLT_ECOLI",
-                  "accession": "P0AGC3",
-                  "title": "Soluble lytic murein transglycosylase OS=Escherichia coli (strain K12) OX=83333 GN=slt PE=1 SV=1"
-                }
-              ],
-              "len": 645,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 7.5177,
-                  "identity": 19,
-                  "positive": 30,
-                  "query_from": 34,
-                  "query_to": 97,
-                  "hit_from": 466,
-                  "hit_to": 530,
-                  "align_len": 69,
-                  "gaps": 9,
-                  "qseq": "GKKFDSSRDR-----NKPFKFVLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPNAT",
-                  "hseq": "GKLWDHLEERFPLAYNDLFKRYTSGKEIPQSYAMAIARQESAWNPKVK-SP---VGASGLMQIMPGTAT",
-                  "midline": "GK +D   +R     N  FK     +E+ + +   +A+       K+  SP    GA+G   I+P  AT"
-                }
-              ]
-            },
-            {
-              "num": 12,
-              "description": [
-                {
-                  "id": "sp|O43896|KIF1C_HUMAN",
-                  "accession": "O43896",
-                  "title": "Kinesin-like protein KIF1C OS=Homo sapiens OX=9606 GN=KIF1C PE=1 SV=3"
-                }
-              ],
-              "len": 1103,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 7.76423,
-                  "identity": 8,
-                  "positive": 13,
-                  "query_from": 28,
-                  "query_to": 43,
-                  "hit_from": 841,
-                  "hit_to": 856,
-                  "align_len": 16,
-                  "gaps": 0,
-                  "qseq": "TGMLEDGKKFDSSRDR",
-                  "hseq": "TGILQEVKLQNSSKDR",
-                  "midline": "TG+L++ K  +SS+DR"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 55,
+                "eff_space": 3775031,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 55,
-            "eff_space": 3775031,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

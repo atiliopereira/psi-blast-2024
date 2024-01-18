@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,172 +17,177 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P09394|GLPQ_ECOLI Glycerophosphodiester phosphodiesterase, periplasmic OS=Escherichia coli (strain K12) OX=83333 GN=glpQ PE=1 SV=2",
-          "query_len": 358,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P09394|GLPQ_ECOLI",
-                  "accession": "P09394",
-                  "title": "Glycerophosphodiester phosphodiesterase, periplasmic OS=Escherichia coli (strain K12) OX=83333 GN=glpQ PE=1 SV=2"
-                }
-              ],
-              "len": 358,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P09394|GLPQ_ECOLI Glycerophosphodiester phosphodiesterase, periplasmic OS=Escherichia coli (strain K12) OX=83333 GN=glpQ PE=1 SV=2",
+              "query_len": 358,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 746.117,
-                  "score": 1925,
-                  "evalue": 0,
-                  "identity": 358,
-                  "positive": 358,
-                  "query_from": 1,
-                  "query_to": 358,
-                  "hit_from": 1,
-                  "hit_to": 358,
-                  "align_len": 358,
-                  "gaps": 0,
-                  "qseq": "MKLTLKNLSMAIMMSTIVMGSSAMAADSNEKIVIAHRGASGYLPEHTLPAKAMAYAQGADYLEQDLVMTKDDNLVVLHDHYLDRVTDVADRFPDRARKDGRYYAIDFTLDEIKSLKFTEGFDIENGKKVQTYPGRFPMGKSDFRVHTFEEEIEFVQGLNHSTGKNIGIYPEIKAPWFHHQEGKDIAAKTLEVLKKYGYTGKDDKVYLQCFDADELKRIKNELEPKMGMELNLVQLIAYTDWNETQQKQPDGSWVNYNYDWMFKPGAMKQVAEYADGIGPDYHMLIEETSQPGNIKLTGMVQDAQQNKLVVHPYTVRSDKLPEYTPDVNQLYDALYNKAGVNGLFTDFPDKAVKFLNKE",
-                  "hseq": "MKLTLKNLSMAIMMSTIVMGSSAMAADSNEKIVIAHRGASGYLPEHTLPAKAMAYAQGADYLEQDLVMTKDDNLVVLHDHYLDRVTDVADRFPDRARKDGRYYAIDFTLDEIKSLKFTEGFDIENGKKVQTYPGRFPMGKSDFRVHTFEEEIEFVQGLNHSTGKNIGIYPEIKAPWFHHQEGKDIAAKTLEVLKKYGYTGKDDKVYLQCFDADELKRIKNELEPKMGMELNLVQLIAYTDWNETQQKQPDGSWVNYNYDWMFKPGAMKQVAEYADGIGPDYHMLIEETSQPGNIKLTGMVQDAQQNKLVVHPYTVRSDKLPEYTPDVNQLYDALYNKAGVNGLFTDFPDKAVKFLNKE",
-                  "midline": "MKLTLKNLSMAIMMSTIVMGSSAMAADSNEKIVIAHRGASGYLPEHTLPAKAMAYAQGADYLEQDLVMTKDDNLVVLHDHYLDRVTDVADRFPDRARKDGRYYAIDFTLDEIKSLKFTEGFDIENGKKVQTYPGRFPMGKSDFRVHTFEEEIEFVQGLNHSTGKNIGIYPEIKAPWFHHQEGKDIAAKTLEVLKKYGYTGKDDKVYLQCFDADELKRIKNELEPKMGMELNLVQLIAYTDWNETQQKQPDGSWVNYNYDWMFKPGAMKQVAEYADGIGPDYHMLIEETSQPGNIKLTGMVQDAQQNKLVVHPYTVRSDKLPEYTPDVNQLYDALYNKAGVNGLFTDFPDKAVKFLNKE"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P09394|GLPQ_ECOLI",
+                      "accession": "P09394",
+                      "title": "Glycerophosphodiester phosphodiesterase, periplasmic OS=Escherichia coli (strain K12) OX=83333 GN=glpQ PE=1 SV=2"
+                    }
+                  ],
+                  "len": 358,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 746.117,
+                      "score": 1925,
+                      "evalue": 0,
+                      "identity": 358,
+                      "positive": 358,
+                      "query_from": 1,
+                      "query_to": 358,
+                      "hit_from": 1,
+                      "hit_to": 358,
+                      "align_len": 358,
+                      "gaps": 0,
+                      "qseq": "MKLTLKNLSMAIMMSTIVMGSSAMAADSNEKIVIAHRGASGYLPEHTLPAKAMAYAQGADYLEQDLVMTKDDNLVVLHDHYLDRVTDVADRFPDRARKDGRYYAIDFTLDEIKSLKFTEGFDIENGKKVQTYPGRFPMGKSDFRVHTFEEEIEFVQGLNHSTGKNIGIYPEIKAPWFHHQEGKDIAAKTLEVLKKYGYTGKDDKVYLQCFDADELKRIKNELEPKMGMELNLVQLIAYTDWNETQQKQPDGSWVNYNYDWMFKPGAMKQVAEYADGIGPDYHMLIEETSQPGNIKLTGMVQDAQQNKLVVHPYTVRSDKLPEYTPDVNQLYDALYNKAGVNGLFTDFPDKAVKFLNKE",
+                      "hseq": "MKLTLKNLSMAIMMSTIVMGSSAMAADSNEKIVIAHRGASGYLPEHTLPAKAMAYAQGADYLEQDLVMTKDDNLVVLHDHYLDRVTDVADRFPDRARKDGRYYAIDFTLDEIKSLKFTEGFDIENGKKVQTYPGRFPMGKSDFRVHTFEEEIEFVQGLNHSTGKNIGIYPEIKAPWFHHQEGKDIAAKTLEVLKKYGYTGKDDKVYLQCFDADELKRIKNELEPKMGMELNLVQLIAYTDWNETQQKQPDGSWVNYNYDWMFKPGAMKQVAEYADGIGPDYHMLIEETSQPGNIKLTGMVQDAQQNKLVVHPYTVRSDKLPEYTPDVNQLYDALYNKAGVNGLFTDFPDKAVKFLNKE",
+                      "midline": "MKLTLKNLSMAIMMSTIVMGSSAMAADSNEKIVIAHRGASGYLPEHTLPAKAMAYAQGADYLEQDLVMTKDDNLVVLHDHYLDRVTDVADRFPDRARKDGRYYAIDFTLDEIKSLKFTEGFDIENGKKVQTYPGRFPMGKSDFRVHTFEEEIEFVQGLNHSTGKNIGIYPEIKAPWFHHQEGKDIAAKTLEVLKKYGYTGKDDKVYLQCFDADELKRIKNELEPKMGMELNLVQLIAYTDWNETQQKQPDGSWVNYNYDWMFKPGAMKQVAEYADGIGPDYHMLIEETSQPGNIKLTGMVQDAQQNKLVVHPYTVRSDKLPEYTPDVNQLYDALYNKAGVNGLFTDFPDKAVKFLNKE"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|Q96T60|PNKP_HUMAN",
-                  "accession": "Q96T60",
-                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|Q96T60|PNKP_HUMAN",
+                      "accession": "Q96T60",
+                      "title": "Bifunctional polynucleotide phosphatase/kinase OS=Homo sapiens OX=9606 GN=PNKP PE=1 SV=1"
+                    }
+                  ],
+                  "len": 521,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 26.1794,
+                      "score": 56,
+                      "evalue": 0.238034,
+                      "identity": 15,
+                      "positive": 22,
+                      "query_from": 107,
+                      "query_to": 145,
+                      "hit_from": 156,
+                      "hit_to": 194,
+                      "align_len": 40,
+                      "gaps": 2,
+                      "qseq": "FTLDEIKSLKFTEGFDIENGKKVQTYPGR-FPMGKSDFRV",
+                      "hseq": "FTAAGVKPQGKVAGFDL-DGTLITTRSGKVFPTGPSDWRI",
+                      "midline": "FT   +K      GFD+ +G  + T  G+ FP G SD+R+"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|Q9JLV6|PNKP_MOUSE",
+                      "accession": "Q9JLV6",
+                      "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
+                    }
+                  ],
+                  "len": 522,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 4.98944,
+                      "identity": 13,
+                      "positive": 20,
+                      "query_from": 107,
+                      "query_to": 145,
+                      "hit_from": 155,
+                      "hit_to": 193,
+                      "align_len": 40,
+                      "gaps": 2,
+                      "qseq": "FTLDEIKSLKFTEGFDIENGKKVQTYPGR-FPMGKSDFRV",
+                      "hseq": "FTASGVKPQGKVAAFDL-DGTLITTRSGKVFPTSPSDWRI",
+                      "midline": "FT   +K       FD+ +G  + T  G+ FP   SD+R+"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P26827|CDGT_THETU",
+                      "accession": "P26827",
+                      "title": "Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium thermosulfurigenes OX=33950 GN=amyA PE=1 SV=2"
+                    }
+                  ],
+                  "len": 710,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 5.46872,
+                      "identity": 13,
+                      "positive": 25,
+                      "query_from": 163,
+                      "query_to": 226,
+                      "hit_from": 189,
+                      "hit_to": 239,
+                      "align_len": 64,
+                      "gaps": 13,
+                      "qseq": "GKNIGIYPEIKAPWFHHQEGKDIAAKTLEVLKKYGYTGKDDKVYLQCFDADELKRIKNELEPKM",
+                      "hseq": "GTLLGGYTNDTNGYFHHYGGTD-------------FSSYEDGIYRNLFDLADLNQQNSTIDSYL",
+                      "midline": "G  +G Y      +FHH  G D             ++  +D +Y   FD  +L +  + ++  +"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|O60016|CLR4_SCHPO",
+                      "accession": "O60016",
+                      "title": "Histone-lysine N-methyltransferase, H3 lysine-9 specific OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=clr4 PE=1 SV=2"
+                    }
+                  ],
+                  "len": 490,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 21.9422,
+                      "score": 45,
+                      "evalue": 5.68659,
+                      "identity": 8,
+                      "positive": 10,
+                      "query_from": 158,
+                      "query_to": 178,
+                      "hit_from": 408,
+                      "hit_to": 428,
+                      "align_len": 21,
+                      "gaps": 0,
+                      "qseq": "LNHSTGKNIGIYPEIKAPWFH",
+                      "hseq": "FNHSCSPNIAIYSAVRNHGFR",
+                      "midline": " NHS   NI IY  ++   F "
+                    }
+                  ]
                 }
               ],
-              "len": 521,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 26.1794,
-                  "score": 56,
-                  "evalue": 0.238034,
-                  "identity": 15,
-                  "positive": 22,
-                  "query_from": 107,
-                  "query_to": 145,
-                  "hit_from": 156,
-                  "hit_to": 194,
-                  "align_len": 40,
-                  "gaps": 2,
-                  "qseq": "FTLDEIKSLKFTEGFDIENGKKVQTYPGR-FPMGKSDFRV",
-                  "hseq": "FTAAGVKPQGKVAGFDL-DGTLITTRSGKVFPTGPSDWRI",
-                  "midline": "FT   +K      GFD+ +G  + T  G+ FP G SD+R+"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|Q9JLV6|PNKP_MOUSE",
-                  "accession": "Q9JLV6",
-                  "title": "Bifunctional polynucleotide phosphatase/kinase OS=Mus musculus OX=10090 GN=Pnkp PE=1 SV=2"
-                }
-              ],
-              "len": 522,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 4.98944,
-                  "identity": 13,
-                  "positive": 20,
-                  "query_from": 107,
-                  "query_to": 145,
-                  "hit_from": 155,
-                  "hit_to": 193,
-                  "align_len": 40,
-                  "gaps": 2,
-                  "qseq": "FTLDEIKSLKFTEGFDIENGKKVQTYPGR-FPMGKSDFRV",
-                  "hseq": "FTASGVKPQGKVAAFDL-DGTLITTRSGKVFPTSPSDWRI",
-                  "midline": "FT   +K       FD+ +G  + T  G+ FP   SD+R+"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P26827|CDGT_THETU",
-                  "accession": "P26827",
-                  "title": "Cyclomaltodextrin glucanotransferase OS=Thermoanaerobacterium thermosulfurigenes OX=33950 GN=amyA PE=1 SV=2"
-                }
-              ],
-              "len": 710,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 5.46872,
-                  "identity": 13,
-                  "positive": 25,
-                  "query_from": 163,
-                  "query_to": 226,
-                  "hit_from": 189,
-                  "hit_to": 239,
-                  "align_len": 64,
-                  "gaps": 13,
-                  "qseq": "GKNIGIYPEIKAPWFHHQEGKDIAAKTLEVLKKYGYTGKDDKVYLQCFDADELKRIKNELEPKM",
-                  "hseq": "GTLLGGYTNDTNGYFHHYGGTD-------------FSSYEDGIYRNLFDLADLNQQNSTIDSYL",
-                  "midline": "G  +G Y      +FHH  G D             ++  +D +Y   FD  +L +  + ++  +"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|O60016|CLR4_SCHPO",
-                  "accession": "O60016",
-                  "title": "Histone-lysine N-methyltransferase, H3 lysine-9 specific OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=clr4 PE=1 SV=2"
-                }
-              ],
-              "len": 490,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 21.9422,
-                  "score": 45,
-                  "evalue": 5.68659,
-                  "identity": 8,
-                  "positive": 10,
-                  "query_from": 158,
-                  "query_to": 178,
-                  "hit_from": 408,
-                  "hit_to": 428,
-                  "align_len": 21,
-                  "gaps": 0,
-                  "qseq": "LNHSTGKNIGIYPEIKAPWFH",
-                  "hseq": "FNHSCSPNIAIYSAVRNHGFR",
-                  "midline": " NHS   NI IY  ++   F "
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 66,
+                "eff_space": 20126976,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 66,
-            "eff_space": 20126976,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }

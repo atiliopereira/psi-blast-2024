@@ -2,9 +2,9 @@
 "BlastOutput2": [
 {
     "report": {
-      "program": "blastp",
-      "version": "BLASTP 2.12.0+",
-      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "program": "psiblast",
+      "version": "PSIBLAST 2.12.0+",
+      "reference": "Alejandro A. Sch&auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), \"Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements\", Nucleic Acids Res. 29:2994-3005.",
       "search_target": {
         "db": "data/myDatabase.fasta"
       },
@@ -17,322 +17,327 @@
         "cbs": 2
       },
       "results": {
-        "search": {
-          "query_id": "Query_1",
-          "query_title": "sp|P0A6F9|CH10_ECOLI Co-chaperonin GroES OS=Escherichia coli (strain K12) OX=83333 GN=groES PE=1 SV=1",
-          "query_len": 97,
-          "hits": [
-            {
-              "num": 1,
-              "description": [
-                {
-                  "id": "sp|P0A6F9|CH10_ECOLI",
-                  "accession": "P0A6F9",
-                  "title": "Co-chaperonin GroES OS=Escherichia coli (strain K12) OX=83333 GN=groES PE=1 SV=1"
-                }
-              ],
-              "len": 97,
-              "hsps": [
+        "iterations": [
+          {
+            "iter_num": 1,
+            "search": {
+              "query_id": "Query_1",
+              "query_title": "sp|P0A6F9|CH10_ECOLI Co-chaperonin GroES OS=Escherichia coli (strain K12) OX=83333 GN=groES PE=1 SV=1",
+              "query_len": 97,
+              "hits": [
                 {
                   "num": 1,
-                  "bit_score": 188.348,
-                  "score": 477,
-                  "evalue": 2.89296e-66,
-                  "identity": 97,
-                  "positive": 97,
-                  "query_from": 1,
-                  "query_to": 97,
-                  "hit_from": 1,
-                  "hit_to": 97,
-                  "align_len": 97,
-                  "gaps": 0,
-                  "qseq": "MNIRPLHDRVIVKRKEVETKSAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDVKVGDIVIFNDGYGVKSEKIDNEEVLIMSESDILAIVEA",
-                  "hseq": "MNIRPLHDRVIVKRKEVETKSAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDVKVGDIVIFNDGYGVKSEKIDNEEVLIMSESDILAIVEA",
-                  "midline": "MNIRPLHDRVIVKRKEVETKSAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDVKVGDIVIFNDGYGVKSEKIDNEEVLIMSESDILAIVEA"
-                }
-              ]
-            },
-            {
-              "num": 2,
-              "description": [
+                  "description": [
+                    {
+                      "id": "sp|P0A6F9|CH10_ECOLI",
+                      "accession": "P0A6F9",
+                      "title": "Co-chaperonin GroES OS=Escherichia coli (strain K12) OX=83333 GN=groES PE=1 SV=1"
+                    }
+                  ],
+                  "len": 97,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 188.348,
+                      "score": 477,
+                      "evalue": 2.89296e-66,
+                      "identity": 97,
+                      "positive": 97,
+                      "query_from": 1,
+                      "query_to": 97,
+                      "hit_from": 1,
+                      "hit_to": 97,
+                      "align_len": 97,
+                      "gaps": 0,
+                      "qseq": "MNIRPLHDRVIVKRKEVETKSAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDVKVGDIVIFNDGYGVKSEKIDNEEVLIMSESDILAIVEA",
+                      "hseq": "MNIRPLHDRVIVKRKEVETKSAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDVKVGDIVIFNDGYGVKSEKIDNEEVLIMSESDILAIVEA",
+                      "midline": "MNIRPLHDRVIVKRKEVETKSAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDVKVGDIVIFNDGYGVKSEKIDNEEVLIMSESDILAIVEA"
+                    }
+                  ]
+                },
                 {
-                  "id": "sp|P61493|CH10_THET8",
-                  "accession": "P61493",
-                  "title": "Co-chaperonin GroES OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=groES PE=1 SV=2"
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "sp|P61493|CH10_THET8",
+                      "accession": "P61493",
+                      "title": "Co-chaperonin GroES OS=Thermus thermophilus (strain ATCC 27634 / DSM 579 / HB8) OX=300852 GN=groES PE=1 SV=2"
+                    }
+                  ],
+                  "len": 101,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 95.9005,
+                      "score": 237,
+                      "evalue": 1.34663e-29,
+                      "identity": 51,
+                      "positive": 69,
+                      "query_from": 3,
+                      "query_to": 96,
+                      "hit_from": 9,
+                      "hit_to": 101,
+                      "align_len": 94,
+                      "gaps": 1,
+                      "qseq": "IRPLHDRVIVKRKEVETKSAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDVKVGDIVIFNDGYGVKSEKIDNEEVLIMSESDILAIVE",
+                      "hseq": "IKPLGDRVVVKRIEEEPKTKGGIVLPDTAKEKPQKGKVIAVGTGRVLENGQRVPLEVKEGDIVVFAK-YGGTEIEIDGEEYVILSERDLLAVLQ",
+                      "midline": "I+PL DRV+VKR E E K+ GGIVL  +A  K  +G+V+AVG GR+LENG+  PL+VK GDIV+F   YG    +ID EE +I+SE D+LA+++"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "sp|P83772|CRNA_PSEPU",
+                      "accession": "P83772",
+                      "title": "Creatinine amidohydrolase OS=Pseudomonas putida OX=303 GN=crnA PE=1 SV=1"
+                    }
+                  ],
+                  "len": 260,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 23.483,
+                      "score": 49,
+                      "evalue": 0.205443,
+                      "identity": 17,
+                      "positive": 30,
+                      "query_from": 12,
+                      "query_to": 77,
+                      "hit_from": 10,
+                      "hit_to": 76,
+                      "align_len": 67,
+                      "gaps": 1,
+                      "qseq": "VKRKEVETK-SAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDVKVGDIVIFNDGYGVKSEK",
+                      "hseq": "LTWKEYEARVAAGDCVLMLPVGALEQHGHHMCMNVDVLLPTAVCKRVAERIGALVMPGLQYGYKSQQ",
+                      "midline": "+  KE E + +AG  VL     A    G  + +    +L     K +  ++G +V+    YG KS++"
+                    }
+                  ]
+                },
+                {
+                  "num": 4,
+                  "description": [
+                    {
+                      "id": "sp|P01034|CYTC_HUMAN",
+                      "accession": "P01034",
+                      "title": "Cystatin-C OS=Homo sapiens OX=9606 GN=CST3 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 146,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 3.58708,
+                      "identity": 10,
+                      "positive": 16,
+                      "query_from": 5,
+                      "query_to": 36,
+                      "hit_from": 110,
+                      "hit_to": 142,
+                      "align_len": 33,
+                      "gaps": 1,
+                      "qseq": "PLHDRVIVKRKEVETKSAGGIVLTGSAA-AKST",
+                      "hseq": "PFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKST",
+                      "midline": "P HD+  +KRK   +     +   G+   +KST"
+                    }
+                  ]
+                },
+                {
+                  "num": 5,
+                  "description": [
+                    {
+                      "id": "sp|Q8WVQ1|CANT1_HUMAN",
+                      "accession": "Q8WVQ1",
+                      "title": "Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1"
+                    }
+                  ],
+                  "len": 401,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.631,
+                      "score": 39,
+                      "evalue": 4.6267,
+                      "identity": 11,
+                      "positive": 15,
+                      "query_from": 34,
+                      "query_to": 65,
+                      "hit_from": 210,
+                      "hit_to": 241,
+                      "align_len": 32,
+                      "gaps": 0,
+                      "qseq": "KSTRGEVLAVGNGRILENGEVKPLDVKVGDIV",
+                      "hseq": "KGFKAEWLAVKDERLYVGGLGKEWTTTTGDVV",
+                      "midline": "K  + E LAV + R+   G  K      GD+V"
+                    }
+                  ]
+                },
+                {
+                  "num": 6,
+                  "description": [
+                    {
+                      "id": "sp|P07858|CATB_HUMAN",
+                      "accession": "P07858",
+                      "title": "Cathepsin B OS=Homo sapiens OX=9606 GN=CTSB PE=1 SV=3"
+                    }
+                  ],
+                  "len": 339,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 6.59606,
+                      "identity": 8,
+                      "positive": 10,
+                      "query_from": 71,
+                      "query_to": 88,
+                      "hit_from": 225,
+                      "hit_to": 242,
+                      "align_len": 18,
+                      "gaps": 0,
+                      "qseq": "YGVKSEKIDNEEVLIMSE",
+                      "hseq": "YGYNSYSVSNSEKDIMAE",
+                      "midline": "YG  S  + N E  IM+E"
+                    }
+                  ]
+                },
+                {
+                  "num": 7,
+                  "description": [
+                    {
+                      "id": "sp|P0C6U8|R1A_SARS",
+                      "accession": "P0C6U8",
+                      "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
+                    }
+                  ],
+                  "len": 4382,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 19.2458,
+                      "score": 38,
+                      "evalue": 7.71731,
+                      "identity": 16,
+                      "positive": 21,
+                      "query_from": 10,
+                      "query_to": 59,
+                      "hit_from": 1034,
+                      "hit_to": 1077,
+                      "align_len": 50,
+                      "gaps": 6,
+                      "qseq": "VIVKRKEVETKSAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDV",
+                      "hseq": "VIVNAANIHLKHGGGV---AGALNKATNGAMQKESDDYIKLNG---PLTV",
+                      "midline": "VIV    +  K  GG+     A  K+T G +    +  I  NG   PL V"
+                    }
+                  ]
+                },
+                {
+                  "num": 8,
+                  "description": [
+                    {
+                      "id": "sp|P20226|TBP_HUMAN",
+                      "accession": "P20226",
+                      "title": "TATA-box-binding protein OS=Homo sapiens OX=9606 GN=TBP PE=1 SV=2"
+                    }
+                  ],
+                  "len": 339,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.8606,
+                      "score": 37,
+                      "evalue": 8.52302,
+                      "identity": 17,
+                      "positive": 33,
+                      "query_from": 10,
+                      "query_to": 65,
+                      "hit_from": 200,
+                      "hit_to": 259,
+                      "align_len": 62,
+                      "gaps": 8,
+                      "qseq": "VIVKRKEVETK----SAGGIVLTGSAAAKSTRGEVLAVGNGRILEN--GEVKPLDVKVGDIV",
+                      "hseq": "VIMRIREPRTTALIFSSGKMVCTGAKSEEQSR--LAARKYARVVQKLGFPAKFLDFKIQNMV",
+                      "midline": "VI++ +E  T     S+G +V TG+ + + +R  + A    R+++      K LD K+ ++V"
+                    }
+                  ]
+                },
+                {
+                  "num": 9,
+                  "description": [
+                    {
+                      "id": "sp|Q9X6J6|MTRB_GEOSE",
+                      "accession": "Q9X6J6",
+                      "title": "Transcription attenuation protein MtrB OS=Geobacillus stearothermophilus OX=1422 GN=mtrB PE=1 SV=1"
+                    }
+                  ],
+                  "len": 74,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.4754,
+                      "score": 36,
+                      "evalue": 8.52556,
+                      "identity": 8,
+                      "positive": 9,
+                      "query_from": 75,
+                      "query_to": 85,
+                      "hit_from": 33,
+                      "hit_to": 43,
+                      "align_len": 11,
+                      "gaps": 0,
+                      "qseq": "SEKIDNEEVLI",
+                      "hseq": "SEKLDKGEVLI",
+                      "midline": "SEK+D  EVLI"
+                    }
+                  ]
+                },
+                {
+                  "num": 10,
+                  "description": [
+                    {
+                      "id": "sp|P22364|AMCY_PARDE",
+                      "accession": "P22364",
+                      "title": "Amicyanin OS=Paracoccus denitrificans OX=266 GN=mauC PE=1 SV=1"
+                    }
+                  ],
+                  "len": 131,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 18.4754,
+                      "score": 36,
+                      "evalue": 8.93264,
+                      "identity": 8,
+                      "positive": 9,
+                      "query_from": 53,
+                      "query_to": 67,
+                      "hit_from": 57,
+                      "hit_to": 71,
+                      "align_len": 15,
+                      "gaps": 0,
+                      "qseq": "EVKPLDVKVGDIVIF",
+                      "hseq": "ETPELHVKVGDTVTW",
+                      "midline": "E   L VKVGD V +"
+                    }
+                  ]
                 }
               ],
-              "len": 101,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 95.9005,
-                  "score": 237,
-                  "evalue": 1.34663e-29,
-                  "identity": 51,
-                  "positive": 69,
-                  "query_from": 3,
-                  "query_to": 96,
-                  "hit_from": 9,
-                  "hit_to": 101,
-                  "align_len": 94,
-                  "gaps": 1,
-                  "qseq": "IRPLHDRVIVKRKEVETKSAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDVKVGDIVIFNDGYGVKSEKIDNEEVLIMSESDILAIVE",
-                  "hseq": "IKPLGDRVVVKRIEEEPKTKGGIVLPDTAKEKPQKGKVIAVGTGRVLENGQRVPLEVKEGDIVVFAK-YGGTEIEIDGEEYVILSERDLLAVLQ",
-                  "midline": "I+PL DRV+VKR E E K+ GGIVL  +A  K  +G+V+AVG GR+LENG+  PL+VK GDIV+F   YG    +ID EE +I+SE D+LA+++"
-                }
-              ]
-            },
-            {
-              "num": 3,
-              "description": [
-                {
-                  "id": "sp|P83772|CRNA_PSEPU",
-                  "accession": "P83772",
-                  "title": "Creatinine amidohydrolase OS=Pseudomonas putida OX=303 GN=crnA PE=1 SV=1"
-                }
-              ],
-              "len": 260,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 23.483,
-                  "score": 49,
-                  "evalue": 0.205443,
-                  "identity": 17,
-                  "positive": 30,
-                  "query_from": 12,
-                  "query_to": 77,
-                  "hit_from": 10,
-                  "hit_to": 76,
-                  "align_len": 67,
-                  "gaps": 1,
-                  "qseq": "VKRKEVETK-SAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDVKVGDIVIFNDGYGVKSEK",
-                  "hseq": "LTWKEYEARVAAGDCVLMLPVGALEQHGHHMCMNVDVLLPTAVCKRVAERIGALVMPGLQYGYKSQQ",
-                  "midline": "+  KE E + +AG  VL     A    G  + +    +L     K +  ++G +V+    YG KS++"
-                }
-              ]
-            },
-            {
-              "num": 4,
-              "description": [
-                {
-                  "id": "sp|P01034|CYTC_HUMAN",
-                  "accession": "P01034",
-                  "title": "Cystatin-C OS=Homo sapiens OX=9606 GN=CST3 PE=1 SV=1"
-                }
-              ],
-              "len": 146,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 3.58708,
-                  "identity": 10,
-                  "positive": 16,
-                  "query_from": 5,
-                  "query_to": 36,
-                  "hit_from": 110,
-                  "hit_to": 142,
-                  "align_len": 33,
-                  "gaps": 1,
-                  "qseq": "PLHDRVIVKRKEVETKSAGGIVLTGSAA-AKST",
-                  "hseq": "PFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKST",
-                  "midline": "P HD+  +KRK   +     +   G+   +KST"
-                }
-              ]
-            },
-            {
-              "num": 5,
-              "description": [
-                {
-                  "id": "sp|Q8WVQ1|CANT1_HUMAN",
-                  "accession": "Q8WVQ1",
-                  "title": "Soluble calcium-activated nucleotidase 1 OS=Homo sapiens OX=9606 GN=CANT1 PE=1 SV=1"
-                }
-              ],
-              "len": 401,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.631,
-                  "score": 39,
-                  "evalue": 4.6267,
-                  "identity": 11,
-                  "positive": 15,
-                  "query_from": 34,
-                  "query_to": 65,
-                  "hit_from": 210,
-                  "hit_to": 241,
-                  "align_len": 32,
-                  "gaps": 0,
-                  "qseq": "KSTRGEVLAVGNGRILENGEVKPLDVKVGDIV",
-                  "hseq": "KGFKAEWLAVKDERLYVGGLGKEWTTTTGDVV",
-                  "midline": "K  + E LAV + R+   G  K      GD+V"
-                }
-              ]
-            },
-            {
-              "num": 6,
-              "description": [
-                {
-                  "id": "sp|P07858|CATB_HUMAN",
-                  "accession": "P07858",
-                  "title": "Cathepsin B OS=Homo sapiens OX=9606 GN=CTSB PE=1 SV=3"
-                }
-              ],
-              "len": 339,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 6.59606,
-                  "identity": 8,
-                  "positive": 10,
-                  "query_from": 71,
-                  "query_to": 88,
-                  "hit_from": 225,
-                  "hit_to": 242,
-                  "align_len": 18,
-                  "gaps": 0,
-                  "qseq": "YGVKSEKIDNEEVLIMSE",
-                  "hseq": "YGYNSYSVSNSEKDIMAE",
-                  "midline": "YG  S  + N E  IM+E"
-                }
-              ]
-            },
-            {
-              "num": 7,
-              "description": [
-                {
-                  "id": "sp|P0C6U8|R1A_SARS",
-                  "accession": "P0C6U8",
-                  "title": "Replicase polyprotein 1a OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=1a PE=1 SV=1"
-                }
-              ],
-              "len": 4382,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 19.2458,
-                  "score": 38,
-                  "evalue": 7.71731,
-                  "identity": 16,
-                  "positive": 21,
-                  "query_from": 10,
-                  "query_to": 59,
-                  "hit_from": 1034,
-                  "hit_to": 1077,
-                  "align_len": 50,
-                  "gaps": 6,
-                  "qseq": "VIVKRKEVETKSAGGIVLTGSAAAKSTRGEVLAVGNGRILENGEVKPLDV",
-                  "hseq": "VIVNAANIHLKHGGGV---AGALNKATNGAMQKESDDYIKLNG---PLTV",
-                  "midline": "VIV    +  K  GG+     A  K+T G +    +  I  NG   PL V"
-                }
-              ]
-            },
-            {
-              "num": 8,
-              "description": [
-                {
-                  "id": "sp|P20226|TBP_HUMAN",
-                  "accession": "P20226",
-                  "title": "TATA-box-binding protein OS=Homo sapiens OX=9606 GN=TBP PE=1 SV=2"
-                }
-              ],
-              "len": 339,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.8606,
-                  "score": 37,
-                  "evalue": 8.52302,
-                  "identity": 17,
-                  "positive": 33,
-                  "query_from": 10,
-                  "query_to": 65,
-                  "hit_from": 200,
-                  "hit_to": 259,
-                  "align_len": 62,
-                  "gaps": 8,
-                  "qseq": "VIVKRKEVETK----SAGGIVLTGSAAAKSTRGEVLAVGNGRILEN--GEVKPLDVKVGDIV",
-                  "hseq": "VIMRIREPRTTALIFSSGKMVCTGAKSEEQSR--LAARKYARVVQKLGFPAKFLDFKIQNMV",
-                  "midline": "VI++ +E  T     S+G +V TG+ + + +R  + A    R+++      K LD K+ ++V"
-                }
-              ]
-            },
-            {
-              "num": 9,
-              "description": [
-                {
-                  "id": "sp|Q9X6J6|MTRB_GEOSE",
-                  "accession": "Q9X6J6",
-                  "title": "Transcription attenuation protein MtrB OS=Geobacillus stearothermophilus OX=1422 GN=mtrB PE=1 SV=1"
-                }
-              ],
-              "len": 74,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.4754,
-                  "score": 36,
-                  "evalue": 8.52556,
-                  "identity": 8,
-                  "positive": 9,
-                  "query_from": 75,
-                  "query_to": 85,
-                  "hit_from": 33,
-                  "hit_to": 43,
-                  "align_len": 11,
-                  "gaps": 0,
-                  "qseq": "SEKIDNEEVLI",
-                  "hseq": "SEKLDKGEVLI",
-                  "midline": "SEK+D  EVLI"
-                }
-              ]
-            },
-            {
-              "num": 10,
-              "description": [
-                {
-                  "id": "sp|P22364|AMCY_PARDE",
-                  "accession": "P22364",
-                  "title": "Amicyanin OS=Paracoccus denitrificans OX=266 GN=mauC PE=1 SV=1"
-                }
-              ],
-              "len": 131,
-              "hsps": [
-                {
-                  "num": 1,
-                  "bit_score": 18.4754,
-                  "score": 36,
-                  "evalue": 8.93264,
-                  "identity": 8,
-                  "positive": 9,
-                  "query_from": 53,
-                  "query_to": 67,
-                  "hit_from": 57,
-                  "hit_to": 71,
-                  "align_len": 15,
-                  "gaps": 0,
-                  "qseq": "EVKPLDVKVGDIVIF",
-                  "hseq": "ETPELHVKVGDTVTW",
-                  "midline": "E   L VKVGD V +"
-                }
-              ]
+              "stat": {
+                "db_num": 209,
+                "db_len": 82722,
+                "hsp_len": 53,
+                "eff_space": 3152380,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
             }
-          ],
-          "stat": {
-            "db_num": 209,
-            "db_len": 82722,
-            "hsp_len": 53,
-            "eff_space": 3152380,
-            "kappa": 0.041,
-            "lambda": 0.267,
-            "entropy": 0.14
           }
-        }
+        ]
       }
     }
   }
